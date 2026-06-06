@@ -1,0 +1,370 @@
+BATCH 38/63 | Model: Gemini 3 Pro | Tasks 297-304
+================================================================
+EXPERT REVIEW -- Micro-Action Sequence Evaluation
+For each task, read ALL four options, then choose the BEST (A/B/C/D).
+
+Criteria:
+  1. Completeness  -- no critical steps missing
+  2. Realism       -- every step is concretely executable
+  3. Stage accuracy -- stage label correct for each step:
+     IC=Intent_Communication  NA=Navigation_Addressing
+     PD=Perception_Diagnosis  ME=Manipulation_Execution  FV=Feedback_Verification
+  4. Conciseness   -- no redundant or duplicate steps
+  5. Scope         -- starts and ends at exactly the right point
+
+OUTPUT: fill the ANSWER TEMPLATE at the bottom.
+Format: N: X | one-sentence reason (max 12 words)
+IMPORTANT: Each task has a different best answer. Do NOT pick the same
+letter for every task without reading.
+================================================================
+
+--- Task 297: Develop scientific or mathematical models.
+[A]
+  1. [IC] Review existing literature and business requirements to understand the objectives and context for the model.
+  2. [PD] Gather and preprocess relevant data, including cleaning and identifying key features.
+  3. [NA] Choose an appropriate modeling technique or algorithm based on the data and problem characteristics.
+  4. [ME] Implement the model using a suitable programming language or software, defining equations and algorithms.
+  5. [ME] Train the model on the training dataset and evaluate its performance on the testing dataset.
+  6. [ME] Refine the model parameters and structure based on performance feedback and testing results.
+  7. [FV] Validate the model by comparing its predictions with historical data or real-world observations.
+  8. [IC] Document the model's development process, assumptions, limitations, and results in a comprehensive report.
+  9. [FV] Present the final model and its validation results to stakeholders, including any necessary visualizations.
+[B]
+  1. [PD] Review existing literature on the topic and identify key variables and relationships.
+  2. [ME] Develop a conceptual framework for the mathematical model, including the identification of key variables and relationships.
+  3. [ME] Choose a suitable mathematical technique or approach for the model, such as differential equations or machine learning algorithms.
+  4. [ME] Implement the mathematical model using a programming language or software package, such as Python or R.
+  5. [FV] Run simulations and test the model using hypothetical scenarios or real-world data.
+  6. [ME] Refine the model based on the results of the simulations and testing, including adjustments to the mathematical framework or implementation.
+  7. [IC] Document the mathematical model and its assumptions, including the underlying mathematics and any simplifications or approximations.
+  8. [FV] Visualize the results of the model using plots, charts, or other graphical representations.
+  9. [FV] Peer-review the mathematical model and its results, including feedback from colleagues and experts in the field.
+  10. [ME] Iterate on the model based on peer-review feedback and further testing, until a validated and reliable model is achieved.
+[C]
+  1. [IC] Define the problem and desired outcome of the model, considering the specific context and objectives.
+  2. [PD] Gather and prepare relevant data, including cleaning, preprocessing, and feature selection.
+  3. [NA] Choose an appropriate modeling technique based on the problem type, data characteristics, and desired level of complexity.
+  4. [ME] Implement the chosen model, defining its structure, parameters, and training process.
+  5. [ME] Train the model using the prepared data, adjusting parameters to optimize performance.
+  6. [FV] Evaluate the model's performance using appropriate metrics and testing data.
+  7. [ME] Refine the model based on evaluation results, iteratively adjusting parameters or exploring alternative approaches.
+  8. [IC] Document the model's development process, assumptions, limitations, and results.
+[D]
+  1. [IC] Review business requirements, objectives, and existing literature relevant to the model.
+  2. [PD] Gather and analyze existing data, identifying key variables and relationships.
+  3. [NA] Choose an appropriate modeling approach (e.g., mathematical technique, machine learning algorithm) based on the problem's nature and data characteristics.
+  4. [ME] Implement the mathematical model or train the machine learning model using the chosen approach.
+  5. [FV] Run simulations or test the model using hypothetical scenarios, real-world data, or cross-validation techniques.
+  6. [ME] Refine the model based on simulation results, testing feedback, or peer-review feedback, iterating as necessary.
+  7. [IC] Document the model's development process, assumptions, limitations, results, and performance metrics.
+  8. [FV] Save the model, its documentation, and make them accessible to relevant stakeholders.
+
+--- Task 298: Report vehicle or equipment malfunctions.
+[A]
+  1. [PD] The operator notices unusual noises and poor performance from the hydraulic lift system.
+  2. [ME] The operator safely parks the forklift in a designated area and turns off the engine.
+  3. [NA] The operator retrieves a malfunction reporting form from the maintenance office.
+  4. [ME] The operator fills out the form with details about the malfunction, including the time, location, and specific issues observed.
+  5. [ME] The operator attaches any relevant photos or videos of the malfunction to the form.
+  6. [NA] The operator walks to the maintenance office to submit the form.
+  7. [IC] The operator hands the form to the maintenance supervisor and verbally describes the malfunction.
+  8. [IC] The maintenance supervisor acknowledges receipt of the form and verbally confirms the issue will be addressed.
+  9. [ME] The operator confirms the forklift is marked as out of service and logs the incident in the forklift's maintenance log.
+  10. [FV] The operator returns to their duties, ensuring the forklift remains out of service until it is inspected.
+[B]
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+[C]
+  1. [PD] Identify the malfunction and its severity.
+  2. [ME] Safely secure the vehicle or equipment to prevent further damage or injury.
+  3. [NA] Access the appropriate reporting system or form.
+  4. [ME] Document the malfunction details: type, time, location, specific observations.
+  5. [ME] If applicable, attach supporting evidence (photos, videos).
+  6. [IC] Submit the report to the designated personnel or system.
+  7. [IC] Verbally communicate the malfunction details to relevant personnel (if required).
+  8. [FV] Confirm receipt and understanding of the report by the receiving party.
+[D]
+  1. [PD] Identify and diagnose the malfunction through visual inspection, listening for unusual noises, and checking control panels for error messages.
+  2. [ME] Safely secure the vehicle or equipment by parking it, turning off the engine, and addressing any immediate hazards.
+  3. [PD] Gather relevant information about the malfunction, including time, location, specific issues, and any available diagnostic codes.
+  4. [ME] Document the malfunction using a reporting form, app, or tablet, including details such as vehicle/equipment ID, issue description, and timestamp.
+  5. [ME] If applicable, attach relevant photos or videos to the report to provide visual evidence of the malfunction.
+  6. [NA] Navigate to the appropriate location (e.g., maintenance office, supervisor's location) to submit the report.
+  7. [IC] Submit the report to the relevant person (e.g., maintenance supervisor, fleet manager) and verbally describe the malfunction if necessary.
+  8. [IC] Obtain acknowledgment from the recipient that the report has been received and that the issue will be addressed.
+  9. [FV] If the malfunction is critical, immediately contact the supervisor or relevant personnel to report the issue and request assistance.
+  10. [FV] Ensure the vehicle or equipment remains out of service until it is inspected and repaired, and log the incident in the appropriate maintenance log.
+
+--- Task 299: Provide medical or cosmetic advice for clients.
+[A]
+  1. [IC] Greet the client, introduce yourself, and confirm their identity.
+  2. [IC] Ask the client about their skin concerns, medical history, and any previous treatments.
+  3. [PD] Examine the client's skin under natural light and with a dermatoscope, focusing on areas of concern.
+  4. [PD] Diagnose the skin condition based on the examination and medical history.
+  5. [IC] Explain the diagnosis to the client in simple terms, discussing potential causes and contributing factors.
+  6. [ME] Recommend a skincare routine and treatment plan tailored to the client's skin type and condition.
+  7. [ME] Prescribe any necessary medications or treatments, and provide clear instructions on how to use them.
+  8. [IC] Answer any questions the client has about their condition, treatment, and follow-up care.
+  9. [FV] Schedule a follow-up appointment to monitor the client's progress and make any necessary adjustments.
+[B]
+  1. [IC] Greet the client and ask them to sit in the examination chair.
+  2. [IC] Ask the client about their skin concerns and any previous treatments.
+  3. [PD] Examine the client's skin under natural light and with a dermatoscope.
+  4. [PD] Document the skin condition and any relevant findings in the client's medical record.
+  5. [IC] Discuss the diagnosis with the client and explain the causes of their skin condition.
+  6. [ME] Recommend a skincare routine tailored to the client's skin type and condition.
+  7. [ME] Provide information on potential medical treatments, such as topical creams or oral medications.
+  8. [ME] Discuss lifestyle factors that may impact the client's skin condition, such as diet and stress.
+  9. [FV] Answer any questions the client has about the recommended advice and treatments.
+  10. [FV] Schedule a follow-up appointment to monitor the client's progress.
+[C]
+  1. [IC] Greet the client and inquire about their skin concerns and goals.
+  2. [PD] Visually examine the client's skin, potentially using a dermatoscope.
+  3. [PD] Analyze findings and consider client's medical history to reach a diagnosis.
+  4. [IC] Explain the diagnosis to the client in clear, understandable language.
+  5. [ME] Recommend a personalized skincare routine and/or treatment plan.
+  6. [ME] Demonstrate product usage and address any client questions.
+  7. [FV] Schedule a follow-up appointment to monitor progress.
+[D]
+  1. [IC] Greet the client, introduce yourself, and explain the consultation process.
+  2. [IC] Ask the client to describe their skin concerns, when they started, and any previous treatments.
+  3. [PD] Ask the client to sit in a well-lit area and examine their skin, focusing on the areas of concern, using a dermatoscope if necessary.
+  4. [PD] Document the client's skin condition and any relevant findings in their medical record.
+  5. [PD] Diagnose the skin condition based on the examination and medical history.
+  6. [IC] Explain the diagnosis to the client in simple terms, and discuss the potential causes and contributing factors.
+  7. [ME] Recommend a treatment plan, considering the client's preferences, lifestyle, and skin type.
+  8. [ME] Prescribe any necessary medications, treatments, or skincare products, and provide clear instructions on how to use them.
+  9. [IC] Answer the client's questions about their condition, treatment, and any follow-up care.
+  10. [FV] Summarize the consultation, reiterate the treatment plan, and schedule a follow-up appointment if necessary.
+
+--- Task 300: Maintain operational records for green energy processes or other environmentally-sustainable activities.
+[A]
+  1. [IC] Log into the SCADA system using designated credentials.
+  2. [NA] Navigate to the daily operational data dashboard.
+  3. [PD] Review real-time data from various sensors (e.g., solar panel output, inverter performance, weather conditions).
+  4. [ME] Enter manually recorded data points (e.g., maintenance activities, observations).
+  5. [FV] Cross-reference SCADA data with manual entries for consistency.
+  6. [ME] Generate a daily summary report outlining key performance indicators and any notable events.
+  7. [FV] Review the generated report for any inconsistencies or missing data, making necessary corrections or additions.
+  8. [ME] Save the completed report to the designated system folder.
+  9. [FV] Submit the completed daily operational record to the supervisor for review and approval, using the company's digital submission system.
+  10. [IC] Log out of the SCADA system.
+[B]
+  1. [IC] Access the plant's energy production dashboard to review the day's energy output.
+  2. [NA] Navigate to the plant's maintenance log to review any maintenance activities performed that day.
+  3. [PD] Review the environmental impact reports for any new data or updates.
+  4. [ME] Open the digital record-keeping system to input the day's energy production data.
+  5. [ME] Enter the maintenance activities performed into the digital system.
+  6. [ME] Input any new environmental impact data into the digital system.
+  7. [FV] Review the entered data for accuracy and completeness.
+  8. [FV] Save the updated records in the digital system.
+  9. [FV] Generate a summary report of the day's operational activities.
+  10. [FV] Deliver the summary report to the relevant stakeholders.
+[C]
+  1. [PD] Access the plant's energy production dashboard to review the day's energy output.
+  2. [ME] Record daily energy production data in the operational records database.
+  3. [PD] Review maintenance logs and record any maintenance activities performed.
+  4. [ME] Input any new environmental impact data into the digital system.
+  5. [FV] Review entered data for accuracy and completeness.
+  6. [ME] Generate a summary report of the day's operational activities.
+  7. [IC] Deliver the summary report to the relevant stakeholders.
+[D]
+  1. [IC] Log into the SCADA system using designated credentials.
+  2. [NA] Navigate to the daily operational data dashboard.
+  3. [PD] Review real-time data from various sensors (e.g., solar panel output, inverter performance, weather conditions) and check the daily weather forecast, comparing it with historical data to anticipate any unusual weather patterns.
+  4. [ME] Enter manually recorded data points (e.g., maintenance activities, observations) and document the day's maintenance activities performed by the maintenance team, cross-referencing with the maintenance schedule and work orders.
+  5. [ME] Record the energy production data from the solar farm's central control system and measure and record the ambient temperature and humidity levels at various points across the solar farm using a handheld weather station.
+  6. [ME] Update the daily operational record with the collected data, ensuring all fields are accurately filled and the record is saved in the correct format.
+  7. [FV] Review the daily operational record for any inconsistencies or missing data, making necessary corrections or additions.
+  8. [FV] Submit the completed daily operational record to the supervisor for review and approval, using the company's digital submission system.
+  9. [FV] Generate a daily summary report outlining key performance indicators and any notable events.
+  10. [ME] Save the completed report to the designated system folder and log out of the SCADA system.
+
+--- Task 301: Administer medical substances for imaging or other procedures.
+[A]
+  1. [IC] Verify the patient's identity by checking the patient's wristband and confirming with the patient.
+  2. [IC] Review the patient's medical history and allergies to ensure the patient can safely receive the contrast agent.
+  3. [ME] Prepare the contrast agent by drawing the correct dosage into a syringe.
+  4. [NA] Select the appropriate IV site and prepare the site by cleaning with an antiseptic solution.
+  5. [ME] Insert the IV catheter into the selected site and secure it with a dressing.
+  6. [ME] Connect the syringe containing the contrast agent to the IV line and administer the contrast agent at the prescribed rate.
+  7. [PD] Monitor the patient for any signs of adverse reactions, such as nausea, vomiting, or allergic reactions.
+  8. [FV] Document the administration of the contrast agent, including the dosage and time of administration.
+  9. [FV] Notify the radiology team that the contrast agent has been administered and the patient is ready for the imaging procedure.
+[B]
+  1. [IC] Verify the patient's identity by checking the patient's wristband and confirming with the patient.
+  2. [IC] Review the patient's medical history and allergies to ensure the patient can safely receive the contrast agent.
+  3. [ME] Prepare the contrast agent by drawing the correct dosage into a syringe.
+  4. [NA] Select the appropriate IV site and prepare the site by cleaning with an antiseptic solution.
+  5. [ME] Insert the IV catheter into the selected site and secure it with a dressing.
+  6. [ME] Connect the syringe containing the contrast agent to the IV line.
+  7. [ME] Administer the contrast agent by injecting it into the IV line at the prescribed rate.
+  8. [PD] Monitor the patient for any signs of adverse reactions, such as nausea, vomiting, or allergic reactions.
+  9. [FV] Document the administration of the contrast agent, including the dosage and time of administration.
+  10. [FV] Confirm with the patient that they are ready to proceed to the CT scan room.
+[C]
+  1. [IC] Verify the patient's identity and confirm the ordered procedure and contrast dye.
+  2. [IC] Review the patient's medical history and allergies to ensure safe contrast administration.
+  3. [ME] Prepare the contrast agent according to the prescribed dosage and manufacturer's instructions.
+  4. [NA] Select an appropriate intravenous access site and prepare the site with antiseptic.
+  5. [ME] Administer the contrast agent intravenously at the prescribed rate.
+  6. [PD] Monitor the patient for any adverse reactions during and immediately after administration.
+  7. [FV] Document the administration of the contrast agent, including dosage, time, and any reactions.
+[D]
+  1. [PD] Review the patient's medical history, allergies, and current condition to ensure the contrast agent is safe for administration.
+  2. [IC] Verify the patient's identity and confirm the ordered procedure and contrast agent.
+  3. [ME] Prepare the contrast agent according to the prescribed dosage, manufacturer's instructions, and hospital protocols.
+  4. [PD] Select an appropriate intravenous access site on the patient's arm, considering vein visibility, patency, and patient comfort.
+  5. [ME] Cleanse the chosen site with an antiseptic solution and prepare the injection equipment using aseptic technique.
+  6. [ME] Insert the intravenous needle or catheter into the vein, secure it with a dressing, and ensure patency.
+  7. [ME] Administer the contrast agent through the IV line at the prescribed rate, monitoring for any signs of adverse reactions.
+  8. [FV] Dispose of sharps safely, clean and store used equipment according to infection control protocols, and document the administration in the patient's medical record.
+  9. [IC] Notify the relevant healthcare team (e.g., radiology team) that the contrast agent has been administered and the patient is ready for the procedure.
+  10. [IC] Prepare the patient for the procedure by explaining the process, addressing any concerns, and obtaining consent.
+  11. [NA] Escort the patient to the procedure room, ensuring they are comfortable and prepared for the scan or procedure.
+
+--- Task 302: Direct criminal investigations.
+[A]
+  1. [NA] Arrive at the crime scene, secure the perimeter, and assess the initial situation.
+  2. [IC] Interview the first eyewitness, actively listening and taking notes on their account.
+  3. [PD] Observe and document the crime scene, looking for any visible clues or signs of forced entry.
+  4. [ME] Collect and preserve potential evidence, such as fingerprints, fibers, or trace amounts of substances.
+  5. [PD] Review and analyze the first eyewitness's statement, comparing it with the initial observations at the crime scene.
+  6. [NA] Locate and review the CCTV footage from nearby cameras, focusing on the time of the crime.
+  7. [IC] Interview additional eyewitnesses, cross-referencing their accounts with the first witness's statement and the CCTV footage.
+  8. [PD] Compare the witness accounts and CCTV footage to create a timeline of events and identify potential suspects.
+  9. [ME] Conduct background checks and interviews on identified suspects, verifying their alibis and looking for any connections to the crime scene.
+  10. [PD] Compile and analyze all gathered evidence, drawing conclusions and making a case for the suspect's involvement in the crime.
+  11. [FV] Present the findings to the prosecutor, clearly outlining the evidence and the detective's reasoning for suspecting the identified individual(s).
+[B]
+  1. [PD] Review initial police reports, witness statements, and security footage to identify key leads and potential suspects.
+  2. [IC] Conduct interviews with key witnesses, including those who were present at the nightclub on the night of the murder.
+  3. [PD] Collect and analyze forensic evidence, including DNA samples, fingerprints, and any other relevant physical evidence.
+  4. [ME] Reconstruct the crime scene, using evidence and witness statements to piece together the events surrounding the murder.
+  5. [FV] Identify and apprehend the perpetrator, based on the evidence gathered and the reconstruction of the crime scene.
+  6. [PD] Gather additional evidence, as needed, to support the investigation and ensure a successful outcome.
+  7. [IC] Collaborate with other law enforcement agencies and experts, as necessary, to share information and resources.
+  8. [ME] Document and preserve evidence, following strict protocols to ensure its integrity and admissibility in court.
+  9. [PD] Analyze and interpret the evidence, using expertise and experience to draw conclusions and make recommendations.
+  10. [IC] Present findings and recommendations to the district attorney and other stakeholders, ensuring a clear and compelling case.
+  11. [PD] Monitor and adjust the investigation strategy, as needed, to ensure a successful outcome and address any new information or developments.
+  12. [FV] Close the case, documenting the investigation and its outcomes, and ensuring that all necessary protocols are followed.
+[C]
+  1. [PD] Review initial crime reports, witness statements, and any available evidence (e.g., security footage) to establish a preliminary understanding of the case.
+  2. [IC] Coordinate with responding officers and other relevant law enforcement agencies to gather additional resources, secure the crime scene, and ensure proper evidence handling procedures are followed.
+  3. [IC] Conduct interviews with key witnesses, focusing on obtaining detailed and accurate accounts of the events leading up to, during, and after the crime.
+  4. [PD] Carefully examine the crime scene, documenting observations, collecting potential evidence (e.g., fingerprints, DNA samples), and photographing the scene to preserve its condition.
+  5. [PD] Analyze collected evidence, including forensic analysis, witness statements, and any digital evidence (e.g., CCTV footage), to identify patterns, connections, and potential suspects.
+  6. [IC] Develop a theory of the crime based on the available evidence and identify potential suspects. This may involve further investigation, surveillance, or background checks.
+  7. [NA] Execute investigative actions based on the developed theory, such as conducting surveillance, obtaining search warrants, or interviewing additional witnesses.
+  8. [PD] Re-evaluate the evidence and adjust the investigative strategy as needed based on new findings or developments.
+  9. [FV] Prepare a comprehensive report summarizing the investigation's findings, including evidence analysis, witness statements, and conclusions drawn.
+  10. [FV] Present the case findings to the prosecutor, providing a clear and compelling narrative supported by the collected evidence.
+[D]
+  1. [NA] Arrive at the crime scene, secure the perimeter, and assess the initial situation.
+  2. [IC] Interview initial witnesses, actively listening and taking notes on their accounts.
+  3. [PD] Observe and document the crime scene, looking for visible clues and signs of forced entry.
+  4. [ME] Collect and preserve potential evidence, such as fingerprints, fibers, or trace amounts of substances.
+  5. [PD] Review and analyze witness statements and initial observations, comparing them with CCTV footage.
+  6. [IC] Interview additional witnesses, cross-referencing their accounts with initial statements and CCTV footage.
+  7. [PD] Compare witness accounts and CCTV footage to create a timeline of events and identify potential suspects.
+  8. [ME] Conduct background checks and interviews on identified suspects, verifying their alibis and looking for connections to the crime scene.
+  9. [PD] Compile and analyze all gathered evidence, drawing conclusions and making a case for the suspect's involvement in the crime.
+  10. [FV] Present findings to the prosecutor, clearly outlining the evidence and the detective's reasoning for suspecting the identified individual(s).
+
+--- Task 303: Hold patients to ensure proper positioning or safety.
+[A]
+  1. [IC] Approach the patient with a calm demeanor, introduce yourself, and explain the procedure to ensure understanding and cooperation.
+  2. [PD] Assess the patient's current position and any discomfort or limitations.
+  3. [NA] Position the patient's body and limbs for support and stability, using pillows or other supports as needed.
+  4. [ME] Gently but firmly hold the patient's arm or shoulder in the correct position, applying steady pressure without causing discomfort.
+  5. [PD] Continuously monitor the patient's comfort level and vital signs, making adjustments as needed.
+  6. [FV] Once the procedure is complete, gently release the patient and assist them in moving back to a comfortable position.
+[B]
+  1. [IC] Approach the patient and explain the exercise to ensure understanding and cooperation.
+  2. [PD] Assess the patient's current position and any discomfort or limitations.
+  3. [NA] Position the patient's uninjured side for support and stability.
+  4. [ME] Gently guide the patient's injured shoulder to the starting position.
+  5. [ME] Hold the patient's shoulder and upper arm with one hand to maintain the position.
+  6. [ME] Support the patient's body with the other hand to ensure balance and stability.
+  7. [PD] Monitor the patient's comfort and any signs of discomfort or strain.
+  8. [ME] Adjust the position slightly if necessary to ensure comfort and effectiveness.
+  9. [ME] Guide the patient through the exercise while maintaining the correct position.
+  10. [FV] Release the patient gently and ensure they are comfortable before moving on to the next exercise.
+[C]
+  1. [IC] Approach the patient, introduce yourself, and explain the importance of holding still for safety and effectiveness.
+  2. [NA] Position yourself beside the patient, ensuring you have a stable stance and clear access to the area needing support.
+  3. [ME] Gently guide the patient's limb or body into the required position, providing verbal cues and reassurance.
+  4. [ME] Maintain a firm but comfortable hold on the patient, continuously monitoring their facial expressions and body language for signs of discomfort.
+  5. [ME] If the patient shows signs of discomfort, make subtle adjustments to their position while maintaining the necessary support.
+  6. [FV] Once the procedure is complete, gently release the patient and assist them in returning to a comfortable position.
+[D]
+  1. [IC] Approach the patient with a calm and reassuring demeanor, making eye contact and speaking in a calming voice to minimize anxiety.
+  2. [IC] Explain the procedure and the importance of maintaining a specific position or safety measures, using simple language and ensuring understanding.
+  3. [NA] Position yourself at the appropriate side of the patient, ensuring you do not block access or view of healthcare providers, and maintain a stable position.
+  4. [ME] Gently but firmly hold the patient in the correct position, applying steady pressure without causing discomfort, using appropriate supports or pillows as needed.
+  5. [PD] Monitor the patient's facial expressions, body language, and vital signs for any signs of discomfort, distress, or anxiety.
+  6. [ME] If the patient shows signs of discomfort, gently adjust their position while maintaining the required alignment, using verbal reassurance and encouragement.
+  7. [FV] Once the procedure or task is complete, gently release the patient and assist them in moving back to a comfortable position, providing ongoing reassurance and support.
+
+--- Task 304: Operate cooking, baking, or other food preparation equipment.
+[A]
+  1. [IC] Review the recipe and gather necessary ingredients and equipment.
+  2. [NA] Measure and prepare the ingredients as specified in the recipe.
+  3. [ME] Combine ingredients in the mixing bowl and operate the mixer to blend them.
+  4. [ME] Preheat the oven to the required temperature and prepare the baking sheets.
+  5. [ME] Place the prepared dough or mixture onto the baking sheets and place them in the oven.
+  6. [PD] Monitor the baking process and adjust as needed based on the recipe's specifications.
+  7. [FV] Remove the baked items from the oven and place them on a cooling rack.
+  8. [FV] Inspect the finished product for quality and consistency.
+  9. [FV] Clean and sanitize the equipment used, following proper food safety protocols.
+[B]
+  1. [IC] Review the recipe and gather necessary ingredients from the designated storage areas.
+  2. [NA] Measure and pour the ingredients into the mixer's bowl, taking care not to spill or overflow the ingredients.
+  3. [ME] Turn on the mixer and adjust the speed to the correct setting for the task, monitoring the mixer's performance and the ingredients' state.
+  4. [PD] Observe the ingredients' state and adjust the mixer's speed or settings as needed to achieve the desired outcome.
+  5. [ME] Stop the mixer and remove the ingredients from the bowl, taking care not to spill or contaminate the ingredients.
+  6. [PD] Inspect the ingredients for quality and consistency, making any necessary adjustments before proceeding.
+  7. [ME] Prepare the ingredients for the next stage of preparation, such as transferring them to a separate container or refrigerating them.
+  8. [ME] Preheat the oven to the temperature specified in the recipe.
+  9. [ME] Place the cookie dough onto baking sheets and space them evenly.
+  10. [ME] Place the baking sheets into the preheated oven and set the timer for the specified baking time.
+  11. [FV] Remove the baked cookies from the oven and place them on a cooling rack to cool.
+[C]
+  1. [IC] Review the chosen recipe and identify all required ingredients and equipment.
+  2. [NA] Gather all necessary ingredients and equipment from their designated storage locations.
+  3. [PD] Measure ingredients precisely using appropriate measuring tools.
+  4. [ME] Combine ingredients according to the recipe instructions, utilizing the appropriate equipment (e.g., mixer, bowl).
+  5. [ME] Prepare the cooking equipment (e.g., preheat oven, set stovetop temperature).
+  6. [PD] Cook the food according to the recipe's instructions, monitoring progress and making adjustments as needed.
+  7. [FV] Once cooked, remove the food from the cooking equipment and allow it to cool or rest as required.
+  8. [ME] Plate or serve the food according to desired presentation standards.
+[D]
+  1. [IC] Review the recipe and gather necessary ingredients and equipment.
+  2. [PD] Measure and prepare ingredients according to the recipe's specifications.
+  3. [ME] Preheat the oven or other equipment to the required temperature.
+  4. [ME] Assemble and cook the dish, monitoring its progress and adjusting as needed.
+  5. [PD] Taste the dish to ensure it meets quality standards.
+  6. [ME] Plate or package the dish according to presentation or serving standards.
+  7. [FV] Clean and sanitize equipment and work area following proper food safety protocols.
+
+================================================================
+ANSWER TEMPLATE
+
+297: _ | 
+298: _ | 
+299: _ | 
+300: _ | 
+301: _ | 
+302: _ | 
+303: _ | 
+304: _ | 
+

@@ -1,0 +1,373 @@
+BATCH 16/63 | Model: Gemini 3 Pro | Tasks 121-128
+================================================================
+EXPERT REVIEW -- Micro-Action Sequence Evaluation
+For each task, read ALL four options, then choose the BEST (A/B/C/D).
+
+Criteria:
+  1. Completeness  -- no critical steps missing
+  2. Realism       -- every step is concretely executable
+  3. Stage accuracy -- stage label correct for each step:
+     IC=Intent_Communication  NA=Navigation_Addressing
+     PD=Perception_Diagnosis  ME=Manipulation_Execution  FV=Feedback_Verification
+  4. Conciseness   -- no redundant or duplicate steps
+  5. Scope         -- starts and ends at exactly the right point
+
+OUTPUT: fill the ANSWER TEMPLATE at the bottom.
+Format: N: X | one-sentence reason (max 12 words)
+IMPORTANT: Each task has a different best answer. Do NOT pick the same
+letter for every task without reading.
+================================================================
+
+--- Task 121: Rivet metal components.
+[A]
+  1. [PD] Inspect the metal components for any debris, dirt, or obstructions and select appropriate rivets.
+  2. [NA] Position the metal components on the workbench and ensure they are aligned according to the blueprint.
+  3. [PD] Mark the rivet holes on the components with a marker for accurate placement.
+  4. [ME] Insert the rivet into the marked hole and position the rivet gun over the rivet.
+  5. [ME] Activate the pneumatic rivet gun to apply the necessary force to set the rivet.
+  6. [FV] Inspect the set rivet to ensure it is flush with the surface and meets aerospace standards.
+  7. [ME] Repeat steps 4-6 for each rivet hole, ensuring all rivets are properly set.
+  8. [FV] Conduct a final visual and tactile inspection of all rivets to ensure they meet the required standards.
+  9. [FV] Deliver the riveted metal components to the next stage of the manufacturing process.
+[B]
+  1. [PD] Inspect the metal components for any debris, dirt, or other obstructions that could interfere with the riveting process.
+  2. [NA] Select the appropriate rivets for the job, taking into account the size and material of the components.
+  3. [NA] Position the metal components in the vice, ensuring they are securely held in place.
+  4. [NA] Position the rivet gun and rivets within easy reach, ensuring they are aligned with the components.
+  5. [ME] Apply a small amount of force to the rivet gun, feeling for the 'click' that indicates the rivet is set.
+  6. [ME] Insert the rivet into the marked hole and position the rivet gun over the rivet.
+  7. [ME] Activate the pneumatic rivet gun to apply the necessary force to set the rivet.
+  8. [FV] Inspect the set rivet to ensure it is flush with the surface and meets aerospace standards.
+  9. [ME] Repeat steps 5-7 for each rivet hole, ensuring all rivets are properly set.
+  10. [FV] Conduct a final visual and tactile inspection of all rivets to ensure they meet the required standards.
+  11. [FV] Deliver the riveted metal components to the next stage of the manufacturing process.
+[C]
+  1. [NA] Retrieve the metal components and pneumatic rivet gun from the workbench.
+  2. [NA] Position the metal components on the workbench and align them according to the blueprint.
+  3. [PD] Inspect the alignment of the components using a measuring tool to ensure it meets the required specifications.
+  4. [ME] Insert a rivet into the marked hole.
+  5. [ME] Position the rivet gun over the rivet and activate it to set the rivet.
+  6. [FV] Visually inspect the set rivet to ensure it is flush with the surface and meets aerospace standards.
+  7. [ME] Repeat steps 4-6 for each remaining rivet hole.
+  8. [FV] Conduct a final visual and tactile inspection of all rivets to ensure they meet the required standards.
+[D]
+  1. [PD] Retrieve and inspect metal components for any debris or obstructions.
+  2. [NA] Select appropriate rivets based on component size and material.
+  3. [NA] Position metal components on the workbench and align them according to the blueprint.
+  4. [PD] Mark rivet holes on the components for accurate placement.
+  5. [ME] Insert rivet into the marked hole and position the rivet gun over the rivet.
+  6. [ME] Activate the pneumatic rivet gun to apply necessary force and set the rivet.
+  7. [FV] Inspect the set rivet to ensure it is flush with the surface and meets aerospace standards.
+  8. [ME] Repeat steps 5-7 for each rivet hole, ensuring all rivets are properly set.
+  9. [FV] Conduct a final visual and tactile inspection of all rivets to ensure they meet required standards.
+  10. [FV] Deliver the riveted metal components to the next stage of the manufacturing process.
+
+--- Task 122: Test green technology installations to verify performance.
+[A]
+  1. [NA] Access the rooftop of the commercial building where the solar panel system is installed, ensuring safety gear is worn.
+  2. [ME] Set up the testing equipment, including data loggers and multimeters, to measure the solar panel system's performance.
+  3. [ME] Connect the testing equipment to the solar panel system and begin collecting data.
+  4. [PD] Monitor and record the solar panel system's performance data over a specified period.
+  5. [PD] Analyze the collected data to verify that the solar panel system meets expected energy output and efficiency standards.
+  6. [FV] Compare the collected data with expected performance benchmarks to ensure the system is functioning as intended.
+  7. [FV] Document the test results, including any observations or issues identified during the testing process.
+  8. [ME] Disassemble and pack away the testing equipment after completing the test.
+  9. [IC] Deliver the test results and documentation to the project manager or client for review.
+[B]
+  1. [NA] Access the rooftop of the commercial building where the solar panel system is installed.
+  2. [NA] Review site plans and building specifications to understand the solar panel system's design and installation.
+  3. [PD] Conduct a visual inspection of the solar panel system to identify any obvious issues with installation or maintenance.
+  4. [ME] Measure the solar panel system's energy output using specialized equipment to compare to expected performance levels.
+  5. [PD] Analyze data from the energy output measurements to identify any performance issues or trends.
+  6. [IC] Communicate results to the building owner, including any performance issues or recommendations for improvement.
+  7. [ME] Document the site visit, including photographs and notes on the solar panel system's condition and performance.
+  8. [PD] Analyze the collected data to verify that the solar panel system meets the expected energy output and efficiency standards.
+  9. [PD] Compare the collected data with the expected performance benchmarks to ensure the system is functioning as intended.
+  10. [FV] Document the test results and any observations or issues identified during the testing process.
+  11. [ME] Disassemble and pack away the testing equipment after completing the test.
+  12. [FV] Deliver the test results and documentation to the project manager or client for review.
+[C]
+  1. [NA] Review site plans and building specifications to understand the solar panel system's design and installation.
+  2. [NA] Don safety harness and ascend to the roof using a ladder.
+  3. [PD] Conduct a visual inspection of the solar panel system to identify any obvious issues with installation or maintenance.
+  4. [ME] Connect testing equipment (multimeter, data loggers) to the solar panel system to measure performance.
+  5. [PD] Monitor and record the solar panel system's performance data (voltage, current, power output) over a specified period.
+  6. [FV] Analyze collected data, comparing it to expected performance benchmarks and manufacturer specifications.
+  7. [IC] Document test results, observations, and any identified issues or recommendations.
+  8. [ME] Safely disassemble and pack away testing equipment.
+  9. [NA] Descend from the roof safely.
+[D]
+  1. [NA] Review site plans and building specifications to understand the installation's design and location.
+  2. [NA] Access the installation site safely, wearing appropriate safety gear.
+  3. [ME] Set up testing equipment, including data loggers and multimeters, to measure the installation's performance.
+  4. [ME] Connect the testing equipment to the installation and begin collecting data.
+  5. [PD] Conduct a visual inspection of the installation to identify any obvious issues with installation or maintenance.
+  6. [PD] Monitor the installation's performance data in real-time to ensure it's functioning correctly.
+  7. [ME] Collect and record the installation's performance data over a specified period.
+  8. [PD] Analyze the collected data to verify that the installation meets expected performance standards.
+  9. [PD] Compare the collected data with expected performance benchmarks to ensure the installation is functioning as intended.
+  10. [FV] Document the test results, any observations, issues identified, and recommendations for improvement.
+  11. [ME] Disassemble and pack away the testing equipment after completing the test.
+  12. [IC] Communicate the test results, including any performance issues or recommendations, to the relevant stakeholders.
+
+--- Task 123: Monitor operational activities to ensure compliance with regulations or standard operating procedures.
+[A]
+  1. [IC] Review the production schedule and standard operating procedures to understand the regulatory requirements and company protocols.
+  2. [NA] Navigate to the raw material storage area, mixing station, filling station, and packaging station to observe and verify compliance with GMP and standard operating procedures.
+  3. [PD] Inspect raw materials, mixing parameters, filling process, and packaging for any signs of contamination, improper labeling, or deviations from standard procedures.
+  4. [IC] Communicate with production staff to understand their perspectives on any identified non-compliance issues and provide guidance on corrective actions.
+  5. [ME] Develop and implement corrective actions to address non-compliance issues, including training production staff and updating standard operating procedures.
+  6. [FV] Verify that the corrective actions have been implemented and are effective in preventing future non-compliance issues.
+  7. [ME] Document the monitoring process, identified issues, corrective actions taken, and lessons learned.
+[B]
+  1. [IC] Review the production schedule and standard operating procedures to understand the regulatory requirements and company protocols.
+  2. [PD] Observe the production line to identify any potential non-compliance issues, such as incorrect labeling or inadequate cleaning.
+  3. [PD] Review production data and documentation to determine the root cause of any deviations from standard operating procedures.
+  4. [IC] Communicate with production staff to understand their perspectives on the non-compliance issues and to provide guidance on corrective actions.
+  5. [ME] Develop and implement corrective actions to address the non-compliance issues, including training production staff and updating standard operating procedures.
+  6. [FV] Verify that the corrective actions have been implemented and are effective in preventing future non-compliance issues.
+  7. [ME] Update standard operating procedures and training materials to reflect the lessons learned from the non-compliance issues.
+  8. [IC] Communicate the results of the monitoring and corrective actions to senior management and regulatory authorities.
+  9. [PD] Review and update the monitoring process to ensure that it remains effective in detecting and preventing non-compliance issues.
+  10. [FV] Document the monitoring and corrective actions taken, including lessons learned and areas for improvement.
+[C]
+  1. [IC] Review the day's production schedule and relevant standard operating procedures (SOPs) to understand regulatory requirements and company protocols.
+  2. [PD] Systematically observe the production line, focusing on critical control points identified in the SOPs.
+  3. [ME] Document any observed deviations from SOPs or potential non-compliance issues, noting specific details and timestamps.
+  4. [IC] For each deviation, initiate corrective action by communicating the issue to the responsible personnel and referencing the relevant SOP.
+  5. [FV] Verify that corrective actions have been implemented effectively and that the process is back in compliance.
+  6. [ME] Compile a comprehensive report summarizing all observed deviations, corrective actions taken, and any outstanding issues.
+[D]
+  1. [IC] Review the production schedule and standard operating procedures to understand regulatory requirements and company protocols.
+  2. [PD] Observe the production line and work areas to identify potential non-compliance issues, such as incorrect labeling, inadequate cleaning, or deviations from standard operating procedures.
+  3. [PD] Review production data, documentation, and worker observations to determine the root cause of any deviations and identify areas for improvement.
+  4. [IC] Communicate with production staff and management to understand their perspectives on non-compliance issues, provide guidance on corrective actions, and ensure everyone is aware of their roles in maintaining compliance.
+  5. [ME] Develop and implement corrective actions to address non-compliance issues, including training production staff, updating standard operating procedures, and making necessary changes to the production environment.
+  6. [FV] Verify that corrective actions have been implemented effectively by re-evaluating the identified areas and ensuring they are now in compliance with regulations and standard operating procedures.
+  7. [ME] Update standard operating procedures, training materials, and safety protocols to reflect lessons learned from non-compliance issues and ensure continuous improvement.
+  8. [IC] Communicate the results of the monitoring, corrective actions taken, and areas for improvement to senior management, regulatory authorities, and relevant stakeholders.
+  9. [PD] Review and update the monitoring process to ensure it remains effective in detecting and preventing non-compliance issues, and that it aligns with evolving regulations and best practices.
+  10. [ME] Document the monitoring and corrective actions taken, including lessons learned, areas for improvement, and any follow-up activities required to maintain compliance.
+
+--- Task 124: Record patient medical histories.
+[A]
+  1. [IC] Greet the patient, introduce oneself, and explain the purpose of the medical history recording.
+  2. [NA] Verify the patient's identity and escort them to the examination room, ensuring their comfort.
+  3. [PD] Review any existing patient information in the EHR system.
+  4. [PD] Ask the patient about their current symptoms, when they started, and any aggravating or alleviating factors.
+  5. [PD] Inquire about the patient's medical history, including previous illnesses, surgeries, allergies, and current medications.
+  6. [ME] Record the patient's medical history in the EHR system, ensuring all information is accurate and complete.
+  7. [FV] Review the recorded medical history with the patient to ensure accuracy and completeness.
+  8. [FV] Save the patient's medical history record in the EHR system and log out of the system.
+  9. [IC] Thank the patient for their time and inform them that their medical history has been recorded.
+[B]
+  1. [IC] Greet the patient and introduce oneself, explaining the purpose of the medical history recording.
+  2. [NA] Ask the patient to sit down in the examination room and prepare the electronic health record (EHR) system for data entry.
+  3. [IC] Ask the patient about their current health status and any recent changes or symptoms.
+  4. [PD] Listen to the patient's verbal description of their health issues and symptoms.
+  5. [IC] Ask the patient about their past medical history, including previous illnesses, surgeries, and treatments.
+  6. [IC] Ask the patient about their family medical history, including any hereditary conditions.
+  7. [IC] Ask the patient about their current medications, allergies, and any supplements they are taking.
+  8. [ME] Enter the patient's medical history information into the EHR system, verifying each entry for accuracy.
+  9. [FV] Review the recorded medical history with the patient to confirm accuracy and completeness.
+  10. [FV] Save the medical history record in the EHR system and inform the patient that the record is complete.
+[C]
+  1. [IC] Greet the patient, introduce yourself, and explain the purpose of recording their medical history.
+  2. [IC] Verify the patient's identity.
+  3. [NA] Escort the patient to the examination room and ensure their comfort.
+  4. [IC] Ask the patient about their current symptoms, their reason for visit, and any relevant medical history.
+  5. [ME] Record the patient's responses in the EHR system.
+  6. [FV] Review the recorded information with the patient to confirm accuracy and completeness.
+  7. [ME] Finalize the patient's medical history record in the EHR system.
+[D]
+  1. [IC] Greet the patient, introduce yourself, and explain the purpose of the medical history recording.
+  2. [IC] Verify the patient's identity by checking their ID or asking them to spell their full name.
+  3. [NA] Escort the patient to the examination room and ensure their comfort.
+  4. [PD] Ask the patient about their current symptoms, when they started, and any aggravating or alleviating factors.
+  5. [PD] Inquire about the patient's medical history, including previous illnesses, surgeries, allergies, and current medications.
+  6. [PD] Ask the patient about any relevant social or family history, such as living situation, support network, or genetic conditions.
+  7. [ME] Record the patient's medical history in the EHR system, ensuring all information is accurate and complete.
+  8. [FV] Review the recorded medical history with the patient to ensure accuracy and completeness.
+  9. [FV] Save the patient's medical history record in the EHR system and log out of the system.
+  10. [IC] Thank the patient for their time and inform them that their medical history has been recorded.
+
+--- Task 125: Measure environmental characteristics.
+[A]
+  1. [IC] Consult the predefined map to familiarize with the layout and identify the measurement points.
+  2. [NA] Equip the GPS device and wear appropriate clothing for navigating the terrain.
+  3. [NA] Navigate to the first measurement point using the GPS device, avoiding obstacles.
+  4. [ME] Unpack and calibrate the environmental sensor equipment according to the manufacturer's instructions.
+  5. [ME] Position the sensors securely at the measurement point, ensuring proper alignment and unobstructed airflow.
+  6. [PD] Activate the sensors and record the initial readings of environmental characteristics.
+  7. [NA] Repeat steps 3-6 for each designated measurement point.
+  8. [ME] Pack the equipment securely and return to the starting point or field station.
+  9. [FV] Verify the recorded data and confirm successful measurements from all points.
+[B]
+  1. [NA] Arrive at the measurement location and park the vehicle.
+  2. [NA] Retrieve the measurement equipment.
+  3. [ME] Calibrate the measurement equipment.
+  4. [ME] Set up the measurement equipment at the first location.
+  5. [PD] Take initial readings of environmental characteristics.
+  6. [NA] Move to additional measurement locations and repeat the measurement process.
+  7. [FV] Record and store the collected data.
+  8. [PD] Analyze and interpret the collected data.
+  9. [IC] Document the findings and prepare a report.
+  10. [NA] Store the equipment and data for future use.
+[C]
+  1. [IC] Consult the predefined map to familiarize with the environment layout and identify measurement points.
+  2. [NA] Navigate to the first measurement point, using a GPS device or map and avoiding obstacles.
+  3. [ME] Set up the environmental sensors (air quality, temperature, etc.) at the designated point, ensuring proper calibration and placement.
+  4. [PD] Activate the sensors and record initial readings, noting timestamp and location coordinates.
+  5. [NA] Repeat steps 2-4 for each remaining measurement point.
+  6. [ME] Carefully pack up the equipment, ensuring all data is securely stored.
+  7. [FV] Verify the recorded data for completeness and accuracy.
+[D]
+  1. [NA] Arrive at the designated starting point and park the vehicle.
+  2. [ME] Retrieve and calibrate the air quality monitoring equipment and temperature sensors according to manufacturer's instructions.
+  3. [IC] Familiarize with the measurement points using a predefined map or GPS device.
+  4. [NA] Navigate to the first measurement point, avoiding obstacles and ensuring safety.
+  5. [ME] Set up the air quality monitoring equipment and temperature sensors at the measurement point, ensuring proper placement and unobstructed airflow.
+  6. [PD] Activate the equipment and record the initial readings of air quality and temperature.
+  7. [NA] Repeat the setup and measurement process at each subsequent measurement point.
+  8. [ME] Upon completing all measurements, return to the vehicle and pack up the equipment.
+  9. [PD] Review the collected data, analyze, and interpret the results using a handheld computer or other data analysis tools.
+  10. [IC] Document the findings, including any notable observations or challenges encountered during the measurement process.
+  11. [NA] Securely store the collected data and equipment for future use or analysis.
+
+--- Task 126: Provide security escorts for officials, jury members, or other individuals.
+[A]
+  1. [IC] Receive escort assignment details (official identity, destination, time) from dispatch.
+  2. [NA] Meet the official at the designated location and confirm their identity.
+  3. [ME] Escort the official to the vehicle, ensuring they are safely secured inside.
+  4. [IC] Communicate with the driver, providing real-time updates and ensuring the vehicle follows the pre-approved route.
+  5. [PD] Monitor the surroundings for any suspicious activity or potential threats during the journey.
+  6. [PD] Upon arrival, conduct a final sweep of the surrounding area before escorting the official inside.
+  7. [ME] Escort the official to their destination, ensuring they are comfortable and secure.
+  8. [PD] Monitor the environment for any potential threats or disruptions.
+  9. [NA] Upon conclusion, escort the official back to the vehicle, following the same security protocols.
+  10. [FV] Confirm the official's safe arrival back at their secure accommodation and document the successful escort.
+[B]
+  1. [IC] Review the escort requirements and potential risks.
+  2. [NA] Meet the official at the designated location and confirm their identity.
+  3. [ME] Escort the official to the vehicle and ensure they are safely secured inside.
+  4. [IC] Communicate with the driver and ensure the vehicle follows the pre-approved route.
+  5. [PD] Monitor the surroundings for potential threats or disruptions.
+  6. [NA] Escort the official to their destination and ensure their safe arrival.
+  7. [FV] Confirm the official's safe arrival and document the successful escort.
+[C]
+  1. [IC] Receive escort assignment details (witness identity, destination, time) from dispatch.
+  2. [NA] Meet the individual at the designated location and confirm their identity.
+  3. [IC] Brief the individual on the escort protocol and address any concerns.
+  4. [NA] Escort the individual to the vehicle, maintaining a secure perimeter and scanning for threats.
+  5. [ME] Secure the individual inside the vehicle and confirm all doors are locked.
+  6. [NA] Transport the individual to the destination, adhering to traffic laws and maintaining communication with the command center.
+  7. [NA] Escort the individual from the vehicle to the destination entrance, scanning for threats.
+  8. [FV] Confirm the individual's safe arrival at the destination and report to the command center.
+[D]
+  1. [IC] Review the escort assignment details and security protocols with the command center, ensuring the chosen path is secure and avoids known risks.
+  2. [IC] Meet the VIP at the designated secure location, introducing oneself and establishing a clear line of communication.
+  3. [PD] Conduct a visual sweep of the surroundings, identifying potential threats and points of vulnerability.
+  4. [NA] Escort the VIP to the vehicle, ensuring they are safely secured inside before proceeding.
+  5. [IC] Communicate with the driver, providing real-time updates and ensuring the vehicle follows the pre-approved route.
+  6. [PD] Upon arrival at the destination, conduct a final sweep of the surrounding area before escorting the VIP inside.
+  7. [ME] Escort the VIP to their designated location, ensuring they are comfortable and secure before taking up a position nearby.
+  8. [PD] Monitor the surroundings and proceedings, maintaining a constant vigil for any potential threats or disruptions.
+  9. [NA] Upon conclusion of the event, escort the VIP back to the vehicle, following the same security protocols as the initial journey.
+  10. [IC] Communicate with the command center, updating their status and confirming the VIP's safe arrival back at their secure accommodation.
+  11. [FV] Document the successful escort in the official log.
+
+--- Task 127: Advise patients on preventive care techniques.
+[A]
+  1. [IC] Greet the patient warmly, introduce yourself, and confirm the purpose of the visit.
+  2. [PD] Review the patient's electronic health record (EHR) to understand their medical history and current medications.
+  3. [IC] Ask open-ended questions about the patient's lifestyle, including diet, exercise, and stress management.
+  4. [PD] Based on the patient's responses and medical history, identify specific preventive care techniques tailored to their needs.
+  5. [ME] Explain the importance of the identified preventive care techniques in simple, clear language, and provide written materials for reference.
+  6. [IC] Encourage the patient to ask questions and address any concerns they may have about the recommended techniques.
+  7. [FV] Summarize the key points of the consultation, reinforce the importance of the recommended preventive care techniques, and schedule a follow-up appointment to monitor progress.
+[B]
+  1. [IC] Greet the patient warmly, introduce yourself, and confirm the purpose of the visit.
+  2. [PD] Review the patient's electronic health record (EHR) to understand their medical history and current medications.
+  3. [IC] Ask open-ended questions about the patient's lifestyle, such as diet, exercise, and stress management.
+  4. [FV] Listen actively to the patient's responses, taking notes on their current preventive care practices.
+  5. [PD] Based on the patient's responses, identify areas for improvement in their preventive care techniques.
+  6. [ME] Explain the importance of the identified preventive care techniques in simple, clear language.
+  7. [IC] Encourage the patient to ask questions and address any concerns they may have about the recommended techniques.
+  8. [FV] Summarize the key points of the consultation, reinforce the importance of the recommended preventive care techniques, and schedule a follow-up appointment to monitor progress.
+[C]
+  1. [IC] Greet the patient, confirm their identity, and state the purpose of the consultation.
+  2. [PD] Review the patient's medical history and current health status from the electronic health record.
+  3. [IC] Discuss the patient's lifestyle, including diet, exercise, and other relevant habits.
+  4. [ME] Based on the patient's history and lifestyle, recommend specific preventive care techniques tailored to their needs.
+  5. [IC] Explain the rationale behind each recommendation and address any questions or concerns the patient may have.
+  6. [ME] Collaboratively create a personalized plan for implementing the recommended preventive care techniques, including setting goals and deadlines.
+  7. [FV] Summarize the key points discussed and provide written materials for reference.
+  8. [IC] Schedule a follow-up appointment to monitor progress and provide ongoing support.
+[D]
+  1. [IC] Greet the patient warmly, introduce yourself, and confirm the purpose of the visit.
+  2. [PD] Review the patient's electronic health record (EHR) to understand their medical history, current medications, and risk factors.
+  3. [IC] Ask open-ended questions about the patient's lifestyle, such as diet, exercise, smoking, drinking, and stress management.
+  4. [FV] Listen actively to the patient's responses, taking notes on their current preventive care practices and identifying areas for improvement.
+  5. [PD] Based on the patient's responses, identify specific preventive care techniques tailored to their needs, such as regular exercise, a healthy diet, smoking cessation, stress management, and regular health screenings.
+  6. [ME] Explain the importance of the identified preventive care techniques in simple, clear language, and provide evidence-based recommendations.
+  7. [IC] Encourage the patient to ask questions and address any concerns they may have about the recommended techniques.
+  8. [FV] Summarize the key points of the consultation, reinforce the importance of the recommended preventive care techniques, and provide written materials for reference.
+  9. [IC] Schedule a follow-up appointment to monitor progress and provide additional support as needed.
+
+--- Task 128: Develop plans to manage natural or renewable resources.
+[A]
+  1. [IC] Review relevant environmental regulations, guidelines, and existing data on forest health, including tree species, age, and condition, as well as environmental factors such as climate, soil quality, and wildlife habitats.
+  2. [PD] Conduct field surveys and site visits to assess the forest's biodiversity, identify sensitive habitats, and map existing tree stands, gathering data on forest conditions, including tree density, species composition, and signs of disease or pests.
+  3. [PD] Analyze satellite imagery, historical data, and field survey data to understand past logging patterns, forest growth rates, potential climate change impacts, and forest dynamics.
+  4. [NA] Consult with local stakeholders (e.g., indigenous communities, local government, timber companies) to understand their needs and concerns, and develop a comprehensive plan for sustainable harvesting, including timelines, budgets, and implementation strategies.
+  5. [ME] Develop multiple forest management scenarios, varying harvesting intensity, reforestation strategies, and conservation measures, and use simulation models to predict the ecological and economic outcomes of each scenario.
+  6. [IC] Present the management scenarios to stakeholders and relevant regulatory agencies, explaining the trade-offs and justifying recommendations, and incorporate feedback from stakeholders to refine the plan.
+  7. [ME] Finalize the management plan document, including maps, data tables, and a clear implementation timeline, and obtain approval from relevant authorities and stakeholders.
+  8. [ME] Implement the plan, including coordinating with contractors, monitoring progress, and addressing any issues that arise, and monitor the harvesting progress and environmental impact using regular site visits and data analysis.
+  9. [FV] Prepare and present a report on the harvesting progress, environmental impact, and recommendations for future management to relevant stakeholders, and document lessons learned and best practices from the implementation of the plan.
+[B]
+  1. [PD] Review existing data on forest health, including tree species, age, and condition, as well as environmental factors such as climate, soil quality, and wildlife habitats.
+  2. [PD] Conduct field assessments to gather data on forest conditions, including tree density, species composition, and signs of disease or pests.
+  3. [PD] Analyze data on forest health and identify areas for sustainable harvesting, considering factors such as tree species, age, and condition, as well as environmental factors.
+  4. [ME] Develop a comprehensive plan for sustainable harvesting, including timelines, budgets, and implementation strategies.
+  5. [IC] Engage with stakeholders, including local communities, indigenous groups, and other government agencies, to ensure that the plan meets their needs and concerns.
+  6. [ME] Refine the plan based on stakeholder feedback and input, ensuring that it is responsive to their needs and concerns.
+  7. [FV] Finalize the plan and submit it to the government agency for approval, ensuring that it meets all necessary regulatory requirements.
+  8. [ME] Implement the plan, including coordinating with contractors, monitoring progress, and addressing any issues that arise.
+  9. [FV] Monitor and evaluate the effectiveness of the plan, including tracking progress, identifying areas for improvement, and making adjustments as needed.
+  10. [FV] Document lessons learned and best practices from the implementation of the plan, including successes, challenges, and areas for improvement.
+[C]
+  1. [PD] Review existing data on forest health, including tree species, age, condition, environmental factors (climate, soil, wildlife), and historical logging activities.
+  2. [PD] Conduct field assessments to gather data on forest conditions, including tree density, species composition, signs of disease or pests, and wildlife presence.
+  3. [PD] Analyze collected data to identify areas suitable for sustainable harvesting, considering ecological factors and timber value.
+  4. [ME] Develop multiple forest management scenarios, varying harvesting intensity, reforestation strategies, and conservation measures.
+  5. [ME] Use simulation models to predict the ecological and economic outcomes of each management scenario.
+  6. [IC] Present management scenarios to stakeholders (timber companies, regulatory agencies, local communities) and explain trade-offs.
+  7. [ME] Incorporate stakeholder feedback and revise the management plan accordingly.
+  8. [ME] Finalize the management plan document, including maps, data tables, implementation timeline, and monitoring protocols.
+  9. [FV] Obtain approval from relevant authorities for the finalized management plan.
+[D]
+  1. [IC] Review relevant environmental regulations and guidelines.
+  2. [PD] Conduct a site visit to assess the forest's biodiversity, health, and timber resources.
+  3. [PD] Analyze satellite imagery and historical data to understand forest dynamics and potential harvesting impacts.
+  4. [IC] Consult with local stakeholders (e.g., indigenous communities, local government, timber companies) to understand their needs and concerns.
+  5. [NA] Define clear boundaries and harvesting schedules that minimize environmental impact and respect stakeholder needs.
+  6. [ME] Design a harvesting plan that includes logging routes, tree marking, and waste management strategies.
+  7. [IC] Coordinate with logging companies to ensure they follow the approved plan and harvesting guidelines.
+  8. [ME] Plan and implement post-harvesting activities, such as reforestation and habitat restoration.
+  9. [PD] Monitor the harvesting progress and environmental impact using regular site visits and data analysis.
+  10. [FV] Prepare and present a report on the harvesting progress, environmental impact, and recommendations for future management to relevant stakeholders.
+  11. [FV] Obtain approval from relevant authorities and stakeholders for the harvesting plan and its implementation.
+
+================================================================
+ANSWER TEMPLATE
+
+121: _ | 
+122: _ | 
+123: _ | 
+124: _ | 
+125: _ | 
+126: _ | 
+127: _ | 
+128: _ | 
+

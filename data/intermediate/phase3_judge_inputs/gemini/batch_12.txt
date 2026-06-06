@@ -1,0 +1,379 @@
+BATCH 12/63 | Model: Gemini 3 Pro | Tasks 89-96
+================================================================
+EXPERT REVIEW -- Micro-Action Sequence Evaluation
+For each task, read ALL four options, then choose the BEST (A/B/C/D).
+
+Criteria:
+  1. Completeness  -- no critical steps missing
+  2. Realism       -- every step is concretely executable
+  3. Stage accuracy -- stage label correct for each step:
+     IC=Intent_Communication  NA=Navigation_Addressing
+     PD=Perception_Diagnosis  ME=Manipulation_Execution  FV=Feedback_Verification
+  4. Conciseness   -- no redundant or duplicate steps
+  5. Scope         -- starts and ends at exactly the right point
+
+OUTPUT: fill the ANSWER TEMPLATE at the bottom.
+Format: N: X | one-sentence reason (max 12 words)
+IMPORTANT: Each task has a different best answer. Do NOT pick the same
+letter for every task without reading.
+================================================================
+
+--- Task 89: Organize recreational activities or events.
+[A]
+  1. [IC] Review the event plan and participant list to understand specific needs and requirements.
+  2. [NA] Contact vendors (e.g., food, equipment, staff) to confirm arrangements and address any last-minute changes.
+  3. [PD] Drive to the event location and assess the setup area for any potential issues.
+  4. [ME] Supervise the setup of event infrastructure (e.g., tents, signage, course markings).
+  5. [NA] Coordinate with volunteers to set up registration tables, check-in participants, and distribute materials.
+  6. [PD] Conduct a final walkthrough of the event area to ensure everything is in place and functional.
+  7. [IC] Welcome participants, provide event instructions, and answer any questions.
+  8. [PD] Monitor the event in real-time, addressing any issues that arise and ensuring participant safety.
+  9. [NA] Coordinate with vendors to ensure timely delivery of food, water, and other supplies.
+  10. [IC] Announce the event's conclusion, thank participants, and provide information on post-event activities.
+  11. [ME] Oversee the teardown of event infrastructure and ensure the area is left in a clean and safe condition.
+  12. [FV] Collect feedback from participants and vendors to assess the event's success and identify areas for improvement.
+[B]
+  1. [IC] Review event budget and vendor contracts to ensure compliance with community center policies and regulations.
+  2. [NA] Create a detailed event schedule and timeline, including setup, event hours, and teardown, to ensure smooth execution.
+  3. [NA] Coordinate with vendors to confirm their presence, setup, and tear-down times, and ensure they have necessary permits and licenses.
+  4. [NA] Develop a plan for managing volunteer schedules, including training, supervision, and communication with volunteers.
+  5. [ME] Set up the event layout, including stage, food vendors, and game areas, to ensure safety and accessibility for attendees.
+  6. [NA] Coordinate with performers and entertainers to ensure they have necessary equipment and technical support.
+  7. [ME] Develop a plan for managing waste and recycling, including setup and disposal of trash and recyclables.
+  8. [NA] Coordinate with food vendors to ensure they have necessary permits and licenses, and develop a plan for managing food safety and sanitation.
+  9. [PD] Develop a plan for managing attendee safety, including emergency response procedures and first aid kits.
+  10. [ME] Coordinate with volunteers to ensure they have necessary training and equipment to manage attendee safety and provide assistance as needed.
+  11. [FV] Evaluate the success of the event, including attendee feedback, vendor satisfaction, and community center reviews.
+  12. [FV] Document lessons learned and develop a plan for improving future events, including changes to logistics, vendor management, and attendee safety.
+[C]
+  1. [IC] Define the event goals, target audience, and budget.
+  2. [NA] Develop a detailed event schedule and timeline, including setup, activities, and teardown.
+  3. [NA] Identify and reserve necessary spaces, equipment, and vendors.
+  4. [NA] Recruit and train volunteers, assigning roles and responsibilities.
+  5. [ME] Set up the event space according to the plan, including furniture, signage, and decorations.
+  6. [IC] Welcome participants, provide instructions, and address any questions.
+  7. [PD] Monitor the event, ensuring smooth flow of activities, participant safety, and addressing any issues.
+  8. [FV] Collect feedback from participants and volunteers to evaluate the event's success.
+  9. [ME] Teardown the event space, ensuring proper cleanup and storage of materials.
+[D]
+  1. [IC] Review event plan, budget, and vendor contracts to ensure compliance with community center policies and regulations.
+  2. [NA] Identify available dates and reserve necessary spaces and equipment for the event.
+  3. [NA] Contact vendors, performers, and volunteers to confirm arrangements, provide necessary information, and address any last-minute changes.
+  4. [PD] Assess the event setup area for potential issues and supervise the setup of event infrastructure.
+  5. [NA] Coordinate with volunteers to set up registration tables, check-in participants, and distribute materials.
+  6. [PD] Conduct a final walkthrough of the event area to ensure everything is in place, functional, and safe.
+  7. [IC] Welcome participants, provide event instructions, and answer any questions.
+  8. [PD] Monitor the event in real-time, addressing any issues that arise and ensuring participant safety.
+  9. [NA] Coordinate with vendors to ensure timely delivery of supplies and manage waste and recycling.
+  10. [IC] Announce the event's conclusion, thank participants, and provide information on post-event activities.
+  11. [ME] Oversee the teardown of event infrastructure, ensure the area is left clean and safe, and collect feedback from participants and vendors.
+  12. [FV] Document lessons learned, evaluate event success, and develop a plan for improving future events.
+
+--- Task 90: Interpret research or operational data.
+[A]
+  1. [NA] Access the relevant data repository and retrieve the dataset.
+  2. [NA] Load the dataset into a data analysis software tool.
+  3. [PD] Clean the dataset by handling missing values, outliers, and inconsistencies.
+  4. [ME] Generate visualizations and summary statistics to explore the data.
+  5. [PD] Analyze the visualizations and summary statistics to identify trends and patterns.
+  6. [ME] Apply statistical methods or machine learning algorithms to validate the identified trends.
+  7. [PD] Interpret the results of the analysis, considering the context and business implications.
+  8. [FV] Create a comprehensive report summarizing the findings and recommendations.
+  9. [IC] Present the findings and recommendations to the relevant team, addressing any questions.
+  10. [FV] Document the analysis process, findings, and recommendations for future reference.
+[B]
+  1. [NA] Access the data repository and retrieve the relevant dataset for the task at hand.
+  2. [NA] Load the dataset into a data analysis software tool, such as Excel or Python.
+  3. [PD] Review the dataset to understand its structure, including columns for relevant data.
+  4. [PD] Clean the dataset by removing any missing or inconsistent data entries.
+  5. [PD] Perform initial data analysis, such as calculating averages and identifying outliers.
+  6. [ME] Create visualizations, such as graphs and charts, to represent the data trends.
+  7. [PD] Analyze the visualizations and identify any unusual trends or deviations from expected performance.
+  8. [NA] Cross-reference the identified anomalies with historical data and maintenance records.
+  9. [IC] Formulate a preliminary hypothesis about the cause of any identified issues.
+  10. [IC] Document the findings and recommendations for further investigation or maintenance actions.
+  11. [IC] Present the findings and recommendations to the relevant stakeholders.
+  12. [FV] Follow up with the stakeholders to ensure that the report's recommendations are implemented and that the issue is resolved.
+[C]
+  1. [NA] Access and retrieve the relevant dataset from the designated repository.
+  2. [NA] Load the dataset into a suitable data analysis software tool.
+  3. [PD] Clean the dataset by addressing missing values, outliers, and inconsistencies.
+  4. [PD] Perform exploratory data analysis using visualizations and summary statistics to understand data structure and identify initial trends.
+  5. [ME] Apply statistical methods or machine learning algorithms to further analyze trends and identify significant relationships within the data.
+  6. [FV] Summarize the key findings and insights derived from the data analysis.
+  7. [FV] Create visualizations and reports to effectively communicate the findings to the relevant stakeholders.
+[D]
+  1. [IC] Understand the data collection methodology and format to ensure comprehension of the data structure.
+  2. [NA] Access the relevant data repository and retrieve the required dataset.
+  3. [NA] Load the dataset into a data analysis software tool (e.g., Python with Pandas, R, or Excel).
+  4. [PD] Clean the data by handling missing values, outliers, and inconsistencies.
+  5. [PD] Explore the data using visualizations and summary statistics to gain an initial understanding.
+  6. [ME] Perform data transformation and aggregation to facilitate trend analysis.
+  7. [ME] Apply statistical methods or machine learning algorithms to identify significant trends.
+  8. [PD] Interpret the results of the analysis, considering the context and business implications.
+  9. [FV] Create visualizations and summaries to effectively communicate the findings.
+  10. [IC] Present the findings and recommendations to the relevant team, answering any questions they may have.
+  11. [FV] Document the analysis process, findings, and recommendations for future reference and reproducibility.
+
+--- Task 91: Determine types of equipment, tools, or materials needed for jobs.
+[A]
+  1. [IC] Review project plans and specifications to understand the scope of work, building size, and location.
+  2. [IC] Consult with architects, engineers, and other stakeholders to gather information about the project's specific requirements and constraints.
+  3. [PD] Break down the project into smaller components or systems (e.g., foundation, framing, HVAC, electrical).
+  4. [PD] For each component, identify the primary equipment, tools, and materials required.
+  5. [NA] Research and gather information about the identified equipment, tools, and materials, including their availability, cost, and maintenance requirements.
+  6. [ME] Create a detailed list of all required equipment, tools, and materials, including their quantities and estimated costs.
+  7. [IC] Consult with equipment suppliers, tool manufacturers, and material vendors to confirm availability and pricing.
+  8. [PD] Review the list and adjust quantities, equipment, tools, or materials as necessary to meet the project's budget constraints.
+  9. [ME] Create a final list of equipment, tools, and materials, including their quantities, estimated costs, and suppliers.
+  10. [FV] Present the final list to the project team and stakeholders for review and approval.
+[B]
+  1. [IC] Review the architectural blueprints and construction plans to identify the scope of work.
+  2. [IC] Identify the different stages of construction (e.g., foundation, framing, roofing, plumbing, electrical).
+  3. [IC] Consult with subcontractors and suppliers to gather information on available materials and equipment.
+  4. [NA] Create a detailed list of all materials required for each stage of construction.
+  5. [NA] Identify the tools and equipment needed for each stage of construction.
+  6. [PD] Check inventory for existing materials and tools.
+  7. [PD] Calculate the quantity of each material and tool needed.
+  8. [ME] Prepare a purchase order for all materials and tools not already in inventory.
+  9. [FV] Confirm delivery dates and schedules with suppliers.
+  10. [FV] Finalize the list and share it with the construction team and relevant stakeholders.
+[C]
+  1. [IC] Review project blueprints, specifications, and any relevant architectural plans to understand the scope of work, building size, location, and specific requirements.
+  2. [IC] Consult with architects, engineers, subcontractors, and other stakeholders to clarify any ambiguities, gather information about specific project needs, and understand potential constraints.
+  3. [PD] Break down the project into smaller, manageable components or systems (e.g., foundation, framing, electrical, plumbing).
+  4. [PD] For each component, identify the primary equipment, tools, and materials required based on the project plans, specifications, and stakeholder input.
+  5. [IC] Estimate the quantity of each material and tool needed for each component, considering project scope, dimensions, and potential waste.
+  6. [ME] Create a detailed list of all required equipment, tools, and materials, organized by component and category.
+  7. [FV] Review the list for completeness and accuracy, double-checking for any potential omissions or redundancies.
+  8. [FV] Finalize the list and share it with the project team, stakeholders, and relevant parties for review and approval.
+[D]
+  1. [IC] Review project plans, blueprints, and specifications to understand the scope of work, project requirements, and constraints.
+  2. [IC] Consult with architects, engineers, stakeholders, and other relevant parties to gather information and clarify requirements.
+  3. [PD] Research local building codes, regulations, and industry standards to ensure compliance with relevant requirements.
+  4. [PD] Inspect the construction site to assess terrain, accessibility, and potential hazards, and identify any site-specific equipment needs.
+  5. [PD] Break down the project into smaller components or systems, and identify the primary equipment, tools, and materials required for each.
+  6. [NA] Research and gather information about the identified equipment, tools, and materials, including their availability, cost, and maintenance requirements.
+  7. [ME] Create a preliminary list of equipment, tools, and materials, including their quantities, estimated costs, and suppliers.
+  8. [IC] Consult with equipment suppliers, tool manufacturers, and material vendors to confirm availability, pricing, and make any necessary adjustments to the preliminary list.
+  9. [PD] Review the preliminary list and adjust quantities, equipment, tools, or materials as necessary to meet the project's budget constraints.
+  10. [ME] Create a final list of equipment, tools, and materials, including their quantities, estimated costs, suppliers, and delivery dates.
+  11. [FV] Present the final list to the project team and stakeholders for review, approval, and sign-off.
+
+--- Task 92: Weigh finished products.
+[A]
+  1. [NA] The technician approaches the weighing station and ensures that the product is properly placed on the scale.
+  2. [IC] The technician initializes the weighing process by pressing the start button on the scale or entering the product code.
+  3. [PD] The technician waits for the scale to stabilize and display the weight reading.
+  4. [FV] The technician compares the weight reading to the target weight for the product.
+  5. [ME] If the weight is within the acceptable range, the technician places the product in the designated 'ready for packaging' area.
+  6. [ME] If the weight is outside the acceptable range, the technician marks the product for reprocessing or alerts the supervisor.
+  7. [FV] The technician documents the weighing results and any issues or anomalies for quality control purposes.
+  8. [IC] The technician repeats the process with the next product on the assembly line.
+[B]
+  1. [NA] The technician approaches the weighing station and ensures that the products are properly placed on the scale.
+  2. [IC] The technician initializes the weighing process by pressing the start button on the scale or entering the product code.
+  3. [PD] The scale begins to measure the weight of the products, and the technician observes the display to ensure accuracy.
+  4. [FV] If the weight measurement is within the specified tolerance, the technician documents the result and moves on to the next product.
+  5. [FV] If the weight measurement is outside the specified tolerance, the technician takes corrective action, such as re-weighing the product or adjusting the manufacturing process.
+  6. [ME] The technician handles the products with care to prevent damage and ensures that they are properly stored or packaged for shipping.
+  7. [FV] The technician reviews the weighing results and documents any issues or anomalies for quality control purposes.
+  8. [IC] The technician closes out the weighing process and prepares for the next batch of products.
+[C]
+  1. [NA] Retrieve a product from the packaging line.
+  2. [ME] Place the product on the calibrated digital scale.
+  3. [PD] Wait for the scale to stabilize and display the weight.
+  4. [FV] Record the weight.
+  5. [IC] Compare the recorded weight to the acceptable range.
+  6. [ME] If within range, move the product to the approved area; if outside range, mark for reprocessing.
+[D]
+  1. [NA] Approach the weighing station and ensure products are properly positioned on the scale.
+  2. [IC] Initialize the weighing process by activating the scale or entering the product code.
+  3. [PD] Observe the scale display until the weight stabilizes and displays the measurement.
+  4. [FV] Compare the measured weight to the specified tolerance range for the product.
+  5. [ME] If the weight is within tolerance, move the product to the approved area. If not, mark it for reprocessing or alert the supervisor.
+  6. [IC] Repeat the process with the next product on the line.
+  7. [FV] Ensure all products have been weighed and recorded before closing out the weighing process.
+
+--- Task 93: Install instrumentation or electronic equipment or systems.
+[A]
+  1. [IC] Review the installation manual and discuss the plan with the client to ensure understanding of the project's requirements and constraints.
+  2. [NA] Navigate to the designated installation locations, avoiding obstacles and noting potential issues with the layout.
+  3. [PD] Inspect the installation points to ensure they can support the equipment and identify any obstructions or issues.
+  4. [ME] Mount the sensors securely at the designated locations, using appropriate drilling and fastening techniques.
+  5. [NA] Run the necessary cabling from each sensor to the control room, ensuring proper routing and secure connections.
+  6. [ME] Connect the sensors to the control room infrastructure, ensuring proper wiring and connections.
+  7. [FV] Power on the system and verify that all sensors are transmitting data to the control room.
+  8. [IC] Document the installation process, including sensor locations, cable routes, and any unique system configurations.
+[B]
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+[C]
+  1. [IC] Review the installation manual and confirm the locations for each instrument or equipment.
+  2. [NA] Navigate to the first installation location, considering safety and optimal placement.
+  3. [PD] Inspect the installation site, verifying structural integrity and identifying any potential obstructions.
+  4. [ME] Mount the equipment securely, using appropriate tools and hardware.
+  5. [ME] Connect wiring and cabling, ensuring proper insulation, routing, and secure connections.
+  6. [ME] Repeat steps 2-5 for each remaining instrument or equipment at their designated locations.
+  7. [FV] Power on the system and verify that all instruments are functioning correctly and communicating data.
+  8. [IC] Document the installation process, including equipment locations, wiring diagrams, and any notable observations.
+[D]
+  1. [IC] Review system documentation, installation plan, and discuss project requirements with the client.
+  2. [NA] Inspect installation locations, consider sightlines/coverage, and diagnose any layout issues.
+  3. [NA] Gather necessary tools and equipment for installation and cable management.
+  4. [ME] Mount sensors/cameras securely at the identified locations, using appropriate drilling and fastening techniques.
+  5. [NA] Run cabling from each sensor/camera to the main unit/NVR location, ensuring proper routing and avoiding obstructions.
+  6. [ME] Connect sensor/camera cables to the appropriate ports on the main unit/NVR, ensuring correct polarity and secure connections.
+  7. [FV] Power on the system and verify that all sensors/cameras are recognized and functioning correctly.
+  8. [ME] Adjust sensor/camera settings, such as focus, zoom, recording schedule, and calibrate sensors if necessary.
+  9. [FV] Test the system by triggering its functionality and verifying that it records/stores data correctly.
+  10. [IC] Document the installation, including sensor/camera locations, cable routes, and any unique system configurations.
+
+--- Task 94: Install electrical components, equipment, or systems.
+[A]
+  1. [IC] Review the installation plan and verify the locations for the electrical components and ensure compliance with local electrical codes.
+  2. [NA] Gather and prepare all necessary electrical components, equipment, and tools for the installation.
+  3. [PD] Shut off the main electrical power supply and lock out the electrical panel to prevent electrical shock or other safety hazards.
+  4. [ME] Install the new electrical panel and circuit breaker system, ensuring all connections are secure and meet local electrical codes.
+  5. [NA] Run new wiring from the panel to the designated areas, ensuring it is properly secured and follows the correct path.
+  6. [ME] Install new outlets and switches, ensuring they are level and securely fastened to the walls.
+  7. [ME] Connect the new wiring to the electrical panel, ensuring all connections are tight and secure.
+  8. [FV] Test each outlet and switch to ensure they are working correctly.
+  9. [PD] Inspect the entire installation for any signs of damage, loose connections, or other issues.
+  10. [FV] Perform a final safety test using a multimeter to ensure there are no shorts or other electrical hazards.
+  11. [FV] Turn the main power supply back on and confirm that the outlets and appliances are working correctly.
+[B]
+  1. [IC] Review electrical blueprints and specifications for the residential home to understand the electrical system requirements and ensure compliance with local electrical codes.
+  2. [NA] Gather and prepare all necessary electrical components, equipment, and tools for the installation, including the new electrical panel and circuit breaker system.
+  3. [PD] Shut off the main electrical power supply to the residential home and lock out the electrical panel to prevent electrical shock or other safety hazards.
+  4. [ME] Remove the old electrical panel and circuit breaker system and dispose of it according to local regulations.
+  5. [ME] Install the new electrical panel and circuit breaker system, ensuring all connections are secure and meet local electrical codes.
+  6. [FV] Test the new electrical system to ensure it is functioning correctly and safely.
+  7. [FV] Verify that the new electrical system meets the homeowner's needs and complies with local electrical codes.
+  8. [IC] Document the electrical system installation, including any changes or modifications made during the process.
+  9. [IC] Obtain final inspection and approval from local electrical authorities to ensure compliance with codes and regulations.
+  10. [IC] Provide the homeowner with a detailed report of the electrical system installation, including any changes or modifications made during the process.
+  11. [FV] Turn on the power and test the light fixtures to ensure they are operational.
+  12. [FV] Deliver the final result to the client, including the documentation and a walkthrough of the installed system.
+[C]
+  1. [IC] Review the installation plan, blueprints, and electrical codes to understand the system requirements and safety regulations.
+  2. [NA] Gather all necessary tools, materials, and safety equipment (e.g., multimeter, wire strippers, voltage tester).
+  3. [PD] Isolate the electrical circuit by turning off the power at the breaker box and verifying no power is present using a voltage tester.
+  4. [ME] Install the electrical components (e.g., fixtures, outlets, wiring) according to the plan, ensuring secure connections and proper grounding.
+  5. [PD] Inspect the completed installation for any loose connections, damaged wires, or code violations.
+  6. [FV] Test the electrical system by turning the power back on and verifying the functionality of all installed components.
+  7. [IC] Document the installation process, including any deviations from the plan and test results.
+[D]
+  1. [IC] Review blueprints, specifications, and installation manuals to understand the electrical system requirements and plan the installation.
+  2. [NA] Gather and prepare all necessary electrical components, equipment, tools, and materials.
+  3. [PD] Shut off the main electrical power supply and test wires to ensure no power is flowing through the system.
+  4. [ME] Remove the old electrical panel (if applicable) and dispose of it safely.
+  5. [ME] Install the new electrical panel, ensuring it is level, securely fastened to the wall, and all connections are tight and secure.
+  6. [NA] Run new wiring from the panel to the desired locations, ensuring it is properly secured and follows the correct path.
+  7. [ME] Install new outlets, switches, or other electrical components at the desired locations, ensuring they are level and securely fastened to the walls.
+  8. [ME] Connect the new wiring to the electrical panel and other components, ensuring all connections are tight and secure.
+  9. [FV] Test each electrical component to ensure they are working correctly.
+  10. [PD] Inspect the entire installation for any signs of damage, loose connections, or other issues.
+  11. [FV] Perform a final safety test, using a multimeter to ensure there are no shorts or other electrical hazards.
+  12. [FV] Turn the main power supply back on and confirm that all installed electrical components are working correctly.
+  13. [IC] Document the installation process, including any changes or modifications made during the process, and provide a detailed report to the client.
+
+--- Task 95: Advise others on healthcare matters.
+[A]
+  1. [IC] Greet the patient warmly, introduce yourself, and explain the purpose of the visit.
+  2. [NA] Access the patient's electronic health record (EHR) to review their diagnosis, medications, and recent lab results.
+  3. [PD] Ask the patient about their understanding of their health condition, any preconceived notions, and concerns they may have.
+  4. [ME] Explain the patient's health condition in clear, understandable language, including underlying causes and risks.
+  5. [ME] Recommend appropriate self-care measures, lifestyle changes, or suggest scheduling an appointment with a physician.
+  6. [FV] Answer the patient's questions and address any concerns they may have.
+  7. [FV] Schedule a follow-up appointment, provide contact information for additional support, and document the encounter in the EHR.
+[B]
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+[C]
+  1. [IC] Initiate contact with the client to understand their healthcare needs and goals.
+  2. [IC] Gather information about the client's current health status, medical history, and lifestyle.
+  3. [PD] Analyze the collected information to identify potential health risks and areas for improvement.
+  4. [ME] Develop personalized recommendations and strategies to address the client's specific needs.
+  5. [IC] Clearly communicate the recommendations and strategies to the client, ensuring understanding and addressing any questions.
+  6. [FV] Provide ongoing support and follow-up to monitor progress and make adjustments as needed.
+[D]
+  1. [IC] Greet the individual and introduce yourself, explaining the purpose of the interaction.
+  2. [NA] Access the individual's health record, if applicable, to review their medical history, diagnosis, and medications.
+  3. [PD] Ask open-ended questions to understand the individual's current health status, concerns, and understanding of their condition.
+  4. [PD] Explain the individual's condition, its causes, and risks in clear, understandable language, using analogies if necessary.
+  5. [ME] Review the individual's medications, ensuring they understand the proper dosage, frequency, and potential side effects.
+  6. [PD] Discuss lifestyle changes the individual can make to manage their condition, such as diet, exercise, and stress management.
+  7. [ME] Demonstrate and explain the use of any necessary medical devices or equipment, such as glucose meters or insulin administration.
+  8. [FV] Review the individual's progress, address any concerns, and provide additional resources or referrals as needed.
+  9. [ME] Document the interaction, including the individual's medical history, diagnosis, treatment plan, and any additional resources or referrals.
+  10. [IC] Answer any additional questions the individual may have, providing clear and concise information to ensure understanding.
+  11. [FV] End the interaction, ensuring the individual feels empowered to manage their health and make informed decisions about their care.
+
+--- Task 96: Prepare biological specimens for laboratory analysis.
+[A]
+  1. [IC] Review the laboratory manual and the computerized laboratory information system to understand the specific requirements for preparing the biological specimens.
+  2. [NA] Don personal protective equipment (PPE), including gloves and a lab coat, to maintain aseptic technique.
+  3. [ME] Label each specimen container with the patient's identification information and the date of collection, using a standardized labeling system.
+  4. [ME] Prepare the specimen by dissecting, cutting, or collecting as required, and place it in the labeled container with the appropriate fixative or preservative.
+  5. [PD] Check the specimen container for proper labeling and ensure the specimen is fully submerged in the preservative if necessary.
+  6. [NA] Store the labeled specimen container in a designated storage area, using a standardized storage system.
+  7. [FV] Document the preparation and storage of the specimen in the laboratory information system.
+[B]
+  1. [IC] Gather necessary equipment, including a blood collection kit, alcohol swabs, and labeled tubes.
+  2. [NA] Wash hands thoroughly and put on gloves to maintain sterility.
+  3. [NA] Clean the patient's arm with an alcohol swab and wait for it to dry.
+  4. [PD] Insert the needle into the vein and collect the required volume of blood into the labeled tube.
+  5. [PD] Remove the needle and apply pressure to the puncture site with a sterile gauze.
+  6. [ME] Label the tube with the patient's information and the date of collection.
+  7. [ME] Invert the tube gently several times to mix the blood with the anticoagulant.
+  8. [ME] Place the labeled tube in a secure rack to prevent breakage or contamination.
+  9. [FV] Check the tube for any signs of contamination or improper collection.
+  10. [FV] Deliver the prepared sample to the laboratory for analysis.
+[C]
+  1. [NA] Don personal protective equipment (PPE), including gloves and lab coat.
+  2. [IC] Verify patient identification and review specimen requirements.
+  3. [NA] Prepare the work area and gather necessary equipment (e.g., labeled containers, fixative solution, dissection tools).
+  4. [ME] Collect the specimen using appropriate techniques (e.g., blood draw, tissue biopsy) and place it in a labeled container.
+  5. [ME] Process the specimen according to the required protocol (e.g., fixation, embedding, sectioning).
+  6. [FV] Document the specimen preparation process, including date, time, and any observations.
+  7. [NA] Store the prepared specimen in a designated area according to laboratory protocols.
+[D]
+  1. [IC] Don personal protective equipment (PPE), including gloves, gown, and safety glasses.
+  2. [IC] Review the sample's accompanying documentation to understand the specific requirements and patient information.
+  3. [NA] Gather necessary equipment, including labeled tubes, fixative solutions (e.g., formalin), cassettes, and other tools specific to the sample type.
+  4. [ME] Prepare the sample for processing, which may include dissecting, excising, or other manipulation techniques specific to the sample type.
+  5. [ME] Preserve the sample by immersing it in a fixative solution or processing it according to the sample type's requirements.
+  6. [ME] Label the sample container or cassette with patient information, date, and time, following a standardized labeling system.
+  7. [PD] Check the sample's condition and ensure it is properly preserved and labeled.
+  8. [NA] Store the prepared sample in a designated area, following a standardized storage system to prevent contamination or damage.
+  9. [FV] Document the sample preparation process in the lab's electronic record-keeping system, including any observations or notes.
+
+================================================================
+ANSWER TEMPLATE
+
+89: _ | 
+90: _ | 
+91: _ | 
+92: _ | 
+93: _ | 
+94: _ | 
+95: _ | 
+96: _ | 
+

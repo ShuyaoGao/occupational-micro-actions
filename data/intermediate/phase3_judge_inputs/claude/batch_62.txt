@@ -1,0 +1,322 @@
+BATCH 62/63 | Model: Claude Opus 4.7 | Tasks 489-495
+================================================================
+EXPERT REVIEW -- Micro-Action Sequence Evaluation
+For each task, read ALL four options, then choose the BEST (A/B/C/D).
+
+Criteria:
+  1. Completeness  -- no critical steps missing
+  2. Realism       -- every step is concretely executable
+  3. Stage accuracy -- stage label correct for each step:
+     IC=Intent_Communication  NA=Navigation_Addressing
+     PD=Perception_Diagnosis  ME=Manipulation_Execution  FV=Feedback_Verification
+  4. Conciseness   -- no redundant or duplicate steps
+  5. Scope         -- starts and ends at exactly the right point
+
+OUTPUT: fill the ANSWER TEMPLATE at the bottom.
+Format: N: X | one-sentence reason (max 12 words)
+IMPORTANT: Each task has a different best answer. Do NOT pick the same
+letter for every task without reading.
+================================================================
+
+--- Task 489: Gather information for news stories.
+[A]
+  1. [IC] Consult the editor to understand the story's focus and required angle, and review the meeting agenda and any pre-circulated documents.
+  2. [NA] Attend the city council meeting and sit in the designated press area, setting up recording equipment and finding a seat with a clear view of the council members.
+  3. [PD] Listen to the discussions and take detailed notes on the points raised by council members and attendees, and actively engage with council members and attendees during breaks to gather additional insights and quotes.
+  4. [PD] Review and verify the information gathered from the meeting with official documents and public records, and contact experts and stakeholders for additional perspectives.
+  5. [ME] Organize gathered information and prepare a concise and factual news article for submission, incorporating quotes, data, and visuals.
+  6. [FV] Review the article for accuracy, clarity, and completeness, and fact-check the news story, verifying the accuracy of information and sources.
+  7. [FV] Submit the completed article to the editor for review and publication.
+[B]
+  1. [IC] Review the agenda and minutes of the previous city council meetings to understand the context and background of the public transportation system discussion.
+  2. [NA] Attend the city council meeting and sit in the designated press area.
+  3. [PD] Listen to the discussions and take detailed notes on the points raised by council members and attendees.
+  4. [IC] Interact with city council members and attendees during breaks to gather additional insights and quotes.
+  5. [PD] Review and verify the information gathered from the meeting with official documents and public records.
+  6. [IC] Contact experts and stakeholders involved in the public transportation system project for additional perspectives.
+  7. [PD] Conduct interviews with key stakeholders to gather detailed information and quotes.
+  8. [ME] Compile all gathered information into a coherent and comprehensive report.
+  9. [FV] Review the report for accuracy, clarity, and completeness.
+  10. [FV] Submit the completed report to the editor for review and publication.
+[C]
+  1. [IC] Review the meeting agenda and any pre-circulated documents to understand the context and key issues.
+  2. [NA] Attend the city council meeting and find a seat with a clear view.
+  3. [PD] Actively listen to discussions, take detailed notes on key points, and identify potential story angles.
+  4. [IC] During breaks, approach council members and attendees to ask clarifying questions and gather quotes.
+  5. [PD] Review notes and recordings after the meeting to identify key takeaways and potential story angles.
+  6. [IC] Contact relevant sources mentioned during the meeting for follow-up information or interviews.
+  7. [ME] Organize gathered information, write a draft of the news story, incorporating quotes, data, and relevant context.
+  8. [FV] Review and edit the draft for accuracy, clarity, fairness, and adherence to journalistic standards.
+  9. [FV] Submit the finalized news story to the editor for review and approval.
+[D]
+  1. [IC] Review the meeting agenda, pre-circulated documents, and conduct initial research to understand the context and key issues.
+  2. [NA] Arrive at the meeting venue before it starts, set up recording equipment, and find a suitable seat.
+  3. [PD] Actively listen to discussions, take notes on key points, arguments, and any relevant data.
+  4. [IC] Approach council members, attendees, and relevant sources during breaks to ask clarifying questions, gather additional insights, and obtain quotes.
+  5. [PD] Review notes, recordings, and gathered information after the meeting to identify key takeaways, potential story angles, and any inconsistencies.
+  6. [IC] Contact relevant sources mentioned during the meeting or identified through research for follow-up information or interviews.
+  7. [ME] Organize gathered information, prepare a concise and factual news article, and incorporate relevant visuals or data.
+  8. [FV] Review and edit the news article for accuracy, clarity, fairness, and adherence to journalistic standards.
+  9. [FV] Submit the final news article to the editor for review, approval, and publication.
+
+--- Task 490: Inspect cargo to ensure it is properly loaded or secured.
+[A]
+  1. [NA] Approach the cargo truck and open the rear doors.
+  2. [PD] Enter the cargo area and visually inspect the overall arrangement and condition of the cargo.
+  3. [PD] Check the securing straps and ratchet straps on each pallet, ensuring they are properly tightened and not showing signs of wear.
+  4. [ME] Physically tug on straps or chains to verify their tightness and adjust any that are not tight enough.
+  5. [PD] Inspect the arrangement of loose boxes and smaller items to ensure they are stable and not loose.
+  6. [ME] Adjust the position of loose boxes or smaller items to improve stability if necessary.
+  7. [PD] Check the weight distribution of the cargo to ensure it is balanced and evenly distributed.
+  8. [PD] Perform a final visual inspection of the entire cargo area to confirm everything is secure and in good condition.
+  9. [FV] Close the cargo doors and confirm that the cargo is properly loaded and secured.
+  10. [IC] Document the inspection results and communicate them to the supervisor.
+[B]
+  1. [NA] Approach the cargo truck and open the rear doors.
+  2. [PD] Enter the cargo area and visually inspect the arrangement of the cargo.
+  3. [PD] Check the securing straps and ratchet straps on the first pallet.
+  4. [PD] Inspect the boxes and smaller items to ensure they are not loose.
+  5. [PD] Check the weight distribution of the cargo to ensure it is balanced.
+  6. [ME] Use a tension gauge to measure the tightness of the securing straps.
+  7. [ME] Adjust any straps that are not tight enough.
+  8. [PD] Perform a final visual inspection of the entire cargo area.
+  9. [FV] Close the cargo doors and confirm that the cargo is properly loaded and secured.
+[C]
+  1. [NA] Approach the cargo truck and open the rear doors.
+  2. [PD] Visually inspect the arrangement of cargo, noting any potential instability or unsecured items.
+  3. [ME] Physically check the tightness of securing straps and ratchet mechanisms on pallets.
+  4. [PD] Examine smaller items and boxes, ensuring they are properly secured and won't shift during transport.
+  5. [PD] Assess the overall weight distribution of the cargo to prevent tipping or imbalance.
+  6. [ME] If necessary, adjust the position of cargo or straps to improve stability and security.
+  7. [ME] Close the cargo doors and confirm that all securing mechanisms are engaged.
+  8. [IC] Document the inspection results, noting any issues or concerns.
+[D]
+  1. [NA] Approach the cargo truck, avoiding any obstacles.
+  2. [ME] Open the rear doors of the cargo truck.
+  3. [PD] Enter the cargo area and visually inspect the overall arrangement of the cargo.
+  4. [PD] Check the securing straps and ratchet straps on each pallet, ensuring they are properly tightened and not showing signs of wear or damage.
+  5. [ME] Manually tug on straps to verify their tightness.
+  6. [PD] Inspect boxes and smaller items to ensure they are not loose and examine their arrangement for stability.
+  7. [ME] Adjust the position of any loose boxes or items to improve stability, if necessary.
+  8. [PD] Check the weight distribution of the cargo to ensure it is balanced.
+  9. [PD] Perform a final visual inspection of the entire cargo area to ensure everything is secure and in good condition.
+  10. [FV] Close the cargo doors and confirm that the cargo is properly loaded and secured.
+  11. [IC] Document the inspection results and communicate any issues or concerns to the relevant parties.
+
+--- Task 491: Attach equipment extensions or accessories.
+[A]
+  1. [NA] Retrieve the equipment extension or accessory from its storage location.
+  2. [PD] Inspect the accessory and the equipment for any visible damage or defects.
+  3. [ME] Align the accessory's mounting points with the corresponding points on the equipment.
+  4. [ME] Secure the accessory using the provided fasteners and tools, following manufacturer instructions.
+  5. [FV] Verify the attachment's stability and functionality by applying gentle pressure and testing the accessory's operation.
+  6. [IC] Document the attachment process and any findings in the assembly log.
+[B]
+  1. [PD] Inspect the equipment and its components for any damage or debris that could affect the attachment process.
+  2. [NA] Retrieve the necessary equipment extensions or accessories from the storage area.
+  3. [ME] Align the equipment extension or accessory with the corresponding mounting points on the main equipment.
+  4. [ME] Secure the equipment extension or accessory using the correct fasteners, following the manufacturer's instructions.
+  5. [FV] Verify the attachment's integrity by checking the equipment extension or accessory's stability and ensuring it is properly secured.
+  6. [FV] Test the equipment to ensure that the extension or accessory does not affect its performance.
+  7. [IC] Document the attachment process and any findings in the assembly log.
+[C]
+  1. [NA] Retrieve the equipment extension or accessory from its storage location.
+  2. [PD] Inspect the extension/accessory and the attachment points on the equipment for damage or debris.
+  3. [ME] Align the extension/accessory with the designated attachment points on the equipment.
+  4. [ME] Secure the extension/accessory using the appropriate fasteners (screws, clips, etc.) following manufacturer instructions.
+  5. [FV] Verify the stability and secure attachment of the extension/accessory by applying gentle pressure and visual inspection.
+  6. [FV] Perform a functional test of the equipment with the attached extension/accessory to ensure proper operation.
+[D]
+  1. [NA] Retrieve the equipment extension or accessory from its designated storage area.
+  2. [PD] Inspect the retrieved equipment for any visible damage, defects, or debris that could affect the attachment process.
+  3. [ME] Align the equipment's mounting points with the corresponding points on the host equipment (e.g., camera, robotic arm).
+  4. [ME] Secure the equipment using the appropriate fasteners (e.g., screws, bolts, pins), following the manufacturer's instructions.
+  5. [ME] Tighten the fasteners using the correct tool (e.g., wrench, torque wrench) and specified value, if applicable.
+  6. [FV] Verify the stability and security of the attachment by applying gentle pressure or testing the equipment's functionality.
+  7. [IC] Document the attachment process, any findings, and the equipment's functionality in the relevant log or report.
+
+--- Task 492: Test facilities for environmental hazards.
+[A]
+  1. [IC] Consult the facility map and review safety protocols to understand the layout and potential hazards.
+  2. [ME] Don personal protective equipment (PPE) including respirator, gloves, and safety goggles.
+  3. [NA] Navigate to the first designated area and visually inspect for any immediate hazards.
+  4. [PD] Use specialized equipment to test for environmental hazards such as air quality, chemical presence, and asbestos.
+  5. [FV] Record the results of the tests and document any areas of concern.
+  6. [NA] Repeat the inspection process for all designated areas, ensuring thorough coverage.
+  7. [PD] Analyze the collected data and identify any environmental hazards.
+  8. [FV] Generate a comprehensive report detailing the inspection findings, methodologies, and recommendations for remediation.
+  9. [FV] Submit the inspection report and recommendations to building management, including any necessary follow-up actions.
+[B]
+  1. [IC] Review building blueprints and safety protocols to understand the layout and potential hazards.
+  2. [PD] Arrive at the building and conduct a visual inspection of the exterior and interior to identify potential hazards.
+  3. [ME] Operate the air quality monitor to collect data on particulate matter, ozone, and nitrogen dioxide levels.
+  4. [ME] Use the thermometer to collect data on temperature levels throughout the building.
+  5. [ME] Use the hygrometer to collect data on humidity levels throughout the building.
+  6. [PD] Analyze data from the air quality monitor, thermometer, and hygrometer to identify potential hazards.
+  7. [FV] Document all environmental hazards identified during the inspection, including photos and videos as evidence.
+  8. [FV] Provide recommendations for mitigation or remediation of identified hazards to building management.
+  9. [IC] Ensure that all safety protocols and procedures are up-to-date and compliant with relevant regulations.
+  10. [FV] Conduct a final review of the inspection findings and documentation to ensure accuracy and completeness.
+  11. [FV] Submit the inspection report and recommendations to building management, including any necessary follow-up actions.
+  12. [FV] Follow up with building management to ensure that recommended actions have been implemented and that the building remains safe for occupants.
+[C]
+  1. [IC] Review facility blueprints and safety protocols to understand the layout and potential hazards.
+  2. [NA] Don personal protective equipment (PPE) appropriate for the anticipated hazards.
+  3. [PD] Conduct a visual inspection of the facility, noting any immediate concerns or areas requiring further testing.
+  4. [ME] Use appropriate testing equipment (air quality monitors, chemical detectors, etc.) to collect data in designated areas.
+  5. [PD] Analyze collected data, comparing results to safety thresholds and identifying potential hazards.
+  6. [FV] Document all identified hazards, including location, severity, and photographic evidence.
+  7. [IC] Provide recommendations for remediation or mitigation of identified hazards to facility management.
+[D]
+  1. [IC] Review facility blueprints, safety protocols, and expected hazards to plan the inspection route and prepare necessary equipment.
+  2. [NA] Put on appropriate personal protective equipment (PPE) based on the expected hazards.
+  3. [PD] Proceed to the first designated area and conduct a visual inspection for potential hazards, such as leaks, spills, improper storage, excessive heat, smoke, or malfunctioning machinery.
+  4. [ME] Use specialized equipment (e.g., gas detection device, thermometer, hygrometer, thermal imaging camera) to measure and record relevant environmental data.
+  5. [PD] Analyze collected data and identify potential hazards, comparing results to established safety thresholds.
+  6. [FV] Document all observed and identified hazards, including photographs, measurements, locations, and recommendations for remediation using a digital inspection tool.
+  7. [NA] Proceed to the next designated area, repeating the inspection process until all areas have been covered.
+  8. [FV] Compile and submit the inspection report, including all documented hazards and recommendations for remediation to relevant authorities or management.
+  9. [FV] Follow up with relevant authorities or management to ensure that recommended actions have been implemented and that the facility remains safe for occupants.
+
+--- Task 493: Analyze financial records or reports to determine state of operations.
+[A]
+  1. [NA] Retrieve the quarterly financial reports and relevant digital files from the company's secure server.
+  2. [ME] Load the data into a spreadsheet or accounting software to facilitate analysis.
+  3. [PD] Perform initial checks to ensure the data is complete, accurate, and follows Generally Accepted Accounting Principles (GAAP).
+  4. [PD] Analyze key financial statements (income statement, balance sheet, cash flow statement) to assess revenue, expenses, net income, assets, liabilities, and cash flows.
+  5. [ME] Calculate key financial ratios and metrics, such as liquidity, profitability, and solvency ratios, to assess the company's financial health.
+  6. [PD] Compare the current quarter's financial data with the previous quarter and the same quarter from the previous year to identify trends and changes.
+  7. [ME] Draft a comprehensive report summarizing the findings, including key performance indicators, trends, and comparisons to industry benchmarks.
+  8. [IC] Present the draft report to the company's management and stakeholders, and answer any questions or concerns they may have.
+  9. [FV] Finalize the report based on feedback from management and stakeholders, and distribute it to relevant parties.
+[B]
+  1. [NA] Retrieve the quarterly financial reports and relevant digital files from the company's secure server.
+  2. [PD] Open and review the balance sheet to identify assets, liabilities, and equity positions.
+  3. [PD] Examine the income statement to assess revenue, expenses, and net income.
+  4. [PD] Review the cash flow statement to evaluate cash inflows and outflows.
+  5. [PD] Compare the current quarter's financial data with the previous quarter and the same quarter from the previous year.
+  6. [PD] Analyze key financial ratios such as liquidity ratios, profitability ratios, and solvency ratios.
+  7. [PD] Identify any significant variances or anomalies in the financial data.
+  8. [ME] Summarize the findings and write a comprehensive report detailing the state of operations.
+  9. [ME] Prepare a presentation to communicate the findings to the management team.
+  10. [FV] Deliver the report and presentation to the management team.
+[C]
+  1. [NA] Retrieve the quarterly financial reports (income statement, balance sheet, cash flow statement) from the company's secure server.
+  2. [PD] Open the reports and scan for key figures: revenue, expenses, assets, liabilities, cash inflows/outflows.
+  3. [ME] Calculate key financial ratios (liquidity, profitability, solvency) to assess the company's financial health.
+  4. [PD] Compare current quarter data with previous quarters and the same quarter from the previous year to identify trends.
+  5. [PD] Analyze cash flow statement to evaluate the company's ability to generate cash and meet short-term obligations.
+  6. [ME] Summarize findings in a concise report, highlighting key trends, ratios, and potential areas of concern.
+  7. [IC] Present the report to management, highlighting key insights and answering any questions.
+[D]
+  1. [IC] Understand the context and any known issues by reviewing the company's annual report and relevant board minutes.
+  2. [NA] Gather and retrieve all relevant financial records and reports for the past fiscal year, including income statements, balance sheets, cash flow statements, and supplementary schedules.
+  3. [ME] Load the data into a spreadsheet or accounting software to facilitate analysis.
+  4. [PD] Perform initial checks to ensure the data is complete, accurate, and follows Generally Accepted Accounting Principles (GAAP).
+  5. [ME] Calculate key financial ratios and metrics to assess the company's financial health, such as liquidity, profitability, and solvency ratios.
+  6. [PD] Compare the current year's data with the previous year's data to identify trends and changes in the company's financial status.
+  7. [PD] Analyze the company's cash flow statement to understand its ability to generate cash and meet its short-term obligations.
+  8. [ME] Prepare a draft report outlining the company's financial status, highlighting key trends, and making data-driven recommendations for the upcoming year.
+  9. [IC] Present the draft report to the company's management and stakeholders, and answer any questions or concerns they may have.
+  10. [FV] Finalize the report based on feedback from management and stakeholders, and distribute it to relevant parties.
+
+--- Task 494: Maintain the inventory of equipment.
+[A]
+  1. [IC] Review the previous day's inventory records to understand the current state of the warehouse.
+  2. [NA] Consult the warehouse layout map to plan the most efficient route for inspecting the inventory.
+  3. [NA] Navigate to the first section of the warehouse, avoiding obstacles and other workers.
+  4. [PD] Scan the barcode of the first piece of equipment and verify the scanned item matches the expected item in the inventory system.
+  5. [ME] Update the quantity and location of the scanned item in the system.
+  6. [ME] Repeat steps 4-5 for each piece of equipment in the storage area.
+  7. [NA] Move to the next storage area and repeat the scanning and updating process.
+  8. [FV] Upon completion of the physical inventory, review the updated records to ensure all equipment has been accounted for.
+  9. [FV] Generate a report summarizing the day's inventory management activities and any notable findings.
+  10. [IC] Submit the report to the relevant supervisor or manager for review and approval.
+[B]
+  1. [PD] Review the previous day's equipment usage and location updates from department managers.
+  2. [ME] Update the inventory management software with the new information and reconcile any discrepancies.
+  3. [FV] Verify the accuracy of the updated inventory by cross-checking with department managers and equipment users.
+  4. [IC] Access the inventory management system on a tablet device.
+  5. [NA] Navigate to the inventory update section of the system.
+  6. [PD] Scan the barcode of the first piece of equipment.
+  7. [PD] Verify the scanned item matches the expected item in the inventory system.
+  8. [ME] Update the quantity and location of the scanned item in the system.
+  9. [NA] Move to the next storage area and repeat the scanning and updating process.
+  10. [FV] Conduct a final review of the updated inventory to ensure all items are accounted for.
+  11. [FV] Save and submit the updated inventory to the system.
+[C]
+  1. [IC] Review previous day's inventory records and department usage updates.
+  2. [NA] Navigate to the first storage area using the warehouse layout.
+  3. [PD] Scan the barcode of each equipment item and verify against the inventory system.
+  4. [ME] Update the quantity, location, and condition of each item in the inventory system.
+  5. [NA] Repeat steps 2-4 for all storage areas, ensuring complete coverage.
+  6. [FV] Reconcile any discrepancies or issues identified during the scanning process.
+  7. [FV] Generate a summary report of the updated inventory and any notable findings.
+  8. [IC] Submit the inventory report to the supervisor or manager for review.
+[D]
+  1. [IC] Review the previous day's inventory records and equipment usage data.
+  2. [NA] Consult the warehouse layout map to plan an efficient route for inspecting the inventory.
+  3. [NA] Navigate to the first section of the warehouse, avoiding obstacles and other workers.
+  4. [PD] Scan the barcodes of the equipment in the first section and compare them to the inventory records.
+  5. [ME] Update the inventory management system with any changes or discrepancies found in the first section.
+  6. [NA] Repeat steps 3-5 for the remaining sections of the warehouse, following the planned route.
+  7. [FV] Upon completion of the physical inventory, review the updated records to ensure all equipment has been accounted for.
+  8. [FV] Check the warehouse layout map to ensure all sections have been covered and no equipment has been missed.
+  9. [FV] Generate a report summarizing the day's inventory management activities and any notable findings.
+  10. [IC] Submit the report to the relevant supervisor or manager for review and approval.
+
+--- Task 495: Design civil structures or systems.
+[A]
+  1. [IC] Review project documents and client specifications to understand the bridge's required span, load capacity, and aesthetic considerations.
+  2. [PD] Conduct a site survey to gather data on the environmental factors such as soil conditions, river flow patterns, and wind patterns.
+  3. [ME] Select appropriate materials for the bridge structure, considering factors such as durability, corrosion resistance, and cost.
+  4. [ME] Design the initial bridge structure using CAD software, incorporating environmental and safety requirements.
+  5. [PD] Perform structural analysis on the CAD model to validate the bridge's strength and stability under various loads and seismic conditions.
+  6. [ME] Iterate on the design based on analysis results, adjusting material properties, cross-sections, or other parameters as needed.
+  7. [ME] Create detailed construction drawings and specifications for the bridge, including plans, sections, elevations, and details.
+  8. [FV] Review the construction drawings and calculations for accuracy and completeness, ensuring compliance with relevant building codes and regulations.
+  9. [IC] Present the final design, including CAD model, construction drawings, and design report, to the project team for review and approval.
+[B]
+  1. [IC] Review project requirements and client specifications for the bridge design, including traffic volume, load capacity, and aesthetic preferences.
+  2. [PD] Conduct site visits and gather data on the coastal area's geology, hydrology, and meteorology to inform the bridge design.
+  3. [ME] Select suitable materials for the bridge structure, considering factors such as durability, corrosion resistance, and cost.
+  4. [ME] Design the bridge's structural system, including the superstructure, substructure, and foundation, using computer-aided design (CAD) software.
+  5. [PD] Analyze the bridge design's wind and flood resistance using computational fluid dynamics (CFD) and finite element analysis (FEA) software.
+  6. [ME] Modify the bridge design based on analysis results, iterating on the design until it meets or exceeds the client's expectations and regulatory requirements.
+  7. [ME] Create detailed drawings and specifications for the bridge design, including materials, dimensions, and construction methods.
+  8. [IC] Collaborate with stakeholders, including clients, contractors, and regulatory agencies, to review and finalize the bridge design.
+  9. [FV] Prepare and submit the final bridge design package, including drawings, specifications, and supporting documentation, to the client and regulatory agencies.
+  10. [FV] Review and revise the bridge design package based on client and regulatory feedback, ensuring that all requirements are met.
+[C]
+  1. [IC] Meet with project stakeholders to understand requirements, constraints, and aesthetic preferences for the bridge.
+  2. [PD] Conduct a site survey to gather data on environmental factors (e.g., river flow, wind patterns, soil conditions).
+  3. [NA] Review local building codes, safety standards, and relevant regulations.
+  4. [ME] Develop a preliminary bridge design concept, considering the gathered data, requirements, and chosen materials.
+  5. [ME] Create a detailed 3D CAD model of the bridge design, incorporating structural elements and components.
+  6. [PD] Perform structural analysis using software to simulate the bridge's performance under various loads and conditions.
+  7. [ME] Refine the bridge design based on analysis results, iterating on the model and making necessary adjustments.
+  8. [ME] Generate detailed construction drawings and specifications, including material lists and assembly instructions.
+  9. [IC] Review the final design, drawings, and specifications with stakeholders for feedback and approval.
+[D]
+  1. [IC] Review project documents, client specifications, and site survey data to understand the project's requirements, constraints, and site conditions.
+  2. [NA] Access and review relevant building codes, safety standards, and regulations for the specific region and project type.
+  3. [PD] Conduct site surveys and gather data on environmental factors, geology, hydrology, meteorology, and other relevant information.
+  4. [ME] Select appropriate materials based on load requirements, durability, corrosion resistance, cost, and other relevant factors.
+  5. [ME] Design the initial structural system using CAD software, incorporating environmental and safety requirements, and considering bridge type, span, and alignment.
+  6. [PD] Perform structural analysis on the initial design using appropriate software (e.g., FEA, CFD) to simulate its performance under various loads, wind, and seismic conditions.
+  7. [ME] Refine the design based on analysis results, iterating on material properties, cross-sections, or other parameters as needed to meet or exceed client expectations and regulatory requirements.
+  8. [ME] Create detailed construction drawings, including plans, sections, elevations, and details, based on the finalized CAD model.
+  9. [IC] Review construction drawings with stakeholders, including clients, contractors, and regulatory agencies, to ensure all requirements are met and obtain final approval.
+  10. [FV] Prepare a comprehensive design report documenting the design process, analysis results, material specifications, and compliance with relevant building codes and regulations.
+
+================================================================
+ANSWER TEMPLATE
+
+489: _ | 
+490: _ | 
+491: _ | 
+492: _ | 
+493: _ | 
+494: _ | 
+495: _ | 
+

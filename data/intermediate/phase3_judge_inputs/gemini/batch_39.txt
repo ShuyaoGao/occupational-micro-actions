@@ -1,0 +1,349 @@
+BATCH 39/63 | Model: Gemini 3 Pro | Tasks 305-312
+================================================================
+EXPERT REVIEW -- Micro-Action Sequence Evaluation
+For each task, read ALL four options, then choose the BEST (A/B/C/D).
+
+Criteria:
+  1. Completeness  -- no critical steps missing
+  2. Realism       -- every step is concretely executable
+  3. Stage accuracy -- stage label correct for each step:
+     IC=Intent_Communication  NA=Navigation_Addressing
+     PD=Perception_Diagnosis  ME=Manipulation_Execution  FV=Feedback_Verification
+  4. Conciseness   -- no redundant or duplicate steps
+  5. Scope         -- starts and ends at exactly the right point
+
+OUTPUT: fill the ANSWER TEMPLATE at the bottom.
+Format: N: X | one-sentence reason (max 12 words)
+IMPORTANT: Each task has a different best answer. Do NOT pick the same
+letter for every task without reading.
+================================================================
+
+--- Task 305: Update computer database information.
+[A]
+  1. [IC] Receive and review the list of updates from the relevant source.
+  2. [NA] Log into the database system using the provided credentials.
+  3. [NA] Navigate to the specific records that need to be updated.
+  4. [PD] Verify the new information against the provided source.
+  5. [ME] Enter the new information into the database form.
+  6. [ME] Save the changes to the database.
+  7. [FV] Run a validation check to ensure the data is consistent and error-free.
+  8. [IC] Notify relevant stakeholders of the updates.
+[B]
+  1. [IC] Log into the company's customer database system using the provided credentials.
+  2. [NA] Open the customer information update form in the database system.
+  3. [NA] Retrieve the new customer data from the provided spreadsheet or document.
+  4. [PD] Read and verify the new customer information from the spreadsheet.
+  5. [ME] Enter the new customer information into the database form.
+  6. [PD] Check for any existing customer records that need to be updated.
+  7. [ME] Update the existing customer records with the new information.
+  8. [FV] Run a validation check to ensure the data is consistent and error-free.
+  9. [FV] Save all changes to the database and confirm successful updates.
+[C]
+  1. [NA] Log into the company's database system using provided credentials.
+  2. [NA] Open the customer information update form.
+  3. [PD] Retrieve and verify the new customer data from the provided source.
+  4. [ME] Enter the new customer information into the designated fields of the database form.
+  5. [ME] Save the changes to the database.
+  6. [FV] Run a validation check to ensure data consistency and identify any potential errors.
+[D]
+  1. [IC] Receive and review the update request, identifying the type of information to be updated (e.g., customer, employee, etc.).
+  2. [NA] Log into the relevant database system using provided credentials.
+  3. [NA] Navigate to the appropriate section or form within the database system to update the information.
+  4. [PD] Retrieve and verify the new or updated information from the provided source (e.g., spreadsheet, document, list).
+  5. [ME] Enter the new or updated information into the appropriate fields in the database form.
+  6. [PD] Check for any existing records that need to be updated and retrieve their updated information.
+  7. [ME] Update the existing records with the new or retrieved information.
+  8. [FV] Run a validation check to ensure the data is consistent, accurate, and error-free.
+  9. [ME] Save all changes to the database and confirm successful updates.
+  10. [IC] Notify relevant stakeholders about the updates and maintain a record of the changes made to the database.
+
+--- Task 306: Attach identification information to products, items or containers.
+[A]
+  1. [NA] Retrieve the label printer and a roll of labels from the storage bin.
+  2. [NA] Select the first product from the shipment and place it on the labeling station.
+  3. [PD] Scan the product's surface to ensure it's clean and free of obstructions for labeling.
+  4. [IC] Generate a unique barcode and product description using the warehouse management system.
+  5. [ME] Print the label with the generated barcode and product description.
+  6. [ME] Apply the label to the product using the label printer.
+  7. [FV] Verify the label for quality and completeness using a barcode scanner.
+  8. [IC] Document the completion of the labeling task and notify the supervisor.
+[B]
+  1. [NA] Retrieve the RFID tag from the tag dispenser.
+  2. [PD] Scan the RFID tag to verify its unique identifier.
+  3. [ME] Position the RFID tag on the box at the designated location.
+  4. [ME] Secure the RFID tag to the box using an adhesive.
+  5. [FV] Verify the RFID tag is securely attached and readable.
+  6. [FV] Record the RFID tag identifier and box contents in the inventory system.
+  7. [NA] Place the tagged box in the designated storage area.
+  8. [FV] Confirm the box is correctly stored and ready for shipment.
+[C]
+  1. [NA] Retrieve an identification tag (RFID or label) from its designated location.
+  2. [PD] Verify the tag's readability and unique identifier.
+  3. [NA] Retrieve the item or container to be tagged.
+  4. [ME] Position the identification tag on the designated location of the item.
+  5. [ME] Secure the tag to the item using appropriate adhesive or fastening method.
+  6. [FV] Verify the tag is securely attached and readable.
+  7. [IC] Record the tag identifier and corresponding item information in the inventory system.
+[D]
+  1. [NA] Retrieve an identification tag (RFID or label) from the designated storage area.
+  2. [PD] Scan the identification tag to verify its unique identifier or generate a new one using the warehouse management system.
+  3. [NA] Retrieve the product, item, or container from its current location.
+  4. [ME] Position the identification tag on the item at the designated location.
+  5. [ME] Secure the identification tag to the item using an appropriate method (e.g., adhesive, stapling, or using a tag dispenser).
+  6. [FV] Verify the identification tag is securely attached, readable, and matches the item's information.
+  7. [FV] Record the identification tag's identifier and item's information in the inventory system.
+  8. [NA] Place the identified item in the designated storage area or on the next processing stage (e.g., conveyor belt).
+  9. [IC] Repeat steps 3-8 for the remaining items until the batch is complete.
+
+--- Task 307: Present work to clients for approval.
+[A]
+  1. [IC] The designer reviews the client's feedback from previous meetings to understand their expectations and preferences.
+  2. [NA] The designer arrives at the client's office, greets the client, and sets up the presentation equipment in the conference room.
+  3. [IC] The designer introduces the project, briefly recaps the client's initial requirements, and engages in small talk to build rapport.
+  4. [ME] The designer presents the logo design, using visual aids and explaining the rationale behind each design decision.
+  5. [PD] The designer actively listens to the client's feedback, asking clarifying questions to understand their perspective.
+  6. [ME] The designer addresses the client's concerns and makes real-time adjustments to the logo design based on the feedback.
+  7. [NA] The designer shows the revised logo design to the client, ensuring they can see the changes made.
+  8. [FV] The designer confirms the client's approval and summarizes the next steps.
+[B]
+  1. [IC] Review client feedback from previous meetings to understand their expectations and preferences.
+  2. [NA] Set up presentation equipment in the conference room.
+  3. [NA] Load presentation slides onto the projector and ensure they are in the correct order.
+  4. [IC] Begin the presentation, introducing the marketing campaign and highlighting key features and benefits.
+  5. [PD] Show the client the design concept, using visual aids and examples to illustrate the key features and benefits.
+  6. [FV] Listen to the client's feedback on the design concept, highlighting areas of approval and areas for revision.
+  7. [ME] Make revisions to the design concept based on the client's feedback, ensuring they meet the client's expectations.
+  8. [IC] Present the revised design concept to the client, highlighting the changes made and the benefits of the revised design.
+  9. [FV] Ask the client if they're satisfied with the design or if they have further feedback, and summarize the next steps.
+[C]
+  1. [IC] Gather all necessary materials: digital presentation, printed logo samples.
+  2. [NA] Arrive at the client's office, greet the client, and set up the presentation equipment.
+  3. [IC] Briefly recap the project goals and the client's initial requirements.
+  4. [ME] Present the digital logo design, highlighting key features and explaining design choices.
+  5. [ME] Provide printed logo samples for the client to examine closely.
+  6. [FV] Actively listen to the client's feedback, asking clarifying questions to ensure understanding.
+  7. [ME] Discuss potential revisions based on the client's feedback, proposing solutions and addressing concerns.
+  8. [FV] Summarize the agreed-upon design and confirm the client's final approval.
+[D]
+  1. [IC] Review client's previous feedback to understand expectations and preferences.
+  2. [IC] Arrive at the client's office, greet them professionally, and confirm the meeting's purpose.
+  3. [NA] Set up presentation equipment, including laptop, projector, and any necessary visual aids.
+  4. [IC] Introduce the project, recap initial requirements, and explain the design process and rationale.
+  5. [ME] Present the logo design using both printed mockup and digital display, highlighting key design elements.
+  6. [PD] Listen actively to the client's initial verbal feedback, focusing on both positive and critical comments.
+  7. [IC] Ask clarifying questions to ensure understanding of the client's feedback, if necessary.
+  8. [ME] Make real-time adjustments to the logo design based on the client's feedback, using design software tools.
+  9. [NA] Show the revised logo design to the client, ensuring they can see the changes made.
+  10. [FV] Ask the client if they're satisfied with the design, summarize the next steps, and confirm their approval.
+
+--- Task 308: Answer customer questions about goods or services.
+[A]
+  1. [IC] Greet the customer and ask how they can be assisted.
+  2. [IC] Listen to the customer's questions and ask clarifying questions if needed.
+  3. [NA] Retrieve relevant product information from the CRM system or inventory.
+  4. [PD] Review and understand the product specifications and features related to the customer's questions.
+  5. [ME] Explain the relevant features and specifications of the product to the customer.
+  6. [IC] Answer any follow-up questions the customer may have.
+  7. [ME] Offer additional resources or support if needed.
+  8. [FV] Confirm the customer's satisfaction with the information provided.
+  9. [FV] Thank the customer for their call or visit and end the conversation.
+[B]
+  1. [IC] Greet the customer with a friendly demeanor and offer assistance.
+  2. [IC] Actively listen to the customer's needs and preferences regarding a smartphone.
+  3. [NA] Retrieve information about relevant smartphone models from the store's inventory system.
+  4. [IC] Clearly explain the features and benefits of each recommended smartphone model.
+  5. [ME] Demonstrate the functionality of a chosen smartphone model to the customer.
+  6. [IC] Answer any further questions the customer may have about the chosen model.
+  7. [FV] Confirm the customer's decision and guide them towards the point of purchase.
+[C]
+  1. [IC] Greet the customer and ask how they can be assisted.
+  2. [IC] Actively listen to the customer's question, clarifying if needed.
+  3. [NA] Retrieve relevant product information from memory or a database.
+  4. [ME] Explain the relevant features and specifications to the customer.
+  5. [IC] Answer any follow-up questions the customer may have.
+  6. [FV] Confirm customer satisfaction and offer additional assistance if needed.
+[D]
+  1. [IC] Greet the customer and initiate the interaction.
+  2. [IC] Listen actively to the customer's questions and clarify if necessary.
+  3. [PD] Access relevant product information from memory, manuals, or databases.
+  4. [ME] Provide clear and accurate responses to the customer's questions.
+  5. [FV] Check if the customer has any further questions or concerns.
+  6. [ME] Document the interaction and update relevant records or databases.
+  7. [IC] End the interaction, closing the phone call or in-person conversation.
+
+--- Task 309: Evaluate environmental impact of operational or development activities.
+[A]
+  1. [IC] Review project documents and regulations to understand the scope and potential environmental impacts.
+  2. [NA] Use GIS software to analyze the project site's location, topography, and surrounding ecosystems.
+  3. [PD] Conduct a site visit to observe the terrain, flora, fauna, and water quality firsthand.
+  4. [PD] Collect soil, water, and air samples for laboratory analysis.
+  5. [PD] Analyze laboratory results and compare them with baseline environmental data.
+  6. [PD] Identify potential environmental impacts, such as deforestation, habitat loss, or water quality degradation.
+  7. [ME] Develop and implement a plan to mitigate the identified environmental impacts, including measures to reduce water usage, energy consumption, and waste generation.
+  8. [ME] Compile all findings, proposed mitigation strategies, and cost estimates into a comprehensive report.
+  9. [FV] Present the report to project stakeholders and answer questions about the findings and proposed mitigation strategies.
+  10. [FV] Obtain sign-off from stakeholders, indicating that they have understood and accepted the report's findings and proposed mitigation strategies.
+[B]
+  1. [IC] Review project proposal and operational plans to understand the scope and nature of the manufacturing activities.
+  2. [NA] Locate and access relevant environmental databases and regulatory guidelines for the area near the river.
+  3. [PD] Conduct site visits to observe the current environmental conditions and gather baseline data.
+  4. [PD] Collect water and soil samples from the river and surrounding areas for laboratory analysis.
+  5. [PD] Analyze the collected data to identify potential environmental impacts such as water pollution, air quality degradation, and habitat disruption.
+  6. [ME] Model the potential environmental impacts using software tools to simulate the effects of the manufacturing activities.
+  7. [ME] Compile the findings into a detailed environmental impact assessment report.
+  8. [FV] Review the report for accuracy and completeness, ensuring all potential environmental impacts are addressed.
+  9. [FV] Present the environmental impact assessment report to stakeholders, including the project developers and local environmental agencies.
+  10. [FV] Deliver the final environmental impact assessment report to the project developers and local authorities.
+[C]
+  1. [IC] Review project documents, regulations, and operational plans to understand the scope, timeline, and potential environmental impacts.
+  2. [PD] Conduct a site visit to observe existing environmental conditions, identify sensitive areas, and document baseline data.
+  3. [PD] Collect environmental data (soil, water, air samples) and utilize GIS software to analyze the project site's location, topography, and surrounding ecosystems.
+  4. [ME] Analyze collected data, compare with baseline environmental data, and use environmental modeling software to predict potential impacts.
+  5. [PD] Identify potential environmental impacts based on data analysis and modeling, categorizing them by type and severity.
+  6. [ME] Develop and propose mitigation strategies for each identified environmental impact, considering feasibility and cost-effectiveness.
+  7. [FV] Compile all findings, proposed mitigation strategies, cost estimates, and supporting data into a comprehensive environmental impact assessment report.
+  8. [FV] Present the report to project stakeholders, regulatory agencies, and local communities, addressing questions and concerns.
+[D]
+  1. [IC] Review project documents, regulations, and existing environmental data to understand the scope, nature, and potential impacts of the operational or development activities.
+  2. [NA] Use GIS software and other relevant tools to analyze the project site's location, topography, surrounding ecosystems, and existing environmental conditions.
+  3. [PD] Conduct site visits to observe the terrain, flora, fauna, water quality, and other relevant environmental factors firsthand.
+  4. [ME] Collect soil, water, air, and other relevant samples for laboratory analysis, as well as document baseline environmental data.
+  5. [PD] Analyze laboratory results and compare them with baseline environmental data to identify potential environmental impacts.
+  6. [PD] Identify potential environmental impacts, such as air and water pollution, habitat destruction, climate change, and other relevant factors.
+  7. [ME] Propose and develop mitigation strategies for each identified environmental impact, considering best practices and stakeholder input.
+  8. [ME] Estimate the cost and feasibility of each mitigation strategy, and consult with stakeholders to refine and finalize the plans.
+  9. [FV] Compile all findings, proposed mitigation strategies, cost estimates, and other relevant information into a comprehensive environmental impact assessment report.
+  10. [FV] Present the report to project stakeholders, regulatory agencies, and other relevant parties, and answer questions about the findings and proposed mitigation strategies.
+  11. [FV] Obtain sign-off from stakeholders, indicating that they have understood and accepted the report's findings and proposed mitigation strategies.
+
+--- Task 310: Verify employee information.
+[A]
+  1. [NA] Retrieve the employee's onboarding file from the HR database.
+  2. [PD] Review the employee's provided identification documents and employment history.
+  3. [PD] Cross-reference the employee's provided qualifications with official certification databases.
+  4. [ME] Verify the employee's contact information by sending a test email and making a test phone call.
+  5. [ME] Document the verification results in the employee's file.
+  6. [PD] Review the entire file for any discrepancies or missing information.
+  7. [FV] Finalize the employee's file and notify the hiring manager that the information has been verified.
+[B]
+  1. [NA] Retrieve the employee's onboarding file from the HR database.
+  2. [PD] Review the employee's provided resume and employment history.
+  3. [IC] Contact previous employers listed in the resume for verification.
+  4. [IC] Listen to the previous employer's verbal confirmation of employment details.
+  5. [ME] Document the confirmation details in the employee's file.
+  6. [PD] Cross-reference the employee's provided qualifications with official certification databases.
+  7. [ME] Verify the employee's contact information by sending a test email and making a test phone call.
+  8. [ME] Document the results of the contact verification in the employee's file.
+  9. [PD] Review the entire file for any discrepancies or missing information.
+  10. [FV] Finalize the employee's file and notify the hiring manager that the information has been verified.
+[C]
+  1. [IC] Receive digital copies of the new hire's identification documents (driver's license, passport, etc.) via secure email.
+  2. [NA] Open the identification documents using the company's approved document viewing software.
+  3. [PD] Visually inspect each document for signs of tampering, such as altered text, inconsistent fonts, or unusual watermarks.
+  4. [PD] Cross-reference the information on the documents (name, date of birth, address) with the new hire's application form.
+  5. [ME] Utilize a secure online database to verify the authenticity of the documents against government records.
+  6. [FV] Record the verification results (pass/fail) in the company's HR system.
+  7. [FV] Send a confirmation email to the new hire indicating the status of their employment verification.
+[D]
+  1. [NA] Retrieve the employee's onboarding file from the HR database.
+  2. [PD] Review the employee's provided resume, employment history, and ID documents for consistency.
+  3. [IC] Contact previous employers listed in the resume for employment verification.
+  4. [PD] Cross-reference the employee's provided qualifications with official certification databases.
+  5. [ME] Verify the employee's contact information by sending a test email and making a test phone call.
+  6. [ME] Document the results of employment and contact verifications in the employee's file.
+  7. [PD] Review the entire file for any discrepancies, missing information, or potential issues.
+  8. [ME] Update the HR management system, payroll system, and benefits system with verified employee information.
+  9. [FV] Send a confirmation email to the employee and relevant stakeholders, notifying them of the completed verification process.
+  10. [FV] Document the entire employee information verification process, including any issues or challenges encountered.
+
+--- Task 311: Determine methods to minimize environmental impact of activities.
+[A]
+  1. [PD] Review facility's historical energy and waste data to understand current environmental impact.
+  2. [NA] Conduct a walkthrough of the facility to observe operations and identify potential emission sources.
+  3. [IC] Interview facility managers and staff to gather insights on current practices and challenges.
+  4. [PD] Research and evaluate potential sustainability measures, considering both environmental and economic impacts.
+  5. [ME] Prioritize identified measures based on potential environmental impact, implementation cost, and feasibility.
+  6. [FV] Prepare a report outlining the findings, recommended measures, and estimated environmental and economic benefits.
+  7. [IC] Present the report to the facility manager and key staff, answering questions and discussing implementation strategies.
+  8. [IC] Facilitate a workshop with staff to gather input on implementation and develop an action plan.
+  9. [FV] Follow up with facility management to ensure recommended measures are being considered for implementation.
+[B]
+  1. [IC] Conduct an initial site visit to observe the plant's operations and identify potential environmental impact areas.
+  2. [IC] Review the plant's current environmental impact reports and compliance records.
+  3. [IC] Conduct interviews with plant managers and operators to understand current practices and challenges.
+  4. [PD] Identify key areas of environmental impact, such as emissions, waste management, and water usage.
+  5. [PD] Research and compile a list of potential mitigation methods, such as emission control technologies and waste recycling programs.
+  6. [PD] Evaluate the feasibility and cost-effectiveness of each mitigation method.
+  7. [ME] Develop a detailed plan outlining recommended mitigation methods and their implementation steps.
+  8. [ME] Present the plan to plant management and discuss potential challenges and solutions.
+  9. [ME] Collaborate with plant management to finalize the mitigation plan and secure approval.
+  10. [FV] Deliver the final mitigation plan to plant management and provide initial training on implementation.
+[C]
+  1. [NA] Conduct a walkthrough of the facility to observe operations and identify potential emission sources.
+  2. [PD] Review facility's historical energy and waste data to understand current environmental impact.
+  3. [IC] Interview facility managers and staff to gather insights on current practices and challenges.
+  4. [PD] Research and evaluate potential sustainability measures, considering both environmental and economic impacts.
+  5. [ME] Prioritize identified measures based on potential environmental impact, implementation cost, and feasibility.
+  6. [FV] Prepare a report outlining the findings, recommended measures, and estimated environmental and economic benefits.
+  7. [IC] Present the report to the facility manager and key staff, answering questions and discussing implementation strategies.
+[D]
+  1. [PD] Review facility's historical energy and waste data, and conduct a walkthrough to understand current environmental impact and identify potential emission sources.
+  2. [IC] Interview facility managers and staff to gather insights on current practices, challenges, and perspectives on sustainability.
+  3. [ME] Use specialized software to model the facility's energy and waste flows, identifying major contributors to environmental impact.
+  4. [PD] Research and evaluate potential sustainability measures, considering both environmental and economic impacts.
+  5. [ME] Prioritize identified measures based on potential environmental impact, implementation cost, and feasibility.
+  6. [FV] Prepare a report outlining the findings, recommended measures, estimated environmental and economic benefits, and an implementation action plan.
+  7. [IC] Present the report to the facility manager and key staff, answering questions, discussing implementation strategies, and facilitating a workshop to gather input on implementation.
+  8. [FV] Follow up with facility management to ensure recommended measures are being considered for implementation and document the audit process, findings, and recommendations in the facility's sustainability record.
+
+--- Task 312: Coordinate operational activities with external stakeholders.
+[A]
+  1. [IC] Review the project schedule and identify key stakeholders involved in the operational activities.
+  2. [IC] Create a list of communication channels and protocols for each stakeholder.
+  3. [NA] Schedule a meeting with key stakeholders to discuss the project timeline and requirements.
+  4. [PD] Monitor the progress of operational activities and address any issues or concerns raised by stakeholders.
+  5. [ME] Coordinate with stakeholders to implement any necessary adjustments to the operational plan.
+  6. [FV] Confirm the successful completion of the operational activities with all stakeholders.
+  7. [FV] Document the project, including any lessons learned, for future reference and continuous improvement.
+[B]
+  1. [IC] Review the project schedule and identify key stakeholders involved in the operational activities.
+  2. [IC] Create a list of communication channels and protocols for each stakeholder.
+  3. [NA] Schedule meetings with stakeholders to discuss the project timeline and requirements.
+  4. [NA] Send a detailed project schedule to all stakeholders, highlighting key milestones and deadlines.
+  5. [PD] Conduct site visits to inspect operational activities and address any concerns or issues raised by stakeholders.
+  6. [PD] Document and share lessons learned from site visits with all stakeholders, highlighting areas for improvement.
+  7. [ME] Develop a contingency plan to address potential delays or issues that may arise during the operational activities.
+  8. [ME] Collaborate with stakeholders to implement the contingency plan and ensure the project stays on track.
+  9. [FV] Verify that all stakeholders are satisfied with the project outcome and that the operational activities meet the required standards.
+  10. [FV] Document the project, including any lessons learned, for future reference and to improve future projects.
+[C]
+  1. [IC] Review the project schedule and identify key stakeholders involved in the operational activities.
+  2. [IC] Establish communication channels and protocols for each stakeholder.
+  3. [NA] Schedule and conduct a kickoff meeting with all stakeholders to discuss project goals, timelines, and responsibilities.
+  4. [IC] Communicate updates and any changes to the project plan to all stakeholders in a timely manner.
+  5. [PD] Monitor progress, identify potential roadblocks, and proactively address issues with relevant stakeholders.
+  6. [FV] Document decisions, agreements, and any changes made throughout the project lifecycle.
+  7. [FV] Conduct a final review meeting with stakeholders to confirm project completion, address any outstanding concerns, and gather feedback for future improvement.
+[D]
+  1. [IC] Review project schedule and identify key stakeholders involved in the delivery/installation process.
+  2. [IC] Establish communication channels and protocols for each stakeholder, including email, phone, and in-person meetings.
+  3. [NA] Contact suppliers/manufacturers to confirm delivery dates, quantities, and any specific installation requirements.
+  4. [NA] Coordinate with logistics companies and utility companies (if applicable) to schedule deliveries and connections.
+  5. [IC] Schedule a meeting with all stakeholders to discuss the project timeline, requirements, and address any concerns.
+  6. [NA] Send a detailed project schedule and summary of stakeholder coordination efforts to all parties involved.
+  7. [PD] Monitor delivery/installation progress and address any issues that arise, coordinating with stakeholders as needed.
+  8. [PD] Conduct site visits to inspect deliveries/installations and address any discrepancies or issues with stakeholders.
+  9. [FV] Confirm successful delivery/installation with all stakeholders and document the project, including lessons learned.
+
+================================================================
+ANSWER TEMPLATE
+
+305: _ | 
+306: _ | 
+307: _ | 
+308: _ | 
+309: _ | 
+310: _ | 
+311: _ | 
+312: _ | 
+

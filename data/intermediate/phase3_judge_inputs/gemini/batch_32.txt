@@ -1,0 +1,361 @@
+BATCH 32/63 | Model: Gemini 3 Pro | Tasks 249-256
+================================================================
+EXPERT REVIEW -- Micro-Action Sequence Evaluation
+For each task, read ALL four options, then choose the BEST (A/B/C/D).
+
+Criteria:
+  1. Completeness  -- no critical steps missing
+  2. Realism       -- every step is concretely executable
+  3. Stage accuracy -- stage label correct for each step:
+     IC=Intent_Communication  NA=Navigation_Addressing
+     PD=Perception_Diagnosis  ME=Manipulation_Execution  FV=Feedback_Verification
+  4. Conciseness   -- no redundant or duplicate steps
+  5. Scope         -- starts and ends at exactly the right point
+
+OUTPUT: fill the ANSWER TEMPLATE at the bottom.
+Format: N: X | one-sentence reason (max 12 words)
+IMPORTANT: Each task has a different best answer. Do NOT pick the same
+letter for every task without reading.
+================================================================
+
+--- Task 249: Refer clients to community or social service programs.
+[A]
+  1. [IC] Greet the client, introduce yourself, and actively listen to their story, concerns, and immediate needs.
+  2. [IC] Ask clarifying questions to understand the client's specific circumstances (e.g., income level, family size, location).
+  3. [NA] Access the organization's database or online directory of community resources to find relevant programs.
+  4. [PD] Identify and select the most appropriate programs based on the client's needs and eligibility criteria.
+  5. [ME] Explain the selected programs to the client, detailing the benefits, eligibility requirements, and application process.
+  6. [ME] Provide the client with written information or printouts about the programs, including contact details and any necessary forms.
+  7. [IC] Answer any questions the client has about the referrals or other support services.
+  8. [FV] Confirm the client understands the next steps and feels confident in accessing the recommended resources.
+  9. [FV] Document the referrals in the client's file, noting the programs referred to, the dates, and any follow-up actions needed.
+[B]
+  1. [IC] Actively listen to the client's story, concerns, and immediate needs.
+  2. [IC] Ask clarifying questions to understand the client's specific circumstances (e.g., income level, family size, location).
+  3. [NA] Access the organization's database or online directory of community resources.
+  4. [PD] Identify programs that align with the client's needs based on eligibility criteria and service offerings.
+  5. [IC] Clearly explain the purpose, eligibility requirements, and application process for each recommended program.
+  6. [ME] Provide the client with contact information (phone numbers, website addresses, physical addresses) for the selected programs.
+  7. [IC] Answer any questions the client may have about the programs or the referral process.
+  8. [FV] Confirm the client understands the next steps and feels confident in accessing the recommended resources.
+[C]
+  1. [IC] Greet the client, introduce yourself, and explain the purpose of the meeting.
+  2. [IC] Actively listen to the client's story, concerns, and immediate needs. Ask clarifying questions to understand their specific circumstances.
+  3. [NA] Access the organization's database or online directory of community resources and identify programs that align with the client's needs based on eligibility criteria and service offerings.
+  4. [ME] Clearly explain the purpose, eligibility requirements, and application process for each recommended program to the client.
+  5. [ME] Provide the client with contact information (phone numbers, website addresses, physical addresses) for the selected programs and any necessary forms.
+  6. [FV] Answer any questions the client may have about the programs or the referral process and confirm the client understands the next steps and feels confident in accessing the recommended resources.
+[D]
+  1. [IC] Review the client's file to understand their background, needs, and any previous referrals.
+  2. [IC] Greet the client, introduce yourself, and explain the purpose of the meeting.
+  3. [IC] Actively listen to the client's story, concerns, and immediate needs. Ask clarifying questions to understand their specific circumstances.
+  4. [NA] Access the organization's database or online directory of community resources.
+  5. [PD] Identify programs that align with the client's needs based on eligibility criteria and service offerings.
+  6. [ME] Clearly explain the purpose, eligibility requirements, and application process for each recommended program.
+  7. [IC] Contact the selected programs to inform them about the client's referral and ensure they're expecting the client.
+  8. [FV] Provide the client with written information or printouts about the programs, including contact details and any necessary forms.
+  9. [IC] Answer any questions the client has about the referrals or other support services.
+  10. [FV] Document the referrals in the client's file, noting the programs referred to, the dates, and any follow-up actions needed.
+
+--- Task 250: Install equipment attachments or components.
+[A]
+  1. [IC] Review the work order and safety checklist to ensure the correct component and tools are available.
+  2. [NA] Locate the installation point on the equipment using provided schematics or markings.
+  3. [PD] Inspect the installation area for any damage or debris and clean it if necessary.
+  4. [ME] Align the component with the mounting points and secure it using the provided hardware.
+  5. [ME] Tighten bolts to the specified torque value using a torque wrench.
+  6. [ME] Connect any necessary electrical or pneumatic lines to the component.
+  7. [ME] Secure and route cables neatly to avoid interference.
+  8. [FV] Test the equipment by running it at a low speed to check for any signs of misalignment or instability.
+  9. [IC] Document the installation, updating the system's maintenance records, and sign off on the work order.
+[B]
+  1. [IC] Review the work order and safety checklist, ensuring the correct component and tools are available.
+  2. [NA] Locate the installation point on the conveyor system, using the existing markings and blueprints as reference.
+  3. [ME] Safely secure the conveyor system to prevent movement during installation.
+  4. [ME] Remove the old component, if any, using the appropriate tools and following safety procedures.
+  5. [PD] Inspect the installation area for any damage or debris, and clean it if necessary.
+  6. [ME] Position the new component at the installation point, ensuring it is aligned correctly.
+  7. [ME] Apply the correct torque using a torque wrench to secure the component in place.
+  8. [FV] Test the conveyor system by running it at a low speed, checking for any signs of misalignment or instability.
+  9. [PD] Inspect the installation area again, ensuring all tools and materials are accounted for and the work area is clean.
+  10. [IC] Document the installation, updating the system's maintenance records, and sign off on the work order.
+[C]
+  1. [NA] Retrieve the equipment attachment and all necessary tools.
+  2. [NA] Locate the designated mounting point on the equipment.
+  3. [PD] Align the attachment with the mounting point.
+  4. [ME] Secure the attachment using bolts, screws, or other fasteners, applying the correct torque.
+  5. [ME] Connect any necessary cables or hoses, ensuring secure connections.
+  6. [FV] Verify the stability and functionality of the installed attachment.
+  7. [IC] Document the installation process, including any observations or adjustments made.
+[D]
+  1. [IC] Review the work order, safety checklist, and ensure the correct component, tools, and materials are available.
+  2. [NA] Retrieve the component and necessary tools from the storage area.
+  3. [NA] Locate the installation point on the equipment, using existing markings and blueprints as reference.
+  4. [ME] Safely secure the equipment to prevent movement during installation.
+  5. [ME] Remove any existing component, if applicable, using the appropriate tools and following safety procedures.
+  6. [PD] Inspect the installation area for any damage or debris, and clean it if necessary.
+  7. [ME] Position the new component at the installation point, ensuring it is aligned correctly.
+  8. [ME] Secure the component in place using the appropriate hardware and apply the correct torque using a torque wrench.
+  9. [FV] Test the equipment by running it at a low speed, checking for any signs of misalignment or instability.
+  10. [PD] Inspect the installation area again, ensuring all tools and materials are accounted for and the work area is clean.
+  11. [IC] Document the installation, updating the equipment's maintenance records, and sign off on the work order.
+
+--- Task 251: Escort prisoners to courtrooms, prisons, or other facilities.
+[A]
+  1. [IC] The corrections officer reviews the prisoner's file and confirms the prisoner's identity and destination with the holding cell officer.
+  2. [ME] The corrections officer secures the prisoner's handcuffs and conducts a visual inspection of the prisoner's person and belongings to ensure they are not hiding any prohibited items.
+  3. [NA] The corrections officer leads the prisoner out of the holding cell and through the secured checkpoints, presenting identification and paperwork to the guards.
+  4. [NA] The corrections officer navigates the prisoner through the public areas, maintaining a safe distance and preventing interaction with others.
+  5. [ME] The corrections officer escorts the prisoner to the transport vehicle and secures the prisoner inside, ensuring all restraints are in place.
+  6. [NA] The corrections officer navigates the transport vehicle to the destination, maintaining control of the prisoner and ensuring their safety.
+  7. [ME] The corrections officer leads the prisoner to the designated courtroom or holding area and secures the prisoner in the designated area.
+  8. [IC] The corrections officer verbally confirms the prisoner's presence with the court bailiff and completes any necessary paperwork or documentation.
+  9. [FV] The corrections officer verifies that all security protocols have been followed and that the prisoner is safely seated and secured.
+[B]
+  1. [IC] Verify prisoner identity against paperwork and visually confirm no contraband.
+  2. [ME] Unlock the holding cell door, instruct the prisoner to exit, and maintain a secure position behind them.
+  3. [NA] Escort the prisoner through the first secured checkpoint, presenting identification and paperwork to the guard.
+  4. [NA] Guide the prisoner through the public hallway, maintaining a safe distance and preventing interaction with others.
+  5. [ME] Direct the prisoner to stand in a designated area near the courtroom door.
+  6. [IC] Verbally confirm the prisoner's presence with the court bailiff.
+  7. [FV] Return to the holding cell area, securing the area and documenting the escort completion.
+[C]
+  1. [IC] Verify prisoner identity against paperwork and visually confirm no contraband.
+  2. [ME] Unlock the holding cell door, instruct the prisoner to exit, and maintain a secure position behind them.
+  3. [NA] Escort the prisoner through secure checkpoints, presenting identification and paperwork to guards.
+  4. [NA] Guide the prisoner through public hallways, maintaining a safe distance and preventing interaction with others.
+  5. [NA] Escort the prisoner to the designated courtroom area.
+  6. [ME] Secure the prisoner in the designated area (handcuffs, leg restraints as needed) ensuring they are secure but not too restrictive.
+  7. [IC] Verbally confirm the prisoner's presence with the court bailiff.
+  8. [FV] Document the escort completion according to protocol.
+[D]
+  1. [IC] Verify prisoner's identity and check for contraband against paperwork.
+  2. [ME] Secure the prisoner's hands with handcuffs, ensuring they are tight but not too restrictive.
+  3. [NA] Escort the prisoner out of the cell and through secured checkpoints, maintaining constant supervision.
+  4. [PD] Review the escort route, traffic conditions, and potential security threats before departure.
+  5. [NA] Navigate the prisoner through the designated route to the courtroom, avoiding obstacles and maintaining safety.
+  6. [FV] Upon reaching the courtroom, verify the prisoner's presence with the court bailiff and secure them to the designated area.
+  7. [FV] Signal to the bailiff that the prisoner is secure and ready for the hearing to begin.
+
+--- Task 252: Establish treatment goals.
+[A]
+  1. [IC] The therapist greets the patient, introduces themselves, and explains the purpose of the meeting.
+  2. [PD] The therapist reviews the patient's medical records and previous assessments to understand the current condition and history.
+  3. [PD] The therapist conducts a physical assessment of the patient to evaluate range of motion, strength, and pain levels.
+  4. [IC] The therapist and patient discuss the patient's personal aspirations and desired outcomes for their treatment.
+  5. [ME] Together, the therapist and patient brainstorm potential goals, considering the patient's abilities, limitations, and aspirations.
+  6. [ME] The therapist helps the patient refine the brainstormed goals into 3-5 SMART goals.
+  7. [FV] The therapist and patient verbally confirm their agreement on the final set of treatment goals.
+  8. [FV] The therapist documents the agreed-upon treatment goals in the patient's medical record.
+[B]
+  1. [PD] Review the patient's medical records and surgical report to understand the current condition and history.
+  2. [PD] Conduct a physical assessment of the patient's knee to evaluate range of motion, strength, and pain levels.
+  3. [IC] Discuss the patient's pain levels, daily activities, and personal goals with the patient.
+  4. [ME] Collaboratively set specific, measurable goals for the next 6 weeks, such as increasing range of motion by 30 degrees and reducing pain levels by 50%.
+  5. [FV] Document the agreed-upon treatment goals in the patient's medical record.
+  6. [IC] Explain the treatment plan and the steps the patient will take to achieve the goals, including exercises and activities.
+  7. [FV] Review the goals and plan together to ensure mutual understanding and agreement.
+  8. [FV] Deliver the documented treatment goals and plan to the patient and any relevant healthcare providers.
+[C]
+  1. [PD] The therapist reviews the patient's medical records and previous assessment notes.
+  2. [IC] The therapist discusses the patient's current condition, symptoms, and desired outcomes.
+  3. [ME] The therapist and patient collaboratively brainstorm potential goals, considering the patient's abilities, limitations, and aspirations.
+  4. [ME] The therapist helps the patient refine the brainstormed goals into 3-5 SMART goals.
+  5. [FV] The therapist and patient verbally confirm their agreement on the final set of treatment goals.
+  6. [FV] The therapist documents the agreed-upon treatment goals in the patient's medical record.
+[D]
+  1. [PD] Review the patient's medical records and previous assessment notes to understand their current condition and history.
+  2. [IC] Greet the patient, introduce yourself, and explain the purpose of the meeting.
+  3. [PD] Ask the patient to describe their current symptoms, any previous treatments, and their personal aspirations and desired outcomes.
+  4. [IC] Ask clarifying questions to better understand the patient's condition, needs, and goals.
+  5. [FV] Explain the patient's current health status and any potential diagnoses based on the information gathered.
+  6. [ME] Discuss potential treatment options and their pros and cons with the patient.
+  7. [ME] Work with the patient to set specific, measurable, achievable, relevant, and time-bound (SMART) treatment goals.
+  8. [FV] Summarize the agreed-upon treatment goals and next steps, and document them in the patient's record.
+
+--- Task 253: Direct security operations.
+[A]
+  1. [IC] The security manager reviews the security plan for the VIP visit, ensuring all contingencies are covered.
+  2. [IC] The manager communicates the plan to all security teams, providing detailed instructions and roles.
+  3. [NA] The manager navigates to the central command center to monitor all surveillance systems.
+  4. [PD] The manager activates and checks the functionality of all surveillance systems.
+  5. [PD] The manager monitors the surveillance feeds for any unusual activity or potential threats.
+  6. [IC] Upon detecting a potential threat, the manager communicates with the relevant security team to address the situation.
+  7. [ME] The manager coordinates the deployment of security personnel to the identified threat location.
+  8. [FV] The manager monitors the response to ensure the threat is neutralized and the situation is under control.
+  9. [IC] The manager updates the VIP and other stakeholders on the security status and any actions taken.
+  10. [FV] The manager continues to monitor the situation until the VIP visit concludes and all security teams are stood down.
+[B]
+  1. [IC] Review the security plan for the VIP visit, ensuring all contingencies are covered.
+  2. [IC] Communicate the plan to all security teams, providing detailed instructions and roles.
+  3. [NA] Navigate to the central command center to monitor all surveillance systems.
+  4. [PD] Activate and check the functionality of all surveillance systems.
+  5. [PD] Monitor the surveillance feeds for any unusual activity or potential threats.
+  6. [IC] Communicate with the relevant security team to address the situation upon detecting a potential threat.
+  7. [ME] Coordinate the deployment of security personnel to the identified threat location.
+  8. [FV] Monitor the response to ensure the threat is neutralized and the situation is under control.
+  9. [IC] Update the VIP and other stakeholders on the security status and any actions taken.
+  10. [FV] Continue to monitor the situation until the VIP visit concludes and all security teams are stood down.
+[C]
+  1. [IC] Review the security plan for the VIP visit, ensuring all contingencies are covered.
+  2. [IC] Communicate the plan to all security teams, providing detailed instructions and roles.
+  3. [NA] Navigate to the central command center to monitor all surveillance systems.
+  4. [ME] Activate and check the functionality of all surveillance systems.
+  5. [PD] Monitor surveillance feeds for any unusual activity or potential threats.
+  6. [IC] Upon detecting a potential threat, communicate with the relevant security team to address the situation.
+  7. [ME] Coordinate the deployment of security personnel to the identified threat location.
+  8. [FV] Monitor the response to ensure the threat is neutralized and the situation is under control.
+  9. [IC] Update the VIP and other stakeholders on the security status and any actions taken.
+[D]
+  1. [IC] Review and finalize the security plan for the VIP visit, ensuring all contingencies are covered.
+  2. [IC] Communicate the security plan to all security teams, providing detailed instructions and roles.
+  3. [NA] Navigate to the central command center and activate all surveillance systems, checking their functionality.
+  4. [PD] Monitor surveillance feeds for any unusual activity or potential threats, assessing the situation.
+  5. [IC] Upon detecting a potential threat, communicate with the relevant security team to address the situation.
+  6. [ME] Coordinate the deployment of security personnel to the identified threat location.
+  7. [FV] Monitor the response to ensure the threat is neutralized and the situation is under control.
+  8. [IC] Update the VIP and other stakeholders on the security status and any actions taken.
+  9. [FV] Continue to monitor the situation until the VIP visit concludes and all security teams are stood down.
+
+--- Task 254: Install safety or support equipment.
+[A]
+  1. [PD] Inspect the delivery of pre-fabricated railing sections and necessary hardware (brackets, bolts, anchors) for damage and ensure all necessary hardware is present.
+  2. [NA] Measure and mark the precise location for each railing post on the installation surface.
+  3. [ME] Drill pilot holes into the installation surface at the marked locations and insert concrete anchors.
+  4. [ME] Align and secure railing posts to the anchors using bolts and wrenches.
+  5. [ME] Attach railing sections to the posts, ensuring they are level and securely fastened.
+  6. [FV] Inspect the completed railing for stability and adherence to safety regulations.
+  7. [FV] Apply a horizontal force of at least 200 lbs to the railing at various points to test its strength and stability.
+  8. [IC] Document the installation, noting any issues or anomalies, and sign off on the completion of the task.
+[B]
+  1. [IC] Review the safety manual and manufacturer's instructions for the equipment to understand the installation requirements and potential hazards.
+  2. [NA] Gather all necessary tools and equipment and transport them to the installation site.
+  3. [NA] Locate the designated installation point and ensure it is clear of any obstructions or hazards.
+  4. [ME] Drill pilot holes into the concrete steps or steel beam, ensuring they align with the railing's mounting holes.
+  5. [ME] Insert concrete anchors or anchor bolts into the drilled holes and secure them using a wrench.
+  6. [ME] Align and secure railing posts to the anchors or attach railing sections to the posts, ensuring they are level and securely fastened.
+  7. [FV] Inspect the completed railing for stability and adherence to safety regulations.
+  8. [FV] Apply a horizontal force of at least 200 lbs to the railing at various points to test its strength and stability.
+  9. [IC] Document the installation, noting any issues or anomalies, and sign off on the completion of the task.
+[C]
+  1. [IC] Review installation instructions and safety guidelines for the specific equipment.
+  2. [NA] Gather all necessary tools and equipment, verifying their functionality.
+  3. [NA] Identify the installation location and prepare the area, ensuring it's clear and safe.
+  4. [ME] Position the first component according to the instructions, using measuring tools for accuracy.
+  5. [ME] Secure the component using appropriate fasteners, verifying tightness and stability.
+  6. [ME] Repeat steps 4 and 5 for remaining components, ensuring proper spacing and alignment.
+  7. [FV] Inspect the completed installation for stability, alignment, and adherence to safety standards.
+  8. [IC] Document the installation process, noting any deviations or observations.
+[D]
+  1. [PD] Inspect the equipment and installation site for any damage, obstructions, or hazards.
+  2. [NA] Gather all necessary tools, equipment, and hardware, and transport them to the installation site.
+  3. [NA] Locate and mark the precise positions for the equipment's anchors or posts using measurements and tools like measuring tapes and levels.
+  4. [ME] Drill pilot holes or insert anchors into the marked positions, as required by the equipment's installation requirements.
+  5. [ME] Secure the equipment's posts or anchors using bolts, screws, or other fasteners, ensuring they are tight but not overtightened.
+  6. [ME] Attach the equipment's main structure to the secured posts or anchors, ensuring it is level, plumb, and aligned.
+  7. [PD] Inspect the installed equipment for stability, security, and adherence to safety regulations, using tools like levels and force tests.
+  8. [IC] Document the installation process, noting any issues encountered, and sign off on the completion of the task.
+
+--- Task 255: Operate diagnostic or therapeutic medical instruments or equipment.
+[A]
+  1. [IC] Review the patient's medical history and treatment plan, ensuring understanding of the specific diagnostic or therapeutic procedure.
+  2. [ME] Prepare the medical instrument or equipment, setting appropriate parameters and ensuring it is ready for use.
+  3. [NA] Position the patient correctly on the equipment, ensuring they are comfortable and aligned for the procedure.
+  4. [ME] Perform the diagnostic or therapeutic procedure, monitoring the patient's condition and the equipment's operation.
+  5. [FV] Review the results or images obtained from the procedure to ensure diagnostic clarity or therapeutic efficacy.
+  6. [FV] Adjust the procedure parameters or perform additional scans if necessary to obtain clearer images or more effective treatment.
+  7. [FV] Document the findings, treatment details, and any deviations from the planned procedure in the patient's medical record.
+  8. [IC] Discuss the results and next steps with the patient, ensuring they understand the diagnosis and treatment plan.
+  9. [ME] Clean and prepare the equipment for the next patient, ensuring hygiene and maintenance standards are met.
+[B]
+  1. [IC] Review patient's chart and consult with physician regarding the specific area of the heart to be examined.
+  2. [ME] Prepare the ultrasound machine, selecting the appropriate transducer probe and adjusting settings based on the patient's size and condition.
+  3. [IC] Explain the procedure to the patient, ensuring they understand the process and positioning requirements.
+  4. [ME] Apply conductive gel to the patient's chest and position the transducer probe over the target area.
+  5. [PD] Adjust the probe angle and pressure in real-time, observing the ultrasound image on the screen and making adjustments to optimize visualization.
+  6. [ME] Capture still images and video clips of the heart's activity, ensuring all necessary views are obtained.
+  7. [ME] Clean the transducer probe and store the ultrasound machine, ensuring proper hygiene and equipment maintenance.
+  8. [IC] Review the patient's electronic health record (EHR) to understand their treatment plan, including the target location, dose, and number of fractions.
+  9. [NA] Position the patient on the treatment couch using the machine's laser guidance system, ensuring they are aligned with the isocenter.
+  10. [PD] Select the appropriate treatment beam energy and shape using the machine's control console, based on the patient's treatment plan.
+  11. [ME] Adjust the machine's multileaf collimator (MLC) to shape the radiation beam according to the target volume.
+  12. [FV] Verify the beam's shape and position using the machine's imaging systems, such as cone-beam CT or portal imaging.
+  13. [ME] Initiate the treatment sequence, monitoring the machine's operation and the patient's condition throughout the procedure.
+  14. [FV] Pause the treatment if necessary to address any issues, such as patient discomfort or machine malfunctions.
+  15. [IC] Upon completion of the fraction, document the treatment details in the patient's EHR, including any deviations from the planned treatment.
+  16. [ME] Clean and prepare the LINAC machine for the next patient, ensuring all safety protocols are followed.
+  17. [IC] Check in with the patient to ensure they are comfortable and understand any post-treatment instructions.
+  18. [IC] Hand over the patient's care to the nursing staff and document any relevant information in the EHR.
+[C]
+  1. [IC] Review patient's medical history and treatment plan, identifying the target area and specific procedure.
+  2. [IC] Explain the procedure to the patient, addressing any concerns and ensuring informed consent.
+  3. [NA] Position the patient on the equipment table, using appropriate alignment techniques and ensuring comfort.
+  4. [PD] Select the appropriate settings on the diagnostic or therapeutic equipment based on the patient's needs and the treatment plan.
+  5. [ME] Initiate the diagnostic or therapeutic procedure, monitoring the equipment and patient's condition throughout.
+  6. [FV] Review the acquired images or data, identifying any abnormalities or areas of concern.
+  7. [FV] Adjust equipment settings or repeat the procedure as needed to obtain clear and diagnostic results.
+  8. [IC] Document the procedure, findings, and any relevant observations in the patient's medical record.
+[D]
+  1. [IC] Review patient's medical history, treatment plan, and any contraindications.
+  2. [ME] Prepare the equipment by selecting appropriate settings, probes, or accessories based on the patient's condition and the required procedure.
+  3. [IC] Explain the procedure to the patient, ensuring they understand the process, positioning requirements, and any preparations needed.
+  4. [NA] Position the patient on the equipment, using guidance systems or manual adjustments to ensure accurate alignment with the target area.
+  5. [PD] Perform a preliminary scan or test to ensure the patient is correctly positioned and the equipment settings are accurate.
+  6. [ME] Initiate the diagnostic or therapeutic procedure, monitoring the equipment's operation and the patient's condition throughout.
+  7. [FV] Verify the results or treatment delivery by reviewing images, measurements, or other feedback from the equipment.
+  8. [IC] Document the procedure details, including any deviations from the planned treatment or findings, in the patient's medical record.
+  9. [ME] Clean and prepare the equipment for the next patient, ensuring all safety protocols and hygiene standards are followed.
+  10. [IC] Check in with the patient to ensure they are comfortable, understand any post-procedure instructions, and hand over their care to the appropriate staff.
+
+--- Task 256: Check data for recording errors.
+[A]
+  1. [IC] Review the data dictionary to understand the schema and data types of the columns in the dataset.
+  2. [NA] Load the dataset into the data processing tool using the appropriate import function.
+  3. [PD] Inspect the dataset for missing values by checking the count of non-null values in each column.
+  4. [ME] Check for duplicate records by comparing hashes of rows or using a deduplication function.
+  5. [PD] Verify data types by comparing the expected types from the data dictionary with the actual types in the dataset.
+  6. [PD] Check for out-of-range or invalid values by comparing data with predefined valid ranges or using domain-specific rules.
+  7. [ME] Flag any identified errors by highlighting or marking the corresponding rows in the dataset.
+  8. [FV] Document all identified recording errors, their potential causes, and suggested remedies in the error log.
+  9. [FV] Deliver the flagged dataset and summary report to the supervisor for further action.
+[B]
+  1. [IC] Review the data dictionary to understand the schema and data types of the columns in the dataset.
+  2. [NA] Load the dataset into the data processing tool using the appropriate import function.
+  3. [PD] Inspect the dataset for missing values by checking the count of non-null values in each column.
+  4. [ME] Check for duplicate records by comparing hashes of rows or using a deduplication function.
+  5. [PD] Verify data types by comparing the expected types from the data dictionary with the actual types in the dataset.
+  6. [PD] Check for out-of-range or invalid values by comparing data with predefined valid ranges or using domain-specific rules.
+  7. [FV] Document all identified recording errors, their potential causes, and suggested remedies in the error log.
+  8. [ME] Flag any suspected errors by highlighting the field and adding a brief note explaining the concern.
+  9. [FV] Compile a summary report of all identified errors and their potential impacts.
+  10. [FV] Deliver the flagged dataset and summary report to the supervisor for further action.
+[C]
+  1. [IC] Review the data dictionary or schema documentation to understand the expected data types, formats, and ranges for each column.
+  2. [NA] Load the dataset into a suitable data analysis tool (e.g., spreadsheet software, programming environment).
+  3. [PD] Inspect the dataset for missing values, duplicates, and inconsistencies in data types.
+  4. [ME] Use built-in functions or custom scripts to identify values outside predefined ranges or violating domain-specific rules.
+  5. [ME] Flag or highlight identified errors within the dataset for easy reference.
+  6. [FV] Document each error, including its location, nature, potential cause, and suggested remediation.
+[D]
+  1. [IC] Understand the dataset schema and data types by reviewing the data dictionary.
+  2. [NA] Load the dataset into a spreadsheet software using the appropriate import function.
+  3. [PD] Inspect the dataset for missing values by checking the count of non-null values in each column.
+  4. [ME] Check for duplicate records by comparing hashes of rows or using a deduplication function.
+  5. [PD] Verify data types by comparing the expected types from the data dictionary with the actual types in the dataset.
+  6. [PD] Check for out-of-range or invalid values by comparing data with predefined valid ranges or using domain-specific rules.
+  7. [ME] Flag and document all identified recording errors, their potential causes, and suggested remedies in the error log.
+  8. [FV] Compile a summary report of all identified errors and their potential impacts.
+  9. [FV] Deliver the flagged dataset and summary report to the supervisor for further action.
+
+================================================================
+ANSWER TEMPLATE
+
+249: _ | 
+250: _ | 
+251: _ | 
+252: _ | 
+253: _ | 
+254: _ | 
+255: _ | 
+256: _ | 
+

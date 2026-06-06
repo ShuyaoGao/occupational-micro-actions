@@ -1,0 +1,371 @@
+BATCH 1/63 | Model: Claude Opus 4.7 | Tasks 1-8
+================================================================
+EXPERT REVIEW -- Micro-Action Sequence Evaluation
+For each task, read ALL four options, then choose the BEST (A/B/C/D).
+
+Criteria:
+  1. Completeness  -- no critical steps missing
+  2. Realism       -- every step is concretely executable
+  3. Stage accuracy -- stage label correct for each step:
+     IC=Intent_Communication  NA=Navigation_Addressing
+     PD=Perception_Diagnosis  ME=Manipulation_Execution  FV=Feedback_Verification
+  4. Conciseness   -- no redundant or duplicate steps
+  5. Scope         -- starts and ends at exactly the right point
+
+OUTPUT: fill the ANSWER TEMPLATE at the bottom.
+Format: N: X | one-sentence reason (max 12 words)
+IMPORTANT: Each task has a different best answer. Do NOT pick the same
+letter for every task without reading.
+================================================================
+
+--- Task 1: Identify potential customers.
+[A]
+  1. [IC] Log into the company's CRM system to access existing customer data and market segment information.
+  2. [IC] Identify the target market criteria, focusing on specific industry and geographical segments.
+  3. [NA] Use a digital tool (e.g., LinkedIn Sales Navigator) to search for companies that match the target market criteria.
+  4. [NA] Extract contact information and company details from the search results.
+  5. [PD] Analyze the extracted data to identify key decision-makers within the identified companies.
+  6. [PD] Cross-reference the identified companies with existing customer data to avoid duplicating efforts.
+  7. [ME] Create a list of potential customers, including company names, contact information, and key decision-makers.
+  8. [FV] Review the list to ensure all potential customers meet the predefined criteria.
+  9. [FV] Save the list in the CRM system for further sales outreach.
+  10. [FV] Notify the sales team about the identified potential customers and provide them with the list.
+[B]
+  1. [IC] Log into the company's CRM system to access existing customer data and market segment information.
+  2. [IC] Review the company's target market criteria, focusing on small to medium-sized businesses in the tech industry.
+  3. [NA] Use a digital tool (e.g., LinkedIn Sales Navigator) to search for SMBs in the tech industry within the San Francisco Bay Area.
+  4. [NA] Extract contact information and company details from the search results.
+  5. [PD] Analyze the extracted data to identify key decision-makers within the identified companies.
+  6. [PD] Cross-reference the identified companies with existing customer data to avoid duplicating efforts.
+  7. [ME] Create a list of potential customers, including company names, contact information, and key decision-makers.
+  8. [FV] Review the list to ensure all potential customers meet the predefined criteria.
+  9. [FV] Save the list in the CRM system for further sales outreach.
+  10. [FV] Notify the sales team about the identified potential customers and provide them with the list.
+[C]
+  1. [IC] Define the target customer profile, including industry, company size, and key characteristics.
+  2. [NA] Utilize relevant databases, CRM systems, or online tools to search for companies matching the target profile.
+  3. [PD] Analyze search results to identify key decision-makers within the target companies.
+  4. [FV] Cross-reference identified companies and contacts with existing CRM data to avoid duplication and gain insights into past interactions.
+  5. [ME] Compile a prioritized list of potential customers, including company details, contact information, and relevant notes.
+[D]
+  1. [IC] Define target market criteria, focusing on industry, location, and company size.
+  2. [NA] Access relevant databases or online tools to search for companies matching the target market criteria.
+  3. [PD] Extract and analyze data from search results to identify key decision-makers within the target companies.
+  4. [PD] Cross-reference identified companies with existing customer data to avoid duplicates and check for previous interactions.
+  5. [ME] Compile a list of potential customers, including company names, contact information, key decision-makers, and any relevant notes.
+  6. [IC] Prioritize the list based on factors such as company size, project pipeline, or potential fit with products/services.
+  7. [FV] Finalize the list of potential customers, ready for targeted outreach and sales follow-up.
+  8. [FV] Save the list in the CRM system and notify the sales team about the identified potential customers.
+
+--- Task 2: Schedule equipment maintenance.
+[A]
+  1. [PD] Review the maintenance logs and service history of the equipment to determine the last maintenance date and the recommended maintenance interval.
+  2. [IC] Consult with the maintenance team and equipment operators to gather information on equipment condition and potential issues.
+  3. [NA] Identify the upcoming production schedule and any planned downtimes for the equipment.
+  4. [NA] Select a maintenance date and time that aligns with the production schedule and maintenance team availability.
+  5. [ME] Draft the maintenance schedule, including the start and end times, and the tasks to be performed.
+  6. [IC] Review the draft schedule with the production manager to ensure it aligns with production needs.
+  7. [ME] Finalize the maintenance schedule and communicate it to the maintenance team and production staff.
+  8. [FV] Update the maintenance logs with the scheduled maintenance date and tasks.
+  9. [FV] Confirm with the maintenance team that they have received and understood the schedule.
+[B]
+  1. [PD] Review the maintenance logs and service history of the CNC lathe to determine the last maintenance date and the recommended maintenance interval.
+  2. [PD] Identify the upcoming production schedule and any planned downtimes for the CNC lathe.
+  3. [IC] Consult with the maintenance team to determine their availability for the scheduled maintenance.
+  4. [NA] Select a maintenance date and time that aligns with the production schedule and maintenance team availability.
+  5. [ME] Draft the maintenance schedule, including the start and end times, and the tasks to be performed.
+  6. [IC] Review the draft schedule with the production manager to ensure it aligns with production needs.
+  7. [ME] Finalize the maintenance schedule and communicate it to the maintenance team and production staff.
+  8. [ME] Update the maintenance logs with the scheduled maintenance date and tasks.
+  9. [FV] Confirm with the maintenance team that they have received and understood the schedule.
+  10. [FV] Notify the production staff of the scheduled maintenance and any potential impact on production.
+[C]
+  1. [PD] Review the equipment's maintenance logs and service history to determine the last maintenance date and recommended interval.
+  2. [NA] Consult the production schedule to identify periods of low machine utilization.
+  3. [IC] Cross-reference equipment needs with maintenance team availability.
+  4. [ME] Select a suitable maintenance window considering all gathered information.
+  5. [ME] Create a detailed maintenance schedule outlining tasks, start/end times, and assigned personnel.
+  6. [IC] Communicate the finalized schedule to the maintenance team and relevant production staff.
+  7. [FV] Confirm receipt and understanding of the schedule with all involved parties.
+[D]
+  1. [PD] Access and review maintenance logs, service history, and equipment performance data to identify areas requiring attention.
+  2. [IC] Consult with maintenance team leads, equipment operators, and relevant stakeholders to gather information on equipment condition and potential issues.
+  3. [NA] Review the production schedule and identify periods of low machine utilization or planned downtimes.
+  4. [NA] Consult maintenance management software and maintenance vendors' schedules to allocate necessary parts, personnel, and time slots for maintenance tasks.
+  5. [ME] Prioritize maintenance tasks based on equipment criticality, urgency, and maintenance needs.
+  6. [ME] Create a maintenance schedule, including start and end times, tasks to be performed, and allocate necessary resources.
+  7. [IC] Review and approve the maintenance schedule with relevant stakeholders, such as production managers and maintenance supervisors.
+  8. [IC] Send notifications to the maintenance team and relevant stakeholders, including the schedule and any necessary instructions.
+  9. [FV] Verify that all necessary parts, personnel, and resources are allocated for the scheduled maintenance tasks.
+  10. [PD] Inspect the equipment before maintenance to identify any potential issues or safety hazards.
+  11. [ME] Perform routine maintenance tasks, such as replacing worn parts or cleaning equipment, following the approved schedule and safety procedures.
+  12. [FV] Document the maintenance activities, including any issues encountered, resolutions implemented, and update maintenance logs and management software.
+
+--- Task 3: Compact materials to create level bases.
+[A]
+  1. [IC] Review the construction plans and specifications to determine the required compaction level and base dimensions.
+  2. [NA] Move to the designated area on the construction site and mark the boundaries of the base using stakes and string.
+  3. [ME] Remove any debris or loose materials from the marked area to prepare the ground for compaction.
+  4. [ME] Use a compactor machine to begin compacting the soil, starting from the edges and working towards the center.
+  5. [PD] Check the compaction level using a penetrometer or other testing equipment to ensure it meets the required specifications.
+  6. [ME] Continue compacting the soil, focusing on areas that require additional compaction until the entire base meets the required level.
+  7. [PD] Use a leveling tool, such as a laser level, to check the flatness of the compacted base.
+  8. [ME] Adjust the compaction in specific areas if necessary to achieve a level base.
+  9. [FV] Verify the final compaction and levelness of the base using the penetrometer and leveling tool.
+  10. [FV] Document the compaction and leveling process and results, and prepare the site for the next phase of construction.
+[B]
+  1. [IC] Review the construction plans and specifications to determine the required compaction level and base dimensions.
+  2. [NA] Move to the designated area on the construction site and mark the boundaries of the base using stakes and string.
+  3. [NA] Remove any debris or loose materials from the marked area to prepare the ground for compaction.
+  4. [ME] Use a compactor machine to begin compacting the soil, starting from the edges and working towards the center.
+  5. [PD] Check the compaction level using a penetrometer or other testing equipment to ensure it meets the required specifications.
+  6. [ME] Continue compacting the soil, focusing on areas that require additional compaction until the entire base meets the required level.
+  7. [PD] Use a leveling tool, such as a laser level, to check the flatness of the compacted base.
+  8. [ME] Adjust the compaction in specific areas if necessary to achieve a level base.
+  9. [FV] Verify the final compaction and levelness of the base using the penetrometer and leveling tool.
+  10. [FV] Document the compaction and leveling process and results, and prepare the site for the next phase of construction.
+[C]
+  1. [IC] Review construction plans to determine required compaction level and base dimensions.
+  2. [NA] Mark the boundaries of the base using stakes and string.
+  3. [NA] Clear debris and loose materials from the marked area.
+  4. [ME] Compact the soil using a compactor machine, starting from the edges and working towards the center.
+  5. [PD] Check compaction level using a penetrometer or density gauge.
+  6. [ME] Adjust compaction in specific areas as needed.
+  7. [FV] Verify the levelness of the compacted base using a laser level.
+  8. [ME] Make final adjustments to achieve a level base.
+  9. [FV] Document the compaction process, including compaction levels and any adjustments made.
+[D]
+  1. [IC] Review construction plans and site layout to determine required compaction level, base dimensions, and any obstacles.
+  2. [NA] Mark the boundaries of the base using stakes and string, and identify any large rocks or debris.
+  3. [ME] Remove identified rocks and debris, and prepare the ground by spreading loose material evenly.
+  4. [PD] Adjust compaction equipment settings based on soil type and moisture content.
+  5. [ME] Begin compacting the soil in a systematic pattern, starting from the edges and working towards the center.
+  6. [PD] Monitor compaction level using appropriate testing equipment (e.g., penetrometer, nuclear density gauge) and ensure the base is level using a laser level.
+  7. [ME] Make necessary adjustments to achieve the required compaction level and levelness, re-compacting adjusted areas if needed.
+  8. [PD] Inspect the compacted base for any remaining imperfections or soft spots.
+  9. [FV] Document the compaction and leveling process, results, and any notes or observations.
+  10. [FV] Signal the completion of the compaction process to the site supervisor, ready for the next phase of construction.
+
+--- Task 4: Enter codes or other information into computers.
+[A]
+  1. [NA] Open the necessary software development environment and navigate to the project directory.
+  2. [NA] Create or open the file where the new code will be written.
+  3. [ME] Write the initial code for the new feature, including variable declarations and function definitions.
+  4. [FV] Compile or run the code to check for syntax errors and logical issues.
+  5. [FV] Run unit tests to verify that the new code functions as expected.
+  6. [PD] Review the code for any potential improvements or optimizations.
+  7. [FV] Commit the changes to the version control system and push the code to the remote repository.
+[B]
+  1. [IC] Read project requirements document to understand new feature's specifications.
+  2. [NA] Open integrated development environment (IDE) and navigate to project directory.
+  3. [NA] Create new file or open existing file where new code will be written.
+  4. [ME] Write initial code for new feature, including variable declarations and function definitions.
+  5. [ME] Type code into IDE, ensuring accuracy and readability.
+  6. [FV] Compile or run code to check for syntax errors and logical issues.
+  7. [FV] Run unit tests to verify that new code functions as expected.
+  8. [PD] Review code for any potential improvements or optimizations.
+  9. [FV] Commit changes to version control system and push code to remote repository.
+  10. [FV] Deliver code to client or team lead for review and integration into main project.
+[C]
+  1. [IC] Understand the data to be entered and the target software application.
+  2. [NA] Open the necessary software application and navigate to the relevant input section.
+  3. [ME] Carefully enter the data into the designated fields, adhering to formatting and syntax rules.
+  4. [FV] Review the entered data for completeness and accuracy, correcting any mistakes.
+  5. [ME] Save the entered data and confirm successful storage within the application.
+[D]
+  1. [IC] Understand the task and gather necessary information (e.g., project requirements, API keys, invoice details).
+  2. [NA] Boot up the necessary software development environment or navigate to the relevant web-based system.
+  3. [NA] Retrieve and copy the required codes, API keys, or data from the appropriate sources (e.g., project management tool, paper invoice).
+  4. [NA] Navigate to the correct section or fields within the software development environment or web-based system to enter the information.
+  5. [ME] Enter the copied codes, API keys, or data into the designated fields, following the necessary formatting and syntax guidelines.
+  6. [FV] Review and validate the entered information for accuracy and completeness using built-in validation tools or manual verification.
+  7. [ME] Save the changes and commit the necessary updates to the project's version control system, if applicable.
+  8. [FV] Test the entered information by retrieving and displaying data or running code to ensure successful connection and functionality.
+  9. [FV] Verify that the entered information is correct and functioning as expected, making any necessary corrections or improvements.
+
+--- Task 5: Conduct climatological research.
+[A]
+  1. [IC] Review relevant literature and previous studies on the climatological topic to understand the current state of knowledge.
+  2. [IC] Design a research plan outlining the methodology, data collection methods, and analysis techniques to be used.
+  3. [NA] Obtain necessary permits and approvals for data collection in the designated areas.
+  4. [ME] Set up and calibrate research equipment at strategic locations to ensure accurate data collection.
+  5. [PD] Collect and organize both historical and new data, ensuring data integrity and completeness.
+  6. [ME] Analyze the collected data using statistical software and climate modeling tools to identify trends and patterns.
+  7. [FV] Compare the findings with historical data and relevant literature to validate the results and draw conclusions.
+  8. [FV] Prepare a comprehensive report detailing the research methodology, findings, and conclusions, along with visualizations and recommendations.
+  9. [FV] Present the findings to relevant stakeholders, such as policymakers and scientists, to facilitate further action and collaboration.
+[B]
+  1. [IC] Review existing literature and datasets on sea level rise and coastal erosion in the Florida Keys.
+  2. [IC] Plan the fieldwork to collect new data on coastal erosion, including selecting specific locations and determining the necessary equipment.
+  3. [NA] Travel to the field locations in the Florida Keys to collect data on coastal erosion.
+  4. [PD] Use GPS and survey equipment to measure erosion rates and collect soil samples.
+  5. [NA] Return to the laboratory to process soil samples and enter field data into the database.
+  6. [PD] Analyze the collected data using statistical software to identify trends and patterns.
+  7. [PD] Compare the new data with historical data to assess changes in coastal erosion rates.
+  8. [ME] Develop a predictive model to forecast future erosion based on current trends.
+  9. [ME] Write a detailed report summarizing the findings and recommendations for the local environmental agency.
+  10. [ME] Prepare a presentation to deliver the findings to the local environmental agency.
+  11. [FV] Present the findings and recommendations to the local environmental agency.
+  12. [FV] Deliver the final report to the local environmental agency.
+[C]
+  1. [IC] Review existing literature and datasets relevant to the chosen climatological research topic.
+  2. [IC] Define specific research questions and hypotheses based on the literature review.
+  3. [IC] Design a research plan outlining data collection methods, analysis techniques, and ethical considerations.
+  4. [NA] Acquire necessary permits and permissions for data collection, ensuring ethical and legal compliance.
+  5. [PD] Collect relevant data using appropriate instruments and techniques, ensuring accuracy and reliability.
+  6. [ME] Process and analyze the collected data using statistical software and climate modeling tools.
+  7. [PD] Interpret the analyzed data in the context of the research questions and hypotheses.
+  8. [FV] Communicate the research findings through reports, presentations, and publications, tailoring the message to the target audience.
+[D]
+  1. [IC] Review relevant literature and previous studies to understand the current state of knowledge.
+  2. [IC] Design a research plan outlining methodology, data collection methods, and analysis techniques.
+  3. [NA] Obtain necessary permits and approvals for data collection.
+  4. [ME] Set up weather monitoring stations and ensure they are secure and properly calibrated.
+  5. [PD] Collect and organize historical weather data from local and national databases, ensuring data integrity and completeness.
+  6. [PD] Collect and organize new weather data from monitoring stations, ensuring data is properly timestamped and geotagged.
+  7. [ME] Analyze collected data using statistical software and climate modeling tools to identify trends and patterns.
+  8. [FV] Compare findings with historical data and relevant literature to validate results and draw conclusions.
+  9. [FV] Prepare a comprehensive report detailing research methodology, findings, conclusions, visualizations, and recommendations.
+  10. [FV] Present findings to relevant stakeholders to facilitate further action and collaboration.
+
+--- Task 6: Administer standardized physical or psychological tests.
+[A]
+  1. [IC] Review the client's file and identify any relevant background information or testing accommodations.
+  2. [IC] Greet the client, explain the purpose of the test, and establish rapport.
+  3. [NA] Guide the client to the testing station and ensure the environment is free from distractions.
+  4. [PD] Select and prepare the appropriate standardized tests based on the client's background and the purpose of the evaluation.
+  5. [IC] Provide clear instructions for the first subtest and ensure the client understands.
+  6. [ME] Administer the subtest items, carefully timing responses and recording answers.
+  7. [PD] Monitor the client's progress and intervene if necessary to clarify any questions or concerns.
+  8. [ME] Ensure the client completes all sections of the test and the test is fully answered.
+  9. [FV] Record the test results accurately and securely store all test materials and client responses.
+  10. [IC] Explain the test results to the client in a clear and understandable manner, addressing any questions or concerns.
+  11. [FV] Thank the client and conclude the session, providing a summary of the next steps.
+[B]
+  1. [IC] Review the client's file and identify any relevant background information or testing accommodations.
+  2. [IC] Greet the client, explain the purpose of the test, and establish rapport.
+  3. [IC] Present the first subtest (e.g., Vocabulary) and provide clear instructions.
+  4. [ME] Administer the subtest items, carefully timing responses and recording answers.
+  5. [IC] Provide standardized encouragement and feedback to the client throughout the testing process.
+  6. [IC] Transition smoothly between subtests, ensuring the client understands the change in focus.
+  7. [IC] Conclude the testing session, thank the client, and explain the next steps in the process.
+  8. [FV] Securely store all test materials and client responses according to ethical guidelines.
+[C]
+  1. [IC] Review client's file for relevant background information, testing accommodations, and purpose of the test.
+  2. [IC] Greet the client, explain the test's purpose, and establish rapport to build trust and comfort.
+  3. [NA] Guide the client to the testing station, ensuring a comfortable and distraction-free environment.
+  4. [IC] Clearly explain test instructions, addressing any questions and ensuring client understanding.
+  5. [ME] Administer the test, carefully timing responses, recording answers, and monitoring client behavior for signs of fatigue or distress.
+  6. [FV] Securely store all test materials and client responses according to ethical guidelines and data privacy regulations.
+  7. [PD] Review and interpret test results, considering client history and context.
+  8. [FV] Discuss test results with the client, explaining findings in clear, understandable language and addressing any questions or concerns.
+  9. [IC] Develop a plan for follow-up or intervention based on test results and client needs.
+[D]
+  1. [IC] Review the client's file and EHR to understand their background, medical history, and any special considerations or testing accommodations.
+  2. [IC] Greet the client, explain the purpose and procedure of the test, and establish rapport, addressing any initial questions or concerns.
+  3. [NA] Guide the client to the testing station, ensuring they are comfortable and relaxed, and that the environment is free from distractions.
+  4. [PD] Select the appropriate standardized tests based on the client's background and the reason for the evaluation.
+  5. [ME] Prepare and calibrate the necessary equipment or materials for the selected tests.
+  6. [IC] Present the first subtest and provide clear, standardized instructions to the client.
+  7. [ME] Administer each subtest, carefully monitoring the client's progress, providing standardized encouragement and feedback, and ensuring accurate recording of responses.
+  8. [IC] Transition smoothly between subtests, ensuring the client understands the change in focus.
+  9. [FV] Record the test results accurately and legibly in the client's EHR, ensuring they are securely stored according to ethical guidelines.
+  10. [PD] Interpret the test results in the context of the client's background and current health status, and explain them to the client in a clear and understandable manner, answering any questions they may have.
+  11. [NA] Escort the client back to the waiting area or conclude the testing session, thanking them and explaining the next steps in the process.
+
+--- Task 7: Sort recyclable materials.
+[A]
+  1. [NA] Approach the sorting station and stand in front of the conveyor belt.
+  2. [PD] Scan the conveyor belt to identify the types of recyclables present.
+  3. [ME] Grasp the identified recyclable item securely.
+  4. [NA] Move the item towards the appropriate bin for its material type.
+  5. [ME] Place the item into the correct bin.
+  6. [ME] Repeat steps 2-5 for each piece of recyclable material on the conveyor belt.
+  7. [FV] Monitor the sorting process to ensure all items are correctly sorted and no bins are overflowing.
+  8. [IC] Signal to the supervisor that the task is complete.
+[B]
+  1. [NA] Approach the conveyor belt and stand in front of the sorting station.
+  2. [PD] Observe the first item on the conveyor belt to identify its material type.
+  3. [ME] Reach out to the item and grasp it firmly.
+  4. [ME] Move the item towards the appropriate bin for its material type.
+  5. [ME] Place the item into the correct bin.
+  6. [ME] Repeat steps 2-5 for the next item on the conveyor belt.
+  7. [PD] Observe the conveyor belt for any items that may require special handling.
+  8. [ME] Handle any special items by placing them in the appropriate bin or setting them aside for further processing.
+  9. [FV] Monitor the sorting process to ensure all items are being correctly sorted and no bins are overflowing.
+  10. [FV] Complete the sorting cycle once all items on the conveyor belt have been processed.
+[C]
+  1. [NA] Approach the conveyor belt and stand in front of the sorting station.
+  2. [PD] Observe the first item on the conveyor belt and identify its material type.
+  3. [ME] Reach out and grasp the item.
+  4. [NA] Move the item towards the corresponding recycling bin.
+  5. [ME] Place the item into the correct bin.
+  6. [ME] Repeat steps 2-5 for the next item on the conveyor belt.
+[D]
+  1. [NA] Approach the conveyor belt and stand in front of the sorting station.
+  2. [PD] Scan the conveyor belt for recyclable items.
+  3. [ME] Grasp the first recyclable item securely.
+  4. [PD] Identify the material type of the grasped item (e.g., paper, plastic, glass, metal).
+  5. [NA] Move the item towards the appropriate bin for its material type.
+  6. [ME] Place the item into the correct bin.
+  7. [ME] Repeat steps 3-6 for the next item on the conveyor belt.
+  8. [FV] Monitor the sorting process to ensure all items are being correctly sorted and no bins are overflowing.
+  9. [FV] Complete the sorting cycle once all items on the conveyor belt have been processed.
+  10. [IC] Signal to the supervisor that the sorting task is complete.
+
+--- Task 8: Stack finished items for further processing or shipment.
+[A]
+  1. [IC] Receive a list of finished items to be stacked from the warehouse management system.
+  2. [NA] Locate the first item on the list using the forklift, navigating through the warehouse aisles.
+  3. [ME] Pick up the item using the forklift's attachments, ensuring a secure grip.
+  4. [NA] Travel to the designated stacking area, avoiding any obstacles or other workers.
+  5. [PD] Identify the correct pallet or location for the item based on its type and destination.
+  6. [ME] Place the item onto the pallet, ensuring it's stable and secure.
+  7. [ME] Secure the item to the pallet using strapping or banding, ensuring it is tightly fastened.
+  8. [FV] Repeat steps 2-7 for all items on the list until all items are stacked and ready for further processing or shipment.
+  9. [FV] Double-check the pallet to ensure all items are securely fastened and ready for shipment.
+  10. [IC] Signal to the supervisor or team leader that the pallet is complete and ready for shipment.
+[B]
+  1. [NA] Approach the pallet where the finished items will be stacked.
+  2. [PD] Identify the first box to be stacked.
+  3. [ME] Operate the forklift to lift the box from the ground.
+  4. [NA] Move the forklift to the pallet and position the box for stacking.
+  5. [ME] Lower the box onto the pallet and ensure it is stable.
+  6. [ME] Repeat the process for the second box, ensuring it is stacked on top of the first box.
+  7. [ME] Continue stacking boxes until the desired height is reached.
+  8. [FV] Check the stability of the stacked boxes.
+  9. [ME] Secure the stack with straps or shrink wrap if necessary.
+  10. [NA] Move the pallet with the stacked boxes to the designated shipment area.
+[C]
+  1. [NA] Approach the designated pallet for stacking.
+  2. [PD] Identify the optimal placement for the next item on the pallet, considering stability and stacking pattern.
+  3. [ME] Pick up the next finished item from the conveyor belt or designated location.
+  4. [ME] Align the item with the existing stack on the pallet.
+  5. [ME] Carefully place the item onto the pallet, ensuring stability.
+  6. [ME] Repeat steps 3-5 for all remaining items.
+  7. [FV] Visually inspect the completed stack for stability and proper arrangement.
+  8. [ME] Secure the stack with straps or shrink wrap if necessary.
+[D]
+  1. [IC] Receive a list of finished items to be stacked from the warehouse management system.
+  2. [NA] Navigate to the first item's location using the forklift, avoiding obstacles and other workers.
+  3. [ME] Pick up the item using the forklift's attachments, ensuring a secure grip.
+  4. [NA] Travel to the designated stacking area, ensuring safety and avoiding collisions.
+  5. [PD] Identify the correct pallet or location for the item based on its type and destination, using visual cues and any available guidance systems.
+  6. [ME] Place the item onto the pallet, ensuring it's stable, secure, and properly aligned with the existing stack.
+  7. [FV] Repeat steps 2-6 for all items on the list until all items are stacked and ready for further processing or shipment.
+  8. [FV] Double-check the pallet to ensure all items are securely fastened and ready for shipment, using visual inspection and gentle touch.
+  9. [IC] Signal to the supervisor or team leader that the pallet is complete and ready for shipment, using visual signals or communication devices.
+  10. [FV] Verify that the pallet is properly labeled and prepared for shipment, including any necessary documentation, using visual inspection and available tools.
+
+================================================================
+ANSWER TEMPLATE
+
+1: _ | 
+2: _ | 
+3: _ | 
+4: _ | 
+5: _ | 
+6: _ | 
+7: _ | 
+8: _ | 
+

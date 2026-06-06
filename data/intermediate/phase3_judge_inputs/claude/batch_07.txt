@@ -1,0 +1,359 @@
+BATCH 7/63 | Model: Claude Opus 4.7 | Tasks 49-56
+================================================================
+EXPERT REVIEW -- Micro-Action Sequence Evaluation
+For each task, read ALL four options, then choose the BEST (A/B/C/D).
+
+Criteria:
+  1. Completeness  -- no critical steps missing
+  2. Realism       -- every step is concretely executable
+  3. Stage accuracy -- stage label correct for each step:
+     IC=Intent_Communication  NA=Navigation_Addressing
+     PD=Perception_Diagnosis  ME=Manipulation_Execution  FV=Feedback_Verification
+  4. Conciseness   -- no redundant or duplicate steps
+  5. Scope         -- starts and ends at exactly the right point
+
+OUTPUT: fill the ANSWER TEMPLATE at the bottom.
+Format: N: X | one-sentence reason (max 12 words)
+IMPORTANT: Each task has a different best answer. Do NOT pick the same
+letter for every task without reading.
+================================================================
+
+--- Task 49: Create images of data, locations, or products.
+[A]
+  1. [IC] Review the project brief to understand the requirements for image creation, including the type of data, locations, or products to be visualized.
+  2. [NA] Open the graphic design software (e.g., Adobe Photoshop) and create a new project with the specified dimensions and resolution.
+  3. [ME] Import high-resolution images of the products or locations and begin editing to enhance lighting, color, and composition.
+  4. [ME] Create visualizations of data using charts, graphs, or maps, ensuring they are consistent in style and layout.
+  5. [FV] Review and refine the images and visualizations to ensure they meet the client's requirements and adhere to brand guidelines.
+  6. [FV] Export the finalized images and visualizations in high-resolution formats suitable for print and digital media.
+  7. [FV] Deliver the final images and visualizations to the client.
+[B]
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+[C]
+  1. [IC] Review the project brief and client requirements for the image creation.
+  2. [NA] Select or create the necessary visual elements: product images, background images, data visualizations, etc.
+  3. [NA] Import selected elements into the chosen graphic design software.
+  4. [ME] Compose the image by positioning, resizing, and layering elements according to design principles and client specifications.
+  5. [ME] Adjust lighting, shadows, colors, and other visual properties to enhance realism and visual impact.
+  6. [ME] Add text overlays, labels, or annotations as needed, ensuring readability and clarity.
+  7. [FV] Review the final image for accuracy, completeness, and adherence to client requirements.
+  8. [FV] Export the image in the required format and resolution, and deliver it to the client.
+[D]
+  1. [IC] Review the project brief or sales data to understand the requirements and key metrics.
+  2. [NA] Gather and prepare all necessary images, data, and design elements.
+  3. [NA] Open graphic design software (e.g., Adobe Photoshop) and create a new project with the specified dimensions and resolution.
+  4. [ME] Import and position images, ensuring they are appropriately scaled, aligned, and have matching lighting and shadows.
+  5. [PD] Prepare data overlays, such as key features, specifications, or visualizations, using appropriate fonts and styles.
+  6. [ME] Position text layers and any necessary design elements strategically, ensuring they do not obstruct the product view or visual appeal.
+  7. [FV] Review and refine the image creations to ensure they meet the client's requirements and accurately represent the data.
+  8. [FV] Export the final image creations in the required file formats (e.g., JPEG, PNG) and deliver them to the client.
+
+--- Task 50: Monitor equipment operation to ensure that products are not flawed.
+[A]
+  1. [NA] Position oneself at the designated workstation with a clear view of the equipment and activate the monitoring software.
+  2. [NA] Navigate to the equipment monitoring dashboard and review real-time sensor data for temperature, pressure, and other critical parameters.
+  3. [PD] Visually inspect the equipment and products for any obvious signs of malfunction or defects.
+  4. [IC] Identify any potential issues and communicate with the appropriate personnel to address the problem.
+  5. [NA] Navigate to the affected area and perform a detailed inspection using diagnostic tools as necessary.
+  6. [ME] Adjust or repair the equipment to correct any identified issues, following safety protocols.
+  7. [FV] Document the issue, troubleshooting steps, and resolution in the daily log.
+  8. [IC] Notify the production supervisor of any significant findings or recurring issues.
+  9. [FV] Resume monitoring the equipment and continue to perform periodic checks throughout the shift.
+[B]
+  1. [IC] Arrive at the workstation and log into the monitoring software.
+  2. [NA] Navigate to the equipment monitoring dashboard and check the current status of the assembly line.
+  3. [PD] Visually inspect the assembly line for any obvious signs of malfunction or abnormal behavior.
+  4. [PD] Review real-time sensor data for temperature, pressure, and other critical parameters.
+  5. [ME] Identify a potential issue with the soldering machine and pause the assembly line.
+  6. [NA] Walk to the soldering machine and perform a visual inspection.
+  7. [PD] Use a diagnostic tool to check the soldering machine's settings and calibrations.
+  8. [ME] Adjust the soldering machine settings to correct the issue.
+  9. [ME] Restart the assembly line and resume monitoring.
+  10. [FV] Continue to monitor the equipment and perform periodic checks throughout the shift.
+[C]
+  1. [NA] Navigate to the equipment monitoring dashboard and check the current status of the assembly line.
+  2. [PD] Review real-time sensor data for temperature, pressure, and other critical parameters.
+  3. [PD] Visually inspect the assembly line for any obvious signs of malfunction or abnormal behavior.
+  4. [ME] Identify potential issues and determine if immediate intervention is required.
+  5. [ME] If necessary, pause the assembly line and proceed to the location of the potential issue.
+  6. [PD] Perform a detailed inspection of the equipment using appropriate tools and diagnostic techniques.
+  7. [ME] Diagnose the root cause of the issue and implement corrective actions.
+  8. [ME] Restart the assembly line and resume monitoring, paying close attention to the repaired area.
+  9. [FV] Document the issue, actions taken, and results in a log for future reference and analysis.
+[D]
+  1. [IC] Arrive at the workstation and log into the monitoring software.
+  2. [NA] Navigate to the equipment monitoring dashboard and check the current status of the assembly line.
+  3. [PD] Visually inspect the assembly line for any obvious signs of malfunction or abnormal behavior.
+  4. [PD] Review real-time sensor data for critical parameters such as temperature, pressure, and product quality.
+  5. [ME] Identify potential issues and pause the assembly line if necessary.
+  6. [NA] Approach the affected area and perform a visual inspection, using diagnostic tools if required.
+  7. [PD] Analyze the nature of the issue, determine its severity, and identify its potential cause.
+  8. [IC] Communicate the identified issue and its location to the appropriate personnel via radio or intercom.
+  9. [FV] Document the incident in a logbook, noting the time, location, nature of the issue, and any actions taken.
+  10. [FV] Resume monitoring the equipment and perform periodic checks throughout the shift.
+
+--- Task 51: Transport biological or other medical materials.
+[A]
+  1. [IC] Retrieve the blood sample from the source, verify the sample label matches the patient's information, and scan the barcode to initiate the chain of custody.
+  2. [ME] Place the blood sample in a secure, temperature-controlled container designed for transporting biological materials.
+  3. [NA] Consult the hospital's digital map to plan the most efficient route to the laboratory, avoiding areas with heavy foot traffic.
+  4. [NA] Navigate through the hospital corridors, avoiding obstacles such as gurneys, staff, or patients, and maintain the sample's temperature.
+  5. [IC] Upon arrival at the laboratory, use the intercom to announce the urgent delivery, following established protocols.
+  6. [FV] Present the transport container to the lab technician, ensuring they acknowledge the sample's condition and sign off on the chain of custody document.
+  7. [FV] Scan the sample's barcode again to log the delivery and close the chain of custody.
+  8. [FV] Obtain a signature from the lab technician confirming receipt of the sample, completing the chain of custody document.
+[B]
+  1. [IC] Retrieve the blood sample from the emergency room and verify the sample label matches the patient's information.
+  2. [ME] Place the blood sample in a secure, temperature-controlled container designed for transporting biological materials.
+  3. [NA] Check the hospital map to determine the most efficient route from the emergency room to the laboratory.
+  4. [NA] Move from the emergency room to the laboratory, avoiding obstacles and maintaining the sample's temperature.
+  5. [PD] Monitor the temperature of the container to ensure it remains within the required range.
+  6. [ME] Use the elevator to move between floors, ensuring the sample remains secure and undisturbed.
+  7. [NA] Approach the laboratory and verify the correct location by checking the department signage.
+  8. [NA] Enter the laboratory and locate the laboratory technician responsible for receiving the sample.
+  9. [IC] Hand over the blood sample to the laboratory technician and confirm the sample label and patient information.
+  10. [FV] Receive confirmation from the laboratory technician that the sample has been received and is ready for analysis.
+[C]
+  1. [IC] Receive the blood sample, verifying patient ID and sample type against accompanying documentation.
+  2. [ME] Place the sample in a secure, temperature-controlled container, ensuring it is properly sealed.
+  3. [NA] Using a digital map or hospital signage, determine the most efficient route to the laboratory.
+  4. [NA] Transport the sample to the laboratory, avoiding obstacles and maintaining the container's stability.
+  5. [IC] Upon arrival, confirm the laboratory's readiness to receive the sample.
+  6. [FV] Hand over the sample to the designated lab technician, verifying receipt and sample condition.
+  7. [FV] Complete any necessary documentation or electronic logging to record the sample delivery.
+[D]
+  1. [IC] Receive the biological material from the source (e.g., nurse, lab technician), verifying patient ID, sample type, and destination.
+  2. [ME] Secure the sample in a suitable, temperature-controlled container, ensuring it won't shift during transport.
+  3. [NA] Plan the most efficient route to the destination, avoiding obstacles and heavy foot traffic using a digital map or hospital floor plan.
+  4. [NA] Proceed to the destination, navigating through hospital corridors while avoiding collisions with staff, patients, or equipment.
+  5. [IC] Upon arrival, announce the delivery using established protocols (e.g., intercom, communication device).
+  6. [FV] Present the sample to the recipient, ensuring they acknowledge the sample's condition and sign off on the chain of custody document.
+  7. [FV] Log the delivery in the digital system, scanning the sample's barcode to close the chain of custody.
+  8. [PD] Document the delivery, including any notable events or challenges encountered during the transport.
+
+--- Task 52: Secure watercraft to docks, wharves or other vessels.
+[A]
+  1. [NA] Approach the dock with the necessary mooring lines and fenders.
+  2. [IC] Communicate with the boat's crew to ensure they are ready to secure the boat.
+  3. [PD] Identify the appropriate docking position and ensure there is enough space for the boat and fenders.
+  4. [ME] Place fenders along the side of the boat that will be closest to the dock.
+  5. [ME] Attach the mooring lines to the cleats on the dock and secure them.
+  6. [ME] Tighten the mooring lines to secure the boat to the dock, ensuring they are not too tight or too loose.
+  7. [FV] Check the tension of the mooring lines and inspect the fenders to ensure they are properly positioned and providing adequate protection.
+  8. [IC] Communicate with the boat's crew to confirm the boat is securely moored.
+  9. [FV] Final inspection of the mooring lines and fenders to ensure everything is secure and properly positioned.
+[B]
+  1. [NA] Approach the dock with the necessary mooring lines and fenders.
+  2. [IC] Communicate with the boat's crew to ensure they are ready to secure the boat.
+  3. [PD] Identify the appropriate docking position and ensure there is enough space for the boat and fenders.
+  4. [ME] Place fenders along the side of the boat that will be closest to the dock.
+  5. [ME] Attach the mooring lines to the cleats on the dock.
+  6. [ME] Tighten the mooring lines to secure the boat to the dock.
+  7. [FV] Check the tension of the mooring lines to ensure they are not too tight or too loose.
+  8. [FV] Inspect the fenders to ensure they are properly positioned and providing adequate protection.
+  9. [IC] Communicate with the boat's crew to confirm the boat is securely moored.
+  10. [FV] Final inspection of the mooring lines and fenders to ensure everything is secure and properly positioned.
+[C]
+  1. [PD] Approach the dock, assessing the situation and identifying suitable cleats.
+  2. [NA] Navigate the vessel to the dock, aligning it for secure mooring.
+  3. [ME] Secure a bow line to a cleat on the dock, ensuring it's taut.
+  4. [ME] Secure a stern line to a cleat on the dock, adjusting tension for stability.
+  5. [ME] Place fenders between the boat and dock to prevent damage.
+  6. [FV] Double-check the tension and security of all lines.
+  7. [IC] Communicate to the crew that the boat is securely moored.
+[D]
+  1. [NA] Approach the dock with the necessary mooring lines and fenders, considering wind and current.
+  2. [IC] Communicate with the boat's crew to ensure they are ready to secure the boat.
+  3. [PD] Identify the appropriate docking position and ensure there is enough space for the boat and fenders.
+  4. [ME] Place fenders along the side of the boat that will be closest to the dock.
+  5. [ME] Throw a loop of the mooring line onto a suitable cleat on the dock, ensuring it's secure.
+  6. [ME] Pull the line taut, applying steady force to ensure the boat moves towards the dock.
+  7. [ME] Wrap the line around a cleat on the boat, creating a figure-eight pattern to secure it.
+  8. [ME] Tie a cleat hitch knot, ensuring it's secure and won't slip under load.
+  9. [FV] Check that all lines are secure and taut, with no slack that could allow the boat to move.
+  10. [IC] Signal to the boat's captain or crew that the boat is secure and they can disembark.
+
+--- Task 53: Monitor student behavior, social development, or health.
+[A]
+  1. [IC] Review the daily schedule to plan observation times for each student.
+  2. [PD] Observe students during class, recess, and other activities throughout the day, noting interactions and behaviors.
+  3. [IC] Engage in brief conversations with students to gather additional context on their behavior and social interactions.
+  4. [ME] Document observations, conversations, and any red flags in the student's file.
+  5. [NA] Review student records, including academic performance, attendance, and disciplinary notes, to identify trends or concerns.
+  6. [IC] Contact parents or guardians to discuss any concerns or provide updates on their child's progress.
+  7. [NA] Coordinate with school staff to provide additional support or resources for students in need.
+  8. [ME] Attend to any immediate crises or emergencies, such as injuries or emotional distress.
+  9. [FV] Update the school counselor's supervisor on the day's observations and any interventions made.
+  10. [FV] Reflect on the day's observations and plan for follow-up actions or interventions as needed.
+[B]
+  1. [IC] Review the daily schedule to plan observation times for each student.
+  2. [PD] Observe students during class, recess, and other activities throughout the day.
+  3. [IC] Engage with students in casual conversations to assess their emotional state and social interactions.
+  4. [IC] Attend teacher meetings to discuss student progress and any concerns.
+  5. [NA] Review student records, including academic performance, attendance, and disciplinary notes.
+  6. [ME] Document observations, conversations, and any red flags in the student's file.
+  7. [IC] Contact parents or guardians to discuss any concerns or provide updates on their child's progress.
+  8. [NA] Coordinate with school staff to provide additional support or resources for students in need.
+  9. [ME] Attend to any immediate crises or emergencies, such as injuries or emotional distress.
+  10. [FV] Update the school counselor's supervisor on the day's observations and any interventions made.
+  11. [FV] Reflect on the day's observations and plan for follow-up actions or interventions as needed.
+[C]
+  1. [NA] Review student records, including academic performance, attendance, and disciplinary notes.
+  2. [PD] Observe students during class, recess, and other activities throughout the day, noting interactions and behavior.
+  3. [IC] Engage with students in casual conversations to assess their emotional state and social interactions.
+  4. [ME] Document observations, conversations, and any red flags in the student's file.
+  5. [PD] Review and analyze the collected data to identify patterns, trends, and potential issues.
+  6. [ME] Develop and implement interventions or support strategies based on the identified needs.
+  7. [IC] Communicate with parents, teachers, and other relevant stakeholders to discuss observations, concerns, and intervention plans.
+  8. [FV] Monitor student progress and adjust interventions as needed.
+[D]
+  1. [IC] Review student records and daily schedule to plan observation times.
+  2. [IC] Arrive at the school and prepare observation tools, such as a notepad, digital recorder, and a student monitoring app on a tablet.
+  3. [PD] Observe students during various activities throughout the day, including class, recess, and lunch, noting interactions, behavior, and any signs of health issues.
+  4. [IC] Engage in brief conversations with students to gather additional context on their behavior, social interactions, and emotional state.
+  5. [ME] Document observations, conversations, and any red flags using the student monitoring app or a notepad, ensuring all data is organized and categorized.
+  6. [IC] Attend teacher meetings to discuss student progress and any concerns, and review student records for additional insights.
+  7. [IC] Contact parents or guardians to discuss any concerns or provide updates on their child's progress.
+  8. [NA] Coordinate with school staff to provide additional support or resources for students in need.
+  9. [ME] Attend to any immediate crises or emergencies, such as injuries or emotional distress.
+  10. [FV] Write a comprehensive report summarizing the observations, potential issues, and any interventions made, and deliver it to the principal or relevant stakeholders.
+  11. [FV] Reflect on the day's observations and plan for follow-up actions or interventions as needed.
+
+--- Task 54: Accompany individuals or groups to activities.
+[A]
+  1. [IC] Gather the group at the designated meeting point and confirm that all members are present and have necessary items.
+  2. [IC] Brief the group on the route, estimated travel time, and any important points of interest along the way.
+  3. [NA] Lead the group to the destination, ensuring safe navigation through any obstacles or crowded areas.
+  4. [PD] Monitor the group's progress and adjust the pace to ensure they stay together and address any questions or concerns.
+  5. [NA] Approach the destination entrance and prepare the group for entry, ensuring all members are accounted for.
+  6. [ME] Engage the group in activities or discussions relevant to the destination to enhance their experience.
+  7. [FV] Conduct a brief Q&A session or review to ensure understanding and gather feedback.
+  8. [NA] Lead the group back to the meeting point, thank them for their participation, and hand out any relevant materials.
+[B]
+  1. [IC] Gather the group at the designated meeting point and confirm that all tourists are present.
+  2. [IC] Brief the group on the route, estimated travel time, and any important points of interest along the way.
+  3. [NA] Lead the group out of the meeting point and begin walking towards the museum.
+  4. [NA] Navigate through crowded areas, using hand signals and verbal cues to guide the group.
+  5. [IC] Periodically check that all tourists are following and address any questions or concerns.
+  6. [NA] Cross streets safely, ensuring all tourists cross together and follow traffic signals.
+  7. [PD] Monitor the group's progress and adjust the pace to ensure they stay together.
+  8. [NA] Approach the museum entrance and prepare the group for entry.
+  9. [FV] Confirm that all tourists have entered the museum and are accounted for.
+  10. [FV] Deliver the group to the museum entrance and hand over to the museum staff.
+[C]
+  1. [IC] Gather the group at the designated meeting point, confirm attendance, and introduce yourself.
+  2. [IC] Brief the group on the destination, estimated travel time, and any points of interest along the way.
+  3. [NA] Lead the group to the destination, navigating safely through crowds and obstacles.
+  4. [IC] Periodically check for understanding, address any questions, and ensure everyone is following.
+  5. [FV] Upon arrival, confirm everyone has reached the destination safely.
+  6. [ME] Facilitate entry into the destination, providing any necessary assistance.
+[D]
+  1. [IC] Gather the group at the designated meeting point and confirm that all individuals are present and accounted for.
+  2. [IC] Brief the group on the route, estimated travel time, any important points of interest, and safety guidelines.
+  3. [NA] Lead the group out of the meeting point and begin navigating towards the destination, ensuring everyone stays together.
+  4. [NA] Navigate through crowded areas, using verbal cues and non-verbal signals to guide the group, and monitor their progress.
+  5. [IC] Periodically check that all individuals are following and address any questions, concerns, or needs that arise.
+  6. [NA] Cross streets safely, ensuring all individuals cross together and follow traffic signals and other safety guidelines.
+  7. [NA] Approach the destination and prepare the group for entry, providing any necessary instructions or assistance.
+  8. [FV] Confirm that all individuals have entered the destination and are accounted for, then hand them over to the relevant staff or facilitate their activity.
+
+--- Task 55: Inspect work sites to identify potential environmental or safety hazards.
+[A]
+  1. [IC] Review the site map and previous inspection reports to understand the layout and known hazards.
+  2. [NA] Put on personal protective equipment (PPE), including hard hat, safety glasses, and reflective vest.
+  3. [NA] Navigate to the site, starting from the main entrance and moving towards the construction zones, avoiding potential hazards such as loose debris and uneven terrain.
+  4. [PD] Inspect scaffolding, heavy machinery, and electrical systems for stability, proper signage, and operational safety.
+  5. [FV] Document all identified hazards using a digital inspection tool, including photos, location, and severity.
+  6. [FV] Communicate the findings to the site manager, providing recommendations for immediate action and follow-up.
+  7. [FV] Revisit areas of concern to verify that hazards have been addressed and are no longer present.
+[B]
+  1. [NA] Arrive at the construction site and park the vehicle in a designated area.
+  2. [NA] Put on personal protective equipment (PPE), including hard hat, safety glasses, and reflective vest.
+  3. [IC] Review the site map and previous inspection reports to understand the layout and known hazards.
+  4. [NA] Walk through the site, starting from the main entrance and moving towards the construction zones.
+  5. [PD] Inspect scaffolding for stability, ensuring all planks are secure and guardrails are in place.
+  6. [PD] Check for proper signage and barriers around hazardous areas, such as excavation sites or areas with exposed electrical wiring.
+  7. [PD] Observe the operation of heavy machinery, ensuring operators are following safety protocols and machinery is in good working condition.
+  8. [FV] Document any identified hazards in a notebook or digital device, including location, nature of the hazard, and potential risks.
+  9. [PD] Conduct a final walkthrough of the site to ensure no new hazards have been missed.
+  10. [FV] Provide a report to the site manager detailing all identified hazards and recommendations for immediate action.
+[C]
+  1. [IC] Review site map and previous reports to understand layout and known hazards.
+  2. [NA] Don appropriate personal protective equipment (PPE).
+  3. [NA] Systematically inspect the site, starting from the entrance and moving through designated zones.
+  4. [PD] Carefully observe for potential hazards: unstable structures, exposed wiring, trip hazards, etc.
+  5. [FV] Document identified hazards with detailed descriptions, photos, and location.
+  6. [IC] Communicate findings to the site manager, including recommendations for immediate action.
+  7. [FV] Verify that addressed hazards have been mitigated effectively.
+[D]
+  1. [IC] Review site map and previous inspection reports to understand layout and known hazards.
+  2. [NA] Put on appropriate personal protective equipment (PPE) based on site's hazards.
+  3. [NA] Navigate the site systematically, starting from main entrance and moving towards construction zones.
+  4. [PD] Inspect scaffolding, ladders, and other access equipment for stability and safety.
+  5. [PD] Check for proper signage, barriers, and warnings around hazardous areas.
+  6. [PD] Observe heavy machinery operation, ensuring operators follow safety protocols and machinery is in good working condition.
+  7. [PD] Inspect electrical systems for exposed wires, overloaded circuits, and improper grounding.
+  8. [ME] Document all identified hazards using a digital inspection tool, including photos, location, and severity.
+  9. [FV] Communicate findings to the site manager, providing recommendations for immediate action and follow-up.
+  10. [FV] Revisit areas of concern to verify that hazards have been addressed and are no longer present.
+
+--- Task 56: Examine documents to verify adherence to requirements.
+[A]
+  1. [IC] Access the project's digital document repository using secure login credentials.
+  2. [NA] Retrieve the engineering blueprints and the city's building codes from the repository.
+  3. [PD] Review the project scope and objectives outlined in the blueprints.
+  4. [PD] Identify relevant sections of the building codes that apply to the project.
+  5. [PD] Compare the structural dimensions and material specifications in the blueprints with the building codes.
+  6. [ME] Document any discrepancies or non-compliance issues found during the review.
+  7. [ME] Compile a summary report detailing the compliance status and any identified issues.
+  8. [FV] Submit the report to the project manager and engineering team for further review and action.
+[B]
+  1. [IC] Access the digital repository containing the engineering blueprints and building codes.
+  2. [NA] Open the blueprints and building codes on the computer screen.
+  3. [PD] Review the project scope and objectives outlined in the blueprints.
+  4. [PD] Identify the relevant sections of the building codes that apply to the bridge construction.
+  5. [PD] Compare the structural dimensions in the blueprints with the allowable dimensions specified in the building codes.
+  6. [PD] Check the material specifications in the blueprints against the approved materials listed in the building codes.
+  7. [PD] Verify that the safety features, such as guardrails and emergency exits, are correctly specified in the blueprints.
+  8. [ME] Document any discrepancies or non-compliance issues found during the review.
+  9. [ME] Summarize the findings and prepare a report detailing the compliance status of the blueprints.
+  10. [FV] Deliver the report to the project manager and the engineering team for further review and action.
+[C]
+  1. [NA] Access the project's digital document repository.
+  2. [NA] Retrieve the relevant blueprints, technical specifications, and building codes.
+  3. [PD] Identify the project scope, objectives, and applicable regulations from the documents.
+  4. [PD] Systematically compare the blueprints and specifications against the building codes and regulations.
+  5. [ME] Document any discrepancies or non-compliance issues found.
+  6. [ME] Summarize the findings in a report, including recommendations for corrective action.
+  7. [FV] Submit the report to the project manager and engineering team.
+[D]
+  1. [IC] Access the digital repository containing the relevant documents and regulations.
+  2. [NA] Identify and retrieve the specific documents and regulations applicable to the task at hand.
+  3. [PD] Review the project scope, objectives, and technical specifications outlined in the documents.
+  4. [PD] Identify the relevant sections of regulations and standards that apply to the project.
+  5. [PD] Systematically review each document, comparing its contents with the applicable regulations and standards.
+  6. [ME] Document any discrepancies, non-compliance issues, or potential problems found during the review.
+  7. [ME] Compile a list of all identified issues and generate a report summarizing the findings.
+  8. [FV] Submit the report to the relevant stakeholders (e.g., project manager, engineering team) for review and follow-up action.
+
+================================================================
+ANSWER TEMPLATE
+
+49: _ | 
+50: _ | 
+51: _ | 
+52: _ | 
+53: _ | 
+54: _ | 
+55: _ | 
+56: _ | 
+

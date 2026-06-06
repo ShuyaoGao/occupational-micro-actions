@@ -1,0 +1,369 @@
+BATCH 36/63 | Model: Gemini 3 Pro | Tasks 281-288
+================================================================
+EXPERT REVIEW -- Micro-Action Sequence Evaluation
+For each task, read ALL four options, then choose the BEST (A/B/C/D).
+
+Criteria:
+  1. Completeness  -- no critical steps missing
+  2. Realism       -- every step is concretely executable
+  3. Stage accuracy -- stage label correct for each step:
+     IC=Intent_Communication  NA=Navigation_Addressing
+     PD=Perception_Diagnosis  ME=Manipulation_Execution  FV=Feedback_Verification
+  4. Conciseness   -- no redundant or duplicate steps
+  5. Scope         -- starts and ends at exactly the right point
+
+OUTPUT: fill the ANSWER TEMPLATE at the bottom.
+Format: N: X | one-sentence reason (max 12 words)
+IMPORTANT: Each task has a different best answer. Do NOT pick the same
+letter for every task without reading.
+================================================================
+
+--- Task 281: Evaluate patient functioning, capabilities, or health.
+[A]
+  1. [IC] Review the patient's medical history and relevant documentation, such as physician notes or previous assessment reports.
+  2. [IC] Approach the patient, introduce yourself, and explain the purpose of the evaluation.
+  3. [PD] Observe the patient's gait and posture as they walk into the evaluation room.
+  4. [ME] Guide the patient through a series of standardized range of motion exercises and assess muscle strength using manual resistance techniques.
+  5. [ME] Evaluate the patient's balance and coordination through specific tests.
+  6. [IC] Inquire about the patient's pain levels and any functional limitations they are experiencing.
+  7. [FV] Document the findings of the evaluation, including measurements, observations, and recommendations.
+  8. [FV] Discuss the evaluation results with the patient and provide recommendations.
+  9. [FV] Deliver the assessment report to the medical team for further review.
+[B]
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+[C]
+  1. [IC] Review the patient's medical history, previous evaluation notes, and any relevant documentation.
+  2. [IC] Greet the patient, introduce yourself, explain the purpose of the evaluation, and obtain consent.
+  3. [PD] Observe the patient's gait, posture, and general appearance as they enter the evaluation area.
+  4. [ME] Guide the patient through a series of standardized assessments, including range of motion, strength, balance, and coordination tests.
+  5. [IC] Inquire about the patient's pain levels, functional limitations, and any concerns they have.
+  6. [FV] Document the evaluation findings, including measurements, observations, patient feedback, and recommendations.
+  7. [FV] Communicate the evaluation results and recommendations to the patient and the medical team.
+[D]
+  1. [IC] Review the patient's medical history, recent notes, and EHR to understand their background and current status.
+  2. [IC] Approach the patient, introduce yourself, explain the evaluation process, and obtain consent.
+  3. [NA] Check the patient's identification to ensure it matches the EHR information.
+  4. [PD] Measure and record the patient's vital signs: blood pressure, heart rate, respiratory rate, and temperature.
+  5. [PD] Observe the patient's general appearance, level of consciousness, and any visible signs of injury or distress.
+  6. [IC] Ask the patient about their pain level, using a validated pain scale, and document their response.
+  7. [ME] Perform a focused physical exam, assessing relevant systems based on the patient's history and symptoms.
+  8. [PD] Observe the patient performing daily tasks or range-of-motion exercises to assess their functioning and mobility.
+  9. [PD] Use standardized assessment tools to quantify the patient's level of functioning and identify areas for improvement.
+  10. [FV] Document the evaluation findings, including objective data, subjective data, and recommendations.
+  11. [FV] Communicate the evaluation findings to the medical team, patient, and family, and answer any questions.
+  12. [IC] Develop a plan with the patient and their family to implement recommended changes and improve daily living skills, if applicable.
+
+--- Task 282: Set up material handling gear or equipment, such as rigging, packaging, or temporary structures.
+[A]
+  1. [NA] Retrieve the necessary rigging and packaging materials from storage.
+  2. [PD] Inspect the rigging equipment for any signs of wear or damage.
+  3. [IC] Determine the weight and dimensions of the machinery to be lifted.
+  4. [NA] Position the machinery in the correct location for lifting.
+  5. [ME] Attach the slings to the machinery using the appropriate hooks and shackles.
+  6. [FV] Check the rigging setup to ensure all connections are secure.
+  7. [ME] Attach the rigging to the crane hook and ensure the crane is positioned correctly.
+  8. [FV] Conduct a final inspection of the rigging and crane setup.
+  9. [IC] Signal the crane operator to lift the machinery and move it to the new location.
+  10. [FV] Verify that the machinery is safely placed in the new location.
+[B]
+  1. [PD] Inspect the designated area for obstacles and ensure a level surface for crane base placement.
+  2. [NA] Unpack and lay out all components of the gantry crane system according to the manufacturer's instructions.
+  3. [ME] Assemble the crane's base structure, ensuring all bolts are tightened to the specified torque.
+  4. [ME] Erect the vertical supports (legs) of the gantry crane, using a level to ensure they are plumb.
+  5. [ME] Attach the hoist mechanism and lifting cable to the horizontal beam, ensuring it is properly balanced and secured.
+  6. [FV] Double-check all connections, bolts, and safety features of the assembled crane.
+  7. [IC] Position warning signs and barricades around the crane's operational area.
+  8. [NA] Measure the dimensions of the warehouse and the machinery parts to determine the optimal location for the temporary storage structure.
+  9. [PD] Assess the weight and size of the machinery parts to determine the necessary rigging and packaging materials.
+  10. [IC] Signal the crane operator to lift the machinery and move it to the new location.
+  11. [FV] Verify that the machinery is safely placed in the new location.
+  12. [IC] Document the setup and storage procedures for future reference.
+[C]
+  1. [IC] Determine the type and weight of the material to be handled.
+  2. [NA] Retrieve the necessary rigging, packaging, or temporary structure components from storage.
+  3. [PD] Inspect all equipment for damage or wear and ensure it's suitable for the task.
+  4. [ME] Assemble any temporary structures according to manufacturer instructions.
+  5. [ME] Securely rig the material using appropriate slings, hooks, and shackles.
+  6. [FV] Double-check all connections and ensure the setup is stable and safe.
+  7. [NA] Position the material for movement or storage.
+  8. [ME] Package the material for protection during transport or storage (if required).
+[D]
+  1. [PD] Inspect the designated area for obstacles and ensure a level surface for equipment setup.
+  2. [NA] Retrieve and lay out all necessary rigging, packaging, or temporary structure components according to instructions.
+  3. [ME] Assemble and set up the equipment or structure, following manufacturer instructions.
+  4. [PD] Inspect and assess the weight, dimensions, and stability of the machinery or items to be handled.
+  5. [ME] Select appropriate rigging, packaging, or handling equipment based on the assessment.
+  6. [ME] Attach rigging or secure items using the selected equipment, ensuring all connections are secure.
+  7. [NA] Position the machinery or items in the correct location for lifting or movement.
+  8. [FV] Conduct a final inspection of the setup, including all connections, safety features, and equipment operation.
+  9. [IC] Communicate with relevant personnel (e.g., crane operators) to coordinate the lifting or movement of machinery or items.
+  10. [FV] Verify that the machinery or items are safely placed in the new location and document the setup for future reference.
+
+--- Task 283: Advise others about land management or conservation.
+[A]
+  1. [PD] Review the cooperative's current farming practices and environmental data to identify areas of high erosion risk and opportunities for conservation.
+  2. [NA] Travel to the cooperative's meeting location and set up necessary presentation materials.
+  3. [IC] Meet with the cooperative members to discuss their goals, concerns, and current challenges related to land management, and build trust and rapport.
+  4. [IC] Present an overview of the current environmental conditions, challenges, and proposed land management practices for soil and water conservation.
+  5. [ME] Collaborate with the cooperative to develop a tailored land management plan that balances their needs with conservation goals.
+  6. [FV] Document the agreed-upon practices and action plan and provide each member with a copy.
+  7. [PD] Monitor the cooperative's progress in implementing the land management practices, collecting data on soil health, erosion rates, and biodiversity.
+  8. [ME] Adjust the land management plan as needed based on monitoring data and feedback from the cooperative members.
+  9. [FV] Evaluate the overall success of the project, including the cooperative's adoption of sustainable land management practices, and identify areas for future improvement.
+[B]
+  1. [PD] Review the cooperative's current farming practices and environmental data.
+  2. [NA] Travel to the cooperative's meeting location.
+  3. [IC] Present an overview of the current environmental conditions and challenges.
+  4. [PD] Discuss the cooperative's current land management practices.
+  5. [ME] Propose specific land management practices for soil and water conservation.
+  6. [ME] Provide examples of successful implementation of these practices.
+  7. [IC] Answer questions from the cooperative members.
+  8. [ME] Collaborate with the cooperative to develop an action plan.
+  9. [FV] Document the agreed-upon practices and action plan.
+  10. [FV] Deliver the final action plan to the cooperative members.
+[C]
+  1. [PD] Research the target community's land management practices, environmental context, and conservation goals.
+  2. [NA] Travel to the community and establish rapport with key stakeholders.
+  3. [IC] Present an overview of relevant environmental challenges and potential conservation benefits.
+  4. [IC] Facilitate a discussion to understand the community's current practices, challenges, and aspirations.
+  5. [ME] Collaboratively develop a customized land management plan, incorporating best practices and addressing community needs.
+  6. [IC] Provide clear explanations, visual aids, and resources to support the implementation of the plan.
+  7. [FV] Document the agreed-upon plan and establish a system for ongoing monitoring and evaluation.
+[D]
+  1. [PD] Review farm's topography, soil type, current land use practices, and environmental data to identify erosion risks, conservation opportunities, and environmental challenges.
+  2. [IC] Meet with farmers to discuss their goals, concerns, and current challenges related to land management, and build trust and rapport.
+  3. [PD] Conduct a site visit to observe current land use practices, note areas of erosion, and identify potential conservation opportunities.
+  4. [ME] Develop a customized plan for the farmers, recommending specific land management practices to address erosion, conservation goals, and environmental challenges.
+  5. [IC] Present the plan to the farmers, addressing their questions and concerns, and providing technical support and resources for implementation.
+  6. [ME] Work with the farmers to implement the recommended land management practices, providing technical assistance and monitoring progress.
+  7. [PD] Monitor the farm's progress, collecting data on soil health, erosion rates, biodiversity, and environmental indicators to evaluate the effectiveness of the recommended practices.
+  8. [ME] Adjust the land management plan as needed, based on monitoring data and farmer feedback, to ensure continued improvement in soil health, biodiversity, and environmental sustainability.
+  9. [FV] Document the success of the project, including data on soil health, erosion rates, biodiversity, and environmental indicators, to share with other farmers, conservation organizations, and policymakers.
+  10. [FV] Evaluate the overall success of the project, including the farmers' adoption of sustainable land management practices, and identify areas for future improvement.
+
+--- Task 284: Direct material handling or moving activities.
+[A]
+  1. [NA] Approach the pallet of boxes at the loading dock.
+  2. [ME] Lift the pallet off the ground using the pallet jack.
+  3. [PD] Check the warehouse layout and plan the route to the storage area.
+  4. [NA] Navigate through the warehouse, avoiding obstacles and other workers.
+  5. [ME] Upon reaching the storage area, lower the pallet to the ground.
+  6. [ME] Remove the pallet jack from under the pallet.
+  7. [FV] Check that the pallet is properly positioned and secure in the storage area.
+  8. [IC] Communicate the completion of the task to the warehouse management system or supervisor.
+[B]
+  1. [IC] Receive a list of incoming materials and their destinations from the inventory system.
+  2. [PD] Walk to the receiving dock and visually inspect the incoming materials to confirm they match the list.
+  3. [IC] Direct the forklift operator to load the materials onto the forklift, specifying the type and quantity of each item.
+  4. [NA] Drive the forklift from the receiving dock to the storage area, following the specified route.
+  5. [IC] Prepare the storage area by clearing space and ensuring it is ready for the new materials.
+  6. [ME] Unload the materials from the forklift and place them on the ground near the storage area.
+  7. [ME] Stack and organize the materials in the storage area according to the specified layout.
+  8. [FV] Check the storage area to ensure that the materials are correctly organized and that the layout matches the specified requirements.
+  9. [FV] Update the inventory system with the new locations of the materials and confirm the update with the team.
+  10. [FV] Confirm that all materials are safely and correctly stored and that the storage area is organized according to the specified layout.
+[C]
+  1. [IC] Receive a list of incoming materials and their destinations from the inventory system.
+  2. [PD] Navigate to the receiving dock and visually inspect incoming materials against the list.
+  3. [IC] Direct the forklift operator to load the materials onto the forklift, specifying type and quantity.
+  4. [NA] The forklift operator transports the loaded materials to the designated storage area.
+  5. [ME] Unload the materials from the forklift and position them near the storage area.
+  6. [ME] Stack and organize the materials in the storage area according to the specified layout.
+  7. [FV] Verify the correct organization of materials and adherence to the layout.
+  8. [FV] Update the inventory system with the new locations of the materials.
+[D]
+  1. [IC] Receive material handling task details from the inventory system or supervisor.
+  2. [NA] Proceed to the material pick-up location (e.g., loading dock, storage area).
+  3. [PD] Inspect and confirm the material matches the task details.
+  4. [ME] Lift and secure the material using appropriate equipment (e.g., forklift, pallet jack, robotic arm).
+  5. [NA] Plan and navigate to the destination, avoiding obstacles and other workers.
+  6. [ME] Position and secure the material at the designated location.
+  7. [FV] Verify that the material is correctly positioned and secure.
+  8. [IC] Update the inventory system or communicate task completion to the supervisor.
+
+--- Task 285: Remove debris or damaged materials.
+[A]
+  1. [PD] Inspect the site to identify types and locations of debris and damaged materials, noting any potential hazards.
+  2. [IC] Put on appropriate personal protective equipment (PPE) based on the identified materials.
+  3. [NA] Approach the first pile of debris, ensuring stable footing.
+  4. [ME] Use appropriate tools (e.g., shovel, broom, or hands) to gather and move debris into a designated collection area.
+  5. [PD] Inspect the cleared area for any remaining debris or hidden hazards.
+  6. [NA] Proceed to the next pile of debris, repeating steps 3-5 until the entire site is cleared.
+  7. [ME] Once all debris is collected, use a magnet to sweep the area for any metal shavings or nails.
+  8. [FV] Inspect the entire site one last time to confirm all debris and damaged materials have been removed.
+  9. [IC] Communicate any remaining hazards or concerns to the site supervisor.
+  10. [FV] Remove and store PPE, signaling the completion of the debris removal task.
+[B]
+  1. [PD] Inspect the site, identifying types and locations of debris and damaged materials.
+  2. [IC] Put on appropriate personal protective equipment (PPE) based on the identified materials.
+  3. [NA] Approach the first pile of debris, ensuring stable footing.
+  4. [ME] Use appropriate tools (e.g., shovel, broom, or hands) to gather and move debris into a designated collection area.
+  5. [PD] Inspect the cleared area for any remaining debris or hidden hazards.
+  6. [NA] Proceed to the next pile of debris, repeating steps 3-5 until the entire site is cleared.
+  7. [ME] Once all debris is collected, use a magnet to sweep the area for any metal shavings or nails.
+  8. [FV] Inspect the entire site one last time to confirm all debris and damaged materials have been removed.
+  9. [IC] Communicate any remaining hazards or concerns to the site supervisor.
+  10. [FV] Remove and store PPE, signaling the completion of the debris removal task.
+[C]
+  1. [PD] Inspect the site to identify types and locations of debris and damaged materials, noting potential hazards.
+  2. [IC] Don appropriate personal protective equipment (PPE) based on the identified materials.
+  3. [NA] Locate the nearest designated disposal area for debris.
+  4. [NA] Approach the first debris pile, ensuring stable footing.
+  5. [ME] Use appropriate tools (e.g., shovel, broom, hands) to gather and move debris into the designated collection area.
+  6. [PD] Inspect the cleared area for any remaining debris or hidden hazards.
+  7. [ME] Repeat steps 4-6 for all debris piles.
+  8. [FV] Perform a final inspection of the entire site to confirm all debris and damaged materials have been removed.
+  9. [IC] Communicate any remaining hazards or concerns to the site supervisor.
+  10. [FV] Remove and store PPE.
+[D]
+  1. [PD] Inspect the site to identify types, locations, and potential hazards of debris and damaged materials.
+  2. [IC] Put on appropriate personal protective equipment (PPE) based on the identified materials.
+  3. [NA] Approach the first pile of debris, ensuring stable footing.
+  4. [ME] Use appropriate tools (e.g., shovel, broom, or hands) to gather and move debris into a designated collection area.
+  5. [PD] Inspect the cleared area for any remaining debris or hidden hazards.
+  6. [NA] Proceed to the next pile of debris, repeating steps 3-5 until the entire site is cleared.
+  7. [ME] Once all debris is collected, use a magnet to sweep the area for any metal shavings or nails.
+  8. [FV] Inspect the entire site one last time to confirm all debris and damaged materials have been removed.
+  9. [IC] Communicate any remaining hazards or concerns to the site supervisor.
+  10. [FV] Remove and store PPE, signaling the completion of the debris removal task.
+
+--- Task 286: Report news to the public.
+[A]
+  1. [PD] The journalist reviews and revises the news script to ensure accuracy and clarity.
+  2. [ME] The journalist practices the delivery of the news report to ensure a smooth and confident tone.
+  3. [ME] The journalist sets up the broadcasting equipment and establishes a live connection with the news station.
+  4. [ME] The journalist delivers the news report, maintaining eye contact with the camera and a clear, audible tone.
+  5. [FV] The journalist monitors the broadcast for any technical issues and ensures the report is delivered within the allotted time.
+  6. [FV] The journalist concludes the report, summarizing key points and thanking the viewers.
+  7. [FV] The journalist confirms the successful delivery of the report with the broadcast team.
+[B]
+  1. [PD] Review the news script and make any necessary revisions to ensure accuracy and clarity.
+  2. [ME] Practice the delivery of the news report to ensure a smooth and confident tone.
+  3. [ME] Operate the teleprompter to display the news script in a clear and readable format.
+  4. [ME] Use the microphone to deliver the news report in a clear and audible tone.
+  5. [ME] Maintain eye contact with the camera to engage the audience and convey confidence.
+  6. [ME] Deliver the news report within the allotted time, ensuring a smooth and confident tone.
+  7. [FV] Receive feedback from the audience and the news network, and make any necessary adjustments to the report.
+  8. [PD] Review the news report to ensure accuracy and clarity, and make any necessary revisions.
+  9. [FV] Confirm the successful delivery of the report with the broadcast team.
+[C]
+  1. [PD] Gather information about the news event from reliable sources like press releases, official statements, and eyewitness accounts.
+  2. [ME] Structure a concise and engaging script summarizing the key points of the news event.
+  3. [NA] Set up and test the necessary broadcasting equipment, including microphone, camera, and teleprompter.
+  4. [ME] Deliver the news report clearly and concisely, maintaining eye contact with the camera and engaging tone.
+  5. [FV] Monitor audience feedback and respond to any questions or comments in a timely and professional manner.
+[D]
+  1. [PD] Assess the news event or gather information from reliable sources.
+  2. [IC] Contact relevant authorities, affected parties, or news sources for official confirmation and additional details.
+  3. [ME] Set up broadcasting equipment and establish a live connection with the news station, if applicable.
+  4. [ME] Prepare a concise and engaging script based on gathered information, ensuring accuracy and clarity.
+  5. [FV] Review the script with the news director or editor, making necessary revisions.
+  6. [NA] Move to the designated broadcast location, if applicable.
+  7. [IC] Wait for the cue from the producer or news director to start the broadcast.
+  8. [ME] Deliver the news report, maintaining a professional demeanor and engaging the audience.
+  9. [FV] Monitor the broadcast for any technical issues or audience feedback, and address them as needed.
+  10. [IC] Answer any follow-up questions from the audience or news team after the broadcast, if applicable.
+
+--- Task 287: Interview patients to gather medical information.
+[A]
+  1. [IC] Greet the patient warmly, introduce yourself, and explain the purpose of the interview.
+  2. [IC] Ask the patient to confirm their full name, date of birth, and any known allergies.
+  3. [PD] Guide the patient through a series of questions about their medical history, including previous surgeries, chronic conditions, and current medications.
+  4. [PD] Ask the patient about any recent illnesses, hospitalizations, or changes in their health status.
+  5. [PD] Inquire about the patient's lifestyle, including diet, exercise, smoking, and alcohol consumption.
+  6. [ME] Record the patient's responses accurately and efficiently in the electronic health record system.
+  7. [FV] Summarize the key points of the interview for the patient, ensuring they understand what information has been collected and why.
+  8. [FV] Review the documented information with the patient, answer any questions they may have, and provide them with a copy of the interview notes if desired.
+[B]
+  1. [IC] Greet the patient warmly, introduce yourself, and explain the purpose of the interview.
+  2. [IC] Ask the patient to confirm their full name, date of birth, and any known allergies.
+  3. [PD] Guide the patient through a series of questions about their medical history, including previous surgeries, chronic conditions, and current medications.
+  4. [PD] Ask the patient about any recent illnesses, hospitalizations, or changes in their health status.
+  5. [PD] Inquire about the patient's lifestyle, including diet, exercise, smoking, and alcohol consumption.
+  6. [PD] Ask the patient about any advance directives, such as a living will or healthcare power of attorney.
+  7. [ME] Measure the patient's vital signs, including blood pressure, heart rate, respiratory rate, and temperature.
+  8. [ME] Perform a brief physical examination, focusing on any areas of concern or relevant to the upcoming surgery.
+  9. [FV] Summarize the key points of the interview for the patient, ensuring they understand what information has been collected and why.
+  10. [FV] Document the interview findings in the patient's electronic health record, ensuring all relevant information is accurately recorded.
+  11. [FV] Review the documented information with the patient, answer any questions they may have, and provide them with a copy of the interview notes if desired.
+[C]
+  1. [IC] Greet the patient, introduce yourself, explain the purpose of the interview, and confirm patient identity.
+  2. [IC] Review the patient's reason for visit and any relevant medical history from previous records.
+  3. [PD] Ask the patient about their current symptoms, medications, allergies, and relevant lifestyle factors using a standardized questionnaire.
+  4. [IC] Actively listen to the patient's responses, demonstrating empathy and understanding.
+  5. [ME] Record the patient's responses accurately and efficiently in the electronic health record system.
+  6. [PD] Identify any urgent medical concerns or red flags that require immediate attention from the doctor.
+  7. [FV] Summarize the key findings of the interview for the patient and answer any questions they may have.
+[D]
+  1. [IC] Greet the patient warmly, introduce yourself, and explain the purpose of the interview.
+  2. [IC] Ask the patient to confirm their full name, date of birth, and any known allergies.
+  3. [PD] Guide the patient through a series of questions about their medical history, including previous surgeries, chronic conditions, and current medications.
+  4. [PD] Ask the patient about any recent illnesses, hospitalizations, or changes in their health status.
+  5. [PD] Inquire about the patient's lifestyle, including diet, exercise, smoking, and alcohol consumption.
+  6. [ME] Measure the patient's vital signs, including blood pressure, heart rate, respiratory rate, and temperature.
+  7. [ME] Perform a brief physical examination, focusing on any areas of concern or relevant to the upcoming surgery.
+  8. [ME] Document the interview findings in the patient's electronic health record, ensuring all relevant information is accurately recorded.
+  9. [FV] Summarize the key points of the interview for the patient, ensuring they understand what information has been collected and why.
+  10. [FV] Review the documented information with the patient, answer any questions they may have, and provide them with a copy of the interview notes if desired.
+
+--- Task 288: Monitor medical equipment to ensure proper functioning.
+[A]
+  1. [IC] Check the ward's master schedule to understand which devices need monitoring today.
+  2. [NA] Navigate to the first device's location, pushing the monitoring cart along the way.
+  3. [PD] Connect the monitoring equipment to the device and observe its readings.
+  4. [PD] Compare real-time data against the device's pre-set parameters and patient's medical history.
+  5. [ME] If readings are unusual, consult the device's manual or contact the maintenance team for guidance.
+  6. [FV] Once resolved, log the issue in the maintenance system for future reference.
+  7. [NA] Disconnect the monitoring equipment and navigate to the next device's location.
+  8. [FV] Repeat the process for all devices in the ward, ensuring all are functioning correctly by the end of the shift.
+[B]
+  1. [NA] Access the ICU and approach the ventilator station where the patient is connected.
+  2. [NA] Identify the specific ventilator and patient being monitored.
+  3. [PD] Review the current settings and parameters displayed on the ventilator's control panel.
+  4. [PD] Check the ventilator's alarm system for any active alerts or warnings.
+  5. [PD] Listen to the patient's breathing and observe the ventilator's operation to ensure it is synchronized with the patient's respiratory cycle.
+  6. [PD] Check the ventilator's airway pressure and tidal volume to ensure they are within the prescribed limits.
+  7. [ME] Adjust any settings on the ventilator if necessary to correct any deviations from the prescribed parameters.
+  8. [FV] Document the findings and any adjustments made in the patient's medical record.
+  9. [FV] Run a quick diagnostic test on the ventilator to ensure all systems are functioning correctly.
+  10. [FV] Confirm that the patient is stable and the ventilator is operating as expected before leaving the ICU.
+[C]
+  1. [IC] Review the patient's medical records and treatment plan to understand the prescribed ventilator settings and any specific monitoring requirements.
+  2. [NA] Navigate to the patient's bedside and visually inspect the ventilator, ensuring all connections are secure.
+  3. [PD] Observe the patient's breathing pattern and synchronize it with the ventilator's operation.
+  4. [PD] Review the ventilator's control panel, checking current settings (tidal volume, airway pressure, etc.) against the prescribed parameters.
+  5. [PD] Check the ventilator's alarm system for any active alerts or warnings.
+  6. [FV] Document the ventilator's settings, the patient's respiratory status, and any observations or adjustments made in the patient's medical record.
+[D]
+  1. [PD] Review previous day's equipment logs and patient records to identify potential issues.
+  2. [IC] Check the ward's master schedule to understand which devices need monitoring today.
+  3. [NA] Navigate to the first device's location, pushing the monitoring cart along the way.
+  4. [PD] Connect the monitoring equipment to the first device and observe its readings.
+  5. [PD] Compare real-time data against the device's pre-set parameters and patient profiles.
+  6. [FV] Flag any deviations from expected parameters or trigger alarms if necessary.
+  7. [PD] Visually inspect the physical connections of the device (tubing, power cords, etc.).
+  8. [IC] If any issues are detected, alert the human nursing staff and provide a concise report.
+  9. [FV] Log all monitoring data and any reported issues for future reference.
+  10. [FV] Repeat the process for all devices in the ward, ensuring all are functioning correctly by the end of the shift.
+
+================================================================
+ANSWER TEMPLATE
+
+281: _ | 
+282: _ | 
+283: _ | 
+284: _ | 
+285: _ | 
+286: _ | 
+287: _ | 
+288: _ | 
+

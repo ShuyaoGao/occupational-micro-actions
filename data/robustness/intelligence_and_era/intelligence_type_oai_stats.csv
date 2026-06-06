@@ -1,0 +1,5 @@
+﻿intelligence,n_DWAs,mean_OAI,median_OAI,std
+Embodied,335,0.0931,0.0,0.2031
+Human_Bound,212,0.1443,0.0,0.2425
+Multimodal_Perception,309,0.1269,0.0,0.2298
+LLM,1105,0.4242,0.5,0.2822

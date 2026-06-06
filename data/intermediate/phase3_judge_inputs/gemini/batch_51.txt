@@ -1,0 +1,383 @@
+BATCH 51/63 | Model: Gemini 3 Pro | Tasks 401-408
+================================================================
+EXPERT REVIEW -- Micro-Action Sequence Evaluation
+For each task, read ALL four options, then choose the BEST (A/B/C/D).
+
+Criteria:
+  1. Completeness  -- no critical steps missing
+  2. Realism       -- every step is concretely executable
+  3. Stage accuracy -- stage label correct for each step:
+     IC=Intent_Communication  NA=Navigation_Addressing
+     PD=Perception_Diagnosis  ME=Manipulation_Execution  FV=Feedback_Verification
+  4. Conciseness   -- no redundant or duplicate steps
+  5. Scope         -- starts and ends at exactly the right point
+
+OUTPUT: fill the ANSWER TEMPLATE at the bottom.
+Format: N: X | one-sentence reason (max 12 words)
+IMPORTANT: Each task has a different best answer. Do NOT pick the same
+letter for every task without reading.
+================================================================
+
+--- Task 401: Trim client hair.
+[A]
+  1. [IC] Greet the client, discuss desired trim length and style, and confirm understanding.
+  2. [NA] Position the client in the chair, ensuring their comfort and proper posture for the trim.
+  3. [PD] Comb through the client's hair to assess its texture, thickness, and current length.
+  4. [NA] Section the hair into manageable parts using clips or combs.
+  5. [ME] Begin trimming, using the comb to lift sections of hair and scissors to precisely cut to the desired length.
+  6. [FV] Periodically check the symmetry and length of the haircut, making adjustments as needed.
+  7. [FV] Use a handheld mirror to show the client the back of their haircut.
+  8. [NA] Clean up the workstation, removing excess hair and preparing for the next client.
+[B]
+  1. [IC] Greet the client, understand their desired trim length and style, and confirm the boundaries of the task.
+  2. [NA] Position the client in the chair, ensuring their comfort and proper posture for the trim.
+  3. [PD] Detect and mark the desired starting point for the trim using a comb and marker.
+  4. [ME] Use scissors to trim hair to the desired length, following the marked points and maintaining a consistent angle.
+  5. [PD] Use a comb to check for any uneven lengths or missed spots, and adjust trimming as needed.
+  6. [ME] Use a blow dryer to remove excess hair from the client's shoulders and neck.
+  7. [FV] Show the client the trimmed hair in the mirror, ensuring they are satisfied with the result.
+  8. [FV] Clean up the workstation, removing excess hair and preparing for the next client.
+[C]
+  1. [IC] Greet the client, discuss desired trim length and style, and confirm understanding.
+  2. [NA] Position the client in the chair, ensuring their comfort and proper posture.
+  3. [PD] Visually inspect the client's hair to assess its texture, thickness, and current length.
+  4. [NA] Section the client's hair using a comb to isolate the areas to be trimmed.
+  5. [ME] Trim the hair in sections, using scissors to cut to the desired length, checking for symmetry and evenness regularly.
+  6. [FV] Show the client the trimmed hair in a mirror, asking for feedback and making any necessary adjustments.
+  7. [ME] Style the client's hair as desired, using appropriate techniques and products.
+  8. [NA] Clean up the workstation, removing excess hair and preparing for the next client.
+[D]
+  1. [IC] Greet the client, discuss desired trim length and style, and confirm understanding and boundaries.
+  2. [NA] Position the client in the chair, ensuring their comfort and proper posture for the trim.
+  3. [PD] Comb through the client's hair to assess its texture, thickness, and current length, and detect the desired starting point for the trim.
+  4. [ME] Select appropriate tools based on hair type, desired trim, and client's comfort (e.g., scissors, comb, clippers).
+  5. [ME] Begin trimming, using the comb to lift sections of hair and selected tools to precisely cut to the desired length and style.
+  6. [FV] Periodically check the symmetry, length, and style of the haircut, making adjustments as needed using a comb and mirror.
+  7. [FV] Use a blow dryer to remove excess hair from the client's shoulders and neck, and present the final result to the client in the mirror.
+  8. [NA] Clean up the workstation, removing excess hair and preparing for the next client.
+  9. [IC] Review the client's feedback, make any necessary adjustments, and discuss future appointments or styling tips.
+
+--- Task 402: Research energy production, use, or conservation.
+[A]
+  1. [IC] Review the project brief and confirm the scope and objectives with the project manager.
+  2. [NA] Access and understand the relevant energy consumption data from the utility provider's portal or other data sources.
+  3. [PD] Collect and analyze data on energy usage to identify trends, patterns, and areas for improvement.
+  4. [ME] Research and evaluate potential energy-saving technologies and best practices applicable to the identified areas for improvement.
+  5. [ME] Estimate the potential energy savings and financial viability of the recommended measures.
+  6. [FV] Compile the findings and recommendations into a comprehensive report.
+  7. [IC] Present the report to stakeholders and address any questions or concerns.
+  8. [IC] Follow up with stakeholders to discuss the next steps for implementing the recommended measures.
+[B]
+  1. [IC] Review the project brief and confirm the scope and objectives with the project manager.
+  2. [NA] Access the city's publicly available GIS data portal to download a shapefile of building footprints in the target neighborhood.
+  3. [PD] Use GIS software to filter the building data, selecting only structures with suitable roof characteristics (e.g., flat or gently sloped roofs).
+  4. [NA] Access historical solar irradiance data for the neighborhood from a meteorological database.
+  5. [ME] Calculate the estimated annual solar energy production for each eligible building roof using a solar irradiance model.
+  6. [NA] Research local electricity tariffs and incentives for solar panel installations.
+  7. [ME] Analyze the financial viability of rooftop solar installations in the neighborhood, considering factors like energy production, electricity costs, and incentives.
+  8. [FV] Compile the findings into a concise report outlining the potential energy generation capacity and financial viability of rooftop solar installations in the neighborhood.
+  9. [IC] Present the report to the university's sustainability team, outlining specific recommendations for reducing the building's energy consumption.
+  10. [FV] Deliver the final report to the project manager and ensure all stakeholders have access to the findings.
+[C]
+  1. [IC] Define the scope and objectives of the energy research project, clarifying the specific focus area (e.g., production, use, or conservation).
+  2. [NA] Gather relevant data sources based on the chosen focus. This could include historical energy consumption data, building plans, solar irradiance data, or energy technology specifications.
+  3. [PD] Analyze the collected data to identify patterns, trends, inefficiencies, or potential areas for improvement.
+  4. [ME] Research and evaluate potential energy solutions or conservation strategies relevant to the identified areas for improvement.
+  5. [ME] Estimate the potential impact (e.g., energy savings, cost reductions, environmental benefits) of the proposed solutions.
+  6. [FV] Prepare a comprehensive report summarizing the findings, analysis, proposed solutions, and their estimated impact.
+  7. [IC] Present the findings and recommendations to relevant stakeholders (e.g., project team, decision-makers).
+[D]
+  1. [IC] Review project brief and communicate scope and objectives with stakeholders.
+  2. [PD] Access and understand historical energy data, building characteristics, and relevant documentation.
+  3. [NA] Collect additional data through on-site observations, measurements, or GIS analysis.
+  4. [PD] Analyze collected data to identify trends, patterns, and areas for improvement.
+  5. [ME] Research and evaluate energy-saving technologies, best practices, and financial incentives.
+  6. [ME] Estimate potential energy savings, costs, and benefits for identified measures.
+  7. [FV] Prioritize energy-saving measures based on impact, feasibility, and payback period.
+  8. [FV] Prepare a comprehensive report outlining findings, recommendations, and next steps.
+  9. [IC] Present the report to stakeholders, answer questions, and discuss implementation.
+  10. [NA] Update relevant systems and databases with new data and recommended measures.
+
+--- Task 403: Develop detailed project plans.
+[A]
+  1. [IC] Conduct a kickoff meeting with stakeholders to gather initial requirements and expectations.
+  2. [NA] Break down the project into smaller tasks and sub-tasks, defining clear deliverables and milestones.
+  3. [PD] Estimate the time and resources required for each task, considering dependencies and potential risks.
+  4. [ME] Create a detailed project schedule using tools like Gantt charts, including milestones and dependencies.
+  5. [ME] Allocate resources (team members, materials, equipment) to each task, ensuring a balanced workload.
+  6. [IC] Develop a communication plan to ensure stakeholders are informed and engaged throughout the project.
+  7. [FV] Review the project plan with the team and stakeholders to ensure understanding and gather feedback.
+  8. [FV] Finalize the project plan document, incorporating all feedback and approvals.
+  9. [FV] Distribute the finalized project plan to all stakeholders and obtain their approval.
+[B]
+  1. [IC] Schedule a kick-off meeting with all team members and stakeholders to gather initial requirements and expectations.
+  2. [IC] Review project requirements and scope statement to understand the project's objectives, deliverables, and timelines.
+  3. [IC] Break down the project into smaller tasks and sub-tasks.
+  4. [PD] Estimate the time required for each task and sub-task.
+  5. [PD] Identify dependencies between tasks and sub-tasks.
+  6. [ME] Allocate resources (team members) to each task.
+  7. [ME] Create a Gantt chart to visualize the project timeline and dependencies.
+  8. [FV] Review the project plan with the team to ensure everyone understands their roles and responsibilities.
+  9. [FV] Finalize the project plan and document it in a project management tool.
+  10. [FV] Distribute the finalized project plan to all stakeholders and gather feedback.
+  11. [IC] Obtain approval from stakeholders, including the client, architects, engineers, and contractors, for the project plan.
+  12. [ME] Update the project plan based on feedback and approval from stakeholders.
+[C]
+  1. [IC] Conduct a kickoff meeting with stakeholders to understand project requirements, expectations, and scope.
+  2. [NA] Break down the project into smaller, manageable tasks and sub-tasks, defining clear deliverables and milestones.
+  3. [PD] Estimate the time and resources required for each task, considering dependencies and potential risks.
+  4. [ME] Assign tasks to specific team members based on their skills and availability, ensuring a balanced workload.
+  5. [ME] Create a visual representation of the project plan, such as a Gantt chart, outlining task dependencies, durations, and milestones.
+  6. [FV] Review the project plan with stakeholders, seeking feedback and incorporating necessary revisions.
+  7. [FV] Finalize the project plan document, ensuring all details are accurate and complete.
+[D]
+  1. [IC] Conduct a kickoff meeting with stakeholders to understand their requirements, expectations, and project objectives.
+  2. [PD] Review project requirements, scope statement, and any relevant regulations to understand the project's context.
+  3. [NA] Break down the project into smaller, manageable tasks and sub-tasks, defining clear deliverables and milestones for each.
+  4. [ME] Estimate the time, resources, and costs required for each task, considering potential complexities and dependencies.
+  5. [PD] Identify potential risks, challenges, and dependencies between tasks, developing contingency plans as needed.
+  6. [ME] Establish a realistic project schedule using tools like Gantt charts, considering dependencies, milestones, and resource availability.
+  7. [ME] Allocate resources (e.g., personnel, equipment, materials) to each task, ensuring a balanced workload distribution.
+  8. [NA] Plan the sequence and timing of heavy machinery movements, deliveries, or other logistical aspects to minimize disruption.
+  9. [IC] Coordinate with team members, subcontractors, or other stakeholders to ensure their work aligns with the project plan.
+  10. [ME] Prepare a detailed project budget, including contingencies, based on the estimated resources and costs.
+  11. [IC] Create a communication plan to keep stakeholders informed throughout the project, including regular progress updates and feedback mechanisms.
+  12. [FV] Prepare a final project plan document, incorporating all the above elements, and present it to stakeholders for approval.
+
+--- Task 404: Weigh materials to ensure compliance with specifications.
+[A]
+  1. [IC] Consult the order list to identify the first material type to be weighed.
+  2. [NA] Locate the correct scale in the warehouse that is suitable for the identified material type.
+  3. [ME] Safely move the identified material to the scale using appropriate equipment.
+  4. [PD] Calibrate the scale to ensure it is functioning correctly.
+  5. [ME] Place the material onto the scale and record its weight.
+  6. [PD] Compare the recorded weight with the specified weight for this material type.
+  7. [FV] If the weight is within the acceptable tolerance, mark the material as verified and move it to the loading area. If not, adjust the material or request a replacement.
+  8. [FV] Document the weight measurement and compliance status in the production log.
+  9. [IC] Repeat steps 1-8 for the next material type in the order.
+  10. [FV] Once all materials have been weighed and verified, double-check the loading area to ensure all materials are present and accounted for.
+[B]
+  1. [NA] Retrieve the batch of raw materials from the inventory.
+  2. [IC] Access the digital work instructions for the specific batch.
+  3. [ME] Calibrate the digital scale to ensure accuracy.
+  4. [ME] Place the raw materials on the scale, ensuring they are centered and stable.
+  5. [PD] Record the initial weight reading from the scale.
+  6. [PD] Compare the recorded weight with the specified weight requirements.
+  7. [ME] Adjust the weight if necessary by adding or removing materials.
+  8. [PD] Re-record the weight after any adjustments.
+  9. [FV] Document the final weight and any adjustments made in the batch record.
+  10. [FV] Confirm the batch is ready for the next stage of production.
+[C]
+  1. [NA] Retrieve the batch of materials to be weighed.
+  2. [IC] Access the digital work instructions for the specific batch to confirm weight specifications.
+  3. [ME] Calibrate the digital scale to ensure accuracy.
+  4. [ME] Place each material on the scale, ensuring it is centered and stable.
+  5. [PD] Record the weight reading from the scale.
+  6. [PD] Compare the recorded weight with the specified weight requirements.
+  7. [ME] Adjust the weight if necessary by adding or removing materials.
+  8. [FV] Re-record the weight after any adjustments and document the final weight and any adjustments made.
+[D]
+  1. [IC] Consult the production guidelines or order list to identify the first material type to be weighed.
+  2. [NA] Locate the appropriate scale in the warehouse that is suitable for the identified material type.
+  3. [ME] Safely move the identified material to the scale using appropriate equipment (e.g., forklift, hand truck).
+  4. [PD] Turn on the scale and ensure it is calibrated and functioning correctly.
+  5. [ME] Place the material onto the scale and record its weight.
+  6. [PD] Compare the recorded weight with the specified weight for this material type.
+  7. [FV] If the weight is within the acceptable tolerance, mark the material as verified and move it to the next stage. If not, adjust the material or request a replacement.
+  8. [IC] Repeat steps 2-7 for the next material type in the order.
+  9. [FV] Once all materials have been weighed and verified, double-check the next stage area to ensure all materials are present and accounted for.
+  10. [IC] Notify the supervisor or relevant personnel that the materials are ready for the next stage of production or delivery.
+
+--- Task 405: Package materials for transport.
+[A]
+  1. [IC] Retrieve the packing list from the warehouse management system and print it out.
+  2. [NA] Locate the designated storage area for the electronic components using the warehouse layout map.
+  3. [PD] Carefully pick up each electronic component from its designated slot, ensuring it's the correct one based on the packing list.
+  4. [ME] Place each component into an anti-static bag to prevent electrostatic discharge.
+  5. [ME] Place the bagged components into a custom foam insert in the shipping box to secure them during transit.
+  6. [ME] Seal the shipping box using packaging tape, ensuring all flaps are securely closed.
+  7. [FV] Label the shipping box with the correct shipping information, including the recipient's address and tracking number.
+  8. [NA] Place the shipping box onto a conveyor belt leading to the courier's pick-up area.
+  9. [FV] Double-check the packing list to ensure all items have been packed and accounted for.
+  10. [IC] Notify the warehouse management system that the shipment is ready for pick-up, completing the task.
+[B]
+  1. [NA] Retrieve the anti-static packaging materials from the designated storage area.
+  2. [ME] Lay out the anti-static bags on the work surface.
+  3. [NA] Retrieve the 20 small boxes of electronic components from the storage area.
+  4. [ME] Place each box of components into an anti-static bag.
+  5. [ME] Seal each anti-static bag securely.
+  6. [NA] Retrieve the packing slip and return address label from the office.
+  7. [ME] Place the sealed anti-static bags into a larger shipping box.
+  8. [ME] Attach the packing slip and return address label to the shipping box.
+  9. [ME] Seal the shipping box with tape.
+  10. [NA] Deliver the sealed shipping box to the loading dock for transport.
+[C]
+  1. [IC] Retrieve the packing list from the warehouse management system and print it out.
+  2. [NA] Locate the designated storage area for the electronic components using the warehouse layout map.
+  3. [PD] Carefully pick up each electronic component from its designated slot, verifying it matches the packing list.
+  4. [ME] Place each component into an anti-static bag.
+  5. [ME] Place the bagged components into a shipping box with custom foam inserts for secure positioning.
+  6. [ME] Seal the shipping box securely with packaging tape.
+  7. [ME] Attach the shipping label with the correct recipient address and tracking number.
+  8. [FV] Double-check the packing list to ensure all items have been packed and accounted for.
+  9. [NA] Place the sealed shipping box in the designated pick-up area for courier collection.
+[D]
+  1. [IC] Retrieve the packing list from the warehouse management system and print it out.
+  2. [NA] Locate the designated storage area for the materials using the warehouse layout map.
+  3. [PD] Verify the presence and condition of all materials based on the packing list.
+  4. [NA] Gather appropriate packaging materials such as boxes, foam inserts, and tape.
+  5. [ME] Begin packaging the materials, ensuring each item is properly secured and protected during transport.
+  6. [FV] Verify that the shipment is properly packaged and meets the delivery requirements.
+  7. [ME] Affix the delivery label to the shipment, ensuring it is securely attached and easily readable.
+  8. [NA] Place the shipping box onto a conveyor belt leading to the courier's pick-up area.
+  9. [FV] Double-check the packing list to ensure all items have been packed and accounted for.
+  10. [IC] Notify the warehouse management system that the shipment is ready for pick-up, completing the task.
+
+--- Task 406: Practice athletic or artistic skills.
+[A]
+  1. [PD] Review notes and video recordings from previous rehearsals to refresh memory on the skill or piece.
+  2. [ME] Warm up with appropriate stretches and exercises to prepare the body for the physical demands of the skill.
+  3. [NA] Position oneself in the optimal posture or stance for the skill, ensuring proper alignment and form.
+  4. [ME] Begin practicing the skill, focusing on specific sections or technical aspects.
+  5. [PD] Listen critically to or observe the performance, identifying any mistakes or areas for improvement.
+  6. [ME] Repeat the section with corrections, focusing on specific technical aspects.
+  7. [ME] Practice the entire skill or piece, focusing on overall expression and dynamics.
+  8. [FV] Take a break to rehydrate and recharge energy levels before continuing practice.
+  9. [FV] Receive feedback from a coach or peer on the performance and technique.
+  10. [ME] Make adjustments to the technique based on the feedback received and continue practicing.
+  11. [IC] Visualize the skill being executed perfectly to build confidence and focus.
+  12. [FV] Cool down with gentle stretches to prevent injury and reflect on the practice session.
+[B]
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+[C]
+  1. [IC] Review the chosen skill's requirements, techniques, or score/choreography.
+  2. [NA] Prepare the necessary equipment or environment for practice.
+  3. [ME] Warm up the relevant muscle groups to prevent injury.
+  4. [ME] Practice the skill in segments, focusing on technique and precision.
+  5. [FV] Self-assess performance, identifying areas for improvement.
+  6. [ME] Repeat practice, incorporating feedback and focusing on identified weaknesses.
+  7. [ME] Practice the skill in its entirety, aiming for fluidity and expression.
+  8. [FV] Record or mentally review the full performance for further analysis.
+[D]
+  1. [IC] Review and understand the skill or piece to be practiced.
+  2. [NA] Prepare the necessary equipment and set up the practice space.
+  3. [ME] Warm up and prepare the body for the physical demands of the skill.
+  4. [PD] Begin practicing the skill, focusing on the initial sections or movements.
+  5. [ME] Practice the skill with corrections, focusing on specific technical aspects.
+  6. [ME] Practice the skill in its entirety, focusing on overall expression, dynamics, and flow.
+  7. [FV] Take a short break to rehydrate, recharge, and assess progress.
+  8. [ME] Practice the skill in a more dynamic or challenging environment, if applicable.
+  9. [FV] Seek and incorporate feedback from coaches, peers, or self-evaluation.
+  10. [IC] Visualize successful execution of the skill in a performance or competitive setting.
+  11. [FV] Cool down and stretch to prevent injury and promote recovery.
+
+--- Task 407: Maintain the order of legal documents.
+[A]
+  1. [NA] Retrieve the list of legal documents that need to be organized from the filing cabinet.
+  2. [IC] Review the list of documents and understand the specific order required for each type of document.
+  3. [PD] Sort the documents based on their type and the required order.
+  4. [ME] Label each document with the appropriate identifier and order number.
+  5. [ME] Place the documents in the filing cabinet in the correct order.
+  6. [FV] Check the order of the documents in the filing cabinet to ensure they are correctly placed.
+  7. [ME] Update the digital record of the document order in the law firm's database.
+  8. [FV] Review the digital record to ensure it matches the physical order of the documents.
+  9. [IC] Notify the supervising attorney that the documents have been organized and are ready for use.
+[B]
+  1. [NA] Retrieve the list of legal documents that need to be organized from the filing cabinet.
+  2. [IC] Review the list of documents and understand the specific order required for each type of document.
+  3. [PD] Sort the documents based on their type and the required order.
+  4. [ME] Label each document with the appropriate identifier and order number.
+  5. [ME] Place the documents in the filing cabinet in the correct order.
+  6. [FV] Check the order of the documents in the filing cabinet to ensure they are correctly placed.
+  7. [ME] Update the digital record of the document order in the law firm's database.
+  8. [FV] Review the digital record to ensure it matches the physical order of the documents.
+  9. [IC] Notify the supervising attorney that the documents have been organized and are ready for use.
+  10. [FV] Document the process and any changes made to the document order in the firm's log.
+[C]
+  1. [NA] Retrieve the list of legal documents that need to be organized.
+  2. [IC] Review the list and understand the specific order required for each type of document.
+  3. [PD] Sort the documents based on their type and the required order.
+  4. [ME] Place the documents in the designated storage location (filing cabinet, binder, etc.) in the correct order.
+  5. [ME] Update the digital record of the document order in the firm's database.
+  6. [FV] Verify the order of both the physical documents and the digital record to ensure they match.
+[D]
+  1. [NA] Retrieve the list of legal documents that need to be organized from the filing cabinet.
+  2. [IC] Review the list of documents and understand the specific order required for each type of document.
+  3. [PD] Sort the documents based on their type and the required order.
+  4. [ME] Label each document with the appropriate identifier and order number.
+  5. [ME] Place the documents in the filing cabinet in the correct order.
+  6. [FV] Check the order of the documents in the filing cabinet to ensure they are correctly placed.
+  7. [ME] Update the digital record of the document order in the law firm's database.
+  8. [FV] Review the digital record to ensure it matches the physical order of the documents.
+  9. [IC] Notify the supervising attorney that the documents have been organized and are ready for use.
+  10. [FV] Document the process and any changes made to the document order in the firm's log.
+
+--- Task 408: Collaborate with others in marketing activities.
+[A]
+  1. [IC] Review the project brief and understand the product launch objectives, target audience, and key messaging.
+  2. [NA] Identify and invite key stakeholders (e.g., product managers, designers, content creators, event planners) to the initial brainstorming session.
+  3. [PD] Facilitate the brainstorming session, encouraging active participation and capturing ideas on a shared digital board.
+  4. [ME] Synthesize the brainstormed ideas into a coherent event concept, outlining key activities and milestones.
+  5. [ME] Create a shared project management board, breaking down tasks, setting deadlines, and assigning responsibilities.
+  6. [FV] Communicate the event concept and project plan to the stakeholders, seeking their feedback and approval.
+  7. [ME] Iterate on the event concept and project plan based on stakeholder feedback, incorporating changes and resetting deadlines as needed.
+  8. [NA] Coordinate with the event planning team to secure necessary resources (e.g., venue, AV equipment, catering) and manage logistics.
+  9. [ME] Work with content creators to develop marketing materials (e.g., invitations, social media posts, press releases) aligned with the event concept.
+  10. [FV] Conduct dry-runs and rehearsals, troubleshooting any issues and ensuring all teams are prepared for the event.
+  11. [FV] Finalize the event plan, ensuring all stakeholders are aligned and ready for the product launch event.
+[B]
+  1. [IC] The marketing manager calls the meeting to order and outlines the objectives of the launch event.
+  2. [IC] The team leader sends a group chat to discuss the campaign's objectives, timeline, and responsibilities.
+  3. [IC] The marketing specialist reviews the new dress line's target audience, key features, and brand messaging.
+  4. [NA] The team leader schedules posts for maximum visibility, considering the target audience's preferences and time zones.
+  5. [ME] The graphic designer creates initial mockups of social media posts based on the agreed-upon concepts.
+  6. [NA] The team creates a timeline for the marketing activities leading up to the launch event.
+  7. [FV] The team finalizes the plan and agrees on the next steps and follow-up actions.
+  8. [FV] The team reviews and approves the final content, making any necessary adjustments.
+  9. [FV] The team launches the social media campaign, and the team leader monitors its performance in real-time.
+  10. [FV] The team reviews the campaign's final results, discussing what worked well and what didn't.
+  11. [FV] The team leader documents the campaign's success and lessons learned, sharing them with the team and stakeholders.
+[C]
+  1. [IC] The marketing team leader defines the campaign objectives, target audience, and key messages.
+  2. [PD] The team brainstorms and collaboratively develops creative concepts and strategies.
+  3. [ME] Individual team members (designer, content creator, etc.) execute their assigned tasks (creating visuals, writing copy, etc.).
+  4. [FV] The team reviews and provides feedback on the developed materials, refining them iteratively.
+  5. [NA] The team leader finalizes the campaign plan, assigns responsibilities, and establishes a timeline.
+  6. [FV] The team launches the campaign and monitors its performance, making adjustments as needed.
+  7. [FV] The team evaluates the campaign's results, identifying successes and areas for improvement.
+[D]
+  1. [IC] Review and understand the project brief, including objectives, target audience, and key messaging.
+  2. [NA] Identify and invite key stakeholders to the initial brainstorming session.
+  3. [PD] Facilitate the brainstorming session, encouraging active participation and capturing ideas.
+  4. [ME] Synthesize brainstormed ideas into a coherent event concept or marketing plan.
+  5. [ME] Create a shared project management board, breaking down tasks, setting deadlines, and assigning responsibilities.
+  6. [FV] Communicate the event concept or marketing plan to stakeholders, seeking their feedback and approval.
+  7. [ME] Iterate on the event concept or marketing plan based on stakeholder feedback, incorporating changes and resetting deadlines as needed.
+  8. [NA] Coordinate with relevant teams to secure necessary resources and manage logistics.
+  9. [ME] Work with content creators to develop marketing materials aligned with the event concept or marketing plan.
+  10. [FV] Conduct dry-runs, rehearsals, or tests, troubleshooting any issues and ensuring all teams are prepared.
+  11. [FV] Finalize the event plan or marketing campaign, ensuring all stakeholders are aligned and ready for launch.
+
+================================================================
+ANSWER TEMPLATE
+
+401: _ | 
+402: _ | 
+403: _ | 
+404: _ | 
+405: _ | 
+406: _ | 
+407: _ | 
+408: _ | 
+

@@ -1,0 +1,397 @@
+BATCH 17/63 | Model: Gemini 3 Pro | Tasks 129-136
+================================================================
+EXPERT REVIEW -- Micro-Action Sequence Evaluation
+For each task, read ALL four options, then choose the BEST (A/B/C/D).
+
+Criteria:
+  1. Completeness  -- no critical steps missing
+  2. Realism       -- every step is concretely executable
+  3. Stage accuracy -- stage label correct for each step:
+     IC=Intent_Communication  NA=Navigation_Addressing
+     PD=Perception_Diagnosis  ME=Manipulation_Execution  FV=Feedback_Verification
+  4. Conciseness   -- no redundant or duplicate steps
+  5. Scope         -- starts and ends at exactly the right point
+
+OUTPUT: fill the ANSWER TEMPLATE at the bottom.
+Format: N: X | one-sentence reason (max 12 words)
+IMPORTANT: Each task has a different best answer. Do NOT pick the same
+letter for every task without reading.
+================================================================
+
+--- Task 129: Develop fire safety or prevention programs or plans.
+[A]
+  1. [IC] Review local fire codes and regulations to understand the requirements for fire safety plans.
+  2. [NA] Conduct a site visit to assess the building's layout, exits, and safety features, and identify potential fire hazards.
+  3. [PD] Document the building's layout, including all exits, stairwells, fire safety equipment locations, and potential hazards.
+  4. [ME] Develop detailed evacuation procedures for each floor, including primary and secondary exit routes, and design a fire safety training program for occupants.
+  5. [ME] Draft the fire safety plan, incorporating all developed procedures and training guidelines.
+  6. [IC] Review the draft plan with the building management team to gather feedback and make necessary adjustments.
+  7. [IC] Submit the final fire safety plan to local authorities for review and approval.
+  8. [PD] Conduct regular fire safety inspections to ensure compliance with the developed program and identify areas for improvement.
+  9. [FV] Deliver the approved fire safety plan and training materials to the building management team for implementation.
+[B]
+  1. [IC] Review local fire codes and regulations to understand the requirements for fire safety plans.
+  2. [NA] Conduct a site visit to assess the building's layout, exits, and safety features.
+  3. [PD] Document the building's layout, including all exits, stairwells, and fire safety equipment locations.
+  4. [ME] Develop detailed evacuation procedures for each floor, including primary and secondary exit routes.
+  5. [ME] Create a fire safety training program for the building's occupants, including instructions on using fire extinguishers and emergency exits.
+  6. [ME] Draft the fire safety plan, incorporating all the developed procedures and training guidelines.
+  7. [IC] Review the draft plan with the building management team to gather feedback and make necessary adjustments.
+  8. [ME] Finalize the fire safety plan based on the feedback received.
+  9. [IC] Submit the final fire safety plan to local authorities for review and approval.
+  10. [IC] Attend a review meeting with local authorities to discuss the plan and address any concerns.
+  11. [ME] Revise the plan based on feedback from the review meeting and resubmit for final approval.
+  12. [FV] Deliver the approved fire safety plan to the building management team for implementation.
+[C]
+  1. [IC] Review local fire codes and regulations to understand the requirements for fire safety plans.
+  2. [NA] Conduct a site visit to assess the building's layout, exits, safety features, and potential hazards.
+  3. [ME] Develop detailed evacuation procedures, including primary and secondary exit routes, assembly points, and procedures for assisting individuals with disabilities.
+  4. [ME] Design a fire safety training program for occupants, covering fire extinguisher use, evacuation procedures, and alarm response.
+  5. [ME] Draft the fire safety plan, incorporating all developed procedures, training guidelines, and hazard assessments.
+  6. [IC] Review the draft plan with building management and relevant stakeholders to gather feedback and make necessary adjustments.
+  7. [IC] Submit the finalized fire safety plan to local authorities for review and approval.
+  8. [FV] Conduct regular fire drills and inspections to ensure plan effectiveness and occupant preparedness.
+[D]
+  1. [IC] Review local fire codes, regulations, and building blueprints to understand requirements and layout.
+  2. [NA] Conduct a thorough site visit to assess the building's layout, exits, safety features, and potential hazards.
+  3. [PD] Document the building's layout, including all exits, stairwells, fire safety equipment locations, and potential hazards.
+  4. [PD] Conduct a risk assessment to evaluate the effectiveness of existing fire safety measures and identify areas for improvement.
+  5. [NA] Design an effective evacuation plan, including identifying emergency exit routes, assigning evacuation responsibilities, and developing a communication plan.
+  6. [ME] Develop a fire safety training program for building occupants, including training on fire extinguisher use, emergency procedures, and evacuation protocols.
+  7. [ME] Draft the fire safety plan, incorporating all developed procedures, training guidelines, and risk assessment findings.
+  8. [IC] Review the draft plan with the building management team, relevant authorities, and occupants to gather feedback and make necessary adjustments.
+  9. [ME] Finalize the fire safety plan based on the feedback received and submit it to local authorities for review and approval.
+  10. [FV] Coordinate with building management to implement the fire safety plan, including installing signage, conducting training sessions, and ensuring proper maintenance of fire suppression systems.
+  11. [FV] Conduct regular fire safety inspections, drills, and incident response reviews to evaluate the effectiveness of the fire safety program and identify areas for improvement.
+
+--- Task 130: Sort mail.
+[A]
+  1. [NA] Retrieve a batch of mail from the sorting conveyor belt.
+  2. [PD] Scan the first item to identify the destination address.
+  3. [IC] Determine the corresponding delivery route or bin based on the address.
+  4. [ME] Place the mail piece into the designated bin.
+  5. [ME] Repeat steps 2-4 for each remaining mail piece in the batch.
+  6. [FV] Check the batch for any remaining mail pieces and ensure all are sorted correctly.
+  7. [FV] Signal the conveyor belt to move the next batch into position.
+  8. [PD] Check if any mail requires special handling (e.g., registered mail, oversized packages).
+  9. [ME] If special handling is required, place the mail in the appropriate holding area for further processing.
+  10. [ME] Repeat steps 2-9 until all mail for the day has been sorted.
+[B]
+  1. [NA] Stand at the mail sorting station with a clear view of the mail bins and sorting equipment.
+  2. [PD] Begin to sort mail into categories (e.g., local, regional, national) using visual cues and mental shortcuts.
+  3. [ME] Use a mail sorting machine to quickly and accurately sort packages by weight and destination.
+  4. [ME] Manually sort remaining mail items that require special handling (e.g., priority mail, international packages).
+  5. [FV] Verify the sorted mail against a checklist or database to ensure accuracy and completeness.
+  6. [FV] Update the mail tracking system to reflect the sorted mail's new status and location.
+  7. [FV] Restock mail supplies (e.g., envelopes, stamps) and prepare for the next sorting cycle.
+  8. [FV] Take a short break to recharge and prepare for the next sorting cycle, maintaining attention to detail and productivity.
+  9. [IC] Return to the mail sorting station, ready to begin the next sorting cycle with renewed focus and attention to detail.
+  10. [NA] Retrieve a batch of mail from the sorting conveyor belt.
+  11. [PD] Scan the first item to identify the destination zip code.
+  12. [NA] Locate the bin corresponding to the identified zip code.
+  13. [ME] Place the item into the correct bin.
+  14. [PD] Repeat the scanning and sorting process for the next item in the batch.
+  15. [ME] Continue sorting until all items in the batch are placed in the correct bins.
+  16. [FV] Check the bins to ensure no items are misplaced.
+  17. [NA] Retrieve the next batch of mail from the conveyor belt.
+  18. [ME] Repeat the sorting process for the new batch.
+  19. [FV] Deliver the sorted mail to the corresponding distribution bins.
+[C]
+  1. [NA] Retrieve a batch of mail from the sorting conveyor belt.
+  2. [PD] Scan the address label on the first piece of mail.
+  3. [IC] Identify the destination bin based on the scanned address.
+  4. [ME] Place the mail into the correct destination bin.
+  5. [ME] Repeat steps 2-4 for the remaining mail in the batch.
+  6. [FV] Signal the conveyor belt to move the next batch into position.
+  7. [PD] Check for any mail requiring special handling (e.g., registered mail).
+  8. [ME] Place special mail in the designated holding area.
+[D]
+  1. [NA] Retrieve a batch of mail from the incoming conveyor belt.
+  2. [PD] Scan the address label on the first piece of mail.
+  3. [IC] Identify the destination of the mail based on the scanned address.
+  4. [ME] Place the mail into the corresponding destination bin.
+  5. [ME] Repeat steps 2-4 for the remaining mail in the batch.
+  6. [FV] Once the batch is sorted, signal the conveyor belt to move the next batch into position.
+  7. [PD] Check if any mail requires special handling (e.g., registered mail, oversized packages).
+  8. [ME] If special handling is required, place the mail in the appropriate holding area for further processing.
+  9. [ME] Repeat steps 2-8 until all mail in the current batch is sorted.
+  10. [FV] Once all mail in the current batch is sorted, signal the conveyor belt to move the next batch into position.
+  11. [ME] Repeat steps 2-10 until all mail for the day has been sorted.
+
+--- Task 131: Arrange insurance coverage.
+[A]
+  1. [IC] Meet with the client to discuss their insurance needs and review their existing coverage.
+  2. [NA] Research and identify suitable insurance providers based on the client's needs and property characteristics.
+  3. [PD] Contact insurance providers to gather quotes and policy details.
+  4. [PD] Compare quotes and policies to determine the best coverage options.
+  5. [IC] Present the findings to the client and discuss the recommended coverage.
+  6. [FV] Finalize the client's decision on the insurance policy and gather necessary documents.
+  7. [ME] Fill out and submit the insurance application to the chosen provider.
+  8. [FV] Confirm the insurance coverage with the provider and deliver the policy documents to the client.
+[B]
+  1. [IC] Meet with the small business owner to discuss the risks associated with the commercial building.
+  2. [PD] Review the client's existing insurance policies and identify gaps.
+  3. [NA] Research insurance providers that offer coverage for hurricane and flood risks.
+  4. [IC] Contact insurance providers to gather quotes and policy details.
+  5. [PD] Compare the quotes and policies to determine the best coverage options.
+  6. [IC] Present the findings to the client and discuss the recommended coverage.
+  7. [FV] Finalize the client's decision on the insurance policy.
+  8. [ME] Fill out the insurance application with the client's information.
+  9. [ME] Submit the insurance application to the chosen provider.
+  10. [FV] Confirm the insurance coverage with the provider and deliver the policy documents to the client.
+[C]
+  1. [IC] Meet with the client to discuss their business, needs, and risk tolerance.
+  2. [PD] Review existing coverage and identify potential gaps.
+  3. [NA] Research suitable insurance providers and policy options based on identified needs.
+  4. [IC] Obtain quotes and policy details from selected providers.
+  5. [PD] Compare quotes, coverage details, and provider reputations.
+  6. [IC] Present findings to the client, explaining coverage options and recommendations.
+  7. [FV] Finalize the chosen policy with the client, addressing any questions or concerns.
+  8. [ME] Complete the application process, including gathering necessary documentation.
+  9. [ME] Submit the application to the chosen provider and confirm receipt.
+[D]
+  1. [IC] Meet with the client to discuss their insurance needs, understand their risk tolerance, and review existing coverage.
+  2. [PD] Assess the client's risks by evaluating their property, business, or other assets, and understanding the relevant insurance types (e.g., property, liability, workers' compensation).
+  3. [NA] Research and identify suitable insurance providers based on the client's needs, location, and the type of coverage required.
+  4. [IC] Contact potential insurance providers to gather quotes, policy details, and discuss coverage options.
+  5. [PD] Compare quotes and policy details, analyzing coverage, premiums, deductibles, and exclusions to determine the best options for the client.
+  6. [IC] Present the findings to the client, explaining the recommended coverage options, their pros, and cons.
+  7. [FV] Finalize the client's decision on the insurance policy and gather necessary documents for the application.
+  8. [ME] Fill out the insurance application forms with the client's information and submit them to the chosen provider.
+  9. [IC] Follow up with the insurance provider to confirm the application receipt, answer any follow-up questions, and ensure the policy is active.
+  10. [FV] Review the insurance policy documents once received, ensuring they match the agreed-upon coverage and terms, and sign them to confirm the insurance coverage is active.
+
+--- Task 132: Mount materials or workpieces onto production equipment.
+[A]
+  1. [IC] Review the production schedule and ensure that the correct materials or workpieces are available for processing.
+  2. [NA] Retrieve the materials or workpieces from the storage area and transport them to the production equipment.
+  3. [PD] Inspect the materials or workpieces for any damage or defects that may affect their mounting or processing.
+  4. [ME] Position the materials or workpieces on the production equipment, ensuring accurate alignment and orientation.
+  5. [ME] Secure the materials or workpieces to the production equipment using appropriate methods (e.g., clamps, vacuum, fixtures).
+  6. [FV] Verify that the materials or workpieces are accurately positioned and secured before proceeding with processing.
+  7. [ME] Program the production equipment with the correct processing parameters and instructions.
+  8. [ME] Initiate the production equipment's processing sequence.
+  9. [PD] Monitor the production equipment's processing sequence, addressing any issues or errors that may arise.
+  10. [FV] Verify that the materials or workpieces have been accurately processed and meet the required specifications.
+[B]
+  1. [IC] Review the production schedule and ensure that the correct materials or workpieces are available for processing.
+  2. [PD] Inspect the materials or workpieces for any damage or defects that may affect their mounting or processing.
+  3. [NA] Position the materials or workpieces near the production equipment, ensuring accurate alignment and orientation.
+  4. [ME] Activate the production equipment to prepare for mounting the materials or workpieces.
+  5. [ME] Carefully place the materials or workpieces onto the production equipment, ensuring they are flat and without wrinkles.
+  6. [PD] Check the alignment of the materials or workpieces with the machine's coordinate system using a digital caliper.
+  7. [ME] Adjust the position of the materials or workpieces if necessary to ensure they are correctly aligned.
+  8. [FV] Verify that the materials or workpieces are securely held by the production equipment.
+  9. [ME] Input the coordinates of the materials or workpieces' position into the production equipment's control software.
+  10. [FV] Confirm the setup and start the production process.
+[C]
+  1. [NA] Retrieve the workpiece from the designated storage location.
+  2. [NA] Transport the workpiece to the CNC machine.
+  3. [ME] Position the workpiece on the machine's worktable, ensuring proper alignment.
+  4. [ME] Secure the workpiece to the worktable using clamps or vacuum, verifying stability.
+  5. [FV] Confirm workpiece alignment and securement using visual inspection or sensors.
+  6. [ME] Input the workpiece's position and machining parameters into the CNC controller.
+  7. [ME] Initiate the CNC machining process.
+[D]
+  1. [IC] Receive signal or instruction for mounting a new workpiece.
+  2. [NA] Retrieve the workpiece from the designated storage area.
+  3. [NA] Transport the workpiece to the production equipment's worktable or mounting station.
+  4. [ME] Position the workpiece on the worktable, ensuring accurate alignment and orientation.
+  5. [ME] Secure the workpiece to the worktable using clamps, fixtures, or vacuum tables.
+  6. [FV] Verify that the workpiece is accurately positioned, securely held, and ready for processing.
+  7. [ME] Program or input the processing parameters and instructions into the production equipment's control software.
+  8. [ME] Initiate the production equipment's processing sequence.
+  9. [PD] Monitor the processing sequence, addressing any issues or errors that may arise.
+  10. [FV] Verify that the workpiece has been accurately processed and meets the required specifications.
+  11. [IC] Signal or indicate the completion of the mounting and processing task to the relevant system or operator.
+
+--- Task 133: Maintain sterile operative fields.
+[A]
+  1. [IC] Wash hands and arms thoroughly with antiseptic soap and dry with sterile towels.
+  2. [NA] Don sterile gown and gloves, ensuring a tight seal around the neck and wrists to prevent contamination.
+  3. [ME] Set up sterile drapes around the surgical site to create a sterile field.
+  4. [ME] Pass sterile instruments to the surgeon, ensuring they remain within the sterile field.
+  5. [PD] Monitor the sterile field for any breaches, such as torn drapes or accidental contact with non-sterile surfaces.
+  6. [FV] Address any breaches in sterility immediately by replacing contaminated items and re-establishing the sterile field.
+  7. [IC] Communicate with the surgical team to ensure everyone is aware of the sterile field boundaries and protocols.
+  8. [FV] Maintain the sterile field throughout the entire surgical procedure, ensuring all actions comply with sterility protocols.
+[B]
+  1. [IC] Wash hands and arms thoroughly with antiseptic soap and dry with sterile towels.
+  2. [NA] Don sterile gown and gloves, ensuring no contact with non-sterile surfaces.
+  3. [NA] Set up sterile drapes around the surgical site to create a sterile field.
+  4. [ME] Pass sterile instruments to the surgeon, ensuring they remain within the sterile field.
+  5. [PD] Inspect the OR environment, including the surgical team's attire, the equipment, and the patient's skin, to ensure a sterile environment.
+  6. [PD] Monitor the sterile field constantly for any breaches in sterility, such as dropped instruments or accidental contact.
+  7. [ME] Immediately address any breaches in sterility by replacing contaminated instruments or drapes, following established protocols.
+  8. [IC] Communicate with the surgical team to ensure everyone is aware of the sterility protocols and any breaches.
+  9. [FV] Document the OR environment, equipment, and surgical team's attire to ensure a sterile environment.
+  10. [FV] Maintain a sterile environment throughout the entire surgical procedure, as confirmed by the surgical team and documented in the patient's medical records.
+[C]
+  1. [IC] Wash hands thoroughly with antimicrobial soap and dry with sterile towels.
+  2. [NA] Don sterile gown and gloves, ensuring no contact with non-sterile surfaces.
+  3. [ME] Set up sterile drapes around the surgical site, creating a defined sterile field.
+  4. [PD] Continuously monitor the sterile field for any breaches, such as torn drapes or accidental contact.
+  5. [FV] Immediately address any breaches in sterility by replacing contaminated items and re-establishing the sterile field.
+  6. [ME] Pass sterile instruments to the surgeon, ensuring they remain within the sterile field.
+  7. [IC] Communicate with the surgical team to ensure everyone is aware of the sterile field boundaries.
+[D]
+  1. [IC] Wash hands and arms thoroughly with antiseptic soap and dry with sterile towels.
+  2. [IC] Don sterile gown, gloves, face mask, and cap, ensuring proper coverage and secure fit.
+  3. [NA] Navigate to the operating table, avoiding potential contaminants.
+  4. [PD] Remove the operating table's protective cover, ensuring it does not touch the floor.
+  5. [PD] Inspect the table's surface and patient's skin for any potential contaminants or damage.
+  6. [ME] Apply a sterile drape to the operating table, ensuring it covers the entire surface and is securely attached.
+  7. [ME] Position necessary equipment within reach of the surgical team, maintaining a sterile field.
+  8. [FV] Check that all equipment is functioning properly and is within easy reach of the surgical team.
+  9. [FV] Signal to the surgical team that the operative field is ready and sterile.
+  10. [FV] Monitor the sterile field constantly for any breaches, such as torn drapes or accidental contact.
+  11. [FV] Immediately address any breaches in sterility by replacing contaminated items and re-establishing the sterile field.
+
+--- Task 134: Train employees in proper work procedures.
+[A]
+  1. [IC] The supervisor introduces the training session and its purpose, emphasizing the importance of following work procedures and safety protocols.
+  2. [IC] The supervisor provides a detailed overview of the machinery and its components, including safety features and emergency stop procedures.
+  3. [ME] The supervisor demonstrates the step-by-step operation of the machinery, including the correct use of personal protective equipment (PPE).
+  4. [IC] The supervisor answers any questions the employees have about the machinery and procedures.
+  5. [ME] The supervisor assigns a hands-on practice session where employees operate the machinery under supervision.
+  6. [FV] The supervisor observes the employees as they operate the machinery and provides real-time feedback.
+  7. [FV] The supervisor conducts a written test to assess the employees' understanding of the training material.
+  8. [FV] The supervisor conducts a practical assessment where employees demonstrate their ability to perform safety procedures correctly.
+  9. [IC] The supervisor concludes the training session by answering any remaining questions and providing additional resources.
+[B]
+  1. [IC] Review the new production line's workflow and procedures to identify key areas that require training.
+  2. [NA] Schedule a dedicated training area and equipment to accommodate the 50 employees.
+  3. [PD] Prepare training materials, including visual aids, handouts, and demonstrations, to effectively communicate the new procedures.
+  4. [ME] Deliver the training session, using the prepared materials, and provide opportunities for employees to ask questions and practice the new procedures.
+  5. [FV] Assess the employees' understanding of the new procedures through quizzes, group discussions, or hands-on exercises.
+  6. [FV] Provide feedback and address any questions or concerns the employees may have.
+  7. [IC] Develop a plan for ongoing support and training, including regular check-ins, coaching, and refresher training sessions.
+  8. [ME] Implement the new production line's procedures, with the trained employees leading the way.
+  9. [FV] Monitor the employees' performance and provide feedback on their ability to apply the new procedures.
+  10. [FV] Review the training program's effectiveness and make adjustments as needed to ensure that the employees continue to meet the new procedures' standards.
+[C]
+  1. [NA] The supervisor gathers the new employees in the designated training area.
+  2. [IC] The supervisor introduces the training topic, emphasizing the importance of following work procedures and safety protocols.
+  3. [IC] The supervisor provides a detailed overview of the machinery or processes, including safety features and emergency procedures.
+  4. [ME] The supervisor demonstrates the correct operation of the machinery or processes, highlighting key steps and potential hazards.
+  5. [FV] Trainees practice the procedures under the supervisor's direct observation and receive real-time feedback.
+  6. [IC] The supervisor answers any questions the trainees have and clarifies any misunderstandings.
+  7. [FV] Trainees complete a practical assessment or test to demonstrate their understanding and proficiency.
+  8. [FV] The supervisor reviews the assessment results, provides feedback, and identifies areas for improvement.
+[D]
+  1. [PD] Review and prepare training materials, including visual aids, handouts, and demonstrations, to effectively communicate new procedures.
+  2. [NA] Set up a dedicated training area and equipment to accommodate all employees.
+  3. [IC] Gather employees in the training area and introduce the training topic and its importance.
+  4. [ME] Deliver the training session, using prepared materials, and provide opportunities for employees to ask questions and practice new procedures.
+  5. [FV] Assess employees' understanding of new procedures through quizzes, group discussions, or hands-on exercises.
+  6. [FV] Provide feedback and address any questions or concerns employees may have.
+  7. [IC] Develop a plan for ongoing support and training, including regular check-ins, coaching, and refresher training sessions.
+  8. [ME] Implement new procedures with the trained employees leading the way.
+  9. [FV] Monitor employees' performance and provide feedback on their ability to apply new procedures.
+  10. [FV] Review the training program's effectiveness and make adjustments as needed to ensure employees continue to meet new procedures' standards.
+
+--- Task 135: Monitor food services operations to ensure procedures are followed.
+[A]
+  1. [IC] Review the day's menu and food safety procedures to ensure that all staff members are aware of their responsibilities.
+  2. [IC] Enter the kitchen, greeting staff and introducing oneself as the food safety inspector for the day.
+  3. [NA] Observe the kitchen layout, identifying key stations (e.g., receiving, storage, prep, cooking, serving) and potential high-risk areas.
+  4. [PD] Monitor the food preparation process, checking that all staff members are following proper food handling and preparation procedures.
+  5. [PD] Check the temperature of hot foods and the refrigeration units to ensure that they are within safe temperature ranges.
+  6. [FV] Provide feedback and guidance to staff members as needed to ensure that procedures are followed.
+  7. [NA] Conduct a final walk-through of the kitchen and dining area, ensuring all stations are clean, organized, and ready for the next service period.
+  8. [ME] Document any observed deviations or potential violations, noting the time, location, and staff involved.
+  9. [IC] Review the day's events and incidents to identify areas for improvement and provide feedback to staff members.
+[B]
+  1. [IC] Review the day's menu and food safety procedures to ensure that all staff members are aware of their responsibilities.
+  2. [PD] Observe the food preparation process in the kitchen, checking that all staff members are following proper food handling and preparation procedures.
+  3. [PD] Check the temperature of hot foods and the refrigeration units to ensure that they are within safe temperature ranges.
+  4. [PD] Monitor the serving process to ensure that all staff members are following proper food safety procedures when serving guests.
+  5. [IC] Provide feedback and guidance to staff members as needed to ensure that procedures are followed.
+  6. [PD] Check the cleanliness and organization of the kitchen and dining areas to ensure that they are maintained in a safe and clean manner.
+  7. [IC] Review the day's events and incidents to identify areas for improvement and provide feedback to staff members.
+  8. [ME] Develop and implement plans to address any areas for improvement identified during the review.
+  9. [IC] Communicate the plans and any necessary changes to staff members to ensure that they are aware of their responsibilities.
+  10. [PD] Monitor the implementation of the plans and provide feedback and guidance as needed to ensure that procedures are followed.
+[C]
+  1. [IC] Review the day's menu and food safety procedures to ensure familiarity with expected operations.
+  2. [NA] Observe the kitchen layout, identifying key stations (receiving, storage, prep, cooking, serving) and potential high-risk areas.
+  3. [PD] Monitor food preparation at each station, checking for adherence to proper food handling, temperature control, and hygiene practices.
+  4. [PD] Verify staff are wearing appropriate PPE and following hygiene protocols (handwashing, glove changes).
+  5. [PD] Check the temperature of refrigerators, freezers, and hot holding equipment to ensure they are within safe ranges.
+  6. [PD] Observe customer service interactions in the dining area, noting adherence to hygiene and service standards.
+  7. [ME] Document any observed deviations or potential violations, noting the time, location, and staff involved.
+  8. [FV] Provide immediate feedback to staff regarding any observed procedural breaches, emphasizing corrective actions.
+  9. [NA] Conduct a final walkthrough of the kitchen and dining area to ensure all stations are clean, organized, and ready for the next service period.
+[D]
+  1. [IC] Review the day's menu and food safety procedures to ensure staff awareness.
+  2. [IC] Enter the kitchen, greeting staff and introducing oneself as the food safety monitor.
+  3. [NA] Observe the kitchen layout, identifying key stations and potential high-risk areas.
+  4. [PD] Check the daily schedule and menu to understand the flow of food preparation and service.
+  5. [PD] Monitor food receiving, storage, and preparation, ensuring proper temperature checks, hand hygiene, and ingredient handling.
+  6. [PD] Observe cooking stations, ensuring proper cooking temperatures, time management, and food safety guidelines are followed.
+  7. [PD] Monitor serving lines, ensuring staff use proper PPE, maintain cleanliness, and follow food safety protocols.
+  8. [NA] Check dishwashing station, ensuring proper cleaning, sanitizing, and storage of kitchenware and utensils.
+  9. [ME] Document any observed deviations or potential violations, noting time, location, and staff involved.
+  10. [NA] Conduct a final walk-through of the kitchen, ensuring all stations are clean, organized, and ready for the next service period.
+  11. [FV] Exit the kitchen, providing feedback to staff and management on the day's observations and any necessary improvements.
+
+--- Task 136: Operate laboratory equipment to analyze medical samples.
+[A]
+  1. [IC] Wash hands and wear appropriate personal protective equipment (PPE) before handling blood samples.
+  2. [NA] Retrieve the blood sample from the storage refrigerator and verify the patient's identification.
+  3. [ME] Centrifuge the blood sample to separate plasma from cells.
+  4. [ME] Extract the plasma from the centrifuged sample using a pipette.
+  5. [ME] Prepare the PCR reagents and mix them with the extracted plasma.
+  6. [ME] Load the prepared sample into the PCR machine and set the appropriate parameters.
+  7. [ME] Run the PCR test according to the predefined protocol.
+  8. [PD] Retrieve the PCR results and analyze the data for the presence of the pathogen.
+  9. [FV] Document the results in the laboratory information system (LIS) and notify the attending physician.
+  10. [FV] Dispose of the used equipment and samples in the designated biohazard waste containers.
+[B]
+  1. [NA] Retrieve the blood sample from the storage refrigerator and verify the patient's identification.
+  2. [NA] Wear appropriate personal protective equipment (PPE), including gloves and a lab coat.
+  3. [ME] Centrifuge the blood sample to separate plasma from cells.
+  4. [ME] Extract the plasma from the centrifuged sample using a pipette.
+  5. [ME] Prepare the PCR reagents and mix them with the extracted plasma.
+  6. [ME] Load the prepared sample into the PCR machine and set the appropriate parameters.
+  7. [ME] Run the PCR test according to the predefined protocol.
+  8. [PD] Retrieve the PCR results and analyze the data for the presence of the pathogen.
+  9. [FV] Document the results in the laboratory information system (LIS) and notify the attending physician.
+  10. [FV] Dispose of the used equipment and samples in the designated biohazard waste containers.
+[C]
+  1. [NA] Retrieve the blood sample from storage and verify patient identification.
+  2. [IC] Don appropriate PPE (gloves, lab coat).
+  3. [ME] Centrifuge the blood sample to separate plasma.
+  4. [ME] Extract plasma from the centrifuged sample using a pipette.
+  5. [ME] Prepare PCR reagents and mix with the extracted plasma.
+  6. [ME] Load the prepared sample into the PCR machine and set parameters.
+  7. [PD] Run the PCR test and monitor its progress.
+  8. [PD] Analyze PCR results for the presence of the target pathogen.
+  9. [FV] Document results in the LIS and notify the attending physician.
+  10. [FV] Dispose of used equipment and samples in designated biohazard containers.
+[D]
+  1. [IC] Wash hands and wear appropriate personal protective equipment (PPE) before handling blood samples.
+  2. [NA] Retrieve the blood sample from the designated storage area, ensuring it's properly labeled, within its expiration time, and matches the patient's identification.
+  3. [IC] Review the patient's medical history and the sample collection procedure to understand the context of the analysis.
+  4. [NA] Prepare the laboratory equipment, including the centrifuge, pipettes, and PCR machine, for the analysis of the blood samples.
+  5. [ME] Centrifuge the blood sample to separate plasma from cells, ensuring the centrifuge is functioning correctly and the samples are spinning at the correct speed.
+  6. [ME] Extract the plasma from the centrifuged sample using a pipette, ensuring accurate measurement and transfer.
+  7. [ME] Prepare the PCR reagents and mix them with the extracted plasma, following the correct protocol to prevent contamination.
+  8. [ME] Load the prepared sample into the PCR machine, set the appropriate parameters, and run the PCR test according to the predefined protocol.
+  9. [PD] Retrieve the PCR results and analyze the data for the presence of the pathogen, comparing it with the patient's medical history and physician's notes to ensure clinical relevance.
+  10. [FV] Document the results in the laboratory information system (LIS) and notify the attending physician, ensuring accurate and timely communication.
+  11. [FV] Dispose of the used equipment and samples in the designated biohazard waste containers, following proper disposal procedures.
+  12. [IC] Wash hands and remove PPE, ensuring the workstation is clean and ready for the next test.
+
+================================================================
+ANSWER TEMPLATE
+
+129: _ | 
+130: _ | 
+131: _ | 
+132: _ | 
+133: _ | 
+134: _ | 
+135: _ | 
+136: _ | 
+

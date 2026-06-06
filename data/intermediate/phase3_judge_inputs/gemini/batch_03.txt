@@ -1,0 +1,375 @@
+BATCH 3/63 | Model: Gemini 3 Pro | Tasks 17-24
+================================================================
+EXPERT REVIEW -- Micro-Action Sequence Evaluation
+For each task, read ALL four options, then choose the BEST (A/B/C/D).
+
+Criteria:
+  1. Completeness  -- no critical steps missing
+  2. Realism       -- every step is concretely executable
+  3. Stage accuracy -- stage label correct for each step:
+     IC=Intent_Communication  NA=Navigation_Addressing
+     PD=Perception_Diagnosis  ME=Manipulation_Execution  FV=Feedback_Verification
+  4. Conciseness   -- no redundant or duplicate steps
+  5. Scope         -- starts and ends at exactly the right point
+
+OUTPUT: fill the ANSWER TEMPLATE at the bottom.
+Format: N: X | one-sentence reason (max 12 words)
+IMPORTANT: Each task has a different best answer. Do NOT pick the same
+letter for every task without reading.
+================================================================
+
+--- Task 17: Maintain security.
+[A]
+  1. [IC] Receive shift briefing from outgoing guard, including any known issues or areas of concern.
+  2. [NA] Collect necessary equipment (flashlight, radio, access keys).
+  3. [PD] Begin patrol route, systematically checking each entrance and exit for signs of forced entry or tampering.
+  4. [PD] Inspect security cameras and monitors, noting any unusual activity.
+  5. [ME] Respond to any alarms or suspicious activity, following established protocols.
+  6. [IC] Communicate with dispatch or emergency services if necessary, providing clear and concise reports.
+  7. [FV] Document any incidents or observations in a security log.
+  8. [IC] Complete patrol cycle and debrief with incoming guard.
+[B]
+  1. [IC] Log into the security monitoring system and review the current network traffic logs.
+  2. [NA] Navigate to the intrusion detection system (IDS) dashboard to check for any flagged alerts.
+  3. [PD] Diagnose the nature of any flagged alerts by reviewing the associated log files and network packets.
+  4. [ME] Isolate any suspicious network traffic by configuring firewall rules to block specific IP addresses or ports.
+  5. [PD] Review the company's current security protocols and identify areas for improvement.
+  6. [ME] Update the security protocols to include new threat mitigation strategies.
+  7. [FV] Run a security audit to verify that all security measures are functioning correctly.
+  8. [FV] Document the results of the security audit and report any findings to the management team.
+[C]
+  1. [PD] Review security protocols and identify potential vulnerabilities.
+  2. [PD] Monitor security systems (CCTV, intrusion detection, etc.) for suspicious activity.
+  3. [PD] Investigate flagged alerts by reviewing logs and network traffic.
+  4. [ME] Isolate and contain potential threats by implementing security measures (firewall rules, access restrictions).
+  5. [FV] Document all security incidents and actions taken.
+  6. [IC] Communicate with relevant personnel (team members, management, authorities) about security status and incidents.
+  7. [PD] Continuously evaluate and improve security protocols based on experience and emerging threats.
+[D]
+  1. [IC] Review shift briefing and patrol route map, memorizing checkpoints and timings.
+  2. [NA] Collect necessary equipment (flashlight, radio, access keys).
+  3. [NA] Start patrol from the designated starting point, following the memorized route.
+  4. [PD] Upon reaching each checkpoint, observe the area for any anomalies.
+  5. [IC] If an anomaly is detected, report it to the control room, describing the location and nature of the anomaly.
+  6. [ME] Follow the control room's instructions, which may involve investigating further, calling for backup, or continuing the patrol.
+  7. [NA] After addressing any anomalies, continue the patrol, ensuring to check all designated areas according to the schedule.
+  8. [IC] Upon completing the patrol route, return to the control room to report any incidents or anomalies observed during the patrol.
+  9. [PD] During breaks, review the patrol route map and any incident reports to prepare for the next patrol.
+  10. [FV] Before starting the next patrol, check the security equipment, such as the radio and flashlight, to ensure they are functioning properly.
+
+--- Task 18: Operate medical equipment.
+[A]
+  1. [IC] Review the patient's medical history and specific equipment requirements to understand the necessary parameters and procedures.
+  2. [NA] Prepare the equipment and patient by positioning the patient correctly and ensuring the environment is safe and free of any contraindications.
+  3. [ME] Enter the required parameters into the equipment's control system and initiate the procedure.
+  4. [PD] Monitor the equipment's operation and the patient's condition in real-time, making any necessary adjustments to ensure optimal performance.
+  5. [FV] Complete the procedure, ensuring the patient is safely removed from the equipment, and verify the results meet the diagnostic or treatment requirements.
+  6. [FV] Document the procedure's outcomes and any notable findings or concerns in the patient's medical record.
+[B]
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+[C]
+  1. [IC] Review patient's medical history and MRI request form to understand required scan parameters.
+  2. [NA] Prepare the MRI room: position the patient on the MRI table, ensuring safety and comfort.
+  3. [PD] Conduct a safety check: verify absence of metal objects in the MRI room.
+  4. [ME] Enter scan parameters into the MRI machine's control system.
+  5. [ME] Initiate the MRI scan and monitor machine operation from the control room.
+  6. [IC] Communicate with the patient through the intercom system to ensure stillness during the scan.
+  7. [FV] Review MRI images to confirm they meet diagnostic requirements.
+[D]
+  1. [IC] Review patient's medical history, MRI request form, and EMR to understand the required scan parameters, patient's condition, and any contraindications.
+  2. [NA] Prepare the MRI room by ensuring the patient is properly positioned on the MRI table, secured, and comfortable.
+  3. [PD] Conduct a safety check to ensure there are no metal objects in the MRI room that could interfere with the scan, and verify the MRI machine's current status.
+  4. [ME] Enter the scan parameters into the MRI machine's control system, ensuring they match the required scan parameters.
+  5. [ME] Initiate the MRI scan, monitor the machine's operation from the control room, and communicate with the patient through the intercom system to ensure they remain still.
+  6. [PD] Monitor the scan progress and image quality in real-time, looking for any signs of poor image quality or patient discomfort.
+  7. [ME] Adjust scan parameters if necessary to improve image quality, ensuring the patient's safety and comfort.
+  8. [ME] Complete the scan, ensure the patient is safely removed from the MRI machine, and document the MRI results in the patient's EMR.
+  9. [FV] Review the MRI images to confirm they meet the diagnostic requirements, and notify the radiologist for further review if necessary.
+  10. [ME] Clean and disinfect the MRI machine according to infection control protocols, and return any used equipment to its designated storage location.
+
+--- Task 19: Advise others on green energy or related technologies.
+[A]
+  1. [IC] Greet the client and introduce the purpose of the visit.
+  2. [IC] Discuss the client's current energy needs, goals, and consumption patterns.
+  3. [NA] Conduct a site visit to assess the physical layout and energy-intensive processes.
+  4. [PD] Collect and review data on current energy consumption and costs.
+  5. [ME] Draft a proposal outlining potential green energy solutions, benefits, and implementation plan.
+  6. [IC] Present the proposal to the client and address any questions or concerns.
+  7. [ME] Revise the proposal based on client feedback and finalize the implementation plan.
+  8. [NA] Coordinate with stakeholders to secure necessary permits and approvals.
+  9. [FV] Provide a detailed implementation schedule and ongoing support for the green energy plan.
+[B]
+  1. [PD] Review the community's current energy usage patterns and identify areas for improvement.
+  2. [PD] Research and gather information on the benefits and implementation of solar panel installations in the town's climate.
+  3. [ME] Develop a clear and concise presentation of the green energy plan, including the benefits and implementation of solar panel installations.
+  4. [IC] Meet with the community members to present the green energy plan and answer any questions they may have.
+  5. [ME] Address any technical or logistical concerns raised by the community members.
+  6. [ME] Finalize the green energy plan and provide a detailed implementation schedule.
+  7. [NA] Coordinate with local authorities and stakeholders to secure necessary permits and approvals.
+  8. [ME] Procure and install the solar panel installations according to the implementation schedule.
+  9. [PD] Monitor and evaluate the performance of the solar panel installations and make any necessary adjustments.
+  10. [FV] Provide ongoing support and maintenance to the community members to ensure the long-term success of the green energy plan.
+[C]
+  1. [IC] Initiate contact with the client to understand their energy needs and goals.
+  2. [NA] Conduct a site visit to assess the physical environment and energy consumption patterns.
+  3. [PD] Analyze energy consumption data and identify areas for improvement.
+  4. [ME] Research and propose suitable green energy solutions tailored to the client's needs.
+  5. [IC] Present the proposed solutions, outlining their benefits, costs, and implementation plan.
+  6. [IC] Address client questions and concerns, providing detailed explanations and addressing any hesitations.
+  7. [ME] Finalize the proposal, incorporating client feedback and ensuring a mutually agreeable plan.
+[D]
+  1. [IC] Greet the client (e.g., homeowner, facility manager, community members) and introduce the purpose of the visit.
+  2. [IC] Assess the client's current energy sources, consumption patterns, and reasons for considering green energy solutions.
+  3. [NA] Visit the site (e.g., home, facility, community) to observe its layout, energy-intensive processes, and potential areas for green energy implementation.
+  4. [PD] Collect and analyze data on the client's current energy consumption, costs, and potential energy savings.
+  5. [ME] Develop a tailored green energy plan, including proposed solutions, benefits, implementation challenges, and potential energy savings.
+  6. [IC] Present the green energy plan to the client, explaining the proposed solutions, their benefits, and potential implementation challenges.
+  7. [IC] Address the client's queries and concerns about the proposed solutions and provide additional details as needed.
+  8. [ME] Revise the green energy plan based on the client's feedback and provide a detailed implementation schedule.
+  9. [NA] Coordinate with relevant stakeholders (e.g., local authorities, community members, service providers) to secure necessary permits, approvals, and resources.
+  10. [PD] Monitor and evaluate the performance of the implemented green energy solutions and make any necessary adjustments.
+  11. [FV] Provide ongoing support and maintenance to the client to ensure the long-term success of the green energy plan.
+
+--- Task 20: Calibrate scientific or technical equipment.
+[A]
+  1. [IC] Review the pH meter's user manual to understand the calibration process and safety precautions.
+  2. [NA] Retrieve the pH meter, standard buffer solutions (pH 4, pH 7, pH 10), and distilled water from the designated storage area.
+  3. [ME] Power on the pH meter and allow it to stabilize according to the manufacturer's instructions.
+  4. [ME] Rinse the pH probe with distilled water and gently blot it dry with a lint-free cloth.
+  5. [ME] Immerse the pH probe in the pH 7 buffer solution and allow the reading to stabilize.
+  6. [ME] Adjust the pH meter to the pH value of the buffer solution (7 in this case).
+  7. [ME] Repeat the calibration process with the pH 4 and pH 10 buffer solutions.
+  8. [FV] Test the calibrated pH meter with a third standard buffer solution (e.g., pH 10) to verify the accuracy of the calibration.
+  9. [FV] Document the calibration results, including dates, buffer solution values, and any adjustments made.
+[B]
+  1. [IC] Review the manufacturer's instructions and the laboratory's standard operating procedures (SOPs) for calibrating the equipment.
+  2. [NA] Retrieve the necessary equipment and chemicals from the designated storage area.
+  3. [ME] Power on the equipment and allow it to stabilize according to the manufacturer's instructions.
+  4. [ME] Rinse the equipment's sensor with distilled water and gently blot it dry with a lint-free cloth.
+  5. [PD] Immerse the equipment's sensor in the calibration solution and allow the reading to stabilize.
+  6. [PD] Record the reading displayed on the equipment and compare it to the expected value.
+  7. [ME] Adjust the equipment's calibration settings if necessary, based on the readings obtained.
+  8. [FV] Document the calibration results, including dates, solution values, and any adjustments made.
+  9. [FV] Test the calibrated equipment with a standard solution to verify its accuracy.
+  10. [NA] Store the calibrated equipment in a secure location, ready for use in future experiments.
+[C]
+  1. [IC] Review the pH meter's user manual and relevant SOPs to understand the calibration process and safety precautions.
+  2. [NA] Gather the necessary materials: pH meter, standard buffer solutions (pH 4, pH 7), distilled water, and cleaning materials.
+  3. [ME] Prepare the pH meter by rinsing the electrode with distilled water and gently blotting it dry.
+  4. [PD] Immerse the electrode in the pH 7 buffer solution and allow the reading to stabilize.
+  5. [ME] Adjust the pH meter's calibration according to the pH 7 buffer solution reading.
+  6. [ME] Repeat steps 4 and 5 using the pH 4 buffer solution.
+  7. [FV] Verify the calibration by testing with both buffer solutions and recording the readings.
+  8. [FV] Document the calibration process, including dates, buffer solution values, and any adjustments made.
+[D]
+  1. [IC] Review the equipment's user manual to understand the calibration process and safety precautions.
+  2. [NA] Don personal protective equipment (PPE) as required for handling chemicals and equipment.
+  3. [NA] Retrieve the equipment, necessary buffer solutions, and distilled water from the designated storage area.
+  4. [ME] Power on the equipment and allow it to stabilize according to the manufacturer's instructions.
+  5. [ME] Rinse the equipment's probe or electrode with distilled water and gently blot it dry with a lint-free cloth.
+  6. [PD] Immerse the probe or electrode in the first buffer solution (e.g., pH 7) and allow the reading to stabilize.
+  7. [PD] Record the reading displayed on the equipment and compare it to the expected value of the buffer solution.
+  8. [ME] Repeat steps 6 and 7 for at least two additional buffer solutions with different pH values (e.g., pH 4 and pH 10).
+  9. [ME] Adjust the calibration settings of the equipment if necessary, based on the readings obtained.
+  10. [FV] Test the calibrated equipment with the original buffer solutions to verify the accuracy of the calibration.
+  11. [FV] Document the calibration results, including dates, buffer solution values, any adjustments made, and test results.
+  12. [NA] Store the calibrated equipment in a secure location, ready for use in future experiments.
+
+--- Task 21: Supervise employees.
+[A]
+  1. [IC] Review the team's progress report and daily schedule to understand tasks and deadlines.
+  2. [IC] Conduct a morning stand-up meeting to discuss daily goals, assign tasks, and address any immediate issues.
+  3. [PD] Monitor the team's work through a project management tool and observe their progress.
+  4. [ME] Resolve any conflicts, technical issues, or bottlenecks that arise during the day.
+  5. [FV] Provide feedback to team members on their work and performance, fostering a positive work environment.
+  6. [NA] Adjust task assignments as needed to ensure work is evenly distributed and tasks are completed on time.
+  7. [IC] Conduct an end-of-day wrap-up meeting to review accomplishments, plan for the next day, and document the day's activities.
+[B]
+  1. [PD] Review the team's progress report from the previous day.
+  2. [IC] Conduct a morning stand-up meeting to discuss daily goals and assign tasks.
+  3. [PD] Monitor the team's work through a project management tool.
+  4. [IC] Hold one-on-one check-ins with team members to address any immediate issues.
+  5. [IC] Facilitate a mid-day progress update meeting to review the team's status.
+  6. [ME] Resolve any conflicts or technical issues that arise during the day.
+  7. [FV] Provide feedback to team members on their work and performance.
+  8. [ME] Adjust task assignments as needed to ensure work is evenly distributed.
+  9. [IC] Conduct an end-of-day wrap-up meeting to review accomplishments and plan for the next day.
+  10. [FV] Document the day's activities and update the project management tool with the latest progress.
+[C]
+  1. [IC] Review the team's schedule, tasks, and goals for the day.
+  2. [IC] Conduct a brief team meeting to discuss priorities, address questions, and foster communication.
+  3. [PD] Observe the team's work, noting progress, potential roadblocks, and areas for support.
+  4. [FV] Provide guidance, feedback, and support to team members as needed, addressing any immediate concerns.
+  5. [NA] Monitor progress against goals and deadlines, making adjustments to tasks or schedules as necessary.
+  6. [IC] Facilitate a brief end-of-day check-in to review accomplishments, discuss challenges, and plan for the next day.
+[D]
+  1. [PD] Review the team's progress report from the previous day and the day's schedule.
+  2. [IC] Conduct a morning stand-up meeting to discuss daily goals, assign tasks, and address any immediate issues.
+  3. [PD] Monitor the team's work progress using project management tools and observe team members in action.
+  4. [IC] Facilitate a mid-day progress update meeting to review the team's status and provide feedback.
+  5. [ME] Resolve any conflicts, technical issues, or customer complaints that arise during the day.
+  6. [PD] Check the status of resources (e.g., raw materials, equipment) and ensure they are available for the team.
+  7. [ME] Adjust task assignments as needed to ensure work is evenly distributed and the team stays on track.
+  8. [IC] Conduct an end-of-day wrap-up meeting to review accomplishments, plan for the next day, and provide recognition where deserved.
+  9. [FV] Document the day's activities, update the project management tool with the latest progress, and prepare a report for the next shift manager.
+  10. [NA] Conduct a final walkthrough of the workspace to ensure all employees have left, equipment is secured, and the workspace is safe and ready for the next day.
+
+--- Task 22: Maintain facilities.
+[A]
+  1. [IC] Review the maintenance schedule and identify the systems and areas to be checked today.
+  2. [NA] Retrieve necessary tools and equipment, including a multimeter, screwdrivers, and a thermal camera.
+  3. [NA] Navigate to the HVAC system located in the mechanical room on the third floor.
+  4. [PD] Inspect the HVAC system for any visible signs of wear or damage, such as rust, loose connections, or leaks.
+  5. [PD] Use the thermal camera to scan the HVAC system for any unusual temperature variations that could indicate a malfunction.
+  6. [PD] Check the electrical connections and measure the voltage using the multimeter to ensure proper power supply.
+  7. [ME] Identify and tighten any loose connections in the electrical wiring using the screwdriver.
+  8. [ME] Replace a faulty air filter with a new one to ensure proper airflow and filtration.
+  9. [FV] Run a test cycle of the HVAC system to verify that it is functioning correctly and efficiently.
+  10. [FV] Document the maintenance activities, including any repairs or replacements made, and update the maintenance log.
+[B]
+  1. [IC] Review the maintenance schedule and identify the HVAC system as the system to be checked today.
+  2. [NA] Retrieve the necessary tools and equipment, including a multimeter, screwdrivers, and a thermal camera.
+  3. [NA] Navigate to the HVAC system located in the mechanical room on the third floor.
+  4. [PD] Inspect the HVAC system for any visible signs of wear or damage, such as rust, loose connections, or leaks.
+  5. [PD] Use the thermal camera to scan the HVAC system for any unusual temperature variations that could indicate a malfunction.
+  6. [PD] Check the electrical connections and measure the voltage using the multimeter to ensure proper power supply.
+  7. [ME] Identify a loose connection in the electrical wiring and tighten it using the screwdriver.
+  8. [ME] Replace a faulty air filter with a new one to ensure proper airflow and filtration.
+  9. [FV] Run a test cycle of the HVAC system to verify that it is functioning correctly and efficiently.
+  10. [FV] Document the maintenance activities, including any repairs or replacements made, and update the maintenance log.
+  11. [IC] Review the building's maintenance records to identify trends and areas for improvement.
+  12. [IC] Develop a plan to address any areas for improvement identified during the review, including budgeting and scheduling.
+[C]
+  1. [IC] Review the maintenance schedule and identify the specific task to be performed.
+  2. [NA] Gather necessary tools and equipment based on the identified task.
+  3. [NA] Navigate to the location of the task.
+  4. [PD] Conduct a visual inspection of the system or area, identifying any obvious issues or areas requiring further attention.
+  5. [PD] Utilize specialized tools or diagnostic equipment to assess the system's functionality and pinpoint specific problems.
+  6. [ME] Perform necessary repairs or maintenance tasks, addressing the identified issues.
+  7. [FV] Test the system or area to verify that the repairs or maintenance have been successful.
+  8. [FV] Document the completed work, including details of the task, repairs performed, and any parts used.
+[D]
+  1. [IC] Review maintenance schedules and building event calendar to understand current state and upcoming needs.
+  2. [NA] Navigate to the first assigned location or system to maintain, starting with critical or high-use areas.
+  3. [PD] Conduct a visual and functional inspection of the system or area, looking for signs of damage, wear, or malfunction.
+  4. [NA] Retrieve necessary tools, equipment, and replacement parts based on diagnosed issues.
+  5. [ME] Perform necessary maintenance tasks, repairs, or replacements to resolve identified issues.
+  6. [FV] Test and verify the functionality and safety of the maintained system or area.
+  7. [ME] Clean up the work area, dispose of waste materials, and restore the area to its original state.
+  8. [FV] Document completed tasks, any repairs or replacements made, and update the maintenance log.
+  9. [IC] Communicate with relevant stakeholders (e.g., event organizers, building management) about completed tasks, any outstanding issues, and upcoming needs.
+  10. [PD] Perform a final walkthrough of the maintained area or system to ensure it is safe, clean, and fully functional.
+  11. [FV] Document the final walkthrough findings and any outstanding maintenance issues in the maintenance log, signaling the completion of the maintenance cycle.
+
+--- Task 23: Merchandise healthcare products or services.
+[A]
+  1. [NA] Arrive at the conference venue and locate the assigned booth space.
+  2. [ME] Unpack and set up the booth display, including product samples and informational materials.
+  3. [ME] Power on and test the electronic devices to ensure they are functioning properly.
+  4. [IC] Review the key features and benefits of the healthcare products to prepare for customer interactions.
+  5. [IC] Greet attendees approaching the booth and engage them in conversation about their healthcare needs.
+  6. [ME] Demonstrate the functionality of the healthcare products to interested attendees.
+  7. [IC] Answer questions from attendees regarding the products, including pricing, availability, and technical specifications.
+  8. [FV] Collect contact information from interested attendees to follow up with additional information or sales offers.
+  9. [FV] Monitor the booth throughout the conference to ensure it remains presentable and functional.
+  10. [ME] Pack up the booth at the end of the conference and prepare for departure.
+[B]
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+[C]
+  1. [ME] Set up the booth display, including product samples and informational materials.
+  2. [IC] Review key features and benefits of the healthcare products to prepare for customer interactions.
+  3. [IC] Greet attendees and engage them in conversation about their healthcare needs.
+  4. [ME] Demonstrate product functionality and answer attendee questions.
+  5. [FV] Collect contact information from interested attendees for follow-up.
+  6. [FV] Monitor booth presentation and functionality throughout the event.
+[D]
+  1. [NA] Arrive at the venue or store and locate the assigned booth or section.
+  2. [ME] Set up the booth or display, including product samples, informational materials, and electronic devices.
+  3. [IC] Review key features, benefits, and technical specifications of the healthcare products or services.
+  4. [ME] Power on and test electronic devices to ensure they are functioning properly.
+  5. [IC] Greet attendees or patients and engage them in conversation about their healthcare needs.
+  6. [ME] Demonstrate the functionality of products, such as blood glucose monitors and insulin pumps, to interested individuals.
+  7. [IC] Answer questions and address concerns regarding products, pricing, availability, and technical specifications.
+  8. [FV] Collect contact information from interested individuals to follow up with additional information or sales offers.
+  9. [FV] Monitor the booth or section throughout the event or shift to ensure it remains presentable and functional.
+  10. [ME] Pack up the booth or display and update inventory management systems as needed.
+  11. [PD] Evaluate the overall success of merchandising efforts and identify areas for improvement using data and feedback.
+
+--- Task 24: Sterilize medical equipment or instruments.
+[A]
+  1. [IC] Review the sterilization protocol for the specific equipment and ensure that all necessary materials, such as sterilization solution and gloves, are available.
+  2. [NA] Wear appropriate personal protective equipment (PPE), including gloves and a mask.
+  3. [PD] Gather the used surgical instruments and visually inspect them for any debris or residue.
+  4. [ME] Pre-clean the instruments using a specialized enzymatic detergent and a soft brush to remove any remaining debris.
+  5. [ME] Rinse the instruments thoroughly with clean water to remove all traces of detergent.
+  6. [NA] Load the instruments into the autoclave chamber, ensuring proper spacing and arrangement for steam penetration.
+  7. [IC] Select the appropriate sterilization cycle based on the type of instruments and the hospital's protocols.
+  8. [FV] Start the autoclave cycle and monitor the pressure and temperature readings to ensure they remain within the specified range.
+  9. [FV] After the cycle completes, allow the autoclave chamber to depressurize and cool down according to safety protocols.
+  10. [ME] Remove the sterilized instruments from the autoclave chamber using heat-resistant gloves.
+  11. [PD] Inspect the instruments for any signs of damage or discoloration and store them in a sterile container until needed.
+  12. [FV] Document the sterilization process, including the specific instruments sterilized, the sterilization method used, and any issues or errors that arose.
+[B]
+  1. [IC] Review the sterilization protocol for the specific equipment and ensure that all necessary materials, such as sterilization solution and gloves, are available.
+  2. [NA] Sort and categorize the equipment according to the sterilization protocol, separating items that require different levels of sterilization.
+  3. [ME] Load the equipment into the sterilization machine, following the manufacturer's instructions and ensuring that all items are properly aligned and secured.
+  4. [ME] Set the sterilization machine according to the protocol, ensuring that the correct temperature, time, and pressure are selected.
+  5. [PD] Monitor the sterilization process, ensuring that all equipment is properly sterilized and that any issues or errors are addressed promptly.
+  6. [PD] Remove the equipment from the sterilization machine and inspect it for any signs of damage or malfunction.
+  7. [NA] Store the sterilized equipment in a designated area, ensuring that all items are properly labeled and organized.
+  8. [IC] Document the sterilization process, including the date, time, and any issues or errors that arose during the process.
+  9. [FV] Verify that all equipment is properly sterilized and ready for use in the upcoming surgery.
+  10. [IC] Notify the surgical team that the equipment is ready for use and that the sterilization process has been completed.
+[C]
+  1. [PD] Gather the used medical instruments and visually inspect them for any visible debris or residue.
+  2. [ME] Pre-clean the instruments using an enzymatic detergent and a soft brush to remove any remaining debris.
+  3. [ME] Rinse the instruments thoroughly with clean water to remove all traces of detergent.
+  4. [NA] Load the instruments into the autoclave chamber, ensuring proper spacing and arrangement for steam penetration.
+  5. [IC] Select the appropriate sterilization cycle based on the type of instruments and the hospital's protocols.
+  6. [FV] Start the autoclave cycle and monitor the pressure and temperature readings to ensure they remain within the specified range.
+  7. [FV] After the cycle completes, allow the autoclave chamber to depressurize and cool down according to safety protocols.
+  8. [ME] Remove the sterilized instruments from the autoclave chamber using heat-resistant gloves.
+  9. [PD] Inspect the instruments for any signs of damage or discoloration and store them in a sterile container until needed.
+[D]
+  1. [IC] Review the sterilization protocol and instrument log to understand specific requirements.
+  2. [NA] Gather and sort the equipment according to the sterilization protocol.
+  3. [NA] Put on appropriate personal protective equipment (PPE).
+  4. [ME] Pre-clean the instruments using an enzymatic cleaner to remove organic matter.
+  5. [ME] Rinse the instruments thoroughly with water to remove any residue.
+  6. [NA] Load the instruments into the sterilizer, ensuring they are properly positioned.
+  7. [ME] Load the sterilizer with the appropriate chemicals for the sterilization process.
+  8. [PD] Start the sterilization cycle, ensuring the sterilizer is set to the correct temperature and duration.
+  9. [PD] Monitor the sterilization process to ensure it is proceeding correctly.
+  10. [NA] Upon completion of the sterilization cycle, remove the instruments and place them in a sterile area.
+  11. [FV] Perform a biological indicator test to confirm the sterilization process was successful and document the process.
+
+================================================================
+ANSWER TEMPLATE
+
+17: _ | 
+18: _ | 
+19: _ | 
+20: _ | 
+21: _ | 
+22: _ | 
+23: _ | 
+24: _ | 
+

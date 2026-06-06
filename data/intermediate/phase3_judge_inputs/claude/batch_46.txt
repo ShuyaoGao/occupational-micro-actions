@@ -1,0 +1,368 @@
+BATCH 46/63 | Model: Claude Opus 4.7 | Tasks 361-368
+================================================================
+EXPERT REVIEW -- Micro-Action Sequence Evaluation
+For each task, read ALL four options, then choose the BEST (A/B/C/D).
+
+Criteria:
+  1. Completeness  -- no critical steps missing
+  2. Realism       -- every step is concretely executable
+  3. Stage accuracy -- stage label correct for each step:
+     IC=Intent_Communication  NA=Navigation_Addressing
+     PD=Perception_Diagnosis  ME=Manipulation_Execution  FV=Feedback_Verification
+  4. Conciseness   -- no redundant or duplicate steps
+  5. Scope         -- starts and ends at exactly the right point
+
+OUTPUT: fill the ANSWER TEMPLATE at the bottom.
+Format: N: X | one-sentence reason (max 12 words)
+IMPORTANT: Each task has a different best answer. Do NOT pick the same
+letter for every task without reading.
+================================================================
+
+--- Task 361: Establish nursing policies or standards.
+[A]
+  1. [PD] Review existing hospital infection control policies and guidelines from reputable sources.
+  2. [PD] Conduct a thorough assessment of the hospital's current infection control practices.
+  3. [ME] Draft a preliminary policy document outlining new infection control standards and procedures.
+  4. [IC] Present the draft policy to the hospital's infection control committee for review and feedback.
+  5. [ME] Revise the policy document based on feedback and finalize it.
+  6. [FV] Obtain final approval from hospital administrators and relevant governing bodies.
+  7. [IC] Disseminate the finalized policy to all nursing staff through various communication channels.
+  8. [FV] Monitor the implementation of the policy and make adjustments as needed based on feedback and observations.
+[B]
+  1. [PD] Review existing hospital policies and guidelines from reputable sources, such as the Centers for Disease Control and Prevention (CDC) and the World Health Organization (WHO).
+  2. [PD] Conduct a thorough assessment of the hospital's current infection control practices, including staff training, equipment, and patient care protocols.
+  3. [ME] Develop a draft policy document that outlines the new infection control standards and procedures, including guidelines for hand hygiene, personal protective equipment (PPE), and patient isolation.
+  4. [IC] Review and revise the draft policy document with input from hospital staff, administrators, and external experts, as needed.
+  5. [IC] Finalize the policy document and obtain approval from hospital administrators and relevant governing bodies.
+  6. [ME] Develop and implement training programs for hospital staff on the new infection control policies and procedures.
+  7. [FV] Monitor and evaluate the effectiveness of the new policy, including tracking infection rates and staff compliance.
+  8. [IC] Communicate the new policy and its benefits to hospital staff, patients, and families, through various channels, such as newsletters, posters, and educational events.
+  9. [FV] Continuously monitor and evaluate the effectiveness of the new policy, making adjustments as needed to ensure its continued success.
+[C]
+  1. [PD] Review existing hospital infection control policies and guidelines, as well as best practices from reputable sources like the CDC and WHO.
+  2. [PD] Conduct a thorough assessment of the hospital's current infection control practices, including staff training, equipment, and patient care protocols.
+  3. [ME] Draft a preliminary policy document outlining new infection control standards and procedures.
+  4. [IC] Present the draft policy to the infection control committee for feedback and discussion.
+  5. [ME] Revise the policy document based on feedback received from the committee.
+  6. [FV] Finalize the policy document and obtain approval from relevant hospital administrators and governing bodies.
+  7. [IC] Disseminate the finalized policy to all nursing staff through training sessions, meetings, and accessible online resources.
+  8. [FV] Monitor the implementation of the policy, track compliance, and gather feedback from staff to identify areas for improvement.
+[D]
+  1. [PD] Review existing policies, guidelines, and best practices from reputable sources, including current hospital policies and international standards.
+  2. [PD] Conduct a thorough assessment of the hospital's current practices, staff training, equipment, and patient care protocols related to the policy area.
+  3. [ME] Develop a draft policy document outlining new standards, procedures, and guidelines, based on the assessment and best practices.
+  4. [IC] Share the draft policy with relevant stakeholders, including hospital staff, administrators, and external experts, for feedback and input.
+  5. [ME] Revise the policy document based on the feedback received, ensuring it aligns with hospital goals, regulatory requirements, and best practices.
+  6. [FV] Obtain approval for the finalized policy document from relevant governing bodies and hospital administrators.
+  7. [ME] Develop and implement training programs for hospital staff on the new policy, ensuring all staff members are informed and trained.
+  8. [IC] Communicate the new policy and its benefits to hospital staff, patients, and families through various channels, such as newsletters, posters, and educational events.
+  9. [FV] Monitor and evaluate the effectiveness of the new policy, including tracking relevant metrics and staff compliance.
+  10. [ME] Revise and update the policy document as needed, based on lessons learned, best practices, and changes in regulations or hospital goals.
+
+--- Task 362: Operate pumping systems or equipment.
+[A]
+  1. [IC] Review the operational manual and system logs to understand the current status of the pumping system.
+  2. [NA] Navigate to the central control panel of the pump.
+  3. [PD] Check the status indicators and performance metrics on the control panel to ensure the pump is ready to start.
+  4. [ME] Initiate the pump by pressing the start button on the control panel.
+  5. [FV] Monitor the control panel for immediate feedback or error messages and check the flow meters and pressure gauges to ensure water is flowing through the pump.
+  6. [PD] Perform a visual inspection of the pumping system, checking for any signs of leaks, unusual noises, or physical damage.
+  7. [ME] Adjust the system's settings, such as pump speed or valve opening, to optimize water flow and pressure based on real-time demands.
+  8. [FV] Monitor the system's response to the adjustments and make fine-tuning changes as needed.
+  9. [IC] Document the day's activities, including any issues found, adjustments made, and maintenance tasks performed, in the system's logbook.
+[B]
+  1. [IC] Review the operational manual and safety protocols for the pump.
+  2. [NA] Navigate to the control panel of the pump.
+  3. [PD] Check the status indicators on the control panel to ensure the pump is ready to start.
+  4. [ME] Initiate the pump by pressing the start button on the control panel.
+  5. [FV] Monitor the control panel for any immediate feedback or error messages.
+  6. [PD] Check the flow meters and pressure gauges to ensure water is flowing through the pump.
+  7. [PD] Inspect the pump and surrounding area for any leaks or unusual noises.
+  8. [FV] Record the initial readings from the flow meters and pressure gauges in a logbook.
+  9. [FV] Continue to monitor the pump's performance over a set period, checking for any deviations from normal operation.
+  10. [FV] Confirm that the pump is operating within the specified parameters and that the water flow is consistent.
+[C]
+  1. [IC] Review operational manual and safety protocols for the specific pump.
+  2. [NA] Navigate to the pump's control panel.
+  3. [PD] Check status indicators on the control panel to confirm pump readiness.
+  4. [ME] Initiate the pump start sequence according to the manual.
+  5. [FV] Monitor control panel for immediate feedback or error messages.
+  6. [PD] Verify water flow and pressure using gauges and flow meters.
+  7. [PD] Inspect pump and surrounding area for leaks, unusual noises, or vibrations.
+  8. [FV] Record initial readings from gauges and meters in a logbook.
+[D]
+  1. [IC] Review daily maintenance checklist and system logs to understand the current status of the pumping system.
+  2. [NA] Navigate to the central control room and access the main control panel for the pumping system.
+  3. [PD] Observe the system's current performance metrics, such as water flow rate, pressure, and power consumption, displayed on the control panel's screen.
+  4. [ME] Adjust the system's settings, such as pump speed or valve opening, to optimize water flow and pressure based on real-time demands.
+  5. [FV] Monitor the system's response to the adjustments and make fine-tuning changes as needed.
+  6. [PD] Perform a visual inspection of the pumping system, checking for any signs of leaks, corrosion, or other physical damage.
+  7. [ME] Conduct routine maintenance tasks, such as lubricating bearings or replacing filters, based on the system's maintenance schedule.
+  8. [FV] Test the system's backup and safety features, such as the emergency shutdown mechanism and alarm system.
+  9. [IC] Document the day's activities, including any issues found, adjustments made, and maintenance tasks performed, in the system's logbook.
+  10. [IC] Communicate the system's status and any outstanding issues to the shift supervisor, ensuring a smooth handover for the next shift.
+
+--- Task 363: Communicate with government agencies.
+[A]
+  1. [IC] Identify the specific government agency responsible for the required permits or licenses.
+  2. [NA] Navigate to the agency's website or physical location to gather necessary information.
+  3. [PD] Review the agency's requirements and regulations for the permit or license application.
+  4. [ME] Prepare and fill out the necessary forms and gather all required documentation.
+  5. [ME] Submit the completed application and documentation through the agency's preferred method.
+  6. [IC] Schedule any required inspections or follow-up appointments with the agency.
+  7. [FV] Receive and review the agency's feedback and any additional requirements.
+  8. [FV] Document all communications and outcomes for future reference.
+[B]
+  1. [IC] Identify the specific government agency responsible for issuing permits for the construction project.
+  2. [IC] Gather all necessary documentation and project details required for the permit application.
+  3. [IC] Contact the government agency to schedule an initial meeting or phone call.
+  4. [NA] Attend the scheduled meeting or phone call with the government agency.
+  5. [IC] Present the project details and documentation to the government agency representative.
+  6. [IC] Answer any questions from the government agency representative and provide additional information as needed.
+  7. [PD] Review the agency's feedback and requirements for the permit application.
+  8. [ME] Prepare and submit the final permit application with all required documentation.
+  9. [FV] Follow up with the government agency to check on the status of the permit application.
+  10. [FV] Receive and review the issued permit, ensuring all conditions are met.
+[C]
+  1. [IC] Identify the specific government agency responsible for the task.
+  2. [NA] Navigate to the agency's website or physical location.
+  3. [PD] Review agency requirements and regulations.
+  4. [ME] Gather all necessary documentation.
+  5. [ME] Complete required forms or use online portals for communication.
+  6. [FV] Submit communication and record submission details.
+  7. [FV] Follow up with the agency to check on the status of the request.
+[D]
+  1. [IC] Identify the specific government agency(ies) responsible for your needs based on industry, location, and project type.
+  2. [NA] Visit the official website(s) of the identified agency(ies) and navigate to the relevant sections.
+  3. [PD] Read, understand, and document the agency's requirements, regulations, and application processes.
+  4. [ME] Gather all necessary documentation, project details, and prepare required forms or use online portals to communicate with the agency.
+  5. [IC] Contact the government agency to schedule an initial meeting, phone call, or submit your communication.
+  6. [NA] Attend the scheduled meeting or phone call, present project details, and answer any questions from the government agency representative.
+  7. [PD] Review the agency's feedback, requirements, and conditions for your application or permit.
+  8. [ME] Prepare and submit the final application or permit request with all required documentation.
+  9. [FV] Follow up with the government agency to check on the status of your application or permit.
+  10. [FV] Receive, review, and document the issued permit or response from the government agency, ensuring all conditions are met.
+  11. [FV] Document all communications, their outcomes, and any follow-up actions or deadlines for future reference.
+  12. [IC] Send a summary of all communications, their outcomes, and any follow-up actions to relevant stakeholders (e.g., company management).
+
+--- Task 364: Intervene in crisis situations to assist clients.
+[A]
+  1. [IC] Answer the incoming call and introduce yourself, using a calm and reassuring tone.
+  2. [IC] Actively listen to the caller's distress, paraphrasing and summarizing their concerns to ensure understanding.
+  3. [PD] Ask clarifying questions to understand the nature and severity of the crisis and assess the caller's immediate safety.
+  4. [ME] Utilize de-escalation techniques, such as validation, reassurance, and problem-solving strategies, to calm the caller.
+  5. [NA] Explore available resources and support options, such as crisis hotlines, mental health services, or emergency contacts.
+  6. [ME] Collaborate with the caller to develop a safety plan, outlining steps to manage the crisis and seek further help.
+  7. [ME] Document the intervention, including the caller's concerns, resources provided, and the outcome of the interaction.
+  8. [FV] Confirm the caller's commitment to seeking further help or staying safe and offer to stay on the line until additional help arrives or they reach a safe place.
+[B]
+  1. [IC] Answer the incoming call and identify the caller.
+  2. [IC] Establish rapport and actively listen to the caller's distress, using empathetic language.
+  3. [IC] Ask clarifying questions to understand the nature and severity of the crisis.
+  4. [PD] Assess the caller's immediate safety and identify potential risks.
+  5. [ME] Utilize de-escalation techniques, such as validation, reassurance, and problem-solving strategies.
+  6. [NA] Explore available resources and support options, such as crisis hotlines, mental health services, or emergency contacts.
+  7. [ME] Collaborate with the caller to develop a safety plan, outlining steps to manage the crisis and seek further help.
+  8. [FV] Document the intervention and follow up with the caller as appropriate.
+[C]
+  1. [IC] Arrive at the client's location and introduce yourself, establishing a calm and empathetic presence.
+  2. [PD] Assess the immediate environment for safety hazards and the client's emotional state.
+  3. [IC] Use active listening and open-ended questions to understand the client's concerns and needs.
+  4. [ME] Employ de-escalation techniques, such as validation, reassurance, and deep breathing exercises, to help the client regain control.
+  5. [ME] Collaboratively develop a safety plan with the client, outlining immediate steps and long-term support options.
+  6. [NA] Connect the client with appropriate resources, such as crisis hotlines, mental health services, or emergency contacts.
+  7. [FV] Monitor the client's progress and provide ongoing support until the crisis subsides.
+  8. [ME] Document the intervention, including the client's concerns, actions taken, and resources provided.
+[D]
+  1. [IC] Answer the call/incoming communication and introduce yourself with a calm and reassuring tone.
+  2. [IC] Active listening: paraphrase and summarize the client's concerns to ensure understanding and empathy.
+  3. [PD] Assess the client's immediate safety and location, and identify any potential risks.
+  4. [FV] Reassure the client that help is available and you are there to support them.
+  5. [ME] Utilize de-escalation techniques, such as validation, reassurance, and problem-solving strategies, as needed.
+  6. [NA] Explore available resources and support options, such as crisis hotlines, mental health services, or emergency contacts, and provide relevant information to the client.
+  7. [ME] Collaborate with the client to develop a safety plan, outlining steps to manage the crisis and seek further help.
+  8. [FV] Offer to stay on the line with the client until additional help arrives or they reach a safe place.
+  9. [FV] Once the client is safe, confirm their commitment to seeking further help or staying safe.
+  10. [ME] Document the call/intervention, including the client's concerns, resources provided, and the outcome of the interaction.
+
+--- Task 365: Counsel family members of clients or patients.
+[A]
+  1. [IC] Greet the family members and introduce oneself, establishing a welcoming and private environment.
+  2. [PD] Listen actively to the family members' concerns and ask open-ended questions to gather more information.
+  3. [IC] Provide a detailed explanation of the patient's condition, including symptoms, treatment options, and care plan.
+  4. [IC] Address any specific concerns or questions the family members have regarding the patient's care and treatment.
+  5. [ME] Discuss coping strategies and resources available to support the family members and the patient, providing written materials and contact information.
+  6. [IC] Encourage the family members to ask additional questions and express their feelings, ensuring they feel supported and understood.
+  7. [FV] Summarize the key points discussed and confirm the family members' understanding and next steps.
+  8. [FV] Provide contact information for follow-up support and encourage the family members to reach out if they need further assistance.
+[B]
+  1. [IC] Greet the family members and introduce oneself, establishing a welcoming environment.
+  2. [IC] Ask the family members to briefly describe their concerns and the patient's current situation.
+  3. [IC] Provide a detailed explanation of the patient's condition, including symptoms and treatment options.
+  4. [PD] Observe the family members' reactions and emotional states to gauge their understanding and emotional response.
+  5. [IC] Address any specific concerns or questions the family members have regarding the patient's care and treatment.
+  6. [ME] Discuss coping strategies and resources available to support the family members and the patient.
+  7. [ME] Provide written materials and contact information for support groups and other resources.
+  8. [IC] Encourage the family members to ask additional questions and express their feelings.
+  9. [FV] Summarize the key points discussed and confirm the family members' understanding and next steps.
+  10. [FV] Thank the family members for their time and express willingness to provide further support as needed.
+[C]
+  1. [IC] Greet the family members warmly, introduce yourself, and create a comfortable and private environment for the conversation.
+  2. [PD] Actively listen to the family members' concerns and ask open-ended questions to understand their situation and emotional state.
+  3. [IC] Provide a clear and concise explanation of the patient's condition, using language that is easy to understand and addressing their specific questions.
+  4. [IC] Offer emotional support and validation, acknowledging the family's feelings and experiences.
+  5. [ME] Discuss available resources and support options, such as support groups, respite care, and financial assistance.
+  6. [FV] Summarize the key points discussed, confirm the family's understanding, and outline next steps.
+  7. [FV] Provide contact information and encourage the family to reach out with any further questions or needs.
+[D]
+  1. [IC] Greet family members by name, introduce yourself, and express empathy for their situation.
+  2. [NA] Escort family members to a private, comfortable space, navigating around other patients and staff.
+  3. [PD] Assess family members' emotional state and actively listen to their concerns, fears, and questions.
+  4. [ME] Explain the patient's condition, care plan, and available resources in simple, understandable terms.
+  5. [IC] Address family members' questions and concerns, providing reassurance and emotional support.
+  6. [ME] Offer practical support by connecting family members with local resources or helping them understand hospital procedures.
+  7. [IC] Encourage family members to ask more questions or express any other concerns they may have.
+  8. [FV] Summarize key points discussed, ensuring family members feel supported and understand the next steps.
+  9. [FV] Provide contact information for follow-up support and encourage family members to reach out if needed.
+  10. [NA] Escort family members back to the ward's reception desk, reiterating your support and expressing hope for the patient's recovery.
+
+--- Task 366: Secure cargo.
+[A]
+  1. [IC] Review the cargo manifest to understand the type, quantity, and fragility of the cargo.
+  2. [NA] Locate the cargo in the warehouse using the provided coordinates.
+  3. [PD] Inspect the cargo visually to assess its physical condition and any potential hazards.
+  4. [ME] Select appropriate securing materials (e.g., straps, blankets, pallets) based on the cargo's fragility and size.
+  5. [ME] Position the cargo on a stable surface or pallet to facilitate securing.
+  6. [ME] Secure the cargo using the selected materials, ensuring it cannot move during transportation.
+  7. [FV] Check that the cargo is securely fastened and cannot move when pushed or pulled.
+  8. [IC] Document the securing process, including the materials used and any additional measures taken.
+[B]
+  1. [IC] Review the cargo manifest to understand the type, quantity, and fragility of the cargo.
+  2. [NA] Locate the cargo in the warehouse using the provided coordinates.
+  3. [PD] Inspect the cargo visually to assess its physical condition and any potential hazards.
+  4. [ME] Select appropriate securing materials (e.g., straps, blankets, pallets) based on the cargo's fragility and size.
+  5. [ME] Position the cargo on a stable surface or pallet to facilitate securing.
+  6. [ME] Secure the cargo using the selected materials, ensuring it cannot move during transportation.
+  7. [FV] Check that the cargo is securely fastened and cannot move when pushed or pulled.
+  8. [ME] If necessary, use additional securing measures, such as shrink-wrap or corner protectors, to further safeguard the cargo.
+  9. [IC] Document the securing process, including the materials used and any additional measures taken.
+  10. [IC] Update the cargo's location in the warehouse management system to reflect its new secured status.
+  11. [IC] Notify the relevant parties (e.g., transportation team, warehouse supervisor) that the cargo is secured and ready for transportation.
+[C]
+  1. [IC] Review the cargo manifest to understand the type, quantity, and fragility of the cargo.
+  2. [PD] Locate and inspect the cargo, noting any potential hazards or special handling requirements.
+  3. [ME] Select appropriate securing materials (straps, dunnage, etc.) based on cargo type and fragility.
+  4. [ME] Position the cargo on a stable surface or pallet, optimizing for weight distribution and stability.
+  5. [ME] Secure the cargo using selected materials, ensuring tautness and proper tension to prevent movement.
+  6. [FV] Inspect the secured cargo, verifying stability and confirming all straps/securing points are properly engaged.
+  7. [IC] Document the securing process, noting materials used, tension applied, and any special considerations.
+[D]
+  1. [IC] Review the cargo manifest to understand the type, quantity, fragility, and weight of the cargo.
+  2. [NA] Locate the cargo in the warehouse or on the ship's deck using provided coordinates or visual identification.
+  3. [PD] Inspect the cargo visually to assess its physical condition, identify any loose items, potential hazards, or special considerations.
+  4. [ME] Select appropriate securing materials (e.g., straps, ratchets, dunnage bags, cargo nets, or chains) based on the cargo's fragility, size, weight, and special considerations.
+  5. [ME] Position the cargo on a stable surface or pallet, and load larger, heavier items first, placing them against the rear wall of the truck or ship.
+  6. [ME] Load smaller items around the larger ones, filling gaps with dunnage bags or other soft materials to add stability and prevent movement.
+  7. [ME] Attach securing equipment to the cargo and anchor points, ensuring even distribution and proper tension.
+  8. [FV] Inspect the secured cargo to ensure all items are stable, no straps are loose, and there are no potential projectiles in high winds or during transport.
+  9. [IC] Document the securing process, including the type and quantity of equipment used, special considerations, and any issues or damage noted.
+  10. [IC] Update relevant parties (e.g., transportation team, warehouse supervisor) about the cargo's secured status and any special considerations for transport.
+
+--- Task 367: Analyze biological samples.
+[A]
+  1. [IC] Review the sample's accompanying paperwork to understand its source, history, and any special handling requirements.
+  2. [NA] Locate and retrieve the sample from the lab's cold storage unit, following biosafety protocols.
+  3. [NA] Prepare the necessary reagents and equipment, including pipettes, test tubes, and sterilized work surfaces.
+  4. [NA] Wear personal protective equipment (PPE) including gloves, lab coat, and goggles.
+  5. [ME] Pipette a precise volume of the sample into a test tube and add reagents, mixing thoroughly.
+  6. [ME] Load the prepared sample into the real-time PCR machine and select the appropriate test protocol.
+  7. [PD] Monitor the PCR machine's progress, ensuring it's functioning correctly and the test is proceeding as expected.
+  8. [PD] Analyze the results to determine if the virus is present in the sample.
+  9. [FV] Document the results, including any relevant observations or notes, in the lab's digital record-keeping system.
+  10. [FV] Clean and decontaminate the work area, ensuring all equipment and materials are properly stored or disposed of following safety protocols.
+  11. [IC] Communicate the results to the appropriate personnel, such as the sample's submitter or the lab's supervisor.
+[B]
+  1. [PD] Review the experimental design and protocol for analyzing the DNA samples, ensuring understanding of the required genetic markers and the sequencing platform's capabilities.
+  2. [ME] Prepare the DNA samples for PCR by pipetting the required reagents and loading the samples into the PCR machine.
+  3. [ME] Execute the PCR protocol, monitoring the machine's progress and ensuring the reaction conditions are optimal.
+  4. [PD] Run the gel electrophoresis protocol to separate the PCR products, analyzing the resulting gel image for band patterns indicative of the genetic markers.
+  5. [ME] Sequencing the DNA samples using the platform's built-in sequencing software, analyzing the resulting data for the genetic markers.
+  6. [PD] Analyzing the sequencing data to identify the genetic markers, using bioinformatics tools to validate the results.
+  7. [FV] Reviewing the results and confirming the accuracy of the genetic marker identification, ensuring the data meets the required standards.
+  8. [FV] Documenting the results and preparing the data for further analysis or reporting, ensuring the data is properly stored and secured.
+  9. [FV] Verifying the accuracy of the genetic marker identification by comparing the results with established databases or literature, ensuring the data is consistent with known genetic markers.
+  10. [FV] Validating the results with the molecular biologist's expertise, ensuring the genetic marker identification is accurate and reliable.
+  11. [FV] Cleaning and decontaminating the work area, ensuring all equipment and materials are properly stored or disposed of following safety protocols.
+  12. [IC] Communicating the results to the appropriate personnel, such as the sample's submitter or the lab's supervisor, via email or phone.
+[C]
+  1. [IC] Review the sample's accompanying paperwork to understand its source, history, and any special handling requirements.
+  2. [NA] Retrieve the sample from its storage location, following biosafety protocols.
+  3. [ME] Prepare the sample for analysis (e.g., dilutions, extractions) based on the required test protocol.
+  4. [ME] Load the prepared sample into the appropriate analytical instrument (e.g., PCR machine, sequencer) and initiate the test protocol.
+  5. [PD] Monitor the instrument's progress, ensuring it's functioning correctly and the test is proceeding as expected.
+  6. [PD] Analyze the instrument's results to determine the presence or absence of target analytes (e.g., virus, genetic markers).
+  7. [FV] Record the results in the lab's digital record-keeping system, including any relevant observations or notes.
+  8. [FV] Clean and decontaminate the work area, ensuring all equipment and materials are properly stored or disposed of following safety protocols.
+[D]
+  1. [IC] Review sample paperwork for source, history, and handling requirements.
+  2. [NA] Retrieve the sample from cold storage, following biosafety protocols.
+  3. [ME] Prepare the sample for testing by performing necessary preprocessing steps.
+  4. [ME] Load the prepared sample into the analytical instrument (e.g., PCR machine) and initiate the test protocol.
+  5. [PD] Monitor the instrument's progress and ensure the test is proceeding as expected.
+  6. [PD] Analyze the test results to determine the presence or absence of the target substance.
+  7. [FV] Document the results, including observations and notes, in the lab's digital record-keeping system.
+  8. [FV] Clean and decontaminate the work area, ensuring proper storage or disposal of equipment and materials.
+  9. [IC] Communicate the results to appropriate personnel via email or phone.
+
+--- Task 368: Communicate patient status to other health practitioners.
+[A]
+  1. [PD] Access the patient's electronic health record (EHR) to review the latest vital signs, medication logs, and doctor's notes.
+  2. [IC] Summarize the patient's current status, highlighting any significant changes or critical information.
+  3. [NA] Locate and contact the attending physician and physical therapist via the hospital's internal communication system.
+  4. [IC] Initiate a conversation with the attending physician and physical therapist, identifying oneself and the patient.
+  5. [IC] Provide a detailed verbal report on the patient's current status, including any recent changes or critical information.
+  6. [IC] Answer any questions the physician and physical therapist may have about the patient's status.
+  7. [FV] Confirm with both practitioners that they have received and understood the patient's updated status.
+  8. [ME] Document the communication in the patient's EHR, noting the time, date, and practitioners notified.
+[B]
+  1. [PD] Review the patient's medical records and recent health status updates.
+  2. [PD] Identify the key points to communicate to the doctor and physical therapist.
+  3. [NA] Locate the doctor's office or find the doctor in the hospital.
+  4. [IC] Initiate a conversation with the doctor to discuss the patient's status.
+  5. [IC] Provide the doctor with a detailed update on the patient's recent health status and progress.
+  6. [IC] Answer any questions the doctor may have about the patient's status.
+  7. [NA] Locate the physical therapist's office or find the physical therapist in the hospital.
+  8. [IC] Initiate a conversation with the physical therapist to discuss the patient's status.
+  9. [IC] Provide the physical therapist with a detailed update on the patient's recent health status and progress.
+  10. [IC] Answer any questions the physical therapist may have about the patient's status.
+  11. [ME] Document the communication in the patient's EHR, noting the time, date, and practitioners notified, then log out of the system.
+  12. [FV] Verify that the patient's status has been accurately communicated to all relevant parties.
+[C]
+  1. [PD] Review the patient's medical records and recent health status updates.
+  2. [IC] Summarize the key points of the patient's status, including any significant changes.
+  3. [NA] Access the hospital's communication system to reach the relevant healthcare practitioners (e.g., doctor, physical therapist).
+  4. [IC] Verbally communicate the patient's status to each practitioner, emphasizing critical information and changes.
+  5. [IC] Answer any questions the practitioners may have about the patient's status.
+  6. [ME] Document the communication in the patient's EHR, noting the time, date, and practitioners notified.
+[D]
+  1. [PD] Access and review the patient's electronic health record (EHR) to gather recent vital signs, test results, medication logs, and doctor's notes.
+  2. [IC] Summarize the patient's current status, highlighting any critical information or changes since the last update.
+  3. [NA] Access the hospital's communication system to reach the relevant practitioners (e.g., attending physician, physical therapist, nurse).
+  4. [IC] Initiate a verbal conversation with each practitioner, identifying oneself and the patient.
+  5. [IC] Deliver a clear and concise verbal report on the patient's current status, including vital signs, symptoms, and any recent changes.
+  6. [IC] Respond to any questions the practitioners may have about the patient's condition, providing further clarification or details as needed.
+  7. [FV] Confirm with each practitioner that they understand the patient's current status and conclude the conversation.
+  8. [ME] Document the communication in the patient's EHR, noting the time, date, and practitioners notified, then log out of the system.
+
+================================================================
+ANSWER TEMPLATE
+
+361: _ | 
+362: _ | 
+363: _ | 
+364: _ | 
+365: _ | 
+366: _ | 
+367: _ | 
+368: _ | 
+

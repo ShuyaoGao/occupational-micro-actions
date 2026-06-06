@@ -1,0 +1,2 @@
+﻿n_SOC_overlap,FO_orig_n,FO_eloundou_n,spearman_rho,spearman_p,pearson_r,pearson_p,mean_abs_diff,max_abs_diff,exact_match_pct,close_match_pct,within_005_pct
+653,702,737,1.0,0.0,1.0,0.0,0.0,0.0,100.0,100.0,100.0

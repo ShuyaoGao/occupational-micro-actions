@@ -1,0 +1,1671 @@
+BATCH 2/13 | Model: GPT (thinking mode) | Tasks 40-78
+================================================================
+EXPERT REVIEW -- Micro-Action Sequence Evaluation
+For each task, read ALL four options, then choose the BEST (A/B/C/D).
+
+Criteria:
+  1. Completeness  -- no critical steps missing
+  2. Realism       -- every step is concretely executable
+  3. Stage accuracy -- stage label correct for each step:
+     IC=Intent_Communication  NA=Navigation_Addressing
+     PD=Perception_Diagnosis  ME=Manipulation_Execution  FV=Feedback_Verification
+  4. Conciseness   -- no redundant or duplicate steps
+  5. Scope         -- starts and ends at exactly the right point
+
+OUTPUT: fill the ANSWER TEMPLATE at the bottom.
+Format: N: X | one-sentence reason (max 12 words)
+IMPORTANT: Each task has a different best answer. Do NOT pick the same
+letter for every task without reading.
+================================================================
+
+--- Task 40: Communicate dining or order details to kitchen personnel.
+[A]
+  1. [IC] Approach the table, greet customers, and ask for their order.
+  2. [IC] Listen attentively to the customers' order, noting any special requests or modifications.
+  3. [IC] Repeat the order back to the customers to confirm accuracy.
+  4. [NA] Navigate to the kitchen area, avoiding obstacles and reaching the kitchen window.
+  5. [ME] Clearly and concisely communicate the order to the kitchen staff, using verbal and visual cues if necessary.
+  6. [FV] Wait for the kitchen staff to acknowledge the order and ask any clarifying questions.
+  7. [FV] Confirm the order with the kitchen staff, ensuring they have all the necessary details.
+[B]
+  1. [IC] Approach the table and greet the customers.
+  2. [IC] Take the order from each customer, noting any special requests or modifications.
+  3. [IC] Repeat the order back to the customers to confirm accuracy.
+  4. [NA] Write down the order on a pad or enter it into a digital system.
+  5. [NA] Move to the kitchen area while carrying the order pad or device.
+  6. [ME] Hand the order pad to the kitchen staff or communicate the order through a digital system.
+  7. [FV] Confirm with the kitchen staff that they have received and understood the order.
+  8. [FV] Return to the table to inform the customers that their order has been placed.
+[C]
+  1. [IC] Approach the table, greet customers, and ask for their order.
+  2. [IC] Listen attentively to the customers' order, clarifying any ambiguous details.
+  3. [IC] Repeat the order back to the customers to confirm accuracy.
+  4. [NA] Navigate to the kitchen area, avoiding obstacles.
+  5. [IC] Clearly and concisely communicate the order to the kitchen staff.
+  6. [FV] Confirm the order with the kitchen staff, ensuring they have all necessary details.
+[D]
+  1. [IC] Approach the table, greet customers, and ask for their order.
+  2. [IC] Actively listen to the customers' order, noting down each dish and any modifications. Clarify any ambiguous details.
+  3. [IC] Repeat the order back to the customers to confirm accuracy.
+  4. [NA] Navigate through the restaurant, avoiding obstacles like other waitstaff and customers.
+  5. [NA] Approach the kitchen window, wait for a pause in the kitchen staff's activity.
+  6. [IC] Clearly and concisely communicate the order to the kitchen staff, speaking loudly and slowly to overcome kitchen noise. Use visual aids like printed order tickets to reinforce verbal communication.
+  7. [FV] Wait for the kitchen staff to acknowledge the order and ask any clarifying questions. Answer these questions to ensure complete understanding.
+  8. [FV] Confirm the order with the kitchen staff, ensuring they have all the necessary details before leaving the kitchen area.
+
+--- Task 41: Establish rules or policies governing student behavior.
+[A]
+  1. [IC] Conduct a school-wide survey and focus groups with students, parents, and staff to gather input on current rules and desired changes.
+  2. [PD] Analyze survey responses and focus group findings to identify common themes, concerns, and suggestions.
+  3. [NA] Research best practices and legal requirements for school codes of conduct.
+  4. [ME] Draft initial rules based on stakeholder input, best practices, and legal requirements.
+  5. [FV] Present draft rules to the school board for feedback and approval.
+  6. [ME] Revise rules based on school board feedback and finalize the code of conduct.
+  7. [ME] Create age-appropriate materials to teach the new rules to students and conduct training sessions for staff on enforcing the new rules.
+  8. [NA] Distribute the new code of conduct to students, parents, and staff, and make it easily accessible online.
+  9. [FV] Monitor the implementation of the new rules, gather feedback, and make adjustments as needed.
+[B]
+  1. [IC] Review existing school policies and handbooks from similar middle schools in the district to identify best practices and areas for improvement.
+  2. [IC] Conduct a survey or focus group with teachers, students, and parents to gather input on what they would like to see included in the new student handbook.
+  3. [ME] Develop a draft of the new student handbook that incorporates the feedback from the survey or focus group and addresses any areas of concern.
+  4. [PD] Review and revise the draft of the student handbook to ensure that it meets the needs of diverse students and is compliant with district and state regulations.
+  5. [FV] Finalize the student handbook and have it approved by the school administration and the school board.
+  6. [ME] Design and layout the student handbook in a clear and visually appealing format.
+  7. [NA] Print or digitally distribute the student handbook to students and parents by the first day of school.
+  8. [IC] Communicate the importance of the student handbook to students and parents through a parent-teacher organization meeting or school assembly.
+  9. [PD] Monitor and evaluate the effectiveness of the student handbook in promoting positive student behavior and reducing disciplinary incidents.
+  10. [ME] Revise and update the student handbook as needed to ensure that it remains relevant and effective in promoting positive student behavior.
+[C]
+  1. [IC] Review existing school policies and handbooks from similar schools to identify best practices and areas for improvement.
+  2. [IC] Conduct surveys and focus groups with students, teachers, and parents to gather diverse perspectives on desired changes and concerns regarding student behavior.
+  3. [PD] Analyze collected data to identify common themes, areas of consensus, and disagreement regarding student behavior expectations.
+  4. [ME] Draft a preliminary version of the revised code of conduct, incorporating feedback and addressing identified concerns.
+  5. [IC] Present the draft code of conduct to the school board for review and feedback.
+  6. [ME] Revise the code of conduct based on feedback received from the school board and finalize the document.
+  7. [NA] Disseminate the finalized code of conduct to students, staff, and parents through various channels (e.g., school website, handbooks, assemblies).
+[D]
+  1. [IC] Conduct a school-wide survey to gather input from students, parents, and staff on current rules and desired changes.
+  2. [PD] Analyze survey responses to identify common themes, concerns, and suggestions.
+  3. [NA] Research best practices and legal requirements for school codes of conduct.
+  4. [IC] Facilitate focus group discussions with representatives from each stakeholder group to discuss findings and brainstorm rules.
+  5. [ME] Draft initial rules based on stakeholder input, best practices, and legal requirements.
+  6. [FV] Present draft rules to the school board for feedback and approval.
+  7. [ME] Revise rules based on school board feedback and finalize the code of conduct.
+  8. [ME] Create age-appropriate materials to teach the new rules to students.
+  9. [FV] Conduct training sessions for staff on enforcing the new rules and handling disciplinary situations.
+  10. [NA] Distribute the new code of conduct to students, parents, and staff, and make it easily accessible online.
+  11. [FV] Monitor the implementation of the new rules, gather feedback, and make adjustments as needed.
+
+--- Task 42: Operate natural gas generation equipment.
+[A]
+  1. [IC] Review the current power demand and generator's status on the control panel.
+  2. [NA] Adjust the fuel valve settings to match the current demand, ensuring the generator does not exceed its capacity.
+  3. [PD] Monitor the generator's temperature, pressure, and vibration levels using the control panel.
+  4. [PD] Perform a visual inspection of the generator's external components for any signs of leakage or damage.
+  5. [ME] Adjust the generator's output based on the current demand and maintain a stable power output.
+  6. [PD] Monitor the generator's emissions and ensure they comply with environmental regulations.
+  7. [IC] Communicate any anomalies or maintenance needs to the control room and follow their instructions.
+  8. [FV] Perform a final check of the generator's status and ensure all systems are running within normal parameters.
+  9. [FV] Document the generator's performance, any anomalies, and completed maintenance tasks in the daily log.
+[B]
+  1. [IC] Review the maintenance schedule and equipment logs to identify any potential issues or areas for improvement.
+  2. [IC] Don personal protective equipment (PPE) and ensure all safety protocols are in place before approaching the equipment.
+  3. [PD] Conduct a visual inspection of the equipment to identify any signs of wear or damage.
+  4. [PD] Check the gas flow rates, pressure, and temperature to ensure they are within normal parameters.
+  5. [ME] Perform routine maintenance tasks, such as cleaning filters and replacing worn parts.
+  6. [PD] Monitor the equipment's performance during the maintenance cycle and make adjustments as needed.
+  7. [IC] Document the maintenance activities and any issues encountered during the cycle.
+  8. [IC] Review the maintenance schedule and equipment logs to identify areas for improvement and update the schedule as needed.
+  9. [FV] Verify that all equipment is functioning within normal parameters and no safety incidents have been reported.
+  10. [IC] Document the completion of the maintenance cycle and update the equipment logs accordingly.
+[C]
+  1. [IC] Access the control room and log into the SCADA system to monitor the natural gas generation equipment.
+  2. [PD] Review the current operational parameters (temperature, pressure, gas flow rates) on the SCADA dashboard.
+  3. [ME] Adjust the gas flow rate using the control panel if necessary to maintain stable power output within specified ranges.
+  4. [PD] Monitor vibration sensors and thermal imaging cameras for signs of equipment malfunction or overheating.
+  5. [PD] Perform a routine visual inspection of the generator's exterior and cooling system for visible signs of damage or leaks.
+  6. [ME] Adjust the cooling system settings if necessary to maintain optimal operating temperatures.
+  7. [FV] Document any adjustments made, the current operational status, and any observed anomalies in the plant's logbook.
+[D]
+  1. [IC] Review the daily maintenance report and check the generator's current status on the control panel.
+  2. [NA] Adjust the fuel valve settings to match the current demand, ensuring the generator does not exceed its capacity.
+  3. [PD] Monitor the generator's temperature, pressure, vibration levels, and emissions using the control panel and relevant sensors.
+  4. [IC] Communicate with the control room to confirm the generator's output and adjust settings as needed.
+  5. [PD] Perform a visual inspection of the generator's external components for any signs of leakage or damage.
+  6. [ME] Adjust the generator's output based on the current demand and maintain a stable power output.
+  7. [IC] Communicate any anomalies or maintenance needs to the control room and follow their instructions.
+  8. [FV] Perform a final check of the generator's status and ensure all systems are running within normal parameters.
+  9. [FV] Document the generator's performance, any anomalies, and completed maintenance tasks in the daily log.
+
+--- Task 43: Test performance of electrical, electronic, mechanical, or integrated systems or equipment.
+[A]
+  1. [IC] Review the system's performance specifications and test protocols.
+  2. [NA] Navigate to the system's control panel and identify the test ports.
+  3. [ME] Connect the test equipment to the system's test ports and power up the system.
+  4. [PD] Initiate the test sequence and monitor the system's performance data.
+  5. [FV] Compare the real-time data with expected performance data and adjust test parameters if necessary.
+  6. [FV] Record the test results and document any performance issues or recommendations.
+  7. [NA] Disconnect the test equipment and safely navigate away from the system.
+[B]
+  1. [IC] Review the system's performance specifications and test protocols.
+  2. [PD] Power on the conveyor belt system and verify that all components are operational.
+  3. [ME] Set up the test environment, including placing test objects on the conveyor belt.
+  4. [PD] Initiate the system and monitor the performance of the electrical motors.
+  5. [FV] Record the test results and compare them to the performance specifications.
+  6. [ME] Adjust any settings or components that do not meet the performance criteria.
+  7. [FV] Deliver the final test report to the supervisor or client.
+[C]
+  1. [IC] Review the system's performance specifications, test protocols, and safety procedures.
+  2. [NA] Navigate to the system's control panel and prepare the test environment.
+  3. [PD] Power on the system and verify the operational status of all components.
+  4. [ME] Initiate the predefined test sequence and monitor system performance.
+  5. [FV] Collect and analyze performance data, comparing it to the specifications.
+  6. [FV] Document the test results, including any identified issues and recommendations.
+[D]
+  1. [IC] Review system's documentation, performance specifications, and test protocols.
+  2. [NA] Safely navigate to the system's control panel or test location, avoiding obstacles.
+  3. [PD] Power on the system and verify that all components are operational.
+  4. [ME] Set up the test environment, including placing test objects or connecting test equipment.
+  5. [PD] Initiate the system and monitor its performance, recording relevant data.
+  6. [FV] Analyze the collected data, comparing it to the performance specifications.
+  7. [ME] Adjust any settings or components that do not meet the performance criteria.
+  8. [FV] Document the test results, including any performance issues and recommendations for improvement.
+  9. [IC] Review the test results with relevant stakeholders, discussing any performance issues and recommendations.
+  10. [NA] Safely disconnect any test equipment and navigate back from the test location.
+
+--- Task 44: Monitor alarm systems.
+[A]
+  1. [IC] Log into the alarm system's control panel using the assigned credentials.
+  2. [PD] Monitor the alarm system dashboard, paying attention to active sensors and triggered alerts.
+  3. [NA] Upon detecting an alarm, quickly locate its source on the building's floor plan displayed on the control panel.
+  4. [PD] Investigate the cause of the alarm by reviewing camera footage and sensor data.
+  5. [ME] If it's a genuine threat, follow the established security protocol to address the intrusion and notify the appropriate authorities.
+  6. [FV] Document the incident in the security log, including the time, location, and nature of the alarm.
+  7. [ME] Reset the alarm system after the incident is resolved.
+  8. [PD] Resume monitoring the alarm system and cameras.
+[B]
+  1. [PD] Review live feeds from security cameras, scanning for any unusual activity or suspicious individuals.
+  2. [PD] Monitor the alarm system dashboard, paying attention to active sensors and triggered alerts.
+  3. [PD] Listen for any audible alarms or distress calls through the security system's audio feed.
+  4. [NA] Investigate the source of any triggered alarms by reviewing camera footage and sensor data.
+  5. [IC] Dispatch the appropriate response team (e.g., security personnel, police) if a genuine threat is identified.
+  6. [FV] Document the incident in the security log, including the time, location, and nature of the alarm.
+  7. [ME] Reset the alarm system after the incident is resolved.
+  8. [PD] Resume monitoring the alarm system and cameras.
+[C]
+  1. [PD] Monitor the alarm system dashboard and live camera feeds for any triggered alarms or suspicious activity.
+  2. [NA] Upon detecting a triggered alarm, locate its source on the system's map and review associated camera footage.
+  3. [PD] Assess the situation through camera footage, looking for signs of intrusion, tampering, or other security breaches.
+  4. [IC] If a legitimate threat is identified, initiate the emergency response protocol, which may involve contacting security personnel or law enforcement.
+  5. [FV] Document the incident in the alarm system's log, including the time, location, nature of the alarm, and actions taken.
+  6. [ME] Reset the triggered alarm and resume monitoring the system for further activity.
+[D]
+  1. [IC] Log into the alarm system's control panel using assigned credentials.
+  2. [PD] Familiarize oneself with the current status of all alarm points on the system's interface.
+  3. [ME] Set the alarm system to 'armed' mode for the entire building.
+  4. [NA] Begin a patrol route around the building, checking for any signs of intrusion or disturbance.
+  5. [PD] Upon detecting an alarm, quickly locate its source on the building's floor plan displayed on the control panel.
+  6. [NA] Proceed to the location of the alarm, following the most direct and safe route.
+  7. [ME] Investigate the cause of the alarm. If it's a false alarm, reset the alarm point and document the incident.
+  8. [ME] If it's a genuine threat, follow the established security protocol to address the intrusion and notify the appropriate authorities.
+  9. [FV] Upon completing the patrol route and addressing all alarms, log out of the alarm system's control panel and end the shift.
+
+--- Task 45: Draw guide lines or markings on materials or workpieces using patterns or other references.
+[A]
+  1. [IC] Read the blueprint or pattern to understand the layout, dimensions, and spacing of the lines to be drawn.
+  2. [NA] Position the workpiece on a flat, stable surface to ensure accurate marking.
+  3. [PD] Align the pattern or blueprint with the workpiece to ensure accurate transfer of markings.
+  4. [ME] Secure the pattern or blueprint in place using clamps or tape to prevent movement.
+  5. [ME] Use a pencil or appropriate marking tool to trace the markings from the pattern or blueprint onto the workpiece.
+  6. [FV] Verify the markings by comparing them to the pattern or blueprint to ensure accuracy.
+  7. [ME] Adjust any markings that are not accurate by erasing and redrawing as necessary.
+  8. [FV] Inspect the final markings to ensure they are clear and accurate for the next steps in the process.
+[B]
+  1. [NA] Retrieve the material and the pattern or reference.
+  2. [NA] Position the material on a flat, stable surface.
+  3. [PD] Review the pattern or reference to understand the markings and guide lines required.
+  4. [PD] Align the pattern or reference with the material to ensure accurate transfer of markings.
+  5. [ME] Secure the pattern or reference in place using clamps or tape to prevent movement.
+  6. [ME] Use a marking tool to draw the guide lines and markings onto the material, using the pattern or reference as a reference.
+  7. [FV] Verify the markings and guide lines for accuracy, ensuring they are correctly drawn and aligned.
+  8. [ME] Make any necessary adjustments to the markings and guide lines, ensuring they meet the required specifications.
+  9. [ME] Remove the pattern or reference from the material.
+  10. [FV] Inspect the final markings and guide lines to ensure they are clear and accurate for the next steps in the process.
+[C]
+  1. [PD] Review the pattern or blueprint to understand the required markings, dimensions, and spacing.
+  2. [NA] Position the workpiece (e.g., door frame, aluminum plate, plywood) on a stable, flat surface.
+  3. [ME] Align the pattern or use measuring tools to mark the starting points and key reference points on the workpiece.
+  4. [ME] Using appropriate tools (pencil, chalk line, etc.), transfer the markings from the pattern or create guide lines according to the specified dimensions.
+  5. [FV] Verify the accuracy of the markings by comparing them to the pattern or blueprint.
+  6. [ME] Make any necessary adjustments or corrections to the markings.
+  7. [IC] Remove the pattern (if used) and prepare the workpiece for the next step in the process.
+[D]
+  1. [PD] Understand the pattern or blueprint, identifying key points, dimensions, and spacing for markings.
+  2. [NA] Position the material or workpiece on a flat, stable surface for accurate marking.
+  3. [ME] Select and prepare the appropriate marking tool (e.g., pencil, marker, chalk line) for the task.
+  4. [NA] Locate the starting point on the material that corresponds to the first marking's starting point on the reference material.
+  5. [ME] Measure and mark the length, spacing, and other dimensions of the first marking according to the reference material.
+  6. [ME] Draw or trace the first guide line or marking connecting the marked points using the selected tool.
+  7. [ME] Repeat steps 4 to 6 for each subsequent marking, ensuring they are accurately placed, parallel, and evenly spaced according to the reference material.
+  8. [FV] Inspect the drawn markings to ensure they are accurate, clear, and meet the required specifications.
+  9. [ME] Make any necessary adjustments to the markings, ensuring they meet the required specifications.
+  10. [FV] Review the completed task for quality and accuracy, ensuring that the guide lines and markings meet the required specifications.
+
+--- Task 46: Design energy production or management equipment or systems.
+[A]
+  1. [IC] Review client requirements and project specifications, including energy output targets and site constraints.
+  2. [PD] Conduct a site visit to assess the home's energy consumption, roof structure, and shading conditions.
+  3. [NA] Calculate the home's energy needs and determine the required solar panel capacity.
+  4. [ME] Design the solar panel layout, considering factors such as roof orientation, shading, and panel size.
+  5. [ME] Create a detailed design plan, including panel specifications, wiring diagrams, and installation instructions.
+  6. [IC] Review the design with the client to ensure all requirements are met and obtain final approval.
+  7. [FV] Finalize and deliver the detailed design package, including all supporting documentation and models, to the client for construction and implementation.
+[B]
+  1. [IC] Review client requirements and project specifications, including energy output targets and site constraints.
+  2. [PD] Conduct site survey and gather data on solar irradiance, temperature, and wind patterns to inform panel placement and angle decisions.
+  3. [ME] Select and specify solar panel technology and materials, considering factors such as efficiency, durability, and cost.
+  4. [ME] Design and optimize the panel array layout, taking into account factors such as energy output, structural integrity, and aesthetics.
+  5. [PD] Develop and simulate thermal and electrical models of the panel array, to predict energy output and identify potential issues.
+  6. [FV] Analyze and optimize the design for energy efficiency, cost-effectiveness, and environmental sustainability, using tools such as life cycle assessment and cost-benefit analysis.
+  7. [ME] Create detailed design packages, including CAD models, thermal and electrical simulations, and a cost-benefit analysis, for client review and approval.
+  8. [ME] Revise and refine the design based on client feedback and design review, ensuring that the final design meets all requirements and specifications.
+  9. [FV] Finalize and deliver the detailed design package, including all supporting documentation and models, to the client for construction and implementation.
+  10. [FV] Document and reflect on the design process, identifying lessons learned and areas for improvement for future projects.
+[C]
+  1. [IC] Meet with the client to discuss energy consumption patterns, budget constraints, and aesthetic preferences for the system.
+  2. [PD] Conduct a site survey to assess the home's energy consumption, roof structure, shading conditions, and local regulations.
+  3. [PD] Analyze energy consumption data and calculate the required solar panel capacity to meet the client's needs.
+  4. [ME] Design the solar panel layout, considering factors such as roof orientation, shading, panel size, and aesthetics.
+  5. [NA] Select appropriate solar panel models, inverters, and mounting hardware based on the calculated capacity, roof specifications, and aesthetic preferences.
+  6. [ME] Create detailed design plans, including panel specifications, wiring diagrams, installation instructions, and 3D visualizations.
+  7. [IC] Review the design with the client, addressing any questions or concerns and obtaining final approval.
+[D]
+  1. [IC] Review client requirements, project specifications, and energy output targets.
+  2. [PD] Conduct a site survey and gather data on solar irradiance, temperature, wind patterns, roof structure, and shading conditions.
+  3. [NA] Calculate the required solar panel capacity based on energy audit, site survey data, and client requirements.
+  4. [ME] Select and specify solar panel technology, materials, and mounting hardware, considering factors such as efficiency, durability, cost, and aesthetic preferences.
+  5. [ME] Design and optimize the panel array layout, taking into account energy output, structural integrity, aesthetics, and local regulations.
+  6. [PD] Develop and simulate thermal and electrical models of the panel array to predict energy output and identify potential issues.
+  7. [FV] Analyze and optimize the design for energy efficiency, cost-effectiveness, and environmental sustainability using tools such as life cycle assessment and cost-benefit analysis.
+  8. [ME] Create detailed design packages, including CAD models, thermal and electrical simulations, a cost-benefit analysis, and installation instructions, for client review and approval.
+  9. [IC] Obtain necessary permits and approvals from local authorities and utility companies.
+  10. [IC] Review the design with the client, addressing any questions or concerns and obtaining final approval.
+
+--- Task 47: Study product information to acquire professional knowledge.
+[A]
+  1. [NA] Access the company's internal product database or intranet to locate the product information portal.
+  2. [PD] Read the product overview document and technical specifications to understand the product's core features, benefits, and technical details.
+  3. [PD] Watch the product demonstration video to visualize the product's design, features, and user interface in action.
+  4. [PD] Read customer testimonials and reviews to understand the product's strengths and weaknesses from a user perspective.
+  5. [ME] Create concise notes summarizing the key features, benefits, and target audience for the product.
+  6. [ME] Practice explaining the product features and benefits to an imaginary customer, refining the sales pitch and anticipating potential questions.
+  7. [FV] Take an online quiz or review notes to test knowledge retention and understanding of the product information.
+  8. [FV] Prepare a summary document outlining the key features, benefits, and technical specifications of the product for future reference.
+[B]
+  1. [NA] Access the company's internal product database and locate the dedicated folder for the new product line.
+  2. [PD] Review the product specifications document, paying close attention to technical details.
+  3. [PD] Watch the official product demonstration video, focusing on the product's design, user interface, and key selling points.
+  4. [PD] Read through customer testimonials and reviews from early beta testers to understand user experiences and potential pain points.
+  5. [PD] Compare the new product to existing models in the company's product line, noting key differences and target audience overlaps.
+  6. [ME] Create concise notes summarizing the key features, benefits, and target audience for the new product.
+  7. [ME] Practice explaining the product features and benefits to an imaginary customer, refining the sales pitch and anticipating potential questions.
+  8. [FV] Review the notes and practice again, ensuring confidence and fluency in presenting the product information.
+  9. [FV] Test the sales pitch by presenting it to a colleague or mentor for feedback.
+  10. [FV] Prepare a summary document outlining the key features, benefits, and technical specifications of the product for future reference.
+[C]
+  1. [IC] Access the product information portal or designated resources.
+  2. [PD] Review the product overview document to understand core features, target market, and benefits.
+  3. [PD] Study the technical specifications sheet to understand performance, capabilities, and technical details.
+  4. [PD] Watch product demonstration videos to visualize features, design, and user interface.
+  5. [PD] Review customer testimonials and reviews to understand user experiences and potential pain points.
+  6. [ME] Summarize key features, benefits, and target audience in concise notes.
+  7. [ME] Practice explaining product features and benefits to an imaginary customer, refining the sales pitch.
+  8. [FV] Review notes and practice again, focusing on confidence and fluency.
+[D]
+  1. [NA] Access the company's internal product database or intranet to locate the dedicated folder or portal for the product.
+  2. [PD] Read the product overview document or watch the product demonstration video to understand the product's core features, target market, and key selling points.
+  3. [PD] Study the technical specifications document or sheet to understand the product's performance, capabilities, and technical details.
+  4. [PD] Read customer testimonials and reviews to understand the product's strengths, weaknesses, and user experiences.
+  5. [PD] Compare the product to existing models or competitors, noting key differences, target audience overlaps, and unique selling points.
+  6. [ME] Create concise notes summarizing the product's key features, benefits, target audience, and any relevant technical specifications.
+  7. [ME] Practice explaining the product's features, benefits, and unique selling points to an imaginary customer or colleague, refining the sales pitch and anticipating potential questions.
+  8. [FV] Review the notes and practice again, ensuring confidence and fluency in presenting the product information.
+  9. [FV] Participate in a role-playing exercise with a colleague or take an online quiz to test knowledge retention and understanding of the product information.
+  10. [FV] Prepare a summary document outlining the key features, benefits, and technical specifications of the product for future reference.
+
+--- Task 48: Inspect equipment to ensure proper functioning.
+[A]
+  1. [NA] Approach the conveyor belt system and ensure the area is clear of personnel and debris.
+  2. [IC] Review the maintenance log to understand the system's recent performance and any previous issues.
+  3. [PD] Visually inspect the conveyor belt for any signs of wear, such as cracks or fraying, and listen for any unusual noises like squealing or grinding.
+  4. [PD] Check the tension of the conveyor belt using a tension gauge and inspect the rollers and pulleys for any signs of damage or misalignment.
+  5. [PD] Check the electrical connections and wiring for any signs of damage or loose connections, and ensure the control panel indicators are functioning correctly.
+  6. [ME] Run the conveyor belt system to observe its operation and ensure it moves smoothly.
+  7. [FV] Document any issues found during the inspection and plan corrective actions.
+  8. [FV] Report the inspection results to the supervisor and update the maintenance log.
+[B]
+  1. [NA] Approach the conveyor belt system and ensure the area is clear of personnel and debris.
+  2. [IC] Review the maintenance log to understand the system's recent performance and any previous issues.
+  3. [PD] Visually inspect the conveyor belt for any signs of wear, such as cracks or fraying.
+  4. [PD] Check the tension of the conveyor belt using a tension gauge.
+  5. [PD] Listen for any unusual noises from the conveyor belt system, such as squealing or grinding.
+  6. [PD] Inspect the rollers and pulleys for any signs of damage or misalignment.
+  7. [PD] Check the electrical connections and wiring for any signs of damage or loose connections.
+  8. [ME] Run the conveyor belt system to observe its operation and ensure it moves smoothly.
+  9. [FV] Document any issues found during the inspection and plan corrective actions.
+  10. [FV] Report the inspection results to the supervisor and update the maintenance log.
+[C]
+  1. [NA] Approach the conveyor belt system, ensuring the area is clear of personnel and debris.
+  2. [PD] Visually inspect the conveyor belt for any signs of wear, damage, misalignment of rollers and pulleys, and check belt tension.
+  3. [PD] Listen for any unusual noises from the conveyor belt system, such as squealing, grinding, or rattling.
+  4. [PD] Check the electrical connections and wiring for any signs of damage or loose connections.
+  5. [ME] Run the conveyor belt system to observe its operation and ensure it moves smoothly.
+  6. [FV] Document any issues found during the inspection, including location, severity, and potential causes.
+  7. [FV] Report the inspection results to the supervisor and update the maintenance log.
+[D]
+  1. [NA] Approach the equipment, ensuring safe distance from moving parts and that the area is clear of personnel and debris.
+  2. [IC] Review the maintenance log to understand the equipment's recent performance and any previous issues.
+  3. [PD] Visually inspect the equipment for any signs of wear, damage, or misalignment, including belts, rollers, pulleys, and electrical connections.
+  4. [PD] Listen for any unusual noises or vibrations emanating from the equipment.
+  5. [PD] Check the equipment's control panel or display for any error messages or abnormal readings.
+  6. [ME] Initiate a system-wide diagnostic test, if applicable, and follow its prompts to inspect specific components.
+  7. [PD] Inspect each component for any visible signs of damage or malfunction, as indicated by the diagnostic test or visual inspection.
+  8. [PD] Measure and record relevant data, such as temperature, humidity, or other operational parameters, if applicable.
+  9. [FV] Compare the recorded data with desired parameters and the system's self-reported data, if applicable.
+  10. [FV] Document the inspection, including any issues found, data recorded, and actions taken to address them.
+  11. [FV] Report the inspection results to the relevant personnel and update the maintenance log.
+
+--- Task 49: Create images of data, locations, or products.
+[A]
+  1. [IC] Review the project brief to understand the requirements for image creation, including the type of data, locations, or products to be visualized.
+  2. [NA] Open the graphic design software (e.g., Adobe Photoshop) and create a new project with the specified dimensions and resolution.
+  3. [ME] Import high-resolution images of the products or locations and begin editing to enhance lighting, color, and composition.
+  4. [ME] Create visualizations of data using charts, graphs, or maps, ensuring they are consistent in style and layout.
+  5. [FV] Review and refine the images and visualizations to ensure they meet the client's requirements and adhere to brand guidelines.
+  6. [FV] Export the finalized images and visualizations in high-resolution formats suitable for print and digital media.
+  7. [FV] Deliver the final images and visualizations to the client.
+[B]
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+[C]
+  1. [IC] Review the project brief and client requirements for the image creation.
+  2. [NA] Select or create the necessary visual elements: product images, background images, data visualizations, etc.
+  3. [NA] Import selected elements into the chosen graphic design software.
+  4. [ME] Compose the image by positioning, resizing, and layering elements according to design principles and client specifications.
+  5. [ME] Adjust lighting, shadows, colors, and other visual properties to enhance realism and visual impact.
+  6. [ME] Add text overlays, labels, or annotations as needed, ensuring readability and clarity.
+  7. [FV] Review the final image for accuracy, completeness, and adherence to client requirements.
+  8. [FV] Export the image in the required format and resolution, and deliver it to the client.
+[D]
+  1. [IC] Review the project brief or sales data to understand the requirements and key metrics.
+  2. [NA] Gather and prepare all necessary images, data, and design elements.
+  3. [NA] Open graphic design software (e.g., Adobe Photoshop) and create a new project with the specified dimensions and resolution.
+  4. [ME] Import and position images, ensuring they are appropriately scaled, aligned, and have matching lighting and shadows.
+  5. [PD] Prepare data overlays, such as key features, specifications, or visualizations, using appropriate fonts and styles.
+  6. [ME] Position text layers and any necessary design elements strategically, ensuring they do not obstruct the product view or visual appeal.
+  7. [FV] Review and refine the image creations to ensure they meet the client's requirements and accurately represent the data.
+  8. [FV] Export the final image creations in the required file formats (e.g., JPEG, PNG) and deliver them to the client.
+
+--- Task 50: Monitor equipment operation to ensure that products are not flawed.
+[A]
+  1. [NA] Position oneself at the designated workstation with a clear view of the equipment and activate the monitoring software.
+  2. [NA] Navigate to the equipment monitoring dashboard and review real-time sensor data for temperature, pressure, and other critical parameters.
+  3. [PD] Visually inspect the equipment and products for any obvious signs of malfunction or defects.
+  4. [IC] Identify any potential issues and communicate with the appropriate personnel to address the problem.
+  5. [NA] Navigate to the affected area and perform a detailed inspection using diagnostic tools as necessary.
+  6. [ME] Adjust or repair the equipment to correct any identified issues, following safety protocols.
+  7. [FV] Document the issue, troubleshooting steps, and resolution in the daily log.
+  8. [IC] Notify the production supervisor of any significant findings or recurring issues.
+  9. [FV] Resume monitoring the equipment and continue to perform periodic checks throughout the shift.
+[B]
+  1. [IC] Arrive at the workstation and log into the monitoring software.
+  2. [NA] Navigate to the equipment monitoring dashboard and check the current status of the assembly line.
+  3. [PD] Visually inspect the assembly line for any obvious signs of malfunction or abnormal behavior.
+  4. [PD] Review real-time sensor data for temperature, pressure, and other critical parameters.
+  5. [ME] Identify a potential issue with the soldering machine and pause the assembly line.
+  6. [NA] Walk to the soldering machine and perform a visual inspection.
+  7. [PD] Use a diagnostic tool to check the soldering machine's settings and calibrations.
+  8. [ME] Adjust the soldering machine settings to correct the issue.
+  9. [ME] Restart the assembly line and resume monitoring.
+  10. [FV] Continue to monitor the equipment and perform periodic checks throughout the shift.
+[C]
+  1. [NA] Navigate to the equipment monitoring dashboard and check the current status of the assembly line.
+  2. [PD] Review real-time sensor data for temperature, pressure, and other critical parameters.
+  3. [PD] Visually inspect the assembly line for any obvious signs of malfunction or abnormal behavior.
+  4. [ME] Identify potential issues and determine if immediate intervention is required.
+  5. [ME] If necessary, pause the assembly line and proceed to the location of the potential issue.
+  6. [PD] Perform a detailed inspection of the equipment using appropriate tools and diagnostic techniques.
+  7. [ME] Diagnose the root cause of the issue and implement corrective actions.
+  8. [ME] Restart the assembly line and resume monitoring, paying close attention to the repaired area.
+  9. [FV] Document the issue, actions taken, and results in a log for future reference and analysis.
+[D]
+  1. [IC] Arrive at the workstation and log into the monitoring software.
+  2. [NA] Navigate to the equipment monitoring dashboard and check the current status of the assembly line.
+  3. [PD] Visually inspect the assembly line for any obvious signs of malfunction or abnormal behavior.
+  4. [PD] Review real-time sensor data for critical parameters such as temperature, pressure, and product quality.
+  5. [ME] Identify potential issues and pause the assembly line if necessary.
+  6. [NA] Approach the affected area and perform a visual inspection, using diagnostic tools if required.
+  7. [PD] Analyze the nature of the issue, determine its severity, and identify its potential cause.
+  8. [IC] Communicate the identified issue and its location to the appropriate personnel via radio or intercom.
+  9. [FV] Document the incident in a logbook, noting the time, location, nature of the issue, and any actions taken.
+  10. [FV] Resume monitoring the equipment and perform periodic checks throughout the shift.
+
+--- Task 51: Transport biological or other medical materials.
+[A]
+  1. [IC] Retrieve the blood sample from the source, verify the sample label matches the patient's information, and scan the barcode to initiate the chain of custody.
+  2. [ME] Place the blood sample in a secure, temperature-controlled container designed for transporting biological materials.
+  3. [NA] Consult the hospital's digital map to plan the most efficient route to the laboratory, avoiding areas with heavy foot traffic.
+  4. [NA] Navigate through the hospital corridors, avoiding obstacles such as gurneys, staff, or patients, and maintain the sample's temperature.
+  5. [IC] Upon arrival at the laboratory, use the intercom to announce the urgent delivery, following established protocols.
+  6. [FV] Present the transport container to the lab technician, ensuring they acknowledge the sample's condition and sign off on the chain of custody document.
+  7. [FV] Scan the sample's barcode again to log the delivery and close the chain of custody.
+  8. [FV] Obtain a signature from the lab technician confirming receipt of the sample, completing the chain of custody document.
+[B]
+  1. [IC] Retrieve the blood sample from the emergency room and verify the sample label matches the patient's information.
+  2. [ME] Place the blood sample in a secure, temperature-controlled container designed for transporting biological materials.
+  3. [NA] Check the hospital map to determine the most efficient route from the emergency room to the laboratory.
+  4. [NA] Move from the emergency room to the laboratory, avoiding obstacles and maintaining the sample's temperature.
+  5. [PD] Monitor the temperature of the container to ensure it remains within the required range.
+  6. [ME] Use the elevator to move between floors, ensuring the sample remains secure and undisturbed.
+  7. [NA] Approach the laboratory and verify the correct location by checking the department signage.
+  8. [NA] Enter the laboratory and locate the laboratory technician responsible for receiving the sample.
+  9. [IC] Hand over the blood sample to the laboratory technician and confirm the sample label and patient information.
+  10. [FV] Receive confirmation from the laboratory technician that the sample has been received and is ready for analysis.
+[C]
+  1. [IC] Receive the blood sample, verifying patient ID and sample type against accompanying documentation.
+  2. [ME] Place the sample in a secure, temperature-controlled container, ensuring it is properly sealed.
+  3. [NA] Using a digital map or hospital signage, determine the most efficient route to the laboratory.
+  4. [NA] Transport the sample to the laboratory, avoiding obstacles and maintaining the container's stability.
+  5. [IC] Upon arrival, confirm the laboratory's readiness to receive the sample.
+  6. [FV] Hand over the sample to the designated lab technician, verifying receipt and sample condition.
+  7. [FV] Complete any necessary documentation or electronic logging to record the sample delivery.
+[D]
+  1. [IC] Receive the biological material from the source (e.g., nurse, lab technician), verifying patient ID, sample type, and destination.
+  2. [ME] Secure the sample in a suitable, temperature-controlled container, ensuring it won't shift during transport.
+  3. [NA] Plan the most efficient route to the destination, avoiding obstacles and heavy foot traffic using a digital map or hospital floor plan.
+  4. [NA] Proceed to the destination, navigating through hospital corridors while avoiding collisions with staff, patients, or equipment.
+  5. [IC] Upon arrival, announce the delivery using established protocols (e.g., intercom, communication device).
+  6. [FV] Present the sample to the recipient, ensuring they acknowledge the sample's condition and sign off on the chain of custody document.
+  7. [FV] Log the delivery in the digital system, scanning the sample's barcode to close the chain of custody.
+  8. [PD] Document the delivery, including any notable events or challenges encountered during the transport.
+
+--- Task 52: Secure watercraft to docks, wharves or other vessels.
+[A]
+  1. [NA] Approach the dock with the necessary mooring lines and fenders.
+  2. [IC] Communicate with the boat's crew to ensure they are ready to secure the boat.
+  3. [PD] Identify the appropriate docking position and ensure there is enough space for the boat and fenders.
+  4. [ME] Place fenders along the side of the boat that will be closest to the dock.
+  5. [ME] Attach the mooring lines to the cleats on the dock and secure them.
+  6. [ME] Tighten the mooring lines to secure the boat to the dock, ensuring they are not too tight or too loose.
+  7. [FV] Check the tension of the mooring lines and inspect the fenders to ensure they are properly positioned and providing adequate protection.
+  8. [IC] Communicate with the boat's crew to confirm the boat is securely moored.
+  9. [FV] Final inspection of the mooring lines and fenders to ensure everything is secure and properly positioned.
+[B]
+  1. [NA] Approach the dock with the necessary mooring lines and fenders.
+  2. [IC] Communicate with the boat's crew to ensure they are ready to secure the boat.
+  3. [PD] Identify the appropriate docking position and ensure there is enough space for the boat and fenders.
+  4. [ME] Place fenders along the side of the boat that will be closest to the dock.
+  5. [ME] Attach the mooring lines to the cleats on the dock.
+  6. [ME] Tighten the mooring lines to secure the boat to the dock.
+  7. [FV] Check the tension of the mooring lines to ensure they are not too tight or too loose.
+  8. [FV] Inspect the fenders to ensure they are properly positioned and providing adequate protection.
+  9. [IC] Communicate with the boat's crew to confirm the boat is securely moored.
+  10. [FV] Final inspection of the mooring lines and fenders to ensure everything is secure and properly positioned.
+[C]
+  1. [PD] Approach the dock, assessing the situation and identifying suitable cleats.
+  2. [NA] Navigate the vessel to the dock, aligning it for secure mooring.
+  3. [ME] Secure a bow line to a cleat on the dock, ensuring it's taut.
+  4. [ME] Secure a stern line to a cleat on the dock, adjusting tension for stability.
+  5. [ME] Place fenders between the boat and dock to prevent damage.
+  6. [FV] Double-check the tension and security of all lines.
+  7. [IC] Communicate to the crew that the boat is securely moored.
+[D]
+  1. [NA] Approach the dock with the necessary mooring lines and fenders, considering wind and current.
+  2. [IC] Communicate with the boat's crew to ensure they are ready to secure the boat.
+  3. [PD] Identify the appropriate docking position and ensure there is enough space for the boat and fenders.
+  4. [ME] Place fenders along the side of the boat that will be closest to the dock.
+  5. [ME] Throw a loop of the mooring line onto a suitable cleat on the dock, ensuring it's secure.
+  6. [ME] Pull the line taut, applying steady force to ensure the boat moves towards the dock.
+  7. [ME] Wrap the line around a cleat on the boat, creating a figure-eight pattern to secure it.
+  8. [ME] Tie a cleat hitch knot, ensuring it's secure and won't slip under load.
+  9. [FV] Check that all lines are secure and taut, with no slack that could allow the boat to move.
+  10. [IC] Signal to the boat's captain or crew that the boat is secure and they can disembark.
+
+--- Task 53: Monitor student behavior, social development, or health.
+[A]
+  1. [IC] Review the daily schedule to plan observation times for each student.
+  2. [PD] Observe students during class, recess, and other activities throughout the day, noting interactions and behaviors.
+  3. [IC] Engage in brief conversations with students to gather additional context on their behavior and social interactions.
+  4. [ME] Document observations, conversations, and any red flags in the student's file.
+  5. [NA] Review student records, including academic performance, attendance, and disciplinary notes, to identify trends or concerns.
+  6. [IC] Contact parents or guardians to discuss any concerns or provide updates on their child's progress.
+  7. [NA] Coordinate with school staff to provide additional support or resources for students in need.
+  8. [ME] Attend to any immediate crises or emergencies, such as injuries or emotional distress.
+  9. [FV] Update the school counselor's supervisor on the day's observations and any interventions made.
+  10. [FV] Reflect on the day's observations and plan for follow-up actions or interventions as needed.
+[B]
+  1. [IC] Review the daily schedule to plan observation times for each student.
+  2. [PD] Observe students during class, recess, and other activities throughout the day.
+  3. [IC] Engage with students in casual conversations to assess their emotional state and social interactions.
+  4. [IC] Attend teacher meetings to discuss student progress and any concerns.
+  5. [NA] Review student records, including academic performance, attendance, and disciplinary notes.
+  6. [ME] Document observations, conversations, and any red flags in the student's file.
+  7. [IC] Contact parents or guardians to discuss any concerns or provide updates on their child's progress.
+  8. [NA] Coordinate with school staff to provide additional support or resources for students in need.
+  9. [ME] Attend to any immediate crises or emergencies, such as injuries or emotional distress.
+  10. [FV] Update the school counselor's supervisor on the day's observations and any interventions made.
+  11. [FV] Reflect on the day's observations and plan for follow-up actions or interventions as needed.
+[C]
+  1. [NA] Review student records, including academic performance, attendance, and disciplinary notes.
+  2. [PD] Observe students during class, recess, and other activities throughout the day, noting interactions and behavior.
+  3. [IC] Engage with students in casual conversations to assess their emotional state and social interactions.
+  4. [ME] Document observations, conversations, and any red flags in the student's file.
+  5. [PD] Review and analyze the collected data to identify patterns, trends, and potential issues.
+  6. [ME] Develop and implement interventions or support strategies based on the identified needs.
+  7. [IC] Communicate with parents, teachers, and other relevant stakeholders to discuss observations, concerns, and intervention plans.
+  8. [FV] Monitor student progress and adjust interventions as needed.
+[D]
+  1. [IC] Review student records and daily schedule to plan observation times.
+  2. [IC] Arrive at the school and prepare observation tools, such as a notepad, digital recorder, and a student monitoring app on a tablet.
+  3. [PD] Observe students during various activities throughout the day, including class, recess, and lunch, noting interactions, behavior, and any signs of health issues.
+  4. [IC] Engage in brief conversations with students to gather additional context on their behavior, social interactions, and emotional state.
+  5. [ME] Document observations, conversations, and any red flags using the student monitoring app or a notepad, ensuring all data is organized and categorized.
+  6. [IC] Attend teacher meetings to discuss student progress and any concerns, and review student records for additional insights.
+  7. [IC] Contact parents or guardians to discuss any concerns or provide updates on their child's progress.
+  8. [NA] Coordinate with school staff to provide additional support or resources for students in need.
+  9. [ME] Attend to any immediate crises or emergencies, such as injuries or emotional distress.
+  10. [FV] Write a comprehensive report summarizing the observations, potential issues, and any interventions made, and deliver it to the principal or relevant stakeholders.
+  11. [FV] Reflect on the day's observations and plan for follow-up actions or interventions as needed.
+
+--- Task 54: Accompany individuals or groups to activities.
+[A]
+  1. [IC] Gather the group at the designated meeting point and confirm that all members are present and have necessary items.
+  2. [IC] Brief the group on the route, estimated travel time, and any important points of interest along the way.
+  3. [NA] Lead the group to the destination, ensuring safe navigation through any obstacles or crowded areas.
+  4. [PD] Monitor the group's progress and adjust the pace to ensure they stay together and address any questions or concerns.
+  5. [NA] Approach the destination entrance and prepare the group for entry, ensuring all members are accounted for.
+  6. [ME] Engage the group in activities or discussions relevant to the destination to enhance their experience.
+  7. [FV] Conduct a brief Q&A session or review to ensure understanding and gather feedback.
+  8. [NA] Lead the group back to the meeting point, thank them for their participation, and hand out any relevant materials.
+[B]
+  1. [IC] Gather the group at the designated meeting point and confirm that all tourists are present.
+  2. [IC] Brief the group on the route, estimated travel time, and any important points of interest along the way.
+  3. [NA] Lead the group out of the meeting point and begin walking towards the museum.
+  4. [NA] Navigate through crowded areas, using hand signals and verbal cues to guide the group.
+  5. [IC] Periodically check that all tourists are following and address any questions or concerns.
+  6. [NA] Cross streets safely, ensuring all tourists cross together and follow traffic signals.
+  7. [PD] Monitor the group's progress and adjust the pace to ensure they stay together.
+  8. [NA] Approach the museum entrance and prepare the group for entry.
+  9. [FV] Confirm that all tourists have entered the museum and are accounted for.
+  10. [FV] Deliver the group to the museum entrance and hand over to the museum staff.
+[C]
+  1. [IC] Gather the group at the designated meeting point, confirm attendance, and introduce yourself.
+  2. [IC] Brief the group on the destination, estimated travel time, and any points of interest along the way.
+  3. [NA] Lead the group to the destination, navigating safely through crowds and obstacles.
+  4. [IC] Periodically check for understanding, address any questions, and ensure everyone is following.
+  5. [FV] Upon arrival, confirm everyone has reached the destination safely.
+  6. [ME] Facilitate entry into the destination, providing any necessary assistance.
+[D]
+  1. [IC] Gather the group at the designated meeting point and confirm that all individuals are present and accounted for.
+  2. [IC] Brief the group on the route, estimated travel time, any important points of interest, and safety guidelines.
+  3. [NA] Lead the group out of the meeting point and begin navigating towards the destination, ensuring everyone stays together.
+  4. [NA] Navigate through crowded areas, using verbal cues and non-verbal signals to guide the group, and monitor their progress.
+  5. [IC] Periodically check that all individuals are following and address any questions, concerns, or needs that arise.
+  6. [NA] Cross streets safely, ensuring all individuals cross together and follow traffic signals and other safety guidelines.
+  7. [NA] Approach the destination and prepare the group for entry, providing any necessary instructions or assistance.
+  8. [FV] Confirm that all individuals have entered the destination and are accounted for, then hand them over to the relevant staff or facilitate their activity.
+
+--- Task 55: Inspect work sites to identify potential environmental or safety hazards.
+[A]
+  1. [IC] Review the site map and previous inspection reports to understand the layout and known hazards.
+  2. [NA] Put on personal protective equipment (PPE), including hard hat, safety glasses, and reflective vest.
+  3. [NA] Navigate to the site, starting from the main entrance and moving towards the construction zones, avoiding potential hazards such as loose debris and uneven terrain.
+  4. [PD] Inspect scaffolding, heavy machinery, and electrical systems for stability, proper signage, and operational safety.
+  5. [FV] Document all identified hazards using a digital inspection tool, including photos, location, and severity.
+  6. [FV] Communicate the findings to the site manager, providing recommendations for immediate action and follow-up.
+  7. [FV] Revisit areas of concern to verify that hazards have been addressed and are no longer present.
+[B]
+  1. [NA] Arrive at the construction site and park the vehicle in a designated area.
+  2. [NA] Put on personal protective equipment (PPE), including hard hat, safety glasses, and reflective vest.
+  3. [IC] Review the site map and previous inspection reports to understand the layout and known hazards.
+  4. [NA] Walk through the site, starting from the main entrance and moving towards the construction zones.
+  5. [PD] Inspect scaffolding for stability, ensuring all planks are secure and guardrails are in place.
+  6. [PD] Check for proper signage and barriers around hazardous areas, such as excavation sites or areas with exposed electrical wiring.
+  7. [PD] Observe the operation of heavy machinery, ensuring operators are following safety protocols and machinery is in good working condition.
+  8. [FV] Document any identified hazards in a notebook or digital device, including location, nature of the hazard, and potential risks.
+  9. [PD] Conduct a final walkthrough of the site to ensure no new hazards have been missed.
+  10. [FV] Provide a report to the site manager detailing all identified hazards and recommendations for immediate action.
+[C]
+  1. [IC] Review site map and previous reports to understand layout and known hazards.
+  2. [NA] Don appropriate personal protective equipment (PPE).
+  3. [NA] Systematically inspect the site, starting from the entrance and moving through designated zones.
+  4. [PD] Carefully observe for potential hazards: unstable structures, exposed wiring, trip hazards, etc.
+  5. [FV] Document identified hazards with detailed descriptions, photos, and location.
+  6. [IC] Communicate findings to the site manager, including recommendations for immediate action.
+  7. [FV] Verify that addressed hazards have been mitigated effectively.
+[D]
+  1. [IC] Review site map and previous inspection reports to understand layout and known hazards.
+  2. [NA] Put on appropriate personal protective equipment (PPE) based on site's hazards.
+  3. [NA] Navigate the site systematically, starting from main entrance and moving towards construction zones.
+  4. [PD] Inspect scaffolding, ladders, and other access equipment for stability and safety.
+  5. [PD] Check for proper signage, barriers, and warnings around hazardous areas.
+  6. [PD] Observe heavy machinery operation, ensuring operators follow safety protocols and machinery is in good working condition.
+  7. [PD] Inspect electrical systems for exposed wires, overloaded circuits, and improper grounding.
+  8. [ME] Document all identified hazards using a digital inspection tool, including photos, location, and severity.
+  9. [FV] Communicate findings to the site manager, providing recommendations for immediate action and follow-up.
+  10. [FV] Revisit areas of concern to verify that hazards have been addressed and are no longer present.
+
+--- Task 56: Examine documents to verify adherence to requirements.
+[A]
+  1. [IC] Access the project's digital document repository using secure login credentials.
+  2. [NA] Retrieve the engineering blueprints and the city's building codes from the repository.
+  3. [PD] Review the project scope and objectives outlined in the blueprints.
+  4. [PD] Identify relevant sections of the building codes that apply to the project.
+  5. [PD] Compare the structural dimensions and material specifications in the blueprints with the building codes.
+  6. [ME] Document any discrepancies or non-compliance issues found during the review.
+  7. [ME] Compile a summary report detailing the compliance status and any identified issues.
+  8. [FV] Submit the report to the project manager and engineering team for further review and action.
+[B]
+  1. [IC] Access the digital repository containing the engineering blueprints and building codes.
+  2. [NA] Open the blueprints and building codes on the computer screen.
+  3. [PD] Review the project scope and objectives outlined in the blueprints.
+  4. [PD] Identify the relevant sections of the building codes that apply to the bridge construction.
+  5. [PD] Compare the structural dimensions in the blueprints with the allowable dimensions specified in the building codes.
+  6. [PD] Check the material specifications in the blueprints against the approved materials listed in the building codes.
+  7. [PD] Verify that the safety features, such as guardrails and emergency exits, are correctly specified in the blueprints.
+  8. [ME] Document any discrepancies or non-compliance issues found during the review.
+  9. [ME] Summarize the findings and prepare a report detailing the compliance status of the blueprints.
+  10. [FV] Deliver the report to the project manager and the engineering team for further review and action.
+[C]
+  1. [NA] Access the project's digital document repository.
+  2. [NA] Retrieve the relevant blueprints, technical specifications, and building codes.
+  3. [PD] Identify the project scope, objectives, and applicable regulations from the documents.
+  4. [PD] Systematically compare the blueprints and specifications against the building codes and regulations.
+  5. [ME] Document any discrepancies or non-compliance issues found.
+  6. [ME] Summarize the findings in a report, including recommendations for corrective action.
+  7. [FV] Submit the report to the project manager and engineering team.
+[D]
+  1. [IC] Access the digital repository containing the relevant documents and regulations.
+  2. [NA] Identify and retrieve the specific documents and regulations applicable to the task at hand.
+  3. [PD] Review the project scope, objectives, and technical specifications outlined in the documents.
+  4. [PD] Identify the relevant sections of regulations and standards that apply to the project.
+  5. [PD] Systematically review each document, comparing its contents with the applicable regulations and standards.
+  6. [ME] Document any discrepancies, non-compliance issues, or potential problems found during the review.
+  7. [ME] Compile a list of all identified issues and generate a report summarizing the findings.
+  8. [FV] Submit the report to the relevant stakeholders (e.g., project manager, engineering team) for review and follow-up action.
+
+--- Task 57: Clean food preparation areas, facilities, or equipment.
+[A]
+  1. [IC] Put on appropriate Personal Protective Equipment (PPE), including gloves and an apron.
+  2. [NA] Gather cleaning supplies: degreaser, all-purpose cleaner, disinfectant, scrubbing brushes, sponges, microfiber cloths, and a mop bucket.
+  3. [PD] Inspect the kitchen for areas that need cleaning, focusing on high-traffic and high-risk zones like prep counters, cooking surfaces, and utensil racks.
+  4. [ME] Remove any obstacles or items from the surfaces to be cleaned.
+  5. [ME] Spray degreaser onto greasy surfaces and let it soak for a few minutes.
+  6. [ME] Scrub the surfaces using a brush or sponge, applying firm but controlled pressure.
+  7. [ME] Rinse the surfaces with clean water, then spray with disinfectant and let it sit for the recommended time.
+  8. [ME] Wipe the surfaces dry with a clean, dry microfiber cloth.
+  9. [ME] Mop the floors, ensuring all areas are covered and that the mop head is changed or rinsed as needed.
+  10. [FV] Wash and sanitize all cleaning tools and supplies, then store them properly for the next use.
+  11. [FV] Inspect the cleaned areas to ensure they meet the required standards, making any necessary touch-ups.
+[B]
+  1. [IC] Put on appropriate Personal Protective Equipment (PPE), including gloves and an apron.
+  2. [NA] Gather cleaning supplies: degreaser, all-purpose cleaner, disinfectant, scrubbing brushes, sponges, microfiber cloths, and a mop bucket.
+  3. [PD] Inspect the kitchen for areas that need cleaning, focusing on high-traffic and high-risk zones like prep counters, cooking surfaces, and utensil racks.
+  4. [ME] Remove any obstacles or items from the surfaces to be cleaned.
+  5. [ME] Spray degreaser onto greasy surfaces and let it soak for a few minutes.
+  6. [ME] Scrub the surfaces using a brush or sponge, applying firm but controlled pressure.
+  7. [ME] Rinse the surfaces with clean water, then spray with disinfectant and let it sit for the recommended time.
+  8. [ME] Wipe the surfaces dry with a clean, dry microfiber cloth.
+  9. [ME] Mop the floors, ensuring all areas are covered and that the mop head is changed or rinsed as needed.
+  10. [FV] Wash and sanitize all cleaning tools and supplies, then store them properly for the next use.
+  11. [FV] Inspect the cleaned areas to ensure they meet the required standards, making any necessary touch-ups.
+[C]
+  1. [IC] Put on appropriate Personal Protective Equipment (PPE), including gloves and an apron.
+  2. [NA] Gather cleaning supplies: disinfectant, sponges, cloths, and a broom and dustpan.
+  3. [ME] Remove any obstacles or items from the surfaces to be cleaned.
+  4. [ME] Spray disinfectant on countertops, stovetops, and sinks.
+  5. [ME] Wipe down surfaces with sponges and cloths, removing food debris and spills.
+  6. [ME] Sweep the floor, collecting food crumbs and debris into a dustpan.
+  7. [ME] Empty the dustpan into a trash receptacle.
+  8. [FV] Inspect the cleaned areas to ensure they meet the required standards.
+[D]
+  1. [IC] Put on appropriate Personal Protective Equipment (PPE), including gloves and an apron.
+  2. [NA] Gather cleaning supplies: degreaser, all-purpose cleaner, disinfectant, scrubbing brushes, sponges, microfiber cloths, and a mop bucket.
+  3. [PD] Inspect the kitchen for areas that need cleaning, focusing on high-traffic and high-risk zones like prep counters, cooking surfaces, and utensil racks.
+  4. [ME] Remove any obstacles or items from the surfaces to be cleaned.
+  5. [ME] Spray degreaser onto greasy surfaces and let it soak for a few minutes.
+  6. [ME] Scrub the surfaces using a brush or sponge, applying firm but controlled pressure.
+  7. [ME] Rinse the surfaces with clean water, then spray with disinfectant and let it sit for the recommended time.
+  8. [ME] Wipe the surfaces dry with a clean, dry microfiber cloth.
+  9. [ME] Mop the floors, ensuring all areas are covered and that the mop head is changed or rinsed as needed.
+  10. [FV] Wash and sanitize all cleaning tools and supplies, then store them properly for the next use.
+  11. [FV] Inspect the cleaned areas to ensure they meet the required standards, making any necessary touch-ups.
+  12. [IC] Report the completion of the cleaning task to the kitchen manager.
+
+--- Task 58: Research engineering aspects of biological or chemical processes.
+[A]
+  1. [IC] Review existing literature and internal data on the target biological or chemical process to understand current best practices and limitations.
+  2. [PD] Identify key parameters influencing the process, such as temperature, pH, nutrient concentration, and agitation rate.
+  3. [ME] Design and conduct experiments to test different settings of the identified parameters.
+  4. [FV] Monitor the process in real-time using sensors and control systems to ensure it runs within desired parameters.
+  5. [PD] Collect and analyze experimental data to determine the optimal settings for the key parameters.
+  6. [IC] Propose modifications to the process based on experimental findings and refine the process accordingly.
+  7. [FV] Document the optimized process and insights gained for future reference and knowledge sharing.
+[B]
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+[C]
+  1. [IC] Review existing literature and internal data on the target biological or chemical process.
+  2. [PD] Identify key parameters influencing the process, such as temperature, pH, nutrient concentration, etc.
+  3. [IC] Design experiments to test the influence of these parameters on the process outcome.
+  4. [ME] Set up and execute the designed experiments, carefully controlling and monitoring the parameters.
+  5. [PD] Collect and analyze the experimental data, measuring relevant outputs like yield, growth rate, or product formation.
+  6. [FV] Based on the data analysis, draw conclusions about the influence of each parameter and identify optimal settings.
+  7. [FV] Document the experimental procedures, results, and conclusions in a clear and concise manner.
+[D]
+  1. [IC] Review existing literature, internal data, and research agenda to understand the process, its current state, and specific targets.
+  2. [PD] Identify key parameters influencing the process, such as temperature, pH, nutrient concentration, agitation rate, or specific bacterial characteristics.
+  3. [ME] Develop a mathematical or experimental model incorporating identified parameters to predict process outcomes.
+  4. [ME] Simulate or conduct initial experiments under different parameter settings to predict or measure process outcomes.
+  5. [PD] Analyze simulation results or experimental data to identify optimal parameter ranges or process modifications.
+  6. [ME] Design and conduct laboratory experiments to validate model predictions or test proposed process modifications.
+  7. [FV] Analyze experimental data and compare it to model predictions to assess the validity of the model and the effectiveness of process modifications.
+  8. [IC] Propose and plan follow-up experiments or process modifications based on experimental findings and model refinements.
+  9. [FV] Document experiment procedures, results, and conclusions in a lab notebook or report for future reference and knowledge sharing.
+  10. [IC] Present results and findings to stakeholders, including the project team, management, and customers, to ensure the optimized process is widely adopted and implemented.
+
+--- Task 59: Sew materials.
+[A]
+  1. [IC] Review the design specifications and fabric requirements to ensure the correct materials and understanding of the project's objectives.
+  2. [NA] Lay out the fabric pieces on a flat surface and align the edges to be sewn, ensuring it is smooth and wrinkle-free.
+  3. [ME] Thread the sewing machine with the appropriate thread color and tension, and select the appropriate stitch type.
+  4. [NA] Position the fabric under the sewing machine foot and lower the foot to hold the fabric in place.
+  5. [ME] Start sewing along the seam line, maintaining a consistent speed and stitch length, and monitor the fabric movement to prevent puckering.
+  6. [ME] Stop sewing at the end of the seam and secure the thread with a backstitch.
+  7. [FV] Trim any excess thread and remove the fabric from the sewing machine.
+  8. [FV] Inspect the seam for any inconsistencies or errors and make adjustments if necessary.
+  9. [ME] Press the seams open or to one side using an iron to create a polished finish.
+  10. [FV] Inspect the completed piece for any final adjustments needed before presenting it to the client.
+[B]
+  1. [IC] Review the client's design specifications and fabric requirements to ensure you have the correct materials and understand the project's objectives.
+  2. [NA] Thread the sewing machine with the appropriate thread color and tension.
+  3. [NA] Lay out the fabric on the worktable, aligning it according to the client's design specifications and ensuring it is smooth and wrinkle-free.
+  4. [NA] Pin the fabric pieces together along the seam line to hold them in place.
+  5. [ME] Start sewing along the seam line, maintaining a consistent speed and stitch length.
+  6. [PD] Monitor the fabric movement and adjust the feed dogs if necessary to prevent puckering.
+  7. [ME] Stop sewing at the end of the seam and secure the thread with a backstitch.
+  8. [FV] Inspect the seam for any inconsistencies or errors and make adjustments if necessary.
+  9. [FV] Trim any excess thread and remove the fabric from the sewing machine.
+  10. [FV] Inspect the completed seam for any final adjustments needed before presenting it to the client.
+[C]
+  1. [IC] Review the sewing pattern and fabric requirements, understanding the project's objectives.
+  2. [NA] Lay out the fabric pieces on a flat surface, aligning edges according to the pattern.
+  3. [NA] Pin the fabric pieces together along the seam lines.
+  4. [ME] Thread the sewing machine with the appropriate thread color and tension.
+  5. [ME] Sew along the seam lines, guiding the fabric through the machine and maintaining consistent speed and stitch length.
+  6. [PD] Monitor the fabric movement, adjusting feed dogs if necessary.
+  7. [ME] Secure the thread at the end of the seam with a backstitch.
+  8. [FV] Inspect the seam for any inconsistencies or errors, making adjustments if necessary.
+[D]
+  1. [IC] Review the task requirements and fabric pieces to understand the sewing objectives.
+  2. [NA] Lay out the fabric pieces on a flat surface, aligning them according to the sewing pattern or design.
+  3. [NA] Pin the fabric pieces together along the seam lines to hold them in place.
+  4. [ME] Thread the sewing machine with the appropriate thread color and tension.
+  5. [NA] Position the fabric under the sewing machine foot, ensuring the seam line is aligned with the machine's direction of travel.
+  6. [ME] Start sewing along the seam line, maintaining a consistent speed, stitch length, and tension.
+  7. [PD] Monitor the fabric movement, adjust the feed dogs if necessary, and maintain the fabric's smoothness to prevent puckering.
+  8. [ME] Stop sewing at the end of the seam, secure the thread with a backstitch, and trim any excess thread.
+  9. [FV] Inspect the seam for any inconsistencies, errors, or imperfections, and make adjustments if necessary.
+  10. [FV] Remove the fabric from the sewing machine, press the seam if required, and prepare for the next sewing task.
+
+--- Task 60: Design layouts for print publications.
+[A]
+  1. [IC] Review the content, editorial guidelines, and client requirements for the magazine issue.
+  2. [NA] Open the design software (e.g., Adobe InDesign) and create a new project file using the magazine's predefined template.
+  3. [NA] Import the text and image files for the magazine articles and advertisements into the layout document.
+  4. [ME] Create a grid system and sketch out a rough layout using guides and frames, considering the flow of content, images, and advertisements.
+  5. [ME] Refine the layout by adjusting the size, position, and alignment of content and images, ensuring they fit within the magazine's columns and margins.
+  6. [ME] Apply the magazine's branding and style guide, including fonts, colors, and other design elements, to ensure consistency across the layout.
+  7. [FV] Review the layout for any potential issues, such as overlapping elements, inconsistent formatting, or missing content.
+  8. [FV] Export the layout as a PDF and share it with the editor for review, incorporating any requested changes.
+  9. [ME] Make any necessary revisions based on the editor's feedback, repeating the review and export process as needed.
+  10. [FV] Once approved, package the final layout files according to the printer's specifications and submit them for printing.
+[B]
+  1. [IC] Review the client's brief and requirements for the magazine layout, including any specific design guidelines or preferences.
+  2. [PD] Select a range of fonts and images that fit the client's brand and the magazine's theme, considering factors such as tone, style, and audience appeal.
+  3. [ME] Arrange the content in a way that is both visually appealing and easy to read, considering factors such as typography, color, and white space.
+  4. [ME] Use design software to create a digital mockup of the layout, making adjustments as needed to ensure that it meets the client's requirements.
+  5. [FV] Review the layout for any errors or inconsistencies, making sure that it is free of typos, grammatical errors, and other mistakes.
+  6. [ME] Make any final adjustments to the layout, ensuring that it meets the client's requirements and is visually appealing.
+  7. [ME] Export the final layout in the required format, whether it be PDF, JPEG, or another file type.
+  8. [FV] Proofread the final layout for any errors or inconsistencies, ensuring that it is ready for print.
+  9. [IC] Review the final layout with the client, ensuring that it meets their requirements and is visually appealing.
+  10. [FV] Deliver the final layout to the client, either in person, via email, or through a project management tool.
+[C]
+  1. [IC] Review the client brief, style guide, content, and any specific layout requests.
+  2. [NA] Create a new project file in design software (e.g., Adobe InDesign) and import content and images.
+  3. [ME] Develop rough layout sketches, considering content flow, image placement, typography, and whitespace.
+  4. [ME] Build digital mockups in the software, incorporating chosen fonts, images, and adhering to the style guide.
+  5. [IC] Present initial mockups to the client, gather feedback, and discuss revisions.
+  6. [ME] Refine the layout based on client feedback, adjusting elements and ensuring consistency.
+  7. [FV] Conduct a thorough proofread for typos, formatting errors, and inconsistencies.
+  8. [FV] Export the finalized layout in the required format (e.g., PDF) and deliver it to the client.
+[D]
+  1. [IC] Review the client's brief, content, editorial guidelines, and any specific layout requests or guidelines.
+  2. [NA] Open the design software (e.g., Adobe InDesign) and create a new document with the magazine's predefined template.
+  3. [PD] Import the received content (text and images) into the layout document, placing them in temporary locations.
+  4. [ME] Sketch out a rough layout using guides and frames, considering the flow of content, images, and advertisements.
+  5. [ME] Refine the layout by adjusting the size, position, and alignment of content and images, ensuring they fit within the magazine's columns and margins.
+  6. [ME] Apply the magazine's branding and style guide, including fonts, colors, and other design elements, to ensure consistency across the layout.
+  7. [FV] Review the layout for any potential issues, such as overlapping elements, inconsistent formatting, or missing content.
+  8. [FV] Export the layout as a PDF and share it with the client or editor for review, incorporating any requested changes.
+  9. [ME] Make any necessary revisions based on the client's or editor's feedback, repeating the review and export process as needed.
+  10. [FV] Once approved, package the final layout files according to the printer's specifications and submit them for printing.
+
+--- Task 61: Care for plants or animals.
+[A]
+  1. [IC] Check the daily care schedule and any specific notes from the previous shift.
+  2. [NA] Navigate to the enclosure or garden and put on appropriate personal protective equipment (PPE) if necessary.
+  3. [PD] Observe the plants or animals for any signs of distress or illness, checking behavior and physical condition.
+  4. [ME] Prepare and administer food, water, and any necessary medications or treatments.
+  5. [ME] Clean the enclosure or garden, removing waste and ensuring the environment is safe and clean.
+  6. [PD] Check and maintain any enrichment items or equipment to ensure they are safe and engaging.
+  7. [FV] Record observations and activities in a daily log, noting any changes in health or behavior.
+  8. [NA] Remove PPE and exit the enclosure or garden, ensuring it is secure and ready for the next shift.
+[B]
+  1. [IC] Arrive at the animal/plant enclosure and check the daily care schedule.
+  2. [NA] Navigate to the storage area or watering station to retrieve necessary supplies.
+  3. [PD] Observe the animal/plant's behavior, checking for any signs of illness or distress.
+  4. [ME] Administer care, such as feeding, watering, or pruning, based on the animal/plant's needs.
+  5. [ME] Clean the enclosure, removing waste and ensuring a safe environment.
+  6. [PD] Monitor the animal/plant's response to care and make any necessary adjustments.
+  7. [FV] Record observations and notes about the animal/plant's care and behavior.
+[C]
+  1. [IC] Review the care schedule and any specific notes for the designated plant or animal.
+  2. [NA] Gather necessary tools and supplies based on the care requirements.
+  3. [PD] Assess the plant's or animal's current condition, noting any visible signs of distress or need.
+  4. [ME] Administer appropriate care, such as watering, feeding, medication, or cleaning, based on the assessment.
+  5. [PD] Monitor the plant's or animal's response to care, looking for positive or negative changes.
+  6. [FV] Record observations, care provided, and any notable changes in the plant's or animal's condition.
+[D]
+  1. [IC] Check the daily care schedule and any specific notes from the previous shift.
+  2. [NA] Put on appropriate personal protective equipment (PPE) and enter the habitat/enclosure.
+  3. [PD] Observe the animals' behavior and check for any signs of illness or distress.
+  4. [ME] Measure each animal's vital signs (e.g., temperature) if applicable.
+  5. [ME] Administer any necessary medications or treatments according to veterinary instructions.
+  6. [ME] Prepare and serve the animals' food, ensuring each one receives their prescribed diet.
+  7. [ME] Ensure access to clean water by refilling water troughs or checking water supply.
+  8. [ME] Clean the habitat/enclosure, removing waste and any non-food items.
+  9. [PD] Check and maintain any enrichment items in the habitat/enclosure.
+  10. [FV] Record the day's observations, activities, and any changes in the animals' health or behavior.
+  11. [NA] Remove PPE and exit the habitat/enclosure, ensuring it is secure and ready for the next shift.
+
+--- Task 62: Notify others of emergencies, problems, or hazards.
+[A]
+  1. [PD] Identify the emergency, problem, or hazard by observing and diagnosing the situation.
+  2. [NA] Move to a safe location to communicate the hazard.
+  3. [ME] Activate the emergency alarm system or locate the communication system to alert others.
+  4. [IC] Communicate the nature, location, and severity of the hazard clearly and concisely.
+  5. [IC] Provide specific instructions for evacuation or immediate actions to be taken.
+  6. [PD] Monitor the response and ensure all necessary actions are being taken.
+  7. [FV] Confirm with relevant authorities or personnel that the emergency response is underway.
+[B]
+  1. [PD] Identify the emergency or hazard by observing signs or receiving reports.
+  2. [NA] Locate the communication system or means to send the notification.
+  3. [IC] Send the notification to the relevant personnel or authorities.
+  4. [FV] Wait for a response or acknowledgement from the recipient.
+  5. [ME] Take any necessary actions to mitigate the emergency or hazard.
+  6. [PD] Monitor the situation and provide updates as necessary.
+  7. [FV] Confirm that the emergency response team has been dispatched and is on the way.
+  8. [FV] Hand over the situation to the emergency response team and follow their instructions.
+[C]
+  1. [PD] Identify the hazard and assess its severity.
+  2. [NA] Move to a safe location, if possible, while maintaining visibility of the hazard.
+  3. [ME] Activate the nearest emergency alarm system.
+  4. [IC] Use the most appropriate communication method (radio, intercom, megaphone) to alert designated personnel (foreman, plant manager, control room) about the hazard.
+  5. [IC] Provide specific details about the hazard's location, nature, and potential impact.
+  6. [FV] Confirm receipt and understanding of the information by the alerted personnel.
+  7. [ME] Follow instructions from designated personnel and assist with evacuation or other safety procedures as needed.
+[D]
+  1. [PD] Identify and assess the emergency, problem, or hazard through observation, smell, or using available tools.
+  2. [NA] Move to a safe location to communicate the hazard or emergency.
+  3. [ME] Activate the emergency alarm system or use a two-way radio to call the appropriate authority (e.g., plant manager, control room).
+  4. [IC] Clearly and concisely communicate the nature of the emergency, its location, and any visible details to the authority.
+  5. [IC] Instruct the authority to initiate the appropriate response plan or action.
+  6. [IC] Use visual or verbal cues to warn and instruct others in the vicinity (e.g., workers, patients) about the emergency or hazard.
+  7. [PD] Monitor the situation and the response, ensuring that all necessary notifications have been made and responded to.
+  8. [FV] Confirm with the authority that the emergency response team or appropriate action has been dispatched or initiated.
+  9. [FV] Wait for the emergency response team or appropriate action to arrive or be completed, then hand over the situation as needed.
+
+--- Task 63: Test biological specimens to gather information about patient conditions.
+[A]
+  1. [IC] Receive and verify the patient's blood sample, ensuring proper identification and handling.
+  2. [NA] Prepare the laboratory workstation, including logging the sample into the LIS and ensuring all necessary equipment and reagents are available.
+  3. [ME] Prepare the blood sample for analysis, including aliquoting, labeling, and loading into the automated analyzer.
+  4. [ME] Initiate the test protocols on the analyzer and monitor the machine's progress for any errors or warnings.
+  5. [PD] Retrieve and review the test results from the analyzer, comparing them to standard reference ranges and patient medical history.
+  6. [FV] Record the test results in the patient's electronic health record (EHR) and communicate them to the physician.
+  7. [ME] Properly dispose of the used blood sample tube in the biohazard waste container and clean up the workstation.
+[B]
+  1. [IC] Receive a blood sample from the patient and verify the patient’s identification.
+  2. [NA] Prepare the laboratory workstation, ensuring all necessary equipment and reagents are available.
+  3. [ME] Open the blood sample and transfer a precise volume of blood into a test tube using a pipette.
+  4. [ME] Add the appropriate reagents to the test tube and mix the solution thoroughly.
+  5. [ME] Place the test tube into a glucose analyzer and initiate the test.
+  6. [PD] Monitor the glucose analyzer for any error messages or warnings.
+  7. [FV] Record the glucose level displayed by the analyzer.
+  8. [PD] Compare the glucose level to standard reference ranges to determine if it falls within normal limits.
+  9. [FV] Enter the test results into the patient's electronic medical record.
+  10. [FV] Deliver the test results to the physician for further diagnosis and treatment planning.
+[C]
+  1. [IC] Receive the blood sample from a nurse, verifying patient ID and sample type.
+  2. [IC] Log the sample into the laboratory information system (LIS).
+  3. [ME] Prepare the blood sample for analysis, including aliquoting and labeling.
+  4. [NA] Load the prepared sample into the automated analyzer and select the appropriate test profile.
+  5. [PD] Monitor the analyzer's progress and ensure proper functioning.
+  6. [FV] Review the generated results, flagging any abnormalities.
+  7. [FV] Record the test results in the patient's electronic health record (EHR).
+  8. [IC] Communicate the test results to the physician.
+[D]
+  1. [IC] Wash hands and put on personal protective equipment (PPE) to ensure safety while handling biohazards.
+  2. [IC] Receive and verify the blood sample from the patient or nurse, checking patient ID and sample type.
+  3. [NA] Prepare the laboratory workstation, ensuring all necessary equipment and reagents are available.
+  4. [ME] Prepare the blood sample for analysis, including aliquoting, labeling, and inspecting for any visible abnormalities.
+  5. [ME] Load the prepared sample into the automated analyzer and initiate the test sequence.
+  6. [PD] Monitor the analyzer's progress and ensure proper functioning, addressing any error messages or warnings.
+  7. [PD] Review the generated test results, comparing them to expected ranges and flagging any abnormalities.
+  8. [FV] Record the test results in the patient's electronic health record (EHR) using the lab's computer system.
+  9. [IC] Communicate the test results to the healthcare provider through the LIS or by phone, ensuring clear and accurate reporting.
+  10. [ME] Properly dispose of the used blood sample tube in the biohazard waste container according to lab protocols.
+  11. [IC] Wash hands and remove PPE to conclude the testing cycle.
+
+--- Task 64: Supervise workers performing environmentally sustainable activities.
+[A]
+  1. [IC] Review the daily work schedule, environmental protocols, and project plans to ensure compliance and identify potential risks.
+  2. [NA] Conduct a site walk-through to assess the current environmental conditions and identify areas for improvement.
+  3. [PD] Observe workers performing tasks and ensure adherence to environmental protocols and safety measures.
+  4. [IC] Provide real-time feedback and guidance to workers, correcting any mistakes and reinforcing safe and sustainable practices.
+  5. [PD] Monitor the disposal of waste materials, ensuring proper segregation and recycling to minimize environmental impact.
+  6. [PD] Conduct regular inspections to ensure compliance with environmental regulations and project plans, making adjustments as needed.
+  7. [FV] Document the day's operations, including any deviations from the plan and environmental achievements, for future reference and compliance.
+  8. [IC] Hold a brief meeting with the team to discuss any issues, reinforce sustainable practices, and share lessons learned.
+  9. [FV] Deliver a final report on the day's operations, ensuring all activities were environmentally sustainable and compliant with regulations.
+[B]
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+[C]
+  1. [IC] Review the day's work schedule, environmental protocols, and safety procedures with the team.
+  2. [PD] Observe workers performing their tasks, paying attention to their adherence to protocols and safety practices.
+  3. [IC] Provide real-time feedback and guidance to workers, correcting any mistakes and reinforcing best practices.
+  4. [PD] Monitor the proper handling and disposal of materials, ensuring recycling and waste reduction strategies are followed.
+  5. [FV] Conduct periodic safety checks and address any concerns or potential hazards promptly.
+  6. [ME] Document any deviations from protocols, safety incidents, or noteworthy observations for future reference and improvement.
+  7. [IC] At the end of the day, debrief with the team, discussing performance, lessons learned, and reinforcing the importance of sustainable practices.
+[D]
+  1. [IC] Review project plans, environmental regulations, and safety protocols to ensure compliance and identify potential risks.
+  2. [PD] Conduct a site walk-through to assess the current environmental conditions and identify areas for improvement.
+  3. [IC] Communicate a clear plan for implementing environmentally sustainable practices, such as recycling, waste minimization, and eco-friendly solutions.
+  4. [FV] Monitor and enforce adherence to environmental regulations and the project plan, addressing any deviations or issues promptly.
+  5. [PD] Conduct regular site inspections to ensure compliance with environmental regulations and the project plan, making adjustments as needed.
+  6. [ME] Develop and implement a waste management plan, including recycling and minimizing waste, to reduce the project's environmental impact.
+  7. [FV] Document the project's environmental achievements, lessons learned, and any deviations from the original plan for future reference and compliance.
+  8. [IC] Communicate the project's environmental achievements and lessons learned to stakeholders, including workers, clients, and regulatory bodies.
+  9. [FV] Evaluate the project's environmental impact and identify areas for improvement, incorporating lessons learned into future projects.
+  10. [IC] Notify relevant authorities (e.g., building inspectors, electrical utility company) of the project's completion and readiness for inspection or connection to the power grid.
+
+--- Task 65: Maintain test equipment.
+[A]
+  1. [IC] Review the maintenance log and calibration standards for the test equipment.
+  2. [NA] Navigate to the storage area and locate the test equipment that needs maintenance.
+  3. [PD] Inspect the equipment for any visible damage or wear.
+  4. [ME] Clean the equipment using appropriate cleaning materials and techniques.
+  5. [ME] Calibrate the equipment according to the manufacturer's instructions and standards.
+  6. [FV] Run diagnostic tests to verify that the equipment is calibrated correctly.
+  7. [FV] Document the calibration results and any adjustments made in the maintenance log.
+  8. [NA] Store the test equipment back in the designated area.
+  9. [IC] Notify the laboratory manager that the equipment is ready for use.
+[B]
+  1. [IC] Review the maintenance log for any outstanding issues or scheduled calibrations for each oscilloscope.
+  2. [NA] Gather necessary tools and calibration equipment (screwdrivers, cleaning supplies, calibration probes).
+  3. [ME] Power down each oscilloscope and disconnect it from power and any connected devices.
+  4. [ME] Clean the exterior of each oscilloscope with a microfiber cloth and appropriate cleaning solution.
+  5. [PD] Perform calibration procedures on each oscilloscope using the calibration probes and manufacturer's instructions.
+  6. [FV] Record calibration results and any maintenance performed in the maintenance log.
+  7. [ME] Reconnect each oscilloscope to power and any necessary devices.
+  8. [FV] Power on each oscilloscope and verify that it is functioning correctly.
+[C]
+  1. [IC] Review maintenance logs and schedules to identify equipment requiring attention.
+  2. [NA] Retrieve necessary tools, calibration standards, and the equipment's manual.
+  3. [PD] Inspect the equipment for visible damage, wear, or cleanliness issues.
+  4. [ME] Clean the equipment using appropriate techniques and materials.
+  5. [ME] Connect the equipment to calibration standards and follow the manufacturer's calibration procedure.
+  6. [FV] Run diagnostic tests to verify calibration accuracy and equipment functionality.
+  7. [FV] Document all maintenance activities, calibration results, and any adjustments made.
+  8. [NA] Store the equipment securely in its designated location.
+[D]
+  1. [IC] Review maintenance log and lab schedule to understand upcoming experiments' requirements and identify equipment needing maintenance.
+  2. [NA] Navigate to the storage area, avoiding obstacles, and locate the test equipment that needs maintenance.
+  3. [NA] Retrieve the maintenance manual, calibration standards, and necessary tools for the test equipment.
+  4. [PD] Inspect the equipment for any visible damage, wear, or signs of malfunction, using appropriate tools like magnifying glasses if necessary.
+  5. [ME] Power down the equipment and disconnect it from power and any connected devices.
+  6. [ME] Clean the equipment using appropriate cleaning materials and techniques, ensuring no damage is caused.
+  7. [ME] Perform routine maintenance tasks, such as lubricating, tightening, or replacing components, following the manufacturer's specifications.
+  8. [ME] Calibrate the equipment using a known reference standard, following the calibration procedure outlined in the manual.
+  9. [FV] Run diagnostic tests to verify that the equipment is functioning correctly and calibrated accurately.
+  10. [FV] Document the maintenance activities, recording the date, time, details of the work performed, and the equipment's current status in the maintenance log.
+  11. [NA] Store the test equipment back in the designated area, ensuring it is secure and protected from damage.
+  12. [IC] Notify the laboratory manager or relevant personnel that the equipment is ready for use.
+
+--- Task 66: Analyze crime scene evidence.
+[A]
+  1. [IC] Don personal protective equipment (PPE) to prevent contamination of the crime scene and protect against potential hazards.
+  2. [NA] Scan the crime scene, taking in the overall layout and any visible evidence, while maintaining a clear mental map of the scene's state.
+  3. [PD] Approach the first piece of evidence, such as a bloodstain or fingerprint, and observe its size, shape, location, and any surrounding context.
+  4. [ME] Carefully collect the evidence using appropriate tools (e.g., sterile swabs, latent print powder) and place it in an evidence bag, labeling it with a unique identifier and the time of collection.
+  5. [FV] Document the evidence's location and appearance using photographs and notes, ensuring the evidence's context is preserved for later analysis.
+  6. [PD] Analyze the collected evidence using specialized software or equipment, correlating it with the scene's layout and drawing initial conclusions about the events that transpired.
+  7. [IC] Draft a preliminary report outlining the evidence collected, its context, and initial interpretations, ensuring all relevant information is included.
+  8. [FV] Review the report, ensuring it's comprehensive and accurate, then submit it to the relevant authorities for further investigation.
+[B]
+  1. [PD] Review the crime scene report and associated documentation to understand the context and scope of the investigation.
+  2. [PD] Examine the DNA samples and fingerprints to identify any matches in the database.
+  3. [ME] Use specialized software to enhance and analyze the video footage.
+  4. [PD] Compare the analyzed evidence to known suspects and make connections.
+  5. [FV] Document all findings and create a report for the investigating officer.
+  6. [NA] Store the evidence in a secure location and maintain a chain of custody.
+  7. [IC] Collaborate with the investigating officer to discuss findings and develop a plan for further investigation.
+  8. [FV] Update the case file and maintain a record of all activities and findings.
+  9. [FV] Review the case file and ensure that all evidence has been properly documented and stored.
+  10. [FV] Submit the evidence and report to the crime lab for further analysis and testing.
+  11. [FV] Confirm receipt of the evidence and report by the crime lab and update the case log.
+  12. [PD] Analyze the crime scene photos and notes using specialized software, correlating the evidence with the scene's layout and drawing initial conclusions about the events that transpired.
+[C]
+  1. [ME] Don personal protective equipment (gloves, mask, booties) to prevent contamination of the crime scene.
+  2. [IC] Receive and verify the chain of custody for the evidence bag containing fingerprints, blood samples, and glass fragments.
+  3. [NA] Open the evidence bag in a controlled environment to prevent contamination.
+  4. [PD] Examine and document the bloodstain pattern, noting its size, shape, distribution, and any directional characteristics.
+  5. [ME] Carefully collect a blood sample using a sterile swab and appropriate packaging.
+  6. [ME] Lift latent fingerprints using powder and adhesive tape, ensuring proper technique for clear impressions.
+  7. [PD] Examine glass fragments under a microscope for trace evidence like fibers or additional fingerprints.
+  8. [FV] Document all findings, including photographs, descriptions, and preliminary hypotheses, in a detailed report.
+  9. [ME] Package and label all collected evidence, including blood samples, fingerprints, and glass fragments, for further analysis.
+[D]
+  1. [IC] Don personal protective equipment (PPE) to prevent contamination and protect against potential hazards.
+  2. [PD] Review the crime scene report and associated documentation to understand the context and scope of the investigation.
+  3. [NA] Scan the crime scene, taking in the overall layout and any visible evidence, while maintaining a clear mental map of the scene's state.
+  4. [PD] Approach and observe each piece of evidence, noting its size, shape, location, and context relative to other evidence and the scene's layout.
+  5. [ME] Carefully collect and preserve each piece of evidence, using appropriate tools and packaging, and labeling it with a unique identifier and collection time.
+  6. [FV] Document each piece of evidence's location, appearance, and context using photographs and notes.
+  7. [PD] Examine and analyze each piece of evidence separately, using appropriate tools and techniques (e.g., microscope, specialized software, database comparisons).
+  8. [IC] Formulate preliminary hypotheses about the events that caused or are related to each piece of evidence.
+  9. [IC] Draft a preliminary report outlining the evidence collected, its context, initial interpretations, and any preliminary hypotheses.
+  10. [FV] Review the report, ensuring it's comprehensive, accurate, and includes all relevant information, then submit it to the relevant authorities for further investigation.
+
+--- Task 67: Measure clients to ensure proper product fit.
+[A]
+  1. [IC] Greet the client, explain the measurement process, and ensure they are comfortable.
+  2. [NA] Select the appropriate measuring tape and ensure it is clean and undamaged.
+  3. [NA] Ask the client to remove outerwear and stand straight with feet together.
+  4. [PD] Measure the client's height from the top of their head to the floor.
+  5. [PD] Measure the client's chest circumference at the fullest part, ensuring the tape is level and snug.
+  6. [PD] Measure the client's waist circumference at the natural waistline, ensuring the tape is level and parallel to the floor.
+  7. [PD] Measure the client's inseam, from the top of the inner thigh down to the ankle, ensuring the tape is straight and close to the body.
+  8. [FV] Record all measurements accurately and double-check for errors.
+  9. [FV] Confirm the measurements with the client and ensure they are satisfied with the process.
+[B]
+  1. [IC] Greet the client and explain the measurement process.
+  2. [NA] Position the client in a standing posture and ensure they are comfortable.
+  3. [PD] Measure the client's shoulder width by placing the tape from one shoulder to the other.
+  4. [PD] Measure the client's chest circumference at the fullest part.
+  5. [PD] Measure the client's waist circumference at the natural waistline.
+  6. [PD] Measure the client's hips circumference at the fullest part.
+  7. [PD] Measure the client's inseam by placing the tape from the crotch to the ankle.
+  8. [ME] Record all measurements in a notebook or digital device.
+  9. [FV] Confirm the measurements with the client and ensure they are satisfied with the process.
+[C]
+  1. [IC] Greet the client, explain the measurement process, and ensure they understand its importance for proper product fit.
+  2. [NA] Instruct the client to stand in a relaxed, natural posture with feet together and outerwear removed.
+  3. [PD] Measure the client's chest circumference at the fullest part, ensuring the tape is level and snug.
+  4. [PD] Measure the client's waist circumference at the natural waistline, ensuring the tape is level and parallel to the floor.
+  5. [PD] Measure the client's inseam, from the top of the inner thigh down to the ankle, ensuring the tape is straight and close to the body.
+  6. [FV] Record all measurements accurately in a notebook or digital device, double-checking for errors.
+  7. [FV] Confirm the measurements with the client, allowing them to review and ask questions.
+[D]
+  1. [IC] Greet the client, explain the measurement process, and ensure they are comfortable.
+  2. [NA] Ask the client to remove outerwear and stand straight with feet together.
+  3. [PD] Measure the client's height from the top of their head to the floor.
+  4. [ME] Measure the client's chest circumference at the fullest part, ensuring the tape is level and snug.
+  5. [ME] Measure the client's waist circumference at the natural waistline, ensuring the tape is level and parallel to the floor.
+  6. [PD] Measure the client's inseam, from the top of the inner thigh down to the ankle, ensuring the tape is straight and close to the body.
+  7. [FV] Record all measurements accurately, double-checking for errors, and thank the client for their cooperation.
+
+--- Task 68: Read maps to determine routes.
+[A]
+  1. [IC] Open the navigation app on the mobile device or access the navigation system on the vehicle's dashboard.
+  2. [IC] Input the starting point and the first delivery location into the navigation app.
+  3. [NA] Add additional delivery locations to the route, considering the optimal order.
+  4. [PD] Analyze the map displayed on the screen, identifying major roads, traffic patterns, and potential obstacles.
+  5. [PD] Check real-time traffic data and adjust the route if necessary.
+  6. [FV] Review the planned route, verifying that it avoids congested areas and takes into account any known road closures.
+  7. [NA] Start the navigation and follow the app's guidance to the first destination.
+  8. [FV] Upon reaching a destination, mark it as completed in the navigation app and proceed to the next destination.
+[B]
+  1. [IC] Retrieve the paper map and digital GPS device.
+  2. [NA] Identify the starting point on the map.
+  3. [NA] Identify the first delivery location on the map.
+  4. [PD] Determine the route from the starting point to the first delivery location.
+  5. [ME] Input the first delivery location into the GPS device.
+  6. [ME] Repeat steps 3-5 for each subsequent delivery location.
+  7. [FV] Verify the overall route on the map for any potential shortcuts or errors.
+  8. [ME] Finalize the route in the GPS device.
+  9. [IC] Confirm the route with a supervisor or client if necessary.
+  10. [FV] Begin the delivery route according to the planned path.
+[C]
+  1. [NA] Retrieve the map and identify the starting point.
+  2. [NA] Identify all delivery locations on the map.
+  3. [PD] Analyze the map to determine the most efficient route between locations, considering factors like distance, terrain, and potential obstacles.
+  4. [ME] Mark the chosen route on the map for reference.
+  5. [FV] Verify the overall route for accuracy and potential improvements.
+  6. [ME] If using a digital GPS device, input the route or individual addresses.
+[D]
+  1. [IC] Access the navigation tool (app, map, or GPS device).
+  2. [IC] Input the starting point and all destination addresses into the navigation tool.
+  3. [PD] Analyze the map or route planner to identify major roads, traffic patterns, and potential obstacles.
+  4. [ME] Consider delivery time windows, estimated travel times, and any known road closures or traffic data.
+  5. [ME] Select or generate the route option that optimizes travel time while meeting all delivery deadlines.
+  6. [FV] Review the chosen route on the map or within the navigation tool, ensuring it avoids congested areas and potential issues.
+  7. [NA] Initiate navigation by starting turn-by-turn directions or following the planned route.
+  8. [FV] Upon reaching each destination, mark it as completed in the navigation tool (if applicable) and proceed to the next destination.
+
+--- Task 69: Notify others of equipment repair or maintenance needs.
+[A]
+  1. [PD] Visually inspect the conveyor belt, paying attention to the belt surface, rollers, and motor, and listen to the conveyor belt's operation, focusing on unusual noises.
+  2. [PD] Mentally assess the severity of the issue based on the observed symptoms.
+  3. [NA] Retrieve a mobile device (provided by the plant) with a pre-installed maintenance reporting app.
+  4. [IC] Open the maintenance reporting app and select the 'Report Issue' option, then input the specific location and symptoms of the issue.
+  5. [IC] Submit the report through the app, sending a notification to the maintenance supervisor and relevant personnel.
+  6. [FV] Monitor the system for acknowledgment or response from the recipients.
+  7. [IC] Follow up with the maintenance team to ensure they have received the notification and are en route to address the issue.
+[B]
+  1. [PD] Identify the need for equipment repair or maintenance.
+  2. [NA] Locate the relevant personnel to notify.
+  3. [PD] Draft a clear and concise message describing the issue.
+  4. [IC] Send the notification to the relevant personnel.
+  5. [FV] Monitor the system for acknowledgment or response from the recipients.
+  6. [IC] Follow up with the maintenance team to ensure they have received the notification.
+  7. [FV] Review the repair schedule and ensure that all necessary steps have been taken.
+[C]
+  1. [PD] Visually inspect the equipment, noting signs of wear, damage, or malfunction.
+  2. [PD] Mentally assess the severity of the issue and its potential impact on operations.
+  3. [NA] Access the designated communication system (e.g., intranet, mobile app, phone).
+  4. [IC] Compose a clear and concise message detailing the equipment, the issue, its location, and the urgency.
+  5. [IC] Select the appropriate personnel to notify (e.g., maintenance team, supervisor).
+  6. [IC] Submit the notification through the chosen communication system.
+  7. [FV] Optionally, follow up with the notified parties to confirm receipt and initiate action.
+[D]
+  1. [PD] Inspect the equipment (e.g., conveyor belt) visually and listen to its operation to identify any issues.
+  2. [PD] Assess the severity of the issue based on observed symptoms.
+  3. [NA] Access the plant's communication system or maintenance reporting app on a nearby device.
+  4. [PD] Draft a clear and concise message describing the issue, its location, and the impact on operations.
+  5. [IC] Identify and select the relevant personnel to notify, such as the maintenance team, supervisors, and the plant manager.
+  6. [IC] Send the notification immediately to minimize response time.
+  7. [FV] Monitor the system for acknowledgment or response from the recipients and follow up with the maintenance team if necessary.
+
+--- Task 70: Distribute supplies to workers.
+[A]
+  1. [IC] Review the list of required supplies for each worker and consult the digital inventory management system to understand the supplies to be distributed and their respective storage locations.
+  2. [NA] Locate and retrieve the designated supplies from the storage area, using the warehouse map to plan the most efficient route.
+  3. [ME] Load the supplies onto a transport cart or pallet jack and navigate to the designated distribution area or worker's workstation.
+  4. [PD] Identify the correct workstation or worker based on the workstation ID or description provided by the inventory management system.
+  5. [FV] Hand over the supplies to the identified worker, ensuring they acknowledge receipt and confirming that the correct supplies have been distributed.
+  6. [FV] Update the inventory management system with the successful delivery, marking the supplies as distributed.
+  7. [FV] Repeat steps 2 to 6 for all the required supplies and workers until the distribution cycle is complete.
+  8. [NA] Restock the supplies in the warehouse storage area and update the inventory list to reflect the distributed items.
+  9. [IC] Document any issues or concerns that arose during the distribution process and report them to the supervisor.
+[B]
+  1. [IC] Review the list of required supplies for each worker.
+  2. [NA] Navigate to the storage area where the supplies are located.
+  3. [ME] Retrieve the first set of supplies for the first worker.
+  4. [NA] Carry the supplies to the designated distribution area.
+  5. [FV] Verify that the correct supplies are being given to the first worker.
+  6. [ME] Repeat the process for the second worker, retrieving and verifying the correct supplies.
+  7. [ME] Continue the process for the remaining workers, ensuring each receives the correct supplies.
+  8. [PD] Check the inventory to ensure all supplies have been distributed.
+  9. [FV] Confirm with each worker that they have received the correct supplies.
+  10. [FV] Complete the distribution process and document the distribution for record-keeping.
+[C]
+  1. [IC] Review the list of required supplies for each worker.
+  2. [NA] Navigate to the storage area and locate the supplies.
+  3. [ME] Retrieve the supplies for the first worker.
+  4. [NA] Transport the supplies to the designated worker area.
+  5. [FV] Verify the worker's identity and confirm the correct supplies are being delivered.
+  6. [ME] Hand over the supplies and obtain confirmation of receipt.
+  7. [FV] Repeat steps 3-6 for each remaining worker.
+  8. [FV] Update inventory records to reflect the distributed supplies.
+[D]
+  1. [IC] Review the digital work order or inventory list to understand the supplies to be distributed and their respective storage locations.
+  2. [NA] Using the warehouse map, plan the most efficient route to visit all the required storage locations and worker areas.
+  3. [NA] Travel to the first storage location, avoiding obstacles and other workers using the planned route.
+  4. [PD] Locate the specific supplies in the storage rack using visual cues and the inventory management system's guidance.
+  5. [ME] Pick up the required supplies, ensuring they are securely held to prevent any damage or loss.
+  6. [NA] Travel to the designated worker area, following the planned route and avoiding any obstacles.
+  7. [PD] Identify the correct worker based on their ID or description provided by the inventory management system.
+  8. [FV] Hand over the supplies to the identified worker, ensuring they acknowledge receipt.
+  9. [FV] Update the inventory management system with the successful delivery, marking the supplies as distributed.
+  10. [FV] Repeat steps 3 to 9 for all the required supplies and workers until the distribution cycle is complete.
+
+--- Task 71: Train food preparation or food service personnel.
+[A]
+  1. [IC] Greet the trainee, introduce the dish to be prepared, and explain the importance of timing and order of operations in a busy kitchen.
+  2. [ME] Demonstrate the correct knife grip and cutting technique for the specific vegetables required for the dish.
+  3. [FV] Guide the trainee through the correct sequence of cutting and prep work, providing real-time feedback on technique and speed.
+  4. [ME] Demonstrate the correct way to handle and cook the protein for the dish, explaining the importance of temperature control.
+  5. [FV] Guide the trainee through cooking the protein, providing real-time feedback on temperature and cooking time.
+  6. [ME] Demonstrate the correct way to combine and cook the vegetables, explaining the importance of timing and seasoning.
+  7. [FV] Guide the trainee through combining and cooking the vegetables, providing real-time feedback on seasoning and cooking time.
+  8. [ME] Demonstrate the correct way to plate the dish, explaining the importance of presentation and garnish.
+  9. [FV] Guide the trainee through plating the dish, providing real-time feedback on presentation and garnish.
+  10. [FV] Taste the finished dish with the trainee, provide final feedback, and discuss areas for improvement.
+[B]
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+[C]
+  1. [IC] Introduce the trainee to the specific dish and explain the importance of following procedures and safety protocols in a kitchen environment.
+  2. [ME] Demonstrate the correct techniques for preparing key ingredients, including knife skills, measuring, and basic cooking methods.
+  3. [FV] Guide the trainee through hands-on practice of the demonstrated techniques, providing immediate feedback and corrections.
+  4. [IC] Explain the assembly process of the dish, highlighting the order of ingredients and proper plating techniques.
+  5. [FV] Supervise the trainee as they assemble the dish, offering guidance and ensuring adherence to the established procedures.
+  6. [FV] Conduct a final evaluation of the trainee's prepared dish, providing constructive feedback on both technique and presentation.
+[D]
+  1. [IC] Introduce the dish, explain its components, and emphasize the importance of timing and order of operations in a busy kitchen.
+  2. [ME] Demonstrate the correct knife grip and cutting technique for the specific ingredients required for the dish.
+  3. [FV] Guide the trainee through the correct sequence of prep work, providing real-time feedback on technique, speed, and order of operations.
+  4. [ME] Demonstrate the correct way to handle and cook the protein, explaining the importance of temperature control.
+  5. [FV] Guide the trainee through cooking the protein, providing real-time feedback on temperature and cooking time.
+  6. [ME] Demonstrate the correct way to combine and cook the vegetables, explaining the importance of timing and seasoning.
+  7. [FV] Guide the trainee through combining and cooking the vegetables, providing real-time feedback on seasoning and cooking time.
+  8. [ME] Demonstrate the correct way to plate the dish, explaining the importance of presentation and garnish.
+  9. [FV] Guide the trainee through plating the dish, providing real-time feedback on presentation and garnish.
+  10. [FV] Taste the finished dish with the trainee, provide final feedback, and discuss areas for improvement.
+
+--- Task 72: Mix sound inputs.
+[A]
+  1. [IC] Review the client's brief and discuss their vision for the track.
+  2. [NA] Import individual audio tracks into the Digital Audio Workstation (DAW) and organize them into separate tracks.
+  3. [PD] Listen to each track to understand the dynamics and characteristics of each instrument and vocal.
+  4. [ME] Adjust the volume levels and apply initial equalization (EQ) and compression to each track to balance its frequency spectrum and dynamics.
+  5. [ME] Pan each track to create a stereo image that complements the client's vision and add reverb and delay effects to create depth and space in the mix.
+  6. [FV] Listen to the mixed track critically in different environments (e.g., headphones, studio monitors) to ensure it sounds good across various playback systems.
+  7. [ME] Make final adjustments based on the feedback from different listening environments.
+  8. [NA] Export the final mixed track in the correct format for the next stage of production.
+  9. [IC] Review the exported track with the client and discuss any necessary revisions.
+[B]
+  1. [IC] Review the client's brief and discuss their vision for the track.
+  2. [NA] Open the DAW software and create a new project.
+  3. [NA] Import the individual sound tracks into the DAW timeline.
+  4. [PD] Listen to each track to identify its key elements and any necessary corrections.
+  5. [ME] Apply initial equalization (EQ) and compression to each track to balance its frequency spectrum and dynamics.
+  6. [ME] Pan each track to create a stereo image that complements the client's vision.
+  7. [FV] Listen to the mixed track in progress and make real-time adjustments based on auditory feedback.
+  8. [FV] Check the mixed track's levels against industry standards to ensure they are suitable for further processing.
+  9. [NA] Export the mixed track in the correct format for the next stage of production.
+  10. [IC] Review the exported track with the client and discuss any necessary revisions.
+[C]
+  1. [IC] Review the client brief and discuss their vision for the track.
+  2. [NA] Import individual audio tracks into the DAW and organize them into separate tracks.
+  3. [PD] Listen to each track to identify its key elements and any necessary corrections.
+  4. [ME] Adjust the volume levels of each track to achieve a balanced mix.
+  5. [ME] Apply equalization (EQ) to each track to shape the frequency content and enhance clarity.
+  6. [ME] Add compression to control the dynamic range of each track.
+  7. [ME] Pan each track to create a stereo image that complements the client's vision.
+  8. [FV] Listen to the mix in different environments and make adjustments based on feedback.
+  9. [NA] Export the final mixed track in the correct format.
+[D]
+  1. [IC] Review the client's brief and discuss their vision for the track.
+  2. [NA] Open the DAW software and create a new project.
+  3. [NA] Import individual audio tracks into the DAW timeline.
+  4. [PD] Listen to each track to identify its key elements and any necessary corrections.
+  5. [ME] Adjust the volume levels (gain staging) of each track to achieve a balanced mix.
+  6. [ME] Apply initial equalization (EQ) and compression to each track to balance its frequency spectrum and dynamics.
+  7. [ME] Pan each track to create a stereo image that complements the client's vision.
+  8. [FV] Listen to the mixed track in progress and make real-time adjustments based on auditory feedback.
+  9. [FV] Check the mixed track's levels against industry standards to ensure they are suitable for further processing.
+  10. [NA] Export the mixed track in the correct format for the next stage of production.
+  11. [IC] Review the exported track with the client and discuss any necessary revisions.
+
+--- Task 73: Prepare data for analysis.
+[A]
+  1. [NA] Open the CSV file using a data analysis tool such as Python's pandas library.
+  2. [PD] Inspect the dataset for missing values, duplicates, and incorrect data types.
+  3. [ME] Handle missing values by either removing or imputing them using mean, median, or mode.
+  4. [ME] Remove any duplicate entries from the dataset.
+  5. [ME] Convert data types of columns as necessary (e.g., converting a string column to datetime).
+  6. [ME] Normalize or scale numerical features if necessary for the machine learning model.
+  7. [FV] Save the cleaned and transformed dataset in a suitable format (e.g., CSV, Parquet) for analysis.
+  8. [FV] Verify the cleaned dataset by checking the first few rows and ensuring the data is ready for analysis.
+[B]
+  1. [NA] Open the dataset of interest in a suitable software or library.
+  2. [PD] Inspect the dataset for missing values, duplicates, and incorrect data types.
+  3. [ME] Fill missing values using appropriate imputation techniques like mean, median, or mode.
+  4. [ME] Remove duplicate entries from the dataset.
+  5. [ME] Convert data types to the appropriate format (e.g., string to numeric, date to datetime).
+  6. [NA] Save the cleaned and transformed dataset in a suitable format (e.g., CSV, Parquet) for analysis.
+  7. [FV] Verify the cleaned dataset by checking the first few rows and ensuring the data is ready for analysis.
+[C]
+  1. [NA] Import the CSV file into a data analysis software like Python's Pandas library.
+  2. [PD] Inspect the dataset for missing values, duplicates, and incorrect data types.
+  3. [ME] Handle missing values by either removing or imputing them using appropriate techniques.
+  4. [ME] Remove duplicate entries from the dataset.
+  5. [ME] Convert data types to the appropriate format (e.g., string to numeric, date to datetime).
+  6. [FV] Save the cleaned and transformed dataset to a new file.
+[D]
+  1. [NA] Open the dataset using a data analysis tool such as Python's pandas library.
+  2. [PD] Inspect the dataset for missing values, duplicates, and incorrect data types.
+  3. [ME] Handle missing values by either removing or imputing them using appropriate techniques (e.g., mean, median, mode, or deletion).
+  4. [ME] Remove any duplicate rows from the dataset.
+  5. [ME] Convert data types of columns as necessary (e.g., converting a string column to datetime) to ensure data consistency.
+  6. [ME] Rename columns to make them more descriptive and consistent.
+  7. [FV] Save the cleaned and transformed dataset to a new file.
+  8. [FV] Verify the success of the data preparation by loading the saved dataset and checking its structure and consistency.
+
+--- Task 74: Apply identification labels or tags.
+[A]
+  1. [IC] Scan the incoming box barcode to confirm its identity and destination.
+  2. [NA] Retrieve the handheld label printer from the workstation and ensure it is functioning properly.
+  3. [PD] Identify the correct label information for the box from the inventory system.
+  4. [ME] Enter the label information into the label printer and print the label.
+  5. [ME] Position the printed label on the designated area of the box and apply it firmly.
+  6. [FV] Visually inspect the applied label for correct placement, orientation, and readability.
+  7. [ME] If necessary, carefully peel off the misaligned label and repeat steps 4-6.
+  8. [IC] Confirm the successful labeling and move the box to the designated shelf or conveyor belt.
+[B]
+  1. [NA] Retrieve the handheld label printer from the workstation.
+  2. [PD] Power on the label printer and ensure it is functioning properly.
+  3. [IC] Scan the incoming box barcode to confirm its identity and destination.
+  4. [IC] Consult the inventory system to determine the appropriate label for this batch of boxes.
+  5. [ME] Print the required number of labels with the correct information.
+  6. [ME] Enter the label information into the label printer.
+  7. [ME] Print the label using the label printer.
+  8. [ME] Apply the label to the box by pressing it firmly.
+  9. [FV] Inspect the labeled boxes for accuracy and completeness.
+  10. [NA] Place the labeled box on the designated shelf.
+[C]
+  1. [IC] Retrieve the correct label template from the system or printer.
+  2. [NA] Load the label printer with a new roll of labels and set the correct font and size.
+  3. [NA] Retrieve the first box from the designated area.
+  4. [NA] Position the box under the label printer.
+  5. [ME] Print the label using the selected template.
+  6. [ME] Remove the printed label from the printer.
+  7. [ME] Align and apply the label to the designated area on the box.
+  8. [FV] Visually inspect the applied label for correct placement, orientation, and readability.
+  9. [ME] Repeat steps 3-8 for the remaining boxes.
+[D]
+  1. [IC] Scan the incoming box barcode to confirm its identity and destination.
+  2. [NA] Retrieve the corresponding pre-printed barcode label from the dispenser.
+  3. [PD] Align the barcode label with the designated area on the box.
+  4. [ME] Press the label firmly onto the box surface, ensuring full adhesion.
+  5. [FV] Visually inspect the applied label for correct placement, orientation, and readability.
+  6. [ME] If necessary, carefully peel off the misaligned label and repeat steps 3-5.
+  7. [IC] Confirm the successful labeling and move the box along the conveyor belt.
+
+--- Task 75: Prepare reports detailing student activities or performance.
+[A]
+  1. [NA] Log into the school's student information system to access student academic records.
+  2. [PD] Review attendance records, grades, and extracurricular activity logs for each student.
+  3. [ME] Synthesize observations into a concise summary for each student, covering academic performance, extracurricular activities, and class participation.
+  4. [ME] Draft a report for each student, incorporating the summarized data and any visual representations of the data.
+  5. [FV] Review each report for accuracy, clarity, and completeness.
+  6. [ME] Make any necessary revisions to the report based on the review.
+  7. [NA] Finalize and save the report in the designated report folder.
+  8. [ME] Prepare the report for distribution, either by printing or sending it electronically.
+  9. [FV] Deliver the report to the intended recipients, such as parents or teachers, and ensure it is well-received.
+[B]
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+[C]
+  1. [IC] Log into the school's student information system.
+  2. [NA] Navigate to the target student's academic records.
+  3. [PD] Review grades, attendance, and extracurricular activity logs.
+  4. [ME] Summarize the student's academic performance and activities in a report.
+  5. [FV] Review the report for accuracy and completeness.
+  6. [ME] Finalize and prepare the report for distribution.
+[D]
+  1. [IC] Log into the school's student information system or Learning Management System (LMS) using the appropriate credentials.
+  2. [NA] Navigate to the specific student's profile or select the 'Reports' tab for the desired class.
+  3. [PD] Review and extract relevant data from the following categories: academic performance (grades, test scores), attendance, and extracurricular activities.
+  4. [ME] Synthesize the extracted data into a concise, coherent summary for each category.
+  5. [ME] Draft an initial report combining the summaries from each category, highlighting trends and areas of concern.
+  6. [FV] Review the report for accuracy, completeness, and clarity, ensuring it meets the required standards.
+  7. [ME] Make any necessary revisions to the report based on the review.
+  8. [NA] Prepare the final report for distribution by saving it with the student's name or class name and the current date in the designated report folder.
+  9. [IC] Share the report with the relevant parties, such as parents, teachers, or the administration, via email or print.
+  10. [IC] Follow up with the recipients to ensure the report is well-received and address any questions or concerns.
+
+--- Task 76: Manage budgets for personal services operations.
+[A]
+  1. [PD] Review the previous quarter's financial reports and personal services expenses to identify trends and areas for cost optimization.
+  2. [IC] Conduct a meeting with department heads to gather input on their budgetary needs for the next quarter.
+  3. [NA] Navigate the company's financial software to access the budget templates and historical data.
+  4. [ME] Input the gathered data into the budget template, including salaries, benefits, and training expenses.
+  5. [PD] Perform financial analysis to ensure the budget aligns with the firm's financial goals and constraints.
+  6. [ME] Adjust the budget as needed to optimize costs and align with company goals.
+  7. [ME] Prepare a detailed budget report, including justifications for each expense category.
+  8. [IC] Present the budget to senior management for review and approval.
+  9. [FV] Receive feedback from senior management and make any necessary revisions to the budget.
+  10. [FV] Finalize the budget and communicate it to relevant stakeholders, including department heads and finance team.
+[B]
+  1. [PD] Review the previous quarter's financial reports and personal services expenses to identify trends and areas for cost optimization.
+  2. [IC] Conduct a meeting with department heads to gather input on their budgetary needs for the next quarter.
+  3. [NA] Navigate the company's financial software to access the budget templates and historical data.
+  4. [ME] Input the gathered data into the budget template, including salaries, benefits, and training expenses.
+  5. [PD] Perform financial analysis to ensure the budget aligns with the firm's financial goals and constraints.
+  6. [ME] Adjust the budget as needed to optimize costs and align with company goals.
+  7. [ME] Prepare a detailed budget report, including justifications for each expense category.
+  8. [IC] Present the budget to senior management for review and approval.
+  9. [FV] Receive feedback from senior management and make any necessary revisions to the budget.
+  10. [FV] Finalize the budget and communicate it to relevant stakeholders, including department heads and finance team.
+[C]
+  1. [PD] Review historical financial data (previous quarters/years) to identify spending trends and areas for optimization.
+  2. [IC] Meet with department heads to discuss their budgetary needs and priorities for the upcoming period.
+  3. [NA] Access and navigate the company's financial software or budgeting tools.
+  4. [ME] Input gathered data (historical trends, departmental needs) into the budget template, including projected revenue and expenses.
+  5. [PD] Analyze the draft budget to ensure alignment with company financial goals and constraints.
+  6. [ME] Adjust the budget as needed, optimizing costs and aligning with company objectives.
+  7. [ME] Prepare a comprehensive budget report, including justifications for each expense category and clear explanations of budgetary decisions.
+  8. [IC] Present the budget to senior management for review and approval.
+  9. [FV] Incorporate feedback from senior management and make necessary revisions to the budget.
+  10. [IC] Communicate the finalized budget to relevant stakeholders, including department heads and the finance team.
+[D]
+  1. [NA] Access historical spending data and financial records.
+  2. [PD] Analyze historical data to identify trends, patterns, and areas for cost optimization.
+  3. [IC] Consult with department heads to understand their budget requirements and gather input.
+  4. [ME] Forecast future spending based on historical trends, departmental requirements, and overall budget constraints.
+  5. [ME] Allocate funds to each department based on their requirements and the overall budget.
+  6. [ME] Create a budget report summarizing allocations, justifying decisions, and projecting future spending.
+  7. [IC] Present the budget report to senior management for review and address any feedback or revisions.
+  8. [FV] Finalize the budget and communicate it to relevant departments and stakeholders.
+  9. [FV] Monitor spending throughout the fiscal year, provide regular updates, and reconcile with financial records.
+
+--- Task 77: Perform administrative or clerical tasks.
+[A]
+  1. [NA] Retrieve the list of documents needed for the client meeting from the digital file system.
+  2. [ME] Print the documents listed from the digital file system.
+  3. [PD] Check the printed documents for completeness and accuracy.
+  4. [ME] Organize the printed documents in the correct order as per the client meeting agenda.
+  5. [ME] Prepare a folder and insert the printed documents in the correct order.
+  6. [ME] Label the folder with the client's name and the date of the meeting.
+  7. [FV] Double-check the folder to ensure all documents are present and in the correct order.
+  8. [NA] Place the prepared folder in the designated area for the client meeting.
+  9. [IC] Notify the relevant team members that the folder is ready for the client meeting.
+[B]
+  1. [IC] Retrieve the list of documents needed for the client meeting from the digital file system.
+  2. [NA] Print the documents listed from the digital file system.
+  3. [PD] Check the printed documents for completeness and accuracy.
+  4. [PD] Organize the printed documents in the correct order as per the client meeting agenda.
+  5. [NA] File the original digital copies of the documents in the appropriate folders in the digital file system.
+  6. [ME] Prepare a folder and insert the printed documents in the correct order.
+  7. [ME] Label the folder with the client's name and the date of the meeting.
+  8. [FV] Double-check the folder to ensure all documents are present and in the correct order.
+  9. [NA] Place the prepared folder in the designated area for the client meeting.
+  10. [IC] Notify the relevant team members that the folder is ready for the client meeting.
+[C]
+  1. [NA] Retrieve the list of documents needed for the client meeting from the digital file system.
+  2. [ME] Print the documents.
+  3. [FV] Verify the completeness and accuracy of the printed documents.
+  4. [ME] Organize the printed documents in the correct order according to the client meeting agenda.
+  5. [ME] Prepare a folder and label it with the client's name and the meeting date.
+  6. [ME] Place the organized documents into the prepared folder.
+  7. [NA] Place the prepared folder in the designated area for the client meeting.
+[D]
+  1. [IC] Identify the task at hand (e.g., preparing documents for a meeting, processing invoices, responding to customer emails, delivering mail).
+  2. [NA] Gather the necessary resources for the task (e.g., documents, invoices, emails, packages).
+  3. [PD] Assess the gathered resources for completeness, accuracy, and any special requirements (e.g., check documents for completeness, scan invoices for relevant information, analyze emails for content and sentiment).
+  4. [ME] Prepare the resources for processing or delivery (e.g., organize documents, sort invoices, categorize emails).
+  5. [ME] Process or deliver the prepared resources (e.g., print documents, upload invoice data, send email responses, deliver packages).
+  6. [FV] Verify the task's outcome and ensure it meets the required standards (e.g., check documents for accuracy, review uploaded invoice data, confirm email responses, log mail processing).
+  7. [IC] Notify relevant parties about the task's completion (e.g., inform team members about prepared documents, log email interactions, update mail processing status).
+
+--- Task 78: Administer basic health care or medical treatments.
+[A]
+  1. [PD] Review the patient's medical history and current health status to ensure there are no contraindications for the treatment.
+  2. [NA] Prepare the treatment equipment, including medication or vaccine and syringe, ensuring sterility and proper disposal protocols.
+  3. [IC] Explain the treatment process to the patient, answer any questions, and obtain informed consent.
+  4. [ME] Administer the treatment (medication or vaccine) following proper technique and safety protocols.
+  5. [FV] Monitor the patient for any immediate adverse reactions or side effects.
+  6. [FV] Document the treatment procedure, including any adverse reactions or concerns, in the patient's medical record.
+  7. [IC] Provide post-treatment instructions to the patient and answer any remaining questions.
+[B]
+  1. [IC] Review the patient's medical history and current health status.
+  2. [IC] Confirm the patient's identity and the type of vaccine to be administered.
+  3. [NA] Prepare the vaccine vial and syringe, ensuring sterility.
+  4. [PD] Select the appropriate injection site, typically the deltoid muscle.
+  5. [NA] Clean the injection site with an antiseptic wipe.
+  6. [PD] Draw the correct dosage of vaccine into the syringe.
+  7. [ME] Insert the needle into the muscle at a 90-degree angle.
+  8. [ME] Inject the vaccine slowly and withdraw the needle.
+  9. [ME] Apply a bandage to the injection site if necessary.
+  10. [FV] Observe the patient for any immediate adverse reactions.
+  11. [FV] Provide post-treatment instructions to the patient.
+  12. [FV] Document the treatment in the patient's medical record.
+[C]
+  1. [IC] Review the patient's medical history and current health status, including allergies and contraindications.
+  2. [IC] Confirm the patient's identity and the specific treatment to be administered.
+  3. [NA] Prepare the necessary equipment and medication, ensuring sterility and proper dosage.
+  4. [IC] Explain the treatment process to the patient, address any concerns, and obtain informed consent.
+  5. [ME] Administer the treatment according to established protocols, monitoring for any adverse reactions.
+  6. [IC] Provide post-treatment instructions to the patient and answer any questions.
+  7. [FV] Document the treatment details, including dosage, time, and any observed reactions, in the patient's medical record.
+[D]
+  1. [IC] Review the patient's medical history, current health status, and medication chart to understand their condition and prescribed treatments.
+  2. [IC] Confirm the patient's identity and the type of treatment to be administered.
+  3. [NA] Prepare the necessary equipment and medications, ensuring sterility and proper disposal of used materials.
+  4. [PD] Select the appropriate administration site or method based on the treatment type and patient's condition.
+  5. [NA] Prepare the patient and administration site, ensuring comfort and sterility.
+  6. [ME] Administer the treatment following proper technique, safety protocols, and prescribed dosage.
+  7. [PD] Monitor the patient for any adverse reactions, side effects, or changes in vital signs.
+  8. [FV] Document the treatment procedure, including any adverse reactions or concerns, in the patient's medical record.
+  9. [IC] Provide post-treatment instructions to the patient, answer any questions, and offer support as needed.
+  10. [FV] Update the patient's medical record with any relevant information, including treatment status and any adverse reactions.
+
+================================================================
+ANSWER TEMPLATE
+
+40: _ | 
+41: _ | 
+42: _ | 
+43: _ | 
+44: _ | 
+45: _ | 
+46: _ | 
+47: _ | 
+48: _ | 
+49: _ | 
+50: _ | 
+51: _ | 
+52: _ | 
+53: _ | 
+54: _ | 
+55: _ | 
+56: _ | 
+57: _ | 
+58: _ | 
+59: _ | 
+60: _ | 
+61: _ | 
+62: _ | 
+63: _ | 
+64: _ | 
+65: _ | 
+66: _ | 
+67: _ | 
+68: _ | 
+69: _ | 
+70: _ | 
+71: _ | 
+72: _ | 
+73: _ | 
+74: _ | 
+75: _ | 
+76: _ | 
+77: _ | 
+78: _ | 
+

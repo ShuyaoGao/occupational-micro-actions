@@ -1,0 +1,361 @@
+BATCH 50/63 | Model: Claude Opus 4.7 | Tasks 393-400
+================================================================
+EXPERT REVIEW -- Micro-Action Sequence Evaluation
+For each task, read ALL four options, then choose the BEST (A/B/C/D).
+
+Criteria:
+  1. Completeness  -- no critical steps missing
+  2. Realism       -- every step is concretely executable
+  3. Stage accuracy -- stage label correct for each step:
+     IC=Intent_Communication  NA=Navigation_Addressing
+     PD=Perception_Diagnosis  ME=Manipulation_Execution  FV=Feedback_Verification
+  4. Conciseness   -- no redundant or duplicate steps
+  5. Scope         -- starts and ends at exactly the right point
+
+OUTPUT: fill the ANSWER TEMPLATE at the bottom.
+Format: N: X | one-sentence reason (max 12 words)
+IMPORTANT: Each task has a different best answer. Do NOT pick the same
+letter for every task without reading.
+================================================================
+
+--- Task 393: Calculate numerical data for medical activities.
+[A]
+  1. [IC] Log into the secure medical database system to access patient records.
+  2. [NA] Locate the specific records for the 50 patients involved in the clinical trial.
+  3. [PD] Extract blood pressure and heart rate data for each patient over the one-week period.
+  4. [ME] Import the extracted data into a spreadsheet or statistical software for analysis.
+  5. [ME] Calculate the average blood pressure and heart rate for each patient over the week.
+  6. [ME] Aggregate the individual patient averages to calculate the overall group averages.
+  7. [PD] Review the calculated averages for any outliers or anomalies.
+  8. [FV] Prepare a report summarizing the average blood pressure and heart rate for the group.
+  9. [FV] Deliver the report to the clinical trial team for further analysis and decision-making.
+[B]
+  1. [IC] Log into the secure medical database system to access patient records.
+  2. [NA] Locate the specific records for the 50 patients involved in the clinical trial.
+  3. [PD] Extract blood pressure and heart rate data for each patient over the one-week period.
+  4. [ME] Import the extracted data into a spreadsheet or statistical software for analysis.
+  5. [ME] Calculate the average blood pressure for each patient over the week.
+  6. [ME] Calculate the average heart rate for each patient over the week.
+  7. [ME] Aggregate the individual patient averages to calculate the overall group averages.
+  8. [PD] Review the calculated averages for any outliers or anomalies.
+  9. [FV] Prepare a report summarizing the average blood pressure and heart rate for the group.
+  10. [FV] Deliver the report to the clinical trial team for further analysis and decision-making.
+[C]
+  1. [IC] Log into the secure medical database system to access patient records.
+  2. [NA] Locate and retrieve records for the 50 patients involved in the clinical trial.
+  3. [PD] Extract blood pressure and heart rate data for each patient over the one-week period.
+  4. [ME] Import the extracted data into a spreadsheet or statistical software.
+  5. [ME] Calculate the average blood pressure and heart rate for each patient over the week.
+  6. [ME] Calculate the overall group averages for blood pressure and heart rate.
+  7. [FV] Review the calculated averages for any outliers or anomalies.
+  8. [FV] Prepare a report summarizing the average blood pressure and heart rate for the group.
+[D]
+  1. [IC] Log into the secure medical database system to access patient records.
+  2. [NA] Locate and access the specific records for the 50 patients involved in the clinical trial.
+  3. [PD] Extract blood pressure and heart rate data for each patient over the one-week period.
+  4. [ME] Import the extracted data into a spreadsheet or statistical software for analysis.
+  5. [ME] Calculate the average blood pressure and heart rate for each patient over the week.
+  6. [ME] Aggregate the individual patient averages to calculate the overall group averages.
+  7. [PD] Review the calculated averages for any outliers or anomalies.
+  8. [FV] Prepare a report summarizing the average blood pressure and heart rate for the group.
+  9. [FV] Review the report for accuracy and completeness.
+  10. [FV] Deliver the report to the clinical trial team for further analysis and decision-making.
+
+--- Task 394: Route mail to correct destinations.
+[A]
+  1. [IC] Scan the mail delivery manifest to understand the total volume and any special handling instructions.
+  2. [NA] Retrieve the first mail item from the sorting table.
+  3. [PD] Read the address on the mail item to determine the destination.
+  4. [PD] Identify the correct bin for the mail item based on the destination.
+  5. [ME] Move to the identified bin and place the mail item into the correct bin.
+  6. [IC] Repeat steps 2-5 for the remaining mail items.
+  7. [PD] Check for any mail items with incomplete or incorrect addresses and set them aside for further investigation.
+  8. [NA] Once all mail items have been sorted, push the sorting bins or trays to their respective collection areas.
+  9. [FV] Check each collection area to ensure all mail items have been delivered and no items have been left behind.
+  10. [IC] Notify the mailroom supervisor that the mail delivery has been completed and is ready for pick-up by the respective departments or individuals.
+[B]
+  1. [NA] Retrieve the first mail item from the sorting table.
+  2. [PD] Read the address on the mail item to determine the destination.
+  3. [PD] Identify the correct bin for the mail item based on the destination.
+  4. [NA] Move to the identified bin.
+  5. [ME] Place the mail item into the correct bin.
+  6. [NA] Retrieve the next mail item from the sorting table.
+  7. [PD] Read the address on the next mail item to determine the destination.
+  8. [PD] Identify the correct bin for the next mail item based on the destination.
+  9. [NA] Move to the identified bin.
+  10. [ME] Place the next mail item into the correct bin.
+  11. [FV] Double-check the work to ensure all mail has been accurately sorted and routed.
+  12. [FV] Deliver the sorted and routed mail to the correct destinations.
+[C]
+  1. [NA] Retrieve the first mail item from the sorting table.
+  2. [PD] Read the address on the mail item to determine the destination.
+  3. [PD] Identify the correct bin for the mail item based on the destination.
+  4. [NA] Move to the identified bin.
+  5. [ME] Place the mail item into the correct bin.
+  6. [IC] Repeat steps 1-5 for the remaining mail items.
+[D]
+  1. [IC] Scan the mail delivery manifest to understand the total volume and any special handling instructions.
+  2. [NA] Move to the mail delivery area and start picking up mail items.
+  3. [PD] Read and interpret the address on the first mail item.
+  4. [ME] Place the mail item in the appropriate sorting bin or tray based on the destination department or individual.
+  5. [ME] Repeat steps 2-4 for the next mail item until all items have been sorted.
+  6. [PD] Check for any mail items with incomplete or incorrect addresses.
+  7. [ME] Set aside any undeliverable mail items for further investigation or special handling.
+  8. [NA] Once all mail items have been sorted, push the sorting bins or trays to their respective collection areas.
+  9. [FV] Check each collection area to ensure all mail items have been delivered and no items have been left behind.
+  10. [IC] Notify the mailroom supervisor that the mail delivery has been completed and is ready for pick-up by the respective departments or individuals.
+
+--- Task 395: Warn individuals about rule violations or safety concerns.
+[A]
+  1. [PD] Scan the surrounding area for potential rule violations or safety concerns, paying attention to crowd density, suspicious behavior, and adherence to posted rules.
+  2. [PD] Identify a specific individual or group violating rules or posing safety concerns.
+  3. [NA] Approach the individual or group in a non-confrontational manner, maintaining a safe distance.
+  4. [IC] Make eye contact and use clear, concise language to explain the rule violation or safety concern.
+  5. [IC] Request the individual or group to correct the violation or address the safety concern.
+  6. [FV] Observe the individual's or group's response and ensure they comply with the request.
+  7. [ME] Document the warning and the corresponding rule violation or potential hazard, including the date, time, location, and individuals involved.
+[B]
+  1. [PD] Scan the surrounding area for potential rule violations or safety concerns, paying attention to crowd density, suspicious behavior, and adherence to posted rules.
+  2. [PD] Identify a specific individual violating the rules or posing a safety risk.
+  3. [NA] Approach the individual in a non-confrontational manner, maintaining a safe distance.
+  4. [IC] Make eye contact with the individual and use clear, concise language to explain the rule violation.
+  5. [IC] Point to the posted signage indicating the rule or safety protocol.
+  6. [IC] Explain the potential safety hazards associated with the rule violation.
+  7. [IC] Request the individual to cease the behavior and correct the safety issue.
+  8. [FV] Observe the individual's response and ensure they comply with the request.
+  9. [FV] Document the incident, including the date, time, location, and the individual involved.
+  10. [ME] If necessary, escort the individual to a safer location or assist them in rectifying the safety issue.
+  11. [NA] Continue monitoring the area and repeating the warning process as necessary until the entire area has been inspected and all rule violations or potential hazards have been addressed.
+[C]
+  1. [PD] Scan the environment for potential rule violations or safety concerns.
+  2. [NA] Approach the individual(s) involved, maintaining a safe distance and ensuring their attention.
+  3. [IC] Clearly communicate the specific rule violation or safety concern, using concise language and potentially visual aids.
+  4. [IC] Explain the potential risks or consequences associated with the violation.
+  5. [IC] Instruct the individual(s) on the necessary corrective action.
+  6. [FV] Observe the individual(s) to ensure they understand and are taking the necessary corrective action.
+  7. [FV] Document the incident, including the date, time, location, individuals involved, and the nature of the violation.
+[D]
+  1. [PD] Scan the surrounding area for potential rule violations or safety concerns.
+  2. [NA] Approach the individual or group involved in the violation, maintaining a safe distance and a non-confrontational manner.
+  3. [IC] Make eye contact and ensure the individual's attention, then clearly communicate the rule violation and potential risks.
+  4. [IC] Use visual aids, such as pointing to signs or demonstrating unsafe actions, to reinforce the warning.
+  5. [IC] Request the individual to stop the violating action and correct the issue, if applicable.
+  6. [PD] Monitor the individual to ensure they comply with the request and correct the safety violation.
+  7. [ME] Document the warning, including date, time, location, and the individual(s) involved, for future reference.
+  8. [IC] If necessary, take further action such as contacting authorities or management, or continue patrolling the area.
+
+--- Task 396: Schedule patient procedures or appointments.
+[A]
+  1. [IC] Receive a request for an MRI appointment from a doctor or patient.
+  2. [NA] Access the hospital's scheduling system and the patient's electronic health record to check available time slots and review medical history.
+  3. [PD] Identify a suitable time slot that accommodates the patient's availability, hospital resources, and medical staff.
+  4. [ME] Enter the patient's information and appointment details into the scheduling system.
+  5. [IC] Confirm the appointment time with the patient via phone or email and receive confirmation.
+  6. [ME] Update the scheduling system with the patient's confirmation and notify the MRI department of the scheduled appointment.
+  7. [ME] Send a confirmation email to the patient with all appointment details.
+  8. [FV] Final verification that the appointment is correctly scheduled and all parties are informed.
+[B]
+  1. [IC] Receive a request for an MRI appointment from a doctor or patient.
+  2. [NA] Access the hospital's scheduling system to check available time slots.
+  3. [PD] Identify a suitable time slot that accommodates the patient's availability and the hospital's resources.
+  4. [ME] Enter the patient's information into the scheduling system.
+  5. [IC] Confirm the appointment time with the patient via phone or email.
+  6. [ME] Update the scheduling system with the patient's confirmation.
+  7. [IC] Notify the MRI department of the scheduled appointment.
+  8. [ME] Send a confirmation email to the patient with all appointment details.
+  9. [FV] Final verification that the appointment is correctly scheduled and all parties are informed.
+[C]
+  1. [IC] Receive a request for an appointment from a doctor or patient.
+  2. [NA] Access the patient's electronic health record to review their medical history and previous appointments.
+  3. [NA] Check the availability of the relevant medical staff and required resources for the requested time frame.
+  4. [IC] Present available appointment options to the patient, considering their preferences.
+  5. [FV] Confirm the chosen appointment date and time with the patient.
+  6. [ME] Enter the appointment details into the scheduling system.
+  7. [IC] Send appointment confirmation to the patient (email or printout).
+[D]
+  1. [IC] Receive a request for an appointment from a patient or healthcare provider.
+  2. [NA] Access the patient's electronic health record (EHR) to review medical history and previous appointments.
+  3. [NA] Check the availability of relevant medical staff and facilities for the requested appointment.
+  4. [IC] Present the patient with available appointment options, considering their preferences and medical needs.
+  5. [IC] Confirm the chosen appointment date, time, and details with the patient.
+  6. [ME] Enter the appointment details into the scheduling system, updating the patient's EHR and clinic's master schedule.
+  7. [FV] Send a confirmation of the scheduled appointment to the patient and relevant medical staff via their preferred method.
+  8. [FV] Review the day's scheduled appointments to ensure all patients have been accommodated and no conflicts remain.
+
+--- Task 397: Assign class work to students.
+[A]
+  1. [IC] The teacher reviews the lesson plan and curriculum to determine the appropriate homework assignment.
+  2. [NA] The teacher logs into the Learning Management System (LMS) using their credentials.
+  3. [NA] The teacher navigates to the specific class section and selects the 'Assignments' or 'Homework' section.
+  4. [ME] The teacher creates a new assignment entry and inputs the assignment details, including the title, description, and due date.
+  5. [ME] The teacher uploads relevant resources and ensures the assignment details are accurate and complete.
+  6. [FV] The teacher reviews the assignment details for accuracy and completeness.
+  7. [ME] The teacher publishes the assignment, making it visible to all students in the class.
+[B]
+  1. [IC] Review the lesson plan and curriculum to determine the appropriate homework assignment.
+  2. [IC] Log into the LMS using teacher credentials.
+  3. [NA] Navigate to the class section for the math class.
+  4. [NA] Select the 'Assignments' or 'Homework' section within the class.
+  5. [PD] Create a new assignment by clicking the 'Create Assignment' button.
+  6. [ME] Input the assignment details, including the title, description, and due date.
+  7. [ME] Upload the homework document or links to the relevant resources.
+  8. [FV] Review the assignment details to ensure accuracy and completeness.
+  9. [FV] Click the 'Publish' or 'Assign' button to distribute the homework to the students.
+  10. [FV] Log out of the LMS to complete the assignment process.
+[C]
+  1. [IC] The teacher determines the appropriate homework assignment based on the lesson plan and curriculum.
+  2. [NA] The teacher logs into the Learning Management System (LMS).
+  3. [NA] The teacher navigates to the specific class section and selects the 'Assignments' section.
+  4. [ME] The teacher creates a new assignment entry and inputs the title, description, due date, and any relevant resources.
+  5. [FV] The teacher reviews the assignment details for accuracy and completeness.
+  6. [ME] The teacher publishes the assignment, making it visible to all students.
+[D]
+  1. [IC] Review lesson plan and curriculum to determine appropriate homework assignment.
+  2. [NA] Log into the Learning Management System (LMS) using teacher credentials.
+  3. [NA] Navigate to the specific class section for the subject.
+  4. [ME] Create a new assignment entry within the chosen class section.
+  5. [IC] Input the title, detailed instructions, word count, due date, and attach relevant resources for the assignment.
+  6. [FV] Review the assignment details for accuracy and completeness.
+  7. [ME] Publish the assignment, making it visible to all students in the class.
+  8. [IC] Wait for the class to settle down and gain their attention.
+  9. [IC] Clearly state the purpose of the class and the upcoming assignment, answering any student questions.
+
+--- Task 398: Convert data among multiple digital or analog formats.
+[A]
+  1. [PD] Open the CSV file in a text editor to understand the structure of the data.
+  2. [ME] Write a script in Python to convert the CSV data to JSON format using the pandas library.
+  3. [ME] Run the script to convert the CSV data to JSON format and save the output as a JSON file.
+  4. [FV] Open the JSON file in a text editor to verify the correctness of the conversion.
+  5. [NA] Install the necessary drivers and libraries to connect to the SQL database.
+  6. [ME] Write a script in Python to connect to the SQL database and upload the JSON data.
+  7. [FV] Run the script to upload the JSON data to the SQL database and verify the successful upload.
+[B]
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+[C]
+  1. [IC] Identify the source data format (analog, digital, physical) and the target format.
+  2. [NA] Connect and configure the necessary hardware or software for data acquisition or processing.
+  3. [PD] Acquire or load the data from the source.
+  4. [ME] Apply the appropriate conversion algorithm or method based on the identified formats.
+  5. [ME] Store the converted data in the desired target format.
+  6. [FV] Verify the accuracy and completeness of the converted data.
+[D]
+  1. [IC] Identify the source and target data formats.
+  2. [NA] Access the data source (e.g., open a CSV file, connect to an analog sensor).
+  3. [PD] Review and understand the data structure and format.
+  4. [ME] Convert the data from the source format to an intermediate digital format (e.g., CSV to JSON, analog to digital).
+  5. [ME] Store the intermediate digital data in a temporary buffer or file.
+  6. [NA] Connect to the target data storage or system (e.g., cloud-based database, SQL database).
+  7. [ME] Convert the intermediate digital data into the target format (e.g., JSON to CSV, digital to analog).
+  8. [ME] Upload or deliver the converted data to the target system or client's reporting system.
+  9. [FV] Verify the accuracy and completeness of the converted data in the target system.
+
+--- Task 399: Develop treatment plans for patients or clients.
+[A]
+  1. [PD] Review the patient's medical records, including surgical reports, pre-operative assessments, and any relevant history.
+  2. [PD] Conduct a physical examination of the patient's knee, assessing range of motion, strength, and any pain or limitations.
+  3. [IC] Discuss the patient's goals, concerns, and lifestyle factors that may influence the rehabilitation process.
+  4. [PD] Research and consult clinical guidelines and best practices for post-surgical knee rehabilitation.
+  5. [ME] Draft an initial treatment plan that includes exercises, stretches, and physical therapy sessions, tailored to the patient's specific needs.
+  6. [FV] Review the draft treatment plan with a senior physical therapist or medical professional for feedback.
+  7. [ME] Refine the treatment plan based on feedback and additional patient information.
+  8. [IC] Explain the treatment plan to the patient, including the rationale behind each component and expected outcomes.
+  9. [FV] Document the treatment plan in the patient's medical records and ensure all relevant parties (e.g., surgeons, nurses) are informed.
+  10. [NA] Schedule the first physical therapy session and provide the patient with a list of exercises to do at home.
+[B]
+  1. [PD] Review the patient's medical records and surgical notes to understand the extent of the knee surgery and any complications.
+  2. [PD] Conduct a physical examination of the patient's knee to assess range of motion, strength, and pain levels.
+  3. [IC] Discuss the patient's goals and expectations for rehabilitation with them.
+  4. [PD] Research and consult clinical guidelines and best practices for post-surgical knee rehabilitation.
+  5. [ME] Draft an initial treatment plan that includes exercises, stretches, and physical therapy sessions.
+  6. [FV] Review the draft treatment plan with a senior physical therapist or medical professional for feedback.
+  7. [ME] Refine the treatment plan based on feedback and additional patient information.
+  8. [NA] Schedule the first physical therapy session and provide the patient with a list of exercises to do at home.
+  9. [IC] Explain the treatment plan to the patient, including the rationale behind each component and expected outcomes.
+  10. [FV] Document the treatment plan in the patient's medical records and ensure all relevant parties (e.g., surgeons, nurses) are informed.
+[C]
+  1. [PD] Review the patient's medical records, surgical notes, and relevant history to understand the extent of the condition and any potential complications.
+  2. [PD] Conduct a physical examination to assess range of motion, strength, pain levels, and any other relevant physical indicators.
+  3. [IC] Discuss the patient's goals, expectations, lifestyle, and concerns regarding their rehabilitation.
+  4. [ME] Based on the patient's condition, goals, and physical capabilities, select appropriate exercises and treatment modalities.
+  5. [ME] Demonstrate each exercise to the patient, providing clear instructions on proper form, technique, and safety precautions.
+  6. [ME] Create a written treatment plan document outlining the selected exercises, frequency, duration, expected milestones, and any home exercise programs.
+  7. [IC] Review the treatment plan with the patient, answering any questions and ensuring they understand the plan and their role in the rehabilitation process.
+  8. [NA] Schedule follow-up appointments to monitor progress, adjust the treatment plan as needed, and provide ongoing support and motivation.
+[D]
+  1. [PD] Review the patient's medical records, including surgical reports, pre-operative assessments, and current living situation to understand their needs, circumstances, and medical history.
+  2. [PD] Conduct a physical examination, if applicable, to assess range of motion, strength, pain levels, and any limitations or symptoms.
+  3. [IC] Ask open-ended questions to understand the patient's goals, priorities, concerns, and any aggravating or alleviating factors, and identify their expectations for rehabilitation or treatment.
+  4. [PD] Research and consult clinical guidelines, best practices, and evidence-based treatment options relevant to the patient's specific needs and circumstances.
+  5. [ME] Develop a preliminary treatment plan that addresses the patient's specific needs, includes a clear timeline, and incorporates appropriate exercises, stretches, therapies, and medications.
+  6. [FV] Review the preliminary treatment plan with a senior professional or relevant parties for feedback, and refine the plan based on their input and additional patient information.
+  7. [FV] Document the final treatment plan in the patient's electronic health record (EHR), including medications, therapies, follow-up appointments, and any lifestyle changes recommended.
+  8. [IC] Review the treatment plan with the patient, explaining each component, answering questions, and ensuring they understand their role in the rehabilitation or treatment process.
+  9. [FV] Obtain the patient's approval and signature on the treatment plan, and schedule any necessary follow-up appointments or referrals.
+  10. [FV] Monitor the patient's progress, make adjustments to the treatment plan as needed, and evaluate its effectiveness to recommend future improvements.
+
+--- Task 400: Monitor patients to detect health problems.
+[A]
+  1. [IC] Review the patient's medical records and current treatment plan to familiarize oneself with the patient's medical history, medications, and previous health issues.
+  2. [NA] Navigate to the patient's room and introduce oneself, asking about their comfort and any concerns.
+  3. [PD] Measure and record the patient's vital signs, including blood pressure, heart rate, respiratory rate, temperature, and oxygen saturation.
+  4. [PD] Compare the current vital signs with previous readings and baseline values, looking for trends or significant changes.
+  5. [PD] Observe the patient's behavior and physical condition for any signs of distress or discomfort, and assess their pain level.
+  6. [FV] Document the patient's vital signs, behavior, and physical condition in the electronic health record (EHR).
+  7. [IC] Alert the physician or other healthcare professionals to any potential health problems or concerns identified.
+  8. [ME] Collaborate with the healthcare team to develop a plan for further evaluation and treatment of the patient's potential health problem.
+  9. [PD] Monitor the patient's response to the treatment plan and make any necessary adjustments.
+  10. [FV] Document the patient's response to the treatment plan and any necessary adjustments in the EHR.
+[B]
+  1. [IC] Review the patient's medical records and current treatment plan.
+  2. [NA] Navigate to the first patient's room and check the patient's vital signs using a monitor.
+  3. [PD] Observe the patient's vital signs on the monitor and compare them to the patient's baseline values.
+  4. [ME] Check the patient's oxygen saturation levels using a pulse oximeter.
+  5. [FV] Record the patient's vital signs and observations in the electronic health record (EHR).
+  6. [PD] Review the recorded data and compare it to the patients' baseline values and medical records.
+  7. [FV] Identify a potential health issue in one of the patients and alert the attending physician.
+  8. [FV] Document the alert and any subsequent actions taken in the EHR.
+  9. [PD] Monitor the patient's response to the plan and make any necessary adjustments.
+  10. [ME] Collaborate with the healthcare team to develop a plan for further evaluation and treatment of the patient's potential health problem.
+  11. [ME] Implement the plan for further evaluation and treatment of the patient's potential health problem.
+  12. [FV] Perform a final check on all patients before the end of the shift, ensuring their comfort and safety, and documenting any changes in their conditions.
+[C]
+  1. [IC] Review the patient's medical records and current treatment plan.
+  2. [NA] Proceed to the patient's bedside and introduce yourself.
+  3. [PD] Measure and record the patient's vital signs (blood pressure, heart rate, respiratory rate, temperature, oxygen saturation).
+  4. [PD] Observe the patient for any signs of distress, discomfort, or changes in behavior.
+  5. [PD] Compare current vital signs and observations to the patient's baseline values and medical history.
+  6. [FV] Document all findings and interventions in the patient's electronic health record.
+  7. [IC] Communicate any concerns or significant changes to the attending physician or relevant healthcare team members.
+[D]
+  1. [IC] Review patients' medical records, current treatment plans, and vital signs trends.
+  2. [NA] Navigate to the first patient's room and introduce yourself.
+  3. [PD] Measure and record the patient's vital signs (blood pressure, heart rate, respiratory rate, temperature, oxygen saturation).
+  4. [PD] Compare current vital signs with previous readings, looking for trends or significant changes.
+  5. [PD] Assess the patient's level of consciousness, neurological status, and inspect for signs of distress.
+  6. [ME] Document the patient's condition and any interventions performed in the EHR system.
+  7. [ME] Prioritize patients based on acuity levels and allocate time accordingly.
+  8. [FV] Communicate patients' conditions and any concerns to the interdisciplinary healthcare team.
+  9. [NA] Repeat steps 2-8 for all assigned patients.
+  10. [FV] Perform a final check on all patients before the end of the shift, ensuring their comfort and safety.
+
+================================================================
+ANSWER TEMPLATE
+
+393: _ | 
+394: _ | 
+395: _ | 
+396: _ | 
+397: _ | 
+398: _ | 
+399: _ | 
+400: _ | 
+

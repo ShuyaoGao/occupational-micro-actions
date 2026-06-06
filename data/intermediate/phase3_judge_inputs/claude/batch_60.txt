@@ -1,0 +1,369 @@
+BATCH 60/63 | Model: Claude Opus 4.7 | Tasks 473-480
+================================================================
+EXPERT REVIEW -- Micro-Action Sequence Evaluation
+For each task, read ALL four options, then choose the BEST (A/B/C/D).
+
+Criteria:
+  1. Completeness  -- no critical steps missing
+  2. Realism       -- every step is concretely executable
+  3. Stage accuracy -- stage label correct for each step:
+     IC=Intent_Communication  NA=Navigation_Addressing
+     PD=Perception_Diagnosis  ME=Manipulation_Execution  FV=Feedback_Verification
+  4. Conciseness   -- no redundant or duplicate steps
+  5. Scope         -- starts and ends at exactly the right point
+
+OUTPUT: fill the ANSWER TEMPLATE at the bottom.
+Format: N: X | one-sentence reason (max 12 words)
+IMPORTANT: Each task has a different best answer. Do NOT pick the same
+letter for every task without reading.
+================================================================
+
+--- Task 473: Confer with coworkers to coordinate maintenance or cleaning activities.
+[A]
+  1. [PD] Review the venue's layout and identify areas that need maintenance and cleaning.
+  2. [PD] Consult the maintenance and cleaning schedules to understand the current status of each area.
+  3. [IC] List down all tasks that need to be done, categorizing them into maintenance and cleaning tasks.
+  4. [PD] Identify which team members are available and their areas of expertise.
+  5. [ME] Match tasks with available team members based on their expertise and the task's location.
+  6. [IC] Communicate the assigned tasks, timelines, and any special instructions to each team member.
+  7. [NA] Provide each team member with a map of the venue, highlighting their assigned areas.
+  8. [FV] Coordinate with the team to ensure there are no conflicts in schedules or equipment usage.
+  9. [FV] Monitor the progress of each team member and provide assistance if needed.
+  10. [FV] Conduct a final walkthrough of the venue to ensure all tasks have been completed to the required standard.
+[B]
+  1. [IC] Gather all maintenance and cleaning staff in a conference room for a meeting.
+  2. [IC] Review the list of required maintenance and cleaning tasks for the weekend.
+  3. [IC] Ask each team member to provide input on their availability and capacity for the weekend.
+  4. [ME] Create a draft schedule that assigns tasks to team members based on their availability and expertise.
+  5. [IC] Present the draft schedule to the team and ask for feedback.
+  6. [IC] Listen to and address any concerns or suggestions from the team members.
+  7. [ME] Finalize the schedule, incorporating any necessary adjustments.
+  8. [IC] Distribute the finalized schedule to all team members via email or a shared digital platform.
+  9. [FV] Confirm with each team member that they have received and understood their assigned tasks and timing.
+  10. [PD] Review the schedule one last time to ensure that all areas of the office building are covered and that the schedule is realistic.
+[C]
+  1. [PD] Review the building floor plan and task list, identifying areas requiring maintenance or cleaning.
+  2. [IC] Gather all maintenance and cleaning staff to discuss the tasks and coordinate schedules.
+  3. [IC] Discuss individual preferences, expertise, and availability for different tasks.
+  4. [ME] Collaboratively propose a tentative division of labor, assigning specific areas and tasks to each team member.
+  5. [FV] Discuss and refine the proposed division, addressing any concerns or conflicts.
+  6. [FV] Confirm the final task allocation and cleaning schedule, ensuring everyone understands their responsibilities.
+[D]
+  1. [PD] Review the venue's layout and identify areas that need maintenance and cleaning.
+  2. [PD] Consult maintenance and cleaning schedules to understand the current status of each area.
+  3. [IC] List down all tasks that need to be done, categorizing them into maintenance and cleaning tasks.
+  4. [PD] Identify available team members and their areas of expertise.
+  5. [ME] Match tasks with available team members based on their expertise and the task's location.
+  6. [IC] Communicate assigned tasks, timelines, and any special instructions to each team member.
+  7. [NA] Provide each team member with a map of the venue, highlighting their assigned areas.
+  8. [FV] Coordinate with the team to ensure there are no conflicts in schedules or equipment usage.
+  9. [FV] Monitor the progress of each team member and provide assistance if needed.
+  10. [FV] Conduct a final walkthrough of the venue to ensure all tasks have been completed to the required standard.
+
+--- Task 474: Develop financial plans for clients.
+[A]
+  1. [IC] Schedule and conduct a meeting with the client to discuss their financial goals, risk tolerance, and time horizon, taking detailed notes and asking clarifying questions.
+  2. [PD] Gather and review the client's financial data, including income, expenses, assets, and liabilities, using industry-standard software to identify areas for improvement.
+  3. [ME] Develop a comprehensive financial plan, including investment strategies, risk management, and retirement planning, using industry-standard software and consulting with experts as needed.
+  4. [FV] Present the financial plan to the client, explaining the recommendations and rationale behind them, and answering any questions or concerns.
+  5. [FV] Review and finalize the financial plan, ensuring it meets the client's needs and goals, and is supported by thorough analysis and recommendations.
+  6. [ME] Document the financial plan, including all recommendations and rationale, and provide a copy to the client for their records.
+  7. [FV] Schedule follow-up meetings with the client to review progress and make adjustments to the financial plan as needed.
+[B]
+  1. [IC] Schedule a meeting with the client to discuss their financial situation and goals.
+  2. [IC] Gather detailed financial data from the client, including income, expenses, assets, and liabilities.
+  3. [PD] Analyze the client's current financial situation and identify key areas for improvement.
+  4. [PD] Research and select appropriate financial products and strategies, such as retirement accounts, college savings plans, and insurance.
+  5. [ME] Create a detailed financial plan that includes savings goals, investment strategies, and budgeting recommendations.
+  6. [FV] Present the financial plan to the client, explaining each component and answering any questions.
+  7. [FV] Review the client's feedback and make any necessary adjustments to the financial plan.
+  8. [FV] Finalize the financial plan and document all recommendations and actions.
+  9. [FV] Deliver the final financial plan to the client and schedule a follow-up meeting to review progress.
+[C]
+  1. [IC] Meet with the client to discuss their financial goals, risk tolerance, and time horizon, taking detailed notes and asking clarifying questions.
+  2. [IC] Gather detailed financial data from the client, including income, expenses, assets, and liabilities.
+  3. [PD] Analyze the client's current financial situation and identify areas for improvement, considering their goals and risk tolerance.
+  4. [ME] Develop a comprehensive financial plan, including investment strategies, risk management, and retirement planning, using industry-standard software and consulting with experts as needed.
+  5. [FV] Present the financial plan to the client, explaining the recommendations and rationale behind them, and answering any questions or concerns.
+  6. [FV] Review and finalize the financial plan, incorporating client feedback and making necessary adjustments.
+  7. [ME] Document the finalized financial plan, including all recommendations and rationale, and provide a copy to the client for their records.
+[D]
+  1. [IC] Meet with the client to discuss their financial goals, risk tolerance, time horizon, and gather detailed financial data, including income, expenses, assets, debts, and any existing financial products.
+  2. [PD] Review and analyze the client's financial data using industry-standard software to identify areas of improvement and assess their current financial status.
+  3. [ME] Develop a comprehensive financial plan, including investment strategies, risk management, retirement planning, savings goals, and budgeting recommendations, using industry-standard software and consulting with experts as needed.
+  4. [FV] Present the financial plan to the client, explaining the recommendations and rationale behind them, using visual aids if necessary, and answering any questions or concerns.
+  5. [IC] Address any client concerns or objections, providing additional information or clarification as needed, and making adjustments to the financial plan as necessary.
+  6. [PD] Review and finalize the financial plan, ensuring that it meets the client's needs and goals, and is supported by thorough analysis and recommendations.
+  7. [ME] Document the financial plan, including all recommendations, rationale, and a copy of the plan, and provide it to the client for their records.
+  8. [IC] Schedule follow-up meetings with the client to review progress, make adjustments to the financial plan as needed, and ensure it remains aligned with the client's changing needs and goals.
+  9. [PD] Continuously monitor and update the financial plan, ensuring that it remains aligned with the client's changing needs and goals, and industry best practices.
+  10. [FV] Evaluate the effectiveness of the financial plan, and make adjustments as needed to ensure that it continues to meet the client's needs and goals.
+
+--- Task 475: Monitor traffic signals.
+[A]
+  1. [IC] Enter the traffic control room and log into the traffic management software.
+  2. [PD] Review the current traffic signal timings and observe real-time traffic flow and congestion levels on the monitors.
+  3. [IC] Listen to radio communication from field officers for any reports of accidents or issues.
+  4. [ME] Adjust signal timings using the software to optimize traffic flow based on observed congestion and field reports.
+  5. [FV] Verify the changes in signal timings are correctly displayed on the monitors and monitor the impact on traffic flow.
+  6. [FV] Document any significant changes or incidents in the traffic management log.
+  7. [NA] Repeat the adjustment process as needed to maintain optimal traffic flow.
+[B]
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+[C]
+  1. [PD] Review real-time traffic flow and congestion levels on the monitors.
+  2. [IC] Listen to radio communication for reports of accidents or issues.
+  3. [ME] Adjust signal timings using the software to optimize traffic flow.
+  4. [FV] Verify the changes in signal timings are correctly displayed on the monitors.
+  5. [PD] Monitor the impact of the signal adjustments on traffic flow.
+  6. [ME] Repeat the adjustment process as needed to maintain optimal traffic flow.
+  7. [FV] Document any significant changes or incidents in the traffic management log.
+[D]
+  1. [IC] Enter the traffic control room and log into the traffic management software.
+  2. [NA] Review real-time traffic camera feeds and current signal timings displayed on the monitors.
+  3. [PD] Observe real-time traffic flow, congestion levels, and signal states on the monitors.
+  4. [IC] Listen to radio communication from field officers for any reports of accidents, incidents, or special events.
+  5. [PD] Predict traffic flow for the next cycle based on current patterns and known upcoming events.
+  6. [ME] Adjust signal timing plan for the next cycle to optimize traffic flow and minimize congestion.
+  7. [FV] Verify that signal timing changes have been implemented correctly by observing the signals and traffic flow.
+  8. [PD] Monitor traffic flow during the next cycle, looking for any signs of congestion or abnormal traffic patterns.
+  9. [IC] Communicate with other traffic management personnel about any observed issues or required interventions.
+  10. [ME] If necessary, override the automatic signal timing system to manually control signals and manage traffic flow in real-time.
+  11. [FV] Document any significant changes, incidents, or interventions in the traffic management log.
+  12. [FV] End the monitoring session and log out of the traffic management software.
+
+--- Task 476: Apply mortar.
+[A]
+  1. [NA] Retrieve the trowel and mortar from the work area.
+  2. [PD] Check the consistency of the mortar to ensure it is not too dry or too wet.
+  3. [ME] Dip the trowel into the mortar bucket and scoop out a sufficient amount.
+  4. [ME] Apply the mortar to the brick, spreading it evenly with the trowel.
+  5. [ME] Position the brick on the wall, pressing it into place to ensure the mortar adheres properly.
+  6. [ME] Use the trowel to scrape off any excess mortar from the sides of the brick.
+  7. [PD] Check the alignment and spacing of the brick with adjacent bricks.
+  8. [FV] Inspect the completed section to ensure all bricks are properly adhered and aligned.
+[B]
+  1. [PD] Measure and mix the required amount of mortar according to the mason's experience and the project specifications.
+  2. [ME] Load the mixed mortar onto the trowel and hold it at the correct angle for application.
+  3. [ME] Apply the mortar to the first brick, starting from one end of the course and working towards the other.
+  4. [ME] Use a notched trowel to spread the mortar evenly and fill any gaps between the bricks.
+  5. [PD] Use a level to ensure the first course of bricks is perfectly level and plumb.
+  6. [PD] Check the mortar for any signs of drying or setting too quickly, and make any necessary adjustments to the application process.
+  7. [ME] Apply a second layer of mortar to the first course of bricks, if necessary, to achieve the desired consistency and coverage.
+  8. [PD] Inspect the first course of bricks to ensure a uniform layer of mortar and no visible gaps or excess mortar.
+  9. [ME] Continue applying mortar and laying bricks until the wall section is complete.
+  10. [FV] Inspect the completed wall section to ensure all bricks are properly adhered and aligned.
+[C]
+  1. [NA] Retrieve the trowel, mortar, and brick from the work area.
+  2. [PD] Check the consistency of the mortar and adjust if needed by adding water.
+  3. [ME] Scoop a sufficient amount of mortar onto the trowel.
+  4. [ME] Spread the mortar evenly on the brick using the trowel.
+  5. [ME] Position the brick onto the mortar bed, aligning it with adjacent bricks.
+  6. [ME] Gently press the brick into place, ensuring good adhesion.
+  7. [ME] Remove excess mortar from around the brick using the trowel.
+  8. [FV] Visually inspect the brick placement and mortar application for quality.
+[D]
+  1. [PD] Retrieve and inspect the mortar bag, ensuring it's undamaged and suitable for use.
+  2. [NA] Place the mortar bag on a stable surface near the wall and prepare a hawk (small, flat board with a handle).
+  3. [ME] Tear open the mortar bag and pour some mortar into the hawk.
+  4. [ME] Add water to the mortar in the hawk and mix it with a trowel to achieve the desired consistency (not too wet or too dry).
+  5. [ME] Spread the mortar evenly over the designated area of the wall using a trowel, ensuring no air pockets are created.
+  6. [PD] Inspect the applied mortar for any air pockets, unevenness, or excessive mortar.
+  7. [IC] If satisfied with the application, signal to the team that the wall is ready for the next step; if not, make necessary adjustments.
+
+--- Task 477: Provide legal advice to clients.
+[A]
+  1. [IC] Greet the client, establish rapport, and confirm the client's desired outcome.
+  2. [IC] Ask targeted questions to gather detailed information about the client's situation and context.
+  3. [PD] Review the client's provided documents and research relevant laws and regulations.
+  4. [ME] Analyze the legal issue by comparing the client's situation with the legal framework.
+  5. [FV] Provide the client with a detailed explanation of the legal advice and potential risks.
+  6. [ME] Discuss potential strategies to mitigate legal risks and ensure compliance with relevant regulations.
+  7. [FV] Answer any additional questions the client may have and clarify any points of confusion.
+  8. [FV] Summarize the advice and next steps, and explain how to proceed with the case.
+  9. [FV] Deliver a written summary of the legal advice to the client via email or secure document sharing platform.
+[B]
+  1. [IC] Greet the client, introduce themselves, and explain the purpose of the meeting.
+  2. [IC] Active listening: Summarize the client's verbal description of their legal issue.
+  3. [IC] Ask clarifying questions to understand the full context and timeline of the issue.
+  4. [PD] Review the client's provided documents (e.g., contracts, letters, emails) to gather more information.
+  5. [PD] Research relevant laws, cases, and regulations to understand the legal framework.
+  6. [ME] Analyze the legal issue by comparing the client's situation with the understood legal framework.
+  7. [ME] Formulate a preliminary legal strategy or advice based on the analysis.
+  8. [FV] Communicate the legal advice clearly and concisely to the client, using plain language.
+  9. [FV] Answer the client's questions about the advice and clarify any misunderstandings.
+  10. [FV] Summarize the advice and next steps, and explain how to proceed with the case.
+  11. [IC] Thank the client for their time, reiterate the attorney's contact information, and escort them out of the office.
+[C]
+  1. [IC] Greet the client, confirm their identity, and understand the purpose of their visit.
+  2. [IC] Gather detailed information about the client's legal issue through active listening and targeted questions.
+  3. [PD] Review any relevant documents provided by the client to gain a deeper understanding of the situation.
+  4. [PD] Conduct thorough legal research on relevant laws, statutes, case precedents, and regulations.
+  5. [ME] Analyze the client's situation in light of the legal research, identifying potential legal risks and opportunities.
+  6. [ME] Develop a clear and concise legal strategy or advice tailored to the client's needs and circumstances.
+  7. [FV] Communicate the legal advice to the client in plain language, ensuring they understand the implications and options available.
+  8. [FV] Address the client's questions and concerns, providing further clarification and reassurance.
+  9. [FV] Summarize the key points of the advice, outline next steps, and establish a plan for moving forward.
+[D]
+  1. [IC] Greet the client, introduce yourself, and explain the purpose of the meeting.
+  2. [IC] Active listening: Summarize the client's verbal description of their legal issue.
+  3. [IC] Ask clarifying questions to understand the full context and timeline of the issue.
+  4. [PD] Review the client's provided documents to gather more information.
+  5. [PD] Research relevant laws, cases, and regulations to understand the legal framework.
+  6. [ME] Analyze the legal issue by comparing the client's situation with the understood legal framework.
+  7. [ME] Formulate a preliminary legal strategy or advice based on the analysis.
+  8. [FV] Communicate the legal advice clearly and concisely to the client, using plain language.
+  9. [FV] Answer the client's questions about the advice and clarify any misunderstandings.
+  10. [FV] Summarize the advice and next steps, and explain how to proceed with the case.
+  11. [IC] Thank the client for their time, reiterate your contact information, and escort them out of the office.
+
+--- Task 478: Modify software programs to improve performance.
+[A]
+  1. [PD] Review performance monitoring data to identify specific bottlenecks in the application's code.
+  2. [PD] Profile the code execution to pinpoint functions or sections consuming excessive resources.
+  3. [PD] Analyze the code structure and logic within the identified bottleneck areas.
+  4. [ME] Develop and implement code modifications to address the identified performance issues.
+  5. [FV] Conduct unit tests to ensure the modified code functions correctly and does not introduce regressions.
+  6. [NA] Deploy the modified code to a staging environment for further testing.
+  7. [FV] Monitor the performance of the application in the staging environment.
+  8. [NA] Deploy the optimized code to the production environment.
+  9. [FV] Monitor the production environment to confirm that the optimizations have improved performance and there are no new issues.
+[B]
+  1. [PD] Review performance monitoring data to identify specific bottlenecks in the application's code.
+  2. [PD] Profile the code execution to pinpoint functions or sections consuming excessive resources.
+  3. [PD] Analyze the code structure and logic within the identified bottleneck areas.
+  4. [ME] Develop and implement code modifications to address the identified performance issues.
+  5. [FV] Conduct unit tests to ensure the modified code functions correctly and does not introduce regressions.
+  6. [NA] Deploy the modified code to a staging environment for further testing.
+  7. [FV] Monitor the performance of the application in the staging environment.
+  8. [NA] Deploy the optimized code to the production environment.
+[C]
+  1. [PD] Review performance monitoring data and logs to identify specific bottlenecks and slow response times.
+  2. [PD] Profile the code execution to pinpoint functions or sections consuming excessive resources.
+  3. [PD] Analyze the code structure and logic within the identified bottleneck areas.
+  4. [ME] Develop and implement code modifications to address the identified performance issues.
+  5. [FV] Conduct unit tests to ensure the modified code functions correctly and does not introduce regressions.
+  6. [NA] Deploy the modified code to a staging environment for further testing.
+  7. [FV] Monitor the performance of the application in the staging environment.
+  8. [NA] Deploy the optimized code to the production environment during a scheduled maintenance window.
+  9. [FV] Monitor the production environment to confirm that the optimizations have improved performance and there are no new issues.
+[D]
+  1. [PD] Review performance monitoring data and metrics to identify specific bottlenecks and areas for improvement.
+  2. [PD] Use profiling tools to analyze code execution and pinpoint functions or sections consuming excessive resources.
+  3. [PD] Analyze the code structure and logic within the identified bottleneck areas to understand the root cause of performance issues.
+  4. [IC] Research and evaluate potential optimization strategies tailored to the identified issues.
+  5. [ME] Develop and implement code modifications to address the identified performance issues, ensuring that changes do not introduce new bugs or security vulnerabilities.
+  6. [ME] Write unit tests to validate the correctness of the implemented optimizations and ensure that they do not break existing functionality.
+  7. [NA] Deploy the optimized code to a staging environment for further testing, including load testing to simulate high traffic and validate performance improvements.
+  8. [IC] Review the optimized codebase with fellow engineers to ensure that the implemented changes follow best practices and maintain code consistency.
+  9. [NA] Deploy the optimized code to the production environment, monitoring the system for any unexpected behavior or errors.
+  10. [FV] Collect user feedback and monitor the performance of the optimized software post-deployment to ensure that the optimizations have the desired impact on user experience.
+
+--- Task 479: Organize special events.
+[A]
+  1. [IC] Meet with the client to discuss event goals, budget, desired theme, and guest list.
+  2. [NA] Research and shortlist potential venues based on capacity, location, and client preferences.
+  3. [PD] Visit shortlisted venues, assess suitability, and negotiate rental contracts.
+  4. [NA] Source and book vendors for catering, entertainment, decorations, and audiovisual equipment.
+  5. [ME] Create a detailed event timeline, including setup, guest arrival, activities, meals, and teardown.
+  6. [ME] Supervise venue setup, ensuring decorations, furniture, and equipment are arranged according to plan.
+  7. [PD] Conduct a final walkthrough of the venue to ensure everything is set up correctly and address any last-minute issues.
+  8. [NA] Welcome guests, manage the registration process, and ensure they are directed to their seats or other designated areas.
+  9. [FV] Monitor the event progress, troubleshoot any issues that arise, and ensure the event runs smoothly according to the schedule.
+  10. [ME] Oversee the teardown process, ensuring all vendors have completed their tasks, and the venue is left in the agreed-upon condition.
+  11. [FV] Reconcile vendor invoices, track expenses, and prepare a final report for the client.
+  12. [IC] Debrief with the client to gather feedback and discuss future event possibilities.
+[B]
+  1. [IC] Meet with the client to understand the event requirements, including the theme, guest list, and budget.
+  2. [NA] Research and select a venue that meets the client's requirements and budget.
+  3. [PD] Create a detailed event plan, including timelines, guest lists, and vendor contacts.
+  4. [ME] Coordinate with vendors to ensure all necessary equipment and services are arranged.
+  5. [NA] Arrange transportation for key speakers and VIPs.
+  6. [ME] Set up the venue, including decorations, seating arrangements, and audio-visual equipment.
+  7. [PD] Conduct a final walkthrough of the venue to ensure everything is in place.
+  8. [IC] Greet guests as they arrive and direct them to their seats.
+  9. [ME] Coordinate the event flow, including speeches, entertainment, and other planned activities.
+  10. [PD] Monitor the event for any issues and address them promptly.
+  11. [ME] Ensure the venue is cleared and cleaned up after the event.
+  12. [FV] Deliver the final event report to the client and gather feedback.
+[C]
+  1. [IC] Meet with the client to discuss event goals, budget, desired theme, and guest list.
+  2. [NA] Research and shortlist potential venues based on capacity, location, and client preferences.
+  3. [PD] Visit shortlisted venues, assess suitability, and negotiate rental contracts.
+  4. [NA] Source and book vendors for catering, entertainment, decorations, and audiovisual equipment.
+  5. [ME] Create a detailed event timeline, including setup, guest arrival, activities, meals, and teardown.
+  6. [ME] Supervise venue setup, ensuring decorations, furniture, and equipment are arranged according to plan.
+  7. [FV] Oversee event proceedings, troubleshoot any problems, and ensure guest satisfaction.
+  8. [ME] Coordinate teardown and cleanup of the venue after the event concludes.
+  9. [IC] Debrief with the client to gather feedback and discuss future event possibilities.
+[D]
+  1. [IC] Meet with the client to understand event requirements, including goals, budget, theme, guest list, and special needs.
+  2. [NA] Research and select suitable venues based on capacity, location, client preferences, and budget.
+  3. [PD] Visit shortlisted venues, assess suitability, negotiate rental contracts, and book the chosen venue.
+  4. [NA] Source and book vendors for catering, entertainment, decorations, audio-visual equipment, and other necessary services.
+  5. [ME] Create a detailed event timeline, including setup, guest arrival, activities, meals, and teardown.
+  6. [ME] Supervise venue setup, ensuring decorations, furniture, and equipment are arranged according to the event plan.
+  7. [NA] Welcome guests, manage registration, and direct them to their seats or designated areas.
+  8. [FV] Monitor event progress, troubleshoot issues, and ensure the event runs smoothly according to the schedule.
+  9. [ME] Coordinate teardown and cleanup of the venue after the event concludes, ensuring all vendors have completed their tasks.
+  10. [FV] Reconcile vendor invoices, track expenses, and prepare a final report for the client.
+  11. [IC] Debrief with the client to gather feedback, discuss future event possibilities, and document lessons learned.
+
+--- Task 480: Monitor video displays of medical equipment to ensure proper functioning.
+[A]
+  1. [NA] The technician enters the monitoring station and logs into the monitoring system using their credentials.
+  2. [PD] The technician reviews the layout of the video displays to understand which display corresponds to which medical equipment.
+  3. [PD] The technician visually inspects each video display for any anomalies or alerts, such as abnormal readings or alarms.
+  4. [ME] If any abnormalities are detected, the technician notes the specific display and the nature of the issue, and takes appropriate action such as notifying medical staff or initiating a troubleshooting protocol.
+  5. [FV] The technician documents the issue and the response in the patient's medical record, including any actions taken and the outcome.
+  6. [PD] The technician continues to monitor the video displays and respond to any further issues or alerts that may arise.
+  7. [IC] At the end of the shift, the technician hands over monitoring responsibilities to the incoming technician, providing a brief update on the status of each patient and any outstanding issues.
+[B]
+  1. [NA] Enter the ICU and approach the monitoring station
+  2. [NA] Log into the monitoring system
+  3. [PD] Review the layout of the video displays
+  4. [PD] Visually inspect the first video display
+  5. [PD] Check the second video display
+  6. [PD] Inspect each video display in sequence
+  7. [PD] Note any abnormalities detected
+  8. [ME] Take appropriate action based on the detected issue
+  9. [FV] Complete the monitoring cycle and confirm all ventilators are functioning properly
+  10. [FV] Log out of the monitoring system and record the status of the ventilators in the logbook
+[C]
+  1. [PD] The technician reviews the layout of the video displays to understand which display corresponds to which ventilator.
+  2. [PD] The technician begins visually inspecting each video display, looking for any abnormal readings or alarms.
+  3. [PD] If any abnormalities are detected, the technician notes the specific display and the nature of the issue.
+  4. [IC] The technician takes appropriate action based on the detected issue, such as notifying medical staff or initiating a troubleshooting protocol.
+  5. [FV] The technician documents the issue, actions taken, and outcome in the appropriate logbook or electronic system.
+[D]
+  1. [NA] Access the monitoring station and log into the system using credentials.
+  2. [PD] Review the layout of video displays to understand which display corresponds to which medical equipment.
+  3. [PD] Begin visually inspecting the first video display, looking for any abnormal readings, alarms, or malfunctions.
+  4. [PD] If an issue is detected, note the specific display and the nature of the issue.
+  5. [ME] Take appropriate action based on the detected issue, such as notifying medical staff, initiating a troubleshooting protocol, or applying software/firmware updates.
+  6. [FV] Document the issue, the response taken, and the outcome in the patient's medical record or equipment maintenance log.
+  7. [PD] Continue inspecting each video display in sequence, ensuring that all medical equipment is functioning correctly.
+  8. [FV] Upon completion of the monitoring cycle, confirm that all medical equipment is functioning properly.
+  9. [IC] Log out of the monitoring system and hand over monitoring responsibilities to the incoming technician, providing a brief update on the status of each medical equipment.
+
+================================================================
+ANSWER TEMPLATE
+
+473: _ | 
+474: _ | 
+475: _ | 
+476: _ | 
+477: _ | 
+478: _ | 
+479: _ | 
+480: _ | 
+

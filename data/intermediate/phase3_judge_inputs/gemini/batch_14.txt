@@ -1,0 +1,374 @@
+BATCH 14/63 | Model: Gemini 3 Pro | Tasks 105-112
+================================================================
+EXPERT REVIEW -- Micro-Action Sequence Evaluation
+For each task, read ALL four options, then choose the BEST (A/B/C/D).
+
+Criteria:
+  1. Completeness  -- no critical steps missing
+  2. Realism       -- every step is concretely executable
+  3. Stage accuracy -- stage label correct for each step:
+     IC=Intent_Communication  NA=Navigation_Addressing
+     PD=Perception_Diagnosis  ME=Manipulation_Execution  FV=Feedback_Verification
+  4. Conciseness   -- no redundant or duplicate steps
+  5. Scope         -- starts and ends at exactly the right point
+
+OUTPUT: fill the ANSWER TEMPLATE at the bottom.
+Format: N: X | one-sentence reason (max 12 words)
+IMPORTANT: Each task has a different best answer. Do NOT pick the same
+letter for every task without reading.
+================================================================
+
+--- Task 105: Record operational or environmental data.
+[A]
+  1. [IC] The technician arrives at the monitoring location and checks the handheld device for battery life and connectivity.
+  2. [NA] The technician navigates to the first monitoring point.
+  3. [PD] The technician activates the environmental sensors on the handheld device and records the temperature, humidity, and air quality.
+  4. [ME] The technician logs the recorded data into the handheld device and confirms the entry.
+  5. [ME] The technician transmits the logged data to the central monitoring system.
+  6. [NA] The technician navigates to the next monitoring point and repeats the data collection process.
+  7. [FV] The technician completes the data collection cycle and confirms all required points have been logged and transmitted.
+[B]
+  1. [IC] The technician arrives at the industrial facility and checks the handheld device for battery life and connectivity.
+  2. [NA] The technician navigates to the first monitoring point in Zone A.
+  3. [PD] The technician activates the environmental sensors on the handheld device and records the temperature, humidity, and air quality at Zone A.
+  4. [ME] The technician logs the recorded data into the handheld device and confirms the entry.
+  5. [ME] The technician transmits the logged data to the central monitoring system.
+  6. [NA] The technician navigates to the second monitoring point in Zone B.
+  7. [PD] The technician activates the environmental sensors on the handheld device and records the temperature, humidity, and air quality at Zone B.
+  8. [ME] The technician logs the recorded data into the handheld device and confirms the entry.
+  9. [ME] The technician transmits the logged data to the central monitoring system.
+  10. [FV] The technician completes the data collection cycle and confirms all required points have been logged and transmitted.
+[C]
+  1. [NA] Navigate to the designated data collection point.
+  2. [ME] Activate the necessary sensors or instruments for data acquisition.
+  3. [PD] Record the environmental or operational data displayed by the sensors/instruments.
+  4. [ME] Log the recorded data into the designated system (handheld device, logbook, etc.).
+  5. [FV] Verify the accuracy of the logged data and confirm successful transmission to the central system (if applicable).
+[D]
+  1. [IC] Ensure safety by wearing appropriate gear and checking equipment.
+  2. [NA] Navigate to the first monitoring point.
+  3. [PD] Activate environmental sensors and record temperature, humidity, and air quality.
+  4. [ME] Log the recorded data into the handheld device and confirm the entry.
+  5. [ME] Transmit the logged data to the central monitoring system.
+  6. [FV] Verify that all required points have been logged and transmitted.
+  7. [NA] Navigate to the next monitoring point and repeat steps 3 to 6 until all points are covered.
+  8. [NA] Upon completing data collection, return to the starting point or base station.
+  9. [FV] Document the data collection process, noting any issues encountered or observations made.
+
+--- Task 106: Analyze forensic evidence to solve crimes.
+[A]
+  1. [IC] Review the case file to understand the crime scene, victims, and suspects.
+  2. [PD] Carefully unpackage and examine the physical evidence, noting initial observations.
+  3. [NA] Select appropriate tools and techniques for analyzing the evidence, such as DNA testing, trace evidence analysis, or ballistics.
+  4. [ME] Prepare and process the evidence for analysis, following strict chain-of-custody protocols.
+  5. [ME] Operate specialized equipment, such as DNA sequencers or scanning electron microscopes, to analyze the evidence.
+  6. [PD] Interpret the results of the analysis, comparing them to known databases or other evidence from the case.
+  7. [FV] Prepare a detailed report outlining the findings, conclusions, and how they support the case against the suspect.
+  8. [IC] Present the findings to the investigation team, answering questions and discussing implications.
+  9. [FV] Archive the evidence and case file, ensuring they are properly stored and accessible for future reference.
+[B]
+  1. [IC] Review the case file to understand the crime scene, victims, and suspects.
+  2. [PD] Carefully unpackage and examine the physical evidence, noting initial observations.
+  3. [ME] Select appropriate tools and techniques for analyzing the evidence, such as DNA testing, trace evidence analysis, or ballistics.
+  4. [ME] Prepare and process the evidence for analysis, following strict chain-of-custody protocols.
+  5. [ME] Operate specialized equipment, such as DNA sequencers or scanning electron microscopes, to analyze the evidence.
+  6. [PD] Interpret the results of the analysis, comparing them to known databases or other evidence from the case.
+  7. [NA] Reconstruct the crime scene based on the evidence, considering timelines, locations, and actions of the suspect and victim.
+  8. [FV] Prepare a detailed report outlining the findings, conclusions, and how they support the case against the suspect.
+  9. [IC] Present the findings to the investigation team, answering questions and discussing implications.
+  10. [FV] Archive the evidence and case file, ensuring they are properly stored and accessible for future reference.
+[C]
+  1. [IC] Receive and document evidence from the crime scene, including fingerprints, DNA samples, and trace evidence, ensuring proper chain of custody.
+  2. [PD] Analyze fingerprints: capture high-resolution images, enhance them digitally, and identify key minutiae points.
+  3. [NA] Compare fingerprint minutiae points against a database of known prints, looking for potential matches.
+  4. [ME] Process DNA samples: extract, purify, and analyze DNA using sequencing techniques.
+  5. [NA] Compare the generated DNA profile against known profiles in a database to identify potential matches.
+  6. [PD] Analyze trace evidence (e.g., glass shards) for fingerprints or other relevant clues.
+  7. [FV] Compile all findings from fingerprint, DNA, and trace evidence analysis into a comprehensive report.
+  8. [IC] Present the forensic report to the investigating officer, explaining the findings and their implications for the case.
+[D]
+  1. [IC] Review the case file and understand the crime scene, victims, and suspects.
+  2. [PD] Carefully unpackage and examine the physical evidence, noting initial observations and ensuring proper chain of custody.
+  3. [ME] Select appropriate tools and techniques for analyzing the evidence, such as DNA testing, fingerprint analysis, or trace evidence analysis.
+  4. [ME] Prepare and process the evidence for analysis, following strict chain-of-custody protocols.
+  5. [ME] Operate specialized equipment to analyze the evidence, such as DNA sequencers, fingerprint scanners, or scanning electron microscopes.
+  6. [PD] Analyze and interpret the results of the analysis, comparing them to known databases or other evidence from the case.
+  7. [NA] Reconstruct the crime scene based on the evidence, considering timelines, locations, and actions of the suspect and victim.
+  8. [FV] Prepare a detailed report outlining the findings, conclusions, and how they support the case against the suspect.
+  9. [IC] Present the findings to the investigation team, answering questions and discussing implications.
+  10. [FV] Archive the evidence and case file, ensuring they are properly stored and accessible for future reference.
+
+--- Task 107: Create models of engineering designs or methods.
+[A]
+  1. [IC] Review the project brief and design requirements to understand the specifications.
+  2. [NA] Open the CAD software and create a new project file, setting up the coordinate system and defining main parameters.
+  3. [ME] Sketch the initial design concepts and create the basic shape using 3D modeling tools.
+  4. [ME] Add detailed features to the model, such as articulation points, connectors, and surface textures.
+  5. [FV] Run simulations to test the model's functionality and identify any potential issues.
+  6. [ME] Make any necessary revisions to the model based on the simulation results.
+  7. [FV] Save the completed 3D model in a format suitable for further analysis and fabrication.
+[B]
+  1. [IC] Review the client's requirements and specifications for the engineering design.
+  2. [NA] Open the CAD software and create a new project file.
+  3. [NA] Import the relevant data and specifications into the CAD software.
+  4. [ME] Create the 3D model of the engineering design using the CAD software.
+  5. [ME] Add details and features to the 3D model, such as materials, textures, and dimensions.
+  6. [FV] Perform a preliminary check of the model to ensure all components are correctly placed and connected.
+  7. [FV] Run simulations or tests to evaluate the engineering design's performance and efficiency.
+  8. [ME] Adjust the model based on the simulation results to optimize performance and ensure it meets the design requirements.
+  9. [FV] Save the final model and prepare a report summarizing the design and simulation results for the client.
+[C]
+  1. [IC] Review the project brief and design specifications to understand the engineering design requirements.
+  2. [NA] Open the appropriate CAD software and create a new project file.
+  3. [PD] Define the project's coordinate system and input key parameters (dimensions, materials, etc.)
+  4. [ME] Create the initial 2D sketch or outline of the design, incorporating key features and dimensions.
+  5. [ME] Develop the 3D model by extruding the 2D sketch, adding details like components, features, and structural elements.
+  6. [FV] Perform initial checks on the 3D model for errors, inconsistencies, and adherence to design parameters.
+  7. [FV] Run simulations (if applicable) to evaluate the design's performance, functionality, or structural integrity.
+  8. [ME] Refine the 3D model based on verification results, making necessary adjustments to improve design quality.
+  9. [NA] Save the final 3D model in the appropriate format and prepare documentation summarizing the design process and results.
+[D]
+  1. [IC] Review the project brief, design requirements, and any relevant data to understand the project's specifications and goals.
+  2. [NA] Open the appropriate 3D modeling or CAD software and create a new project file.
+  3. [PD] Import or create any necessary 2D sketches, reference data, or initial shapes to serve as the foundation for the 3D model.
+  4. [ME] Begin creating the 3D model by using the software's tools to build, extrude, or otherwise generate the main components of the design.
+  5. [ME] Add details, features, and structural elements to the model, ensuring it accurately represents the intended design.
+  6. [FV] Perform initial checks on the model's geometry, ensuring it's watertight, error-free, and meets the design requirements.
+  7. [FV] Run simulations, perform analyses, or otherwise evaluate the model's performance to ensure it meets the design goals.
+  8. [ME] Make any necessary revisions to the model based on the evaluation results, design feedback, or changes in requirements.
+  9. [NA] Save the final model with an appropriate filename, backup, and in any required formats for further analysis or manufacturing.
+  10. [FV] Prepare any necessary documentation, reports, or support materials to accompany the final model.
+
+--- Task 108: Evaluate current or prospective maintenance employees.
+[A]
+  1. [IC] Review the candidate's resume and application materials, noting relevant experience and certifications.
+  2. [IC] Conduct a structured interview, asking questions about the candidate's knowledge of industrial machinery maintenance, troubleshooting techniques, and safety protocols.
+  3. [NA] Present the candidate with a simulated maintenance scenario involving a malfunctioning piece of equipment commonly used in the plant.
+  4. [PD] Observe the candidate's approach to diagnosing the problem, including their use of tools, safety procedures, and problem-solving strategies.
+  5. [IC] Ask the candidate to explain their reasoning and proposed solution for repairing the malfunction.
+  6. [ME] Provide feedback and guidance to the candidate during the simulation, observing their receptiveness to feedback and willingness to learn.
+  7. [FV] Evaluate the candidate's overall performance based on their technical skills, problem-solving abilities, communication skills, and safety consciousness.
+  8. [IC] Document the evaluation results and provide feedback to the candidate.
+  9. [FV] Prepare a written report summarizing each candidate's strengths, weaknesses, and recommendations for hiring, training, or role assignment.
+[B]
+  1. [PD] Review the performance records of current maintenance employees.
+  2. [IC] Schedule interviews with current employees to discuss their performance and gather feedback.
+  3. [IC] Conduct interviews with current employees, asking specific questions about their job performance and areas for improvement.
+  4. [NA] Review resumes and applications of prospective maintenance employees.
+  5. [IC] Schedule interviews with prospective candidates.
+  6. [IC] Conduct interviews with prospective candidates, asking about their experience and skills.
+  7. [PD] Observe the practical skills of prospective candidates through a hands-on assessment.
+  8. [FV] Compile notes and feedback from interviews and assessments.
+  9. [FV] Provide feedback to current employees and discuss areas for improvement.
+  10. [FV] Select the most qualified candidates for open positions and initiate the hiring process.
+[C]
+  1. [NA] Review performance records and resumes of both current and prospective maintenance employees.
+  2. [IC] Conduct structured interviews with both current and prospective employees, focusing on technical knowledge, problem-solving skills, and communication.
+  3. [NA] Present candidates with a simulated maintenance scenario involving a common piece of equipment.
+  4. [PD] Observe candidates' approach to diagnosing and solving the problem, noting their use of tools, safety procedures, and problem-solving strategies.
+  5. [FV] Provide feedback to current employees on their performance, highlighting areas for improvement and offering support for development.
+  6. [FV] Evaluate all candidates based on their performance in interviews, simulations, and resume review, selecting the most qualified individuals for open positions.
+[D]
+  1. [IC] Review performance records and resumes of current and prospective maintenance employees.
+  2. [IC] Conduct structured interviews to assess technical knowledge, problem-solving skills, and communication.
+  3. [PD] Administer safety quizzes to assess understanding of safety protocols.
+  4. [PD] Observe candidates performing practical tasks and working in teams to assess hands-on skills and teamwork.
+  5. [PD] Present candidates with hypothetical and complex maintenance scenarios to assess problem-solving abilities.
+  6. [PD] Ask candidates to explain their approach to preventive maintenance and record-keeping.
+  7. [ME] Provide feedback and guidance to candidates during practical tasks and scenarios.
+  8. [FV] Evaluate candidates' overall performance based on technical skills, problem-solving abilities, communication, safety consciousness, and teamwork.
+  9. [FV] Document evaluation results and provide feedback to candidates.
+  10. [FV] Prepare a written report summarizing each candidate's strengths, weaknesses, and recommendations for hiring, training, or role assignment.
+
+--- Task 109: Maintain fire fighting tools or equipment.
+[A]
+  1. [IC] Retrieve the list of fire fighting tools and equipment that need maintenance from the station's inventory system.
+  2. [NA] Navigate to the equipment room and locate the first item on the list.
+  3. [PD] Inspect the equipment for any visible damage or wear.
+  4. [ME] Clean the equipment using appropriate cleaning solutions and methods.
+  5. [FV] Test the equipment to ensure it functions correctly.
+  6. [PD] Identify any damaged or worn parts that need to be replaced or repaired.
+  7. [ME] Replace or repair the identified parts using the appropriate tools and materials.
+  8. [ME] Reassemble and reinstall any disassembled parts, ensuring they are properly secured.
+  9. [FV] Test the repaired or replaced parts to ensure they function correctly and safely.
+  10. [FV] Document the results of the maintenance check, including any issues or repairs needed.
+[B]
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+[C]
+  1. [IC] Retrieve the list of fire fighting tools and equipment that need maintenance from the station's inventory system.
+  2. [NA] Navigate to the location of the first item on the list.
+  3. [PD] Inspect the equipment for visible damage, wear, and proper functionality.
+  4. [ME] Clean the equipment using appropriate methods and materials.
+  5. [ME] Perform any necessary maintenance tasks, such as refilling air tanks, replacing worn parts, or testing functionality.
+  6. [FV] Document the maintenance performed, including any issues found and repairs made.
+  7. [ME] Repeat steps 2-6 for each item on the maintenance list.
+[D]
+  1. [IC] Retrieve the list of fire fighting tools and equipment that need maintenance from the station's inventory system.
+  2. [NA] Put on personal protective equipment (PPE) to ensure safety while handling equipment.
+  3. [NA] Locate and access the fire fighting tools and equipment, either on the fire truck or in the equipment room.
+  4. [PD] Inspect each tool and piece of equipment visually for any signs of damage, wear, or tampering.
+  5. [PD] Check the pressure gauges on air tanks and other pressurized equipment to ensure they are within safe limits.
+  6. [ME] Clean any dirt or debris from the tools and equipment using appropriate cleaning solutions and methods.
+  7. [ME] Test each tool and piece of equipment to ensure they function correctly. This may include operating fire hoses, discharging fire extinguishers, and performing system checks on breathing apparatuses.
+  8. [PD] Identify any damaged, worn, or malfunctioning parts that need to be replaced or repaired.
+  9. [ME] Replace or repair the identified parts using the appropriate tools and materials.
+  10. [FV] Test the repaired or replaced parts to ensure they function correctly and safely.
+  11. [FV] Document the results of the maintenance checks, including any issues or repairs needed, and update the station's inventory system.
+  12. [FV] Reinstall any disassembled parts, ensure they are properly secured, and close the equipment bay or remove PPE, signaling the completion of the maintenance task.
+
+--- Task 110: Operate cutting equipment.
+[A]
+  1. [IC] Review the work order and blueprints to understand the required cut dimensions and shape.
+  2. [NA] Put on personal protective equipment (PPE), including safety glasses, gloves, and flame-resistant clothing.
+  3. [NA] Position the material securely on the cutting table, ensuring it's level and stable.
+  4. [PD] Mark the cutting line on the material using a soapstone or chalk, following the dimensions from the blueprints.
+  5. [ME] Set up the cutting equipment, ensuring all connections and settings are correct.
+  6. [ME] Initiate the cutting process, guiding the equipment along the marked line with consistent speed and angle.
+  7. [PD] Monitor the cut's progress, making adjustments as needed to maintain a clean, straight edge.
+  8. [ME] Complete the cutting process and allow the material to cool naturally.
+  9. [FV] Inspect the cut for any imperfections, ensuring it meets the required quality standards.
+  10. [FV] Document the completed work, including the cut dimensions, any issues encountered, and the final quality assessment.
+[B]
+  1. [IC] Review the work order and blueprints to understand the required cut dimensions and shape.
+  2. [NA] Put on personal protective equipment (PPE), including a welding helmet, gloves, and flame-resistant clothing.
+  3. [NA] Position the steel plate securely on the cutting table, ensuring it's level and stable.
+  4. [PD] Mark the cutting line on the steel plate using a soapstone or chalk, following the dimensions from the blueprints.
+  5. [ME] Set up the oxy-fuel cutting torch, ensuring the oxygen and fuel gas (propane or acetylene) cylinders are properly connected and the regulator is set to the correct pressure.
+  6. [ME] Light the torch and adjust the flame to the appropriate size and shape for cutting 10-inch thick steel.
+  7. [ME] Begin cutting along the marked line, maintaining a consistent speed and torch angle to ensure a straight, even cut.
+  8. [PD] Monitor the cut's progress, adjusting the torch angle and speed as needed to maintain a clean, straight edge.
+  9. [FV] Once the cut is complete, allow the plate to cool naturally before removing the slag and deburring the edges using a wire brush or grinder.
+  10. [FV] Inspect the cut for any imperfections, ensuring it meets the required quality standards.
+  11. [FV] Document the completed work, including the cut dimensions, any issues encountered, and the final quality assessment, for the work order records.
+[C]
+  1. [IC] Review the work order and blueprints to understand the required cut dimensions, material, and shape.
+  2. [NA] Put on appropriate personal protective equipment (PPE) such as safety glasses, gloves, and hearing protection.
+  3. [NA] Position and secure the material (steel plate or lumber) on the cutting equipment bed or table.
+  4. [PD] Mark the cutting line on the material using appropriate tools (chalk, soapstone, digital marking) based on the specifications.
+  5. [ME] Configure the cutting equipment (CNC plasma cutter, table saw, oxy-fuel torch) with the correct settings for the material and desired cut.
+  6. [ME] Initiate the cutting process, monitoring the equipment and material for any deviations or issues.
+  7. [FV] Inspect the finished cut for accuracy, quality, and adherence to specifications.
+  8. [FV] Perform any necessary post-cutting tasks such as deburring, slag removal, or cleaning.
+[D]
+  1. [IC] Review work order and blueprints to understand required cut dimensions and shape.
+  2. [NA] Put on personal protective equipment (PPE) appropriate for the cutting equipment being used.
+  3. [NA] Position the material securely on the cutting equipment's bed, ensuring it's level, stable, and properly aligned.
+  4. [PD] Mark the cutting line on the material using appropriate marking tools, following the dimensions from the blueprints.
+  5. [ME] Set up and calibrate the cutting equipment according to the material type, thickness, and required cut dimensions.
+  6. [ME] Initiate the cutting process, monitoring the cut's progress and making any necessary adjustments to maintain a clean, straight edge.
+  7. [FV] Allow the material to cool naturally (if necessary) and remove any slag or debris from the cut edges.
+  8. [FV] Inspect the cut for any imperfections, ensuring it meets the required quality standards.
+  9. [FV] Document the completed work, including cut dimensions, any issues encountered, and the final quality assessment, for work order records.
+
+--- Task 111: Advise clients or community groups on health issues.
+[A]
+  1. [NA] Set up the workshop space: arrange chairs, test the projector, and lay out printed materials.
+  2. [IC] Greet participants as they arrive, making introductions and creating a welcoming atmosphere.
+  3. [IC] Present an introductory overview of the health topic, tailored to the needs of the audience.
+  4. [ME] Use visual aids (charts, diagrams) to illustrate key concepts and make the information more accessible.
+  5. [FV] Facilitate a question-and-answer session, addressing individual concerns and providing personalized advice.
+  6. [NA] Distribute printed handouts summarizing the workshop content and providing additional resources.
+  7. [IC] Summarize the key points of the session and encourage attendees to apply the information to their daily lives.
+  8. [FV] Thank participants for attending and gather feedback on the workshop's effectiveness.
+  9. [NA] Pack up materials and leave the workshop space tidy.
+[B]
+  1. [IC] Review client intake forms to identify common health issues and concerns in the community.
+  2. [NA] Set up the meeting space with visual aids, such as diagrams and charts, to support the presentation.
+  3. [IC] Welcome clients and introduce oneself, establishing a rapport and creating a safe space for discussion.
+  4. [PD] Present information on proper nutrition and hygiene practices, using visual aids and examples to illustrate key points.
+  5. [IC] Answer questions and address concerns from clients, providing individualized guidance and support.
+  6. [NA] Distribute educational materials, such as brochures and flyers, to clients for further reference.
+  7. [IC] Encourage clients to ask questions and seek further guidance, providing resources for follow-up support.
+  8. [FV] Evaluate the effectiveness of the presentation and gather feedback from clients, identifying areas for improvement.
+  9. [FV] Update client records and maintain confidentiality, ensuring that client information is secure and protected.
+[C]
+  1. [IC] Review client intake forms or community health data to identify prevalent health concerns.
+  2. [NA] Prepare the meeting space, ensuring comfortable seating, functional audio-visual equipment, and relevant visual aids.
+  3. [IC] Warmly greet participants, introduce yourself, and establish a safe and welcoming environment for discussion.
+  4. [ME] Deliver a clear and engaging presentation tailored to the identified health concerns, using visual aids and real-life examples.
+  5. [FV] Facilitate a Q&A session, actively listening to participant questions and providing accurate, personalized guidance.
+  6. [ME] Distribute relevant handouts or resources for further learning and reference.
+  7. [IC] Summarize key takeaways and encourage participants to apply the information to their lives.
+  8. [FV] Gather feedback on the session's effectiveness and identify areas for improvement in future workshops.
+[D]
+  1. [NA] Set up the workshop space, including arranging chairs, testing audio-visual equipment, and laying out printed materials.
+  2. [IC] Greet participants as they arrive, making introductions, and creating a welcoming atmosphere.
+  3. [PD] Conduct a brief survey or review intake forms to understand the attendees' current knowledge and concerns about the health issue.
+  4. [ME] Present key information about the health issue, using visual aids, examples, and clear language to illustrate key points.
+  5. [FV] Facilitate a question-and-answer session, addressing individual concerns, providing personalized advice, and clarifying doubts.
+  6. [NA] Distribute educational materials, such as brochures, flyers, or handouts summarizing the workshop content and providing additional resources.
+  7. [IC] Encourage attendees to ask questions, seek further guidance, and apply the information to their daily lives.
+  8. [FV] Evaluate the effectiveness of the presentation, gather feedback, and identify areas for improvement.
+  9. [NA] Pack up materials and leave the workshop space tidy.
+
+--- Task 112: Inspect sustainable energy production facilities or equipment.
+[A]
+  1. [IC] Review maintenance schedule and facility layout to plan the inspection route and prioritize areas of concern.
+  2. [NA] Navigate to the first section of the facility, wearing appropriate safety gear and equipment.
+  3. [PD] Visually inspect the equipment from a distance using binoculars or drones for any visible damage or debris.
+  4. [ME] Access the equipment using appropriate tools (ladders, drones) and inspect for detailed signs of wear, damage, or inefficiency.
+  5. [FV] Document all findings, including issues and efficiency data, using a digital tool (tablet, smartphone).
+  6. [NA] Repeat steps 2-5 for all sections of the facility.
+  7. [PD] Analyze the collected data to identify patterns or trends in equipment efficiency and condition.
+  8. [IC] Develop a report with recommendations for maintenance and improvement based on the data analysis.
+  9. [FV] Review the report with the facility manager to ensure accuracy and completeness.
+  10. [FV] Submit the final report to the facility manager for review and further action if necessary.
+[B]
+  1. [IC] Review maintenance schedule and facility layout to plan the inspection route and prioritize areas of concern.
+  2. [NA] Navigate to the first section of the solar farm using a 4x4 vehicle, wearing protective gear and equipment.
+  3. [PD] Use a binocular to inspect the panels from a distance, looking for signs of damage or degradation.
+  4. [ME] Use a ladder to access the panels and collect data on their efficiency using a specialized tool.
+  5. [FV] Document all issues with the panels and collect data on their efficiency using a tablet or smartphone.
+  6. [NA] Repeat steps 2-5 for the remaining sections of the solar farm.
+  7. [PD] Analyze the data collected and identify patterns or trends in panel efficiency.
+  8. [IC] Develop a report with recommendations for maintenance and improvement based on the data analysis.
+  9. [FV] Review the report with the facility manager to ensure accuracy and completeness.
+  10. [FV] Provide the final report to the facility manager and follow up on any recommendations or actions.
+[C]
+  1. [IC] Review facility layout and maintenance schedule to plan inspection route and prioritize areas.
+  2. [IC] Don personal protective equipment (PPE) including hard hat, harness, and gloves.
+  3. [NA] Navigate to the designated inspection area, considering safety and terrain.
+  4. [PD] Conduct visual inspection of equipment for damage, wear, or debris.
+  5. [ME] Collect data on equipment efficiency using specialized tools (e.g., multimeter, thermal camera).
+  6. [FV] Document findings, including location, type, and severity of issues, using digital tools.
+  7. [NA] Repeat steps 3-6 for remaining equipment in the designated area.
+  8. [PD] Analyze collected data to identify patterns or trends in equipment performance.
+  9. [FV] Generate a comprehensive inspection report with recommendations for maintenance and improvement.
+  10. [FV] Review the report with the facility manager to ensure accuracy and completeness.
+[D]
+  1. [IC] Review maintenance schedule and facility layout to plan the inspection route and prioritize areas of concern.
+  2. [IC] Put on personal protective equipment (PPE) including a hard hat, safety harness, gloves, and other necessary gear.
+  3. [NA] Navigate to the first section of the facility using appropriate transportation, following the planned route and avoiding obstacles.
+  4. [PD] Use binoculars or other visual aids to inspect the equipment from a distance, looking for signs of damage or degradation.
+  5. [NA] Access the equipment using ladders, platforms, or other means, ensuring safety by securing the harness and maintaining three points of contact when necessary.
+  6. [PD] Inspect the equipment visually and using specialized tools, checking for damage, wear, unusual noises, leaks, or other issues.
+  7. [ME] Document all findings using a camera, tablet, or other devices, noting the location, type, and severity of any issues.
+  8. [NA] Repeat steps 3 to 7 for the remaining sections of the facility, following the planned route and prioritizing areas of concern.
+  9. [PD] Analyze the collected data and identify patterns or trends in equipment condition and performance.
+  10. [IC] Generate a report summarizing the inspection findings, including recommendations for maintenance and improvement based on the data analysis.
+  11. [FV] Review the report with the facility manager to ensure accuracy and completeness, and submit the final report for further action if necessary.
+  12. [FV] Remove personal protective equipment (PPE) and store it properly.
+
+================================================================
+ANSWER TEMPLATE
+
+105: _ | 
+106: _ | 
+107: _ | 
+108: _ | 
+109: _ | 
+110: _ | 
+111: _ | 
+112: _ | 
+

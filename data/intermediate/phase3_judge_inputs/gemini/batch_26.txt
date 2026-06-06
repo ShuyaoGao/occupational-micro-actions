@@ -1,0 +1,371 @@
+BATCH 26/63 | Model: Gemini 3 Pro | Tasks 201-208
+================================================================
+EXPERT REVIEW -- Micro-Action Sequence Evaluation
+For each task, read ALL four options, then choose the BEST (A/B/C/D).
+
+Criteria:
+  1. Completeness  -- no critical steps missing
+  2. Realism       -- every step is concretely executable
+  3. Stage accuracy -- stage label correct for each step:
+     IC=Intent_Communication  NA=Navigation_Addressing
+     PD=Perception_Diagnosis  ME=Manipulation_Execution  FV=Feedback_Verification
+  4. Conciseness   -- no redundant or duplicate steps
+  5. Scope         -- starts and ends at exactly the right point
+
+OUTPUT: fill the ANSWER TEMPLATE at the bottom.
+Format: N: X | one-sentence reason (max 12 words)
+IMPORTANT: Each task has a different best answer. Do NOT pick the same
+letter for every task without reading.
+================================================================
+
+--- Task 201: Load items into ovens or furnaces.
+[A]
+  1. [PD] Retrieve the metal parts from the staging area and check for any visible damage or defects.
+  2. [NA] Move the metal parts to the furnace area, ensuring they are not damaged during transport.
+  3. [PD] Open the furnace door using a safety lever and check the interior for any residual materials or obstructions.
+  4. [ME] Use a specialized tool to place the metal parts into the furnace, ensuring they are spaced appropriately and do not touch each other.
+  5. [FV] Verify the placement of the parts by visually inspecting the interior of the furnace through a safety glass window.
+  6. [ME] Close the furnace door and ensure it is securely locked.
+  7. [PD] Check the furnace control panel to ensure all safety interlocks are engaged and the furnace is ready for the heating cycle.
+  8. [ME] Input the required heating parameters into the furnace control system, such as temperature and duration.
+  9. [FV] Review the input parameters and confirm they match the required specifications for the heat treatment process.
+  10. [ME] Start the heating cycle and record the start time and parameters in the manufacturing log.
+[B]
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+[C]
+  1. [PD] Retrieve items from staging area and inspect for visible damage.
+  2. [NA] Transport items to the oven/furnace, ensuring safe handling.
+  3. [NA] Open oven/furnace door using safety mechanisms and check interior for obstructions.
+  4. [ME] Load items into oven/furnace, ensuring proper spacing and avoiding contact.
+  5. [FV] Verify item placement through visual inspection.
+  6. [NA] Close and secure oven/furnace door.
+  7. [PD] Confirm oven/furnace is ready for operation (safety interlocks, temperature settings).
+  8. [ME] Initiate heating cycle and record parameters.
+[D]
+  1. [PD] Retrieve items from the staging area and inspect for any visible damage or defects.
+  2. [NA] Move items to the oven/furnace area, ensuring they are not damaged during transport.
+  3. [PD] Open the oven/furnace door using the appropriate safety mechanism and check the interior for any residual materials or obstructions.
+  4. [ME] Using appropriate tools, place items into the oven/furnace, ensuring they are spaced appropriately and do not touch each other.
+  5. [FV] Verify the placement of items by visually inspecting the interior through a safety glass window or using other available means.
+  6. [ME] Close the oven/furnace door and ensure it is securely locked.
+  7. [PD] Check the oven/furnace control panel to ensure that all safety interlocks are engaged and the oven/furnace is ready for the heating cycle.
+  8. [ME] Input the required heating parameters into the oven/furnace control system, such as temperature and duration.
+  9. [FV] Review the input parameters and confirm that they match the required specifications for the heating process.
+  10. [ME] Start the heating cycle and record the start time and parameters in the manufacturing log or communicate the readiness to the next station.
+
+--- Task 202: Assist patrons with entering or exiting vehicles or other forms of transportation.
+[A]
+  1. [IC] Approach the patron and ask if they need assistance entering or exiting the vehicle.
+  2. [PD] Assess the patron's mobility and any potential obstacles, such as luggage or mobility aids.
+  3. [NA] Open the vehicle door and ensure it is fully extended without obstruction.
+  4. [ME] Guide the patron to the vehicle and assist them in sitting down safely, adjusting the seat and any other vehicle features as needed.
+  5. [ME] Close the car door gently and ensure it is securely closed.
+  6. [ME] Assist the patron in exiting the vehicle, offering physical support and ensuring they have stable footing on the ground.
+  7. [FV] Confirm with the patron that they are comfortable and do not need further assistance.
+[B]
+  1. [IC] Approach the patron and ask if they need assistance entering or exiting the vehicle.
+  2. [NA] Open the car door and ensure it is fully extended without obstruction.
+  3. [PD] Assess the patron's mobility and provide appropriate physical support.
+  4. [ME] Guide the patron to the vehicle and assist them in sitting down safely.
+  5. [ME] Close the car door gently and ensure it is securely closed.
+  6. [NA] Wait for the patron to exit the vehicle and approach the door again.
+  7. [ME] Open the car door and assist the patron in standing up safely.
+  8. [ME] Guide the patron away from the vehicle and ensure they are stable.
+  9. [FV] Confirm with the patron that they are comfortable and do not need further assistance.
+[C]
+  1. [IC] Approach the patron and greet them, offering assistance with entering or exiting the vehicle.
+  2. [PD] Assess the patron's mobility and any potential obstacles (luggage, walker, etc.).
+  3. [NA] Open the vehicle door and ensure it is fully extended and unobstructed.
+  4. [ME] Provide physical support as needed, guiding the patron safely into or out of the vehicle.
+  5. [ME] Secure any mobility aids (walker, cane) and ensure the patron's belongings are within reach.
+  6. [FV] Confirm with the patron that they are comfortable and have everything they need.
+  7. [ME] Close the vehicle door securely.
+[D]
+  1. [IC] Approach the patron and make eye contact, greeting them and asking if they need assistance.
+  2. [PD] Assess the patron's mobility and any aids they use, and ask about their specific needs.
+  3. [NA] Open the vehicle door and ensure it is fully extended without obstruction.
+  4. [ME] Position yourself appropriately to provide physical support and guide the patron.
+  5. [ME] Guide the patron to the vehicle and assist them in entering or exiting safely.
+  6. [ME] Adjust any vehicle features (e.g., seat, safety belts) as needed to ensure patron's comfort and safety.
+  7. [ME] Close the vehicle door gently and ensure it is securely closed.
+  8. [FV] Confirm with the patron that they are comfortable and do not need further assistance.
+  9. [IC] Signal the driver or indicate to the patron that they are ready to depart.
+  10. [FV] Check that the patron is safely seated and the vehicle is moving before leaving your position.
+
+--- Task 203: Maintain data in information systems or databases.
+[A]
+  1. [IC] Log into the CRM system using secure credentials.
+  2. [NA] Navigate to the customer data section within the CRM system.
+  3. [PD] Run a query to identify outdated or incorrect customer records.
+  4. [ME] Update the identified customer records with the correct information.
+  5. [ME] Save the updated records in the CRM system.
+  6. [FV] Run a verification query to confirm that the updates were successful.
+  7. [FV] Generate a report summarizing the updates and any issues encountered.
+  8. [FV] Log out of the CRM system and save the report for future reference.
+[B]
+  1. [IC] Log into the CRM system using secure credentials.
+  2. [NA] Navigate to the customer data section within the CRM system.
+  3. [PD] Run a query to identify outdated or incorrect customer records.
+  4. [PD] Review the query results to identify specific records that need updating.
+  5. [ME] Update the identified customer records with the correct information.
+  6. [ME] Save the updated records in the CRM system.
+  7. [FV] Run a verification query to confirm that the updates were successful.
+  8. [FV] Review the verification query results to confirm the accuracy of the updates.
+  9. [FV] Generate a report summarizing the updates and any issues encountered.
+  10. [IC] Log out of the CRM system and save the report for future reference.
+[C]
+  1. [IC] Log into the information system using secure credentials.
+  2. [NA] Navigate to the specific data section requiring maintenance.
+  3. [PD] Identify records needing updates through queries or filters.
+  4. [ME] Review and update the identified records with accurate information.
+  5. [ME] Save the changes to the database.
+  6. [FV] Verify the accuracy of the updates through queries or reports.
+  7. [IC] Document the maintenance activities performed.
+[D]
+  1. [IC] Log into the CRM system using secure credentials, preferably with multi-factor authentication.
+  2. [NA] Navigate to the customer data section within the CRM system and filter records based on a relevant criterion (e.g., 'recent purchases' or 'outdated records').
+  3. [PD] Review the filtered customer records for completeness and accuracy, perceiving and diagnosing any errors or discrepancies.
+  4. [ME] Update the identified customer records with the correct information, manipulating the data efficiently and accurately.
+  5. [FV] Verify the updates by running a query or checking the updated information for accuracy.
+  6. [ME] Save the updated records in the CRM system, committing the changes and ensuring data integrity.
+  7. [IC] Document the updates performed, including any issues encountered and their resolutions.
+  8. [IC] Communicate the updates and any issues to the relevant stakeholders, ensuring transparency and accountability.
+  9. [IC] Log out of the CRM system, ensuring the security of the updates and the database.
+
+--- Task 204: Maintain professional social services knowledge.
+[A]
+  1. [NA] Log into the professional social services online portal and navigate to the 'Policy Updates' section.
+  2. [PD] Scan and comprehend the policy updates for changes relevant to clients.
+  3. [ME] Summarize the key points of the policy changes and take detailed notes.
+  4. [PD] Review client profiles to identify those affected by the policy changes.
+  5. [ME] Update client profiles with the relevant policy changes and prepare necessary documents for case management meetings.
+  6. [PD] Attend a professional development workshop or seminar to gain new knowledge and participate in discussions.
+  7. [IC] Participate in peer supervision groups to discuss challenging cases and share best practices.
+  8. [FV] Reflect on newly acquired knowledge and identify areas for further learning.
+  9. [FV] Document the outcome of case management meetings and update personal resource binders with new contact information.
+[B]
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+[C]
+  1. [IC] Review email newsletters, policy updates, and announcements from relevant organizations (state agencies, professional associations, non-profits).
+  2. [PD] Attend workshops, seminars, or webinars on emerging topics in social services.
+  3. [PD] Read professional journals, research articles, and publications to stay updated on current research and best practices.
+  4. [IC] Participate in peer supervision groups or discussions with colleagues to share knowledge, experiences, and challenges.
+  5. [ME] Update personal resource library (digital or physical) with new contact information, policy documents, and relevant materials.
+  6. [FV] Reflect on newly acquired knowledge, identify knowledge gaps, and set goals for further learning.
+[D]
+  1. [IC] Access professional social services online portal.
+  2. [NA] Navigate to 'Policy Updates' and 'Resource Guides' sections.
+  3. [PD] Scan policy updates and resource guides for changes relevant to clients.
+  4. [ME] Read and comprehend the relevant policy changes and new resources.
+  5. [ME] Summarize the key points of the policy changes and new resources.
+  6. [NA] Access 'Client Profiles' section.
+  7. [PD] Review client profiles to identify those affected by the policy changes or who could benefit from new resources.
+  8. [ME] Update client profiles with the relevant policy changes and new resources.
+  9. [FV] Test understanding by explaining the policy changes and new resources to a hypothetical client or colleague.
+  10. [IC] Log out of the professional social services online portal.
+
+--- Task 205: Resolve computer network problems.
+[A]
+  1. [IC] Receive a call from a user reporting slow network performance and dropped connections.
+  2. [NA] Log into the network management system and navigate to the network monitoring dashboard.
+  3. [PD] Review network traffic logs and identify any anomalies or spikes in traffic.
+  4. [PD] Run a ping test from the technician's computer to the affected user's computer to check for packet loss.
+  5. [PD] Check the network switch and router configurations for any misconfigurations or errors.
+  6. [ME] Reconfigure the router to adjust the Quality of Service (QoS) settings to prioritize critical traffic.
+  7. [ME] Restart the affected user's computer to ensure all network settings are refreshed.
+  8. [FV] Run a speed test from the affected user's computer to verify the network speed has improved.
+  9. [IC] Notify the user and supervisor that the network issue has been resolved and the network is now stable.
+[B]
+  1. [IC] Receive a call from a user reporting slow network performance and dropped connections.
+  2. [NA] Log into the network management system and navigate to the network monitoring dashboard.
+  3. [PD] Review network traffic logs and identify any anomalies or spikes in traffic.
+  4. [PD] Run a ping test from the technician's computer to the affected user's computer to check for packet loss.
+  5. [PD] Check the network switch and router configurations for any misconfigurations or errors.
+  6. [ME] Reconfigure the router to adjust the Quality of Service (QoS) settings to prioritize critical traffic.
+  7. [ME] Restart the affected user's computer to ensure all network settings are refreshed.
+  8. [FV] Run a speed test from the affected user's computer to verify the network speed has improved.
+  9. [FV] Monitor the network for a period of time to ensure the issue does not reoccur.
+  10. [FV] Notify the user and supervisor that the network issue has been resolved and the network is now stable.
+[C]
+  1. [IC] Receive a call from a user reporting network issues, noting specific symptoms and impact.
+  2. [PD] Access the network monitoring dashboard and review relevant logs for anomalies or traffic spikes.
+  3. [PD] Conduct diagnostic tests (ping, speed tests) from the technician's computer to the affected user's computer.
+  4. [ME] Based on diagnosis, implement a solution: router configuration adjustments, cable replacement, etc.
+  5. [FV] Verify network stability by testing connectivity from the affected user's computer.
+  6. [IC] Communicate the resolution to the user, explaining the issue and steps taken.
+[D]
+  1. [IC] Receive a call from a user reporting network problems and gather details about the issue.
+  2. [NA] Access the network management system and navigate to the network monitoring dashboard.
+  3. [PD] Review network traffic logs and identify any anomalies or spikes in traffic.
+  4. [PD] Run diagnostic tests, such as ping tests and network traffic analysis, to isolate the issue.
+  5. [PD] Check router and switch configurations for misconfigurations or errors.
+  6. [ME] Implement the proposed solution, such as reconfiguring QoS settings, updating firmware, or replacing hardware.
+  7. [FV] Test the solution by running speed tests and browsing websites to verify network stability.
+  8. [IC] Communicate the findings, proposed solution, and its implementation to the user and other stakeholders.
+  9. [FV] Monitor the network for a period of time to ensure the issue does not reoccur.
+  10. [IC] Notify the user and supervisor that the network issue has been resolved and the network is now stable.
+
+--- Task 206: Administer personnel recruitment or hiring activities.
+[A]
+  1. [IC] Review the job description and required skills for the software engineer position to ensure they align with company needs and industry standards.
+  2. [NA] Post the job opening on the company's website, relevant job boards, and professional networks to reach a wide audience of potential candidates.
+  3. [PD] Screen resumes and applications, filtering candidates based on qualifications, experience, and alignment with the job requirements.
+  4. [ME] Conduct initial phone or video interviews to assess candidates' communication skills, problem-solving abilities, and cultural fit.
+  5. [NA] Schedule and conduct in-person interviews with shortlisted candidates, involving technical assessments and meetings with team members.
+  6. [PD] Verify candidates' references and employment history to ensure they have a clean record and are willing to work in the United States.
+  7. [IC] Make a job offer to the selected candidate, including details about salary, benefits, and expectations.
+  8. [FV] Onboard the new employee, providing them with necessary paperwork, equipment, and training to ensure a smooth transition into the role.
+[B]
+  1. [IC] Review job descriptions and requirements for the software engineer position to ensure they align with company needs and industry standards.
+  2. [NA] Utilize social media, professional networks (e.g., LinkedIn), and job boards to post the job opening and reach a wide audience of potential candidates.
+  3. [PD] Screen initial applications to shortlist candidates based on their resumes and cover letters, focusing on relevant experience and education.
+  4. [IC] Conduct phone or video interviews with shortlisted candidates to assess their communication skills, problem-solving abilities, and cultural fit.
+  5. [NA] Invite top candidates to an on-site interview, where they will meet with team members, tour the office, and participate in technical challenges or coding exercises.
+  6. [PD] Verify candidates' references and check their employment history to ensure they have a clean record and are willing to work in the United States.
+  7. [IC] Make a job offer to the selected candidate, including details about salary, benefits, and expectations.
+  8. [ME] Negotiate the terms of the employment contract, including salary, benefits, and any other perks or incentives.
+  9. [FV] Onboard the new employee, providing them with necessary paperwork, equipment, and training to ensure a smooth transition into the role.
+  10. [FV] Evaluate the effectiveness of the recruitment process and make adjustments for future hiring activities.
+[C]
+  1. [IC] Define the job requirements and draft a compelling job description for the software developer position.
+  2. [NA] Post the job advertisement on relevant online platforms (e.g., LinkedIn, Indeed, company website).
+  3. [PD] Screen resumes and applications, filtering candidates based on qualifications and experience.
+  4. [ME] Conduct initial phone or video interviews to assess communication skills and basic qualifications.
+  5. [IC] Invite top candidates for in-person interviews, including technical assessments.
+  6. [ME] Conduct in-person interviews, evaluating technical skills, problem-solving abilities, and cultural fit.
+  7. [FV] Check references for the top candidates.
+  8. [IC] Extend a job offer to the selected candidate, outlining compensation and benefits.
+[D]
+  1. [IC] Review and update the job description to ensure it aligns with company needs and industry standards.
+  2. [NA] Post the job listing on the company's website, relevant job boards, and professional networks to reach a wide audience.
+  3. [PD] Screen initial applications, focusing on relevant experience, education, and skills, to shortlist candidates for further consideration.
+  4. [IC] Conduct initial phone or video interviews to assess candidates' communication skills, problem-solving abilities, and cultural fit.
+  5. [NA] Invite top candidates to an on-site interview, including meetings with team members, office tours, and technical challenges or coding exercises.
+  6. [PD] Verify candidates' references and check their employment history to ensure they have a clean record and are willing to work in the required location.
+  7. [IC] Make a job offer to the selected candidate, including details about salary, benefits, and expectations.
+  8. [ME] Negotiate the terms of the employment contract, including salary, benefits, and any other perks or incentives.
+  9. [FV] Onboard the new employee, providing them with necessary paperwork, equipment, and training to ensure a smooth transition into the role.
+  10. [FV] Evaluate the effectiveness of the recruitment process and make adjustments for future hiring activities.
+
+--- Task 207: Verify patron or staff credentials.
+[A]
+  1. [IC] The librarian greets the patron and asks for their library card or badge.
+  2. [NA] The patron presents their library card or badge to the librarian.
+  3. [NA] The librarian scans the patron's library card or badge using a physical badge scanner.
+  4. [PD] The librarian reviews the patron's account information displayed on the computer screen.
+  5. [FV] The librarian confirms that the patron's account is active and in good standing.
+  6. [FV] The librarian informs the patron that their credentials have been verified and they can proceed to borrow books.
+  7. [FV] The librarian hands the badge back to the patron and directs them to the bookshelves.
+[B]
+  1. [IC] Make eye contact with the person approaching the restricted section and greet them politely.
+  2. [IC] Ask the person to present their ID, specifying whether it's a patron or staff ID.
+  3. [PD] Receive the ID and visually inspect it for any obvious signs of tampering or inauthenticity.
+  4. [NA] Check the ID's barcode using a handheld scanner to retrieve the associated record in the library's system.
+  5. [PD] Compare the retrieved record with the person's appearance and the information on their ID to confirm their identity.
+  6. [ME] If the ID is valid, allow the person to proceed and thank them for their cooperation. If the ID is invalid or suspicious, politely ask them to step aside for further verification.
+  7. [FV] Repeat the process for the next person approaching the restricted section, maintaining a steady flow of traffic.
+[C]
+  1. [IC] Greet the patron and request their library card or badge.
+  2. [NA] Receive the patron's credentials.
+  3. [PD] Scan the badge or visually inspect the library card for validity.
+  4. [NA] Verify the patron's account status in the library system.
+  5. [FV] Confirm the patron's credentials and inform them they can proceed.
+  6. [ME] Return the credentials to the patron.
+[D]
+  1. [IC] Greet the patron or staff member approaching the desk and request their credentials.
+  2. [NA] Receive the presented credentials (badge, ID, or library card).
+  3. [PD] Visually inspect the credentials for validity (photo, expiration date, security features) and compare the photo to the person's face.
+  4. [NA] Scan the credentials' barcode or enter the unique identifier into the library management system to retrieve the associated record.
+  5. [PD] Review the retrieved record to confirm the person's identity, active status, and any outstanding fines or fees.
+  6. [FV] Make a decision: grant or deny access based on credential validity and account status.
+  7. [IC] Verbally communicate the decision to the patron or staff member and either allow them to proceed or direct them to resolve any issues with their account.
+
+--- Task 208: Choose optimal transportation routes or speeds.
+[A]
+  1. [IC] Access the logistics management software to view the current delivery schedule and destination details.
+  2. [NA] Open a digital map application to visualize the route from the origin to the destination.
+  3. [PD] Check real-time traffic data and weather reports to identify potential delays or hazards along the route.
+  4. [PD] Evaluate different routes based on distance, expected travel time, and fuel consumption, considering traffic laws and speed limits.
+  5. [ME] Select the optimal route that minimizes travel time and fuel consumption while adhering to traffic laws.
+  6. [ME] Input the chosen route into the logistics management software to update the delivery schedule.
+  7. [IC] Notify the driver of the chosen route and speed recommendations.
+  8. [FV] Monitor the driver's progress in real-time to ensure adherence to the chosen route and speed.
+  9. [FV] Confirm successful delivery at the destination and update the logistics management software.
+[B]
+  1. [PD] Access real-time traffic data and weather forecasts to understand current road conditions and potential delays.
+  2. [PD] Analyze the data to identify potential bottlenecks and optimize the route to minimize delays.
+  3. [PD] Consider alternative routes and modes of transportation, such as using air freight or partnering with a local delivery service.
+  4. [ME] Update the route plan to reflect any changes or updates to the data, such as changes in traffic patterns or weather forecasts.
+  5. [IC] Communicate the updated route plan to the driver or delivery team, ensuring they have the necessary information to execute the plan.
+  6. [PD] Monitor the progress of the shipment and adjust the route plan as needed to ensure timely delivery.
+  7. [FV] Evaluate the success of the optimized route and identify areas for improvement for future shipments.
+  8. [ME] Update the logistics system with the lessons learned from the optimized route, ensuring that future shipments can benefit from the improvements.
+  9. [IC] Communicate the results of the optimized route to stakeholders, including the customer, the driver or delivery team, and the logistics team.
+  10. [FV] Review and refine the optimized route plan to ensure it is aligned with the company's goals and objectives.
+[C]
+  1. [IC] Access the logistics management software to view the delivery schedule and destination details.
+  2. [PD] Access real-time traffic data and weather reports to identify potential delays or hazards along the route.
+  3. [PD] Evaluate different routes based on distance, estimated travel time, fuel consumption, and traffic conditions.
+  4. [ME] Select the optimal route that minimizes travel time and fuel consumption while adhering to traffic laws.
+  5. [ME] Input the chosen route into the logistics management software to update the delivery schedule.
+  6. [IC] Communicate the chosen route and any speed recommendations to the driver.
+  7. [FV] Monitor the driver's progress in real-time to ensure adherence to the chosen route and speed.
+  8. [FV] Confirm successful delivery at the distribution center and update the logistics management software.
+[D]
+  1. [PD] Access real-time traffic data, weather forecasts, and historical traffic patterns.
+  2. [PD] Analyze the data to identify potential bottlenecks, hazards, and optimal routes.
+  3. [PD] Consider alternative routes, modes of transportation, and speed recommendations.
+  4. [ME] Update the route plan and speed recommendations based on the analysis.
+  5. [IC] Communicate the updated route plan and speed recommendations to the driver or delivery team.
+  6. [PD] Monitor the shipment's progress and adjust the route plan as needed in real-time.
+  7. [FV] Evaluate the success of the optimized route and identify areas for improvement.
+  8. [ME] Update the logistics system with lessons learned from the optimized route for future shipments.
+  9. [FV] Confirm successful delivery and update the logistics management software.
+
+================================================================
+ANSWER TEMPLATE
+
+201: _ | 
+202: _ | 
+203: _ | 
+204: _ | 
+205: _ | 
+206: _ | 
+207: _ | 
+208: _ | 
+

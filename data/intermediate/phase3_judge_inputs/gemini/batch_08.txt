@@ -1,0 +1,386 @@
+BATCH 8/63 | Model: Gemini 3 Pro | Tasks 57-64
+================================================================
+EXPERT REVIEW -- Micro-Action Sequence Evaluation
+For each task, read ALL four options, then choose the BEST (A/B/C/D).
+
+Criteria:
+  1. Completeness  -- no critical steps missing
+  2. Realism       -- every step is concretely executable
+  3. Stage accuracy -- stage label correct for each step:
+     IC=Intent_Communication  NA=Navigation_Addressing
+     PD=Perception_Diagnosis  ME=Manipulation_Execution  FV=Feedback_Verification
+  4. Conciseness   -- no redundant or duplicate steps
+  5. Scope         -- starts and ends at exactly the right point
+
+OUTPUT: fill the ANSWER TEMPLATE at the bottom.
+Format: N: X | one-sentence reason (max 12 words)
+IMPORTANT: Each task has a different best answer. Do NOT pick the same
+letter for every task without reading.
+================================================================
+
+--- Task 57: Clean food preparation areas, facilities, or equipment.
+[A]
+  1. [IC] Put on appropriate Personal Protective Equipment (PPE), including gloves and an apron.
+  2. [NA] Gather cleaning supplies: degreaser, all-purpose cleaner, disinfectant, scrubbing brushes, sponges, microfiber cloths, and a mop bucket.
+  3. [PD] Inspect the kitchen for areas that need cleaning, focusing on high-traffic and high-risk zones like prep counters, cooking surfaces, and utensil racks.
+  4. [ME] Remove any obstacles or items from the surfaces to be cleaned.
+  5. [ME] Spray degreaser onto greasy surfaces and let it soak for a few minutes.
+  6. [ME] Scrub the surfaces using a brush or sponge, applying firm but controlled pressure.
+  7. [ME] Rinse the surfaces with clean water, then spray with disinfectant and let it sit for the recommended time.
+  8. [ME] Wipe the surfaces dry with a clean, dry microfiber cloth.
+  9. [ME] Mop the floors, ensuring all areas are covered and that the mop head is changed or rinsed as needed.
+  10. [FV] Wash and sanitize all cleaning tools and supplies, then store them properly for the next use.
+  11. [FV] Inspect the cleaned areas to ensure they meet the required standards, making any necessary touch-ups.
+[B]
+  1. [IC] Put on appropriate Personal Protective Equipment (PPE), including gloves and an apron.
+  2. [NA] Gather cleaning supplies: degreaser, all-purpose cleaner, disinfectant, scrubbing brushes, sponges, microfiber cloths, and a mop bucket.
+  3. [PD] Inspect the kitchen for areas that need cleaning, focusing on high-traffic and high-risk zones like prep counters, cooking surfaces, and utensil racks.
+  4. [ME] Remove any obstacles or items from the surfaces to be cleaned.
+  5. [ME] Spray degreaser onto greasy surfaces and let it soak for a few minutes.
+  6. [ME] Scrub the surfaces using a brush or sponge, applying firm but controlled pressure.
+  7. [ME] Rinse the surfaces with clean water, then spray with disinfectant and let it sit for the recommended time.
+  8. [ME] Wipe the surfaces dry with a clean, dry microfiber cloth.
+  9. [ME] Mop the floors, ensuring all areas are covered and that the mop head is changed or rinsed as needed.
+  10. [FV] Wash and sanitize all cleaning tools and supplies, then store them properly for the next use.
+  11. [FV] Inspect the cleaned areas to ensure they meet the required standards, making any necessary touch-ups.
+[C]
+  1. [IC] Put on appropriate Personal Protective Equipment (PPE), including gloves and an apron.
+  2. [NA] Gather cleaning supplies: disinfectant, sponges, cloths, and a broom and dustpan.
+  3. [ME] Remove any obstacles or items from the surfaces to be cleaned.
+  4. [ME] Spray disinfectant on countertops, stovetops, and sinks.
+  5. [ME] Wipe down surfaces with sponges and cloths, removing food debris and spills.
+  6. [ME] Sweep the floor, collecting food crumbs and debris into a dustpan.
+  7. [ME] Empty the dustpan into a trash receptacle.
+  8. [FV] Inspect the cleaned areas to ensure they meet the required standards.
+[D]
+  1. [IC] Put on appropriate Personal Protective Equipment (PPE), including gloves and an apron.
+  2. [NA] Gather cleaning supplies: degreaser, all-purpose cleaner, disinfectant, scrubbing brushes, sponges, microfiber cloths, and a mop bucket.
+  3. [PD] Inspect the kitchen for areas that need cleaning, focusing on high-traffic and high-risk zones like prep counters, cooking surfaces, and utensil racks.
+  4. [ME] Remove any obstacles or items from the surfaces to be cleaned.
+  5. [ME] Spray degreaser onto greasy surfaces and let it soak for a few minutes.
+  6. [ME] Scrub the surfaces using a brush or sponge, applying firm but controlled pressure.
+  7. [ME] Rinse the surfaces with clean water, then spray with disinfectant and let it sit for the recommended time.
+  8. [ME] Wipe the surfaces dry with a clean, dry microfiber cloth.
+  9. [ME] Mop the floors, ensuring all areas are covered and that the mop head is changed or rinsed as needed.
+  10. [FV] Wash and sanitize all cleaning tools and supplies, then store them properly for the next use.
+  11. [FV] Inspect the cleaned areas to ensure they meet the required standards, making any necessary touch-ups.
+  12. [IC] Report the completion of the cleaning task to the kitchen manager.
+
+--- Task 58: Research engineering aspects of biological or chemical processes.
+[A]
+  1. [IC] Review existing literature and internal data on the target biological or chemical process to understand current best practices and limitations.
+  2. [PD] Identify key parameters influencing the process, such as temperature, pH, nutrient concentration, and agitation rate.
+  3. [ME] Design and conduct experiments to test different settings of the identified parameters.
+  4. [FV] Monitor the process in real-time using sensors and control systems to ensure it runs within desired parameters.
+  5. [PD] Collect and analyze experimental data to determine the optimal settings for the key parameters.
+  6. [IC] Propose modifications to the process based on experimental findings and refine the process accordingly.
+  7. [FV] Document the optimized process and insights gained for future reference and knowledge sharing.
+[B]
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+[C]
+  1. [IC] Review existing literature and internal data on the target biological or chemical process.
+  2. [PD] Identify key parameters influencing the process, such as temperature, pH, nutrient concentration, etc.
+  3. [IC] Design experiments to test the influence of these parameters on the process outcome.
+  4. [ME] Set up and execute the designed experiments, carefully controlling and monitoring the parameters.
+  5. [PD] Collect and analyze the experimental data, measuring relevant outputs like yield, growth rate, or product formation.
+  6. [FV] Based on the data analysis, draw conclusions about the influence of each parameter and identify optimal settings.
+  7. [FV] Document the experimental procedures, results, and conclusions in a clear and concise manner.
+[D]
+  1. [IC] Review existing literature, internal data, and research agenda to understand the process, its current state, and specific targets.
+  2. [PD] Identify key parameters influencing the process, such as temperature, pH, nutrient concentration, agitation rate, or specific bacterial characteristics.
+  3. [ME] Develop a mathematical or experimental model incorporating identified parameters to predict process outcomes.
+  4. [ME] Simulate or conduct initial experiments under different parameter settings to predict or measure process outcomes.
+  5. [PD] Analyze simulation results or experimental data to identify optimal parameter ranges or process modifications.
+  6. [ME] Design and conduct laboratory experiments to validate model predictions or test proposed process modifications.
+  7. [FV] Analyze experimental data and compare it to model predictions to assess the validity of the model and the effectiveness of process modifications.
+  8. [IC] Propose and plan follow-up experiments or process modifications based on experimental findings and model refinements.
+  9. [FV] Document experiment procedures, results, and conclusions in a lab notebook or report for future reference and knowledge sharing.
+  10. [IC] Present results and findings to stakeholders, including the project team, management, and customers, to ensure the optimized process is widely adopted and implemented.
+
+--- Task 59: Sew materials.
+[A]
+  1. [IC] Review the design specifications and fabric requirements to ensure the correct materials and understanding of the project's objectives.
+  2. [NA] Lay out the fabric pieces on a flat surface and align the edges to be sewn, ensuring it is smooth and wrinkle-free.
+  3. [ME] Thread the sewing machine with the appropriate thread color and tension, and select the appropriate stitch type.
+  4. [NA] Position the fabric under the sewing machine foot and lower the foot to hold the fabric in place.
+  5. [ME] Start sewing along the seam line, maintaining a consistent speed and stitch length, and monitor the fabric movement to prevent puckering.
+  6. [ME] Stop sewing at the end of the seam and secure the thread with a backstitch.
+  7. [FV] Trim any excess thread and remove the fabric from the sewing machine.
+  8. [FV] Inspect the seam for any inconsistencies or errors and make adjustments if necessary.
+  9. [ME] Press the seams open or to one side using an iron to create a polished finish.
+  10. [FV] Inspect the completed piece for any final adjustments needed before presenting it to the client.
+[B]
+  1. [IC] Review the client's design specifications and fabric requirements to ensure you have the correct materials and understand the project's objectives.
+  2. [NA] Thread the sewing machine with the appropriate thread color and tension.
+  3. [NA] Lay out the fabric on the worktable, aligning it according to the client's design specifications and ensuring it is smooth and wrinkle-free.
+  4. [NA] Pin the fabric pieces together along the seam line to hold them in place.
+  5. [ME] Start sewing along the seam line, maintaining a consistent speed and stitch length.
+  6. [PD] Monitor the fabric movement and adjust the feed dogs if necessary to prevent puckering.
+  7. [ME] Stop sewing at the end of the seam and secure the thread with a backstitch.
+  8. [FV] Inspect the seam for any inconsistencies or errors and make adjustments if necessary.
+  9. [FV] Trim any excess thread and remove the fabric from the sewing machine.
+  10. [FV] Inspect the completed seam for any final adjustments needed before presenting it to the client.
+[C]
+  1. [IC] Review the sewing pattern and fabric requirements, understanding the project's objectives.
+  2. [NA] Lay out the fabric pieces on a flat surface, aligning edges according to the pattern.
+  3. [NA] Pin the fabric pieces together along the seam lines.
+  4. [ME] Thread the sewing machine with the appropriate thread color and tension.
+  5. [ME] Sew along the seam lines, guiding the fabric through the machine and maintaining consistent speed and stitch length.
+  6. [PD] Monitor the fabric movement, adjusting feed dogs if necessary.
+  7. [ME] Secure the thread at the end of the seam with a backstitch.
+  8. [FV] Inspect the seam for any inconsistencies or errors, making adjustments if necessary.
+[D]
+  1. [IC] Review the task requirements and fabric pieces to understand the sewing objectives.
+  2. [NA] Lay out the fabric pieces on a flat surface, aligning them according to the sewing pattern or design.
+  3. [NA] Pin the fabric pieces together along the seam lines to hold them in place.
+  4. [ME] Thread the sewing machine with the appropriate thread color and tension.
+  5. [NA] Position the fabric under the sewing machine foot, ensuring the seam line is aligned with the machine's direction of travel.
+  6. [ME] Start sewing along the seam line, maintaining a consistent speed, stitch length, and tension.
+  7. [PD] Monitor the fabric movement, adjust the feed dogs if necessary, and maintain the fabric's smoothness to prevent puckering.
+  8. [ME] Stop sewing at the end of the seam, secure the thread with a backstitch, and trim any excess thread.
+  9. [FV] Inspect the seam for any inconsistencies, errors, or imperfections, and make adjustments if necessary.
+  10. [FV] Remove the fabric from the sewing machine, press the seam if required, and prepare for the next sewing task.
+
+--- Task 60: Design layouts for print publications.
+[A]
+  1. [IC] Review the content, editorial guidelines, and client requirements for the magazine issue.
+  2. [NA] Open the design software (e.g., Adobe InDesign) and create a new project file using the magazine's predefined template.
+  3. [NA] Import the text and image files for the magazine articles and advertisements into the layout document.
+  4. [ME] Create a grid system and sketch out a rough layout using guides and frames, considering the flow of content, images, and advertisements.
+  5. [ME] Refine the layout by adjusting the size, position, and alignment of content and images, ensuring they fit within the magazine's columns and margins.
+  6. [ME] Apply the magazine's branding and style guide, including fonts, colors, and other design elements, to ensure consistency across the layout.
+  7. [FV] Review the layout for any potential issues, such as overlapping elements, inconsistent formatting, or missing content.
+  8. [FV] Export the layout as a PDF and share it with the editor for review, incorporating any requested changes.
+  9. [ME] Make any necessary revisions based on the editor's feedback, repeating the review and export process as needed.
+  10. [FV] Once approved, package the final layout files according to the printer's specifications and submit them for printing.
+[B]
+  1. [IC] Review the client's brief and requirements for the magazine layout, including any specific design guidelines or preferences.
+  2. [PD] Select a range of fonts and images that fit the client's brand and the magazine's theme, considering factors such as tone, style, and audience appeal.
+  3. [ME] Arrange the content in a way that is both visually appealing and easy to read, considering factors such as typography, color, and white space.
+  4. [ME] Use design software to create a digital mockup of the layout, making adjustments as needed to ensure that it meets the client's requirements.
+  5. [FV] Review the layout for any errors or inconsistencies, making sure that it is free of typos, grammatical errors, and other mistakes.
+  6. [ME] Make any final adjustments to the layout, ensuring that it meets the client's requirements and is visually appealing.
+  7. [ME] Export the final layout in the required format, whether it be PDF, JPEG, or another file type.
+  8. [FV] Proofread the final layout for any errors or inconsistencies, ensuring that it is ready for print.
+  9. [IC] Review the final layout with the client, ensuring that it meets their requirements and is visually appealing.
+  10. [FV] Deliver the final layout to the client, either in person, via email, or through a project management tool.
+[C]
+  1. [IC] Review the client brief, style guide, content, and any specific layout requests.
+  2. [NA] Create a new project file in design software (e.g., Adobe InDesign) and import content and images.
+  3. [ME] Develop rough layout sketches, considering content flow, image placement, typography, and whitespace.
+  4. [ME] Build digital mockups in the software, incorporating chosen fonts, images, and adhering to the style guide.
+  5. [IC] Present initial mockups to the client, gather feedback, and discuss revisions.
+  6. [ME] Refine the layout based on client feedback, adjusting elements and ensuring consistency.
+  7. [FV] Conduct a thorough proofread for typos, formatting errors, and inconsistencies.
+  8. [FV] Export the finalized layout in the required format (e.g., PDF) and deliver it to the client.
+[D]
+  1. [IC] Review the client's brief, content, editorial guidelines, and any specific layout requests or guidelines.
+  2. [NA] Open the design software (e.g., Adobe InDesign) and create a new document with the magazine's predefined template.
+  3. [PD] Import the received content (text and images) into the layout document, placing them in temporary locations.
+  4. [ME] Sketch out a rough layout using guides and frames, considering the flow of content, images, and advertisements.
+  5. [ME] Refine the layout by adjusting the size, position, and alignment of content and images, ensuring they fit within the magazine's columns and margins.
+  6. [ME] Apply the magazine's branding and style guide, including fonts, colors, and other design elements, to ensure consistency across the layout.
+  7. [FV] Review the layout for any potential issues, such as overlapping elements, inconsistent formatting, or missing content.
+  8. [FV] Export the layout as a PDF and share it with the client or editor for review, incorporating any requested changes.
+  9. [ME] Make any necessary revisions based on the client's or editor's feedback, repeating the review and export process as needed.
+  10. [FV] Once approved, package the final layout files according to the printer's specifications and submit them for printing.
+
+--- Task 61: Care for plants or animals.
+[A]
+  1. [IC] Check the daily care schedule and any specific notes from the previous shift.
+  2. [NA] Navigate to the enclosure or garden and put on appropriate personal protective equipment (PPE) if necessary.
+  3. [PD] Observe the plants or animals for any signs of distress or illness, checking behavior and physical condition.
+  4. [ME] Prepare and administer food, water, and any necessary medications or treatments.
+  5. [ME] Clean the enclosure or garden, removing waste and ensuring the environment is safe and clean.
+  6. [PD] Check and maintain any enrichment items or equipment to ensure they are safe and engaging.
+  7. [FV] Record observations and activities in a daily log, noting any changes in health or behavior.
+  8. [NA] Remove PPE and exit the enclosure or garden, ensuring it is secure and ready for the next shift.
+[B]
+  1. [IC] Arrive at the animal/plant enclosure and check the daily care schedule.
+  2. [NA] Navigate to the storage area or watering station to retrieve necessary supplies.
+  3. [PD] Observe the animal/plant's behavior, checking for any signs of illness or distress.
+  4. [ME] Administer care, such as feeding, watering, or pruning, based on the animal/plant's needs.
+  5. [ME] Clean the enclosure, removing waste and ensuring a safe environment.
+  6. [PD] Monitor the animal/plant's response to care and make any necessary adjustments.
+  7. [FV] Record observations and notes about the animal/plant's care and behavior.
+[C]
+  1. [IC] Review the care schedule and any specific notes for the designated plant or animal.
+  2. [NA] Gather necessary tools and supplies based on the care requirements.
+  3. [PD] Assess the plant's or animal's current condition, noting any visible signs of distress or need.
+  4. [ME] Administer appropriate care, such as watering, feeding, medication, or cleaning, based on the assessment.
+  5. [PD] Monitor the plant's or animal's response to care, looking for positive or negative changes.
+  6. [FV] Record observations, care provided, and any notable changes in the plant's or animal's condition.
+[D]
+  1. [IC] Check the daily care schedule and any specific notes from the previous shift.
+  2. [NA] Put on appropriate personal protective equipment (PPE) and enter the habitat/enclosure.
+  3. [PD] Observe the animals' behavior and check for any signs of illness or distress.
+  4. [ME] Measure each animal's vital signs (e.g., temperature) if applicable.
+  5. [ME] Administer any necessary medications or treatments according to veterinary instructions.
+  6. [ME] Prepare and serve the animals' food, ensuring each one receives their prescribed diet.
+  7. [ME] Ensure access to clean water by refilling water troughs or checking water supply.
+  8. [ME] Clean the habitat/enclosure, removing waste and any non-food items.
+  9. [PD] Check and maintain any enrichment items in the habitat/enclosure.
+  10. [FV] Record the day's observations, activities, and any changes in the animals' health or behavior.
+  11. [NA] Remove PPE and exit the habitat/enclosure, ensuring it is secure and ready for the next shift.
+
+--- Task 62: Notify others of emergencies, problems, or hazards.
+[A]
+  1. [PD] Identify the emergency, problem, or hazard by observing and diagnosing the situation.
+  2. [NA] Move to a safe location to communicate the hazard.
+  3. [ME] Activate the emergency alarm system or locate the communication system to alert others.
+  4. [IC] Communicate the nature, location, and severity of the hazard clearly and concisely.
+  5. [IC] Provide specific instructions for evacuation or immediate actions to be taken.
+  6. [PD] Monitor the response and ensure all necessary actions are being taken.
+  7. [FV] Confirm with relevant authorities or personnel that the emergency response is underway.
+[B]
+  1. [PD] Identify the emergency or hazard by observing signs or receiving reports.
+  2. [NA] Locate the communication system or means to send the notification.
+  3. [IC] Send the notification to the relevant personnel or authorities.
+  4. [FV] Wait for a response or acknowledgement from the recipient.
+  5. [ME] Take any necessary actions to mitigate the emergency or hazard.
+  6. [PD] Monitor the situation and provide updates as necessary.
+  7. [FV] Confirm that the emergency response team has been dispatched and is on the way.
+  8. [FV] Hand over the situation to the emergency response team and follow their instructions.
+[C]
+  1. [PD] Identify the hazard and assess its severity.
+  2. [NA] Move to a safe location, if possible, while maintaining visibility of the hazard.
+  3. [ME] Activate the nearest emergency alarm system.
+  4. [IC] Use the most appropriate communication method (radio, intercom, megaphone) to alert designated personnel (foreman, plant manager, control room) about the hazard.
+  5. [IC] Provide specific details about the hazard's location, nature, and potential impact.
+  6. [FV] Confirm receipt and understanding of the information by the alerted personnel.
+  7. [ME] Follow instructions from designated personnel and assist with evacuation or other safety procedures as needed.
+[D]
+  1. [PD] Identify and assess the emergency, problem, or hazard through observation, smell, or using available tools.
+  2. [NA] Move to a safe location to communicate the hazard or emergency.
+  3. [ME] Activate the emergency alarm system or use a two-way radio to call the appropriate authority (e.g., plant manager, control room).
+  4. [IC] Clearly and concisely communicate the nature of the emergency, its location, and any visible details to the authority.
+  5. [IC] Instruct the authority to initiate the appropriate response plan or action.
+  6. [IC] Use visual or verbal cues to warn and instruct others in the vicinity (e.g., workers, patients) about the emergency or hazard.
+  7. [PD] Monitor the situation and the response, ensuring that all necessary notifications have been made and responded to.
+  8. [FV] Confirm with the authority that the emergency response team or appropriate action has been dispatched or initiated.
+  9. [FV] Wait for the emergency response team or appropriate action to arrive or be completed, then hand over the situation as needed.
+
+--- Task 63: Test biological specimens to gather information about patient conditions.
+[A]
+  1. [IC] Receive and verify the patient's blood sample, ensuring proper identification and handling.
+  2. [NA] Prepare the laboratory workstation, including logging the sample into the LIS and ensuring all necessary equipment and reagents are available.
+  3. [ME] Prepare the blood sample for analysis, including aliquoting, labeling, and loading into the automated analyzer.
+  4. [ME] Initiate the test protocols on the analyzer and monitor the machine's progress for any errors or warnings.
+  5. [PD] Retrieve and review the test results from the analyzer, comparing them to standard reference ranges and patient medical history.
+  6. [FV] Record the test results in the patient's electronic health record (EHR) and communicate them to the physician.
+  7. [ME] Properly dispose of the used blood sample tube in the biohazard waste container and clean up the workstation.
+[B]
+  1. [IC] Receive a blood sample from the patient and verify the patient’s identification.
+  2. [NA] Prepare the laboratory workstation, ensuring all necessary equipment and reagents are available.
+  3. [ME] Open the blood sample and transfer a precise volume of blood into a test tube using a pipette.
+  4. [ME] Add the appropriate reagents to the test tube and mix the solution thoroughly.
+  5. [ME] Place the test tube into a glucose analyzer and initiate the test.
+  6. [PD] Monitor the glucose analyzer for any error messages or warnings.
+  7. [FV] Record the glucose level displayed by the analyzer.
+  8. [PD] Compare the glucose level to standard reference ranges to determine if it falls within normal limits.
+  9. [FV] Enter the test results into the patient's electronic medical record.
+  10. [FV] Deliver the test results to the physician for further diagnosis and treatment planning.
+[C]
+  1. [IC] Receive the blood sample from a nurse, verifying patient ID and sample type.
+  2. [IC] Log the sample into the laboratory information system (LIS).
+  3. [ME] Prepare the blood sample for analysis, including aliquoting and labeling.
+  4. [NA] Load the prepared sample into the automated analyzer and select the appropriate test profile.
+  5. [PD] Monitor the analyzer's progress and ensure proper functioning.
+  6. [FV] Review the generated results, flagging any abnormalities.
+  7. [FV] Record the test results in the patient's electronic health record (EHR).
+  8. [IC] Communicate the test results to the physician.
+[D]
+  1. [IC] Wash hands and put on personal protective equipment (PPE) to ensure safety while handling biohazards.
+  2. [IC] Receive and verify the blood sample from the patient or nurse, checking patient ID and sample type.
+  3. [NA] Prepare the laboratory workstation, ensuring all necessary equipment and reagents are available.
+  4. [ME] Prepare the blood sample for analysis, including aliquoting, labeling, and inspecting for any visible abnormalities.
+  5. [ME] Load the prepared sample into the automated analyzer and initiate the test sequence.
+  6. [PD] Monitor the analyzer's progress and ensure proper functioning, addressing any error messages or warnings.
+  7. [PD] Review the generated test results, comparing them to expected ranges and flagging any abnormalities.
+  8. [FV] Record the test results in the patient's electronic health record (EHR) using the lab's computer system.
+  9. [IC] Communicate the test results to the healthcare provider through the LIS or by phone, ensuring clear and accurate reporting.
+  10. [ME] Properly dispose of the used blood sample tube in the biohazard waste container according to lab protocols.
+  11. [IC] Wash hands and remove PPE to conclude the testing cycle.
+
+--- Task 64: Supervise workers performing environmentally sustainable activities.
+[A]
+  1. [IC] Review the daily work schedule, environmental protocols, and project plans to ensure compliance and identify potential risks.
+  2. [NA] Conduct a site walk-through to assess the current environmental conditions and identify areas for improvement.
+  3. [PD] Observe workers performing tasks and ensure adherence to environmental protocols and safety measures.
+  4. [IC] Provide real-time feedback and guidance to workers, correcting any mistakes and reinforcing safe and sustainable practices.
+  5. [PD] Monitor the disposal of waste materials, ensuring proper segregation and recycling to minimize environmental impact.
+  6. [PD] Conduct regular inspections to ensure compliance with environmental regulations and project plans, making adjustments as needed.
+  7. [FV] Document the day's operations, including any deviations from the plan and environmental achievements, for future reference and compliance.
+  8. [IC] Hold a brief meeting with the team to discuss any issues, reinforce sustainable practices, and share lessons learned.
+  9. [FV] Deliver a final report on the day's operations, ensuring all activities were environmentally sustainable and compliant with regulations.
+[B]
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+[C]
+  1. [IC] Review the day's work schedule, environmental protocols, and safety procedures with the team.
+  2. [PD] Observe workers performing their tasks, paying attention to their adherence to protocols and safety practices.
+  3. [IC] Provide real-time feedback and guidance to workers, correcting any mistakes and reinforcing best practices.
+  4. [PD] Monitor the proper handling and disposal of materials, ensuring recycling and waste reduction strategies are followed.
+  5. [FV] Conduct periodic safety checks and address any concerns or potential hazards promptly.
+  6. [ME] Document any deviations from protocols, safety incidents, or noteworthy observations for future reference and improvement.
+  7. [IC] At the end of the day, debrief with the team, discussing performance, lessons learned, and reinforcing the importance of sustainable practices.
+[D]
+  1. [IC] Review project plans, environmental regulations, and safety protocols to ensure compliance and identify potential risks.
+  2. [PD] Conduct a site walk-through to assess the current environmental conditions and identify areas for improvement.
+  3. [IC] Communicate a clear plan for implementing environmentally sustainable practices, such as recycling, waste minimization, and eco-friendly solutions.
+  4. [FV] Monitor and enforce adherence to environmental regulations and the project plan, addressing any deviations or issues promptly.
+  5. [PD] Conduct regular site inspections to ensure compliance with environmental regulations and the project plan, making adjustments as needed.
+  6. [ME] Develop and implement a waste management plan, including recycling and minimizing waste, to reduce the project's environmental impact.
+  7. [FV] Document the project's environmental achievements, lessons learned, and any deviations from the original plan for future reference and compliance.
+  8. [IC] Communicate the project's environmental achievements and lessons learned to stakeholders, including workers, clients, and regulatory bodies.
+  9. [FV] Evaluate the project's environmental impact and identify areas for improvement, incorporating lessons learned into future projects.
+  10. [IC] Notify relevant authorities (e.g., building inspectors, electrical utility company) of the project's completion and readiness for inspection or connection to the power grid.
+
+================================================================
+ANSWER TEMPLATE
+
+57: _ | 
+58: _ | 
+59: _ | 
+60: _ | 
+61: _ | 
+62: _ | 
+63: _ | 
+64: _ | 
+

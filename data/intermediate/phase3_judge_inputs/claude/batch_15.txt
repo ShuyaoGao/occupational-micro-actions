@@ -1,0 +1,361 @@
+BATCH 15/63 | Model: Claude Opus 4.7 | Tasks 113-120
+================================================================
+EXPERT REVIEW -- Micro-Action Sequence Evaluation
+For each task, read ALL four options, then choose the BEST (A/B/C/D).
+
+Criteria:
+  1. Completeness  -- no critical steps missing
+  2. Realism       -- every step is concretely executable
+  3. Stage accuracy -- stage label correct for each step:
+     IC=Intent_Communication  NA=Navigation_Addressing
+     PD=Perception_Diagnosis  ME=Manipulation_Execution  FV=Feedback_Verification
+  4. Conciseness   -- no redundant or duplicate steps
+  5. Scope         -- starts and ends at exactly the right point
+
+OUTPUT: fill the ANSWER TEMPLATE at the bottom.
+Format: N: X | one-sentence reason (max 12 words)
+IMPORTANT: Each task has a different best answer. Do NOT pick the same
+letter for every task without reading.
+================================================================
+
+--- Task 113: Operate cash registers.
+[A]
+  1. [IC] Greet the customer and prepare the cash register for the transaction.
+  2. [PD] Scan the barcode of each item using the handheld scanner or enter the product code manually for items without barcodes.
+  3. [PD] Verify the item's price and quantity on the cash register display matches the customer's understanding.
+  4. [ME] Calculate the total cost of the purchase and display it on the register screen.
+  5. [IC] Ask the customer how they would like to pay and process the payment (cash, card, or mobile).
+  6. [FV] Print a receipt and hand it to the customer if requested.
+  7. [IC] Thank the customer and wish them a nice day.
+  8. [FV] Press the 'Complete Transaction' button on the cash register and confirm the transaction is complete.
+[B]
+  1. [IC] Greet the customer and prepare the cash register for the transaction.
+  2. [PD] Scan the first item and verify the price on the screen.
+  3. [PD] Repeat the scanning process for all items in the customer's cart.
+  4. [IC] Confirm the total amount due with the customer.
+  5. [ME] Accept the customer's payment method (cash, card, etc.).
+  6. [ME] Process the payment through the cash register.
+  7. [ME] Calculate and provide the correct change if the customer paid with cash.
+  8. [ME] Print the receipt and hand it to the customer.
+  9. [IC] Thank the customer and ask if they need any assistance with their bags.
+  10. [FV] Close the transaction and prepare the register for the next customer.
+[C]
+  1. [IC] Greet the customer and prepare the checkout area.
+  2. [PD] Scan each item's barcode using the handheld scanner.
+  3. [IC] Confirm the total amount due with the customer.
+  4. [ME] Process the customer's payment (cash, card, or mobile).
+  5. [ME] Provide the correct change (if applicable) and print the receipt.
+  6. [IC] Thank the customer and wish them a good day.
+[D]
+  1. [IC] Greet the customer and prepare the cash register for the transaction.
+  2. [PD] Scan each item's barcode using the handheld scanner.
+  3. [PD] Verify the item's price and quantity on the cash register display matches the customer's understanding.
+  4. [IC] Ask the customer how they would like to pay.
+  5. [ME] Process the customer's payment (cash, card, or mobile) as per their chosen method.
+  6. [ME] Calculate and provide the correct change if the customer paid with cash.
+  7. [IC] Ask the customer if they would like a receipt and, if yes, print and hand it to them.
+  8. [IC] Thank the customer, wish them a nice day, and offer assistance with their bags if needed.
+  9. [FV] Press the 'Complete Transaction' button on the cash register.
+  10. [FV] Confirm that the transaction is complete and the correct amount has been tendered.
+
+--- Task 114: Record personnel information.
+[A]
+  1. [NA] Log into the HR management system using the HR specialist's credentials.
+  2. [NA] Navigate to the new hire's profile or onboarding form within the HR management system.
+  3. [PD] Verify the new hire's identity using a government-issued ID.
+  4. [ME] Enter the new hire's personal information (name, address, date of birth) into the designated fields.
+  5. [ME] Enter the new hire's contact information (phone number, email address) and employment details (job title, department, start date).
+  6. [ME] Upload a copy of the new hire's ID and any other required documents.
+  7. [FV] Review the entered information for accuracy with the new hire.
+  8. [ME] Save the new hire's information in the HR management system.
+  9. [FV] Verify that the new hire's information has been successfully saved by searching for their name in the system.
+  10. [FV] Notify the new hire and relevant departments of the successful registration.
+[B]
+  1. [IC] Greet the new employee and explain the purpose of the data entry process.
+  2. [NA] Open the HR application on the tablet and navigate to the new employee onboarding form.
+  3. [PD] Verify the employee's identity using a government-issued ID.
+  4. [ME] Enter the employee's personal information (name, address, date of birth) into the designated fields on the form.
+  5. [ME] Confirm the employee's contact information (phone number, email address) and enter it into the form.
+  6. [ME] Record the employee's employment status (full-time, part-time, contractor) and job title.
+  7. [ME] Collect emergency contact information from the employee and enter it into the form.
+  8. [FV] Review all entered information with the employee, confirm its accuracy, and submit the completed form.
+[C]
+  1. [NA] Log into the HR management system using the appropriate credentials.
+  2. [NA] Navigate to the 'New Hire' or employee profile section within the system.
+  3. [PD] Verify the employee's identity using a government-issued ID or existing system records.
+  4. [ME] Enter the employee's personal information (name, address, contact details) into the designated fields.
+  5. [ME] Input the employee's employment details (job title, department, start date) using the system's interface.
+  6. [FV] Review all entered information with the employee, confirming its accuracy.
+  7. [ME] Save the updated personnel information in the HR management system.
+[D]
+  1. [IC] Greet the employee and explain the purpose of the data entry process.
+  2. [NA] Log into the HR management system using the appropriate credentials.
+  3. [NA] Navigate to the employee's profile or the new hire section within the HR management system.
+  4. [PD] Verify the employee's identity using a government-issued ID or other valid identification methods.
+  5. [ME] Enter or update the employee's personal information (name, address, date of birth, contact details) into the designated fields.
+  6. [ME] Enter or update the employee's employment details (job title, department, employment status, start date) using the system's dropdown menus or input fields.
+  7. [ME] Upload or attach any required documents, such as ID copies or other supporting documents.
+  8. [FV] Review all entered information with the employee, confirm its accuracy, and submit the completed form or profile.
+  9. [FV] Verify that the employee's information has been successfully saved by searching for their name or relevant details in the system.
+  10. [FV] Print or email a confirmation of the employee's successful registration or information update to the employee and relevant departments.
+
+--- Task 115: Train personnel on proper operational procedures.
+[A]
+  1. [IC] The supervisor gathers the new operators in the training room and introduces the CNC machine, explaining the purpose of the training session.
+  2. [IC] The supervisor explains the safety protocols, including the use of personal protective equipment (PPE) and emergency stop procedures.
+  3. [NA] The supervisor demonstrates the proper setup of the CNC machine, including securing the workpiece and loading the program.
+  4. [NA] The supervisor explains the CNC machine's control panel and the functions of each button and display.
+  5. [PD] The supervisor demonstrates the operation of the CNC machine, including starting the program and monitoring the process.
+  6. [ME] The supervisor provides a hands-on session where the operators practice setting up and operating the CNC machine under supervision.
+  7. [FV] The supervisor observes the operators during the hands-on session and provides feedback on their performance.
+  8. [FV] The supervisor conducts a practical test where the operators must independently set up and operate the CNC machine.
+  9. [FV] The supervisor evaluates the operators' performance during the practical test and provides final feedback.
+  10. [FV] The supervisor concludes the training session and confirms that the operators are ready to operate the CNC machine independently.
+[B]
+  1. [IC] Review the training curriculum and ensure it aligns with the facility's specific operational procedures.
+  2. [IC] Deliver a presentation on the importance of safety protocols and the consequences of non-compliance.
+  3. [ME] Lead a hands-on demonstration of the heavy machinery, highlighting key safety features and operational best practices.
+  4. [ME] Guide the trainees through a series of exercises and simulations, reinforcing the operational procedures and safety protocols.
+  5. [PD] Conduct a group discussion on common mistakes and near-miss scenarios, emphasizing the importance of situational awareness and proactive safety measures.
+  6. [FV] Administer a quiz to assess the trainees' understanding of the operational procedures and safety protocols.
+  7. [FV] Provide individualized feedback and coaching to trainees who struggle with specific aspects of the operational procedures.
+  8. [ME] Conduct a final demonstration of the heavy machinery, observing the trainees' ability to apply the operational procedures and safety protocols.
+  9. [IC] Review the training outcomes and identify areas for improvement, updating the curriculum as needed.
+  10. [FV] Issue certificates of completion to trainees who have successfully completed the training program.
+[C]
+  1. [IC] The trainer introduces themselves, outlines the training objectives, and emphasizes the importance of safety protocols.
+  2. [ME] The trainer demonstrates the correct use of personal protective equipment (PPE) and explains the rationale behind each safety measure.
+  3. [IC] The trainer provides a comprehensive overview of the CNC machine, highlighting key components, their functions, and basic operational principles.
+  4. [ME] Under the trainer's supervision, trainees practice setting up a simple operation on the CNC machine, including workpiece loading and program input.
+  5. [FV] The trainer observes trainees performing the setup process, providing feedback on their technique and addressing any questions or concerns.
+  6. [ME] Trainees independently operate the CNC machine under the trainer's watchful eye, applying the learned procedures to complete a designated task.
+  7. [IC] The trainer conducts a debriefing session, reviewing the training objectives, addressing any remaining questions, and emphasizing key takeaways.
+[D]
+  1. [IC] Greet trainees, introduce self, and explain the purpose of the training session.
+  2. [IC] Review and distribute safety guidelines and operational manuals.
+  3. [IC] Deliver a presentation on safety protocols, consequences of non-compliance, and the importance of situational awareness.
+  4. [ME] Demonstrate how to safely approach, operate, and maintain the CNC machine, highlighting key safety features and operational best practices.
+  5. [ME] Guide trainees through a series of exercises and simulations, reinforcing operational procedures and safety protocols.
+  6. [PD] Conduct a group discussion on common mistakes, near-miss scenarios, and machine maintenance.
+  7. [FV] Observe trainees as they independently perform setup processes and operate the machine.
+  8. [FV] Administer a quiz to assess trainees' understanding of operational procedures and safety protocols.
+  9. [FV] Provide individualized feedback and coaching to trainees who struggle with specific aspects of the operational procedures.
+  10. [ME] Conduct a final demonstration of the heavy machinery, observing trainees' ability to apply operational procedures and safety protocols.
+  11. [IC] Review training outcomes, identify areas for improvement, and update the curriculum as needed.
+  12. [FV] Issue certificates of completion to trainees who have successfully completed the training program.
+
+--- Task 116: Interpret blueprints, specifications, or diagrams to inform installation, development or operation activities.
+[A]
+  1. [NA] Retrieve the approved blueprints and specifications from the digital repository or project manager.
+  2. [IC] Open and review the blueprint file, ensuring all relevant documents are present and accessible.
+  3. [PD] Identify key components and their locations on the blueprint, cross-referencing with specifications for consistency.
+  4. [ME] Prepare a detailed installation plan based on the blueprint and specifications, including a list of required components.
+  5. [IC] Communicate the installation plan and component list to the installation team, ensuring they understand the requirements.
+  6. [ME] Physically position and install the components according to the installation plan, ensuring they are securely fastened and properly aligned.
+  7. [ME] Connect the components and wiring according to the blueprint, ensuring proper insulation and secure connections.
+  8. [FV] Test the system by turning on the power and checking that all components are functioning as intended.
+  9. [ME] Document the final results, including any changes or corrections made during the installation process.
+[B]
+  1. [NA] Retrieve the blueprints and specifications from the digital repository.
+  2. [NA] Open the blueprint file and zoom in on the HVAC system layout.
+  3. [PD] Identify the HVAC system components and their locations on the blueprint.
+  4. [PD] Review the specifications document to understand the performance requirements and constraints.
+  5. [PD] Cross-reference the blueprint with the specifications to ensure consistency.
+  6. [PD] Identify any special installation requirements or notes on the blueprint.
+  7. [ME] Create a list of all required components and their specifications.
+  8. [ME] Prepare a detailed installation plan based on the blueprint and specifications.
+  9. [IC] Communicate the installation plan and component list to the installation team.
+  10. [FV] Confirm that the installation team has all necessary information and is ready to proceed.
+[C]
+  1. [NA] Retrieve the blueprints and specifications from the designated repository.
+  2. [PD] Identify key components and their locations on the blueprints.
+  3. [PD] Cross-reference blueprint information with the specifications document to understand performance requirements and constraints.
+  4. [ME] Create a list of required components and their specifications based on the blueprint and specifications.
+  5. [ME] Develop a detailed installation plan based on the gathered information.
+  6. [IC] Communicate the installation plan and component list to the relevant team.
+  7. [FV] Confirm the team's understanding of the plan and address any questions or concerns.
+[D]
+  1. [NA] Retrieve and open the blueprints and specifications from the digital repository.
+  2. [PD] Review the blueprint layout and identify key components and their locations.
+  3. [PD] Study the specifications document to understand performance requirements and constraints.
+  4. [PD] Cross-reference the blueprint with the specifications to ensure consistency and identify any special installation requirements or notes.
+  5. [ME] Create a list of all required components and their specifications.
+  6. [ME] Prepare a detailed installation plan based on the blueprint, specifications, and identified requirements.
+  7. [IC] Communicate the installation plan, component list, and any special requirements to the relevant team or stakeholders.
+  8. [FV] Verify that the team has all necessary information and is ready to proceed with the installation or development activities.
+  9. [PD] Monitor the installation or development activities to ensure they align with the prepared plan and meet the required standards.
+  10. [FV] Verify that the installation or development activities have been completed correctly and meet the required standards.
+
+--- Task 117: Mark reference points on construction materials.
+[A]
+  1. [IC] Review the architectural plans to understand the layout and required reference points.
+  2. [NA] Gather the required construction materials (wooden beams) from the storage area and position them on a flat surface.
+  3. [NA] Set up the laser level on a stable surface and align it with the reference point on the first beam.
+  4. [PD] Check the laser level for any obstructions or misalignments.
+  5. [ME] Mark the reference point on the first beam using a marker.
+  6. [FV] Verify the reference point on the first beam by double-checking the alignment with the laser level.
+  7. [ME] Repeat the alignment and marking process for all remaining beams until all reference points are marked.
+  8. [FV] Review the completed markings to ensure they meet the project's specifications and are accurate.
+  9. [IC] Document the completed work, noting any issues or adjustments made during the process.
+[B]
+  1. [IC] Review the architectural plans to understand the layout and required reference points.
+  2. [NA] Gather the required construction materials (steel beams and wooden planks) from the storage area.
+  3. [PD] Lay out the materials in a clear workspace, ensuring they are stable and secure.
+  4. [ME] Using a measuring tape, measure and mark the starting point for the reference points on the materials.
+  5. [ME] Using a pencil and a straight edge, draw lines from the starting point to mark the required reference points according to the architectural plans.
+  6. [FV] Check the marked lines for accuracy and make any necessary adjustments.
+  7. [ME] Using a scribe or a center punch, create indents at the marked reference points to ensure they remain visible during installation.
+  8. [ME] Measure and mark the opposite side of the materials to ensure symmetry in the reference points.
+  9. [FV] Check the marked reference points on both sides of the materials for accuracy and symmetry.
+  10. [FV] Clean up the workspace, ensuring all tools and materials are properly stored and ready for the next task.
+  11. [IC] Document the completed work, noting any issues or adjustments made during the process.
+[C]
+  1. [IC] Review the project plans and specifications to identify the required reference points.
+  2. [NA] Retrieve the construction materials (beams, planks) from storage and position them on a stable, clear workspace.
+  3. [ME] Using a measuring tape and the project plans, mark the starting point for the reference points on each material.
+  4. [ME] Using a straight edge and marker, draw lines from the starting point to mark the required reference points according to the plans.
+  5. [FV] Verify the accuracy of the marked reference points by double-checking against the project plans.
+  6. [ME] Enhance the visibility of the reference points by creating indents using a scribe or center punch.
+  7. [IC] Document the completed work, noting any deviations or adjustments made.
+[D]
+  1. [IC] Review project plans and specifications to understand reference point markings required.
+  2. [NA] Navigate the construction site to locate materials (e.g., steel beams, wooden planks) that need marking.
+  3. [NA] Position materials on a stable, flat surface or use appropriate tools (e.g., ladder) to access them.
+  4. [ME] Set up a laser level or use measuring tools to accurately mark reference points according to the project's specifications.
+  5. [FV] Verify marked reference points using the laser level or measuring tools to ensure accuracy.
+  6. [ME] Repeat the marking and verification process for all required materials until all reference points are accurately marked.
+  7. [IC] Document the completed work, noting any issues or adjustments made during the process.
+
+--- Task 118: Operate transportation equipment to demonstrate function or malfunction.
+[A]
+  1. [IC] Review the equipment's operational manual and safety guidelines to ensure a thorough understanding of the equipment.
+  2. [NA] Move the equipment to the demonstration area, ensuring the path is clear of obstacles.
+  3. [ME] Demonstrate the equipment's basic functions, such as moving forward, backward, turning, and lifting a load.
+  4. [PD] Simulate a malfunction by disabling a specific component, such as the lift mechanism, and demonstrate the equipment's behavior under the malfunction.
+  5. [FV] Explain the normal operation and the observed behavior under the malfunction, emphasizing the importance of recognizing such issues.
+  6. [FV] Reset the equipment to its normal operational state and ensure all systems are functioning correctly.
+  7. [FV] Conclude the demonstration by summarizing key points and answering any questions from the audience.
+[B]
+  1. [IC] Review the operational manual and safety guidelines for the transportation equipment.
+  2. [IC] Brief the trainees on the equipment's basic functions and safety measures.
+  3. [NA] Move the equipment to the demonstration area, ensuring a clear path.
+  4. [ME] Demonstrate the equipment's basic functions, such as moving forward, backward, turning, and lifting a load.
+  5. [FV] Explain the normal operation of the equipment, highlighting key features and controls.
+  6. [PD] Simulate a malfunction by disabling a specific component, such as the lift mechanism.
+  7. [ME] Demonstrate the equipment's behavior under the simulated malfunction, showing how it affects operation.
+  8. [FV] Explain the observed behavior under the malfunction and the importance of recognizing such issues.
+  9. [FV] Reset the equipment to its normal operational state and ensure all systems are functioning correctly.
+  10. [FV] Conclude the demonstration by summarizing key points and answering any questions from the trainees.
+[C]
+  1. [IC] Review the equipment's operational manual and safety guidelines to understand its functions and potential malfunctions.
+  2. [IC] Brief trainees on the equipment's basic functions and safety measures, emphasizing proper operation.
+  3. [NA] Navigate the equipment to a clear demonstration area.
+  4. [ME] Demonstrate normal operation of the equipment, highlighting key features and controls.
+  5. [ME] Simulate a malfunction by disabling a specific component.
+  6. [ME] Demonstrate the equipment's behavior under the simulated malfunction.
+  7. [FV] Explain the observed behavior under the malfunction and the importance of recognizing such issues.
+  8. [ME] Reset the equipment to its normal operational state and verify all systems are functioning correctly.
+[D]
+  1. [IC] Review the equipment's operational manual, repair history, and diagnostic reports to understand its systems and recent repairs.
+  2. [IC] Brief the trainees or customers on the equipment's basic functions, safety measures, and the demonstration's purpose.
+  3. [NA] Safely move the equipment to the demonstration or test area, ensuring the path is clear of obstacles.
+  4. [ME] Demonstrate the equipment's basic functions and key features, highlighting proper operation and safety measures.
+  5. [PD] Simulate a malfunction by disabling a specific component or system, or use a pre-existing malfunction for demonstration purposes.
+  6. [ME] Demonstrate the equipment's behavior under the simulated malfunction, showing how it affects operation and safety.
+  7. [FV] Explain the observed behavior under the malfunction, the importance of recognizing such issues, and proper response procedures.
+  8. [FV] Reset the equipment to its normal operational state and ensure all systems are functioning correctly.
+  9. [FV] Conclude the demonstration by summarizing key points, answering any questions, and providing feedback to trainees or customers.
+
+--- Task 119: Prescribe medications.
+[A]
+  1. [IC] Review the patient's medical history, current symptoms, and current medications in the electronic health record (EHR).
+  2. [PD] Diagnose the patient's condition based on symptoms, medical history, and any relevant diagnostic tests.
+  3. [ME] Select the appropriate medication and determine the correct dosage and duration based on the diagnosis and patient history.
+  4. [NA] Enter the prescription into the EHR system, ensuring it is accurate and legible.
+  5. [FV] Review the prescription with the patient, explaining the medication, its purpose, and any potential side effects.
+  6. [FV] Answer any questions the patient may have about the medication or their condition.
+  7. [FV] Document the entire encounter, including the prescription, in the patient's EHR for future reference and continuity of care.
+[B]
+  1. [IC] Review the patient's medical history and current symptoms.
+  2. [PD] Diagnose the patient's condition based on symptoms and medical history.
+  3. [ME] Select the appropriate medication based on the diagnosis.
+  4. [ME] Determine the correct dosage and duration of the medication.
+  5. [NA] Open the electronic health record (EHR) system to enter the prescription.
+  6. [ME] Enter the medication name, dosage, and duration into the EHR system.
+  7. [FV] Review the prescription for accuracy and completeness.
+  8. [FV] Confirm the prescription in the EHR system.
+  9. [IC] Communicate the prescription details to the patient.
+  10. [FV] Provide the patient with a printed prescription to take to the pharmacy.
+[C]
+  1. [IC] Review the patient's medical history, current symptoms, and allergies.
+  2. [PD] Diagnose the patient's condition based on symptoms, medical history, and potential differential diagnoses.
+  3. [ME] Select the appropriate medication based on the diagnosis, considering potential drug interactions and patient-specific factors.
+  4. [ME] Determine the correct dosage and duration of the medication based on patient factors (e.g., weight, age, kidney function).
+  5. [NA] Enter the prescription details (medication name, dosage, duration) into the electronic health record (EHR) system.
+  6. [FV] Review the entered prescription for accuracy and completeness within the EHR system.
+  7. [IC] Communicate the prescription details, including dosage instructions and potential side effects, to the patient.
+  8. [IC] Answer any patient questions regarding the medication or their condition.
+[D]
+  1. [IC] Review the patient's electronic health record (EHR) to understand their medical history, allergies, and current medications.
+  2. [IC] Ask the patient about their symptoms, when they started, and any changes in their condition.
+  3. [NA] Order relevant diagnostic tests based on the patient's symptoms and medical history.
+  4. [PD] Review the results of the diagnostic tests as they become available in the EHR.
+  5. [PD] Consult the latest medical guidelines and relevant literature to determine the best course of treatment.
+  6. [ME] Prescribe the appropriate medication based on the patient's symptoms, test results, and current medical guidelines.
+  7. [ME] Enter the prescription into the electronic prescribing system, ensuring it is accurate and legible.
+  8. [FV] Review the prescription with the patient, explaining the medication, its purpose, and any potential side effects.
+  9. [FV] Answer any questions the patient may have about the medication or their condition.
+  10. [FV] Document the entire encounter, including the prescription, in the patient's EHR for future reference and continuity of care.
+
+--- Task 120: Determine prices for menu items.
+[A]
+  1. [IC] Access the current menu and relevant financial records on the restaurant's management software.
+  2. [PD] Review the cost of ingredients for each menu item, including potential waste.
+  3. [NA] Research competitor pricing for similar dishes in the local market.
+  4. [PD] Determine the desired profit margin for each dish category (e.g., appetizers, entrees, desserts).
+  5. [ME] Calculate a preliminary price for each dish based on ingredient cost, labor cost, desired profit margin, and competitor pricing.
+  6. [FV] Review the preliminary prices and adjust based on perceived customer value and overall menu balance.
+  7. [ME] Finalize the prices for each menu item and update the restaurant's point-of-sale system.
+  8. [NA] Print new menus and distribute them to the staff and customers, ensuring clear communication of the price changes.
+  9. [FV] Monitor customer feedback and sales data to ensure that the price adjustments have not negatively impacted customer satisfaction or sales.
+[B]
+  1. [PD] Review the current menu prices and sales data to understand the restaurant's pricing strategy and identify areas for potential price adjustments.
+  2. [PD] Research the current market prices for similar restaurants in the area to ensure the restaurant's prices remain competitive.
+  3. [IC] Consult with the restaurant's accountant to determine the target profit margin and ensure that the price adjustments align with this goal.
+  4. [PD] Calculate the total cost per burger by adding the ingredient cost and the overhead cost per burger.
+  5. [ME] Calculate the target price by adding the desired profit margin to the total cost per burger.
+  6. [ME] Review market prices for similar gourmet burgers in the area to ensure the price is competitive.
+  7. [FV] Adjust the price if necessary to align with market pricing while maintaining profitability.
+  8. [FV] Finalize the price for the gourmet burger and update the menu.
+[C]
+  1. [PD] Review the cost of ingredients for each menu item, factoring in potential waste.
+  2. [NA] Research competitor pricing for similar dishes in the local market.
+  3. [ME] Calculate the food cost percentage for each menu item.
+  4. [IC] Determine the desired profit margin for each dish category.
+  5. [ME] Calculate a preliminary price for each dish based on ingredient cost, food cost percentage, desired profit margin, and competitor pricing.
+  6. [FV] Review the preliminary prices and adjust based on perceived customer value and overall menu balance.
+  7. [ME] Finalize the prices for each menu item and update the restaurant's point-of-sale system.
+[D]
+  1. [IC] Access and review the current menu, financial records, and relevant data on food costs, market trends, and competitor pricing.
+  2. [PD] Calculate the food cost percentage for each menu item.
+  3. [PD] Compare the restaurant's menu prices with those of competitors in the same category.
+  4. [IC] Determine the desired profit margin for each dish category.
+  5. [ME] Calculate a preliminary price for each menu item based on ingredient cost, labor cost, desired profit margin, and competitor pricing.
+  6. [FV] Review and adjust preliminary prices based on perceived customer value and overall menu balance.
+  7. [ME] Finalize the prices for each menu item.
+  8. [ME] Update the restaurant's point-of-sale system with the finalized prices.
+  9. [ME] Prepare a report outlining the changes in menu prices and the reasons behind them.
+  10. [IC] Communicate the price changes to the staff and customers.
+
+================================================================
+ANSWER TEMPLATE
+
+113: _ | 
+114: _ | 
+115: _ | 
+116: _ | 
+117: _ | 
+118: _ | 
+119: _ | 
+120: _ | 
+

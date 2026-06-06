@@ -1,0 +1,380 @@
+BATCH 45/63 | Model: Gemini 3 Pro | Tasks 353-360
+================================================================
+EXPERT REVIEW -- Micro-Action Sequence Evaluation
+For each task, read ALL four options, then choose the BEST (A/B/C/D).
+
+Criteria:
+  1. Completeness  -- no critical steps missing
+  2. Realism       -- every step is concretely executable
+  3. Stage accuracy -- stage label correct for each step:
+     IC=Intent_Communication  NA=Navigation_Addressing
+     PD=Perception_Diagnosis  ME=Manipulation_Execution  FV=Feedback_Verification
+  4. Conciseness   -- no redundant or duplicate steps
+  5. Scope         -- starts and ends at exactly the right point
+
+OUTPUT: fill the ANSWER TEMPLATE at the bottom.
+Format: N: X | one-sentence reason (max 12 words)
+IMPORTANT: Each task has a different best answer. Do NOT pick the same
+letter for every task without reading.
+================================================================
+
+--- Task 353: Evaluate projects to determine compliance with technical specifications.
+[A]
+  1. [IC] Review the project brief and technical specifications document to understand the project's requirements and expected features.
+  2. [NA] Access the project management tool and retrieve the project files and test results.
+  3. [PD] Examine the project's codebase and compare it with the predefined technical specifications to identify any deviations or non-compliance issues.
+  4. [ME] Document all identified non-compliance issues, describing the problem, its impact, and suggesting potential solutions.
+  5. [ME] Compile and run the application on a testing environment to verify its functionality and performance.
+  6. [ME] Execute automated tests and manual test cases to evaluate the application's features and ensure they meet the required specifications.
+  7. [FV] Review the test results and compare them with the expected outcomes as defined in the technical specifications.
+  8. [FV] Compile a comprehensive report detailing all non-compliance issues, their impact, suggested solutions, and the overall project status.
+  9. [FV] Deliver the report to the project manager and stakeholders, presenting the findings and discussing the recommended solutions.
+[B]
+  1. [IC] Review the project documentation and technical specifications document.
+  2. [NA] Navigate to the project management tool to access the project files and test results.
+  3. [PD] Run performance tests on the web application to ensure it meets the specified benchmarks.
+  4. [ME] Document any discrepancies found during the review process.
+  5. [ME] Compile a report summarizing the compliance status and any identified issues.
+  6. [FV] Submit the compliance report to the project manager and relevant stakeholders.
+  7. [FV] Confirm receipt of the report and discuss any immediate actions required to address non-compliance issues.
+[C]
+  1. [IC] Review the project brief and technical specifications document to understand the project's requirements and expected features.
+  2. [NA] Access the relevant project files and source code repository.
+  3. [PD] Analyze the source code and project documentation, comparing them against the technical specifications.
+  4. [PD] Identify any discrepancies or areas where the implementation deviates from the specifications.
+  5. [FV] Document the findings, clearly stating whether the code complies with each specification and providing specific examples of any deviations.
+  6. [FV] Compile a comprehensive report summarizing the compliance status and any identified issues.
+  7. [FV] Submit the compliance report to the project manager and relevant stakeholders.
+[D]
+  1. [IC] Review the project brief and technical specifications document to understand the project's requirements and expected features.
+  2. [NA] Access the project's version control system and navigate to the latest stable branch.
+  3. [PD] Retrieve the project's codebase and open it in an integrated development environment (IDE) for code review.
+  4. [PD] Examine the project's architecture, data models, business logic, and compare the codebase with the predefined technical specifications to identify any deviations or non-compliance issues.
+  5. [ME] Document all identified non-compliance issues, describing the problem, its impact, and suggesting potential solutions.
+  6. [ME] Compile and run the application on a testing environment to verify its functionality and performance.
+  7. [ME] Execute automated tests and manual test cases to evaluate the application's features and ensure they meet the required specifications.
+  8. [FV] Review the test results and compare them with the expected outcomes as defined in the technical specifications.
+  9. [FV] Compile a comprehensive report detailing all non-compliance issues, their impact, suggested solutions, and the overall project status.
+  10. [IC] Deliver the report to the project manager and stakeholders, presenting the findings and discussing the recommended solutions.
+
+--- Task 354: Communicate project information to others.
+[A]
+  1. [PD] Review project documents and notes to understand the current status, upcoming milestones, and any issues.
+  2. [ME] Prepare a clear and concise message with relevant data and visual aids to support the information.
+  3. [NA] Select and set up the appropriate communication channels, such as video conferencing or project management software.
+  4. [IC] Greet team members and stakeholders, and confirm the meeting's purpose.
+  5. [ME] Present the project's current status, milestones, and any roadblocks using visual aids.
+  6. [FV] Answer questions from the team and stakeholders, providing additional context or clarification as needed.
+  7. [FV] Summarize key takeaways and next steps, ensuring everyone is aligned on the project's direction.
+  8. [FV] Thank the team and stakeholders for their participation and conclude the meeting.
+[B]
+  1. [IC] Review project documentation and code repository to gather the latest updates on the feature's development.
+  2. [IC] Structure the presentation by outlining key milestones achieved, current challenges faced, and upcoming tasks.
+  3. [IC] Prepare visual aids, such as slides or diagrams, to illustrate the feature's functionality and progress.
+  4. [NA] Arrive at the meeting room on time and set up the presentation materials.
+  5. [IC] Greet team members and initiate the stand-up meeting.
+  6. [ME] Deliver the prepared presentation, explaining the feature's progress, challenges, and next steps.
+  7. [FV] Respond to questions from team members, clarifying any doubts or concerns.
+  8. [FV] Summarize key takeaways and confirm next steps with the team.
+  9. [FV] End the meeting, thank the team for their participation, and send a follow-up email summarizing the discussion.
+[C]
+  1. [IC] Review project documentation, notes, and relevant data to understand the current status, completed tasks, upcoming milestones, and any challenges.
+  2. [IC] Structure the key points to be communicated, including progress updates, challenges, and next steps.
+  3. [ME] Prepare visual aids, such as slides or diagrams, to illustrate the project's progress and key information.
+  4. [NA] Choose the appropriate communication channel (meeting, email, etc.) and ensure all necessary participants are informed.
+  5. [ME] Deliver the prepared information, highlighting key points, addressing questions, and encouraging discussion.
+  6. [FV] Summarize the key takeaways, confirm next steps, and ensure everyone is aligned on the project's direction.
+[D]
+  1. [IC] Review project documents, notes, and repositories to understand the current status, upcoming tasks, and any issues.
+  2. [ME] Prepare a clear and concise message or presentation, using relevant data and visual aids, to communicate project information effectively.
+  3. [IC] Select appropriate communication channels, such as email, video conferencing, or project management software, to reach the target audience.
+  4. [NA] Join the scheduled meeting or send the prepared message via the selected communication channels.
+  5. [IC] Greet team members or stakeholders, confirm the meeting's purpose or introduce the message's content, and start the presentation or discussion.
+  6. [PD] Share the project's current status, highlighting completed tasks, ongoing tasks, and any roadblocks or issues.
+  7. [ME] Present a visual representation of the project's progress using a shared screen, project management tool, or other visual aids.
+  8. [FV] Answer questions, provide additional context or clarification, and address any concerns or feedback from the audience.
+  9. [FV] Summarize the key takeaways, next steps, and any action items, ensuring everyone is aligned on the project's direction.
+  10. [FV] End the meeting or communication, thank the team or stakeholders for their participation, and send a follow-up message or email summarizing the discussion.
+
+--- Task 355: Handle caskets.
+[A]
+  1. [IC] Review the funeral service details to understand the specific casket type and any special instructions.
+  2. [NA] Locate the appropriate casket in the mortuary's storage area, using a warehouse management system to guide navigation.
+  3. [NA] Carefully transport the casket to the preparation room, ensuring it remains level and secure.
+  4. [PD] Inspect the casket for any damages or defects that may affect its functionality or appearance.
+  5. [ME] Open the casket using the appropriate method (e.g., releasing latches, turning keys, or using an electronic mechanism).
+  6. [ME] Position the casket on a designated stand or platform in the preparation room.
+  7. [ME] Arrange any clothing, flowers, or other items around the deceased as requested by the family.
+  8. [ME] Close the casket, ensuring it is properly sealed and secured for transportation.
+  9. [FV] Consult the funeral service details to confirm all arrangements are correct and complete.
+  10. [IC] Contact the pallbearers or transportation team to inform them that the casket is ready for pickup.
+[B]
+  1. [NA] Retrieve the casket from storage, ensuring it is stable and undamaged.
+  2. [NA] Move the casket from storage to the preparation room, navigating through the funeral home.
+  3. [ME] Position the casket on a flat surface in the preparation room.
+  4. [ME] Open the casket carefully, ensuring it opens smoothly and without damage.
+  5. [PD] Inspect the interior of the casket for any damages or issues.
+  6. [PD] Check the exterior of the casket for any visible damages or issues.
+  7. [FV] Document any issues found during the inspection.
+  8. [ME] Close the casket carefully, ensuring it closes smoothly and without damage.
+  9. [ME] Position the casket for the next steps in the funeral preparation process.
+  10. [FV] Confirm the casket is ready for the funeral service.
+[C]
+  1. [IC] Review the funeral service details to understand the specific casket type and any special instructions.
+  2. [NA] Locate the designated casket in the storage area.
+  3. [NA] Carefully transport the casket to the preparation room, ensuring it remains level and secure.
+  4. [PD] Inspect the casket for any damages or defects that may affect its functionality or appearance.
+  5. [ME] Open the casket using the appropriate method.
+  6. [ME] Position the casket on a flat surface in the preparation room.
+  7. [FV] Confirm the casket is ready for the funeral service.
+[D]
+  1. [IC] Review funeral service details and locate the appropriate casket in storage using a warehouse management system.
+  2. [NA] Carefully transport the casket to the preparation room, ensuring it remains level and secure.
+  3. [PD] Inspect the casket for any damages or defects that may affect its functionality or appearance.
+  4. [ME] Open the casket using the appropriate method and position the deceased inside according to the family's wishes.
+  5. [ME] Arrange any clothing, flowers, or other items around the deceased as requested by the family.
+  6. [ME] Close the casket, ensuring it is properly sealed and secured for transportation.
+  7. [FV] Consult the funeral service details to confirm all arrangements are correct and complete.
+  8. [IC] Contact the pallbearers or transportation team to inform them that the casket is ready for pickup.
+  9. [NA] Supervise the safe transportation of the casket to the funeral service location.
+
+--- Task 356: Coordinate regulatory documentation activities.
+[A]
+  1. [IC] Review the FDA's current guidelines and regulations relevant to the new drug submission.
+  2. [NA] Identify the specific regulatory documents required for the submission, such as the Investigational New Drug Application (IND) or New Drug Application (NDA).
+  3. [IC] Communicate with department heads to gather necessary data and information for the submission and establish deadlines.
+  4. [PD] Collect and verify the completeness and accuracy of submitted documents against a master checklist.
+  5. [IC] Route documents requiring revisions back to the responsible departments with specific feedback and instructions for correction.
+  6. [ME] Consolidate all finalized documents into a single, structured submission package, adhering to FDA formatting and submission guidelines.
+  7. [FV] Conduct a final review of the complete submission package for accuracy, completeness, and adherence to all regulatory requirements.
+  8. [NA] Submit the finalized submission package electronically through the FDA's online portal, confirming receipt and tracking submission status.
+  9. [FV] Follow up with regulatory agencies to ensure that all submissions have been received and are being processed in a timely manner.
+[B]
+  1. [IC] Review the FDA's regulatory requirements for the new drug approval process.
+  2. [PD] Gather and review existing documentation, including technical reports, test results, and manufacturing process descriptions.
+  3. [NA] Determine which regulatory agencies require documentation and ensure that all necessary submissions are made in a timely manner.
+  4. [ME] Prepare and submit all necessary documentation to the relevant regulatory agencies, including any required supporting materials.
+  5. [FV] Follow up with regulatory agencies to ensure that all submissions have been received and are being processed in a timely manner.
+  6. [FV] Address any issues or concerns raised by regulatory agencies, including providing additional information or clarification as needed.
+  7. [NA] Maintain accurate and complete records of all regulatory documentation activities, including submissions, follow-up actions, and issues or concerns raised by regulatory agencies.
+  8. [PD] Ensure that all necessary regulatory documentation is up-to-date and compliant with current regulations, including any changes or updates to existing requirements.
+  9. [IC] Communicate with stakeholders, including company leadership, employees, and regulatory agencies, to ensure that all necessary documentation is in order and that any issues or concerns are addressed in a timely manner.
+  10. [PD] Review and update the company's regulatory documentation processes and procedures to ensure that they are current and compliant with changing regulatory requirements.
+[C]
+  1. [IC] Review FDA guidelines and identify required documents for the specific drug type.
+  2. [IC] Create a master checklist of required documents, assigning responsibility to specific departments.
+  3. [PD] Collect and verify the completeness and accuracy of submitted documents from each department against the checklist.
+  4. [IC] Route documents requiring revisions back to responsible departments, providing specific feedback.
+  5. [ME] Consolidate finalized documents into a structured submission package, adhering to FDA formatting guidelines.
+  6. [FV] Conduct a final review of the complete submission package for accuracy, completeness, and regulatory compliance.
+  7. [NA] Submit the finalized package electronically through the FDA's online portal, confirming receipt.
+[D]
+  1. [IC] Review the FDA's current guidelines and regulations relevant to the new drug submission.
+  2. [IC] Consult with relevant teams (research, manufacturing, quality control) to gather necessary data and information for the submission.
+  3. [NA] Identify and create a master checklist of all required regulatory documents, assigning responsibility to specific departments.
+  4. [ME] Establish deadlines for document submission and communicate them to responsible departments.
+  5. [PD] Collect submitted documents, verify their completeness and accuracy against the master checklist, and route documents requiring revisions back to the responsible departments.
+  6. [ME] Consolidate all finalized documents into a single, structured submission package, adhering to FDA formatting and submission guidelines.
+  7. [FV] Conduct a final review of the complete submission package for accuracy, completeness, and adherence to all regulatory requirements.
+  8. [NA] Submit the finalized regulatory document package to the FDA via the appropriate electronic submission system, confirming receipt and tracking submission status.
+
+--- Task 357: Study blueprints or other instructions to determine equipment setup requirements.
+[A]
+  1. [NA] Retrieve the blueprint and assembly instructions from the engineering office.
+  2. [PD] Review the blueprint to identify the equipment dimensions, required space, and mounting points.
+  3. [PD] Read the assembly instructions to understand the sequence of setup steps and required tools.
+  4. [ME] Cross-reference the blueprint and instructions to determine precise locations and connections.
+  5. [FV] Document the equipment setup requirements, including locations, connections, and safety considerations.
+  6. [IC] Communicate the setup requirements to the installation team and confirm their understanding.
+[B]
+  1. [NA] Retrieve the blueprint and assembly instructions from the engineering office.
+  2. [PD] Review the blueprint to identify the robot's dimensions and required space.
+  3. [PD] Identify the required mounting points and structural supports from the blueprint.
+  4. [PD] Read the assembly instructions to understand the sequence of setup steps.
+  5. [PD] Identify the required tools and equipment needed for the setup from the instructions.
+  6. [PD] Check the blueprint for any specific electrical or plumbing connections required.
+  7. [PD] Verify the blueprint and instructions for any safety considerations or warnings.
+  8. [FV] Summarize the setup requirements and create a checklist.
+  9. [IC] Communicate the setup requirements to the installation team.
+  10. [FV] Confirm the team's understanding of the setup requirements.
+[C]
+  1. [NA] Retrieve blueprints and assembly instructions.
+  2. [PD] Review blueprints to identify equipment dimensions, required space, mounting points, and structural supports.
+  3. [PD] Study assembly instructions to understand setup sequence, required tools, and safety considerations.
+  4. [PD] Identify any specific electrical or plumbing connections required from the blueprints and instructions.
+  5. [FV] Summarize setup requirements and create a checklist.
+  6. [IC] Communicate setup requirements and checklist to the installation team.
+  7. [FV] Confirm the team's understanding of the setup requirements.
+[D]
+  1. [NA] Retrieve and lay out the blueprints and relevant documents (instructions, schematics) on a flat surface.
+  2. [PD] Review the blueprints' legend and key to understand symbols and notations used.
+  3. [PD] Identify the equipment's location and dimensions on the blueprints, and determine the required space.
+  4. [PD] Locate and identify the required mounting points, structural supports, and connections (electrical, plumbing) from the blueprints and instructions.
+  5. [ME] Measure the site and equipment dimensions to ensure accurate placement and connection.
+  6. [IC] Consult with relevant stakeholders (architects, engineers) to clarify any questions or concerns regarding the blueprints or equipment setup requirements.
+  7. [PD] Review the site's electrical and plumbing connections, ensuring they align with the equipment setup requirements and safety protocols.
+  8. [FV] Document the equipment setup requirements, including location, dimensions, mounting points, connections, and any special considerations or precautions.
+  9. [IC] Review the documented requirements with the installation team to ensure everyone is aware and understands the setup process.
+
+--- Task 358: Confer with clients to discuss treatment plans or progress.
+[A]
+  1. [IC] Establish a secure video call connection with the patient and greet them, introducing yourself and confirming their identity.
+  2. [PD] Ask the patient about any new symptoms or changes in their health since the last consultation.
+  3. [NA] Review the patient's electronic health record (EHR) to refresh your memory on their medical history and current treatment plan.
+  4. [IC] Ask the patient if they have any specific questions or concerns about their treatment plan.
+  5. [ME] Discuss the patient's progress, highlighting successes and areas needing improvement, and explain the current treatment plan in simple, easy-to-understand terms.
+  6. [ME] Collaboratively adjust the treatment plan based on the patient's feedback and progress, potentially suggesting new exercises or modifications.
+  7. [FV] Explain any upcoming tests, procedures, or appointments that the patient needs to be aware of.
+  8. [FV] Summarize the key points discussed during the consultation and the agreed-upon next steps.
+  9. [NA] Document the consultation in the patient's EHR, including any agreed-upon changes to the treatment plan.
+  10. [IC] End the call, thank the patient for their time, and remind them of any follow-up actions they need to take.
+[B]
+  1. [IC] Greet the patient and establish a comfortable atmosphere.
+  2. [PD] Review the patient's chart and medical history.
+  3. [IC] Ask open-ended questions to encourage the patient to share their thoughts and feelings.
+  4. [PD] Observe the patient's body language and non-verbal cues.
+  5. [ME] Discuss the patient's progress and adjust the treatment plan as needed.
+  6. [FV] Summarize the agreed-upon plan and schedule the next appointment.
+  7. [NA] Document the consultation in the patient's electronic health record.
+  8. [IC] End the call and thank the patient for their time.
+[C]
+  1. [IC] Greet the client, establish rapport, and invite them to a comfortable space.
+  2. [NA] Review the client's records, including treatment plan and progress notes.
+  3. [IC] Engage the client in open-ended questions about their experiences, progress, and any concerns.
+  4. [PD] Observe the client's non-verbal cues and body language for additional insights into their well-being.
+  5. [ME] Discuss the client's progress, highlighting successes and areas needing attention.
+  6. [ME] Collaboratively adjust the treatment plan based on the client's feedback, progress, and shared goals.
+  7. [FV] Summarize the agreed-upon plan, address any remaining questions, and schedule the next session.
+[D]
+  1. [IC] Establish a secure connection with the patient, either in-person or via video call.
+  2. [IC] Greet the patient, introduce yourself, and confirm their identity.
+  3. [NA] Review the patient's medical records and notes from previous sessions to prepare for the discussion.
+  4. [PD] Ask the patient about any new symptoms, changes in their health, or experiences since the last session.
+  5. [PD] Observe the patient's physical condition and assess their current progress through conversation and, if applicable, visual inspection.
+  6. [ME] Explain the current treatment plan in simple, easy-to-understand terms, highlighting successes and areas needing improvement.
+  7. [ME] Discuss any necessary adjustments to the treatment plan based on the patient's feedback and observed progress.
+  8. [FV] Summarize the key points discussed during the consultation and the agreed-upon next steps.
+  9. [NA] Document the consultation in the patient's medical records, including any agreed-upon changes to the treatment plan.
+  10. [IC] End the consultation, thank the patient for their time, and remind them of any follow-up actions they need to take.
+
+--- Task 359: Assist practitioners to perform medical procedures.
+[A]
+  1. [IC] Review the surgical plan and patient's medical history to understand the specific requirements and potential risks.
+  2. [NA] Don sterile surgical attire, including gown, gloves, mask, and goggles.
+  3. [NA] Set up the surgical instruments and equipment on the sterile field.
+  4. [ME] Assist the surgeon in positioning the patient and draping the surgical site.
+  5. [PD] Monitor the patient's vital signs and communicate any changes to the surgical team.
+  6. [ME] Hand the surgeon the required instruments as requested and ensure they are properly sterilized.
+  7. [ME] Operate the suction device to clear the surgical field as needed.
+  8. [ME] Assist in the placement and removal of surgical retractors to maintain exposure of the surgical site.
+  9. [PD] Monitor the surgical field for any complications, such as bleeding or unexpected anatomical variations.
+  10. [FV] Assist in closing the incisions and dressing the surgical site once the procedure is complete.
+  11. [IC] Document the procedure and the patient's recovery in the medical record.
+[B]
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+[C]
+  1. [IC] Review the surgical plan, patient's medical history, and potential risks.
+  2. [NA] Don sterile surgical attire (gown, gloves, mask, goggles).
+  3. [NA] Prepare the surgical instruments and equipment on the sterile field.
+  4. [ME] Assist the surgeon in positioning the patient and draping the surgical site.
+  5. [PD] Monitor the patient's vital signs and communicate any changes to the surgical team.
+  6. [ME] Anticipate the surgeon's needs and hand them the required instruments.
+  7. [ME] Operate suction devices to clear the surgical field as needed.
+  8. [FV] Assist in closing incisions and dressing the surgical site.
+[D]
+  1. [IC] Review the surgical plan and patient's medical history to understand the procedure and potential risks.
+  2. [NA] Don sterile surgical attire, including gown, gloves, mask, and goggles.
+  3. [NA] Set up the surgical instruments and equipment on the sterile field.
+  4. [ME] Assist the surgeon in positioning the patient and draping the surgical site.
+  5. [PD] Monitor the patient's vital signs and communicate any changes to the surgical team.
+  6. [ME] Hand the surgeon the required instruments as requested, ensuring they are properly sterilized.
+  7. [ME] Operate the suction device to clear the surgical field as needed.
+  8. [ME] Assist in the placement and removal of surgical retractors to maintain exposure of the surgical site.
+  9. [PD] Monitor the surgical field for any complications, such as bleeding or unexpected anatomical variations.
+  10. [FV] Assist in closing the incisions and dressing the surgical site once the procedure is complete.
+  11. [IC] Document the procedure and the patient's recovery in the medical record.
+  12. [IC] Communicate with the patient and their family about the procedure and the patient's recovery.
+
+--- Task 360: Direct equipment maintenance or repair activities.
+[A]
+  1. [IC] Receive a report from the production team about the malfunctioning equipment and confirm the location and specifics of the malfunction.
+  2. [NA] Assemble a team of technicians and provide them with the necessary tools and safety gear.
+  3. [PD] Direct the team to the location of the malfunctioning equipment and observe the system to identify specific issues.
+  4. [ME] Instruct the team to begin the repair process, following the maintenance manual, and monitor the repair process to ensure it is being carried out correctly and safely.
+  5. [FV] Conduct a test run of the equipment to ensure it is functioning properly and verify that all safety protocols have been followed.
+  6. [IC] Document the repair process, including any issues encountered and actions taken to resolve them, and notify relevant personnel of the successful repair.
+[B]
+  1. [PD] Review maintenance schedule and generator logs to identify areas of focus for the current maintenance activity.
+  2. [NA] Don personal protective equipment (PPE) and access the generator's electrical panel to begin diagnostic testing.
+  3. [PD] Use a multimeter to measure electrical resistance and identify potential issues with the generator's windings.
+  4. [ME] Apply precise torque to replace a faulty bearing on the generator's rotor shaft.
+  5. [ME] Reassemble the generator's electrical panel and perform a series of diagnostic tests to ensure proper function.
+  6. [FV] Document the maintenance activity, including any issues encountered and actions taken to resolve them.
+  7. [FV] Review the generator's performance data to ensure it is functioning within acceptable parameters.
+  8. [ME] Make any necessary adjustments to the generator's settings or configuration to optimize performance.
+  9. [FV] Verify that all safety protocols have been followed and the generator is safe for operation.
+  10. [FV] Complete the maintenance activity and notify site management of the completion and any issues encountered.
+[C]
+  1. [IC] Receive a report from the production team detailing the malfunctioning equipment and its location.
+  2. [NA] Navigate to the location of the malfunctioning equipment.
+  3. [PD] Assess the malfunctioning equipment, identifying the specific issue and its potential causes.
+  4. [NA] Assemble a team of technicians and provide them with the necessary tools and safety gear.
+  5. [ME] Direct the team to execute the repair process, referencing relevant manuals and safety protocols.
+  6. [ME] Monitor the repair process, ensuring adherence to safety protocols and providing guidance as needed.
+  7. [FV] Conduct a test run of the repaired equipment to verify its functionality.
+  8. [FV] Document the repair process, including the identified issue, actions taken, and any relevant observations.
+[D]
+  1. [PD] Review maintenance schedule, logs, and error reports to identify issues and areas of focus.
+  2. [IC] Communicate with relevant personnel to confirm the issue, gather information, and coordinate resources.
+  3. [NA] Gather necessary tools, safety gear, and assemble a team of technicians.
+  4. [NA] Safely access the equipment and secure the work area.
+  5. [PD] Inspect and diagnose the equipment, using tools and sensors as needed.
+  6. [ME] Plan and direct the repair process, following maintenance manuals and manufacturer guidelines.
+  7. [ME] Perform the necessary repairs, disassembly, cleaning, lubrication, and reassembly as required.
+  8. [FV] Test the equipment to ensure it is functioning properly and within acceptable parameters.
+  9. [FV] Document the maintenance activity, including issues encountered, actions taken, and any adjustments made.
+  10. [IC] Notify relevant personnel of the completion of the maintenance activity and any issues encountered.
+
+================================================================
+ANSWER TEMPLATE
+
+353: _ | 
+354: _ | 
+355: _ | 
+356: _ | 
+357: _ | 
+358: _ | 
+359: _ | 
+360: _ | 
+

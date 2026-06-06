@@ -1,0 +1,384 @@
+BATCH 58/63 | Model: Claude Opus 4.7 | Tasks 457-464
+================================================================
+EXPERT REVIEW -- Micro-Action Sequence Evaluation
+For each task, read ALL four options, then choose the BEST (A/B/C/D).
+
+Criteria:
+  1. Completeness  -- no critical steps missing
+  2. Realism       -- every step is concretely executable
+  3. Stage accuracy -- stage label correct for each step:
+     IC=Intent_Communication  NA=Navigation_Addressing
+     PD=Perception_Diagnosis  ME=Manipulation_Execution  FV=Feedback_Verification
+  4. Conciseness   -- no redundant or duplicate steps
+  5. Scope         -- starts and ends at exactly the right point
+
+OUTPUT: fill the ANSWER TEMPLATE at the bottom.
+Format: N: X | one-sentence reason (max 12 words)
+IMPORTANT: Each task has a different best answer. Do NOT pick the same
+letter for every task without reading.
+================================================================
+
+--- Task 457: Connect electrical components or equipment.
+[A]
+  1. [IC] Review the installation plan and electrical diagrams to understand the wiring requirements and the locations of the fixtures and power supply.
+  2. [ME] Turn off the power to the circuit at the breaker box and use a voltage tester to confirm that the power is off at the fixture location.
+  3. [ME] Identify and strip the insulation from the ends of the wires to expose the bare copper.
+  4. [ME] Connect the wires from the fixture to the corresponding terminals on the power supply unit, ensuring proper polarity and tight connections.
+  5. [ME] Securely fasten the fixture to the ceiling junction box.
+  6. [FV] Turn on the main power and test each connected component to ensure they function correctly.
+  7. [PD] Check for any loose connections or overheating components that could indicate a problem.
+  8. [ME] Tighten any loose connections and replace any faulty components as needed.
+  9. [FV] Turn off the main power and perform a final safety test to ensure no shorts or leaks exist in the system.
+[B]
+  1. [IC] Review the installation plan and electrical diagrams to understand the wiring requirements and the locations of the fixtures and power supply.
+  2. [NA] Navigate to the power supply unit and ensure it is properly grounded and ready for connection.
+  3. [PD] Inspect the power supply unit and verify that it is compatible with the LED light fixtures.
+  4. [NA] Navigate to the first LED light fixture and ensure it is properly mounted and ready for connection.
+  5. [PD] Inspect the wiring of the LED light fixture to ensure it is correctly prepared for connection.
+  6. [ME] Connect the wires from the LED light fixture to the corresponding terminals on the power supply unit, ensuring proper polarity and tight connections.
+  7. [ME] Repeat steps 4-6 for each additional LED light fixture, ensuring all connections are made correctly.
+  8. [PD] Inspect all connections to ensure they are secure and meet electrical codes.
+  9. [FV] Turn on the power supply unit and test the LED light fixtures to ensure they function correctly.
+  10. [IC] Document the installation and provide a report to the client, confirming that the lighting system is installed and functioning properly.
+[C]
+  1. [IC] Review the electrical plan and diagrams to understand wiring requirements, component locations, and power source.
+  2. [NA] Navigate to the power source and verify it is properly grounded and ready for connection.
+  3. [PD] Inspect the power source and components for compatibility and any potential hazards.
+  4. [ME] Connect the wires from each component to the corresponding terminals on the power source, ensuring correct polarity and secure connections.
+  5. [FV] Turn on the power source and test each component to ensure it functions correctly.
+  6. [PD] Inspect all connections for security and adherence to electrical codes.
+  7. [IC] Document the installation process and any relevant observations.
+[D]
+  1. [IC] Review electrical plans, diagrams, and specifications to understand wiring requirements, fixture locations, and power supply.
+  2. [ME] Turn off power at the breaker box and use a voltage tester to confirm power is off at the fixture location.
+  3. [PD] Identify and prepare wires: black, white, and ground on both the fixture and house wiring by stripping insulation.
+  4. [ME] Connect wires: black to black, white to white, and ground to ground, ensuring proper polarity and secure connections.
+  5. [ME] Securely fasten the fixture to the junction box.
+  6. [FV] Turn on power and test the fixture to ensure it functions correctly.
+  7. [PD] Inspect all connections for security and compliance with electrical codes.
+  8. [FV] Document the installation and provide a report to the client, confirming the fixture is installed and functioning properly.
+
+--- Task 458: Operate heating or drying equipment.
+[A]
+  1. [IC] Review the work order to understand the specific drying requirements for the painted metal parts.
+  2. [NA] Navigate to the industrial drying oven and ensure a safe working distance and clear access to the controls.
+  3. [PD] Open the oven door and visually inspect the interior for any obstructions or damage.
+  4. [ME] Load the painted metal parts onto the oven racks, ensuring they are evenly spaced and not blocking the heating elements.
+  5. [ME] Set the oven temperature and drying duration according to the work order.
+  6. [FV] Start the oven and monitor the initial heating phase to ensure the temperature rises as expected.
+  7. [PD] Periodically check the oven's internal temperature and the status of the drying process.
+  8. [ME] Adjust the oven settings if necessary to maintain the correct temperature and drying conditions.
+  9. [FV] Once the drying cycle is complete, allow the oven to cool down to a safe temperature before opening the door.
+  10. [PD] Open the oven door and inspect the parts for any signs of under-curing, over-curing, or damage.
+  11. [NA] Unload the parts from the oven and place them in a safe area for further processing or storage.
+  12. [ME] Clean the oven's interior and exterior to remove any residue or debris, and shut down the oven for the day.
+[B]
+  1. [IC] Review the work order to determine the required drying temperature and duration for the painted metal parts.
+  2. [NA] Navigate to the industrial drying oven located in the manufacturing plant.
+  3. [NA] Open the oven door and load the painted metal parts onto the oven racks.
+  4. [NA] Close the oven door and secure it to prevent any leaks or safety hazards.
+  5. [PD] Set the oven temperature and drying duration according to the work order.
+  6. [ME] Start the oven and monitor the initial heating phase to ensure the temperature rises as expected.
+  7. [PD] Periodically check the oven's internal temperature and the status of the drying process.
+  8. [ME] Adjust the oven settings if necessary to maintain the correct temperature and drying conditions.
+  9. [FV] Once the drying cycle is complete, turn off the oven and allow it to cool down.
+  10. [FV] Open the oven door and remove the dried and cured metal parts from the oven racks.
+[C]
+  1. [IC] Review the work order to determine the required temperature, duration, and any specific settings for the drying/curing process.
+  2. [NA] Navigate to the drying/curing equipment and ensure a safe working area around it.
+  3. [PD] Inspect the equipment interior for obstructions, debris, or damage.
+  4. [ME] Load the items into the equipment, ensuring even distribution and adherence to any loading specifications.
+  5. [ME] Set the equipment's temperature, duration, and any other required settings based on the work order.
+  6. [FV] Start the equipment and monitor the initial phase to ensure it's operating as expected.
+  7. [ME] Periodically check the equipment's progress and make adjustments to settings if necessary.
+  8. [FV] Once the cycle is complete, allow the equipment to cool down to a safe temperature before unloading.
+  9. [PD] Unload the items from the equipment and inspect them for completeness and quality.
+[D]
+  1. [IC] Review the work order to determine the required temperature, duration, and any specific curing requirements for the items.
+  2. [NA] Put on personal protective equipment (PPE) and safety glasses before approaching the equipment.
+  3. [PD] Inspect the equipment's interior and exterior for any signs of damage, leaks, or obstructions.
+  4. [ME] Load the items onto the equipment's racks or drum, ensuring they are evenly spaced and not blocking heating elements or affecting airflow.
+  5. [ME] Set the equipment's temperature, time parameters, and cycle settings according to the determined requirements.
+  6. [FV] Start the equipment and monitor its operation, ensuring it reaches the set temperature within the required time frame.
+  7. [FV] Once the processing cycle is complete, allow the equipment to cool down to a safe temperature before opening the door or accessing the items.
+  8. [PD] Open the equipment door and inspect the items for any signs of under-processing, over-processing, or damage.
+  9. [NA] Unload the items from the equipment and place them in a safe area for further processing, storage, or use.
+  10. [ME] Clean the equipment's interior and exterior to remove any residue or debris, and shut down the equipment for the day.
+
+--- Task 459: Inspect sets or exhibits.
+[A]
+  1. [NA] Enter the exhibit hall and turn on the lights.
+  2. [NA] Begin walking through the exhibit, following a predetermined path.
+  3. [PD] Visually inspect each artifact for signs of damage, such as cracks, chips, or discoloration.
+  4. [PD] Verify that each artifact label is correctly positioned and legible.
+  5. [FV] Check the security of display cases, ensuring they are properly locked and sealed.
+  6. [PD] Assess the overall aesthetic presentation of the exhibit, noting any areas that may need adjustment.
+  7. [IC] Document any necessary adjustments or repairs.
+  8. [IC] Exit the exhibit hall and inform the museum staff of any findings.
+[B]
+  1. [NA] Enter the exhibit hall and turn on the lights.
+  2. [NA] Begin walking through the exhibit, following a predetermined path.
+  3. [PD] Visually inspect each artifact for signs of damage, such as cracks, chips, or discoloration.
+  4. [PD] Verify that each artifact label is correctly positioned and legible.
+  5. [FV] Check the security of display cases, ensuring they are properly locked and sealed.
+  6. [PD] Assess the overall aesthetic presentation of the exhibit, noting any areas that may need adjustment.
+  7. [IC] Make notes on any necessary adjustments or repairs.
+  8. [IC] Exit the exhibit hall and inform the museum staff of any findings.
+[C]
+  1. [IC] The curator reviews the exhibit layout and inventory list.
+  2. [NA] The curator navigates to the first exhibit, following a predetermined path.
+  3. [PD] The curator visually inspects the exhibit for cleanliness, lighting, and artifact placement.
+  4. [PD] The curator examines each artifact for damage, wear, and label accuracy.
+  5. [FV] The curator verifies the security of display cases and interactive features.
+  6. [FV] The curator documents any issues or observations in a standardized format.
+  7. [IC] The curator communicates findings and recommendations to the museum staff.
+[D]
+  1. [IC] Put on white cotton gloves to prevent leaving fingerprints or transmitting oils onto the artifacts.
+  2. [IC] Consult the inventory list to familiarize oneself with the artifacts in the set and their expected conditions.
+  3. [NA] Approach the first exhibit or display case and carefully open the door to avoid touching the glass.
+  4. [PD] Visually inspect each artifact within the display case for signs of damage, such as cracks, chips, or discoloration.
+  5. [PD] Verify that each artifact label is correctly positioned and legible.
+  6. [FV] Check the security of display cases, ensuring they are properly locked and sealed.
+  7. [ME] Document the condition of artifacts using a digital camera, photographing any areas of concern from multiple angles.
+  8. [FV] Compare the artifact's current condition to its record in the inventory system, updating the record if necessary.
+  9. [NA] Gently place the artifact back in its designated spot in the storage case, ensuring it is secure and protected.
+  10. [FV] Repeat the process with the next artifact in the set until all have been inspected.
+  11. [PD] Assess the overall aesthetic presentation of the exhibit, noting any areas that may need adjustment.
+  12. [IC] Make notes on any necessary adjustments, repairs, or findings, and inform the museum staff upon completion.
+
+--- Task 460: Slaughter animals.
+[A]
+  1. [NA] Guide the animal into the stunning area using a chute system, ensuring it is calm and minimizing stress.
+  2. [PD] Position the animal correctly for stunning, ensuring proper alignment and health assessment.
+  3. [ME] Operate the captive bolt stunner to humanely stun the animal, ensuring it is unconscious but still has a heartbeat.
+  4. [PD] Check the animal for signs of unconsciousness and ensure it is properly restrained for bleeding.
+  5. [ME] Make a precise incision to the carotid arteries and jugular veins to bleed out the animal.
+  6. [PD] Monitor the bleeding process to ensure the animal is fully bled out and inspect the carcass for any signs of contamination or damage.
+  7. [ME] Clean and sanitize the equipment and area used for the slaughter.
+  8. [FV] Document the slaughter process and ensure all regulatory requirements are met.
+[B]
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+[C]
+  1. [IC] Receive signal from conveyor system indicating an animal is approaching the stunning area.
+  2. [NA] Guide the animal into the designated stunning area using a chute system.
+  3. [IC] Verify the animal's identification and ensure it matches the intended species and grade for processing.
+  4. [NA] Position the animal for stunning, ensuring proper alignment and minimizing discomfort.
+  5. [ME] Activate the stunning mechanism (e.g., captive bolt, gas chamber) according to species-specific protocols.
+  6. [PD] Confirm the animal is unconscious through visual and/or physiological indicators.
+  7. [ME] Proceed with bleeding and carcass processing according to established protocols.
+  8. [PD] Inspect the carcass for any signs of contamination or damage, and document findings.
+[D]
+  1. [PD] Inspect the animal visually and physically to assess its health and fitness for slaughter.
+  2. [NA] Calmly guide the animal into the stunning area, ensuring a clear path and minimizing stress.
+  3. [ME] Position the stunning device (e.g., captive bolt pistol or CAS chamber) correctly for humane stunning.
+  4. [ME] Activate the stunning device to render the animal unconscious but maintain heartbeat (if applicable).
+  5. [PD] Check the animal for signs of unconsciousness and ensure it is properly restrained for bleeding.
+  6. [ME] Make a precise incision to the carotid arteries and jugular veins to bleed out the animal.
+  7. [PD] Monitor the bleeding process to ensure the animal is fully bled out and remove it from the restraint.
+  8. [ME] Remove the hide (if applicable) and inspect the carcass for any signs of contamination or damage.
+  9. [ME] Rinse the carcass with water to remove any remaining blood or contaminants.
+  10. [PD] Check the carcass's temperature to ensure it has cooled to the required level for further processing.
+  11. [NA] Transfer the carcass to the next stage of processing, ensuring it is properly positioned and secured.
+  12. [FV] Document the slaughter process, ensuring all regulatory requirements are met.
+
+--- Task 461: Set up mechanical equipment.
+[A]
+  1. [IC] Review the machine's manual and blueprints to understand its specific requirements and safety protocols.
+  2. [NA] Retrieve the machine components from the delivery truck and move them to the designated installation area in the manufacturing plant.
+  3. [ME] Assemble the base frame and main components of the machine using the provided bolts and nuts.
+  4. [ME] Connect the machine to the facility's power source and verify the connection is secure.
+  5. [ME] Configure the machine's control panel according to the manual's instructions, including pressure settings, cycle time, and safety parameters.
+  6. [PD] Perform a visual inspection of all connections and components to ensure they are correctly installed and secure.
+  7. [FV] Power on the machine and run a test cycle to check for any leaks or operational issues.
+  8. [FV] Document the setup process, including any adjustments made and the final configuration parameters.
+  9. [IC] Notify the supervisor or relevant personnel that the machine is set up and ready for operation.
+[B]
+  1. [NA] Retrieve the air compressor components from the delivery truck and move them to the designated installation area in the manufacturing plant.
+  2. [IC] Review the installation manual and confirm the required components and assembly steps.
+  3. [ME] Assemble the base frame of the air compressor using the provided bolts and nuts.
+  4. [ME] Mount the compressor unit onto the base frame and secure it with the appropriate fasteners.
+  5. [ME] Connect the electrical wiring to the compressor's control panel, following the manual's instructions.
+  6. [ME] Install the air intake and exhaust pipes, ensuring they are properly sealed with gaskets.
+  7. [ME] Connect the air compressor to the existing air distribution system by attaching the output hose and securing it with clamps.
+  8. [PD] Perform a visual inspection of all connections and components to ensure they are correctly installed and secure.
+  9. [FV] Power on the air compressor and run a test cycle to check for any leaks or operational issues.
+  10. [FV] Document the installation process and any issues encountered, and deliver the final result to the supervisor for verification.
+[C]
+  1. [IC] Review the installation manual and confirm the required components and assembly steps.
+  2. [NA] Retrieve the air compressor components from the delivery truck and move them to the designated installation area.
+  3. [ME] Assemble the base frame of the air compressor using the provided bolts and nuts.
+  4. [ME] Mount the compressor unit onto the base frame and secure it with the appropriate fasteners.
+  5. [ME] Connect the electrical wiring to the compressor's control panel, following the manual's instructions.
+  6. [ME] Connect the air intake and exhaust pipes, ensuring they are properly sealed with gaskets.
+  7. [FV] Power on the air compressor and run a test cycle to check for any leaks or operational issues.
+  8. [IC] Document the installation process and any issues encountered.
+[D]
+  1. [IC] Review the equipment manual and blueprints to understand its specific requirements, safety protocols, and assembly steps.
+  2. [NA] Don appropriate personal protective equipment (PPE) and safety gear.
+  3. [NA] Navigate to the designated installation area, avoiding obstacles and other equipment.
+  4. [NA] Unpack and organize the equipment components, carefully identifying each part using provided diagrams or labels.
+  5. [ME] Assemble the equipment according to the manufacturer's instructions, using the provided tools and fasteners.
+  6. [ME] Connect the equipment to the facility's power source, ensuring proper grounding and voltage, and following safety protocols.
+  7. [ME] Configure the equipment's control panel according to the understood requirements, including settings, cycle time, and safety parameters.
+  8. [PD] Perform a visual inspection of all connections and components to ensure they are correctly installed, secure, and aligned.
+  9. [FV] Power on the equipment and run a test cycle to check for any leaks, operational issues, or deviations from the expected output.
+  10. [FV] Document the setup process, including any adjustments made, the final configuration parameters, and any notable issues encountered.
+  11. [IC] Notify the supervisor or relevant personnel that the equipment is set up and ready for operation.
+  12. [FV] Clean up the work area, removing any debris or tools used during the setup process, and ensuring the area is safe for operation.
+
+--- Task 462: Design alternative energy systems.
+[A]
+  1. [PD] Review existing literature and research on alternative energy systems, including solar power, wind power, hydro power, and geothermal energy.
+  2. [PD] Conduct a site survey to assess the solar irradiance, wind speed, temperature, and potential shading issues.
+  3. [PD] Gather and analyze data on the community's energy consumption patterns and total energy demand.
+  4. [ME] Develop a preliminary design for the alternative energy system, including the selection of energy sources, storage options, and distribution systems.
+  5. [ME] Create a detailed simulation model of the energy system using software such as HOMER or RETScreen to test and optimize the design under different scenarios and conditions.
+  6. [IC] Collaborate with local stakeholders and experts to refine the design and ensure it meets the needs and expectations of the community.
+  7. [ME] Finalize the design and prepare the necessary documentation and materials for implementation, including technical specifications, installation instructions, and maintenance schedules.
+  8. [IC] Present the final design plan to the community leaders, addressing any questions or concerns.
+  9. [NA] Coordinate the installation and commissioning of the energy system, including the deployment of equipment and the training of local personnel.
+  10. [FV] Monitor and evaluate the performance of the energy system, including its energy output, efficiency, and reliability, to identify areas for improvement and optimize its operation.
+[B]
+  1. [PD] Review existing literature and research on alternative energy systems, including solar power, wind power, hydro power, and geothermal energy.
+  2. [PD] Conduct a site assessment of the remote village, including measurements of solar irradiance, wind speed, and temperature, to determine the most suitable energy source for the area.
+  3. [PD] Determine the required capacity of the solar panels based on energy needs.
+  4. [ME] Select the appropriate type and number of solar panels.
+  5. [ME] Design the layout of the solar panels to maximize energy capture.
+  6. [PD] Determine the battery storage capacity needed to manage energy supply and demand.
+  7. [ME] Select the appropriate battery storage technology and capacity.
+  8. [ME] Design the smart grid management system to optimize energy distribution and storage.
+  9. [ME] Create detailed engineering drawings and specifications for the solar panels, battery storage, and smart grid.
+  10. [IC] Review the design with the community stakeholders to ensure it meets their needs.
+  11. [ME] Finalize the design based on feedback and make any necessary adjustments.
+  12. [FV] Deliver the final design documentation to the community and project stakeholders.
+[C]
+  1. [PD] Conduct a site survey to assess solar irradiance, wind speed, and potential shading issues.
+  2. [IC] Analyze community energy consumption patterns and desired system capacity.
+  3. [ME] Determine the required capacity of solar panels and wind turbines based on energy needs and resource data.
+  4. [ME] Select the appropriate type and number of solar panels and wind turbines.
+  5. [ME] Design the layout of the system, including panel placement, turbine positioning, and wiring.
+  6. [PD] Determine the battery storage capacity needed to manage energy supply and demand.
+  7. [ME] Select the appropriate battery storage technology and capacity.
+  8. [FV] Model the system performance using simulation software to test and optimize the design under different scenarios.
+  9. [IC] Present the design proposal to the community and stakeholders, addressing questions and concerns.
+  10. [ME] Finalize the design based on feedback and make any necessary adjustments.
+[D]
+  1. [IC] Review community's energy consumption patterns and total demand from energy audit report.
+  2. [PD] Conduct a site survey to assess solar irradiance, wind speed, and other relevant environmental factors.
+  3. [PD] Analyze site assessment data to determine the most suitable energy sources and their capacities.
+  4. [ME] Develop a preliminary design for the alternative energy system, including energy sources, storage options, and distribution systems.
+  5. [NA] Use renewable energy system design software to model and optimize the system based on community's energy demands and environmental conditions.
+  6. [FV] Run simulation scenarios to test the system's reliability, performance, and economic viability under varying conditions.
+  7. [IC] Collaborate with local stakeholders and experts to refine the design and ensure it meets the community's needs and expectations.
+  8. [ME] Prepare a detailed report outlining the system design, expected performance, economic analysis, and implementation steps.
+  9. [IC] Present the design proposal to the community and stakeholders, answering questions and addressing concerns.
+  10. [ME] Upon approval, finalize the design and prepare detailed engineering drawings for system installation.
+
+--- Task 463: Inspect finished products to locate flaws.
+[A]
+  1. [NA] Retrieve the batch of finished products from the production line and set up the inspection station with necessary tools, including a magnifying glass and a checklist.
+  2. [IC] Review the quality control checklist to understand the specific criteria for inspection.
+  3. [NA] Select the first product from the batch and place it under the magnifying glass for detailed inspection.
+  4. [PD] Inspect the product for any visible flaws, such as defects or misplacements, using the magnifying glass and compare the observed flaws against the quality control checklist.
+  5. [FV] Document any identified flaws on the checklist and mark the product for further review or rejection.
+  6. [ME] Repeat the inspection process for each product in the batch.
+  7. [FV] Compile the inspection results and prepare a report summarizing the findings.
+  8. [IC] Deliver the report and the batch of inspected products to the quality control manager for further action.
+[B]
+  1. [NA] Retrieve the batch of newly manufactured circuit boards from the production line.
+  2. [NA] Set up the inspection station with necessary tools, including a magnifying glass and a checklist.
+  3. [IC] Review the quality control checklist to understand the specific criteria for inspection.
+  4. [NA] Select the first circuit board from the batch and place it under the magnifying glass.
+  5. [PD] Inspect the circuit board for any visible flaws, such as soldering defects or component misplacements, using the magnifying glass.
+  6. [PD] Compare the observed flaws against the quality control checklist to determine if they meet the criteria for rejection.
+  7. [FV] Document any identified flaws on the checklist and mark the circuit board for further review or rejection.
+  8. [ME] Repeat the inspection process for each circuit board in the batch.
+  9. [FV] Compile the inspection results and prepare a report summarizing the findings.
+  10. [FV] Deliver the report and the batch of inspected circuit boards to the quality control manager for further action.
+[C]
+  1. [NA] Retrieve the batch of products from the production line.
+  2. [IC] Review the quality control checklist to understand the specific criteria for inspection.
+  3. [NA] Select a product from the batch and position it for inspection.
+  4. [PD] Inspect the product for flaws using appropriate tools (magnifying glass, etc.) and compare observations to the checklist criteria.
+  5. [FV] Document any identified flaws on the checklist, marking the product accordingly.
+  6. [ME] Repeat steps 3-5 for each product in the batch.
+  7. [FV] Compile the inspection results and prepare a summary report.
+  8. [IC] Communicate the inspection results and any necessary actions to the relevant personnel.
+[D]
+  1. [NA] Retrieve the batch of finished products from the production line or conveyor belt.
+  2. [NA] Set up the inspection station with necessary tools, including a magnifying glass, flashlight, checklist, and any specialized equipment.
+  3. [IC] Review the quality control checklist to understand the specific criteria for inspection and common flaws to look for.
+  4. [NA] Select the first product from the batch and place it under the inspection light or use the flashlight to examine it.
+  5. [PD] Inspect the product for any visible flaws, such as cracks, scratches, misplacements, or defects, using the magnifying glass and checklist as guides.
+  6. [FV] Document any identified flaws on the checklist, including details such as the location, type, and severity of the flaw.
+  7. [PD] Compare the observed flaws against the quality control checklist to determine if they meet the criteria for rejection or rework.
+  8. [ME] Mark the product for further review, rejection, or rework based on the identified flaws and their severity.
+  9. [ME] Repeat the inspection process for each product in the batch, ensuring all sides and components are examined.
+  10. [FV] Compile the inspection results and prepare a report summarizing the findings, including the number of flawed products and their respective issues.
+  11. [IC] Communicate the inspection results and report to the relevant supervisor or quality control manager for further action.
+
+--- Task 464: Operate energy production equipment.
+[A]
+  1. [IC] Review shift handover notes and current plant status displayed on the control panel.
+  2. [PD] Perform a visual inspection of key equipment, checking for leaks, unusual vibrations, or warning lights.
+  3. [PD] Monitor real-time data streams from sensors measuring temperature, pressure, and flow rates in the gas turbines and steam turbine.
+  4. [ME] Adjust fuel flow rate to the gas turbines based on real-time demand and efficiency readings.
+  5. [ME] Monitor the steam turbine's operation, adjusting steam flow and pressure as needed to maintain stable electricity generation.
+  6. [FV] Respond to alarms or alerts, troubleshooting minor issues and escalating major problems to senior technicians.
+  7. [FV] Record operational data, including fuel consumption, energy output, and any maintenance actions taken.
+  8. [IC] Prepare a shift handover report summarizing plant performance and any outstanding issues.
+[B]
+  1. [IC] Review the plant's maintenance schedule and the shutdown procedure to ensure all necessary steps were completed.
+  2. [IC] Enter the control room and begin the startup sequence for the boiler, following established protocols.
+  3. [PD] Check the boiler's pressure and temperature gauges to ensure they are within safe operating ranges.
+  4. [ME] Manually adjust the boiler's fuel and air intake to achieve the optimal combustion mixture.
+  5. [PD] Monitor the boiler's performance and adjust the startup sequence as needed to prevent any issues.
+  6. [FV] Verify that the boiler is online and producing energy at the expected levels.
+  7. [FV] Check the plant's energy production levels and ensure they are meeting the expected output.
+  8. [ME] Adjust the boiler's operation as needed to optimize energy production and minimize emissions.
+  9. [PD] Monitor the boiler's performance and make any necessary adjustments to prevent any issues.
+  10. [FV] Verify that the boiler is operating within the expected parameters and that energy production is meeting the expected levels.
+  11. [IC] Document the startup procedure and any issues encountered during the process.
+  12. [IC] Notify the plant's operations team that the boiler is online and ready for normal operation.
+[C]
+  1. [IC] Review shift handover notes and current plant status displayed on the control panel.
+  2. [PD] Perform a visual inspection of key equipment, checking for leaks, unusual vibrations, or warning lights.
+  3. [PD] Monitor real-time data streams from sensors measuring temperature, pressure, and flow rates.
+  4. [ME] Adjust fuel flow rate to the gas turbines based on real-time demand and efficiency readings.
+  5. [ME] Monitor the steam turbine's operation, adjusting steam flow and pressure as needed to maintain stable electricity generation.
+  6. [FV] Record operational data, including fuel consumption, energy output, and any maintenance actions taken.
+  7. [FV] Respond to alarms or alerts, troubleshooting minor issues and escalating major problems.
+  8. [IC] Prepare a shift handover report summarizing plant performance and any outstanding issues.
+[D]
+  1. [IC] Review shift handover notes, maintenance schedule, and current plant status.
+  2. [NA] Don personal protective equipment (PPE) and proceed to the control room.
+  3. [PD] Perform a visual inspection of key equipment and monitor real-time data streams.
+  4. [ME] Adjust fuel flow rate and steam flow based on real-time demand and efficiency readings.
+  5. [ME] Monitor and control boiler water level and chemistry.
+  6. [PD] Monitor turbine and generator operation, and perform routine maintenance tasks.
+  7. [IC] Communicate with control room operator to coordinate plant operations.
+  8. [FV] Record operational data, respond to alarms, and troubleshoot minor issues.
+  9. [PD] Conduct a safety walkthrough of the plant and prepare a daily report.
+  10. [IC] Hand over the plant to the next shift operator, briefing them on any ongoing issues or maintenance tasks.
+
+================================================================
+ANSWER TEMPLATE
+
+457: _ | 
+458: _ | 
+459: _ | 
+460: _ | 
+461: _ | 
+462: _ | 
+463: _ | 
+464: _ | 
+

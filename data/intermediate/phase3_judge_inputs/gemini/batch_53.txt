@@ -1,0 +1,357 @@
+BATCH 53/63 | Model: Gemini 3 Pro | Tasks 417-424
+================================================================
+EXPERT REVIEW -- Micro-Action Sequence Evaluation
+For each task, read ALL four options, then choose the BEST (A/B/C/D).
+
+Criteria:
+  1. Completeness  -- no critical steps missing
+  2. Realism       -- every step is concretely executable
+  3. Stage accuracy -- stage label correct for each step:
+     IC=Intent_Communication  NA=Navigation_Addressing
+     PD=Perception_Diagnosis  ME=Manipulation_Execution  FV=Feedback_Verification
+  4. Conciseness   -- no redundant or duplicate steps
+  5. Scope         -- starts and ends at exactly the right point
+
+OUTPUT: fill the ANSWER TEMPLATE at the bottom.
+Format: N: X | one-sentence reason (max 12 words)
+IMPORTANT: Each task has a different best answer. Do NOT pick the same
+letter for every task without reading.
+================================================================
+
+--- Task 417: Calculate costs of goods or services.
+[A]
+  1. [IC] Review the client order to understand the quantity and type of goods or services required.
+  2. [NA] Access the company's inventory management system to retrieve the cost of raw materials and component data.
+  3. [ME] Calculate the total material cost by multiplying the quantity required by the current price of each component.
+  4. [ME] Estimate the labor cost based on the time required for production and the hourly wage rates.
+  5. [ME] Calculate the overhead cost by applying the overhead cost allocation rate to the total production cost (excluding overhead).
+  6. [ME] Sum the material cost, labor cost, and overhead cost to determine the total cost of production.
+  7. [FV] Review the calculated costs for any errors or inconsistencies.
+  8. [FV] Document the calculation and results, including any assumptions or methodologies used, in a clear and concise manner.
+  9. [FV] Send the total cost to the relevant stakeholders for inclusion in the client quotation or internal reporting.
+[B]
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+[C]
+  1. [IC] Identify the specific goods or services for which cost calculation is required.
+  2. [NA] Access relevant databases or systems containing cost data for raw materials, labor, and overhead.
+  3. [PD] Retrieve the unit cost of each component (materials, labor, overhead) based on current pricing and production data.
+  4. [ME] Calculate the total cost by multiplying the unit cost of each component by its required quantity and summing the results.
+  5. [FV] Review the calculated cost for reasonableness and identify any potential discrepancies or errors.
+  6. [FV] Document the cost breakdown and total cost in a clear and organized manner, suitable for reporting or further analysis.
+[D]
+  1. [IC] Understand the scope of the calculation by reviewing the order or production plan.
+  2. [NA] Access relevant databases or physical records to gather cost data for each component or service.
+  3. [PD] Check current inventory levels or production rates to determine the quantity of each component or service required.
+  4. [ME] Calculate the cost of each component or service based on its current price and the required quantity.
+  5. [ME] Sum the costs of all components or services to calculate the total material or service cost.
+  6. [ME] Calculate the labor cost based on the time required and the applicable labor rate.
+  7. [ME] Add the material or service cost and labor cost together to calculate the total production cost.
+  8. [PD] Check for and include any additional costs such as overhead, taxes, or shipping in the total cost.
+  9. [FV] Round the total cost to the nearest currency unit and format it for presentation or reporting.
+  10. [FV] Review the calculation for errors or inconsistencies and verify its accuracy.
+  11. [FV] Document the calculation, including assumptions and methodologies used, in a clear and concise manner.
+  12. [IC] Communicate the calculated cost to relevant stakeholders, such as the sales team, management, or accounting department.
+
+--- Task 418: Interpret cultural or religious information for others.
+[A]
+  1. [IC] Review the cultural and religious norms specific to the region and consult with experts to validate understanding.
+  2. [IC] Prepare a detailed presentation on cultural and religious practices, including customs, holidays, and etiquette.
+  3. [NA] Set up the presentation environment, including visual aids and handouts.
+  4. [IC] Begin the presentation by introducing the cultural and religious context of the region.
+  5. [PD] Explain customs, etiquette, and the significance of religious holidays, using visual aids and examples.
+  6. [FV] Facilitate a Q&A session to address any questions or concerns from the audience.
+  7. [FV] Distribute handouts and additional resources for further learning and reference.
+  8. [FV] Conclude the session by summarizing key points and confirming audience understanding.
+[B]
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+[C]
+  1. [IC] Review cultural and religious norms specific to the target region.
+  2. [ME] Structure a presentation or training materials outlining key cultural and religious practices.
+  3. [IC] Deliver the presentation or training session, explaining customs, etiquette, holidays, and their impact on daily life and business.
+  4. [FV] Facilitate a Q&A session to address participant questions and concerns.
+  5. [FV] Provide supplementary resources for further learning and reference.
+[D]
+  1. [IC] Research and understand the cultural and religious norms, practices, and context specific to the target audience or location.
+  2. [ME] Prepare educational materials, such as presentations, handouts, or multimedia content, to facilitate understanding.
+  3. [NA] Set up the learning environment, including any necessary equipment like presentation screens or projectors.
+  4. [IC] Introduce the cultural and religious context, providing historical background and significance.
+  5. [PD] Explain customs, etiquette, holidays, and their impact on daily life and business operations, using relevant examples and visual aids.
+  6. [IC] Facilitate interactive sessions, such as Q&A, group discussions, or multimedia presentations, to enhance understanding and engagement.
+  7. [NA] Distribute additional resources, such as handouts or online materials, for further learning and reference.
+  8. [FV] Evaluate the effectiveness of the learning session through feedback, observations, or assessments.
+  9. [FV] Reflect on the learning session, identify areas for improvement, and plan for future sessions or follow-ups.
+
+--- Task 419: Process x-rays or other medical images.
+[A]
+  1. [NA] Retrieve and load the x-ray images from the imaging system into specialized radiology software.
+  2. [IC] Review the patient's medical history and any relevant previous images to understand the context of the current x-ray images.
+  3. [ME] Adjust image brightness, contrast, and zoom to optimize visualization.
+  4. [PD] Systematically scan the entire x-ray image, looking for abnormalities in lung tissue, heart size, and bone structure.
+  5. [ME] Annotate the images with markers and notes to highlight findings and formulate a preliminary diagnosis.
+  6. [ME] Generate a report summarizing the findings and annotations.
+  7. [NA] Save the processed images and report in the appropriate format to the PACS system.
+  8. [IC] Notify the radiologist that the processed X-ray images are ready for review.
+[B]
+  1. [NA] Retrieve the x-ray images from the imaging system.
+  2. [NA] Open the imaging software and load the x-ray images.
+  3. [IC] Review the patient's medical history and imaging requisition form.
+  4. [ME] Adjust the image contrast and brightness to enhance visibility.
+  5. [PD] Analyze the images for abnormalities, such as shadows or nodules.
+  6. [ME] Annotate the images with markers and notes to highlight findings.
+  7. [ME] Save the processed images and annotations.
+  8. [ME] Generate a report summarizing the findings and annotations.
+  9. [FV] Deliver the processed images and report to the radiologist for further review.
+[C]
+  1. [IC] Retrieve the x-ray images from the Picture Archiving and Communication System (PACS).
+  2. [NA] Load the x-ray images into the image processing software.
+  3. [IC] Review the patient's medical history and imaging requisition form.
+  4. [ME] Adjust image contrast and brightness to enhance visibility.
+  5. [PD] Systematically scan the entire x-ray image, looking for abnormalities.
+  6. [ME] Annotate the images with markers and notes to highlight findings.
+  7. [ME] Generate a report summarizing the findings and annotations.
+  8. [NA] Save the processed images and report in the appropriate format.
+[D]
+  1. [IC] Receive the digital x-ray image files from the Picture Archiving and Communication System (PACS).
+  2. [NA] Load the x-ray images into the image processing software.
+  3. [IC] Review the patient's medical history and any relevant previous images to understand the context.
+  4. [PD] Adjust image brightness, contrast, and zoom to optimize visualization.
+  5. [PD] Systematically scan the entire x-ray image, looking for abnormalities and comparing with previous images (if available) to identify changes over time.
+  6. [ME] Apply automated image processing algorithms to extract relevant information and enhance visibility.
+  7. [ME] Formulate a preliminary diagnosis based on the observed findings.
+  8. [FV] Document the findings and diagnosis in the patient's electronic medical record.
+  9. [NA] Save the processed images and report in the appropriate format to the PACS system.
+  10. [IC] Notify the radiologist that the processed x-ray images are ready for review.
+
+--- Task 420: Calculate data to inform organizational operations.
+[A]
+  1. [IC] Log into the company's sales database system.
+  2. [NA] Navigate to the sales data for the past quarter and extract relevant sales data including total sales, units sold, and product categories.
+  3. [ME] Import the extracted data into a spreadsheet or data analysis tool and calculate total sales revenue and units sold per product category.
+  4. [PD] Identify trends and patterns in the sales data and review calculations for accuracy and relevance.
+  5. [ME] Create visualizations (charts and graphs) to represent the sales data and prepare a written report summarizing the findings and recommendations.
+  6. [PD] Review and edit the report for accuracy and clarity.
+  7. [FV] Deliver the report to the relevant stakeholders (e.g., managers, executives) and follow up to ensure the report's insights are actioned upon.
+[B]
+  1. [IC] Log into the company's sales database system.
+  2. [NA] Navigate to the sales data for the past quarter.
+  3. [PD] Extract the relevant sales data, including total sales, units sold, and product categories.
+  4. [ME] Import the extracted data into a spreadsheet or data analysis tool.
+  5. [ME] Calculate total sales revenue for the quarter.
+  6. [PD] Identify trends and patterns in the sales data.
+  7. [ME] Create visualizations (charts and graphs) to represent the sales data.
+  8. [FV] Write a summary report detailing the findings and recommendations for inventory management and staffing.
+  9. [FV] Deliver the report to the relevant stakeholders (e.g., managers, executives).
+[C]
+  1. [IC] Log into the company's relevant data system (e.g., sales database, ERP).
+  2. [NA] Navigate to the specific data module containing sales, inventory, or operational data.
+  3. [PD] Extract relevant data points, including sales figures, inventory levels, customer demographics, or operational metrics.
+  4. [ME] Import the extracted data into a spreadsheet or data analysis tool.
+  5. [ME] Perform calculations and analysis to identify trends, patterns, and insights.
+  6. [ME] Create visualizations (charts, graphs) to represent the findings in a clear and concise manner.
+  7. [FV] Summarize the key findings and recommendations in a written report.
+  8. [FV] Deliver the report to relevant stakeholders (managers, executives).
+[D]
+  1. [IC] Access and log into the company's data management system (e.g., sales database, ERP, or customer database).
+  2. [NA] Navigate to the relevant data modules (e.g., sales data, customer data, or logistics data).
+  3. [PD] Extract and preprocess relevant data, handling missing values, outliers, and inconsistencies as needed.
+  4. [ME] Calculate key performance indicators (KPIs) such as total sales revenue, units sold per product category, customer lifetime value (CLTV), or route optimization metrics.
+  5. [PD] Analyze the calculated KPIs and identify trends, patterns, or insights relevant to organizational operations.
+  6. [ME] Create visualizations (e.g., charts, graphs) to represent the analyzed data and facilitate communication of findings.
+  7. [ME] Prepare a written report summarizing the findings, recommendations, and actionable steps for relevant stakeholders.
+  8. [PD] Review and refine the report for accuracy, clarity, and relevance to ensure it meets the needs of the intended audience.
+  9. [FV] Deliver the report to the relevant stakeholders (e.g., managers, executives, or drivers) through appropriate communication channels (e.g., email, in-person, or driver communication platforms).
+  10. [FV] Follow up with stakeholders to ensure the report's insights are actioned upon and address any questions or concerns that arise.
+  11. [IC] Log out of the data management system and secure any sensitive information used during the process.
+
+--- Task 421: Interpret financial information for others.
+[A]
+  1. [PD] Review the financial statements, including the income statement, balance sheet, and cash flow statement.
+  2. [PD] Identify key financial metrics such as revenue, expenses, net income, assets, liabilities, and cash flow.
+  3. [IC] Develop a narrative that explains the financial performance and future prospects clearly.
+  4. [ME] Create visual aids, such as charts and graphs, to illustrate financial trends and metrics.
+  5. [IC] Schedule and conduct a meeting with stakeholders to present the financial analysis.
+  6. [ME] Present the financial statements, key metrics, and visual aids to the stakeholders.
+  7. [FV] Answer questions and provide additional context and clarification as needed.
+  8. [FV] Provide recommendations based on the financial analysis.
+  9. [FV] Conclude the meeting by summarizing key points and next steps.
+[B]
+  1. [PD] Review the financial statements, including income statement, balance sheet, and cash flow statement.
+  2. [PD] Identify the key financial metrics relevant to the audience, such as revenue growth, profitability, and cash burn rate.
+  3. [IC] Develop a narrative that explains the financial performance and future prospects in a clear and concise manner.
+  4. [ME] Create visual aids, such as charts and graphs, to illustrate the key financial data.
+  5. [IC] Present the financial information to the audience.
+  6. [FV] Answer questions from the audience about the financials.
+  7. [FV] Provide recommendations based on the financial analysis.
+  8. [IC] Conclude the presentation by summarizing the key takeaways and reiterating the investment opportunity.
+[C]
+  1. [PD] Review the financial statements (income statement, balance sheet, cash flow statement) and identify key metrics relevant to the audience.
+  2. [PD] Analyze trends and patterns in the financial data.
+  3. [IC] Develop a clear and concise narrative summarizing the financial performance and key insights.
+  4. [ME] Create visual aids (charts, graphs) to illustrate key financial data and trends.
+  5. [IC] Present the financial information to the target audience, explaining the narrative and visuals.
+  6. [FV] Address questions from the audience, providing further clarification and insights.
+  7. [FV] Summarize key takeaways and next steps based on the discussion.
+[D]
+  1. [PD] Review and understand the financial statements (income statement, balance sheet, cash flow statement) and relevant financial reports.
+  2. [PD] Identify and summarize key financial metrics relevant to the audience (e.g., revenue, expenses, net income, assets, liabilities, cash flow, growth rates, profitability).
+  3. [PD] Analyze financial trends and patterns over time to identify insights and potential issues.
+  4. [ME] Prepare visual aids (charts, graphs, tables) to effectively communicate the financial information and insights.
+  5. [IC] Schedule and confirm a meeting with the intended audience to discuss the financial information.
+  6. [ME] Present the financial information, insights, and visual aids to the audience in a clear, concise, and engaging manner.
+  7. [FV] Facilitate a question-and-answer session to address any queries or concerns from the audience.
+  8. [FV] Summarize the key points, insights, and next steps discussed during the meeting.
+  9. [IC] Conclude the meeting by thanking the audience for their time and reiterating the agreed-upon next steps.
+
+--- Task 422: Design electromechanical equipment or systems.
+[A]
+  1. [IC] Review the project requirements and specifications for the electromechanical equipment or system.
+  2. [PD] Research and select appropriate materials and components based on the required performance criteria.
+  3. [ME] Create a preliminary design using CAD software, incorporating key components and mechanical and electrical specifications.
+  4. [FV] Simulate the design using software to validate its performance and make any necessary adjustments.
+  5. [ME] Generate detailed engineering drawings, specifications, and a bill of materials (BOM) for the electromechanical system.
+  6. [ME] Assemble a prototype of the electromechanical system using the ordered components and materials.
+  7. [FV] Test the prototype to ensure it meets the required performance criteria and safety standards.
+  8. [IC] Prepare and deliver the final design package, including CAD models, specifications, and performance predictions, to the client and manufacturing team.
+[B]
+  1. [IC] Review the project requirements and specifications for the automated conveyor system.
+  2. [NA] Research and select appropriate materials and components for the conveyor system.
+  3. [PD] Create a preliminary design sketch of the conveyor system, including mechanical and electrical components.
+  4. [ME] Use CAD software to develop a detailed 3D model of the conveyor system.
+  5. [FV] Perform a simulation of the conveyor system to test its functionality and identify any potential issues.
+  6. [ME] Refine the design based on the simulation results and feedback from the team.
+  7. [ME] Generate detailed engineering drawings and specifications for the conveyor system.
+  8. [ME] Create a bill of materials (BOM) for the conveyor system, including all required components and materials.
+  9. [IC] Prepare a presentation to present the design to the client and stakeholders, including a detailed explanation of the system's functionality and benefits.
+  10. [FV] Deliver the final design documentation and BOM to the client and manufacturing team for production.
+[C]
+  1. [IC] Review project requirements and specifications, including functional needs, performance targets, and any relevant constraints.
+  2. [NA] Research and select appropriate components and materials based on the project specifications and industry best practices.
+  3. [ME] Develop a preliminary design concept, including sketches or diagrams outlining the system's overall structure and functionality.
+  4. [ME] Create a detailed 3D model of the design using CAD software, incorporating all selected components and ensuring proper assembly and clearances.
+  5. [FV] Simulate the design's performance using appropriate software tools, analyzing factors such as stress, motion, and thermal behavior.
+  6. [ME] Refine the design based on simulation results and feedback, iterating on component selection, geometry, or control strategies as needed.
+  7. [FV] Generate detailed engineering drawings, specifications, and documentation for manufacturing and assembly.
+[D]
+  1. [IC] Review project requirements, including specifications, constraints, and performance targets.
+  2. [PD] Conduct literature review and research on existing designs, identifying best practices and innovative solutions.
+  3. [ME] Create a preliminary design sketch, considering mechanical, electrical, and control components.
+  4. [ME] Use CAD software to develop a detailed 3D model of the system, defining geometry, materials, and kinematic relationships.
+  5. [FV] Perform simulations (e.g., CFD, FEA, motion) to test functionality, predict performance, and identify potential issues.
+  6. [ME] Iterate on the design, making adjustments based on simulation results and feedback to optimize performance and meet requirements.
+  7. [ME] Create detailed engineering drawings, specifications, and a bill of materials (BOM) for the system.
+  8. [IC] Prepare a presentation to communicate the design to clients and stakeholders, explaining functionality, benefits, and performance predictions.
+  9. [NA] Order required components and materials based on the design specifications.
+  10. [ME] Assemble a prototype of the system using the ordered components and materials.
+  11. [FV] Test the prototype to ensure it meets the required performance criteria and validate the design.
+  12. [IC] Document lessons learned, update the design process, and deliver the final design package to the client.
+
+--- Task 423: Assist skilled construction or extraction personnel.
+[A]
+  1. [IC] Communicate with the construction personnel to understand the materials and tools needed.
+  2. [NA] Navigate to the storage area to retrieve the required materials and tools.
+  3. [ME] Retrieve and secure the required materials and tools from the storage area.
+  4. [NA] Carry the materials and tools to the construction personnel's work area, avoiding obstacles.
+  5. [ME] Place the materials and tools in the designated area near the construction personnel.
+  6. [PD] Monitor the work area for any issues or additional needs.
+  7. [ME] Deliver any additional materials or tools as requested by the construction personnel.
+  8. [FV] Verify that the materials and tools are correctly positioned and ready for use.
+[B]
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+[C]
+  1. [IC] Listen to the skilled worker's verbal description of the needed materials and tools.
+  2. [NA] Locate the storage area where the requested materials and tools are kept.
+  3. [ME] Retrieve the required materials and tools from the storage area.
+  4. [NA] Transport the materials and tools to the worker's location, avoiding obstacles and other personnel.
+  5. [ME] Present the materials and tools to the worker, confirming they have everything needed.
+  6. [PD] Monitor the work area for any issues or additional requests from the worker.
+  7. [ME] Respond to any additional requests from the worker, retrieving further materials or tools as needed.
+[D]
+  1. [IC] Communicate with the skilled personnel (e.g., mason, carpenter, welder) to understand their needs and the day's plan.
+  2. [NA] Navigate to the storage area, avoiding obstacles and other workers, to retrieve the required materials and tools.
+  3. [ME] Retrieve the required number and type of materials (e.g., bricks, lumber, steel beams) and tools from the storage area.
+  4. [NA] Carry the retrieved materials and tools to the skilled personnel's work area, avoiding obstacles and other workers.
+  5. [PD] Assist the skilled personnel in locating, identifying, and preparing the materials for use (e.g., measuring, cutting, positioning).
+  6. [ME] Help the skilled personnel execute the task, using appropriate tools and techniques (e.g., laying bricks, welding, crane operation).
+  7. [PD] Monitor the work area for any issues, additional needs, or safety concerns throughout the task.
+  8. [ME] Deliver any additional materials or tools as requested by the skilled personnel during the task.
+  9. [FV] Verify the completed task meets the required standards and quality, using visual inspection and documentation.
+  10. [FV] Review the completed task with the skilled personnel, discussing lessons learned and areas for improvement for future projects.
+
+--- Task 424: Test mechanical equipment to ensure proper functioning.
+[A]
+  1. [IC] Wear appropriate personal protective equipment (PPE) including safety glasses, gloves, and a hard hat.
+  2. [IC] Review the equipment's maintenance manual and technical specifications to understand its expected performance characteristics and any specific testing procedures.
+  3. [NA] Navigate to the control panel of the equipment and connect it to a power source.
+  4. [PD] Power on the equipment and observe its initial operation, checking for any unusual noises or vibrations.
+  5. [ME] Run the equipment through its full range of motion and observe for any operational issues, ensuring it meets the manufacturer's specifications.
+  6. [PD] Use diagnostic tools (e.g., multimeter, pressure gauge) to measure the equipment's performance data and compare it to expected values.
+  7. [PD] Check the equipment's components for any signs of wear or damage, and ensure all connections are secure.
+  8. [FV] Document the test results, noting any issues identified and necessary repairs or adjustments.
+  9. [ME] Make any necessary repairs or adjustments to the equipment to ensure it is functioning correctly and efficiently.
+[B]
+  1. [IC] Review the maintenance log and previous test results for the conveyor belt system.
+  2. [IC] Wear appropriate personal protective equipment (PPE) including safety glasses, gloves, and a hard hat.
+  3. [PD] Power on the conveyor belt system and observe its initial operation.
+  4. [PD] Check the belt for any visible signs of wear, such as cracks or fraying.
+  5. [ME] Use a torque wrench to check the tightness of all bolts and screws.
+  6. [ME] Run the conveyor belt through its full range of motion and observe for any operational issues.
+  7. [FV] Check the emergency stop function to ensure it halts the system immediately.
+  8. [FV] Document the test results and any necessary repairs or adjustments in the maintenance log.
+  9. [NA] Consult the warehouse blueprint to locate the HVAC system's main control panel.
+  10. [PD] Review the control panel's readings to understand the current system status.
+  11. [ME] Connect the multimeter to the control panel to measure voltage and current.
+  12. [FV] Document the test results and any observations in the maintenance log, and submit the report to the supervisor.
+[C]
+  1. [IC] Review the equipment's maintenance log and manufacturer specifications to understand expected performance and testing procedures.
+  2. [IC] Don appropriate personal protective equipment (PPE) such as safety glasses, gloves, and a hard hat.
+  3. [NA] Navigate to the equipment's control panel and power it on.
+  4. [PD] Observe the equipment's initial operation, noting any unusual noises, vibrations, or visual anomalies.
+  5. [ME] Conduct specific tests based on the equipment type and manufacturer specifications (e.g., measuring output pressure, running the equipment through its range of motion, checking component tightness).
+  6. [FV] Record test results and any observed issues, comparing them to expected performance standards.
+  7. [FV] Document the findings in the maintenance log and recommend any necessary repairs or adjustments.
+[D]
+  1. [IC] Review the manufacturer's specifications and maintenance logs to understand the equipment's expected performance and history.
+  2. [IC] Wear appropriate personal protective equipment (PPE) as required for the specific equipment being tested.
+  3. [NA] Navigate to the equipment's control panel or main access point.
+  4. [PD] Power on the equipment and observe its initial operation.
+  5. [PD] Conduct a visual inspection of the equipment, checking for signs of wear, damage, or any visible issues.
+  6. [PD] Listen for any unusual noises or vibrations that may indicate equipment malfunction.
+  7. [ME] Use appropriate tools (e.g., torque wrench, multimeter) to measure and verify critical parameters, such as pressure, voltage, or tightness of fasteners.
+  8. [ME] Test the equipment's functionality by running it through its full range of motion or using test packages, as applicable.
+  9. [FV] Check the emergency stop function to ensure it halts the system immediately, if applicable.
+  10. [FV] Document the test results, any observations, and necessary repairs or adjustments in the maintenance log.
+
+================================================================
+ANSWER TEMPLATE
+
+417: _ | 
+418: _ | 
+419: _ | 
+420: _ | 
+421: _ | 
+422: _ | 
+423: _ | 
+424: _ | 
+

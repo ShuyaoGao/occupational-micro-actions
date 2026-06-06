@@ -1,0 +1,502 @@
+1: C | Concise and accurately uses FV for cross-referencing existing customer databases.
+2: A | Logical flow with correct scope for scheduling rather than performing maintenance.
+3: A | Accurately labels physical manipulation as ME and checking levels as PD.
+4: C | Correctly scopes the task as data entry rather than software engineering.
+5: C | Perfectly generic and accurately labels data interpretation as a perception stage.
+6: A | Accurately separates interpreting results and communicating them in the final stages.
+7: B | Correctly identifies moving the item to the bin as a manipulation step.
+8: C | Starts exactly at the stacking process without unnecessary warehouse navigation steps.
+9: A | Accurately separates navigation steps to distinct locations for a realistic flow.
+10: B | Separates data cleaning, visualization, and statistical analysis into properly defined steps.
+11: A | Delivers a comprehensive financial sequence without disjointed or out-of-context steps.
+12: B | Correctly separates perception-based analysis from the execution of plan creation.
+13: C | Perfect stage accuracy that strictly adheres to single-action micro-steps.
+14: B | Prevents action compounding by detailing each medical record update individually.
+15: A | Uses valid tags and logically progresses from observation to reporting issues.
+16: C | Ends precisely at mold completion without overstepping into device fabrication scope.
+17: A  | Accurate stage labels and concise scope for a single patrol.
+18: C  | Prevents mixed actions in steps and uses correct stage labels.
+19: C  | Perfectly scoped to advising without bleeding into execution.
+20: B  | Logical flow with accurate stage labels and clear verification steps.
+21: B  | Comprehensive supervision flow with accurate labels and no scope creep.
+22: A  | Concretely executable with specific tools, maintaining accurate stage labels.
+23: A  | Excellent scope and realistic steps for event-based product merchandising.
+24: A  | Complete and highly realistic sequence for medical sterilization protocols.
+25: A | Accurately covers both rehearsal and performance with correct stage labels.
+26: D | Strictly bounds scope to developing specifications without executing actual configurations.
+27: C | Highly concise and appropriately stops after the cutting operation is complete.
+28: C | Logical, concise sequence without unnecessary repetitive loops for every single room.
+29: D | Effectively balances research, collaboration, and implementation with accurate stage classifications.
+30: B | Correctly separates cooking (ME) from tasting and monitoring (PD).
+31: C | Clear, accurate, and generalizes well to various heavy equipment operations.
+32: C | Perfect scope for evaluation without bleeding into implementing new policy changes.
+33: C | Accurate tags and concise scope without overextending into irrelevant steps. 
+34: D | Excellent completeness and correct stage tags throughout the entire sequence. 
+35: D | Well-structured sequence with clear progression and highly realistic pedagogical steps. 
+36: B | Accurately labels steps while including necessary hygiene and verification procedures. 
+37: C | Thorough scope including protective gear, with accurate observation and recording tags. 
+38: B | Outstanding stage accuracy for the perception and execution analytical steps. 
+39: B | Highly realistic with concrete financial procedures and accurate stage tags. 
+40: C | Correctly tags communication as IC and avoids unnumbered formatting errors.
+41: D | Separates methods logically and covers the full policy creation scope accurately.
+42: C | Accurately maps control room navigation, monitoring, and adjustments with correct tags.
+43: A | Correctly labels equipment connection as execution and succinctly covers the lifecycle.
+44: A | Features precise stage tagging and handles genuine threats realistically and concisely.
+45: D | Offers excellent detailed marking steps and logical spatial locating navigation tags.
+46: B | Provides a comprehensive engineering process without mislabeling calculations as navigation steps.
+47: B | Highly realistic knowledge acquisition, including comparing models and testing sales pitches.
+48: C | Groups visual inspections concisely without redundant steps or inaccurate communication tags.
+49: A | Correctly stages execution and covers all required image types accurately.
+50: D | Provides a comprehensive sequence with realistic monitoring and concrete pause actions.
+51: C | Concisely and accurately captures the safe transport and handover of medical materials.
+52: D | Highly concrete execution steps for handling mooring lines and securing the vessel.
+53: C | Logically sequences and correctly labels observing, documenting, and analyzing student behavior.
+54: D | Offers excellent navigation detail for safely guiding a group through crowds.
+55: C | Maintains perfect stage accuracy, properly labeling communication as IC and verification as FV.
+56: C | Flawlessly maps system access to NA, reviewing to PD, and reporting to ME/FV.
+57: D | Complete scope with accurate labels, ending with proper communication.
+58: D | Comprehensive methodology with accurate stage labels for engineering research tasks.
+59: D | Highly accurate stage labels with a complete, logically sequenced execution.
+60: A | Realistic workflow with accurate stage labeling and a comprehensive scope.
+61: C | Perfectly balances conciseness and applicability to both plants and animals.
+62: A | Highly concise and correctly labeled without unnecessary redundant monitoring steps.
+63: D | Excellent scope, starting with proper PPE and ending with biohazard disposal.
+64: A | Realistic supervisory steps without irrelevant project-specific details.
+65: A | Complete sequence from initial log review to final notification.
+66: A | Concise and maintains logical progression without unnecessary or incorrect steps.
+67: A | Accurate use of PD tags for taking measurements and encompasses full scope.
+68: C | Excellent stage accuracy; avoids incorrect IC tags for basic tool usage.
+69: C | Accurate use of IC tags for the composing and communication process.
+70: C | Correctly uses ME for the physical action of handing over supplies.
+71: C | Highly concise, effectively grouping training steps without excessive loop repetition.
+72: A | Includes critical final adjustments and client review for proper professional scope.
+73: D | Standard data preparation with correctly labeled steps.
+74: A | Complete and realistic sequence for printing and applying labels.
+75: D | Accurately labels the report sharing and follow-up as communication.
+76: C | Correctly labels the final budget communication step as IC.
+77: A | Offers a realistic, well-labeled sequence for physical document preparation.
+78: A | Correctly identifies history review as PD and consent as IC.
+79: C | Accurately maps the patient repositioning steps to appropriate stage labels.
+80: D | Comprehensive scope with accurate stage labels for stakeholder interviews.
+81: A | Accurately labels donning protective gear as a physical manipulation step.
+82: C | Concise sequence covering all stages of biofuel production without redundant steps.
+83: A | Accurately details the physical steps of tree trimming with correct ladder safety.
+84: B | Focuses precisely on the evaluation loop without overextending into posting grades.
+85: C | Highly realistic and specific scenario focusing on an allergic reaction emergency.
+86: D | Correctly separates the perception of availability from the manipulation of inputting data.
+87: A | Provides a comprehensive and realistic sequence with accurately labeled documentation as ME.
+88: C | Perfectly distinguishes navigating to the valve from physically adjusting it.
+89: A | Avoids grouping execution and perception by keeping setup supervision separate.
+90: A | Accurately assigns visualization generation to execution and avoids invalid cognitive steps.
+91: D | Logically includes site inspection and code research as distinct perception steps.
+92: A | Realistically splits acceptable and unacceptable weight outcomes into distinct execution steps.
+93: A | Perfectly categorizes running cabling as navigation and avoids stage tagging errors.
+94: D | Comprehensively sequences panel installation and testing with highly accurate stage tags.
+95: A | Correctly designates explaining conditions and recommending self-care as execution steps.
+96: A | Precisely outlines specific preparation techniques and avoids invalid stage tagging errors.
+97: B | Logical flow and correct stage labeling for inspection and testing .
+98: C | Concise and covers sector selection, historical comparison, and stakeholder sharing .
+99: A | Comprehensive sequence from preparation to prioritized treatment recommendations .
+100: D | Accurate stage labels and includes audience research and post-presentation feedback .
+101: A | Correct safety-first sequencing and comprehensive verification steps .
+102: C | Realistic scope covering documentation, site observation, and digital creation .
+103: C | Highly efficient and accurate stage labels for assessing equipment status .
+104: A | Methodical approach to physical organization with clear feedback loops .
+105: C | Concise flow and perfect stage accuracy without redundant loops.
+106: A | Accurate stage mapping, properly categorizing tool selection as addressing.
+107: B | Logical workflow separating data import as NA and modeling as ME.
+108: A | Comprehensive evaluation with accurate simulation interaction and feedback labels.
+109: A | Correctly distinguishes ME for reassembly and FV for testing.
+110: A | Accurate labels, correctly identifying cut completion as ME.
+111: D | Includes PD for assessing knowledge and follows logical flow.
+112: D | Exceptional stage accuracy, correctly using NA for accessing equipment.
+113: A | Good conciseness and avoids mixing communication with physical actions.
+114: A | Flawlessly separates the review, save, and system verification stages.
+115: C | Highly concise and captures the complete training cycle perfectly.
+116: C | Ends exactly at the correct scope without bleeding into installation.
+117: C | Concretely realistic by specifying exact tools without using ambiguous options.
+118: C | Accurately maps simulating a malfunction and resetting equipment to Execution.
+119: C | Excellent scope that excludes unrelated test ordering and separates dosage calculation.
+120: C | Correctly labels calculation steps as Execution and avoids scope creep.
+121: C | Ideal scope; ends at final inspection, avoiding out-of-scope delivery.
+122: A | Clean, logical sequence with no redundant or duplicate analysis steps.
+123: C | Correctly limits scope to monitoring without rewriting company policies.
+124: D | Highly complete; thoroughly covers medical, social, and family histories.
+125: B | Natural phrasing for repeating steps at new locations without literal loops.
+126: D | Highly complete sequence including sweeps, monitoring, and a secure return journey.
+127: C | Excellent stage accuracy, correctly labeling communication versus execution steps.
+128: C | Perfect scope; ends at plan approval without bleeding into implementation.
+129: A | Best scope and accurate stage labels without redundant steps.
+130: C | Most concise sequence avoiding unnecessary repetitive looping steps.
+131: C | Correctly uses stage labels and remains concise without hallucinated details.
+132: D | Complete sequence including proper signaling and verification steps.
+133: A | Logical progression with good completeness and realistic clinical steps.
+134: C | Perfectly scoped to the training session without going out of scope.
+135: C | Focused strictly on monitoring and verifying compliance across all stations.
+136: A | Accurate stage labels and complete workflow from preparation to disposal.
+137: A | It accurately labels stages and logically sequences the blueprint review.
+138: C | Option C correctly uses ME for donning gloves and is concise.
+139: A | Option A avoids redundant steps and correctly labels the actions.
+140: C | It is concise and avoids mislabeling checklist review as communication.
+141: C | It maintains correct scope without being overly specific about amenities.
+142: A | Option A avoids labeling the passive drying of glue as navigation.
+143: A | It accurately avoids labeling tool selection as Intent Communication.
+144: A | It correctly labels system login as navigation rather than communication.
+145: C | Uploading images to a shared platform is correctly labeled as communication (IC).
+146: C | Accurately labels logging in and retrieving information as Navigation/Addressing (NA).
+147: C | Correctly assigns NA to retrieving the device and opening the application.
+148: C | Provides a concise, logically looping sequence with perfectly accurate stage labels.
+149: B | Realistically includes NA steps to access files without mislabeling internal synthesis.
+150: D | Thoroughly covers all inspection areas with highly precise and accurate stage labels.
+151: C | Features highly realistic execution steps, like loosening roots, without any redundancy.
+152: C | Very concise sequence that groups observation into one step, avoiding redundant loops.
+153: A | Excellent stage accuracy and logically complete sequence without redundancy. 
+154: D | Clear, concise steps with accurate stage labels and proper flow. 
+155: C | Highly concise while covering all critical planning and communication stages perfectly. 
+156: D | Most comprehensive and realistic breakdown of pregnancy and childbirth phases. 
+157: C | Perfectly concise and safe procedure with highly accurate stage labels. 
+158: A | Logical flow including setup, distribution, and verification stages without redundancy. 
+159: A | Complete sequence that properly includes vital tool storage and maintenance documentation. 
+160: C | Perfectly scoped to data analysis and goal setting without redundant steps.
+161: A | It offers realistic steps and perfect stage assignments for testing materials.
+162: D | Features comprehensive steps with accurate stage labels and an appropriate scope.
+163: C | Follows a logical sequence with accurate stage labels for document preparation.
+164: A | Correctly scoped to data processing with proper verification and adjustment stages.
+165: C | Balances scope well and provides a realistic sequence for selecting tools.
+166: A | Features a concrete and realistic counting process with logically valid stages.
+167: C | Bounded scope that logically ends at the final labor estimation documentation.
+168: A | Accurately assigns execution stages for formulating and implementing the mathematical equations.
+169: C | It provides a concise, realistic sequence with correct stage labels for accessing and reading documentation.
+170: D | Step 3 correctly aligns with the "measure and record" format used in subsequent steps.
+171: C | It presents a highly complete and realistically sequenced surveying workflow without redundancy.
+172: C | It balances the scope well while concisely covering all critical plant maintenance stages.
+173: D | The e-commerce procurement flow is extremely realistic and accurately breaks down modern ordering.
+174: C | It focuses on a concrete, executable hiring sequence rather than an overly broad HR lifecycle.
+175: D | It uses accurate medical terminology ("differential diagnosis") and avoids assuming the patient is in pain.
+176: D | Reviewing the "first few" records to understand formatting is a highly realistic data verification step.
+177: C | Option C provides a concise sequence with accurate stage labels for sampling. 
+178: A | Option A correctly labels pH checking as PD and adjusting as ME. 
+179: C | Option C accurately uses IC for explaining context and providing exhibit information. 
+180: A | Option A correctly labels securing the workpiece as ME with accurate loops. 
+181: C | Option C offers a logical, concise design sequence without overly granular steps. 
+182: A | Option A accurately utilizes NA for moving between floors during the patrol. 
+183: D | Option D correctly labels data analysis as PD and calculation as ME. 
+184: C | Option C is highly concise while completely capturing the client record workflow.
+185: C | Accurate stage labels and concise sequence without redundant steps. 
+186: B | Stage labels accurately match the physical and cognitive actions required. 
+187: D | Comprehensive execution safely covering all necessary maintenance and documentation steps. 
+188: C | Concise execution with highly accurate classifications for training procedures. 
+189: A | Clearly and concisely covers all required healthcare stages without redundancy. 
+190: D | Thorough evaluation steps with highly realistic execution and accurate labeling. 
+191: A | Complete communication loop from retrieving data to confirming client understanding. 
+192: A | Labels correctly identify preparation and verification steps without classification errors.
+193: C | C correctly labels document review as perception and remains highly concise. 
+194: B | B stays strictly within inspection scope without adding unnecessary repair steps. 
+195: A | A uses correct imperative form and avoids irrelevant steps like thermal paste. 
+196: C | C is concise and correctly categorizes physical maintenance actions as execution steps. 
+197: A | A correctly describes the fitting process without incorrectly including an eye exam. 
+198: B | B features highly accurate stage labels and a logical tutoring process flow. 
+199: C | C presents a coherent, perfectly labeled sequence without extraneous or disconnected steps. 
+200: D | D includes essential preparation and cleaning steps with highly accurate stage labels.
+201: D | Accurately covers both ovens and furnaces with clear, logical steps.
+202: C | Correctly handles the entering or exiting condition without unrealistic sequential steps.
+203: C | Concise sequence with no redundant steps and highly accurate stage labeling.
+204: C | Stays strictly within scope of maintaining knowledge without executing client tasks.
+205: A | Provides a concrete, executable troubleshooting scenario rather than abstract, generalized steps.
+206: C | Ends correctly at the job offer without overstepping into employee onboarding.
+207: D | Clearly details the verification logic with rigorous stage labels and scope.
+208: A | Provides a realistic workflow addressing both route selection and transportation speeds.
+209: C | Option C maintains accurate stage tags and ends precisely at assembly documentation without overstepping scope.
+210: C | Option C correctly uses ME and IC for reporting and strictly avoids out-of-scope implementation steps.
+211: D | Option D applies precise tags, properly classifying presentations as IC and plan adjustments as ME.
+212: A | Option A accurately tags record reviews as PD and successfully avoids out-of-scope plan implementation.
+213: A | Option A delivers a concrete, executable layout sequence without relying on unrealistic macro-loops.
+214: C | Option C maintains strict scope on development and avoids subsequent monitoring or evaluation steps.
+215: C | Option C accurately tags labeling as IC and provides a well-structured, logical packaging flow.
+216: A | Option A starts logically with IC for intent and perfectly encompasses the physical loading process.
+217: C  | Option C accurately covers assessment without creeping into implementation steps.
+218: A  | Option A provides a logical sequence with accurate stage labels and scope.
+219: C  | Option C is concise, maintains proper scope, and correctly labels stages.
+220: C  | Option C is the most concise while universally covering all storage steps.
+221: A  | Option A includes proper navigation and covers schema creation without redundancy.
+222: D  | Option D features accurate stage labels and a highly realistic, complete sequence.
+223: D  | Option D correctly accommodates both products and services using generalized steps.
+224: D  | Option D correctly frames the task as building a reusable analysis pipeline.
+225: C  | Concisely covers all required stages while maintaining accurate and logical stage labels. 
+226: C  | Accurately maps the operation stages without confusing machine setup with communication. 
+227: C  | Provides a clean, generalized fabrication sequence with highly accurate stage labels. 
+228: C  | Flawlessly progresses from receiving the medical request to providing actionable advice. 
+229: D  | Clearly maps diagnostic and execution phases of advising with accurate tags. 
+230: D  | Comprehensive approach that correctly uses perception for gathering design inspiration. 
+231: C  | Concisely covers planning and ethical preparation without hallucinating different animal species. 
+232: D  | Thoroughly details hygiene steps with highly accurate perception and execution tags.
+233: C | Concise, complete, and accurately categorized without redundant inspection steps.
+234: A | Uses correct perception labels for calculations and execution for documents.
+235: D | Excellent conciseness tracking the standard sequential data entry workflow perfectly.
+236: C | Highly realistic workflow without assuming immediate recipient acknowledgment of results.
+237: A | Logical flow grouping physical diagnoses before the navigational test drive.
+238: D | Comprehensively covers daily tasks with accurate and concrete stage categorizations.
+239: A | Correctly labels system testing as verification rather than perception diagnosis.
+240: A | Excellent logical flow matching stage labels perfectly to coordination steps.
+241: C | Concise, accurate stages, and covers the marketing process logically[cite: 29]. 
+242: A | Correctly labels selection as PD, avoiding C's incorrect IC label[cite: 47, 67]. 
+243: C | Perfectly scoped and properly categorizes the communication steps as IC[cite: 99]. 
+244: C | Excellent scope that stops exactly after selecting and gathering supplies[cite: 136]. 
+245: C | Concise flow without overly repetitive steps for each measured dimension[cite: 170]. 
+246: C | Ends exactly at generating schedules, avoiding out-of-scope follow-up appointments[cite: 208].
+247: A | Highly complete, including the critical product routing and reporting steps[cite: 227, 228]. 
+248: A | Complete sequence that properly includes essential ticketing and documentation steps[cite: 255, 260].
+249: A | Highly comprehensive, with accurate stage labels and a complete workflow.
+250: A | Excellent conciseness while accurately capturing all necessary physical installation steps.
+251: C | Perfectly balances conciseness and completeness with correct stage tagging throughout.
+252: A | Follows a highly logical clinical progression with accurate stage associations.
+253: C | Resolves the "activate" stage correctly as ME, avoiding the errors in others.
+254: C | Provides a perfectly generalized, accurately tagged sequence without overly specific assumptions.
+255: D | Extremely realistic and complete, correctly handling preparation, execution, and patient care.
+256: A | Very methodical sequence that captures standard data cleaning steps with proper scope.
+257: C | Well-structured flow with accurate stage labels and a realistic scope. 
+258: C | Focuses appropriately on external coordination rather than physical warehouse tasks. 
+259: C | Excellent progression from source location to analysis, drafting, and final review. 
+260: C | Realistically details the physical scanning and updating cycle concisely. 
+261: C | Covers needs prediction, assignment, and communication concisely without redundant checks. 
+262: D | Accurately describes concrete manual construction steps with correct stage labels. 
+263: B | Correctly labels physical machine operation steps and covers the complete cycle. 
+264: C | Provides a safe, sequential maintenance process with accurate stage labels.
+265: D | Accurately maps decision making and addresses specific operational aspects.
+266: D | Accurately stages the inclusion of a comprehensive root cause analysis.
+267: A | Flawlessly maps the disassembly and motor replacement steps to execution.
+268: D | Correctly identifies standard metal detector scanning as a perception stage.
+269: A | Provides realistic functional checks  while maintaining accurate stage labeling.
+270: A | Logically separates regulatory review from physical safety equipment coordination.
+271: A | Effectively sequences stakeholder meetings before drafting the detailed procedures.
+272: A | Includes highly realistic sensory inspections and specific operational parameter measurements.
+273: D | Correctly places perception and review before scheduling, ensuring realistic flow.
+274: C | Provides a highly realistic and accurately labeled darkroom print production sequence.
+275: C | Highly concise and perfectly scoped without redundant navigation or diagnostic steps.
+276: A | Maintains strict scope by ending at plan submission rather than implementation.
+277: A | Accurately labels diagnostic listening as perception and maintains logical resolution flow.
+278: C | Concisely captures the interactive communication required to facilitate a student discussion.
+279: C | Efficiently addresses multiple sites using a repeat loop while maintaining scope.
+280: A | Offers a realistic, accurately labeled sequence for automated hematology analyzer operation.
+281: D | [cite_start]The sequence is comprehensive, well-structured, and accurately reflects a clinical evaluation[cite: 23, 34].
+282: D | [cite_start]Includes thorough preparation, safe rigging, and accurately labeled execution steps[cite: 65, 74].
+283: C | [cite_start]Concisely covers advising and planning without overextending into long-term implementation[cite: 91, 97].
+284: D | [cite_start]Accurately represents the complete end-to-end process of handling material movement[cite: 134, 141].
+285: C | [cite_start]Concise sequence that uses efficient loops while maintaining the correct scope[cite: 162, 168].
+286: D | [cite_start]Highly realistic and complete sequence from initial preparation to live broadcast[cite: 200, 209].
+287: A | [cite_start]Stays strictly within the scope of interviewing without adding physical examinations[cite: 210, 217].
+288: D | [cite_start]Outlines a realistic equipment monitoring routine with appropriate escalation and verification[cite: 271, 280].
+289: D | D has accurate stage labels and comprehensive scope without redundancy.
+290: D | Provides concretely executable steps with accurate stage labels throughout the process.
+291: D | Correctly sequences documentation before close examination to properly preserve scene evidence.
+292: C | Realistic scope that correctly includes calling emergency medical services for help.
+293: C | Accurate stage labels without combining fundamentally different actions into single steps.
+294: D | Correctly categorizes data analysis as perception rather than intent communication.
+295: A | Realistically separates microscopic physical examination from behavioral video recording.
+296: A | Concise, logically sequenced evaluation process with highly accurate stage label applications.
+297: B | Accurate stage labels and a logical sequence of actions. 
+298: A | Excellent use of NA for physical movement and clear steps. 
+299: A | Logical clinical flow with perfect stage accuracy and clear scope. 
+300: A | Realistic digital operations sequence with concise, single-action steps. 
+301: D | Comprehensive with excellent label accuracy for site selection and notification. 
+302: A | Realistic investigative steps with solid chronological progression and logical scope. 
+303: D | Correctly applies NA to provider positioning and details safe techniques. 
+304: C | Accurately uses NA for gathering items, avoiding overly specific constraints.
+305: A | Accurate stage mapping and complete scope from receipt to stakeholder notification.
+306: C | Concise, strictly within scope, and correctly labeled steps without redundant loops.
+307: A | Accurate stage mapping, specifically using perception diagnosis for listening to feedback.
+308: C | Highly concise and comprehensively covers necessary steps without any unnecessary repetition.
+309: A | Complete sequence with accurate stage mapping and a highly logical flow.
+310: D | Most complete coverage of verification steps with realistic and comprehensive flow.
+311: A | Excellent stage accuracy and realistically detailed action plan and follow-up steps.
+312: C | Highlights ongoing communication which is absolutely essential for effective external coordination.
+313: D | Excellent completeness and accurate navigation labels for patrolling the facility.
+314: D | Logical breakdown from active listening to executing follow-up questions.
+315: C | Correctly maps monitoring progress to verification rather than navigation.
+316: B | Accurately assigns stages to a highly realistic and concrete coaching scenario.
+317: A | Complete workflow including bagging items, with logical stage assignments.
+318: C | Accurately labels report generation as execution and avoids redundant steps.
+319: D | Comprehensive scope that accurately distinguishes system navigation from execution.
+320: D | Includes thorough verification against manifests and explicitly handles discrepancies.
+321: C | Concise progression of the development lifecycle with appropriate scope[cite: 33]. 
+322: C | Perfectly scoped to determining methods without executing the full analysis[cite: 71]. 
+323: C | Accurate scope and optimal stage sequence without unnecessary suppression steps[cite: 107]. 
+324: C | Strictly scoped to conferring and planning without premature execution steps[cite: 145]. 
+325: A | Features accurate stage tags and encompasses the entire call process[cite: 162]. 
+326: A | Correct stage labels and universally applicable concrete arrangement steps[cite: 197].
+327: C | Precise stage mapping that avoids incorrectly labeling navigation as communication[cite: 247]. 
+328: A | Comprehensive hiring sequence with accurate stage labels and logical flow[cite: 266].
+329: C | Concise and correctly separates perception from communication steps. 
+330: D | Most complete preparation and assembly sequence without out-of-scope actions. 
+331: C | Concisely consolidates inspection steps with accurate stage labels throughout. 
+332: A | Highly realistic and concretely executable steps for accessing and applying literature. 
+333: C | Clean stage separation between inspection and mechanical assembly actions. 
+334: A | Excellent stage separation, cleanly splitting navigation, scanning, and data entry. 
+335: A | Best realism, accurately reflecting the surgeon's scope within the operating room. 
+336: C | Perfect scope, ending precisely after the design and specifications are documented.
+337: A | Features correct stage labels and avoids incorrectly labeling PPE as communication.
+338: D | Accurately labels problem identification as perception and covers the required scope.
+339: C | Stays completely within the inspection scope without bleeding into repair execution.
+340: C | Delivers concise instructions and accurate stage labels without redundant verification steps.
+341: C | Correctly avoids out-of-scope disposal steps while maintaining accurate execution stage labels.
+342: C | Accurately identifies order placement as communication and concisely covers all requirements.
+343: C | Offers perfectly assigned stage labels while maintaining a concise, empathetic structure.
+344: C | Properly separates visual inspection steps from mechanical refinement and adjustment steps.
+345: D | Excellent logical flow and precise stage tag alignment.
+346: D | Highly thorough workflow with appropriate repetition and accurate tags.
+347: A | Flawless stage accuracy and realistically structured meat cutting procedure.
+348: A | Complete and concise order process with perfectly accurate stage labels.
+349: A | Comprehensive option covering all necessary evaluation and consultation steps accurately.
+350: D | Captures essential documenting and follow-up actions with correct tags.
+351: D | Realistically sequences diagnosis after disassembly for effective repair.
+352: C | Concisely captures general assistance without overly broad or narrow scope.
+353: D | Correctly labels the final report delivery as Intent_Communication[cite: 38].
+354: A | Identifies document review as Perception_Diagnosis, unlike the other options[cite: 39, 47].
+355: A | Provides a comprehensive sequence without scope creep or combining actions[cite: 72, 81].
+356: A | Correctly separates verification and routing into distinct stage actions[cite: 109, 110].
+357: C | Offers a concise sequence without the unnecessary scope creep of measuring[cite: 160, 165].
+358: A | Provides a realistic, concrete telehealth scenario with precise stage accuracy[cite: 171, 180].
+359: A | Covers all critical steps without the scope creep of family communication[cite: 215, 241].
+360: C | Strictly maintains the directing role without performing the repairs directly[cite: 262, 272].
+361: C | Concise and logically covers all necessary stages without redundancy.
+362: A | Accurately captures the full operational scope with correct stage tags.
+363: A | Completes the communication loop effectively with proper tag alignment.
+364: A | Thoroughly covers crisis intervention steps with accurate stage labels.
+365: C | Highly concise while maintaining complete scope and realistic steps.
+366: A | Properly separates navigation and perception stages with clear execution.
+367: D | Includes crucial final step of communicating results unlike other options.
+368: D | Perfectly captures the communication cycle with appropriate feedback and documentation.
+369: C  | Option C provides accurate stage labels and concise, logical steps.
+370: C  | Option C concisely captures the process without including automated system actions.
+371: A  | Option A uses correct stage labels and covers the scope perfectly.
+372: C  | Option C is concise, universally applicable, and uses accurate stage labels.
+373: C  | Option C is well-scoped, concise, and applies accurate stage labels throughout.
+374: C  | Option C is adequately generalized, concise, and uses proper stage labels.
+375: C  | Option C correctly labels all action stages and concisely covers requirements.
+376: C  | Option C maintains proper scope, avoids conditional steps, and uses accurate labels.
+377: C | [cite_start]Accurate stage labels and concise scope without redundant research steps. [cite: 2, 21] 
+378: B | [cite_start]Accurate stage labels that avoid misclassifying internal selection processes. [cite: 2, 43] 
+379: A | [cite_start]Provides a logical, complete workflow for coordinating editing tasks. [cite: 2, 72] 
+380: D | [cite_start]Comprehensively includes assessing prior knowledge while maintaining correct stage labels. [cite: 2, 133] 
+381: A | [cite_start]Linear, realistic sequence without overly specific materials or conditional steps. [cite: 2, 144] 
+382: C | [cite_start]Balances concise actions with accurate labels without unnecessary constraints. [cite: 2, 201] 
+383: C | [cite_start]Highly concise with accurate labels for checking and adjusting equipment. [cite: 2, 235] 
+384: C | [cite_start]Uses imperative tone and accurately labels all visual inspection steps. [cite: 2, 271]
+385: C | Correctly tags opening software as NA instead of IC.
+386: B | Provides realistic, concrete assembly steps without relying on vague repeating.
+387: C | Accurately identifies data input steps as ME rather than PD.
+388: C | Correctly labels drafting content as ME with highly actionable steps.
+389: B | Includes conducting team meetings, perfectly matching the "directing" scope.
+390: B | Features highly realistic procedures like safely bucking the felled tree.
+391: B | Accurately distinguishes verbal communication (IC) from non-verbal observation (PD).
+392: A | Correctly assigns the ME stage to actively transferring customer calls.
+393: A | Complete, concise workflow that accurately ends with report delivery without redundancy.
+394: D | Correctly labels the repeating step as execution and covers the full scope.
+395: A | Accurately labels documentation as execution, maintaining a concise and complete workflow.
+396: A | Accurately identifies schedule checking as perception without exceeding the single-appointment scope.
+397: C | Concisely covers the digital assignment process without redundant or out-of-scope steps.
+398: D | Logically maps the conversion process using intermediate formats with accurate stage labels.
+399: C | Perfectly scopes the development phase and accurately labels plan creation as execution.
+400: C | Concise, complete, and accurately labels the communication of health concerns as intent.
+401: A | Option A completely and realistically fulfills the specified evaluation criteria.
+402: A | It offers a comprehensive and accurately labeled generic research process.
+403: C | Option C is concise, avoids scope creep, and accurately labels tasks.
+404: B | It perfectly balances completeness, realistic execution, and proper stage accuracy.
+405: D | Option D maintains a generic scope perfectly suited for the packaging task.
+406: C | It presents a highly realistic, concise practice routine without missing steps.
+407: C | Option C handles document organization efficiently without unnecessary redundant steps.
+408: D | It outlines an excellent, general marketing collaboration process using imperative phrasing.
+409: C | Accurately includes a diagnosis stage to inspect items for damage.
+410: A | Excellent logical flow with accurate perception labels for data analysis.
+411: B | Highly realistic steps for CNC machinery without awkward repeating loops.
+412: C | Extremely concise while maintaining accurate stage labels for dashboard analysis.
+413: D | Comprehensive scope that accurately labels weighing as a diagnosis step.
+414: C | Most concise and efficient option; avoids unnecessary duplicate steps.
+415: D | Thorough scope with perfect stage labels, correctly labeling documentation as IC.
+416: C | Effectively handles the document concisely, avoiding problematic repeating loops.
+"417": "C | Separates access (NA) and retrieve (PD) correctly and is concise.",
+  "418": "C | Correctly labels explaining to an audience as IC and is concise.",
+  "419": "A | Complete and accurate stage labels for medical image processing.",
+  "420": "A | Correctly labels report generation as ME and trend analysis as PD.",
+  "421": "C | Correctly labels presenting as IC instead of ME.",
+  "422": "A | Accurately labels generation of drawings as ME, unlike others.",
+  "423": "A | Clear, realistic sequence with a proper FV verification step.",
+  "424": "C | Proper scope ending at documentation without out-of-scope repairs."
+  425: D | Option D is complete and highly realistic for this process.
+426: A | Option A provides accurate stage labels and concise workflow.
+427: D | Option D offers a generalized, complete assistance routine.
+428: C | Option C maintains strict scope and excellent conciseness.
+429: C | Option C captures the procedure without unnecessary scope expansion.
+430: D | Option D breaks down writing steps with logical precision.
+431: A | Option A accurately labels the equipment power down execution.
+432: B | Option B restricts scope properly to experimental agricultural research.
+433: C | Option C is concise, properly scoped, and features accurate stage labels.
+434: C | It accurately maps stages and avoids overly specific equipment assumptions entirely.
+435: A | Option A provides a realistic, general sequence with accurate stage labels.
+436: C | It correctly categorizes asking questions as communication and avoids specific assumptions.
+437: C | Option C provides a clean, concise sequence without redundant software steps.
+438: A | It correctly categorizes material preparation as execution rather than communication.
+439: C | Option C correctly labels starting the engine as execution, not communication.
+440: D | Option D offers concretely executable steps rather than mentally visualizing routes.
+441: A | Provides a complete, well-labeled sequence without out-of-scope steps or redundancy. 
+442: C | Concise and accurately labeled, ending precisely at the verification step. 
+443: C | Perfectly scoped, ending exactly at confirmation without unnecessary return navigation. 
+444: C | Efficiently covers development and planning without overextending into long-term execution. 
+445: C | Correctly labels advising as communication and avoids out-of-scope drill actions. 
+446: A | Most comprehensive sequence, including final verification within the learning management system. 
+447: C | Concise, accurate labels, avoiding redundant steps or invalid stage tags. 
+448: C | Well-structured analysis flow without redundant steps or overly granular queries.
+449: C | Correctly limits scope to evaluation without including unrelated implementation steps. 
+450: C | Provides a concise, accurately scoped sequence without extraneous formatting errors. 
+451: D | Logically structures the sequence by accurately diagnosing the situation first. 
+452: C | Concisely covers beverage preparation without including out-of-scope cleaning steps. 
+453: A | Offers a complete and concise workflow with accurate stage tags. 
+454: C | Follows a highly realistic sequence, avoiding the illogical dustpan step. 
+455: B | Correctly tags logging into the system as a navigation action. 
+456: A | Delivers a complete, concise workflow with properly unified execution steps.
+457: A | Includes necessary power safety checks and correctly labels physical manipulation.
+458: A | Accurately captures drying sequence with correct perception and execution labels.
+459: B | Provides logical inspection steps and avoids confusing third-person phrasing.
+460: D | Comprehensive process with accurate manipulation labels for carcass processing steps.
+461: C | Concise sequence that correctly classifies the final documentation as intent communication.
+462: B | Maintains proper design scope without prematurely bleeding into physical installation.
+463: C | Follows a logical chronological order for product inspection and documentation.
+464: A | Provides realistic operational steps with accurate monitoring and troubleshooting labels.
+465: C | It concisely focuses on the recording process with accurate stage tags.
+466: A | It offers a logical progression with accurate tags for documentation.
+467: A | It balances completeness and conciseness with a logical action flow.
+468: C | It avoids redundant loops while correctly applying stage tags throughout.
+469: C | It concisely covers the inventory process without unnecessary repetition.
+470: D | It maps standard development phases to highly accurate stage tags.
+471: C | It is highly concise and correctly uses FV for final inspection.
+472: D | It comprehensively covers the lifecycle and accurately tags research as PD.
+473: C [cite: 25] | It correctly scopes the task to conferring without unnecessary execution steps[cite: 26, 30].
+474: C [cite: 57] | It provides a clearly labeled plan sequence without redundant software mentions[cite: 60]. 
+475: D [cite: 90] | This completely and realistically details the traffic monitoring and intervention sequence[cite: 97, 99]. 
+476: C [cite: 120] | It gives concise, accurately labeled mortar application steps with proper scope[cite: 123, 127]. 
+477: C [cite: 156] | It logically outlines the legal advisory process using accurate stage labels[cite: 157, 161]. 
+478: C [cite: 193] | It balances completeness and conciseness perfectly with realistic scheduled deployment steps[cite: 200].
+479: A [cite: 212] | A crucial final venue walkthrough makes this sequence highly comprehensive[cite: 218]. 
+480: A [cite: 256] | It captures equipment monitoring realistically without proposing unsafe or unrealistic interventions[cite: 259].
+481: A | Includes a comprehensive lifecycle with an essential monitoring and feedback step.
+482: C | Correctly maintains the single actor's perspective without detailing the recipient's actions.
+483: D | Covers the full instructional cycle including delivery, assessment, and a proper conclusion.
+484: C | Accurately models a collaborative troubleshooting process among multiple specialists.
+485: C | Maintains the perspective of the person receiving the instructions throughout all steps.
+486: D | Encompasses the entire event lifecycle from setup and live operation to teardown.
+487: A | Concise and complete sequence without the unnecessary verbosity found in other options.
+488: D | Features correct stage labels (e.g., PD for reviewing records) and comprehensive patient interaction.
+489: C | Stages accurately match the discrete actions without mixing interaction and perception. 
+490: A | Complete inspection cycle with highly accurate stage labels and logical flow. 
+491: A | Concise and realistic sequence with perfectly assigned action stage labels. 
+492: D | Accurately separates physical measurement execution from data analysis and includes routing. 
+493: A | Correctly assigns execution to calculations without mislabeling document review as interaction. 
+494: C | Concisely captures the inventory loop while accurately labeling perception and execution. 
+495: A | Logically sequences the design process and iterates correctly after structural analysis.
+496: D | Option D provides the most complete and accurate step sequence.
+497: A | Option A has the perfect scope for policy development tasks.
+498: A | Option A includes realistic steps and avoids stage tag errors.
+499: D | Option D accurately details diagnostics before maintenance and owner communication.
+500: A | Option A features logical, concise steps without stage tag errors.
+501: A | Option A correctly utilizes the NA tag for physical navigation.
+502: C | Option C is concise and correctly tags chamber access steps.

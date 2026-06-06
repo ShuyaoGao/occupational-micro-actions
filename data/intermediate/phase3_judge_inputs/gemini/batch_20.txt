@@ -1,0 +1,363 @@
+BATCH 20/63 | Model: Gemini 3 Pro | Tasks 153-160
+================================================================
+EXPERT REVIEW -- Micro-Action Sequence Evaluation
+For each task, read ALL four options, then choose the BEST (A/B/C/D).
+
+Criteria:
+  1. Completeness  -- no critical steps missing
+  2. Realism       -- every step is concretely executable
+  3. Stage accuracy -- stage label correct for each step:
+     IC=Intent_Communication  NA=Navigation_Addressing
+     PD=Perception_Diagnosis  ME=Manipulation_Execution  FV=Feedback_Verification
+  4. Conciseness   -- no redundant or duplicate steps
+  5. Scope         -- starts and ends at exactly the right point
+
+OUTPUT: fill the ANSWER TEMPLATE at the bottom.
+Format: N: X | one-sentence reason (max 12 words)
+IMPORTANT: Each task has a different best answer. Do NOT pick the same
+letter for every task without reading.
+================================================================
+
+--- Task 153: Prescribe treatments or therapies.
+[A]
+  1. [PD] Review the patient's electronic health record, focusing on their medical history, current symptoms, and test results.
+  2. [IC] Ask the patient about their symptoms, when they started, and any other relevant information.
+  3. [PD] Perform a physical examination of the patient, focusing on their vital signs and relevant systems.
+  4. [NA] Order any necessary additional tests, such as chest X-rays or blood tests, based on the patient's symptoms and examination findings.
+  5. [PD] Review the results of any ordered tests and compare them with the patient's symptoms and examination findings.
+  6. [ME] Based on the patient's symptoms, examination findings, and test results, make a diagnosis and determine the appropriate treatment.
+  7. [IC] Explain the diagnosis and treatment plan to the patient, answering any questions they may have.
+  8. [ME] Prescribe any necessary medications, ensuring they are appropriate for the patient's condition and allergies.
+  9. [FV] Enter the diagnosis, treatment plan, and any relevant notes into the hospital's electronic health record system.
+  10. [FV] Arrange any necessary follow-up care, such as referrals to specialists or follow-up appointments.
+[B]
+  1. [IC] Review the patient's medical history and current symptoms.
+  2. [IC] Discuss the patient's lifestyle and any potential contraindications.
+  3. [PD] Evaluate potential treatment options based on the patient's medical history and lifestyle.
+  4. [PD] Select the most appropriate medication and lifestyle changes.
+  5. [ME] Document the prescribed medication and dosage in the patient's medical record.
+  6. [ME] Provide the patient with a written prescription for the medication.
+  7. [IC] Explain the medication's purpose, dosage, and potential side effects to the patient.
+  8. [IC] Discuss lifestyle changes and provide specific recommendations.
+  9. [FV] Confirm the patient's understanding of the treatment plan.
+  10. [FV] Schedule a follow-up appointment to monitor the patient's progress.
+[C]
+  1. [IC] Review the patient's medical history, current symptoms, and any relevant test results.
+  2. [IC] Discuss the patient's symptoms, lifestyle, and any potential contraindications.
+  3. [PD] Consider potential diagnoses based on the gathered information and clinical expertise.
+  4. [ME] Select the most appropriate treatment plan, including medications, therapies, and lifestyle changes.
+  5. [IC] Explain the chosen treatment plan to the patient, including purpose, dosage, potential side effects, and lifestyle recommendations.
+  6. [FV] Document the prescribed treatment plan, including medications and lifestyle changes, in the patient's medical record.
+  7. [FV] Confirm the patient's understanding of the treatment plan and address any remaining questions.
+[D]
+  1. [IC] Review the patient's medical history, current symptoms, and test results using the EHR system.
+  2. [IC] Assess the patient's current symptoms and medical status through conversation and clinical judgment.
+  3. [PD] Perform a physical examination to gather additional diagnostic information.
+  4. [NA] Order any necessary additional tests based on symptoms, examination findings, and clinical judgment.
+  5. [PD] Review the results of ordered tests and compare them with the patient's symptoms and examination findings.
+  6. [ME] Based on symptoms, examination findings, and test results, make a diagnosis and determine the appropriate treatment.
+  7. [IC] Explain the diagnosis, treatment plan, and any necessary instructions or precautions to the patient.
+  8. [ME] Prescribe any necessary medications, ensuring they are appropriate for the patient's condition and allergies.
+  9. [FV] Document the diagnosis, treatment plan, and any relevant notes in the hospital's electronic health record system.
+  10. [FV] Arrange any necessary follow-up care, such as referrals to specialists or follow-up appointments.
+
+--- Task 154: Take product orders from customers.
+[A]
+  1. [IC] Greet the customer and inquire about their product needs.
+  2. [PD] Listen to the customer's order and take notes.
+  3. [NA] Retrieve the product details from the store's inventory system.
+  4. [FV] Confirm the product details (model, price, availability) with the customer.
+  5. [ME] Process the payment and generate the order receipt.
+  6. [FV] Confirm the order details and delivery information with the customer.
+  7. [FV] Thank the customer and end the call.
+[B]
+  1. [IC] Greet the customer and introduce the service.
+  2. [IC] Ask the customer what they would like to order.
+  3. [PD] Listen to the customer's order and take notes.
+  4. [IC] Confirm the order details with the customer.
+  5. [IC] Ask the customer if they would like any sides or drinks with their order.
+  6. [ME] Calculate the order total and any applicable taxes or fees.
+  7. [FV] Tell the customer the total cost of their order.
+  8. [IC] Ask the customer for their payment information.
+  9. [ME] Process the payment and confirm the order.
+  10. [FV] Thank the customer, confirm the delivery time, and end the call.
+[C]
+  1. [IC] Greet the customer and inquire about their order.
+  2. [IC] Identify the specific product(s) the customer wishes to order.
+  3. [FV] Confirm product details (model, price, availability) with the customer.
+  4. [ME] Process the order and payment using the store's system.
+  5. [FV] Provide the customer with an order confirmation and receipt.
+  6. [IC] Thank the customer and offer assistance with any further needs.
+[D]
+  1. [IC] Greet the customer and inquire about their needs.
+  2. [IC] Listen attentively to the customer's product request and ask clarifying questions if needed.
+  3. [NA] Retrieve the product details from the store's inventory system or locate the product on the shelves.
+  4. [FV] Confirm the product details (model, price, availability, quantity, and any specific requests) with the customer.
+  5. [ME] Ask the customer for their preferred payment method and process the payment.
+  6. [FV] Provide the customer with a receipt or order confirmation, including order details, payment information, and delivery (if applicable).
+  7. [IC] Thank the customer, offer assistance with anything else they may need, and end the call or transaction.
+
+--- Task 155: Develop organizational goals or objectives.
+[A]
+  1. [PD] Review the company's current performance data, including financial statements, market analysis, and employee feedback.
+  2. [IC] Conduct interviews with key stakeholders, including the CEO, department heads, and selected employees.
+  3. [PD] Analyze the interview transcripts and performance data to identify common themes, concerns, and opportunities.
+  4. [IC] Facilitate a workshop with key stakeholders to brainstorm and discuss potential goals and objectives.
+  5. [ME] Refine the brainstormed ideas into SMART goals (Specific, Measurable, Achievable, Relevant, Time-bound).
+  6. [ME] Document the agreed-upon SMART goals in a shared document accessible to all team members.
+  7. [FV] Present the draft objectives to the CEO and other key stakeholders for feedback.
+  8. [ME] Refine the objectives based on the feedback received and finalize the strategic plan.
+  9. [ME] Develop a plan to track and measure the progress towards each objective, including key performance indicators (KPIs).
+  10. [FV] Present the final set of objectives and the progress tracking plan to the board of directors for approval.
+  11. [IC] Distribute the objectives to all employees and ensure they understand their role in achieving them.
+[B]
+  1. [PD] Review the company's current performance data, including sales figures, customer satisfaction ratings, and employee engagement metrics.
+  2. [PD] Conduct market research to understand industry trends, competitor activity, and potential opportunities for growth.
+  3. [IC] Engage with employees at all levels to understand their strengths, weaknesses, and areas for development.
+  4. [ME] Develop a list of potential goals and objectives based on the analysis of performance data, market research, and employee input.
+  5. [ME] Refine the list of goals and objectives to ensure they are specific, measurable, achievable, relevant, and time-bound (SMART).
+  6. [IC] Present the final set of goals and objectives to the leadership team for review and approval.
+  7. [IC] Address any feedback or concerns raised by the leadership team and make adjustments to the goals as needed.
+  8. [IC] Communicate the approved goals and objectives to all employees and ensure they understand their role in achieving them.
+  9. [ME] Develop a plan for tracking progress toward the goals and objectives, including key performance indicators (KPIs) and regular review meetings.
+  10. [ME] Document the finalized goals and objectives in a comprehensive strategic plan.
+  11. [IC] Present the strategic plan to the executive team for approval.
+  12. [FV] Finalize and distribute the strategic plan to all relevant stakeholders.
+[C]
+  1. [PD] Review company performance data, market trends, and competitor analysis.
+  2. [IC] Conduct stakeholder interviews (employees, department heads, leadership) to gather input on strengths, weaknesses, opportunities, and challenges.
+  3. [PD] Analyze gathered information to identify key themes, potential goals, and areas for improvement.
+  4. [ME] Draft initial SMART (Specific, Measurable, Achievable, Relevant, Time-bound) goals based on the analysis.
+  5. [IC] Facilitate a workshop with key stakeholders to review, discuss, and refine the draft goals.
+  6. [ME] Finalize the goals and document them in a comprehensive strategic plan.
+  7. [FV] Present the strategic plan to leadership for approval and feedback.
+  8. [IC] Communicate the approved goals to all employees and ensure understanding of their roles in achieving them.
+[D]
+  1. [PD] Review the company's annual report, financial statements, market analysis, and current performance data to understand its current state and identify areas for improvement.
+  2. [IC] Conduct interviews with key stakeholders, including the CEO, department heads, and selected employees, to gather insights and perspectives.
+  3. [PD] Analyze interview transcripts and performance data to identify common themes, concerns, opportunities, strengths, weaknesses, and areas for development.
+  4. [NA] Research industry best practices, benchmarks, and trends to identify potential goals and objectives.
+  5. [IC] Facilitate a workshop with key stakeholders to discuss the findings, brainstorm potential goals, and prioritize them based on feasibility and potential impact.
+  6. [ME] Document the agreed-upon goals and objectives, ensuring they are SMART (Specific, Measurable, Achievable, Relevant, Time-bound).
+  7. [FV] Present the draft objectives to the CEO and other key stakeholders for feedback, and facilitate a follow-up workshop to refine them based on the received feedback.
+  8. [ME] Develop a plan to track and measure the progress towards each objective, including key performance indicators (KPIs) and regular review meetings.
+  9. [FV] Present the final set of objectives, the progress tracking plan, and the strategic plan to the board of directors for approval.
+  10. [IC] Once approved, communicate the objectives, their importance, and each employee's role in achieving them to all employees.
+
+--- Task 156: Care for women during pregnancy and childbirth.
+[A]
+  1. [IC] Greet the pregnant woman, introduce yourself, and confirm the purpose of the visit.
+  2. [PD] Review the woman's medical history and current health status, including any previous complications or concerns.
+  3. [PD] Measure the woman's vital signs, including blood pressure, heart rate, and weight.
+  4. [PD] Listen to the fetal heartbeat using a Doppler device and assess fetal position and growth.
+  5. [IC] Discuss the woman's concerns, answer questions about pregnancy and childbirth, and provide personalized advice.
+  6. [ME] Assist the woman in changing into a gown for the examination and provide any necessary vaccinations or screenings.
+  7. [NA] Monitor the woman's labor progress, providing support and encouragement as needed.
+  8. [ME] Assist the woman in pushing during contractions, guiding her on the most effective position.
+  9. [ME] Deliver the baby, clamping and cutting the umbilical cord as needed, and ensure proper bonding with the mother.
+  10. [FV] Provide immediate post-delivery care to the woman and baby, including any necessary medical interventions.
+  11. [FV] Document the visit findings, update the patient's medical record, and schedule follow-up care.
+[B]
+  1. [IC] Greet the pregnant woman, introduce yourself, and explain the purpose of the visit.
+  2. [PD] Measure the woman's weight, blood pressure, and pulse using available equipment.
+  3. [PD] Conduct a physical examination, including checking the baby's heart rate and assessing the woman's cervix.
+  4. [IC] Discuss the woman's health history, any concerns, and provide education on prenatal care and childbirth.
+  5. [ME] Administer any necessary vaccinations or screenings, explaining the process to the woman.
+  6. [ME] Assist the woman in changing into a gown for the examination.
+  7. [NA] Monitor the woman's labor progress, providing support and encouragement as needed.
+  8. [ME] Assist the woman in pushing during contractions, guiding her on the most effective position.
+  9. [ME] Deliver the baby, clamping and cutting the umbilical cord as needed.
+  10. [FV] Assist the mother in initiating breastfeeding, providing guidance and support.
+  11. [FV] Complete the necessary paperwork for the visit and arrange follow-up care for the mother and newborn.
+[C]
+  1. [IC] Greet the pregnant woman, confirm the purpose of the visit, and review her medical history.
+  2. [PD] Measure vital signs (blood pressure, heart rate, temperature) and assess fetal heartbeat.
+  3. [PD] Perform a physical examination, including fundal height measurement and fetal position assessment.
+  4. [IC] Discuss the woman's concerns, answer questions about pregnancy and childbirth, and provide personalized advice.
+  5. [ME] Develop a personalized care plan, including scheduling follow-up appointments and providing self-care instructions.
+  6. [FV] Monitor labor progress, providing emotional support and pain management as needed.
+  7. [ME] Assist with delivery, ensuring proper positioning, hygiene, and immediate postpartum care for both mother and baby.
+  8. [FV] Provide breastfeeding support and education, ensuring proper latch and positioning.
+  9. [IC] Document the visit findings, care plan, and any necessary referrals in the patient's medical record.
+[D]
+  1. [IC] Greet the patient, introduce yourself, and explain the purpose of the visit.
+  2. [PD] Review the woman's medical history and current health status, including any previous complications or concerns.
+  3. [PD] Measure the woman's vital signs, including blood pressure, weight, and check her urine output.
+  4. [PD] Conduct a physical examination, including checking the baby's heart rate, assessing the woman's cervix, and measuring fundal height.
+  5. [IC] Discuss the woman's concerns, answer questions about pregnancy and childbirth, and provide personalized advice and education.
+  6. [ME] Develop a plan for labor and delivery, including any necessary interventions or precautions.
+  7. [FV] Monitor the woman's progress during labor, providing emotional support, pain management, and guidance on effective positions.
+  8. [ME] Assist with the delivery of the baby, including proper positioning, hygiene, and clamping/cutting the umbilical cord as needed.
+  9. [FV] Provide immediate post-delivery care to the woman and baby, including any necessary medical interventions and initiating breastfeeding.
+  10. [FV] Monitor the woman's post-delivery recovery, including any necessary medical interventions or follow-up care.
+  11. [IC] Provide education, support, and any necessary follow-up care or referrals to the woman and her family.
+  12. [IC] Document the woman's care, including visit findings, interventions, and follow-up care or referrals in her medical record.
+
+--- Task 157: Administer cancer treatments.
+[A]
+  1. [IC] Review the patient's electronic health record (EHR) to understand their medical history, current treatment plan, and any allergies or contraindications.
+  2. [NA] Check the patient's identification band to ensure it matches the EHR and confirm the patient's identity.
+  3. [PD] Calculate the correct dosage of chemotherapy drugs based on the patient's weight, height, and kidney function.
+  4. [NA] Gather the necessary chemotherapy drugs, syringes, IV tubing, and other supplies needed for the treatment.
+  5. [ME] Prepare the chemotherapy drugs by drawing up the correct dosage into syringes and mixing them if necessary.
+  6. [PD] Access the patient's IV line and verify that it is patent and functioning correctly.
+  7. [ME] Administer the chemotherapy drugs slowly and evenly over the prescribed period, monitoring the patient's vital signs throughout the process.
+  8. [ME] Flush the IV line with normal saline to ensure that all chemotherapy drugs have been administered and to prevent any residual drug from being administered later.
+  9. [FV] Document the administration of the chemotherapy drugs in the patient's EHR, including the time of administration, dosage, and any observed side effects or reactions.
+  10. [FV] Monitor the patient for any signs of adverse reactions to the chemotherapy drugs, such as nausea, vomiting, or allergic reactions.
+  11. [IC] Once the patient is stable and there are no immediate adverse reactions, inform the patient's oncologist or the treatment center's medical team about the administration of the chemotherapy drugs.
+[B]
+  1. [PD] Review the patient's medical history and current treatment plan to ensure accurate administration of chemotherapy.
+  2. [ME] Prepare the chemotherapy agents and equipment according to the manufacturer's instructions and hospital protocols.
+  3. [ME] Administer the chemotherapy agents to the patient through an IV infusion, monitoring the patient's vital signs and adjusting the infusion as needed.
+  4. [PD] Monitor the patient's vital signs and adjust the infusion as needed to ensure the patient receives the correct dose.
+  5. [IC] Communicate effectively with the patient and other healthcare professionals to ensure a smooth and safe administration of chemotherapy.
+  6. [FV] Document the administration of chemotherapy in the patient's medical record, including any adjustments made to the treatment plan.
+  7. [FV] Dispose of any hazardous materials and clean and sterilize the equipment according to hospital protocols.
+  8. [PD] Review the patient's response to the treatment and adjust the treatment plan as needed for future administrations.
+  9. [IC] Communicate the patient's response to the treatment to other healthcare professionals and document any changes to the treatment plan.
+  10. [FV] Maintain accurate and up-to-date records of the patient's treatment, including any adjustments made to the treatment plan.
+  11. [PD] Continuously monitor the patient's vital signs and adjust the infusion as needed to ensure the patient receives the correct dose.
+  12. [ME] Administer any additional treatments or medications as needed, and document the administration in the patient's medical record.
+[C]
+  1. [IC] Verify patient identity and treatment plan against the doctor's orders.
+  2. [NA] Gather necessary equipment: IV bag, chemotherapy drug vial, saline solution, gloves, IV tubing, alcohol swabs.
+  3. [ME] Prepare the chemotherapy drug according to the precise dosage instructions, using aseptic technique.
+  4. [ME] Clean the patient's IV insertion site with alcohol swabs and insert the IV needle.
+  5. [ME] Connect the IV tubing to the chemotherapy drug bag and prime the line, ensuring no air bubbles.
+  6. [ME] Administer the chemotherapy drug slowly through the IV line, continuously monitoring the patient's vital signs (blood pressure, heart rate, oxygen saturation).
+  7. [FV] Document the treatment administration details, including dosage, time, and any observed side effects, in the patient's electronic medical record.
+  8. [NA] Dispose of used equipment according to hospital safety protocols.
+[D]
+  1. [IC] Review patient's EHR for medical history, current treatment plan, allergies, and contraindications.
+  2. [NA] Verify patient's identity by checking their ID band against EHR records.
+  3. [PD] Calculate precise dosage of chemotherapy drugs based on patient's weight, height, and kidney function.
+  4. [NA] Gather necessary equipment and chemotherapy drugs according to the treatment plan.
+  5. [ME] Prepare chemotherapy drugs by drawing up the correct dosage into syringes and mixing them if necessary.
+  6. [PD] Access the patient's IV line, verify its patency, and prime the line to remove air bubbles.
+  7. [ME] Administer chemotherapy drugs slowly and evenly over the prescribed period, monitoring vital signs throughout.
+  8. [ME] Flush the IV line with normal saline to ensure complete drug administration and prevent residual drug from being administered later.
+  9. [FV] Document administration details, including time, dosage, and observed side effects, in the patient's EHR.
+  10. [FV] Monitor the patient for signs of adverse reactions to chemotherapy drugs, such as nausea, vomiting, or allergic reactions.
+  11. [IC] Inform the patient's oncologist or medical team about the administration of chemotherapy drugs once the patient is stable.
+
+--- Task 158: Set up classroom materials or equipment.
+[A]
+  1. [NA] Retrieve the necessary materials and equipment from storage.
+  2. [NA] Carry the materials to the classroom and place them at designated lab stations.
+  3. [ME] Set up the smartboard and projector to display the lesson content.
+  4. [PD] Check the functionality of each piece of equipment (e.g., microscopes, projector).
+  5. [ME] Distribute materials (e.g., glass slides, worksheets) to each lab station or student.
+  6. [PD] Inspect materials for any damage or contamination.
+  7. [FV] Final check of all materials and equipment to ensure everything is set up correctly.
+[B]
+  1. [NA] Retrieve the necessary materials and equipment from storage.
+  2. [ME] Set up the materials and equipment in the classroom.
+  3. [PD] Check the functionality of each microscope by turning it on and adjusting the focus.
+  4. [PD] Inspect the glass slides for any damage or contamination.
+  5. [PD] Verify that all chemicals are correctly labeled and in their designated containers.
+  6. [FV] Final check of all materials to ensure everything is set up correctly and ready for the lab session.
+[C]
+  1. [IC] Identify the required materials and equipment for the lesson based on the lesson plan.
+  2. [NA] Retrieve the necessary materials and equipment from the storage area.
+  3. [NA] Transport the materials to the designated classroom location.
+  4. [ME] Arrange the materials and equipment at each workstation or learning area according to the lesson plan.
+  5. [PD] Visually inspect each item to ensure functionality and readiness for use.
+  6. [FV] Conduct a final walkthrough to confirm all materials are present, correctly positioned, and ready for the lesson.
+[D]
+  1. [NA] Retrieve the necessary materials and equipment from storage, based on the lesson plan.
+  2. [NA] Carry the retrieved items to the classroom.
+  3. [ME] Set up lab stations or arrange materials on tables, following the lesson's layout requirements.
+  4. [PD] Check the functionality and condition of equipment, such as microscopes, smartboards, or grow lamps.
+  5. [PD] Inspect and verify that all materials, such as glass slides, chemicals, or seeds, are correctly labeled, undamaged, and complete.
+  6. [ME] Distribute materials and equipment to students or place them in accessible locations.
+  7. [FV] Review the classroom setup to ensure all materials and equipment are correctly placed and ready for use.
+  8. [FV] Conduct a final check of the classroom, including the clock, to ensure everything is set up correctly and ready for the lesson.
+
+--- Task 159: Maintain drilling equipment.
+[A]
+  1. [IC] Review the drilling equipment's maintenance schedule and checklist to identify tasks that need to be performed.
+  2. [NA] Locate and retrieve the necessary maintenance tools and spare parts from the equipment storage area.
+  3. [PD] Inspect the drilling equipment for any signs of wear or damage, including checking the drill pipe, top drive, and mud pumps.
+  4. [ME] Perform routine maintenance tasks, such as lubricating moving parts, replacing filters, and checking fluid levels.
+  5. [FV] Test the drilling equipment to ensure that it is functioning properly and making any necessary adjustments.
+  6. [IC] Document the maintenance activities performed, including any issues encountered and the actions taken to resolve them.
+  7. [NA] Store the maintenance tools and spare parts in their designated areas, ensuring that they are secure and easily accessible.
+[B]
+  1. [IC] Review the maintenance checklist and gather necessary tools and supplies.
+  2. [NA] Navigate to the drilling rig and secure the area to prevent unauthorized access.
+  3. [PD] Inspect the drilling rig for any visible damage or wear and tear.
+  4. [ME] Clean the drilling rig components, removing dirt and debris.
+  5. [ME] Lubricate the moving parts of the drilling rig to ensure smooth operation.
+  6. [PD] Check the hydraulic systems for leaks and proper fluid levels.
+  7. [PD] Perform a visual inspection of the drilling bit and replace it if necessary.
+  8. [PD] Check the electrical systems and ensure all connections are secure.
+  9. [FV] Run a test cycle to ensure all systems are functioning correctly.
+  10. [IC] Document the maintenance performed and any issues identified.
+[C]
+  1. [IC] Review the drilling equipment's maintenance schedule and checklist to identify tasks.
+  2. [NA] Gather necessary tools and replacement parts.
+  3. [PD] Visually inspect the drilling equipment for damage, wear, and leaks.
+  4. [ME] Perform routine maintenance tasks: lubricating moving parts, checking/replacing filters, verifying fluid levels.
+  5. [FV] Test the functionality of the drilling equipment, including safety systems.
+  6. [IC] Document all maintenance activities, observations, and any issues encountered.
+[D]
+  1. [IC] Review the drilling equipment's maintenance schedule and checklist to identify tasks for this cycle.
+  2. [NA] Gather necessary tools, replacement parts, and safety equipment from designated storage areas.
+  3. [NA] Secure the drilling area to prevent unauthorized access and ensure safety during maintenance.
+  4. [PD] Inspect the drilling equipment for visible damage, wear, or leaks, including drill pipe, top drive, mud pumps, and hydraulic systems.
+  5. [ME] Perform routine maintenance tasks such as lubricating moving parts, replacing filters, checking fluid levels, and cleaning components.
+  6. [FV] Test the drilling equipment's functionality by running a test cycle at various speeds and loads.
+  7. [IC] Document the maintenance activities performed, issues encountered, and actions taken to resolve them in the maintenance log.
+  8. [NA] Store maintenance tools, replacement parts, and safety equipment in their designated areas, ensuring they are secure and easily accessible.
+  9. [IC] Review the maintenance schedule and checklist to ensure all tasks were completed and the drilling equipment is ready for the next operation.
+  10. [IC] Communicate the maintenance activities performed and any issues encountered to the drilling crew.
+
+--- Task 160: Analyze patient data to determine patient needs or treatment goals.
+[A]
+  1. [IC] Log into the electronic health record (EHR) system to access the patient's medical history.
+  2. [NA] Navigate to the patient's profile and review the medical history, including previous diagnoses, treatments, and recent assessments.
+  3. [PD] Analyze the patient's current symptoms, medical history, and environmental factors to identify patterns or triggers.
+  4. [ME] Determine the patient's specific needs and formulate treatment goals based on the analysis.
+  5. [FV] Document the treatment goals and any relevant notes in the EHR system.
+  6. [FV] Review the documented treatment goals to ensure they align with the patient's needs and are clearly communicated.
+[B]
+  1. [IC] Log into the electronic health record (EHR) system to access the patient's medical history.
+  2. [PD] Review the patient's medical history, including past diagnoses, medications, and procedures.
+  3. [PD] Analyze laboratory results, including blood work and imaging studies, to identify any abnormalities or trends.
+  4. [ME] Determine the patient's treatment goals and develop a plan to achieve them, including any necessary referrals or interventions.
+  5. [FV] Document the patient's findings and treatment plan in the EHR system, including any necessary updates to the patient's medication list or care plan.
+  6. [IC] Communicate the patient's findings and treatment plan to the patient or their authorized representative, either in person or via phone or video conference.
+  7. [FV] Update the patient's chart to reflect any changes or updates to their treatment plan, including any necessary referrals or interventions.
+  8. [FV] Review the patient's chart to ensure that all necessary information has been documented and that the treatment plan is comprehensive and realistic.
+[C]
+  1. [IC] Log into the electronic health record (EHR) system.
+  2. [NA] Navigate to the patient's profile and review medical history, including diagnoses, treatments, and psychological assessments.
+  3. [PD] Analyze patient symptoms, test scores, and clinical observations to identify patterns and potential triggers.
+  4. [PD] Consider social and environmental factors that may influence the patient's mental health.
+  5. [ME] Determine the patient's specific needs and formulate treatment goals.
+  6. [FV] Document the treatment goals and any relevant notes in the EHR system.
+[D]
+  1. [IC] Log into the secure electronic health record (EHR) system using a unique username and password.
+  2. [NA] Navigate to the patient's profile and review the medical history, including previous diagnoses, treatments, and laboratory results.
+  3. [PD] Review recent psychological assessment reports, including test scores, clinical observations, and the patient's current symptoms and their severity.
+  4. [PD] Analyze the patient's social and environmental factors that may influence their mental health.
+  5. [PD] Compare the current symptoms with the patient's medical history to identify any patterns or triggers.
+  6. [ME] Determine the patient's specific needs based on the analysis of symptoms, environmental factors, and medical history.
+  7. [ME] Set treatment goals that address the identified needs, such as reducing anxiety levels or improving coping mechanisms.
+  8. [FV] Document the treatment goals, any relevant notes, and the initial assessment in the EHR system.
+  9. [FV] Review the documented treatment goals to ensure they align with the patient's needs and are clearly communicated.
+  10. [IC] Communicate the patient's findings and treatment plan to the patient or their authorized representative, either in person or via phone or video conference.
+
+================================================================
+ANSWER TEMPLATE
+
+153: _ | 
+154: _ | 
+155: _ | 
+156: _ | 
+157: _ | 
+158: _ | 
+159: _ | 
+160: _ | 
+

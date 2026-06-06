@@ -1,0 +1,356 @@
+BATCH 10/63 | Model: Claude Opus 4.7 | Tasks 73-80
+================================================================
+EXPERT REVIEW -- Micro-Action Sequence Evaluation
+For each task, read ALL four options, then choose the BEST (A/B/C/D).
+
+Criteria:
+  1. Completeness  -- no critical steps missing
+  2. Realism       -- every step is concretely executable
+  3. Stage accuracy -- stage label correct for each step:
+     IC=Intent_Communication  NA=Navigation_Addressing
+     PD=Perception_Diagnosis  ME=Manipulation_Execution  FV=Feedback_Verification
+  4. Conciseness   -- no redundant or duplicate steps
+  5. Scope         -- starts and ends at exactly the right point
+
+OUTPUT: fill the ANSWER TEMPLATE at the bottom.
+Format: N: X | one-sentence reason (max 12 words)
+IMPORTANT: Each task has a different best answer. Do NOT pick the same
+letter for every task without reading.
+================================================================
+
+--- Task 73: Prepare data for analysis.
+[A]
+  1. [NA] Open the CSV file using a data analysis tool such as Python's pandas library.
+  2. [PD] Inspect the dataset for missing values, duplicates, and incorrect data types.
+  3. [ME] Handle missing values by either removing or imputing them using mean, median, or mode.
+  4. [ME] Remove any duplicate entries from the dataset.
+  5. [ME] Convert data types of columns as necessary (e.g., converting a string column to datetime).
+  6. [ME] Normalize or scale numerical features if necessary for the machine learning model.
+  7. [FV] Save the cleaned and transformed dataset in a suitable format (e.g., CSV, Parquet) for analysis.
+  8. [FV] Verify the cleaned dataset by checking the first few rows and ensuring the data is ready for analysis.
+[B]
+  1. [NA] Open the dataset of interest in a suitable software or library.
+  2. [PD] Inspect the dataset for missing values, duplicates, and incorrect data types.
+  3. [ME] Fill missing values using appropriate imputation techniques like mean, median, or mode.
+  4. [ME] Remove duplicate entries from the dataset.
+  5. [ME] Convert data types to the appropriate format (e.g., string to numeric, date to datetime).
+  6. [NA] Save the cleaned and transformed dataset in a suitable format (e.g., CSV, Parquet) for analysis.
+  7. [FV] Verify the cleaned dataset by checking the first few rows and ensuring the data is ready for analysis.
+[C]
+  1. [NA] Import the CSV file into a data analysis software like Python's Pandas library.
+  2. [PD] Inspect the dataset for missing values, duplicates, and incorrect data types.
+  3. [ME] Handle missing values by either removing or imputing them using appropriate techniques.
+  4. [ME] Remove duplicate entries from the dataset.
+  5. [ME] Convert data types to the appropriate format (e.g., string to numeric, date to datetime).
+  6. [FV] Save the cleaned and transformed dataset to a new file.
+[D]
+  1. [NA] Open the dataset using a data analysis tool such as Python's pandas library.
+  2. [PD] Inspect the dataset for missing values, duplicates, and incorrect data types.
+  3. [ME] Handle missing values by either removing or imputing them using appropriate techniques (e.g., mean, median, mode, or deletion).
+  4. [ME] Remove any duplicate rows from the dataset.
+  5. [ME] Convert data types of columns as necessary (e.g., converting a string column to datetime) to ensure data consistency.
+  6. [ME] Rename columns to make them more descriptive and consistent.
+  7. [FV] Save the cleaned and transformed dataset to a new file.
+  8. [FV] Verify the success of the data preparation by loading the saved dataset and checking its structure and consistency.
+
+--- Task 74: Apply identification labels or tags.
+[A]
+  1. [IC] Scan the incoming box barcode to confirm its identity and destination.
+  2. [NA] Retrieve the handheld label printer from the workstation and ensure it is functioning properly.
+  3. [PD] Identify the correct label information for the box from the inventory system.
+  4. [ME] Enter the label information into the label printer and print the label.
+  5. [ME] Position the printed label on the designated area of the box and apply it firmly.
+  6. [FV] Visually inspect the applied label for correct placement, orientation, and readability.
+  7. [ME] If necessary, carefully peel off the misaligned label and repeat steps 4-6.
+  8. [IC] Confirm the successful labeling and move the box to the designated shelf or conveyor belt.
+[B]
+  1. [NA] Retrieve the handheld label printer from the workstation.
+  2. [PD] Power on the label printer and ensure it is functioning properly.
+  3. [IC] Scan the incoming box barcode to confirm its identity and destination.
+  4. [IC] Consult the inventory system to determine the appropriate label for this batch of boxes.
+  5. [ME] Print the required number of labels with the correct information.
+  6. [ME] Enter the label information into the label printer.
+  7. [ME] Print the label using the label printer.
+  8. [ME] Apply the label to the box by pressing it firmly.
+  9. [FV] Inspect the labeled boxes for accuracy and completeness.
+  10. [NA] Place the labeled box on the designated shelf.
+[C]
+  1. [IC] Retrieve the correct label template from the system or printer.
+  2. [NA] Load the label printer with a new roll of labels and set the correct font and size.
+  3. [NA] Retrieve the first box from the designated area.
+  4. [NA] Position the box under the label printer.
+  5. [ME] Print the label using the selected template.
+  6. [ME] Remove the printed label from the printer.
+  7. [ME] Align and apply the label to the designated area on the box.
+  8. [FV] Visually inspect the applied label for correct placement, orientation, and readability.
+  9. [ME] Repeat steps 3-8 for the remaining boxes.
+[D]
+  1. [IC] Scan the incoming box barcode to confirm its identity and destination.
+  2. [NA] Retrieve the corresponding pre-printed barcode label from the dispenser.
+  3. [PD] Align the barcode label with the designated area on the box.
+  4. [ME] Press the label firmly onto the box surface, ensuring full adhesion.
+  5. [FV] Visually inspect the applied label for correct placement, orientation, and readability.
+  6. [ME] If necessary, carefully peel off the misaligned label and repeat steps 3-5.
+  7. [IC] Confirm the successful labeling and move the box along the conveyor belt.
+
+--- Task 75: Prepare reports detailing student activities or performance.
+[A]
+  1. [NA] Log into the school's student information system to access student academic records.
+  2. [PD] Review attendance records, grades, and extracurricular activity logs for each student.
+  3. [ME] Synthesize observations into a concise summary for each student, covering academic performance, extracurricular activities, and class participation.
+  4. [ME] Draft a report for each student, incorporating the summarized data and any visual representations of the data.
+  5. [FV] Review each report for accuracy, clarity, and completeness.
+  6. [ME] Make any necessary revisions to the report based on the review.
+  7. [NA] Finalize and save the report in the designated report folder.
+  8. [ME] Prepare the report for distribution, either by printing or sending it electronically.
+  9. [FV] Deliver the report to the intended recipients, such as parents or teachers, and ensure it is well-received.
+[B]
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+[C]
+  1. [IC] Log into the school's student information system.
+  2. [NA] Navigate to the target student's academic records.
+  3. [PD] Review grades, attendance, and extracurricular activity logs.
+  4. [ME] Summarize the student's academic performance and activities in a report.
+  5. [FV] Review the report for accuracy and completeness.
+  6. [ME] Finalize and prepare the report for distribution.
+[D]
+  1. [IC] Log into the school's student information system or Learning Management System (LMS) using the appropriate credentials.
+  2. [NA] Navigate to the specific student's profile or select the 'Reports' tab for the desired class.
+  3. [PD] Review and extract relevant data from the following categories: academic performance (grades, test scores), attendance, and extracurricular activities.
+  4. [ME] Synthesize the extracted data into a concise, coherent summary for each category.
+  5. [ME] Draft an initial report combining the summaries from each category, highlighting trends and areas of concern.
+  6. [FV] Review the report for accuracy, completeness, and clarity, ensuring it meets the required standards.
+  7. [ME] Make any necessary revisions to the report based on the review.
+  8. [NA] Prepare the final report for distribution by saving it with the student's name or class name and the current date in the designated report folder.
+  9. [IC] Share the report with the relevant parties, such as parents, teachers, or the administration, via email or print.
+  10. [IC] Follow up with the recipients to ensure the report is well-received and address any questions or concerns.
+
+--- Task 76: Manage budgets for personal services operations.
+[A]
+  1. [PD] Review the previous quarter's financial reports and personal services expenses to identify trends and areas for cost optimization.
+  2. [IC] Conduct a meeting with department heads to gather input on their budgetary needs for the next quarter.
+  3. [NA] Navigate the company's financial software to access the budget templates and historical data.
+  4. [ME] Input the gathered data into the budget template, including salaries, benefits, and training expenses.
+  5. [PD] Perform financial analysis to ensure the budget aligns with the firm's financial goals and constraints.
+  6. [ME] Adjust the budget as needed to optimize costs and align with company goals.
+  7. [ME] Prepare a detailed budget report, including justifications for each expense category.
+  8. [IC] Present the budget to senior management for review and approval.
+  9. [FV] Receive feedback from senior management and make any necessary revisions to the budget.
+  10. [FV] Finalize the budget and communicate it to relevant stakeholders, including department heads and finance team.
+[B]
+  1. [PD] Review the previous quarter's financial reports and personal services expenses to identify trends and areas for cost optimization.
+  2. [IC] Conduct a meeting with department heads to gather input on their budgetary needs for the next quarter.
+  3. [NA] Navigate the company's financial software to access the budget templates and historical data.
+  4. [ME] Input the gathered data into the budget template, including salaries, benefits, and training expenses.
+  5. [PD] Perform financial analysis to ensure the budget aligns with the firm's financial goals and constraints.
+  6. [ME] Adjust the budget as needed to optimize costs and align with company goals.
+  7. [ME] Prepare a detailed budget report, including justifications for each expense category.
+  8. [IC] Present the budget to senior management for review and approval.
+  9. [FV] Receive feedback from senior management and make any necessary revisions to the budget.
+  10. [FV] Finalize the budget and communicate it to relevant stakeholders, including department heads and finance team.
+[C]
+  1. [PD] Review historical financial data (previous quarters/years) to identify spending trends and areas for optimization.
+  2. [IC] Meet with department heads to discuss their budgetary needs and priorities for the upcoming period.
+  3. [NA] Access and navigate the company's financial software or budgeting tools.
+  4. [ME] Input gathered data (historical trends, departmental needs) into the budget template, including projected revenue and expenses.
+  5. [PD] Analyze the draft budget to ensure alignment with company financial goals and constraints.
+  6. [ME] Adjust the budget as needed, optimizing costs and aligning with company objectives.
+  7. [ME] Prepare a comprehensive budget report, including justifications for each expense category and clear explanations of budgetary decisions.
+  8. [IC] Present the budget to senior management for review and approval.
+  9. [FV] Incorporate feedback from senior management and make necessary revisions to the budget.
+  10. [IC] Communicate the finalized budget to relevant stakeholders, including department heads and the finance team.
+[D]
+  1. [NA] Access historical spending data and financial records.
+  2. [PD] Analyze historical data to identify trends, patterns, and areas for cost optimization.
+  3. [IC] Consult with department heads to understand their budget requirements and gather input.
+  4. [ME] Forecast future spending based on historical trends, departmental requirements, and overall budget constraints.
+  5. [ME] Allocate funds to each department based on their requirements and the overall budget.
+  6. [ME] Create a budget report summarizing allocations, justifying decisions, and projecting future spending.
+  7. [IC] Present the budget report to senior management for review and address any feedback or revisions.
+  8. [FV] Finalize the budget and communicate it to relevant departments and stakeholders.
+  9. [FV] Monitor spending throughout the fiscal year, provide regular updates, and reconcile with financial records.
+
+--- Task 77: Perform administrative or clerical tasks.
+[A]
+  1. [NA] Retrieve the list of documents needed for the client meeting from the digital file system.
+  2. [ME] Print the documents listed from the digital file system.
+  3. [PD] Check the printed documents for completeness and accuracy.
+  4. [ME] Organize the printed documents in the correct order as per the client meeting agenda.
+  5. [ME] Prepare a folder and insert the printed documents in the correct order.
+  6. [ME] Label the folder with the client's name and the date of the meeting.
+  7. [FV] Double-check the folder to ensure all documents are present and in the correct order.
+  8. [NA] Place the prepared folder in the designated area for the client meeting.
+  9. [IC] Notify the relevant team members that the folder is ready for the client meeting.
+[B]
+  1. [IC] Retrieve the list of documents needed for the client meeting from the digital file system.
+  2. [NA] Print the documents listed from the digital file system.
+  3. [PD] Check the printed documents for completeness and accuracy.
+  4. [PD] Organize the printed documents in the correct order as per the client meeting agenda.
+  5. [NA] File the original digital copies of the documents in the appropriate folders in the digital file system.
+  6. [ME] Prepare a folder and insert the printed documents in the correct order.
+  7. [ME] Label the folder with the client's name and the date of the meeting.
+  8. [FV] Double-check the folder to ensure all documents are present and in the correct order.
+  9. [NA] Place the prepared folder in the designated area for the client meeting.
+  10. [IC] Notify the relevant team members that the folder is ready for the client meeting.
+[C]
+  1. [NA] Retrieve the list of documents needed for the client meeting from the digital file system.
+  2. [ME] Print the documents.
+  3. [FV] Verify the completeness and accuracy of the printed documents.
+  4. [ME] Organize the printed documents in the correct order according to the client meeting agenda.
+  5. [ME] Prepare a folder and label it with the client's name and the meeting date.
+  6. [ME] Place the organized documents into the prepared folder.
+  7. [NA] Place the prepared folder in the designated area for the client meeting.
+[D]
+  1. [IC] Identify the task at hand (e.g., preparing documents for a meeting, processing invoices, responding to customer emails, delivering mail).
+  2. [NA] Gather the necessary resources for the task (e.g., documents, invoices, emails, packages).
+  3. [PD] Assess the gathered resources for completeness, accuracy, and any special requirements (e.g., check documents for completeness, scan invoices for relevant information, analyze emails for content and sentiment).
+  4. [ME] Prepare the resources for processing or delivery (e.g., organize documents, sort invoices, categorize emails).
+  5. [ME] Process or deliver the prepared resources (e.g., print documents, upload invoice data, send email responses, deliver packages).
+  6. [FV] Verify the task's outcome and ensure it meets the required standards (e.g., check documents for accuracy, review uploaded invoice data, confirm email responses, log mail processing).
+  7. [IC] Notify relevant parties about the task's completion (e.g., inform team members about prepared documents, log email interactions, update mail processing status).
+
+--- Task 78: Administer basic health care or medical treatments.
+[A]
+  1. [PD] Review the patient's medical history and current health status to ensure there are no contraindications for the treatment.
+  2. [NA] Prepare the treatment equipment, including medication or vaccine and syringe, ensuring sterility and proper disposal protocols.
+  3. [IC] Explain the treatment process to the patient, answer any questions, and obtain informed consent.
+  4. [ME] Administer the treatment (medication or vaccine) following proper technique and safety protocols.
+  5. [FV] Monitor the patient for any immediate adverse reactions or side effects.
+  6. [FV] Document the treatment procedure, including any adverse reactions or concerns, in the patient's medical record.
+  7. [IC] Provide post-treatment instructions to the patient and answer any remaining questions.
+[B]
+  1. [IC] Review the patient's medical history and current health status.
+  2. [IC] Confirm the patient's identity and the type of vaccine to be administered.
+  3. [NA] Prepare the vaccine vial and syringe, ensuring sterility.
+  4. [PD] Select the appropriate injection site, typically the deltoid muscle.
+  5. [NA] Clean the injection site with an antiseptic wipe.
+  6. [PD] Draw the correct dosage of vaccine into the syringe.
+  7. [ME] Insert the needle into the muscle at a 90-degree angle.
+  8. [ME] Inject the vaccine slowly and withdraw the needle.
+  9. [ME] Apply a bandage to the injection site if necessary.
+  10. [FV] Observe the patient for any immediate adverse reactions.
+  11. [FV] Provide post-treatment instructions to the patient.
+  12. [FV] Document the treatment in the patient's medical record.
+[C]
+  1. [IC] Review the patient's medical history and current health status, including allergies and contraindications.
+  2. [IC] Confirm the patient's identity and the specific treatment to be administered.
+  3. [NA] Prepare the necessary equipment and medication, ensuring sterility and proper dosage.
+  4. [IC] Explain the treatment process to the patient, address any concerns, and obtain informed consent.
+  5. [ME] Administer the treatment according to established protocols, monitoring for any adverse reactions.
+  6. [IC] Provide post-treatment instructions to the patient and answer any questions.
+  7. [FV] Document the treatment details, including dosage, time, and any observed reactions, in the patient's medical record.
+[D]
+  1. [IC] Review the patient's medical history, current health status, and medication chart to understand their condition and prescribed treatments.
+  2. [IC] Confirm the patient's identity and the type of treatment to be administered.
+  3. [NA] Prepare the necessary equipment and medications, ensuring sterility and proper disposal of used materials.
+  4. [PD] Select the appropriate administration site or method based on the treatment type and patient's condition.
+  5. [NA] Prepare the patient and administration site, ensuring comfort and sterility.
+  6. [ME] Administer the treatment following proper technique, safety protocols, and prescribed dosage.
+  7. [PD] Monitor the patient for any adverse reactions, side effects, or changes in vital signs.
+  8. [FV] Document the treatment procedure, including any adverse reactions or concerns, in the patient's medical record.
+  9. [IC] Provide post-treatment instructions to the patient, answer any questions, and offer support as needed.
+  10. [FV] Update the patient's medical record with any relevant information, including treatment status and any adverse reactions.
+
+--- Task 79: Adjust positions of patients on beds or tables.
+[A]
+  1. [IC] Approach the patient's bedside and introduce yourself, explaining the repositioning procedure in a calm and reassuring manner.
+  2. [PD] Assess the patient's current position and identify any pressure points or discomfort.
+  3. [NA] Lower the bed to a safe height for manual handling and prepare any necessary support items like pillows or cushions.
+  4. [ME] Support the patient's weight while gently rolling or lifting them to the desired position, ensuring proper alignment of the head, neck, and spine.
+  5. [ME] Adjust pillows, cushions, and blankets to provide support and comfort in the new position, ensuring limbs are properly aligned and supported.
+  6. [FV] Raise the bed to a comfortable working height and confirm the patient's comfort and safety in the new position.
+  7. [FV] Ask the patient if they are comfortable in their new position and make any necessary adjustments based on their feedback.
+  8. [FV] Document the repositioning process, including time, position, and any observations, in the patient's chart.
+[B]
+  1. [IC] Approach the patient and explain the repositioning procedure.
+  2. [PD] Assess the patient's current position and identify pressure points.
+  3. [ME] Lower the bed to a safe height for manual handling.
+  4. [ME] Support the patient's weight while gently rolling them onto their side.
+  5. [ME] Adjust pillows and blankets to provide support and comfort in the new position.
+  6. [PD] Ensure the patient's limbs are properly aligned and supported.
+  7. [FV] Confirm the patient's comfort and safety in the new position.
+[C]
+  1. [IC] The therapist approaches the patient, introduces themselves, and explains the need for repositioning.
+  2. [PD] The therapist assesses the patient's current position, identifies pressure points, and determines the desired final position.
+  3. [NA] The therapist adjusts the bed height to a safe and comfortable working level.
+  4. [ME] The therapist gently supports the patient's weight and guides them into the desired position, using pillows or cushions for support as needed.
+  5. [FV] The therapist verifies the patient's comfort and alignment in the new position, making any necessary adjustments.
+  6. [IC] The therapist communicates with the patient, confirming their comfort and addressing any concerns.
+[D]
+  1. [IC] Approach the patient's bedside, ensuring not to startle them or block their view of the room.
+  2. [IC] Introduce yourself and explain the procedure in a calm and reassuring manner.
+  3. [PD] Assess the patient's current position and identify pressure points or areas of discomfort.
+  4. [NA] Lower the bed to a safe height for manual handling.
+  5. [ME] Gently place one hand on the patient's shoulder to reassure them and prepare them for the repositioning.
+  6. [ME] Slowly and carefully slide your other hand under the patient's back, supporting their weight.
+  7. [ME] Gently lift and rotate the patient to the desired position, ensuring their head, neck, and spine are properly aligned.
+  8. [FV] Ask the patient if they are comfortable in their new position and adjust pillows or blankets as needed.
+  9. [NA] Raise the bed to a comfortable working height.
+  10. [FV] Document the time, position, and any observations in the patient's chart, then leave the patient in a calm and reassured state.
+
+--- Task 80: Evaluate civic projects or public policies.
+[A]
+  1. [IC] Review the project proposal document to understand the initiative's objectives and scope.
+  2. [NA] Search and access relevant databases and reports to gather baseline data on traffic patterns, public transportation usage, and community feedback.
+  3. [PD] Analyze the gathered data to identify trends, patterns, and potential impacts on traffic congestion, public transportation usage, and community sentiment.
+  4. [PD] Conduct interviews and surveys with stakeholders (e.g., local residents, community leaders, city officials) to understand their needs, concerns, and expectations.
+  5. [ME] Simulate the project's potential impacts using specialized software (e.g., GIS, environmental modeling tools) to quantify effects on traffic, public transportation, and community well-being.
+  6. [ME] Draft a comprehensive report outlining the project's objectives, methodology, findings, and recommendations.
+  7. [IC] Review the report with stakeholders to ensure it accurately reflects their inputs and addresses their concerns.
+  8. [FV] Finalize the report and submit it to the city council within the given deadline.
+  9. [FV] Present the report to the city council and answer any questions or clarifications they may have.
+[B]
+  1. [IC] Review the project proposal and gather background information on the proposed public transportation project.
+  2. [NA] Locate and access relevant databases and reports on current traffic patterns and public transportation usage.
+  3. [PD] Analyze current traffic congestion levels and public transportation usage patterns.
+  4. [IC] Conduct surveys and interviews with city residents to gather public opinion on the proposed project.
+  5. [PD] Analyze survey and interview results to understand public sentiment and potential benefits or drawbacks.
+  6. [ME] Simulate the impact of the proposed project on traffic congestion and public transportation usage.
+  7. [PD] Evaluate the cost-effectiveness and financial feasibility of the project.
+  8. [ME] Compile findings and recommendations into a comprehensive report.
+  9. [FV] Present the report to the city council and answer any questions.
+  10. [FV] Deliver the final report and recommendations to the city council for their decision-making process.
+[C]
+  1. [IC] Review the project proposal and relevant background information, including goals, objectives, and target community.
+  2. [PD] Gather and analyze relevant data from databases, reports, and previous studies related to the project's area of impact.
+  3. [PD] Conduct site visits and observations to directly assess the current situation and identify potential challenges or successes.
+  4. [IC] Interview stakeholders, community members, and project staff to gather diverse perspectives and insights on the project's effectiveness and impact.
+  5. [ME] Analyze collected data (quantitative and qualitative) to identify trends, patterns, and key findings related to the project's impact.
+  6. [IC] Evaluate the project's alignment with city policies, goals, and community needs, considering both positive and negative aspects.
+  7. [ME] Develop a comprehensive evaluation report summarizing findings, recommendations, and potential areas for improvement.
+  8. [FV] Present the evaluation report to relevant stakeholders (city council, project team, community members) and address any questions or concerns.
+  9. [FV] Finalize the evaluation report based on stakeholder feedback and submit it to the appropriate decision-making body.
+[D]
+  1. [IC] Review the project proposal document to understand the initiative's objectives, scope, and expected outcomes.
+  2. [NA] Gather baseline data by accessing relevant databases (e.g., city planning, environmental protection, public health) and conducting site visits or observations.
+  3. [PD] Analyze gathered data to identify trends, patterns, and potential impacts on relevant aspects such as traffic, public transportation usage, environmental factors, or community engagement.
+  4. [IC] Conduct interviews and surveys with stakeholders (e.g., local residents, community leaders, city officials) to understand their needs, concerns, and expectations.
+  5. [ME] Simulate or model the project's potential impacts using specialized software or tools, where applicable.
+  6. [PD] Compare simulation results or project outcomes with baseline data to quantify and evaluate the project's impacts.
+  7. [PD] Evaluate the project's feasibility, cost-effectiveness, and alignment with city policies and goals, considering available resources and potential challenges.
+  8. [ME] Draft a comprehensive evaluation report, summarizing findings, recommendations, and actionable steps for future improvements.
+  9. [IC] Review the report with stakeholders to ensure it accurately reflects their inputs and addresses their concerns, incorporating feedback as necessary.
+  10. [FV] Finalize the evaluation report and submit it to the city council within the given deadline.
+  11. [FV] Present the report to the city council, addressing any questions, clarifications, or concerns they may have.
+
+================================================================
+ANSWER TEMPLATE
+
+73: _ | 
+74: _ | 
+75: _ | 
+76: _ | 
+77: _ | 
+78: _ | 
+79: _ | 
+80: _ | 
+

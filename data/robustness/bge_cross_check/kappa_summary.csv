@@ -1,0 +1,5 @@
+﻿class,κ_one_vs_rest,n_MPNet,n_BGE
+LLM,0.6601,8323,7880
+Multimodal_Perception,0.6828,2939,3241
+Embodied,0.7379,2744,2598
+Human_Bound,0.5605,1811,2098

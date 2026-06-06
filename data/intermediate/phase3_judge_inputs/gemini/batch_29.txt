@@ -1,0 +1,412 @@
+BATCH 29/63 | Model: Gemini 3 Pro | Tasks 225-232
+================================================================
+EXPERT REVIEW -- Micro-Action Sequence Evaluation
+For each task, read ALL four options, then choose the BEST (A/B/C/D).
+
+Criteria:
+  1. Completeness  -- no critical steps missing
+  2. Realism       -- every step is concretely executable
+  3. Stage accuracy -- stage label correct for each step:
+     IC=Intent_Communication  NA=Navigation_Addressing
+     PD=Perception_Diagnosis  ME=Manipulation_Execution  FV=Feedback_Verification
+  4. Conciseness   -- no redundant or duplicate steps
+  5. Scope         -- starts and ends at exactly the right point
+
+OUTPUT: fill the ANSWER TEMPLATE at the bottom.
+Format: N: X | one-sentence reason (max 12 words)
+IMPORTANT: Each task has a different best answer. Do NOT pick the same
+letter for every task without reading.
+================================================================
+
+--- Task 225: Promote agricultural or hunting activities.
+[A]
+  1. [PD] Review market research on local farmers' and hunters' preferences and needs.
+  2. [ME] Design and create promotional materials (e.g., posters, flyers, social media graphics) highlighting the benefits of agricultural and hunting activities.
+  3. [ME] Set up a booth or display at a local event, such as a county fair, with informational materials and interactive experiences.
+  4. [IC] Greet attendees, invite them to visit the booth, and provide an overview of the agricultural and hunting activities.
+  5. [ME] Demonstrate the use of agricultural tools and hunting equipment, and answer questions from attendees.
+  6. [FV] Collect contact information from interested attendees and encourage them to join the cooperative or club.
+  7. [PD] Analyze the effectiveness of the promotional materials and sales pitch, making adjustments as needed for future marketing efforts.
+[B]
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+[C]
+  1. [PD] Research local demographics and preferences regarding agriculture and hunting.
+  2. [ME] Design targeted promotional materials (brochures, online content, demonstrations) showcasing the benefits of the agricultural cooperative or hunting club.
+  3. [NA] Secure a booth or designated space at a relevant local event (farmers market, fair, hunting expo).
+  4. [ME] Set up an inviting booth with clear signage, promotional materials, and interactive elements (if applicable).
+  5. [IC] Engage with attendees, actively communicate the value proposition of the cooperative or club, and answer questions.
+  6. [FV] Collect contact information from interested individuals for follow-up.
+  7. [IC] Follow up with interested individuals, providing additional information and addressing any further questions.
+[D]
+  1. [ME] Set up an engaging booth at a local event with informational materials, promotional items, and interactive displays showcasing both agricultural and hunting activities.
+  2. [IC] Greet attendees, invite them to visit the booth, and introduce the agricultural cooperative and hunting club.
+  3. [IC] Provide an overview of the benefits of joining the agricultural cooperative, including sustainable farming practices and community support.
+  4. [ME] Demonstrate the use of agricultural tools and equipment, highlighting their benefits and ease of use.
+  5. [IC] Offer an overview of the hunting club, its benefits, and the importance of responsible hunting practices.
+  6. [ME] Showcase hunting gear and demonstrate its use, focusing on safety, efficiency, and ethical hunting practices.
+  7. [IC] Answer questions about both the agricultural cooperative and hunting club, providing clear and accurate information.
+  8. [FV] Collect contact information from interested attendees to follow up with them after the event.
+  9. [FV] Thank attendees for their interest and encourage them to join the cooperative or club, emphasizing the benefits of membership.
+
+--- Task 226: Operate road-surfacing equipment.
+[A]
+  1. [PD] Inspect the paver and roller for any visible damage or malfunctions.
+  2. [IC] Start the paver and roller engines and perform a systems check to ensure all components are functioning properly.
+  3. [NA] Load the paver with asphalt mix and ensure it is at the correct temperature.
+  4. [PD] Set the paver to the appropriate speed and width for the road surface and align it with the road edge.
+  5. [ME] Start the paver and begin laying the asphalt mix on the road surface, maintaining a consistent speed.
+  6. [FV] Monitor the paver's operation and adjust settings as needed to maintain the correct thickness and density.
+  7. [ME] Operate the roller to compact the newly laid asphalt, starting from the edges and moving towards the center.
+  8. [FV] Monitor the roller's operation and adjust settings as needed to achieve the required compaction level.
+  9. [PD] Inspect the finished asphalt surface for any defects or inconsistencies.
+  10. [ME] Shut down the paver and roller and ensure they are safely parked.
+  11. [IC] Document the work completed and any issues encountered during the day.
+[B]
+  1. [PD] Inspect the paver and roller for any damage or issues before starting the work.
+  2. [ME] Load the paver with asphalt mix and ensure it is at the correct temperature.
+  3. [PD] Set the paver to the appropriate speed and width for the road surface.
+  4. [ME] Start the paver and begin laying the asphalt mix on the road surface.
+  5. [FV] Monitor the paver's operation and adjust settings as needed to maintain the correct thickness and density.
+  6. [ME] Operate the roller to compact the newly laid asphalt, starting from the edges and moving towards the center.
+  7. [FV] Monitor the roller's operation and adjust settings as needed to achieve the required compaction level.
+  8. [PD] Check the surface for any defects or uneven areas and make adjustments as needed.
+  9. [ME] Continue laying and compacting the asphalt until the entire 1-mile stretch is completed.
+  10. [FV] Perform a final inspection of the road surface to ensure it meets the required standards.
+  11. [ME] Shut down the paver and roller and ensure they are safely parked.
+  12. [IC] Document the work completed and any issues encountered during the day.
+[C]
+  1. [PD] Inspect the paver and roller for any visible damage or malfunctions.
+  2. [NA] Position the paver at the starting point of the road section.
+  3. [ME] Adjust the paver's settings for asphalt layer thickness, temperature, and conveyor belt speed.
+  4. [ME] Start the paver engine and begin laying asphalt, maintaining a consistent speed.
+  5. [FV] Continuously monitor asphalt flow and screed height, making adjustments as needed.
+  6. [IC] Coordinate with the roller operator to ensure timely compaction behind the paver.
+  7. [ME] Upon reaching the end of the section, stop the paver and lower the screed.
+  8. [FV] Inspect the finished asphalt surface for any defects or inconsistencies.
+  9. [ME] Shut down the paver engine and prepare the machine for the next section.
+[D]
+  1. [PD] Inspect the paver and roller for any visible damage or malfunctions.
+  2. [ME] Start the paver engine and adjust settings to match the required asphalt layer thickness and material temperature.
+  3. [NA] Position the machine at the starting point of the road section to be resurfaced.
+  4. [ME] Engage the machine's engine and start applying asphalt to the road surface, maintaining a consistent speed.
+  5. [FV] Continuously monitor the asphalt application, checking for any inconsistencies or spills.
+  6. [ME] Upon reaching the end of the road section, stop the machine and disengage the asphalt application.
+  7. [FV] Check the applied asphalt layer for any inconsistencies or missed spots.
+  8. [ME] If any inconsistencies are found, use a hand-held squeegee to touch up the areas and ensure a uniform layer.
+  9. [IC] Once the asphalt layer is uniform, signal the traffic control personnel to allow traffic to resume on the resurfaced road section.
+  10. [ME] Clean and store the road-surfacing machine, ensuring all safety features are turned off and the machine is secured for the next use.
+
+--- Task 227: Fabricate devices or components.
+[A]
+  1. [IC] Review the design specifications and component list for the device or component.
+  2. [NA] Locate and retrieve the required components and materials from inventory.
+  3. [NA] Set up the workbench and secure the base component (e.g., PCB, metal stock) in place.
+  4. [PD] Identify and prepare the first component to be installed according to the design specifications.
+  5. [ME] Install the first component, ensuring correct placement and orientation.
+  6. [ME] Repeat steps 4 and 5 for all remaining components, ensuring each is correctly installed.
+  7. [PD] Inspect the assembled device for any visible defects or misplacements.
+  8. [ME] Perform any necessary finishing operations (e.g., soldering, deburring, grinding).
+  9. [FV] Test the assembled device to verify functionality and compliance with specifications.
+  10. [FV] Document the test results and confirm that the device meets the design specifications.
+  11. [FV] Package and label the completed device for delivery or further processing.
+[B]
+  1. [PD] Review CAD design files and specifications for the custom metal bracket, ensuring understanding of material requirements, tolerances, and any unique features.
+  2. [PD] Select the appropriate metal stock and materials for the bracket, considering factors like strength, durability, and weight.
+  3. [ME] Set up and calibrate the computer-controlled milling machine for the initial cutting operation, ensuring accurate tool paths and precise control.
+  4. [ME] Manually adjust the tool path and cutting parameters as needed to achieve the desired tolerances and surface finish.
+  5. [PD] Inspect the cut metal stock for any defects or imperfections, using visual inspection and measurement tools as needed.
+  6. [ME] Perform any necessary deburring or surface finishing operations to achieve the desired level of finish.
+  7. [ME] Assemble the fabricated metal components into the final bracket, using manual assembly techniques and precision tools as needed.
+  8. [PD] Inspect the completed bracket for any defects or imperfections, using visual inspection and measurement tools as needed.
+  9. [FV] Package and label the completed bracket for delivery to the client, ensuring accurate documentation and labeling.
+  10. [FV] Verify the completed bracket meets the client's specifications and requirements, using inspection and testing as needed.
+  11. [FV] Connect the assembled PCB to a testing rig and run a series of tests to verify functionality.
+  12. [FV] Document the test results and confirm that the component meets the design specifications.
+[C]
+  1. [IC] Receive design specifications and component list.
+  2. [NA] Locate and retrieve all necessary components and tools.
+  3. [NA] Prepare the workspace and secure the base component (e.g., PCB, chassis).
+  4. [PD] Identify the next component for placement according to the design.
+  5. [ME] Place and secure the component in the correct position.
+  6. [ME] Connect or fasten the component as per specifications.
+  7. [ME] Repeat steps 4-6 for all remaining components.
+  8. [PD] Inspect the assembled device for defects, misplacements, or incomplete connections.
+  9. [FV] Conduct functional tests to verify device performance.
+  10. [FV] Document test results and confirm device meets specifications.
+[D]
+  1. [IC] Review design specifications, CAD files, and engineering drawings to understand required dimensions, tolerances, materials, and assembly sequence.
+  2. [NA] Locate and gather all required components, materials, and tools from inventory, considering factors like material type, humidity levels, and current stock.
+  3. [NA] Secure the primary component (e.g., PCB, metal stock, motherboard) onto a workbench or machine worktable, ensuring it's stable and properly aligned.
+  4. [PD] Identify and pick up the first component to be placed or processed according to the design specifications or assembly sequence.
+  5. [ME] Place or process the identified component (e.g., soldering, milling, assembly) on the primary component, ensuring correct position, orientation, and tolerances.
+  6. [ME] Repeat steps 4 and 5 for all remaining components until the primary component is fully assembled or processed.
+  7. [PD] Inspect the assembled or processed primary component visually for any defects, misplacements, or deviations from the design specifications.
+  8. [FV] Perform functional tests or quality checks to verify the component's performance and compliance with design specifications.
+  9. [FV] Document the assembly or processing results, test data, and any necessary adjustments made during the fabrication process.
+  10. [FV] Package and label the completed component securely for delivery or further processing, ensuring accurate documentation and labeling.
+
+--- Task 228: Advise medical personnel regarding healthcare issues.
+[A]
+  1. [PD] The consultant reviews the current infection control protocols and patient medical history, including symptoms and lab results.
+  2. [IC] The consultant meets with the medical personnel to discuss the current issues and their impact.
+  3. [PD] The consultant identifies gaps in the current protocols and potential risks, and proposes new infection control protocols.
+  4. [ME] The consultant demonstrates the new protocols through a live demonstration or simulation.
+  5. [FV] The consultant and medical personnel discuss the implementation plan and timeline, addressing any questions or concerns.
+  6. [FV] The consultant provides written documentation of the new protocols and implementation plan.
+  7. [FV] The consultant monitors the team's implementation of the advice strategy, providing real-time guidance and answering questions.
+  8. [FV] The consultant conducts a debriefing session with the team lead to discuss the effectiveness of the new protocols and any follow-up actions needed.
+[B]
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+[C]
+  1. [IC] Receive and review the medical personnel's request for advice, including patient details and specific concerns.
+  2. [PD] Analyze relevant patient data, including medical history, symptoms, and current treatments.
+  3. [PD] Consult relevant medical literature, guidelines, and best practices to inform the advice.
+  4. [ME] Develop a clear and concise advice strategy, outlining recommendations, potential risks and benefits, and alternative approaches.
+  5. [IC] Communicate the advice strategy to the medical personnel, using clear language and addressing any questions or concerns.
+  6. [FV] Collaborate with the medical personnel to implement the advice strategy, providing ongoing support and guidance.
+  7. [FV] Document the advice provided, the rationale behind it, and the outcomes observed.
+[D]
+  1. [PD] Review and understand the current healthcare issues and protocols in use at the hospital.
+  2. [NA] Meet with medical personnel in an appropriate setting to discuss the healthcare issues.
+  3. [IC] Present an overview of the current healthcare issues, their impact, and the gaps in the existing protocols.
+  4. [ME] Propose new protocols, best practices, and a clear implementation plan.
+  5. [ME] Demonstrate the new protocols through a live demonstration, simulation, or role-playing.
+  6. [IC] Answer questions from medical personnel to clarify any doubts or concerns.
+  7. [FV] Discuss and agree on the implementation plan, timeline, and responsible parties.
+  8. [FV] Provide written documentation of the new protocols, implementation plan, and any relevant resources.
+  9. [FV] Monitor the initial implementation of the new protocols and provide real-time guidance as needed.
+  10. [FV] Conduct a debriefing session to discuss what worked well, what could be improved, and any follow-up actions needed.
+
+--- Task 229: Advise others on human resources topics.
+[A]
+  1. [NA] The HR manager reviews the department head's request and gathers relevant HR policies and best practices.
+  2. [IC] The HR manager schedules a meeting with the department head to discuss the request.
+  3. [PD] The HR manager listens to the department head's concerns and asks clarifying questions.
+  4. [IC] The HR manager explains the company's policies and provides examples of successful flexible work arrangements.
+  5. [ME] The HR manager and the department head discuss potential solutions and compromises.
+  6. [FV] The HR manager confirms the department head's understanding and readiness to handle the request.
+  7. [ME] The HR manager provides resources and support for implementing the agreed-upon solution.
+  8. [IC] The HR manager schedules a follow-up meeting to review progress and make any necessary adjustments.
+[B]
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+[C]
+  1. [IC] The HR manager reviews the department head's request for advice on handling an employee's request for a flexible work schedule.
+  2. [NA] The HR manager gathers relevant HR policies and best practices related to flexible work schedules.
+  3. [IC] The HR manager meets with the department head to discuss the employee's request and the department head's concerns.
+  4. [IC] The HR manager explains the company's policies on flexible work schedules and their potential benefits.
+  5. [ME] The HR manager and the department head discuss potential solutions and compromises to address concerns.
+  6. [FV] The HR manager confirms the department head understands the advice and feels prepared to handle the employee's request.
+[D]
+  1. [IC] Review the request or issue at hand, ensuring understanding of the context and relevant HR policies.
+  2. [IC] Schedule a meeting with the requester to discuss the issue further and gather more information.
+  3. [PD] Active listening and asking clarifying questions during the meeting to diagnose the root cause and understand the requester's concerns.
+  4. [NA] Research and gather relevant HR best practices, policies, and resources to inform your advice.
+  5. [ME] Provide tailored advice, explaining relevant policies, best practices, and potential solutions or compromises.
+  6. [IC] Address the requester's concerns and questions, providing reassurance and guidance as needed.
+  7. [ME] Offer resources and support to help the requester implement the agreed-upon solution or plan.
+  8. [IC] Schedule a follow-up meeting to review progress, make any necessary adjustments, and ensure the issue has been resolved.
+  9. [FV] Document the advice process, lessons learned, and any resources provided for future reference and improvement.
+
+--- Task 230: Construct patterns, templates, or other work aids.
+[A]
+  1. [IC] Meet with the client to discuss their branding, target audience, and desired template types (e.g., Instagram posts, Facebook covers).
+  2. [PD] Research existing social media templates and analyze competitor designs for inspiration.
+  3. [ME] Sketch initial template concepts, experimenting with different layouts, color palettes, and typography.
+  4. [ME] Create digital mockups of the templates using design software (e.g., Adobe Photoshop or Canva).
+  5. [FV] Present the mockups to the client and gather feedback on their preferences and any necessary revisions.
+  6. [ME] Refine the templates based on client feedback, making adjustments to layout, colors, or typography.
+  7. [NA] Save and export the final template design in the required file format (e.g., PDF, JPEG).
+  8. [ME] Create a style guide document outlining the design elements and usage guidelines for the social media templates.
+  9. [FV] Review and revise the style guide document based on feedback from the client and internal stakeholders.
+  10. [FV] Deliver the final social media templates and style guide document to the client via email or project management tool.
+[B]
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+[C]
+  1. [IC] Define the purpose and target audience for the work aid.
+  2. [IC] Gather relevant information and resources, such as design specifications, brand guidelines, or existing templates.
+  3. [ME] Sketch or digitally outline the basic structure and layout of the work aid.
+  4. [ME] Populate the work aid with specific content, such as text, images, or formulas.
+  5. [FV] Review and refine the work aid based on feedback from stakeholders or usability testing.
+  6. [NA] Finalize the work aid in the desired format (e.g., document, template, digital tool).
+  7. [ME] Document any instructions or guidelines for using the work aid.
+[D]
+  1. [IC] Understand the project requirements by reviewing the client's brief, design specifications, and any relevant guidelines.
+  2. [PD] Gather inspiration and analyze existing designs, considering the client's branding, target audience, and desired template types.
+  3. [ME] Sketch initial template concepts, experimenting with different layouts, color palettes, typography, and design elements.
+  4. [ME] Create digital mockups of the templates using design software, applying the chosen design elements and layout.
+  5. [FV] Present the mockups to the client and gather feedback on their preferences and any necessary revisions.
+  6. [ME] Refine the templates based on client feedback, making adjustments to layout, colors, typography, or other design elements as needed.
+  7. [ME] Create a master template with layers for easy customization, ensuring it meets the client's requirements and can be used efficiently.
+  8. [NA] Save the templates in various formats suitable for web and print use, ensuring compatibility with the client's preferred platforms or tools.
+  9. [FV] Review the final set of templates with the client to ensure they meet their requirements and expectations.
+  10. [FV] Deliver the finalized templates to the client in a usable format, along with any relevant documentation, such as a style guide or usage guidelines.
+
+--- Task 231: Plan trapping or hunting activities.
+[A]
+  1. [IC] Review local wildlife reports, regulations, and licensing requirements for the specific animal and area.
+  2. [PD] Study animal behavior and habitat preferences using maps, satellite imagery, and historical data.
+  3. [NA] Identify potential trapping sites based on animal activity and habitat signs.
+  4. [ME] Select appropriate traps and humane trapping methods based on animal size and local regulations.
+  5. [IC] Prepare a detailed plan, including trap locations, types, and a schedule for checking traps.
+  6. [ME] Assemble and test the selected traps to ensure they function correctly.
+  7. [ME] Deploy traps at the identified sites and set up any additional equipment like cameras or bait.
+  8. [PD] Monitor animal activity and adjust plans as necessary, including moving traps or changing bait.
+  9. [FV] Check traps regularly and ensure they are functioning properly.
+  10. [FV] Document the trapping process, including the number of animals trapped, their health status, and any challenges faced.
+[B]
+  1. [IC] Review local hunting regulations and licensing requirements for raccoon trapping.
+  2. [PD] Analyze topographical maps and satellite imagery of the wooded area, identifying potential raccoon habitats like streams, dense vegetation, and food sources.
+  3. [IC] Consider historical trapping data or consult with experienced trappers to gather insights on raccoon movement patterns and preferred trap locations in the area.
+  4. [ME] Select appropriate trap types based on raccoon size, local regulations, and ethical trapping practices.
+  5. [NA] Mark potential trap locations on the map, considering proximity to raccoon habitats, accessibility for trap setting and checking, and minimizing disturbance to the environment.
+  6. [IC] Estimate the number of traps needed based on the size of the area, raccoon population density, and desired trapping success rate.
+  7. [IC] Prepare a detailed written plan documenting trap locations, trap types, baiting strategies, and a schedule for checking traps.
+  8. [ME] Pack necessary equipment, including traps, bait, gloves, and first-aid kit, ensuring everything is in good working order.
+  9. [FV] Check traps daily, ensuring they are functioning properly and that no animals have been caught.
+  10. [FV] Document the trapping and relocation process, including the number of beavers relocated, their health status, and any challenges faced.
+[C]
+  1. [IC] Review local hunting regulations, licensing requirements, and ethical trapping practices for the target species.
+  2. [PD] Research the target species' habitat preferences, movement patterns, and preferred trapping methods.
+  3. [NA] Identify potential trapping sites using topographical maps, satellite imagery, and historical data, considering accessibility and environmental impact.
+  4. [ME] Select appropriate traps based on target species, local regulations, and ethical considerations, ensuring they are in good working condition.
+  5. [IC] Plan the trapping operation, including trap placement, baiting strategies, and a schedule for checking traps.
+  6. [ME] Prepare necessary equipment, including traps, bait, gloves, first-aid kit, and any required documentation.
+  7. [ME] Deploy traps at the selected sites, following ethical guidelines and safety precautions.
+  8. [FV] Check traps regularly, humanely dispatch any captured animals, and record data on captures and observations.
+[D]
+  1. [IC] Review local regulations, licensing requirements, and historical data on target species populations.
+  2. [PD] Study target species' behavior, movement patterns, and habitats using maps, satellite imagery, and expert consultations.
+  3. [NA] Identify potential trapping sites based on target species' habitats, previous sightings, and accessibility.
+  4. [PD] Evaluate the safety and environmental impact of each potential trapping site.
+  5. [ME] Select appropriate traps, baits, and humane trapping methods based on target species' size, local regulations, and ethical practices.
+  6. [NA] Prepare a detailed map of the trapping sites, their coordinates, and a plan for trap deployment and checking.
+  7. [ME] Prepare necessary permits, documentation, and equipment, ensuring everything is in good working order.
+  8. [ME] Assemble and test selected traps to ensure they function correctly.
+  9. [ME] Coordinate with a team to deploy the traps at the identified sites, following the prepared plan.
+  10. [FV] Monitor animal activity, adjust plans as needed, and maintain equipment to ensure its good working condition.
+  11. [FV] Conduct a final review of the plan, ensure all traps are set up correctly, and plan for safety precautions.
+  12. [ME] Execute the plan, including trapping or hunting, and ensure a safe and successful outcome.
+
+--- Task 232: Assist patients with hygiene or daily living activities.
+[A]
+  1. [IC] Knock gently on the patient's door and wait for a response before entering, ensuring their privacy and comfort.
+  2. [IC] Approach the patient's bed, maintaining a safe distance to avoid startling them, and greet the patient by name.
+  3. [PD] Assess the patient's mood and understanding of the morning routine, adjusting your approach as needed.
+  4. [ME] Help the patient sit up safely and comfortably, supporting their back with pillows if needed.
+  5. [ME] Assist the patient in transferring to a wheelchair or a nearby chair, ensuring their safety and comfort.
+  6. [ME] Assist the patient in washing their face, hands, and other exposed parts, respecting their modesty and dignity.
+  7. [ME] Help the patient dry off, ensuring they don't catch a chill, and assist them in getting dressed according to their preferences and weather conditions.
+  8. [NA] Assist the patient in moving to the bathroom, ensuring their safety and independence as much as possible.
+  9. [FV] Check in with the patient after they've completed their morning routine, ensuring they're comfortable and have everything they need.
+  10. [FV] Exit the room quietly, leaving the patient in a comfortable and safe environment.
+[B]
+  1. [IC] Approach the patient's room and knock on the door, announcing arrival.
+  2. [IC] Enter the room and greet the patient, asking if they are ready for morning hygiene and dressing.
+  3. [NA] Help the patient to sit on a chair or transfer them to a shower chair, ensuring safety and comfort.
+  4. [ME] Assist the patient in undressing, providing verbal encouragement and support.
+  5. [ME] Wash the patient's body with a washcloth, paying attention to sensitive areas and ensuring thorough cleaning.
+  6. [ME] Rinse the patient thoroughly, ensuring no soap residue remains.
+  7. [ME] Dry the patient with a clean towel, paying special attention to skin folds and ensuring the patient is fully dry.
+  8. [ME] Assist the patient in brushing their teeth, ensuring proper brushing technique and thorough cleaning.
+  9. [ME] Help the patient dress, selecting appropriate clothing and ensuring comfort and proper fit.
+  10. [FV] Confirm with the patient that they are comfortable and ready for the day, and document the assistance provided.
+[C]
+  1. [IC] Knock on the patient's door and announce arrival, ensuring privacy.
+  2. [IC] Greet the patient by name, explain the planned assistance, and inquire about their preferences.
+  3. [NA] Assist the patient in transferring to a safe position (e.g., chair, shower chair), using appropriate techniques and equipment.
+  4. [ME] Help the patient undress, respecting their modesty and providing verbal reassurance.
+  5. [ME] Assist with hygiene tasks (washing, rinsing, drying) paying attention to sensitive areas and ensuring thoroughness.
+  6. [ME] Assist the patient in dressing, selecting appropriate clothing and ensuring comfort and proper fit.
+  7. [FV] Confirm with the patient that they are comfortable and have everything they need.
+[D]
+  1. [IC] Knock gently on the patient's door and wait for a response before entering, ensuring their privacy and comfort.
+  2. [IC] Approach the patient, maintaining a safe distance to avoid startling them, and greet them warmly.
+  3. [PD] Assess the patient's mood, understanding of the task, and any specific needs or preferences.
+  4. [ME] Help the patient sit up safely and comfortably, supporting their back with pillows if needed.
+  5. [ME] Assist the patient in transferring to a wheelchair, shower chair, or a nearby chair, ensuring their safety and comfort.
+  6. [ME] Assist the patient in undressing, respecting their modesty and providing verbal encouragement and support.
+  7. [ME] Wash the patient's body with a washcloth, paying attention to sensitive areas, ensuring thorough cleaning, and rinsing thoroughly.
+  8. [ME] Dry the patient with a clean towel, paying special attention to skin folds and ensuring they are fully dry.
+  9. [ME] Assist the patient in brushing their teeth, ensuring proper brushing technique and thorough cleaning.
+  10. [ME] Help the patient dress, selecting appropriate clothing, ensuring comfort, proper fit, and adjusting for any specific needs.
+  11. [NA] Assist the patient in moving to the bathroom, ensuring their safety and independence as much as possible.
+  12. [FV] Check in with the patient after they've completed their hygiene routine, ensuring they're comfortable, have everything they need, and document the assistance provided.
+
+================================================================
+ANSWER TEMPLATE
+
+225: _ | 
+226: _ | 
+227: _ | 
+228: _ | 
+229: _ | 
+230: _ | 
+231: _ | 
+232: _ | 
+

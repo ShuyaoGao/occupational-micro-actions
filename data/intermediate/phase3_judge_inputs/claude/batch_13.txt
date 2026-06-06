@@ -1,0 +1,384 @@
+BATCH 13/63 | Model: Claude Opus 4.7 | Tasks 97-104
+================================================================
+EXPERT REVIEW -- Micro-Action Sequence Evaluation
+For each task, read ALL four options, then choose the BEST (A/B/C/D).
+
+Criteria:
+  1. Completeness  -- no critical steps missing
+  2. Realism       -- every step is concretely executable
+  3. Stage accuracy -- stage label correct for each step:
+     IC=Intent_Communication  NA=Navigation_Addressing
+     PD=Perception_Diagnosis  ME=Manipulation_Execution  FV=Feedback_Verification
+  4. Conciseness   -- no redundant or duplicate steps
+  5. Scope         -- starts and ends at exactly the right point
+
+OUTPUT: fill the ANSWER TEMPLATE at the bottom.
+Format: N: X | one-sentence reason (max 12 words)
+IMPORTANT: Each task has a different best answer. Do NOT pick the same
+letter for every task without reading.
+================================================================
+
+--- Task 97: Inspect equipment to ensure safety or proper functioning.
+[A]
+  1. [IC] Review the maintenance log to understand the equipment's recent history and any known issues.
+  2. [NA] Approach the conveyor belt system and ensure the area is clear of personnel and obstacles.
+  3. [PD] Visually inspect the conveyor belt for any visible signs of wear, such as fraying or cracks, and check the rollers and pulleys for damage or excessive wear.
+  4. [PD] Listen for any unusual noises or vibrations coming from the conveyor belt system.
+  5. [ME] Check the tension of the conveyor belt by applying manual pressure and observe the belt's response.
+  6. [PD] Verify that all safety guards and emergency stop mechanisms are in place and functioning correctly.
+  7. [ME] Run a test cycle of the conveyor belt system to observe its performance under load.
+  8. [FV] Document any issues found during the inspection and note any required repairs or maintenance.
+  9. [FV] Report the inspection results to the supervisor and update the maintenance logs.
+[B]
+  1. [NA] Approach the conveyor belt system and ensure the area is clear of personnel and obstacles.
+  2. [IC] Review the maintenance logs and previous inspection reports for the conveyor belt system.
+  3. [PD] Visually inspect the conveyor belt for any visible signs of wear, such as fraying or cracks.
+  4. [ME] Check the tension of the conveyor belt by applying manual pressure and observing the belt's response.
+  5. [PD] Inspect the rollers and pulleys for any signs of damage or excessive wear.
+  6. [PD] Verify that all safety guards and emergency stop mechanisms are in place and functioning correctly.
+  7. [ME] Run a test cycle of the conveyor belt system to observe its performance under load.
+  8. [FV] Document any issues found during the inspection and note any required repairs or maintenance.
+  9. [FV] Report the inspection results to the supervisor and update the maintenance logs.
+[C]
+  1. [IC] Review the maintenance logs and any previous inspection reports for the conveyor belt system.
+  2. [NA] Approach the conveyor belt system, ensuring the area is clear of personnel and obstacles, and power it down following safety protocols.
+  3. [PD] Visually inspect the conveyor belt, rollers, pulleys, and surrounding area for signs of wear, damage, misalignment, debris, or other anomalies.
+  4. [PD] Listen for unusual noises or vibrations coming from the conveyor belt system.
+  5. [ME] Check the tension of the conveyor belt and verify the alignment of rollers and pulleys.
+  6. [FV] Document any observed issues, including location, severity, and potential causes, and capture supporting photographs if necessary.
+  7. [FV] Assess the overall safety and functionality of the conveyor belt system based on the inspection findings.
+  8. [IC] Report the inspection findings to the appropriate personnel, recommending any necessary repairs or maintenance.
+[D]
+  1. [IC] Review maintenance logs and consult with relevant personnel to understand the equipment's history and any previous issues.
+  2. [NA] Approach the conveyor belt system, power it down following safety protocols, and put on appropriate Personal Protective Equipment (PPE).
+  3. [PD] Visually inspect the conveyor belt surface, rollers, pulleys, and tensioning system for signs of wear, damage, or misalignment.
+  4. [PD] Inspect hard-to-reach areas using a flashlight and mirror, if necessary.
+  5. [PD] Check the conveyor belt's tension and alignment, and ensure safety guards and emergency stop mechanisms are functioning correctly.
+  6. [PD] Listen for unusual noises or vibrations and inspect the motor and drive system for overheating or leaks.
+  7. [FV] Document any observed issues, including location, severity, and potential causes.
+  8. [ME] Run a test cycle of the conveyor belt system to observe its performance under load.
+  9. [IC] Review the inspection findings with relevant personnel, discuss potential safety hazards or equipment issues, and determine necessary corrective actions.
+  10. [FV] Update the maintenance log with inspection findings, corrective actions taken, and provide a clearance to start the next production shift if no critical issues are found.
+
+--- Task 98: Monitor market conditions or trends.
+[A]
+  1. [NA] Log into the financial market data platform to access real-time stock market data.
+  2. [PD] Review the opening market conditions and identify any immediate changes or anomalies.
+  3. [NA] Access historical market data and economic indicators to compare with current conditions.
+  4. [PD] Analyze the historical data to identify trends and patterns.
+  5. [ME] Use statistical tools to quantify the trends and their significance.
+  6. [PD] Cross-reference the trends with news articles and economic reports to understand underlying factors.
+  7. [ME] Compile the findings into a structured report, highlighting key trends and insights.
+  8. [FV] Review the report for accuracy and completeness.
+  9. [IC] Send the report to the portfolio managers via email or internal messaging system.
+  10. [IC] Confirm receipt of the report and address any immediate questions or feedback from the portfolio managers.
+[B]
+  1. [NA] Log into the financial market data platform to access real-time stock market data.
+  2. [PD] Review the opening market conditions and identify any immediate changes or anomalies.
+  3. [NA] Access historical market data and economic indicators to compare with current conditions.
+  4. [PD] Analyze the historical data to identify trends and patterns.
+  5. [ME] Use statistical tools to quantify the trends and their significance.
+  6. [PD] Cross-reference the trends with news articles and economic reports to understand underlying factors.
+  7. [ME] Compile the findings into a structured report, highlighting key trends and insights.
+  8. [FV] Review the report for accuracy and completeness.
+  9. [IC] Send the report to the portfolio managers via email or internal messaging system.
+  10. [IC] Confirm receipt of the report and address any immediate questions or feedback from the portfolio managers.
+[C]
+  1. [NA] Log into the financial market data platform.
+  2. [NA] Select the target sector (e.g., tech) and relevant market indicators.
+  3. [PD] Review real-time market data for the selected sector, noting any immediate anomalies or trends.
+  4. [NA] Access and analyze historical data for the sector and relevant economic indicators.
+  5. [PD] Compare historical trends with current market conditions to identify potential shifts or confirmations.
+  6. [IC] Cross-reference identified trends with news articles, reports, and expert analysis.
+  7. [FV] Summarize key findings and insights into a concise report.
+  8. [IC] Share the report with relevant stakeholders (e.g., portfolio managers).
+[D]
+  1. [IC] Log into the financial market data platform using provided credentials.
+  2. [NA] Navigate to the market trends dashboard and customize it for relevant sectors.
+  3. [PD] Set up alerts for significant changes in market trends and key performance indicators.
+  4. [NA] Gather real-time data feeds from various sources (e.g., news articles, financial reports, social media).
+  5. [PD] Analyze the gathered data to identify emerging trends and patterns.
+  6. [ME] Cross-verify the identified trends with other data sources to confirm their validity.
+  7. [FV] Prepare a concise report summarizing the latest trends and their potential impact on the sector.
+  8. [FV] Review the report for accuracy and completeness, making any necessary revisions.
+  9. [IC] Submit the report to the relevant team or manager for review and action.
+  10. [IC] Log out of the market analysis software to secure the account and free up system resources.
+
+--- Task 99: Inspect landscaping to determine treatment needs.
+[A]
+  1. [IC] Consult the property's maintenance history and previous inspection reports to familiarize oneself with the landscaping layout and any known issues.
+  2. [NA] Put on appropriate safety gear and equip oneself with necessary tools, such as a clipboard, pen, map, magnifying glass, and insect net.
+  3. [NA] Begin at the property's entrance, following a systematic route that covers the entire area, ensuring all sections are inspected.
+  4. [PD] Inspect each plant species, looking for signs of pests, diseases, or nutrient deficiencies, such as discoloration, wilting, holes in leaves, or unusual growths.
+  5. [PD] Use a magnifying glass to examine leaves, stems, and soil for signs of pests, such as eggs, larvae, or damage to plant tissue.
+  6. [ME] Record the location, plant species, and observed issues on the property map, using symbols or codes to represent different problems.
+  7. [ME] Collect samples of affected plant material, such as leaves or soil, for further analysis if necessary.
+  8. [FV] Upon completing the inspection, review the map and notes to identify patterns or areas with multiple issues, prioritizing treatment needs.
+  9. [FV] Consult treatment guidelines and property-specific factors, such as proximity to water sources or neighboring properties, to recommend appropriate treatments.
+  10. [FV] Prepare a written report summarizing findings, recommended treatments, and a plan for follow-up inspections, then submit it to the property manager.
+[B]
+  1. [IC] Start at the main entrance of the property and prepare the inspection checklist.
+  2. [NA] Walk to the first section of the lawn and begin inspection.
+  3. [PD] Observe the color and texture of the grass to determine if it needs watering or fertilizing.
+  4. [PD] Check for signs of pests or disease, such as discoloration or dead spots.
+  5. [NA] Move to the next section of the lawn and repeat the inspection process.
+  6. [PD] Inspect flowering shrubs for signs of wilting, discoloration, or pest infestation.
+  7. [PD] Check evergreen trees for signs of stress or disease, such as needle loss or discoloration.
+  8. [FV] Document the specific treatment needs for each plant type in the inspection checklist.
+  9. [FV] Review the inspection checklist to ensure all areas have been covered.
+  10. [FV] Deliver the completed inspection checklist to the property owner or supervisor.
+  11. [IC] Consult the property's maintenance history and previous inspection reports to familiarize oneself with the landscaping layout and any known issues.
+  12. [FV] Prepare a written report summarizing findings, recommended treatments, and a plan for follow-up inspections, then submit it to the property manager.
+[C]
+  1. [IC] Review property history and previous treatment plans (if available).
+  2. [NA] Begin at the property entrance and systematically navigate the entire landscape.
+  3. [PD] Visually inspect each plant type for signs of pests, diseases, or nutrient deficiencies (discoloration, wilting, etc.).
+  4. [PD] Use tools (magnifying glass, etc.) for closer examination when needed.
+  5. [ME] Document observations (location, plant type, issues) on a map or digital device.
+  6. [IC] Based on observations, mentally categorize issues (pest infestation, nutrient deficiency, etc.).
+  7. [ME] Determine appropriate treatments for each identified issue.
+  8. [FV] Prepare a written report summarizing findings, recommended treatments, and a plan for follow-up inspections.
+[D]
+  1. [IC] Familiarize with property's history and layout by reviewing maintenance records and previous inspection reports.
+  2. [NA] Put on appropriate safety gear and equip oneself with necessary tools, such as a clipboard, pen, map, magnifying glass, and insect net.
+  3. [NA] Begin at the property's entrance and follow a systematic route, covering the entire area to ensure all plants are inspected.
+  4. [PD] Inspect each plant species for signs of pests, diseases, or nutrient deficiencies, such as discoloration, wilting, holes in leaves, or unusual growths.
+  5. [PD] Use a magnifying glass to examine leaves, stems, and soil for signs of pests, such as eggs, larvae, or damage to plant tissue.
+  6. [ME] Record the location, plant species, and observed issues on the property map, using symbols or codes to represent different problems.
+  7. [ME] Collect samples of affected plant material, such as leaves or soil, for further analysis if necessary.
+  8. [FV] Upon completing the inspection, review the map and notes to identify patterns or areas with multiple issues, prioritizing treatment needs.
+  9. [ME] Consult treatment guidelines and property-specific factors to recommend appropriate treatments.
+  10. [FV] Prepare a written report summarizing findings, recommended treatments, and a plan for follow-up inspections, then submit it to the property manager.
+
+--- Task 100: Communicate with the public on environmental issues.
+[A]
+  1. [IC] Research the local community's background knowledge on environmental issues to tailor the presentation.
+  2. [PD] Gather relevant data, images, and statistics to support the presentation's key points.
+  3. [ME] Create a structured outline for the presentation, including an introduction, main points, and conclusion.
+  4. [ME] Prepare presentation slides using appropriate software, ensuring they are visually appealing and easy to understand.
+  5. [NA] Arrive at the presentation venue, set up the necessary equipment (laptop, projector, microphone), and test the tools to ensure they work properly.
+  6. [IC] Introduce yourself and the topic, clearly stating the purpose of the presentation and what the audience can expect to learn.
+  7. [ME] Deliver the main points of the presentation, using storytelling techniques, analogies, and real-life examples to make the information accessible and engaging.
+  8. [FV] Encourage questions and discussions throughout the presentation, addressing them clearly and concisely.
+  9. [FV] Conclude the presentation by summarizing the key points, emphasizing the importance of environmental awareness, and inviting further questions or discussions.
+  10. [NA] Distribute informational pamphlets summarizing key points and providing resources for further learning.
+  11. [FV] After the presentation, collect feedback from the audience, and follow up with them to provide additional resources or answer any further questions.
+[B]
+  1. [IC] Review recent environmental data and prepare key talking points for the town hall meeting.
+  2. [IC] Draft a presentation to visually support the talking points, including charts and images.
+  3. [NA] Set up the presentation equipment and ensure it is functioning properly.
+  4. [IC] Greet attendees and introduce the purpose of the town hall meeting.
+  5. [IC] Present the environmental data and discuss the impact of industrial pollution on the local river.
+  6. [ME] Show the prepared visual aids to support the presentation.
+  7. [FV] Open the floor for questions and actively listen to attendees' concerns.
+  8. [FV] Provide detailed and empathetic responses to attendees' questions.
+  9. [FV] Collect written feedback from attendees on proposed mitigation strategies.
+  10. [FV] Thank the attendees for their participation and provide contact information for further questions.
+  11. [FV] Debrief with the group leaders and provide feedback on the success of the guided hike.
+[C]
+  1. [IC] Research the target audience's background knowledge and concerns regarding environmental issues.
+  2. [PD] Gather relevant data, images, and statistics to support key talking points.
+  3. [ME] Structure the presentation with a clear introduction, main points, and conclusion.
+  4. [ME] Prepare visually compelling presentation slides.
+  5. [NA] Set up the presentation equipment and ensure it is functioning properly.
+  6. [IC] Introduce yourself, the topic, and the presentation's objectives.
+  7. [IC] Deliver the presentation using storytelling, analogies, and real-world examples.
+  8. [FV] Encourage questions and discussions, providing clear and empathetic responses.
+  9. [FV] Summarize key points, emphasize the importance of environmental awareness, and invite further questions.
+[D]
+  1. [IC] Research local community's background knowledge on environmental issues to tailor the presentation.
+  2. [PD] Gather relevant data, images, and statistics to support the presentation's key points.
+  3. [ME] Create a structured outline for the presentation, including an introduction, main points, and conclusion.
+  4. [ME] Prepare presentation slides using appropriate software, ensuring they are visually appealing and easy to understand.
+  5. [NA] Arrive at the presentation venue, set up necessary equipment (laptop, projector, microphone), and test tools to ensure they work properly.
+  6. [IC] Introduce yourself and the topic, clearly stating the purpose of the presentation and what the audience can expect to learn.
+  7. [ME] Deliver the main points of the presentation, using storytelling techniques, analogies, and real-life examples to make information accessible and engaging.
+  8. [FV] Encourage questions and discussions throughout the presentation, addressing them clearly and concisely.
+  9. [FV] Conclude the presentation by summarizing key points, emphasizing the importance of environmental awareness, and inviting further questions or discussions.
+  10. [FV] After the presentation, collect feedback from the audience and follow up with them to provide additional resources or answer any further questions.
+
+--- Task 101: Operate energy distribution equipment.
+[A]
+  1. [IC] Review the current power demand and distribution requirements for the residential neighborhood.
+  2. [NA] Navigate to the substation and locate the specific transformer and circuit breakers.
+  3. [PD] Put on personal protective equipment (PPE) to ensure safety.
+  4. [PD] Check the current status of the transformer and circuit breakers, including voltage levels and breaker positions.
+  5. [ME] Operate the circuit breaker to open the circuit and isolate the transformer.
+  6. [ME] Adjust the transformer settings to match the current power demand.
+  7. [ME] Close the circuit breaker to reconnect the transformer to the power grid.
+  8. [FV] Monitor the transformer and circuit breaker to ensure they are functioning correctly and distributing power as expected.
+  9. [FV] Record the operational data and any adjustments made for future reference.
+  10. [FV] Confirm the successful distribution of power to the residential neighborhood.
+[B]
+  1. [IC] Review the current power demand and distribution requirements for the residential neighborhood.
+  2. [NA] Navigate to the substation and locate the specific transformer and circuit breakers.
+  3. [PD] Check the current status of the transformer and circuit breakers, including voltage levels and breaker positions.
+  4. [PD] Put on personal protective equipment (PPE) to ensure safety.
+  5. [ME] Operate the circuit breaker to open the circuit and isolate the transformer.
+  6. [ME] Adjust the transformer settings to match the current power demand.
+  7. [ME] Close the circuit breaker to reconnect the transformer to the power grid.
+  8. [FV] Monitor the transformer and circuit breaker to ensure they are functioning correctly and distributing power as expected.
+  9. [FV] Record the operational data and any adjustments made for future reference.
+  10. [FV] Confirm the successful distribution of power to the residential neighborhood.
+[C]
+  1. [IC] Review the current power demand and distribution requirements for the area.
+  2. [NA] Navigate to the substation and locate the specific transformer and circuit breakers.
+  3. [PD] Inspect the transformer and circuit breakers, checking voltage levels, breaker positions, and for any visible signs of damage.
+  4. [IC] Don personal protective equipment (PPE) to ensure safety.
+  5. [ME] Isolate the transformer by opening the circuit breaker.
+  6. [ME] Adjust the transformer settings to match the current power demand.
+  7. [ME] Close the circuit breaker to reconnect the transformer to the power grid.
+  8. [FV] Monitor the transformer and circuit breaker to verify stable power distribution.
+  9. [FV] Record the operational data and any adjustments made for future reference.
+[D]
+  1. [IC] Review power demand and distribution requirements for the area.
+  2. [NA] Navigate to the substation and locate the specific transformer and circuit breakers.
+  3. [PD] Check the current status of the transformer and circuit breakers, including voltage levels and breaker positions.
+  4. [PD] Put on personal protective equipment (PPE) to ensure safety.
+  5. [ME] Safely isolate the transformer from the power grid by operating the circuit breaker.
+  6. [ME] Adjust the transformer settings to match the current power demand.
+  7. [ME] Reconnect the transformer to the power grid by closing the circuit breaker.
+  8. [FV] Monitor the transformer and circuit breaker to ensure they are functioning correctly and distributing power as expected.
+  9. [FV] Record the operational data and any adjustments made for future reference.
+  10. [IC] Communicate with the control room to report any issues or concerns, and receive guidance or instructions as needed.
+
+--- Task 102: Create graphical representations of industrial production systems.
+[A]
+  1. [IC] Review existing documentation and production requirements to understand the sequence of operations and equipment needed.
+  2. [NA] Visit the production site to observe the flow of parts and operations at each station, and document critical areas and interactions.
+  3. [ME] Create a digital 2D representation of the facility, including dimensions, fixed structures, and equipment layout.
+  4. [ME] Add labels and annotations to the graphical representation, identifying each workstation, machine, and material type.
+  5. [FV] Review the completed graphical representation with stakeholders to ensure accuracy and completeness.
+  6. [FV] Make any necessary revisions based on feedback and finalize the graphical representation.
+  7. [ME] Create a 3D representation of the assembly line using the approved 2D layout as a base.
+  8. [FV] Simulate material flow through the assembly line in the 3D representation to validate its efficiency.
+  9. [FV] Finalize the layout and prepare it for use in the actual setup of the assembly line.
+[B]
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+[C]
+  1. [IC] Review production requirements, documentation, and existing blueprints to understand the system's purpose, components, and flow.
+  2. [NA] Visit the production site (if applicable) to observe the physical layout, workflow, and interactions between components.
+  3. [PD] Document key components, their functions, and the sequence of operations within the production system.
+  4. [ME] Select appropriate diagramming software and tools based on the system's complexity and desired level of detail.
+  5. [ME] Create a digital representation of the production system, including layout, workflow, and key components.
+  6. [FV] Review the graphical representation with stakeholders to gather feedback and ensure accuracy and clarity.
+  7. [FV] Refine the graphical representation based on feedback, addressing any inaccuracies or areas for improvement.
+[D]
+  1. [IC] Review production process documentation, meet with stakeholders, and analyze existing blueprints to understand the system's layout, components, and operations.
+  2. [NA] Visit the production facility to observe the flow of parts, interactions between stations, and identify critical areas.
+  3. [PD] Document the locations, functions, and interactions of each station, robotic arms, and quality control points using photographs, notes, and measurements.
+  4. [ME] Organize the collected data and notes, and create a digital 2D representation of the facility, including dimensions and fixed structures.
+  5. [ME] Identify the optimal layout for the assembly line based on production flow, space constraints, and equipment requirements.
+  6. [ME] Create graphical representations of the production system using appropriate symbols, icons, and tools, including flowcharts, process diagrams, and 3D models.
+  7. [FV] Review the graphical representations with stakeholders to ensure accuracy, completeness, and identify potential bottlenecks or areas for improvement.
+  8. [FV] Make necessary revisions to the graphical representations based on stakeholder feedback and finalize the documents.
+  9. [IC] Present the final graphical representations to stakeholders, along with recommendations for process improvement and optimization.
+  10. [FV] Monitor the production process and evaluate the effectiveness of the changes, making further adjustments as needed to ensure the system's efficiency.
+
+--- Task 103: Assess equipment functioning.
+[A]
+  1. [NA] Approach the equipment and locate the control panel.
+  2. [PD] Visually inspect the exterior of the equipment for any signs of damage or wear.
+  3. [PD] Check the control panel display for any error messages or alerts.
+  4. [ME] Run a diagnostic test on the equipment using the control panel.
+  5. [PD] Monitor the equipment during the diagnostic test for any unusual behavior or errors.
+  6. [FV] Record any issues or errors identified during the diagnostic test.
+  7. [PD] Consult the maintenance log to compare current findings with previous assessments.
+  8. [IC] Report the findings to the supervisor and recommend necessary actions.
+[B]
+  1. [NA] Approach the equipment to be assessed.
+  2. [PD] Visually inspect the equipment's exterior for any signs of damage or wear.
+  3. [PD] Check the equipment's digital display or read any error codes.
+  4. [ME] Use a multimeter to check the equipment's electrical connections and ensure they are secure.
+  5. [PD] Run a diagnostic test on the equipment to identify any issues with its functionality.
+  6. [PD] Review the equipment's maintenance history to identify any potential issues or patterns.
+  7. [FV] Document any issues or problems found during the assessment, including any necessary repairs or maintenance.
+  8. [FV] Confirm that the equipment is functioning within acceptable parameters or identify and document specific issues that require further attention.
+  9. [FV] Update the equipment's maintenance records to reflect the results of the assessment.
+  10. [IC] Report the findings to the supervisor and recommend necessary actions.
+[C]
+  1. [NA] Approach the equipment and locate the control panel.
+  2. [PD] Review the control panel display for error messages, warnings, or operational status.
+  3. [PD] Visually inspect the equipment for signs of damage, wear, or misalignment.
+  4. [ME] Conduct a functional test (if applicable) and observe the equipment's performance.
+  5. [FV] Record observations, including any issues identified, in a maintenance log.
+  6. [PD] Compare current findings with previous maintenance records to identify patterns or recurring issues.
+  7. [IC] Communicate assessment findings and recommended actions to the supervisor.
+[D]
+  1. [NA] Approach the equipment and locate the control panel or main inspection point.
+  2. [ME] Initiate a self-diagnostic test or visual inspection of the equipment's exterior for signs of damage or wear.
+  3. [PD] Observe the equipment's operation and listen for any unusual noises during the diagnostic test or operation.
+  4. [PD] Check the equipment's digital display or pressure gauge for any error messages, warning lights, or readings outside the recommended range.
+  5. [ME] Run a test cycle or perform a specific function to assess the equipment's performance and output quality.
+  6. [PD] Visually inspect and analyze the output or results of the test cycle for any signs of malfunction or potential issues.
+  7. [PD] Consult the equipment's maintenance history or troubleshooting guide to compare current findings with previous assessments or identify potential solutions.
+  8. [FV] Document any issues or problems found during the assessment, including necessary repairs or maintenance.
+  9. [IC] Communicate the assessment findings and recommended actions to the relevant supervisor or manager.
+  10. [FV] After resolving any issues, re-run the diagnostic test or perform a final check to confirm the equipment is functioning correctly.
+
+--- Task 104: Organize informational materials.
+[A]
+  1. [IC] Consult the library's catalog and classification system to understand the organization scheme.
+  2. [NA] Locate the first section of materials to be organized, using the catalog and library layout as a guide.
+  3. [PD] Carefully pick up the first book, assessing its condition and handling it with appropriate care.
+  4. [PD] Read the book's title, author, and relevant information to determine its classification.
+  5. [ME] Locate the appropriate shelf for the book based on the determined classification and place it carefully.
+  6. [ME] Repeat steps 3-5 for all materials in the current section.
+  7. [NA] Once the section is complete, move on to the next section, repeating the process.
+  8. [FV] Upon completing all sections, review the organized materials to ensure they are correctly placed and accessible.
+  9. [FV] Document the organization process and any special considerations for future reference.
+[B]
+  1. [IC] Retrieve a list of books and digital documents that need to be organized.
+  2. [IC] Review the library's classification system to understand the categories and subcategories.
+  3. [NA] Locate the first book on the list and bring it to the organizing station.
+  4. [PD] Identify the correct category for the book based on the classification system.
+  5. [ME] Place the book on the appropriate shelf according to the classification system.
+  6. [ME] Repeat steps 3-5 for each book on the list.
+  7. [NA] Locate the first digital document on the list and open the digital library system.
+  8. [PD] Identify the correct category for the digital document based on the classification system.
+  9. [ME] Save the digital document in the appropriate folder within the digital library system.
+  10. [ME] Repeat steps 7-9 for each digital document on the list.
+  11. [FV] Review the organized materials to ensure they are correctly placed and accessible.
+  12. [FV] Document the organization process and any special considerations for future reference.
+[C]
+  1. [IC] Review the library's classification system to understand the categories and subcategories for organizing materials.
+  2. [IC] Retrieve the list of books and digital documents that need to be organized.
+  3. [PD] For each item on the list, identify the correct category based on the classification system.
+  4. [NA] Locate the appropriate physical location (shelf, folder) for each item based on its category.
+  5. [ME] Physically place each book on the designated shelf or save each digital document in the appropriate folder.
+  6. [FV] Visually scan the organized materials to ensure they are correctly placed and accessible.
+[D]
+  1. [IC] Understand the library's classification system and the organization scheme for the materials to be organized.
+  2. [IC] Retrieve a list of books and digital documents that need to be organized.
+  3. [NA] Locate and physically handle the first material, assessing its condition and handling it with appropriate care.
+  4. [PD] Identify the correct category for the material based on the classification system, considering factors such as topic, author, and date of publication.
+  5. [NA] Locate the appropriate storage location (shelf, folder, etc.) for the material based on its determined classification.
+  6. [ME] Carefully place the material in its designated location, ensuring it is properly aligned and not blocking other materials.
+  7. [ME] Repeat steps 3-6 for all materials, moving through the library or digital system as needed.
+  8. [FV] Upon completing the organization, review the materials to ensure they are correctly placed and easily accessible.
+  9. [IC] Document the organization process, any special considerations, and the new organizational structure for future reference.
+  10. [NA] Update the library's catalog or database to reflect the new organizational structure and location of the materials.
+
+================================================================
+ANSWER TEMPLATE
+
+97: _ | 
+98: _ | 
+99: _ | 
+100: _ | 
+101: _ | 
+102: _ | 
+103: _ | 
+104: _ | 
+

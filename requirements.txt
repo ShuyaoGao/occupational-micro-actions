@@ -1,0 +1,22 @@
+# Core scientific stack (used across the pipeline)
+pandas>=2.0,<3.0
+numpy>=1.24,<2.0
+scipy>=1.10,<2.0
+matplotlib>=3.7,<4.0
+seaborn>=0.12,<1.0
+scikit-learn>=1.3
+
+# Phase 5 sentence embeddings (step_13)
+sentence-transformers>=2.5
+torch>=2.0
+transformers>=4.36
+
+# Phase 5 dimensionality reduction + clustering (step_14)
+umap-learn>=0.5.5
+hdbscan>=0.8.33
+
+# Phase 2 LLM calls (step_05, step_06, step_07) - only needed for full re-run
+requests>=2.31
+
+# Tabular I/O helpers
+openpyxl>=3.1

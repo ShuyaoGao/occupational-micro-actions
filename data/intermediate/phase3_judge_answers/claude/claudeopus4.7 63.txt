@@ -1,0 +1,502 @@
+1: D | Balanced stages, no hallucinated specifics, complete scope.
+2: A | Correct scope; D oversteps into performing maintenance.
+3: A | Accurate ME tag for debris removal; complete verification.
+4: C | Generic and concise; others over-specialize to coding.
+5: A | Generic, balanced, no over-specific Florida Keys framing.
+6: D | Most complete with logical ordering and accurate tags.
+7: A | Complete loop with verification and supervisor signal.
+8: D | Complete cycle; avoids per-item strapping error.
+9: A | Most complete with correct stage labels and full inspection scope.
+10: C | Concise, correct labels, complete pipeline without redundancy.
+11: A | Balanced scope, clean flow, properly labeled stages throughout.
+12: B | Clean IC/PD/ME/FV flow, no premature presentation before plan creation.
+13: A | General scope matches task; clean dispatch-to-return flow.
+14: C | Concise, correctly labeled, covers all essential record updates.
+15: C | Concise, correctly labeled stages, complete observation workflow.
+16: C | Stays within mold-casting scope; correct labels, no fabrication overreach.
+17: A | Cleanest physical-patrol cycle, correct stages, well-scoped briefing-to-debrief.
+18: C | Tight scope, accurate stages, complete without D's cleanup overreach.
+19: C | Ends at proposal finalization — correct scope for advisory task.
+20: C | No redundancy, correct stages, clean two-point calibration scope.
+21: C | Six steps cover full daily cycle without B/D's meeting bloat.
+22: A | Complete HVAC cycle, correct stages, no out-of-scope records review.
+23: A | Logical arrival-to-teardown flow, complete without D's post-event analysis.
+24: A | Most complete with PPE and protocol review, properly scoped sterilization.
+25: A | Comprehensive, no redundancy, generic venue avoids B's amphitheater overspecification.
+26: C | Stays in scope (specifying, not implementing/testing); correct stage labels throughout.
+27: C | Concise, properly scoped to cutting; correct labels; no out-of-scope packaging.
+28: C | Clean labels, correct ordering, no D's bloat or A's repetition steps.
+29: A | Full lifecycle with correct stages; B mislabels communicate as FV.
+30: B | Only option labeling cook as ME correctly; others wrongly label cook as PD.
+31: A | Complete sequence; B lacks IC and adds break step; D drifts past scope.
+32: C | Stays in evaluation scope; B/D drift into implementation; correct labels.
+33: C | Concise, complete cycle, proper calibration step, correct stage labels.
+34: B | Proper granularity, complete scope, accurate stage labels throughout.
+35: D | Complete cycle, proper NA for setup, balanced detail level.
+36: A | Comprehensive sequence, includes EHR review, sharps disposal, post-care.
+37: A | Generic scope, balanced detail, proper labels, complete cycle.
+38: A | Complete validation cycle with simulation, proper documentation step.
+39: B | Logical phases, proper IC for regs, complete delivery to management.
+40: C | Concise, accurate IC labels for communication, well-scoped.
+41: D | More complete with separated training, materials, and monitoring steps.
+42: C | Best scope fit for "operate"; accurate stage tags throughout.
+43: A | Complete test cycle including disconnect; clean stage tagging.
+44: C | Concise loop with accurate tags and proper monitoring closure.
+45: D | Best stage accuracy; PD for blueprint reading, complete progression.
+46: B | Most thorough engineering flow with simulation and optimization.
+47: D | Most complete coverage including competitor comparison and role-play.
+48: B | Atomic decomposition of inspection steps with accurate stage tags.
+49: C | Clean stages, complete flow, no mislabels or redundancy.
+50: D | Correct PD for analysis, proper IC for communication.
+51: C | Concise, accurate stages, no redundant signoff steps.
+52: D | Realistic mooring details, cleat hitch, wind/current awareness.
+53: C | Concise, includes data analysis and intervention adjustment.
+54: D | Full scope: meeting, navigation, crossing, handover complete.
+55: C | Concise, accurate stage labels, proper verification step.
+56: D | IC for access correct, systematic review, complete scope.
+57: A | A and B identical; D adds out-of-scope reporting step.
+58: D | Most complete; includes modeling, validation, and stakeholder loop.
+59: D | Cleanest staging; complete scope with pinning and pressing.
+60: C | Concise, accurate stages, includes client feedback loop.
+61: A | Handles both plants/animals; complete PPE entry-exit cycle.
+62: C | Tightest scope; clear confirmation without mitigation creep.
+63: D | Full realistic lab cycle including PPE and biohazard disposal.
+64: A | Cleanest supervision scope; accurate stage labels throughout.
+65: A | Balanced, correct tags, includes notify-back closure.
+66: C | PPE correctly tagged ME; clean lab analysis flow.
+67: A | Correct stage tags throughout; good measurement coverage.
+68: D | Comprehensive flow from access to completion of deliveries.
+69: C | Cleanest tags, concise, all stages logical.
+70: C | Concise, correct tags, no redundant repetition steps.
+71: D | Most complete intro; full demonstrate-guide-taste cycle.
+72: D | Most complete pipeline, correct tags, no redundancy.
+73: A | Includes normalization plus verification, sound stage labels overall.
+74: D | Clean flow with pre-printed labels, no redundant printing steps.
+75: D | Comprehensive coverage with proper distribution and follow-up steps.
+76: C | Stage labels more accurate than identical A/B duplicates.
+77: A | Clean logical flow ending with proper team notification.
+78: A | Correct stage labels; others mislabel medical review as IC.
+79: A | Properly labels bed lowering as NA, comprehensive verification.
+80: D | Most complete with accurate stage labels for each step.
+81: D | Most complete; explicit chain of custody and scene exit.
+82: A | Complete production cycle with sampling and maintenance.
+83: D | Combined steps efficiently; covers tool selection and disposal.
+84: A | Concise; includes fairness review and grade posting.
+85: D | Most complete EMS workflow from dispatch to handover.
+86: D | Best matches "sales OR financial"; identity verify and logout.
+87: A | Clean supervision flow without redundancy or scope creep.
+88: A | Matches task scope; includes test cycle and documentation.
+89: D | Most complete with planning, execution, teardown, and documentation phases.
+90: D | Comprehensive workflow with accurate stage labels throughout.
+91: C | Well-organized, accurate stage labels, no redundancies.
+92: D | Concise, accurate stages, complete cycle without redundancy.
+93: D | Includes calibration and functional testing for thorough installation.
+94: D | Comprehensive coverage with correct stage labels and documentation.
+95: C | Balanced scope with accurate stage labels for advisory context.
+96: C | Generalizable protocol with correct stages and no scope drift.
+97: C | Clear flow, accurate stages, no redundancy.
+98: C | Concise; A and B are duplicates.
+99: A | Complete, well-sequenced, accurate stage labels throughout.
+100: D | Complete flow without B's off-topic hike step.
+101: D | Best logical flow; ends with control room communication.
+102: A | Complete 2D-to-3D pipeline; B is blank.
+103: C | Concise, accurate stages, properly scoped.
+104: B | Covers both physical books and digital documents.
+105: A | Concise, accurate stage labels, clear loop logic without redundancy.
+106: D | Most accurate stage labels including scene reconstruction and archiving.
+107: D | Complete pipeline with proper import, refinement, and documentation steps.
+108: D | Comprehensive coverage of technical, safety, teamwork, and problem-solving.
+109: D | Includes PPE, pressure checks, testing, and inventory update completely.
+110: D | Generic, complete, accurate stage labels, appropriate scope across equipment.
+111: C | Concise flow with accurate stage labels and proper scope.
+112: C | Includes PPE, generic equipment coverage, accurate labels, right scope.
+113: C | Concise, accurate stage labels, no redundancy.
+114: D | Most complete: greeting through notification, accurate labels.
+115: C | Tight scope, accurate ME/FV/IC labels, no duplication.
+116: C | Ends at right scope point, clean labels.
+117: C | Complete and concise without out-of-scope cleanup.
+118: B | Full sequence including proper concluding summary.
+119: C | Concise, accurate scope ending at patient questions.
+120: C | Cleanest scope, ends appropriately at POS update.
+121: D | Complete, ordered, no redundancy, proper stage labels.
+122: A | Clean sequence with proper IC delivery, minimal redundancy.
+123: C | Concise, clear corrective-action loop, no duplicate steps.
+124: D | Comprehensive with accurate PD labels for history inquiry.
+125: A | Proper ordering, accurate scope, correct stage labels.
+126: D | Complete with briefing, sweeps, monitoring, and documentation.
+127: A | Clean arc, accurate labels, appropriate consultation scope.
+128: C | Best stage accuracy and logical workflow progression.
+129: C | Complete coverage, proper stages, no redundancy, well-scoped.
+130: C | Clean concise sorting loop, correct stages, no scope creep.
+131: D | Most complete with risk assessment and final policy verification.
+132: C | Properly scoped to mounting only, correct stages, concise.
+133: A | Balanced completeness, correct stages, proper scope boundaries.
+134: C | Focused training session scope, correct stages, well-ordered.
+135: C | Proper sequencing, accurate stage labels, concise coverage.
+136: B | Correct stage labels for PPE and retrieval, no scope creep.
+137: B | Complete, accurate stage labels, no redundancy or scope creep.
+138: A | Scene safety first, correct stages, appropriate wound-care scope.
+139: A | Complete greeting flow, generalizable, properly staged throughout.
+140: A | Clean separation of inspection, connection, verification steps.
+141: A | Generalizable scope, complete, well-staged without redundancy.
+142: B | Includes glue-setting step missing from A; fully complete.
+143: A | Correct stage labels; B and others mislabel tool selection.
+144: A | B is blank; A is concise, complete, correctly staged.
+145: C | Concise, correct stages, proper scope without extras
+146: B | Comprehensive, correct stages, complete verification flow
+147: A | Clean stages, concise, properly scoped record entry
+148: D | Complete with manual, PPE, measurement, documentation
+149: C | Concise, well-staged, properly scoped analysis flow
+150: C | Concise, correct stages, properly scoped inspection
+151: C | Well-organized, correct stages, no scope creep
+152: C | Concise, focused on evaluation without extras
+153: C | Tightest scope on prescribing; A/D include diagnostic workup beyond task.
+154: D | Complete flow with proper payment-method step and clean stage labels.
+155: C | Clean SMART framework, well-organized, no redundant refinement loops.
+156: D | Most complete continuum; covers prenatal through post-delivery follow-up.
+157: D | Comprehensive yet concise; merges IV access/prime without redundancy.
+158: C | Well-scoped six steps; proper IC start, clean inspection ordering.
+159: A | Clean flow including post-task tool storage; proper stage labels.
+160: C | Tightest scope on analysis-to-goals; A/B/D extend beyond task.
+161: B | Identical to A but better step 1 wording.
+162: C | Best scope—ends at identification, no implementation creep.
+163: C | Most concise; clean scope ending at signature.
+164: A | Correctly labels Export as FV; B mislabels it.
+165: B | Best scope; ends at approval without procurement creep.
+166: B | Counting correctly labeled PD throughout.
+167: A | Concise, well-scoped, accurate stage labels.
+168: A | Generic scope, correct ME labels for equation work.
+169: C | Concise, well-staged, scoped to reading not repairing.
+170: D | Clean minimal version; A/B/C have staging or redundancy issues.
+171: C | Clean staging, complete, no redundancy.
+172: C | Generic, well-staged, no scope creep to wind turbines.
+173: A | Complete order workflow without overreach into receiving.
+174: B | Covers full HR lifecycle matching broad task scope.
+175: D | Most complete with correct staging of all diagnostic steps.
+176: D | Adds report generation; complete verification-to-communication flow.
+177: C | Concise, complete, properly staged without redundant steps.
+178: D | Includes calculation, verification, adjustment, cleanup, labeling — most complete.
+179: B | Adds tailoring intro and closure paperwork; most complete coverage.
+180: B | Clean stages, no mislabels, covers full batch workflow concisely.
+181: C | Includes site survey, load calc, simulation, refinement; well-scoped.
+182: D | Comprehensive, well-ordered, includes occupant communication and handover.
+183: A | Clean staging, covers calculation, materials, simulation, stakeholder review.
+184: B | Avoids redundant review step and bloated wording while staying complete.
+185: A | Cleanest complete cycle without B's redundant prefix.
+186: D | Most general scope with proper lifecycle and labels.
+187: B | Best stage accuracy and complete return-to-service scope.
+188: D | Most complete: planning, setup, delivery, assessment, documentation.
+189: B | Most concrete steps with accurate stage labeling throughout.
+190: A | Clean staging; B is blank, D nearly identical but verbose.
+191: B | Concrete screen-share context with proper stage labels.
+192: A | Cleanest stage labels; weighing correctly tagged ME.
+193: A | Cleanest flow; "Submit" fits FV better than B's "Deliver".
+194: C | Well-scoped to inspection; correct stage labels throughout.
+195: D | Comprehensive, well-staged, includes documentation step.
+196: C | Concise, correct order, no out-of-scope root-cause analysis.
+197: A | No out-of-scope phoropter check; clean optician workflow.
+198: C | Focused single-student flow; correct stage labels throughout.
+199: A | Clean scope; no redundant save/deliver after submission.
+200: A | Includes cleaning step; correct order and stage labels.
+201: D | Generic, complete, balanced stage labels and full FV cycle.
+202: C | Concise, correct labels, handles in-or-out without redundancy.
+203: A | Clean flow, accurate stage labels, no redundancy or scope creep.
+204: C | Stays focused on knowledge maintenance with correct stages.
+205: B | Complete cycle including monitoring and final notification.
+206: B | Complete pipeline from posting through onboarding and evaluation.
+207: D | Thorough, correct labels, proper decision and communication flow.
+208: A | Properly scoped to route choice with correct stage sequencing.
+209: D | Generic, complete, accurately labeled across all stages.
+210: C | Concise, generic, stage-accurate; others over-fit one scenario.
+211: D | Complete flow with tools, collaboration, sharing, accurate labels.
+212: D | Thorough monitoring scope; vitals as ME, trends as PD.
+213: D | Includes planning, scanning, grasp, navigate, position, verify.
+214: D | Full lifecycle with approval iteration and stakeholder distribution.
+215: D | Most complete with cushioning step and correct IC labeling.
+216: A | Generic, concise, properly scoped, accurate stage labels.
+217: C | Clean scope, proper staging, ends at conclusion not implementation.
+218: A | Concise, well-staged, no scope creep into monitoring.
+219: C | Concise, well-scoped, no logout/scheduling drift.
+220: A | Complete, no redundancy, both digital and physical handled.
+221: C | Concise, properly staged, no backup/replication scope creep.
+222: C | Concise, ends at submission, no duplicate regulator step.
+223: C | Generic, well-staged, complete export and delivery.
+224: C | Cleanest stage labels, no NA mislabels for documentation.
+225: C | Complete cycle with proper PD/NA/ME/IC/FV stages, no redundancy.
+226: C | Accurate stages, includes coordination with roller operator, concise.
+227: C | Clean assembly flow, accurate stage labels, no redundancy.
+228: D | Most complete cycle including demo, documentation, debrief.
+229: D | Complete advisory cycle with documentation, accurate stages.
+230: D | Full design pipeline with feedback loop and accurate stages.
+231: A | Concise, accurate stages, consistent species, complete cycle.
+232: A | Proper PD assessment, bathroom navigation, dignified flow.
+233: D | Includes iteration step and proper inspection-then-adjust sequence.
+234: A | Calculations correctly tagged PD; ends with client approval.
+235: C | Cleanest generic six-step flow; no over-narrow specifics.
+236: C | Concise, complete summarize-send-document flow without redundancy.
+237: A | Comprehensive ordering with test drive and history review.
+238: D | Broadest daily coverage including safety check and bedtime.
+239: B | Most complete with consult, test, monitor, packdown, report.
+240: D | Coordination-focused IC/PD steps fit task semantics best.
+241: C | Concise, accurate stages, no redundancy, proper scope.
+242: A | Cleanest stage labels; C/D mislabel select/approach steps.
+243: C | Concise, accurate stages; others have mislabels or bloat.
+244: C | Properly scoped to selection; others extend beyond task.
+245: C | Concise with correct ME for tool use.
+246: C | Focused on computation task; others extend beyond scope.
+247: C | Concise, accurate, properly scoped evaluation steps.
+248: D | Most complete with consultation step properly staged.
+249: A | Complete scope with greet, document; correct stages throughout
+250: D | Most complete generic install with all critical steps included
+251: B | Correct ordering, proper scope, no extraneous vehicle transport
+252: C | Tightest scope, correct SMART goal flow, no redundancy
+253: D | Includes standdown, consolidated steps, proper stage labels
+254: C | Generic scope, correct FV verification stage labeling
+255: D | Most complete cycle including prep, verify, clean, handoff
+256: D | Logical flag-then-document order with summary compilation step
+257: A | Complete coverage without out-of-scope process review step.
+258: A | Proper stages, complete pickup-to-delivery flow without redundancy.
+259: C | Concise, includes critical cross-referencing, properly scoped.
+260: D | Clean sequential flow with accurate stage labels throughout.
+261: A | Complete planning scope without out-of-scope monitoring afterward.
+262: D | Realistic general-purpose build with proper tool-gathering step.
+263: B | Correctly labels engine start as ME, complete felling cycle.
+264: A | Includes work order IC, complete and properly staged.
+265: D | Most complete with agenda, decisions, documentation, and proper closure.
+266: D | Includes root cause analysis, dry run, and ongoing improvement plan.
+267: D | Full lockout, disassembly, part retrieval, test, and documentation flow.
+268: D | Adds consent, visual scan, and pat-down feedback verification properly.
+269: C | Focused scope; correctly ends at communication without out-of-scope waiting.
+270: D | Covers training, inspections, records, agency liaison, and incident reporting.
+271: D | Adds metadata schema, preservation plan, and stakeholder review cycle.
+272: D | Layered visual, sensor, sensory, and safety-guard inspection with verification.
+273: D | Best stage labels and complete flow ending with stakeholder delivery.
+274: D | Only option covering both film and digital workflows comprehensively.
+275: B | Complete with secure login; no redundancy, all stages accurate.
+276: D | Comprehensive, correct scope (ends at plan finalization), accurate stages.
+277: C | Generic, well-staged, no redundant listening/clarifying steps.
+278: C | Clean ordering, concise, accurate stages without duplicate summaries.
+279: C | Properly handles multi-site repetition with accurate stage labels.
+280: D | Most complete generic workflow with proper report delivery and cleanup.
+281: C | Concise, complete, properly staged without scope drift.
+282: D | Generalizable across rigging, packaging, and temporary structures.
+283: C | Properly scoped to advising; concise and well-staged.
+284: C | Explicitly directs others; clean staging without redundancy.
+285: C | Includes disposal area location; tighter than near-duplicate alternatives.
+286: C | Logical order from gathering to delivery; appropriately concise.
+287: C | Properly scoped to interview; includes empathy and red-flag check.
+288: D | Includes flagging deviations and alerting staff; comprehensive monitoring.
+289: D | Most complete daily cycle, accurate stage labels throughout.
+290: C | Clean balanced flow; concise without scope creep or label errors.
+291: D | Best stage labels; complete scope with PPE removal and review.
+292: C | Includes EMS call and ABC protocol; concise, well-scoped first aid.
+293: D | Most complete greenhouse cycle with proper closure step.
+294: C | Cohesive excavation flow; lit review through artifact transport.
+295: D | Adds specimen release; complete capture-to-archive scope.
+296: D | Most thorough framework; explicit risk/reward and feedback loop.
+297: A | Most complete: validation, documentation, stakeholder presentation included.
+298: C | Concise, correct stages, complete scope without redundancy.
+299: A | Balanced detail with correctly staged diagnosis, treatment, follow-up.
+300: A | Clean structure with accurate stage labels, full workflow.
+301: A | Best-ordered, no redundancy, correct stages throughout.
+302: A | Focused detective workflow ending cleanly at prosecutor handoff.
+303: C | Concise; correctly uses NA for caregiver's own positioning.
+304: D | General-purpose; includes tasting and cleanup, balanced scope.
+305: A | Clean flow, proper stages, complete scope without redundancy.
+306: C | Generic, properly staged, concise, no awkward repeat step.
+307: C | Concise, well-scoped to presentation, proper stage labels.
+308: C | Concise, generic, proper stages without redundant steps.
+309: B | Stays in evaluation scope, correct stages throughout.
+310: B | Complete verification scope with proper stage labels.
+311: C | Properly scoped to determining methods, clean stages.
+312: C | Generic, well-scoped, proper stages, no redundancy.
+313: C | Concise, accurate stage tags, well-scoped, no redundancy.
+314: B | Complete scope from setup through delivery, clean tags.
+315: C | Concise, accurate tags, balanced supervisory actions.
+316: C | Cleanest stage tags, captures core coaching cycle.
+317: A | B and D are duplicates; A is uniquely complete.
+318: C | Well-scoped to gathering, accurate ME/PD/FV tagging.
+319: B | Specific, complete, all stage tags correctly assigned.
+320: C | Concise, accurate tags, proper sampling-inspection flow.
+321: D | Most complete pipeline with proper stage tags throughout.
+322: C | Matches "determine methods" scope precisely without execution creep.
+323: A | Complete, focused on locating, no suppression scope creep.
+324: D | Best captures multi-professional conferring with specific roles named.
+325: D | Most complete sales call flow with correct NA dial tag.
+326: D | Comprehensive arrangement workflow with iteration and inspection.
+327: A | Proper IC login, NA navigate separation; complete SCADA flow.
+328: D | Complete hiring pipeline with accurate stage tags throughout.
+329: B | Tight scope, no redundant closing, clean labels.
+330: D | Clearest sequence, complete, no redundancies.
+331: D | Comprehensive, non-redundant, includes manager submission.
+332: D | Well-staged, complete, proper knowledge maintenance loop.
+333: D | Correct ordering, clean iteration step.
+334: A | Balanced granularity, complete submit step.
+335: C | Cleanest staging, no redundant post-op steps.
+336: C | Only option respecting parameter/spec scope.
+337: C | Concise, accurate stage labels, no redundancy
+338: C | Cleanest IC/PD/ME/FV flow, no overreach
+339: C | Minimal yet complete, correct stage labeling
+340: D | Complete steps, accurate ME labels for measuring
+341: D | Includes SDS/PPE, full preparation cycle, accurate labels
+342: C | Logical order, complete cycle, concise
+343: C | Proper scope, accurate empathy-stage labels
+344: C | Stays in scope (cut only), accurate labels
+345: D | Complete training cycle with proper stages and assessment.
+346: B | Includes lubrication step and proper inspection sequence.
+347: D | Logical order, proper stages, clean workspace closure.
+348: A | Balanced completeness with notify step and accurate stages.
+349: A | Comprehensive with multidisciplinary input and follow-up scheduling.
+350: C | Concise, accurately staged, no mislabeled actions.
+351: C | Clean stages, complete diagnose-repair-test-document flow.
+352: B | Complete bed-to-kitchen scope with accurate stage labels.
+353: C | Concise, correct stages, focused scope on evaluation only.
+354: C | Correct stages, no scope creep, clean flow.
+355: A | Most complete handling sequence with proper stage labels.
+356: A | Comprehensive coordination including department routing and follow-up.
+357: C | Concise, complete, correct stages without scope creep.
+358: C | Logical order: review records before discussion, correct stages.
+359: A | Complete assist sequence, correct stages, proper scope.
+360: D | Best captures directing role: diagnose, plan, oversee, verify.
+361: A | Concise, balanced, correct stages, no redundancy.
+362: B | Proper startup sequence with verification, correct scope.
+363: A | Balanced steps, correct stages, appropriate scope.
+364: A | Complete with safety confirmation, well-staged throughout.
+365: C | Concise, correct stages, no redundancy, proper scope.
+366: A | Balanced completeness without bloat, correct stages.
+367: D | Concise, correctly staged, no redundant FV steps.
+368: A | Complete with EHR access, FV confirmation, proper documentation.
+369: C | Clean stage labels, complete flow, concise without redundancy.
+370: B | Concise, accurate labels, FV correctly captures auto-recording.
+371: A | Complete cycle with monitoring; cleaner labels than alternatives.
+372: B | Complete with restock step; consistent stage labels throughout.
+373: C | On-scope start-to-finish, concise, accurate stage labels.
+374: A | Complete with communication and documentation; clean labels.
+375: D | Most complete; includes lighting setup and completion communication.
+376: A | Includes consent; broadest scope; cleanest stage labels overall.
+377: D | Most complete pipeline with industry research and clear scope.
+378: B | Clean staging, complete steps, no IC mislabels.
+379: A | Concise and well-staged within coordination scope.
+380: A | Generic scope matches task, complete and well-staged.
+381: B | Includes dry-fit and obstacle removal, properly scoped.
+382: C | Clean staging, well-scoped, no redundant steps.
+383: C | Covers all equipment concisely with proper stage labels.
+384: C | Comprehensive, well-staged, includes auditory inspection.
+385: A | Complete with delivery, correct stage labels throughout.
+386: B | Detailed gear assembly with bearing housing, proper scope.
+387: A | Concise, correctly staged, no redundant input steps.
+388: C | Drafting correctly labeled ME, complete with publishing.
+389: D | Most thorough with team meeting and follow-up review.
+390: B | Includes bucking, escape route, and crew communication.
+391: A | Comprehensive flow with scheduling and home exercises.
+392: D | Clearest stage labels with documentation step included.
+393: A | Balanced completeness without redundant verification step.
+394: A | Complete with manifest scan and supervisor handoff.
+395: C | Concise, correctly staged, no redundant IC steps.
+396: D | Complete EHR review, proper FV verification, daily check.
+397: A | Clean stages, no out-of-scope or mistagged steps.
+398: C | Generic, concise, correct stage tags throughout.
+399: A | Best stage flow ending with proper FV documentation.
+400: A | Comprehensive flow with correct stage tags throughout.
+401: A | Clean stages, complete scope, no extraneous steps.
+402: C | Matches broad task scope; correct stages; concise.
+403: A | Balanced detail, correct stages, communication plan included.
+404: C | Concise, correct stages, no scope creep.
+405: C | Correct stage labels; complete; no redundancy.
+406: C | Clean stages; B is empty; A/D mislabel visualization.
+407: C | Most concise; covers verification of both formats.
+408: C | General scope fits task; correct stages; concise.
+409: C | Clean stages, includes PD inspection, complete without redundancy.
+410: B | Concise, accurate stage labels, no scope creep.
+411: A | Complete robotic cycle with proper start/end signals.
+412: C | Includes drill-down and root-cause, properly scoped.
+413: D | Most complete: inspection, weighing, packing, palletizing in order.
+414: A | Identical to B/D; clean canonical sequence with verification.
+415: C | Logical order: identify, plan, retrieve, lay, connect, verify.
+416: D | Clean scope, explicit source, proper iteration, no over-reach.
+417: D | Most complete: materials, labor, overhead, taxes, communication.
+418: C | Cleanest stage labels, concise, no scope creep.
+419: A | Correct stages, proper flow from retrieval to handoff.
+420: C | Balanced scope, generic applicability, accurate stages.
+421: C | Most concise with consistently correct stage labels.
+422: D | Complete lifecycle including BOM, prototype, test, delivery.
+423: D | Most realistic with concrete trade-specific examples.
+424: D | Best PD/ME separation; correct scope ending at documentation.
+425: D | Most complete with PPE/safety, accurate stages overall.
+426: D | A and B identical; D adds navigation and sign-off realistically.
+427: D | Most complete, accurate stages, includes caregiver communication.
+428: C | Concise, stages accurate, stays within monitoring scope.
+429: C | Tight, accurate stages, stays within recording scope.
+430: B | Each report section separate, comprehensive, accurate stages.
+431: C | Concise, stage labels accurate, no NA mislabeling.
+432: C | Stays closest to research scope, ends at plan presentation.
+433: B | Concrete masonry example, clean staging, no redundancy.
+434: B | Concrete compressor example with accurate stage labels throughout.
+435: A | Logical flow, correct stage tags, appropriate scope and detail.
+436: C | Correct order, clean tags, concise without missing steps.
+437: C | Concise, accurate stage tags, complete proofreading workflow.
+438: C | Concise, well-staged, covers full fill-and-cure cycle.
+439: B | Best stage accuracy and natural sequential plowing flow.
+440: D | Clean tags, complete scope, no redundant map-drawing steps.
+441: C | Concise, correctly staged, scope ends at positioning verification.
+442: C | Generalizable, includes diagnostics, correct stages, proper scope.
+443: C | Tight notify cycle without scope creep into monitoring or documentation.
+444: D | Covers both develop and implement with accurate stage labels throughout.
+445: D | Stays on phone-advisor scope with correct PD label for SDS access.
+446: A | Most complete with packaging, upload, and final LMS verification testing.
+447: C | Cleanest general inspection with correct stages and appropriate scope.
+448: C | Well-structured stages from review through stakeholder communication.
+449: C | Concise, well-scoped to evaluation; accurate stages throughout.
+450: C | Focused enforcement sequence; correct stage labels; right scope.
+451: C | Most concise; complete coverage; accurate stage labels.
+452: C | Scoped to preparation; accurate stages; no scope creep.
+453: D | Correct PD for assessment; complete prescription workflow.
+454: A | Complete, accurate, properly scoped to generic work sites.
+455: B | Correct NA for SIEM login; clean stages; appropriately concise.
+456: C | Concise, accurate stages, complete schematic creation flow.
+457: C | Generic, properly staged, concise without scope creep.
+458: C | Generic, properly staged, no mislabels or redundancy.
+459: A | Concise, correctly staged, stays within inspection scope.
+460: A | Complete, accurate stages, stays within slaughter scope.
+461: A | Concise, correct order, properly staged throughout.
+462: C | Cleanest stage labels, generic scope, no redundancy.
+463: C | Generic, concise, accurate stage labels throughout.
+464: A | Complete shift operation, properly staged and ordered.
+465: C | Tightest scope on recording, clean stages, no out-of-scope steps.
+466: D | Most complete: PPE, testing, documentation, comparison, remediation report.
+467: D | Comprehensive: diagnostics, safety check, test drive, documentation included.
+468: A | Clean scope, PPE, repeats inspection loop, reports, follows up.
+469: B | Best scope: incoming, outgoing, physical reconciliation, report generation.
+470: D | Language-agnostic, includes planning, tests, docs, commit, notification.
+471: A | Complete flow: navigate, inspect, clear, till, amend, level, verify.
+472: D | Full lifecycle: brief, research, concepts, iteration, delivery, archive.
+473: C | Tightest scope match for "confer" with coordination focus.
+474: C | Cleanest forward flow and stage labels throughout.
+475: D | Most complete monitoring cycle; B is empty.
+476: A | Realistic brick-laying sequence with proper stage labels.
+477: C | Logical progression from intake through advice delivery.
+478: C | Complete cycle with realistic maintenance window detail.
+479: A | Comprehensive scope including reconciliation and debrief.
+480: A | Proper scope for monitoring with shift handover included.
+481: A | Includes monitoring step with correct FV stage label.
+482: C | Generic, concise, correctly scoped with proper stage labels.
+483: A | Clean ordering, complete flow, correct stage labels throughout.
+484: C | Complete: problem ID, team assembly, collaboration, implementation, documentation.
+485: D | Clean technician POV, concise, properly scoped with correct stages.
+486: D | Most realistic detail, complete scope from setup to teardown.
+487: A | Balanced completeness with monitoring, storage, and verification.
+488: C | Complete with goal-setting, materials, and follow-up scheduling.
+489: D | Complete venue setup, follow-ups, and accurate stage labels throughout.
+490: D | Thorough inspection with documentation; correct NA/ME/PD/FV/IC stages.
+491: C | Cleanly distinguishes accessory from host equipment; tight scope.
+492: D | Includes PPE, per-area iteration, submission, and follow-up verification.
+493: A | Focused quarterly flow with GAAP checks and proper finalization step.
+494: C | Concise scan-verify-update loop with reconciliation and report submission.
+495: D | Covers codes, site survey, FEA/CFD, stakeholder review, design report.
+496: D | Most complete with EHR documentation and accurate stage labels.
+497: C | Cleanest scope ending at approval; accurate stage labels throughout.
+498: A | Complete, well-staged; C mislabels disposal, D mislabels PPE.
+499: D | Most thorough with diagnostics, verification, and owner communication.
+500: A | Concise and complete; B redundant, D over-scoped, C too sparse.
+501: A | Best matches "configure" scope; others include physical installation.
+502: C | Most concise with accurate stage labels and proper repetition step.

@@ -1,0 +1,365 @@
+BATCH 30/63 | Model: Claude Opus 4.7 | Tasks 233-240
+================================================================
+EXPERT REVIEW -- Micro-Action Sequence Evaluation
+For each task, read ALL four options, then choose the BEST (A/B/C/D).
+
+Criteria:
+  1. Completeness  -- no critical steps missing
+  2. Realism       -- every step is concretely executable
+  3. Stage accuracy -- stage label correct for each step:
+     IC=Intent_Communication  NA=Navigation_Addressing
+     PD=Perception_Diagnosis  ME=Manipulation_Execution  FV=Feedback_Verification
+  4. Conciseness   -- no redundant or duplicate steps
+  5. Scope         -- starts and ends at exactly the right point
+
+OUTPUT: fill the ANSWER TEMPLATE at the bottom.
+Format: N: X | one-sentence reason (max 12 words)
+IMPORTANT: Each task has a different best answer. Do NOT pick the same
+letter for every task without reading.
+================================================================
+
+--- Task 233: Install metal structural components.
+[A]
+  1. [IC] Review the construction plans and blueprints to identify the specific metal structural components to be installed.
+  2. [NA] Locate and organize the metal structural components in the storage area and load them onto the crane.
+  3. [NA] Operate the crane to lift and position the first metal structural component to the designated installation location.
+  4. [PD] Align the component with the supporting structures using a level and measuring tape to ensure proper positioning.
+  5. [ME] Secure the component to the foundation or adjacent components using appropriate fastening methods.
+  6. [ME] Repeat steps 3-5 for the remaining metal structural components, ensuring accurate placement and secure fastening.
+  7. [FV] Inspect all installed components for any signs of damage, misalignment, or loose connections.
+  8. [ME] Make any necessary adjustments or repairs to ensure the structural integrity of the installed components.
+  9. [FV] Clean up the work area, removing any debris or tools.
+  10. [IC] Signal the foreman that the task is complete and the floor is ready for the next phase of construction.
+[B]
+  1. [IC] Review the construction plans and blueprints to identify the specific metal structural components to be installed.
+  2. [NA] Unload and organize metal structural components, including beams, columns, and bracing, in a designated area of the construction site.
+  3. [PD] Measure and mark the location for the first metal structural component, ensuring accurate placement according to the architectural plans.
+  4. [ME] Raise and place the first metal structural component, using a crane or other lifting equipment as needed.
+  5. [ME] Secure the first metal structural component to the foundation or adjacent components, using appropriate fastening methods.
+  6. [PD] Inspect the installed metal structural components for accuracy and security, ensuring compliance with architectural plans and building codes.
+  7. [ME] Make any necessary adjustments or repairs to the installed metal structural components, ensuring compliance with architectural plans and building codes.
+  8. [IC] Document the installation of metal structural components, including photos and notes on any challenges or issues encountered.
+  9. [FV] Inspect the entire floor area to ensure all joists are properly installed and there are no loose bolts or other hazards.
+  10. [IC] Signal the foreman that the task is complete and the floor is ready for the next phase of construction.
+[C]
+  1. [IC] Review construction blueprints and specifications to identify the type, quantity, and precise location of each metal structural component.
+  2. [NA] Locate and retrieve the required metal structural components from the designated storage area.
+  3. [NA] Using a crane or other lifting equipment, carefully position each component at its designated installation location.
+  4. [PD] Align and level each component according to the blueprints, using tools like levels, plumb bobs, and measuring tapes.
+  5. [ME] Securely fasten each component to the supporting structure using appropriate bolts, welds, or other fastening methods.
+  6. [FV] Conduct a thorough visual inspection of all installed components, verifying alignment, secure fastening, and absence of any damage or defects.
+  7. [IC] Document the completed installation, including photographs, notes on any challenges encountered, and confirmation of adherence to specifications.
+[D]
+  1. [IC] Review construction plans and blueprints to identify specific metal structural components and their locations.
+  2. [NA] Locate and organize metal structural components in the designated area of the construction site.
+  3. [PD] Measure and mark the location for the first metal structural component, ensuring accurate placement according to the plans.
+  4. [ME] Raise and place the first metal structural component using a crane or other lifting equipment.
+  5. [ME] Secure the first metal structural component to the foundation or adjacent components using appropriate fastening methods.
+  6. [ME] Repeat steps 3-5 for the remaining metal structural components, ensuring accurate placement and secure fastening.
+  7. [PD] Inspect the installed metal structural components for accuracy, security, and compliance with architectural plans and building codes.
+  8. [ME] Make any necessary adjustments or repairs to ensure the structural integrity and compliance of the installed components.
+  9. [IC] Document the installation, including photos and notes on any challenges or issues encountered.
+  10. [PD] Review the documentation and ensure all metal structural components have been installed accurately and securely according to the plans.
+
+--- Task 234: Estimate costs or terms of sales.
+[A]
+  1. [IC] Review the client's request for the machine's specifications and desired features.
+  2. [NA] Access the company's database to retrieve the cost of materials and labor required for the machine.
+  3. [PD] Calculate the total cost of the project, including labor, materials, and overhead expenses.
+  4. [PD] Determine the profit margin and apply it to the total cost to arrive at the final sales price.
+  5. [ME] Prepare a detailed quote document that includes the breakdown of costs and the final sales price.
+  6. [FV] Review the quote document for accuracy and completeness.
+  7. [IC] Present the quote to the client, explaining the cost breakdown and answering any questions they may have.
+  8. [FV] Obtain the client's approval of the estimate and proposed terms.
+[B]
+  1. [IC] Review the client's request for the machine's specifications and desired features.
+  2. [NA] Access the company's database to retrieve the cost of materials required for the machine.
+  3. [PD] Calculate the labor costs based on the time required to build the machine and the hourly rate of the technicians.
+  4. [PD] Determine the overhead costs associated with the project, including utilities, rent, and other indirect expenses.
+  5. [PD] Calculate the total cost of the project by summing the material, labor, and overhead costs.
+  6. [PD] Determine the profit margin to be applied to the total cost to arrive at the final sales price.
+  7. [ME] Prepare a detailed quote document that includes the breakdown of costs and the final sales price.
+  8. [FV] Review the quote document for accuracy and completeness.
+  9. [FV] Send the quote document to the client via email or other communication method.
+  10. [FV] Follow up with the client to confirm receipt of the quote and address any questions or concerns.
+[C]
+  1. [IC] Review the client's request for specifications, desired features, and project scope.
+  2. [NA] Access the company's database to retrieve costs of materials and relevant historical project data.
+  3. [PD] Estimate labor costs based on project complexity, required time, and technician hourly rates.
+  4. [ME] Calculate total project cost by summing material, labor, and estimated overhead expenses.
+  5. [ME] Determine the profit margin to be applied to the total cost to arrive at the final sales price.
+  6. [ME] Prepare a detailed quote document outlining costs, payment terms, and project scope.
+  7. [FV] Review the quote for accuracy and completeness before sending to the client.
+  8. [IC] Present the quote to the client, explaining the cost breakdown and addressing any questions.
+[D]
+  1. [IC] Review and understand the client's requirements, specifications, and desired features.
+  2. [NA] Access and retrieve relevant data from the company's database, such as material costs, labor rates, and overhead expenses.
+  3. [PD] Estimate labor costs based on the time required for tasks and the hourly rate of technicians or staff.
+  4. [ME] Calculate the total cost of materials, labor, and overhead expenses.
+  5. [ME] Determine the profit margin or markup percentage based on company policies and market competitiveness.
+  6. [ME] Calculate the final sales price by adding the profit margin to the total project cost.
+  7. [ME] Prepare a detailed quote document outlining the cost breakdown, final sales price, payment terms, and estimated delivery time.
+  8. [IC] Review the quote document with the client, explaining the cost breakdown, answering questions, and addressing any concerns.
+  9. [FV] Obtain the client's approval of the estimate and proposed terms, marking the successful completion of the task.
+
+--- Task 235: Enter information into databases or software programs.
+[A]
+  1. [IC] Retrieve and review the document containing the information to be entered.
+  2. [NA] Log into the relevant software or database system.
+  3. [NA] Navigate to the specific module or section for data entry.
+  4. [PD] Identify the relevant record or create a new one if necessary.
+  5. [ME] Enter the required information into the designated fields.
+  6. [FV] Review the entered information for accuracy.
+  7. [ME] Save the record and confirm the update.
+  8. [FV] Document any issues or errors encountered during the process.
+[B]
+  1. [IC] Retrieve the new employee's onboarding form from the HR inbox.
+  2. [IC] Review the form to confirm all required information is present.
+  3. [NA] Log into the HR management software system.
+  4. [NA] Navigate to the employee data entry module within the software.
+  5. [PD] Identify the new employee's record in the system.
+  6. [ME] Enter the employee's name into the designated field.
+  7. [ME] Enter the employee's address into the designated field.
+  8. [ME] Enter the employee's date of birth and employment start date into the designated fields.
+  9. [ME] Enter the employee's job title into the designated field.
+  10. [FV] Save the record and verify the data entry by reviewing the employee's profile.
+[C]
+  1. [IC] Retrieve the data to be entered from the source document (e.g., form, invoice).
+  2. [NA] Open the relevant software program and navigate to the data entry module.
+  3. [PD] Identify the correct record or create a new one if necessary.
+  4. [ME] Enter the data into the designated fields.
+  5. [FV] Review the entered data for accuracy and completeness.
+  6. [ME] Save the entered data.
+[D]
+  1. [IC] Retrieve or receive the information to be entered into the database or software program.
+  2. [NA] Navigate to the relevant module or page within the software program where the information can be entered.
+  3. [PD] Identify the specific record or entry where the information should be entered.
+  4. [ME] Enter the relevant information into the designated fields within the software program.
+  5. [FV] Review and verify the entered information for accuracy.
+  6. [ME] Save the record or entry to finalize the data entry process.
+
+--- Task 236: Communicate test or assessment results to medical professionals.
+[A]
+  1. [IC] Log into the secure digital platform used for communicating test results.
+  2. [NA] Locate the specific patient's file and open the test results.
+  3. [PD] Review the test results for accuracy and completeness.
+  4. [PD] Summarize the test results, highlighting key findings and any abnormal values.
+  5. [NA] Select the physician's name from the list of recipients.
+  6. [IC] Compose a brief message summarizing the test results and any critical findings.
+  7. [ME] Send the test results and message to the physician.
+  8. [FV] Wait for the physician to acknowledge receipt of the results.
+  9. [FV] Confirm that the physician has understood the results and any additional information provided.
+  10. [FV] Document the communication in the patient's electronic health record, noting the date, time, and details of the conversation.
+[B]
+  1. [IC] Log into the secure digital platform used for communicating test results.
+  2. [NA] Locate the specific patient's file and open the test results.
+  3. [PD] Review the test results for accuracy and completeness.
+  4. [ME] Enter the test results into the digital platform, ensuring all fields are correctly filled.
+  5. [ME] Attach any relevant notes or additional information to the test results.
+  6. [NA] Select the physician's name from the list of recipients.
+  7. [IC] Compose a brief message summarizing the test results and any critical findings.
+  8. [ME] Send the test results and message to the physician.
+  9. [FV] Wait for the physician to acknowledge receipt of the results.
+  10. [FV] Confirm that the physician has understood the results and any additional information provided.
+[C]
+  1. [NA] Locate the specific patient's file and open the test results within the secure digital platform.
+  2. [PD] Review the test results for accuracy and completeness.
+  3. [PD] Summarize the key findings and any critical information from the test results.
+  4. [NA] Select the physician's name from the list of recipients within the platform.
+  5. [IC] Compose a brief message summarizing the test results and any critical findings.
+  6. [ME] Send the test results and message to the physician.
+  7. [FV] Document the communication (including date, time, and summary) in the patient's electronic health record.
+[D]
+  1. [IC] Establish secure communication with the medical professional using a dedicated platform.
+  2. [NA] Access the patient's electronic health record and locate the test results.
+  3. [PD] Review and summarize the test results, highlighting key findings and any abnormal values.
+  4. [ME] Share the summarized test results with the medical professional via the communication platform's screen-sharing feature.
+  5. [IC] Explain the implications of the test results, providing context and any necessary next steps.
+  6. [FV] Confirm that the medical professional has understood the test results and any next steps.
+  7. [FV] Document the communication in the patient's electronic health record, noting the date, time, and details of the conversation.
+
+--- Task 237: Inspect vehicles to determine overall condition.
+[A]
+  1. [IC] Review the vehicle's history report to understand its maintenance and accident history.
+  2. [ME] Wash the vehicle to remove dirt and debris, enabling a clearer visual inspection.
+  3. [PD] Inspect the exterior body for dents, scratches, rust, and tire condition.
+  4. [PD] Open the hood and check fluid levels (oil, coolant, brake fluid, power steering fluid) and inspect the engine for leaks and proper functioning of key components.
+  5. [PD] Inspect the undercarriage for leaks, corrosion, and damage from previous accidents.
+  6. [PD] Start the engine and listen for any unusual noises (knocking, grinding, squealing).
+  7. [PD] Inspect the interior for cleanliness, wear and tear on seats and upholstery, and functionality of electronics (lights, radio, air conditioning).
+  8. [NA] Take a test drive, paying attention to handling, braking, acceleration, and any unusual vibrations or noises.
+  9. [FV] Evaluate the vehicle's overall condition based on the findings from the inspection.
+  10. [FV] Document the vehicle's overall condition, noting any major issues or areas of concern.
+[B]
+  1. [PD] Approach the vehicle and visually inspect the exterior for any obvious damage or wear.
+  2. [PD] Open the hood and inspect the engine bay for leaks, wear, and proper fluid levels.
+  3. [PD] Check the tires for proper inflation, tread depth, and any signs of damage.
+  4. [PD] Inspect the underside of the vehicle for any leaks or damage using a lift.
+  5. [PD] Start the vehicle and listen for any unusual noises or vibrations.
+  6. [PD] Check the interior of the vehicle for any signs of wear, damage, or malfunctioning components.
+  7. [PD] Test the vehicle's electrical systems, including lights, wipers, and gauges.
+  8. [PD] Check the brake system, including pads, rotors, and fluid levels.
+  9. [FV] Document all findings and note any issues that need to be addressed.
+  10. [FV] Provide a comprehensive report to the vehicle owner detailing the overall condition and any recommended repairs.
+[C]
+  1. [PD] Approach the vehicle and visually inspect the exterior for any obvious damage, wear, or tire condition.
+  2. [PD] Open the hood and check fluid levels (oil, coolant, brake fluid, power steering fluid).
+  3. [PD] Start the engine and listen for any unusual noises.
+  4. [PD] Inspect the interior for cleanliness, wear and tear, and functionality of electronics.
+  5. [NA] Take a test drive, paying attention to handling, braking, acceleration, and any unusual vibrations or noises.
+  6. [FV] Document all findings, noting any issues that need to be addressed and take photos for reference.
+  7. [FV] Based on the inspection findings, provide a comprehensive report to the vehicle owner detailing the overall condition and any recommended repairs.
+[D]
+  1. [IC] Review the vehicle's history report to understand its maintenance and accident history.
+  2. [ME] Wash the vehicle to remove dirt and debris, enabling a clearer visual inspection.
+  3. [PD] Inspect the exterior body for dents, scratches, and signs of rust.
+  4. [PD] Check the tires for tread depth, uneven wear, and proper inflation.
+  5. [PD] Inspect the undercarriage for leaks, corrosion, and damage from previous accidents.
+  6. [PD] Open the hood and inspect the engine for leaks, corrosion, and proper functioning of key components.
+  7. [NA] Test drive the vehicle to assess its handling, braking, and acceleration.
+  8. [PD] Check the interior for tears, stains, and signs of wear on seats, carpets, and upholstery.
+  9. [PD] Inspect the vehicle's electrical system, including lights, gauges, and infotainment systems.
+  10. [FV] Evaluate the vehicle's overall condition based on the findings from the inspection.
+  11. [FV] Document the vehicle's overall condition, noting any major issues or areas of concern.
+  12. [FV] Provide a comprehensive report to the vehicle owner detailing the overall condition and any recommended repairs.
+
+--- Task 238: Assist clients in handling details of daily life.
+[A]
+  1. [IC] Arrive at the client's home and greet the client, asking how they are feeling today.
+  2. [IC] Review the client's schedule and task list for the day, clarifying any ambiguous requests.
+  3. [ME] Assist the client in taking their morning medications, ensuring correct dosage and timing.
+  4. [ME] Prepare and serve the client's breakfast, following their dietary requirements.
+  5. [ME] Assist the client with their morning personal care routine, including bathing and dressing.
+  6. [PD] Help the client manage their mail and correspondence, sorting and responding to important items.
+  7. [ME] Prepare and serve the client's lunch, following their dietary requirements.
+  8. [ME] Assist the client with their afternoon personal care routine, including bathing and dressing.
+  9. [FV] Ensure the client is comfortable and safe, checking that all tasks are completed and the environment is secure.
+  10. [FV] Bid the client farewell, reminding them of the next scheduled visit and ensuring they have everything they need for the rest of the day.
+[B]
+  1. [IC] Arrive at the client's home and greet the client.
+  2. [IC] Confirm the tasks to be performed with the client.
+  3. [NA] Navigate to the kitchen to prepare a meal.
+  4. [PD] Gather ingredients and cooking utensils.
+  5. [ME] Prepare the meal according to the client's preferences.
+  6. [ME] Serve the meal to the client.
+  7. [PD] Assist the client in taking their medications.
+  8. [ME] Organize the client's personal items and living space.
+  9. [FV] Check that the client is comfortable and safe.
+  10. [FV] Complete the day's tasks and prepare to leave.
+[C]
+  1. [IC] Arrive at the client's home and greet the client, confirming the tasks to be performed.
+  2. [NA] Navigate to the designated area for the first task, considering client mobility and safety.
+  3. [PD] Gather necessary materials and tools for the task, verifying their suitability.
+  4. [ME] Execute the task according to client preferences and established protocols, ensuring safety and well-being.
+  5. [FV] Confirm successful completion of the task with the client, addressing any concerns or questions.
+  6. [NA] Transition to the next task, repeating steps 2-5 as needed.
+[D]
+  1. [IC] Arrive at the client's home and greet the client, inquiring about their well-being.
+  2. [IC] Review the client's schedule, task list, and any specific requests for the day.
+  3. [NA] Navigate the client's home safely, avoiding obstacles and mapping the environment.
+  4. [ME] Assist the client in taking their medications, ensuring the correct dosage and timing.
+  5. [ME] Prepare and serve meals according to the client's dietary requirements and preferences.
+  6. [ME] Assist the client with personal care routines, such as bathing, dressing, and hygiene.
+  7. [PD] Help the client manage correspondence, such as sorting mail and responding to important letters or bills.
+  8. [PD] Check the functionality of safety devices, such as smoke detectors and carbon monoxide detectors.
+  9. [ME] Assist the client in preparing for bed, ensuring they are comfortable and safe.
+  10. [FV] Review the day's tasks, ensure the client's comfort and safety, and prepare to leave, reminding the client of the next scheduled visit.
+
+--- Task 239: Operate audio-visual equipment.
+[A]
+  1. [IC] Consult the event planner to understand the presentation requirements and timeline.
+  2. [NA] Locate the power outlets and connection points for the audio-visual equipment.
+  3. [ME] Set up the projector on the designated table, ensuring it's level and aimed at the screen.
+  4. [ME] Connect the projector to the laptop using the appropriate cable and power on both devices.
+  5. [ME] Position the wireless microphone on the speaker's podium, ensuring its line of sight to the receiver.
+  6. [FV] Test the audio and visual systems by playing a sample video and speaking into the microphone.
+  7. [ME] Adjust the volume levels for both audio and visuals to optimal settings.
+  8. [FV] Monitor the equipment during the presentation, ready to troubleshoot any issues.
+  9. [ME] Upon conclusion of the event, disconnect all cables and pack the equipment.
+  10. [NA] Return the packed equipment to the designated storage area.
+[B]
+  1. [IC] Consult the event planner to understand the presentation requirements and timeline.
+  2. [NA] Unpack the projector, screen, and sound system components from their carrying cases.
+  3. [ME] Connect the projector to a power outlet and turn it on.
+  4. [ME] Connect the sound system speakers to the projector or a separate audio source.
+  5. [ME] Connect a laptop to the projector using an HDMI cable.
+  6. [FV] Play a test video or audio file to verify the projector and sound system are functioning correctly.
+  7. [ME] Adjust the volume levels for both audio and visuals to optimal settings.
+  8. [FV] Monitor the equipment during the presentation, ready to troubleshoot any issues.
+  9. [ME] Upon conclusion of the event, disconnect all cables and pack the equipment.
+  10. [NA] Return the packed equipment to the designated storage area.
+  11. [IC] Complete the event report, noting any issues encountered and solutions implemented.
+[C]
+  1. [NA] Unpack the projector, screen, and sound system components.
+  2. [ME] Position the projector on a stable surface, facing the screen.
+  3. [ME] Connect the projector to a power outlet and turn it on.
+  4. [ME] Connect the sound system speakers to the projector or a separate audio source.
+  5. [ME] Connect the laptop to the projector using an HDMI cable.
+  6. [ME] Power on the laptop and select the appropriate display output.
+  7. [FV] Play a test video or audio file to verify the projector and sound system are functioning correctly.
+  8. [ME] Adjust the volume levels for both audio and visuals to optimal settings.
+[D]
+  1. [IC] Consult the event planner to understand the presentation requirements and timeline.
+  2. [NA] Locate and access the audio-visual equipment, including the projector, screen, sound system, and microphone.
+  3. [ME] Set up the projector on the designated table, ensuring it's level and aimed at the screen.
+  4. [ME] Connect the projector to the laptop using the appropriate cable (HDMI, VGA, etc.).
+  5. [ME] Position the wireless microphone on the speaker's podium, ensuring its line of sight to the receiver.
+  6. [ME] Connect the sound system speakers to the projector or a separate audio source, and power on all equipment.
+  7. [PD] Test the audio and visual systems by playing a sample video and speaking into the microphone.
+  8. [ME] Adjust the volume levels for both audio and visuals to optimal settings.
+  9. [FV] Monitor the equipment during the presentation, ready to troubleshoot any issues.
+  10. [ME] Upon conclusion of the event, disconnect all cables, pack the equipment, and return it to the designated storage area.
+  11. [IC] Complete the event report, noting any issues encountered and solutions implemented.
+
+--- Task 240: Coordinate timing of food production activities.
+[A]
+  1. [IC] Review the production schedule and order list to identify the types and quantities of food to be produced.
+  2. [PD] Check inventory of ingredients and equipment to ensure availability and readiness for production.
+  3. [IC] Communicate the production schedule and responsibilities to the kitchen staff.
+  4. [PD] Monitor the progress of food production, making adjustments as needed to ensure timely completion.
+  5. [ME] Coordinate the preparation and plating of dishes according to the schedule and quality standards.
+  6. [IC] Communicate with the dining room staff to ensure they are ready to receive the dishes and that the tables are prepared for service.
+  7. [FV] Verify that dishes are being plated correctly and according to the restaurant's standards.
+  8. [FV] Confirm that all dishes have been served and that the kitchen is clean and ready for the next service.
+[B]
+  1. [IC] Review the daily production schedule and order list to identify the types and quantities of bread to be produced.
+  2. [PD] Check the inventory of ingredients to confirm availability and plan the use of ingredients for each bread type.
+  3. [PD] Verify the readiness of the production equipment and ovens for the day's production.
+  4. [IC] Schedule staff for their respective roles in the production process, ensuring adequate coverage for each task.
+  5. [IC] Communicate the production schedule and responsibilities to the production team.
+  6. [FV] Monitor the mixing and kneading of dough for each bread type, ensuring it is completed on schedule.
+  7. [ME] Coordinate the shaping and proofing of the dough, ensuring it is completed before baking.
+  8. [FV] Manage the baking process, ensuring each batch is baked according to the schedule and quality standards.
+  9. [FV] Coordinate the cooling and packaging of the baked bread, ensuring it is ready for delivery or sale.
+  10. [FV] Deliver the final products to the packaging area or delivery vehicles, confirming the completion of the production cycle.
+  11. [PD] Review the production schedule and identify areas for improvement for future services.
+[C]
+  1. [IC] Review the daily production schedule, order list, and ingredient inventory.
+  2. [ME] Plan the production sequence for each bread type, considering ingredient availability and equipment readiness.
+  3. [IC] Communicate the production schedule and assigned roles to the production team.
+  4. [FV] Monitor the progress of each stage (mixing, kneading, shaping, proofing, baking, cooling, packaging), making adjustments as needed.
+  5. [NA] Coordinate the delivery of finished products to the designated area.
+[D]
+  1. [IC] Review the menu, production schedule, and reservations to anticipate the flow of orders and identify potential bottlenecks.
+  2. [IC] Consult with relevant staff (e.g., sous-chef, kitchen staff) to adjust mise en place and production schedule based on anticipated orders.
+  3. [NA] Navigate the kitchen to inspect the progress of food production and identify any areas where the schedule is not being met.
+  4. [ME] Make adjustments to the production schedule and task assignments as needed to ensure dishes are delivered on time.
+  5. [PD] Monitor the kitchen's inventory levels to ensure ingredients and equipment are available when needed.
+  6. [IC] Communicate with dining room staff to ensure they are aware of expected delivery times for each dish and that tables are prepared for service.
+  7. [PD] Observe the progress of dishes on the pass and verify that they are being prepared according to the planned sequence and quality standards.
+  8. [ME] Signal cooks to begin plating dishes as they reach their optimal timing and communicate any necessary adjustments to the team.
+  9. [NA] Deliver finished dishes to the wait staff for delivery to customers and ensure the kitchen is clean and ready for the next service.
+  10. [PD] Review the production schedule, assess the overall flow of service, and identify areas for improvement for future services.
+
+================================================================
+ANSWER TEMPLATE
+
+233: _ | 
+234: _ | 
+235: _ | 
+236: _ | 
+237: _ | 
+238: _ | 
+239: _ | 
+240: _ | 
+

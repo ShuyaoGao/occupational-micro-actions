@@ -1,0 +1,362 @@
+BATCH 49/63 | Model: Gemini 3 Pro | Tasks 385-392
+================================================================
+EXPERT REVIEW -- Micro-Action Sequence Evaluation
+For each task, read ALL four options, then choose the BEST (A/B/C/D).
+
+Criteria:
+  1. Completeness  -- no critical steps missing
+  2. Realism       -- every step is concretely executable
+  3. Stage accuracy -- stage label correct for each step:
+     IC=Intent_Communication  NA=Navigation_Addressing
+     PD=Perception_Diagnosis  ME=Manipulation_Execution  FV=Feedback_Verification
+  4. Conciseness   -- no redundant or duplicate steps
+  5. Scope         -- starts and ends at exactly the right point
+
+OUTPUT: fill the ANSWER TEMPLATE at the bottom.
+Format: N: X | one-sentence reason (max 12 words)
+IMPORTANT: Each task has a different best answer. Do NOT pick the same
+letter for every task without reading.
+================================================================
+
+--- Task 385: Edit audio or video recordings.
+[A]
+  1. [IC] Open the editing software and import the raw audio or video files.
+  2. [PD] Review the raw footage or audio to identify key moments and potential issues.
+  3. [NA] Arrange the selected clips or audio segments in the desired order.
+  4. [ME] Trim clips and add transitions to ensure smooth flow and remove unnecessary parts.
+  5. [ME] Add background music, sound effects, and adjust audio levels for balance.
+  6. [ME] Apply color correction and grading to achieve a consistent look and feel.
+  7. [FV] Review the edited audio or video for any errors or inconsistencies.
+  8. [FV] Export the final audio or video in the desired format and resolution.
+  9. [FV] Deliver the final edited audio or video to the client.
+[B]
+  1. [IC] Open the video editing software and import the raw video footage and audio files.
+  2. [PD] Review the raw footage to identify the best shots and segments for the final video.
+  3. [NA] Drag the selected video clips into the timeline and arrange them in the desired order.
+  4. [ME] Trim the video clips to remove unnecessary parts and ensure smooth transitions.
+  5. [ME] Add transitions between video clips to create a smooth flow.
+  6. [NA] Import and place the background music and voiceovers in the timeline.
+  7. [ME] Adjust the volume levels of the music and voiceovers to ensure they are balanced with the video.
+  8. [FV] Review the edited video to check for any errors or inconsistencies.
+  9. [NA] Export the final video in the desired format and resolution.
+  10. [FV] Deliver the final edited video to the client via email or file transfer.
+[C]
+  1. [NA] Open the video editing software and import the raw video footage and audio files.
+  2. [PD] Review the raw footage to identify key moments, potential issues, and desired flow.
+  3. [ME] Create a rough cut by arranging selected video clips in chronological order.
+  4. [ME] Refine the edit by trimming clips, adding transitions, and adjusting audio levels.
+  5. [ME] Enhance the video with background music, sound effects, and color correction.
+  6. [FV] Review the edited video for errors, inconsistencies, and overall quality.
+  7. [NA] Export the final video in the desired format and resolution.
+[D]
+  1. [IC] Open the editing software and import the raw footage and audio files.
+  2. [PD] Review the raw footage and audio to identify key moments, potential issues, and the best shots for the final video.
+  3. [ME] Create a rough cut by arranging selected clips in a chronological order and syncing audio with video.
+  4. [ME] Refine the edit by trimming clips, adding transitions, adjusting audio levels, and applying color correction and grading.
+  5. [ME] Add background music, sound effects, and voiceovers to enhance the mood, atmosphere, and clarity of the content.
+  6. [FV] Review the final video for errors, inconsistencies, and any necessary revisions.
+  7. [NA] Export the final video in the desired format and resolution.
+  8. [FV] Deliver the final edited video to the client via email or file transfer.
+
+--- Task 386: Assemble mechanical components or machine parts.
+[A]
+  1. [IC] Retrieve the assembly manual and the set of specialized tools from the tool cabinet.
+  2. [NA] Lay out all the mechanical components on the workbench according to the assembly manual.
+  3. [PD] Inspect each component for any visible defects or damage using a magnifying glass.
+  4. [ME] Apply a thin layer of lubricant to the bearing surfaces and shaft ends, using a precision applicator.
+  5. [ME] Mount the first gear onto the shaft using a press-fit tool and secure it with a locking collar.
+  6. [ME] Install the second gear onto the shaft and align it with the first gear, securing it with a locking collar.
+  7. [ME] Place the assembled gears and shaft into the casing and secure the casing with screws.
+  8. [FV] Test the assembled device by rotating the gears and checking for any resistance or noise.
+  9. [FV] Package the assembled device and deliver it to the quality control station for final inspection.
+[B]
+  1. [IC] Retrieve the assembly manual and the set of specialized tools from the tool cabinet.
+  2. [NA] Lay out all the mechanical components on the workbench according to the assembly manual.
+  3. [PD] Inspect each component for any visible defects or damage.
+  4. [ME] Mount the first gear onto the shaft using a press-fit tool.
+  5. [ME] Insert the shaft with the mounted gear into the bearing housing and secure it with a locking collar.
+  6. [ME] Mount the second gear onto the shaft and align it with the first gear.
+  7. [ME] Secure the second gear with a locking collar and tighten to the specified torque.
+  8. [ME] Place the assembled gears and shaft into the casing and secure the casing with screws.
+  9. [FV] Test the assembled device by rotating the gears and checking for any resistance or noise.
+  10. [FV] Package the assembled device and deliver it to the quality control station for final inspection.
+[C]
+  1. [IC] Retrieve the assembly manual and necessary tools.
+  2. [NA] Identify and lay out all components according to the assembly manual.
+  3. [PD] Inspect each component for visible defects or damage.
+  4. [ME] Assemble the components according to the manual, using appropriate tools and techniques.
+  5. [IC] Periodically refer to the manual to verify assembly progress and identify next steps.
+  6. [FV] Conduct a final inspection of the assembled unit, checking for proper fit, alignment, and functionality.
+[D]
+  1. [IC] Retrieve the assembly manual and necessary components, tools, and lubricants from designated storage areas.
+  2. [NA] Lay out all the mechanical components on the workbench according to the assembly manual, organizing them in the order they will be used.
+  3. [PD] Inspect each component visually and using magnification tools for any visible defects, damage, or signs of wear.
+  4. [ME] Apply lubricant to relevant surfaces, such as bearing surfaces and shaft ends, using precision applicators to ensure even coverage.
+  5. [ME] Begin assembly by mounting the first component onto the base component, using the appropriate tool and applying the correct amount of force.
+  6. [ME] Secure the mounted component with fasteners, applying the correct torque using a torque wrench to prevent damage.
+  7. [ME] Repeat steps 5 and 6 for subsequent components, ensuring proper alignment and clearance between moving parts.
+  8. [FV] Test the assembled device by operating its moving parts and checking for any resistance, noise, or other signs of malfunction.
+  9. [NA] Package the assembled device securely, ensuring it's protected during transportation or storage.
+  10. [FV] Verify the correct shipping documentation and labels, ensuring all information is accurate and complete.
+
+--- Task 387: Calculate shipping costs.
+[A]
+  1. [NA] Retrieve the order details from the order management system, including item dimensions, weights, and destination address.
+  2. [PD] Input the dimensions, weights, and destination address into the shipping calculator.
+  3. [PD] Select the shipping carriers and services to include in the cost calculation.
+  4. [ME] Initiate the cost calculation for the selected carriers and services.
+  5. [FV] Review the calculated shipping costs and select the most cost-effective shipping method.
+  6. [FV] Record the selected shipping method and cost in the order management system.
+  7. [IC] Notify the customer of the shipping cost and method via email or phone.
+[B]
+  1. [IC] Log into the company's shipping calculator tool.
+  2. [NA] Retrieve the order details, including item dimensions, weights, and destination address.
+  3. [PD] Input the dimensions and weights of each item into the shipping calculator.
+  4. [PD] Enter the destination address into the shipping calculator.
+  5. [PD] Select the shipping carriers to include in the cost calculation (FedEx, UPS, USPS).
+  6. [ME] Initiate the cost calculation for the selected carriers.
+  7. [FV] Review the calculated shipping costs from each carrier.
+  8. [FV] Select the most cost-effective shipping method based on the calculated costs.
+  9. [FV] Record the selected shipping method and cost in the order management system.
+  10. [IC] Notify the customer of the shipping cost and method via email or phone.
+[C]
+  1. [IC] Retrieve order details, including item dimensions, weights, and destination address.
+  2. [ME] Input the dimensions and weights of each item into the shipping calculator.
+  3. [ME] Enter the destination address into the shipping calculator.
+  4. [PD] Select the desired shipping carriers.
+  5. [ME] Initiate the cost calculation for the selected carriers.
+  6. [FV] Review the calculated shipping costs from each carrier.
+  7. [FV] Select the most cost-effective shipping method.
+  8. [IC] Communicate the selected shipping method and cost to the customer.
+[D]
+  1. [IC] Retrieve order details, including items' dimensions, weights, and destination address from the order management system.
+  2. [PD] Identify if any items require special handling or are fragile.
+  3. [NA] Access the carrier's API or website to retrieve shipping rates.
+  4. [ME] Enter the items' dimensions, weights, and any special handling requirements into the carrier's shipping calculator.
+  5. [PD] Retrieve the shipping rates for the destination address, considering any additional fees for remote locations or special handling.
+  6. [ME] Calculate the total shipping cost, including any applicable taxes or surcharges.
+  7. [FV] Review the calculated shipping cost to ensure it is reasonable and accurate.
+  8. [IC] Communicate the calculated shipping cost to the customer via their preferred method (email, phone, etc.).
+
+--- Task 388: Document design or development procedures.
+[A]
+  1. [IC] Review existing design and development documents and conduct meetings with the development team to understand the current state and gather detailed information about the processes.
+  2. [NA] Create an outline for the documentation, including sections for front-end and back-end processes.
+  3. [PD] Draft the design and development procedures, including UI/UX details, code snippets, database integration, and API details.
+  4. [FV] Review the drafted documentation with the development team to ensure accuracy and completeness.
+  5. [ME] Finalize the documentation by incorporating feedback and making necessary revisions, and format it for easy readability, including diagrams and tables.
+  6. [FV] Save the final documentation in a shared repository accessible to the development team and future maintenance personnel.
+  7. [FV] Notify the development team and relevant stakeholders that the documentation is complete and available for review.
+[B]
+  1. [IC] Review existing design and development documents to understand the current state of the project.
+  2. [IC] Conduct meetings with the development team to gather detailed information about the design and development processes.
+  3. [NA] Create an outline for the documentation, including sections for front-end and back-end processes.
+  4. [PD] Draft the front-end design and development procedures, including UI/UX details and code snippets.
+  5. [PD] Draft the back-end design and development procedures, including database integration and API details.
+  6. [FV] Review the drafted documentation with the development team to ensure accuracy and completeness.
+  7. [ME] Finalize the documentation by incorporating feedback and making any necessary revisions.
+  8. [ME] Format the documentation for easy readability, including the use of diagrams and tables.
+  9. [FV] Save the final documentation in a shared repository accessible to the development team and future maintenance personnel.
+  10. [FV] Notify the development team and relevant stakeholders that the documentation is complete and available for review.
+[C]
+  1. [IC] Review existing project documentation, guidelines, and client requirements to understand the scope, objectives, and target audience.
+  2. [IC] Collaborate with relevant stakeholders (designers, developers, subject matter experts) to gather detailed information about the processes, functionalities, and potential challenges.
+  3. [NA] Outline the structure of the documentation, defining sections, subsections, and the logical flow of information.
+  4. [ME] Draft the content for each section, providing clear, concise, and step-by-step instructions, explanations, and relevant examples.
+  5. [ME] Integrate visual aids such as diagrams, screenshots, or flowcharts to enhance understanding and illustrate complex concepts.
+  6. [FV] Review the drafted documentation for completeness, accuracy, consistency, and adherence to style guidelines.
+  7. [FV] Solicit feedback from stakeholders and subject matter experts, incorporating their suggestions and revisions.
+  8. [ME] Finalize the documentation, ensuring it is formatted professionally, easily navigable, and accessible to the intended audience.
+  9. [NA] Publish the documentation in a suitable format (online platform, shared drive, printed copies) and make it readily accessible to users.
+[D]
+  1. [IC] Review existing documents, project brief, and client requirements to understand the current state and objectives.
+  2. [IC] Collaborate with relevant teams to discuss the project, assign tasks, and gather detailed information.
+  3. [PD] Conduct research or gather insights relevant to the project to inform the documentation process.
+  4. [NA] Create an outline or structure for the documentation, including necessary sections and subsections.
+  5. [ME] Draft the documentation, including clear and concise instructions, visual aids, and code snippets where applicable.
+  6. [FV] Review and revise the drafted documentation based on feedback from relevant stakeholders.
+  7. [ME] Format the documentation for easy readability, using diagrams, tables, and standard templates.
+  8. [FV] Finalize the documentation by incorporating approved changes and preparing it for distribution.
+  9. [NA] Distribute the final documentation to relevant stakeholders, ensuring it is easily accessible for future reference.
+
+--- Task 389: Direct financial operations.
+[A]
+  1. [IC] Review the financial closing checklist to ensure all tasks are accounted for.
+  2. [NA] Navigate the accounting software to access the general ledger and reconcile accounts.
+  3. [PD] Diagnose discrepancies in account balances and investigate the causes.
+  4. [ME] Adjust entries in the general ledger to correct identified discrepancies.
+  5. [ME] Prepare the financial statements (income statement, balance sheet, cash flow statement).
+  6. [FV] Review the financial statements for accuracy and completeness.
+  7. [IC] Communicate with the accounting team to address any issues or questions.
+  8. [FV] Deliver the financial statements to the company's executives and external auditors.
+  9. [FV] Conduct a follow-up meeting with the accounting team to review the closing process and identify areas for improvement.
+[B]
+  1. [IC] Review the financial closing checklist to ensure all tasks are accounted for.
+  2. [IC] Conduct a team meeting to assign tasks and set deadlines for the closing process.
+  3. [NA] Navigate the accounting software to access the general ledger and reconcile accounts.
+  4. [PD] Diagnose discrepancies in account balances and investigate the causes.
+  5. [ME] Adjust entries in the general ledger to correct identified discrepancies.
+  6. [ME] Prepare the financial statements (income statement, balance sheet, cash flow statement).
+  7. [FV] Review the financial statements for accuracy and completeness.
+  8. [IC] Communicate with the accounting team to address any issues or questions.
+  9. [FV] Deliver the financial statements to the company's executives and external auditors.
+  10. [FV] Conduct a follow-up meeting with the accounting team to review the closing process and identify areas for improvement.
+[C]
+  1. [IC] Review the financial closing checklist to ensure all tasks are accounted for.
+  2. [NA] Navigate the accounting software to access the general ledger and relevant financial data.
+  3. [PD] Diagnose discrepancies in account balances and investigate the causes.
+  4. [ME] Adjust entries in the general ledger to correct identified discrepancies.
+  5. [ME] Prepare the financial statements (income statement, balance sheet, cash flow statement).
+  6. [FV] Review the financial statements for accuracy and completeness.
+  7. [IC] Communicate findings and any issues to the accounting team for review and resolution.
+  8. [FV] Deliver the finalized financial statements to the company's executives and external auditors.
+[D]
+  1. [IC] Review and understand the financial closing checklist to ensure all tasks are accounted for.
+  2. [IC] Conduct a team meeting to assign tasks, set deadlines, and communicate responsibilities for the closing process.
+  3. [NA] Navigate the accounting software to access the general ledger and reconcile accounts.
+  4. [PD] Diagnose and investigate discrepancies in account balances using knowledge of accounting principles and financial regulations.
+  5. [ME] Adjust entries in the general ledger to correct identified discrepancies and ensure accurate financial records.
+  6. [ME] Prepare the financial statements (income statement, balance sheet, cash flow statement) using the adjusted general ledger.
+  7. [FV] Review the financial statements for accuracy, completeness, and compliance with financial regulations.
+  8. [IC] Communicate with the accounting team to address any issues, answer questions, and ensure understanding of the closing process.
+  9. [FV] Deliver the finalized financial statements to the company's executives and external auditors for further review and processing.
+  10. [FV] Conduct a follow-up meeting with the accounting team to review the closing process, identify areas for improvement, and plan for future closings.
+
+--- Task 390: Cut trees or logs.
+[A]
+  1. [IC] Review the trail map and identify the path to be cleared.
+  2. [NA] Put on personal protective equipment (PPE), including hard hat, safety glasses, ear protection, and steel-toed boots.
+  3. [PD] Inspect the felling area for any hazards, such as power lines, rock outcrops, or animal nests.
+  4. [PD] Select the first tree to be felled based on its species, size, and proximity to the path.
+  5. [NA] Start the chainsaw and ensure it is functioning properly.
+  6. [ME] Make the undercut (the first cut) on the side of the tree where it is intended to fall.
+  7. [ME] Make the back cut (the second cut) on the opposite side of the tree, slightly above the undercut.
+  8. [PD] Monitor the tree's movement and guide it to fall in the intended direction.
+  9. [FV] Allow the tree to fall completely and ensure it lands safely without causing damage.
+  10. [FV] Turn off the chainsaw and secure it.
+  11. [FV] Inspect the cleared path for any remaining hazards or debris and remove them if necessary.
+[B]
+  1. [PD] Inspect the marked tree for lean, surrounding obstacles, and potential hazards like dead branches.
+  2. [ME] Clear a safe working area around the base of the tree, removing brush and loose debris.
+  3. [NA] Position the chainsaw at the designated felling notch, ensuring proper stance and grip.
+  4. [ME] Engage the chainsaw and make the initial cut, following the planned notch angle.
+  5. [ME] Continue cutting through the tree trunk, applying consistent pressure and monitoring the felling direction.
+  6. [PD] Listen for the cracking sound indicating the tree is about to fall.
+  7. [NA] Move to a safe distance in the planned escape route as the tree begins to fall.
+  8. [FV] Visually confirm that the tree has fallen in the intended direction and clear of obstacles.
+  9. [ME] Buck the felled tree into manageable sections using the chainsaw.
+  10. [FV] Inspect the cleared path for any remaining hazards or debris and remove them if necessary.
+  11. [IC] Communicate with the trail crew to confirm the path has been successfully cleared and is ready for marking.
+[C]
+  1. [PD] Assess the tree's condition, surrounding environment, and potential hazards like dead branches or power lines.
+  2. [NA] Don safety equipment including helmet, gloves, eye protection, and appropriate footwear.
+  3. [ME] Clear a safe working area around the tree base, removing brush and loose debris.
+  4. [PD] Plan the felling direction, considering the tree's lean and surrounding obstacles.
+  5. [ME] Make the undercut and back cut, following proper chainsaw techniques to avoid kickback.
+  6. [PD] Monitor the tree's movement and guide it to fall in the intended direction, moving to a safe distance as it begins to fall.
+  7. [FV] Confirm the tree has fallen safely and clear of obstacles.
+  8. [FV] Turn off the chainsaw and secure it.
+[D]
+  1. [PD] Review the work area and identify the tree(s) to be cut, considering their condition, surrounding environment, and intended falling direction.
+  2. [NA] Put on safety equipment, including helmet, gloves, protective eyewear, and other necessary PPE.
+  3. [NA] Start the chainsaw and ensure it is functioning properly.
+  4. [ME] Make the undercut (first cut) on the side of the tree where it is intended to fall, at a 60-70° angle.
+  5. [ME] Make the back cut (second cut) on the opposite side of the tree, slightly above the undercut, until the tree begins to lean.
+  6. [PD] Monitor the tree's movement, guide it to fall in the intended direction, and ensure it lands safely without causing damage.
+  7. [FV] Allow the tree to fall completely, then turn off the chainsaw and secure it.
+  8. [FV] Remove safety equipment and inspect it for any damage.
+  9. [IC] Document the work completed, report any issues or observations, and communicate with the team regarding the next steps.
+  10. [FV] Inspect the work area for any remaining hazards or debris and remove them if necessary.
+
+--- Task 391: Monitor clients to evaluate treatment progress.
+[A]
+  1. [IC] Greet the client warmly, establish rapport, and review the session agenda to ensure a comfortable environment.
+  2. [PD] Review the client's previous session notes and digital records to understand their baseline performance and progress.
+  3. [PD] Engage in open-ended conversation with the client to assess their current emotional state and any changes since the last session.
+  4. [PD] Observe the client's non-verbal cues (body language, tone of voice, facial expressions) for signs of anxiety or distress.
+  5. [PD] Ask targeted questions to gather specific information about the client's progress and any challenges they have faced.
+  6. [FV] Discuss the client's progress in relation to their goals, highlighting areas of improvement and identifying persistent challenges.
+  7. [ME] Collaboratively develop strategies for addressing ongoing challenges and reinforcing positive progress, setting specific goals and objectives.
+  8. [FV] Document the session's progress, including assessment results, feedback, and the developed action plan in the client's electronic health record.
+  9. [IC] Summarize the session's key takeaways, action plan, and next steps with the client, ensuring mutual understanding.
+  10. [FV] Schedule the next session and provide the client with specific exercises or strategies to continue at home.
+[B]
+  1. [IC] Greet the client, establish rapport, and review the agenda for the session.
+  2. [IC] Actively listen to the client's self-reported experiences and challenges related to their social anxiety.
+  3. [PD] Observe the client's non-verbal cues (body language, tone of voice, facial expressions) for signs of anxiety or distress.
+  4. [IC] Ask clarifying questions to probe deeper into the client's experiences and identify specific examples of progress or setbacks.
+  5. [NA] Refer to the client's CBT treatment plan and identify specific goals or techniques that are relevant to the reported experiences.
+  6. [FV] Discuss the client's progress in relation to their goals, highlighting areas of improvement and identifying persistent challenges.
+  7. [ME] Collaboratively develop strategies for addressing ongoing challenges and reinforcing positive progress.
+  8. [IC] Summarize the key takeaways from the session and schedule the next appointment.
+  9. [FV] Document the session's progress and any changes to the treatment plan in the client's electronic health record.
+  10. [IC] Bid the client farewell, expressing your support and looking forward to the next session.
+[C]
+  1. [IC] The therapist greets the client, reviews the session agenda, and ensures a comfortable environment.
+  2. [PD] The therapist reviews the client's previous session notes and digital records to understand the baseline performance and progress.
+  3. [IC] The therapist engages in open-ended conversation with the client to assess their current emotional state and progress towards goals.
+  4. [PD] The therapist observes the client's nonverbal cues (body language, tone of voice, facial expressions) for signs of progress or challenges.
+  5. [ME] The therapist, if applicable, guides the client through specific exercises or assessments relevant to their treatment plan.
+  6. [FV] The therapist discusses the assessment results and observations with the client, providing specific feedback and highlighting areas for improvement.
+  7. [ME] The therapist collaboratively develops a plan with the client to address areas for improvement, setting specific goals and objectives.
+  8. [IC] The therapist summarizes the session's key takeaways, action plan, and next steps with the client, ensuring mutual understanding.
+  9. [FV] The therapist documents the session's progress, including assessment results, feedback, and the developed action plan in the client's records.
+[D]
+  1. [IC] Greet the client warmly, establish rapport, and review the session agenda.
+  2. [PD] Review the client's previous session notes and digital records to understand their baseline performance and progress.
+  3. [PD] Ask open-ended questions to understand the client's emotional state, any pain or discomfort, and changes since the last session.
+  4. [PD] Actively listen to the client's responses, paraphrasing and summarizing to ensure understanding and engagement.
+  5. [ME] Consult the client's treatment plan and align the current session's goals accordingly.
+  6. [NA] Lead the client to the testing area and prepare necessary equipment for the evaluation.
+  7. [PD] Observe the client performing exercises or tasks, recording range of motion, strength, and any signs of discomfort or progress.
+  8. [PD] Compare the current data with baseline data and previous session records to evaluate progress.
+  9. [IC] Discuss the findings with the client, providing specific feedback and highlighting areas for improvement.
+  10. [ME] Collaboratively develop a plan to address areas for improvement, setting specific goals and objectives.
+  11. [FV] Document the session's progress, including assessment results, feedback, and the developed action plan in the client's electronic health record.
+  12. [NA] Escort the client back to the reception area, ensuring their comfort, privacy, and expressing your support for the next session.
+
+--- Task 392: Refer customers to appropriate personnel.
+[A]
+  1. [IC] Answer the incoming call and greet the customer professionally.
+  2. [PD] Listen actively to the customer's description of their issue or inquiry, taking notes as necessary.
+  3. [IC] Ask clarifying questions to confirm the customer's issue or inquiry, if necessary.
+  4. [NA] Access the company's internal directory or CRM system to locate the appropriate department or specialist for the customer's issue.
+  5. [ME] Connect the customer to the appropriate department or specialist, either by transferring the call or providing them with the correct contact information.
+  6. [FV] Confirm with the customer that they have been connected to the appropriate department or specialist, and thank them for their patience.
+  7. [FV] Document the call details, including the customer's issue, the department or specialist they were referred to, and any follow-up actions required.
+[B]
+  1. [IC] Answer the incoming call and greet the customer professionally.
+  2. [PD] Listen actively to the customer's description of their issue or inquiry, taking notes as necessary.
+  3. [IC] Ask clarifying questions to confirm the customer's issue or inquiry, if necessary.
+  4. [NA] Access the company's internal directory or CRM system to locate the appropriate department or specialist for the customer's issue.
+  5. [ME] Connect the customer to the appropriate department or specialist, either by transferring the call or providing them with the correct contact information.
+  6. [FV] Confirm with the customer that they have been connected to the appropriate department or specialist, and thank them for their patience.
+  7. [FV] Document the call details, including the customer's issue, the department or specialist they were referred to, and any follow-up actions required.
+[C]
+  1. [IC] Greet the customer and actively listen to their issue, asking clarifying questions to ensure understanding.
+  2. [PD] Identify the appropriate department or personnel based on the customer's issue.
+  3. [NA] Access the company's directory or system to locate the contact information for the designated department or personnel.
+  4. [IC] Inform the customer about the appropriate department or personnel and provide them with the contact information.
+  5. [IC] Offer to transfer the call directly or assist with any further questions.
+  6. [FV] Confirm the customer understands the referral and feels satisfied with the assistance provided.
+[D]
+  1. [IC] Greet the customer professionally and ask them to describe their issue.
+  2. [IC] Listen actively to the customer's description, taking notes as necessary, and ask clarifying questions to ensure understanding.
+  3. [PD] Identify the specific issue and determine the appropriate department or specialist based on the customer's description.
+  4. [NA] Access the company's internal directory or CRM system to locate the appropriate department or specialist.
+  5. [IC] Inform the customer about the appropriate department or specialist and provide them with the correct contact information or initiate the transfer.
+  6. [FV] Confirm with the customer that they have been connected to the appropriate department or specialist, and thank them for their patience.
+  7. [FV] Document the call details, including the customer's issue, the department or specialist they were referred to, and any follow-up actions required.
+
+================================================================
+ANSWER TEMPLATE
+
+385: _ | 
+386: _ | 
+387: _ | 
+388: _ | 
+389: _ | 
+390: _ | 
+391: _ | 
+392: _ | 
+

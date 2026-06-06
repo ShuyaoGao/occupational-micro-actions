@@ -1,0 +1,5 @@
+﻿,BGE=LLM,BGE=Multimodal_Perception,BGE=Embodied,BGE=Human_Bound
+human=LLM,39,1,0,2
+human=Multimodal_Perception,2,30,0,0
+human=Embodied,1,2,32,1
+human=Human_Bound,2,0,1,37

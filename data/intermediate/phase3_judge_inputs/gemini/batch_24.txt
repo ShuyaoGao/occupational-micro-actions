@@ -1,0 +1,394 @@
+BATCH 24/63 | Model: Gemini 3 Pro | Tasks 185-192
+================================================================
+EXPERT REVIEW -- Micro-Action Sequence Evaluation
+For each task, read ALL four options, then choose the BEST (A/B/C/D).
+
+Criteria:
+  1. Completeness  -- no critical steps missing
+  2. Realism       -- every step is concretely executable
+  3. Stage accuracy -- stage label correct for each step:
+     IC=Intent_Communication  NA=Navigation_Addressing
+     PD=Perception_Diagnosis  ME=Manipulation_Execution  FV=Feedback_Verification
+  4. Conciseness   -- no redundant or duplicate steps
+  5. Scope         -- starts and ends at exactly the right point
+
+OUTPUT: fill the ANSWER TEMPLATE at the bottom.
+Format: N: X | one-sentence reason (max 12 words)
+IMPORTANT: Each task has a different best answer. Do NOT pick the same
+letter for every task without reading.
+================================================================
+
+--- Task 185: Manage organizational security activities.
+[A]
+  1. [IC] Review the company's security policies and procedures to understand the current security posture.
+  2. [NA] Access the company's security information and event management (SIEM) system to monitor real-time security events.
+  3. [PD] Analyze security events to identify potential threats or anomalies.
+  4. [ME] Prioritize identified threats based on their potential impact and likelihood.
+  5. [ME] Implement temporary countermeasures to mitigate high-priority threats.
+  6. [IC] Coordinate with relevant teams (e.g., IT, legal) to address high-priority threats.
+  7. [PD] Investigate security incidents to determine their root cause and impact.
+  8. [ME] Develop and implement a plan to remediate security incidents and prevent future occurrences.
+  9. [FV] Test security systems and policies to ensure they are effective and up-to-date.
+  10. [FV] Document security activities, incidents, and remediation plans in the company's security log.
+  11. [IC] Present a report on security activities, incidents, and remediation plans to the company's executive team.
+[B]
+  1. [PD] Review security alerts flagged by the intrusion detection system.
+  2. [PD] Investigate a reported phishing email by analyzing its content and sender information.
+  3. [IC] Communicate with the employee who reported the phishing attempt, confirming the threat and providing guidance.
+  4. [ME] Isolate the affected employee's computer from the network to prevent further compromise.
+  5. [PD] Review security logs for unusual activity related to the phishing attempt.
+  6. [ME] Update employee security training materials to include examples of the latest phishing tactics.
+  7. [IC] Schedule a meeting with IT staff to discuss security vulnerabilities identified during the log review.
+  8. [FV] Document the incident response process and lessons learned for future reference.
+  9. [IC] Review the company's security policies and procedures to understand the current security posture.
+  10. [NA] Access the company's security information and event management (SIEM) system to monitor real-time security events.
+  11. [PD] Analyze security events to identify potential threats or anomalies.
+  12. [ME] Prioritize identified threats based on their potential impact and likelihood.
+  13. [ME] Implement temporary countermeasures to mitigate high-priority threats.
+  14. [IC] Coordinate with relevant teams (e.g., IT, legal) to address high-priority threats.
+  15. [PD] Investigate security incidents to determine their root cause and impact.
+  16. [ME] Develop and implement a plan to remediate security incidents and prevent future occurrences.
+  17. [FV] Test security systems and policies to ensure they are effective and up-to-date.
+  18. [FV] Document security activities, incidents, and remediation plans in the company's security log.
+  19. [IC] Present a report on security activities, incidents, and remediation plans to the company's executive team.
+[C]
+  1. [PD] Conduct a comprehensive security audit to identify vulnerabilities and assess the current security posture.
+  2. [IC] Develop a detailed security policy document outlining security measures to address identified vulnerabilities.
+  3. [IC] Present the security policy to senior management for review and approval.
+  4. [ME] Deploy necessary security tools and software to implement the approved security measures.
+  5. [ME] Conduct mandatory security training for all employees on the new policies and procedures.
+  6. [PD] Continuously monitor the company's network and systems for security breaches or suspicious activity.
+  7. [FV] Document all security incidents, responses taken, and lessons learned for future reference.
+  8. [FV] Regularly review and update the security policy and procedures based on evolving threats and industry best practices.
+[D]
+  1. [IC] Review and understand the company's current security policies and procedures.
+  2. [NA] Access and monitor the company's security information and event management (SIEM) system for real-time security events.
+  3. [PD] Analyze security events to identify potential threats or anomalies.
+  4. [ME] Prioritize identified threats based on their potential impact and likelihood.
+  5. [ME] Implement temporary countermeasures to mitigate high-priority threats.
+  6. [IC] Coordinate with relevant teams (e.g., IT, legal) to address high-priority threats.
+  7. [PD] Investigate security incidents to determine their root cause and impact.
+  8. [ME] Develop and implement a plan to remediate security incidents and prevent future occurrences.
+  9. [FV] Test security systems and policies to ensure they are effective and up-to-date.
+  10. [FV] Document security activities, incidents, and remediation plans in the company's security log.
+  11. [IC] Present a report on security activities, incidents, and remediation plans to the company's executive team.
+
+--- Task 186: Sort materials or products for processing, storing, shipping, or grading.
+[A]
+  1. [IC] Scan the QR code on the pallet to retrieve the delivery route manifest.
+  2. [NA] Set up the sorting station with bins labeled for each type and quality grade.
+  3. [NA] Pick up the first package from the pallet using proper lifting techniques.
+  4. [PD] Read the package label to identify the delivery route and any special handling instructions.
+  5. [ME] Place the package in the correct sorting bin based on the delivery route and handling instructions.
+  6. [ME] Repeat steps 3-5 for the next package until the pallet is empty.
+  7. [PD] Check the manifest to ensure all packages have been sorted.
+  8. [IC] Scan the QR code on the first full sorting bin to update the inventory system with the sorted packages.
+  9. [IC] Notify the loading team that the sorting is complete and the bins are ready for loading onto the delivery trucks.
+  10. [FV] Conduct a final check of the loaded bins to ensure all packages are present and secure.
+[B]
+  1. [NA] Retrieve the batch of electronic components from the storage area.
+  2. [NA] Set up the sorting station with bins labeled for each type and quality grade.
+  3. [PD] Inspect the first component to identify its type (resistor, capacitor, or integrated circuit).
+  4. [PD] Grade the component based on its condition (e.g., A, B, or C grade).
+  5. [ME] Place the component in the corresponding bin based on its type and grade.
+  6. [ME] Repeat steps 3-5 for each component in the batch.
+  7. [FV] Count the number of components in each bin to ensure all items are accounted for.
+  8. [FV] Label each bin with the type and grade of components it contains.
+  9. [FV] Confirm that all bins are correctly labeled and ready for shipment.
+  10. [NA] Move the sorted bins to the shipping area for further processing.
+[C]
+  1. [NA] Retrieve the batch of materials from the designated storage area.
+  2. [PD] Inspect the first item to identify its type and assess its condition.
+  3. [IC] Based on type and condition, determine the appropriate sorting category (e.g., type, grade).
+  4. [ME] Place the item into the corresponding sorting bin.
+  5. [ME] Repeat steps 2-4 for each remaining item in the batch.
+  6. [FV] Visually scan each bin to confirm all items are correctly sorted.
+  7. [FV] Label each bin clearly with its contents (type and grade).
+[D]
+  1. [NA] Retrieve the batch of materials/products from the storage/processing area.
+  2. [NA] Set up the sorting station with bins labeled for each category (e.g., type, quality, destination).
+  3. [PD] Inspect the first item to identify its category (e.g., type, destination, quality).
+  4. [ME] Place the item in the corresponding bin based on its identified category.
+  5. [ME] Repeat steps 3-4 for each item in the batch until all items are sorted.
+  6. [FV] Verify that all items have been sorted by counting or checking the contents of each bin.
+  7. [IC] Update the inventory system or document any issues encountered during the sorting process.
+  8. [PD] Review the sorted items to ensure they meet the required quality standards and are ready for processing, storing, shipping, or grading.
+  9. [NA] Move the sorted bins to the appropriate area for further processing, storage, shipping, or grading.
+
+--- Task 187: Maintain locomotives or other rail equipment in good working condition.
+[A]
+  1. [IC] Review the locomotive's maintenance history and any reported issues on the digital maintenance management system.
+  2. [NA] Put on personal protective equipment (PPE) and approach the locomotive, navigating around other technicians and equipment in the yard.
+  3. [PD] Inspect the locomotive's exterior for any visible damage or leaks, paying special attention to the engine, fuel, and cooling systems.
+  4. [ME] Access the locomotive's engine compartment and remove the engine covers to expose the engine block and components.
+  5. [ME] Check the engine oil level and condition, and replace the oil filter if necessary.
+  6. [PD] Inspect the engine's electrical components, such as the alternator, starter motor, and solenoids, for any signs of damage or wear.
+  7. [ME] Check the locomotive's air brakes and air lines for any leaks or damage, and recharge the air tanks if necessary.
+  8. [FV] Test the locomotive's systems by running the engine and checking for any error codes or unusual noises.
+  9. [IC] Document the maintenance performed, any issues found, and the locomotive's current status in the digital maintenance management system.
+[B]
+  1. [IC] Review the locomotive's maintenance history and any reported issues from the last operation.
+  2. [NA] Access the locomotive maintenance bay and gather necessary tools and diagnostic equipment.
+  3. [PD] Inspect the exterior of the locomotive for any visible damage or wear.
+  4. [PD] Open the engine compartment and visually inspect the engine for leaks, wear, or damage.
+  5. [PD] Use diagnostic tools to check the engine's performance and sensor readings.
+  6. [PD] Inspect the braking system, including the air brake system and brake pads.
+  7. [PD] Check the electrical components, such as the generator, batteries, and control systems.
+  8. [ME] Perform any necessary repairs or replacements, such as tightening bolts, replacing worn parts, or cleaning components.
+  9. [FV] Test the engine and braking system to ensure they are functioning correctly.
+  10. [IC] Document the maintenance performed and any issues identified or resolved.
+  11. [FV] Close the locomotive maintenance bay and prepare the locomotive for return to service.
+[C]
+  1. [IC] Review the locomotive's maintenance history and any reported issues.
+  2. [NA] Navigate to the locomotive, ensuring safety protocols are followed.
+  3. [PD] Conduct a visual inspection of the locomotive's exterior for damage or leaks.
+  4. [NA] Access the engine compartment and prepare for detailed inspection.
+  5. [PD] Inspect engine components, fluids, and electrical systems for wear, leaks, or damage.
+  6. [ME] Perform necessary maintenance tasks: fluid top-offs, filter replacements, tightening bolts.
+  7. [PD] Connect diagnostic equipment and run tests to check engine performance.
+  8. [FV] Test locomotive systems (engine, brakes) to ensure proper function.
+  9. [IC] Document all maintenance performed, issues found, and the locomotive's current status.
+[D]
+  1. [IC] Review the locomotive's maintenance history, schedule, and any reported issues using the digital maintenance management system.
+  2. [NA] Put on personal protective equipment (PPE) and navigate to the locomotive, adhering to safety protocols and avoiding other technicians and equipment in the yard.
+  3. [PD] Inspect the locomotive's exterior for visible damage, leaks, or wear, focusing on the engine, fuel, and cooling systems.
+  4. [ME] Access the locomotive's engine compartment and remove engine covers to expose the engine block and components.
+  5. [ME] Check and maintain engine fluids (oil, coolant) levels, replace the oil filter if necessary, and lubricate moving parts.
+  6. [PD] Inspect and test the locomotive's electrical components, air brakes, air lines, traction motors, and gearboxes for any signs of damage or wear.
+  7. [ME] Perform any necessary repairs, replacements, or cleaning, and document all work completed.
+  8. [FV] Test the locomotive's systems by running the engine and checking for any error codes or unusual noises.
+  9. [ME] Clean up the work area, replace engine covers, and secure any tools or equipment used during the maintenance process.
+  10. [IC] Document the maintenance performed, any issues found, and the locomotive's current status in the digital maintenance management system.
+
+--- Task 188: Train personnel.
+[A]
+  1. [IC] Develop a customized training plan for the new employees, taking into account their prior experience and any relevant certifications.
+  2. [NA] Set up the training room with all necessary equipment and materials, including machinery models, instructional videos, and practice stations.
+  3. [IC] Welcome the trainees and introduce the training program, explaining the objectives, timeline, and expectations.
+  4. [IC] Explain the safety protocols and the potential hazards associated with the machinery, and demonstrate the proper use of personal protective equipment (PPE).
+  5. [PD] Show the machinery and explain its components and functions, then demonstrate the operational procedures for the machinery, including startup, operation, and shutdown.
+  6. [ME] Walk the trainees through the machinery, allowing them to observe the demonstration closely, and ask them to perform a dry run of the operational procedures with guidance.
+  7. [IC] Conduct a Q&A session to address any questions or concerns from the trainees.
+  8. [FV] Administer a practical test to assess the trainees' understanding and ability to operate the machinery safely.
+  9. [FV] Provide feedback on the practical test and any additional guidance needed, and document the training session for future improvements.
+[B]
+  1. [IC] Gather the new employees in the training room and introduce the training agenda.
+  2. [IC] Explain the safety protocols and the potential hazards associated with the machinery.
+  3. [ME] Demonstrate the proper use of personal protective equipment (PPE) required for operating the machinery.
+  4. [PD] Show the machinery and explain its components and functions.
+  5. [ME] Demonstrate the operational procedures for the machinery, including startup, operation, and shutdown.
+  6. [NA] Walk the trainees through the machinery, allowing them to observe the demonstration closely.
+  7. [ME] Ask the trainees to perform a dry run of the operational procedures, with the supervisor providing guidance.
+  8. [IC] Conduct a Q&A session to address any questions or concerns from the trainees.
+  9. [FV] Administer a practical test to assess the trainees' understanding and ability to operate the machinery safely.
+  10. [FV] Provide feedback on the practical test and any additional guidance needed.
+[C]
+  1. [IC] Gather trainees and introduce the training program, outlining objectives, timeline, and expectations.
+  2. [IC] Present safety protocols and potential hazards associated with the machinery, emphasizing PPE usage.
+  3. [ME] Demonstrate the proper use of PPE and safe operating procedures for the machinery.
+  4. [ME] Guide trainees through hands-on practice of operational procedures, providing feedback and addressing individual needs.
+  5. [IC] Conduct a Q&A session to clarify doubts and reinforce understanding.
+  6. [FV] Administer a practical test to assess trainee competency and identify areas for improvement.
+  7. [FV] Provide individualized feedback on the practical test, offering guidance and support for further development.
+[D]
+  1. [IC] Gather new employees in the training room and introduce the training agenda, including objectives, timeline, and expectations.
+  2. [IC] Review training materials and develop a customized training plan, considering trainees' prior experience and relevant certifications.
+  3. [NA] Set up the training area with necessary equipment, materials, and safety measures, including PPE and safety protocols.
+  4. [IC] Explain safety protocols, potential hazards, and the proper use of PPE required for operating the machinery or performing the task.
+  5. [ME] Demonstrate the proper use of the machinery or task execution, including startup, operation, and shutdown or completion.
+  6. [NA] Walk trainees through the machinery or task area, allowing them to observe the demonstration closely and ask questions.
+  7. [ME] Ask trainees to perform a dry run or practice the task under guidance, providing feedback and coaching as needed.
+  8. [IC] Conduct a Q&A session to address any questions or concerns from the trainees, ensuring they feel comfortable and confident.
+  9. [FV] Administer a practical test or evaluation to assess trainees' understanding and ability to perform the task safely and correctly.
+  10. [FV] Provide constructive feedback on the practical test or evaluation, offering additional guidance and resources as needed.
+  11. [FV] Document the training session, including challenges, successes, and areas for improvement, to inform future training programs.
+
+--- Task 189: Provide basic health care services.
+[A]
+  1. [IC] The nurse greets the patient, introduces themselves, and reviews the patient's medical history.
+  2. [PD] The nurse takes the patient's vital signs, including blood pressure, temperature, and pulse.
+  3. [ME] The nurse administers a vaccination to the patient, following proper safety protocols.
+  4. [IC] The nurse educates the patient on preventive care, including healthy habits and disease prevention.
+  5. [FV] The nurse documents the patient's vital signs, the vaccination administration, and the health education provided in the electronic medical record.
+[B]
+  1. [IC] Greet the patient and confirm their identity by checking their ID and medical record.
+  2. [NA] Ask the patient to sit on the examination table and prepare the necessary medical equipment.
+  3. [PD] Measure the patient's blood pressure using a sphygmomanometer.
+  4. [PD] Measure the patient's temperature using a thermometer.
+  5. [PD] Measure the patient's oxygen saturation using a pulse oximeter.
+  6. [ME] Prepare the flu shot by selecting the correct vial and syringe, and disinfecting the patient's arm.
+  7. [ME] Administer the flu shot by injecting the vaccine into the patient's arm.
+  8. [FV] Observe the patient for any adverse reactions for a few minutes after the injection.
+  9. [IC] Provide health education to the patient, explaining the importance of the flu shot and answering any questions.
+  10. [FV] Document the patient's vital signs, the flu shot administration, and the health education provided in the electronic medical record.
+[C]
+  1. [IC] Greet the patient, confirm their identity, and briefly review their medical history.
+  2. [PD] Take the patient's vital signs (blood pressure, temperature, pulse).
+  3. [ME] Administer any necessary vaccinations or medications, following safety protocols.
+  4. [PD] Visually assess the patient for any obvious signs of illness or injury.
+  5. [IC] Explain the screening results and any necessary follow-up care to the patient in clear language.
+  6. [IC] Provide basic health education materials relevant to the patient's situation.
+  7. [FV] Document all procedures, findings, and patient education provided in the medical record.
+[D]
+  1. [IC] Greet the patient, introduce yourself, and review their medical history and current medications.
+  2. [NA] Wash hands thoroughly with soap and water to maintain sterility.
+  3. [ME] Put on personal protective equipment (PPE), including gloves and gown, if necessary.
+  4. [PD] Measure the patient's vital signs: blood pressure, temperature, and pulse.
+  5. [PD] Visually assess the patient for any obvious signs of illness or injury.
+  6. [ME] Administer any prescribed medications, ensuring the correct medication, dose, and route.
+  7. [ME] Perform any necessary wound care, cleaning the site using sterile technique and applying a dressing.
+  8. [IC] Provide health education to the patient, explaining any procedures, medications, or follow-up care.
+  9. [FV] Document the patient's vital signs, medications administered, and any procedures performed in their medical record.
+  10. [NA] Remove PPE, dispose of it appropriately, and wash hands again to maintain sterility.
+
+--- Task 190: Evaluate scholarly materials.
+[A]
+  1. [IC] Receive the list of scholarly articles and evaluation criteria from the professor.
+  2. [ME] Create a spreadsheet with columns for article title, author, summary, score, and recommendation.
+  3. [NA] Access the first article using the provided citation or DOI.
+  4. [PD] Read the abstract and introduction to understand the research question and objectives.
+  5. [PD] Review the methodology, results, discussion, and conclusion sections to assess the article's rigor and implications.
+  6. [ME] Summarize the article's main points and arguments in one paragraph.
+  7. [ME] Score the article based on the given criteria (e.g., relevance, methodology, significance).
+  8. [ME] Write a brief recommendation for the professor based on the article's strengths and weaknesses.
+  9. [ME] Enter the article's details and your evaluation into the spreadsheet.
+  10. [FV] Repeat steps 3 to 9 for the remaining articles.
+  11. [FV] Review the completed spreadsheet to ensure all articles have been evaluated.
+  12. [IC] Submit the completed spreadsheet to the professor for review.
+[B]
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+[C]
+  1. [IC] Receive the list of scholarly articles and evaluation criteria.
+  2. [NA] Access the first article using the provided citation or DOI.
+  3. [PD] Skim the title, abstract, and introduction to grasp the article's topic and argument.
+  4. [PD] Thoroughly read the article, taking notes on methodology, data analysis, conclusions, and key findings.
+  5. [FV] Evaluate the article based on the given criteria, scoring it accordingly.
+  6. [ME] Summarize the article's main points and arguments in a concise manner.
+  7. [ME] Write a brief recommendation based on the article's strengths and weaknesses.
+  8. [FV] Repeat steps 2-7 for the remaining articles.
+  9. [FV] Review all evaluations for completeness and accuracy.
+  10. [IC] Submit the completed evaluations to the designated recipient.
+[D]
+  1. [IC] Receive the list of scholarly articles and evaluation criteria from the professor or journal.
+  2. [ME] Create a structured document or spreadsheet to record article details, summaries, scores, and recommendations.
+  3. [NA] Access the first article using the provided citation, DOI, or other means.
+  4. [PD] Skim the title, abstract, and introduction to understand the article's topic, argument, and main points.
+  5. [PD] Read the entire article, taking notes on key points, methodology, data analysis, conclusions, and any limitations.
+  6. [ME] Summarize the article's main points, arguments, and findings in a concise manner.
+  7. [ME] Score the article based on the given evaluation criteria, such as relevance, methodology, significance, and overall quality.
+  8. [ME] Write a brief recommendation or feedback based on the article's strengths, weaknesses, and potential improvements.
+  9. [ME] Enter the article's details, summary, score, and recommendation into the structured document or spreadsheet.
+  10. [FV] Repeat steps 3 to 9 for the remaining articles, ensuring all have been evaluated.
+  11. [FV] Review the completed document or spreadsheet to ensure all articles have been evaluated and the information is accurate.
+  12. [IC] Submit the completed evaluation document or spreadsheet to the professor, journal, or other stakeholders for review.
+
+--- Task 191: Inform individuals or organizations of status or findings.
+[A]
+  1. [IC] Greet the client and confirm the purpose of the communication.
+  2. [NA] Navigate to and retrieve the relevant information or report.
+  3. [PD] Present the status or findings clearly and concisely.
+  4. [ME] Address any immediate questions or concerns from the client.
+  5. [ME] Discuss next steps and any actions required from the client.
+  6. [FV] Confirm the client's understanding and satisfaction with the information provided.
+  7. [FV] Provide the client with a copy of the report or relevant documentation.
+  8. [IC] End the communication positively and send a follow-up summary if necessary.
+[B]
+  1. [IC] Greet the client and confirm the purpose of the call.
+  2. [NA] Share the screen to display the prepared report.
+  3. [PD] Review the key sections of the report, highlighting the status of the project.
+  4. [PD] Present the findings, including any issues encountered and solutions proposed.
+  5. [IC] Address any immediate questions or concerns from the client.
+  6. [ME] Discuss next steps and any actions required from the client.
+  7. [FV] Confirm the client's understanding and satisfaction with the information provided.
+  8. [FV] Provide the client with a copy of the report via email or a shared document.
+  9. [FV] End the call and send a follow-up email summarizing the discussion and next steps.
+[C]
+  1. [IC] Greet the client and confirm the purpose of the communication.
+  2. [PD] Present the key findings or status update, using clear and concise language.
+  3. [FV] Address any questions or concerns the client may have.
+  4. [ME] Discuss next steps and any actions required from the client.
+  5. [FV] Summarize the key points discussed and confirm the client's understanding.
+  6. [IC] Conclude the communication, expressing appreciation for their time.
+[D]
+  1. [IC] Greet the individual/organization warmly and introduce yourself.
+  2. [IC] Confirm the identity of the individual/organization and the purpose of the communication.
+  3. [NA] Share the prepared report or relevant information, using clear and concise language.
+  4. [PD] Review and highlight the key sections of the report, focusing on the status or findings.
+  5. [PD] Present the findings, including any issues encountered, proposed solutions, or next steps.
+  6. [IC] Address any immediate questions or concerns, showing empathy and understanding.
+  7. [ME] Discuss and agree on next steps or actions required from the individual/organization.
+  8. [FV] Confirm the individual/organization's understanding and satisfaction with the information provided.
+  9. [FV] Provide the individual/organization with a copy of the report or relevant documents, if applicable.
+  10. [IC] End the communication on a positive note, thanking the individual/organization for their time and patience.
+
+--- Task 192: Prepare compounds or solutions for products or testing.
+[A]
+  1. [IC] Review the protocol and safety guidelines for preparing the solution.
+  2. [NA] Gather the necessary equipment and chemicals: volumetric flask, balance, pipette, and required chemicals.
+  3. [ME] Weigh the required amount of the drug compound using the balance.
+  4. [ME] Transfer the weighed compound into the volumetric flask and add a small amount of solvent to dissolve the compound.
+  5. [ME] Continue adding solvent until the solution reaches the 100 mL mark on the volumetric flask.
+  6. [ME] Cap the volumetric flask and invert several times to thoroughly mix the solution.
+  7. [FV] Label the volumetric flask with the solution details, including the concentration and date.
+  8. [PD] Check the solution for clarity and homogeneity.
+  9. [NA] Store the solution in a designated area for quality control testing.
+  10. [FV] Document the preparation process and results in the lab notebook.
+[B]
+  1. [IC] Review the protocol and safety guidelines for preparing the solution.
+  2. [NA] Gather the necessary equipment: a 100 mL volumetric flask, a balance, a pipette, and the required chemicals.
+  3. [PD] Weigh the required amount of the drug compound using the balance.
+  4. [ME] Transfer the weighed compound into the volumetric flask.
+  5. [ME] Add a small amount of solvent to the flask and swirl to dissolve the compound.
+  6. [ME] Continue adding solvent until the solution reaches the 100 mL mark on the volumetric flask.
+  7. [ME] Cap the volumetric flask and invert several times to thoroughly mix the solution.
+  8. [FV] Label the volumetric flask with the solution details, including the concentration and date.
+  9. [PD] Check the solution for clarity and homogeneity.
+  10. [NA] Store the solution in a designated area for quality control testing.
+  11. [FV] Document the preparation process and results in the lab notebook.
+[C]
+  1. [IC] Review the protocol and safety guidelines for preparing the solution.
+  2. [NA] Gather the necessary equipment and chemicals as specified in the protocol.
+  3. [PD] Don appropriate personal protective equipment (PPE) for handling chemicals.
+  4. [ME] Accurately measure and weigh the required amount of each chemical.
+  5. [ME] Dissolve the chemicals in the appropriate solvent, using stirring or mixing as needed.
+  6. [ME] Adjust the solution volume to the desired concentration, if necessary.
+  7. [FV] Verify the solution's concentration using appropriate methods (e.g., pH meter, spectrophotometer).
+  8. [FV] Label the container with the solution details (name, concentration, date, initials).
+  9. [NA] Store the prepared solution in the designated location according to safety protocols.
+[D]
+  1. [IC] Review the protocol, recipe, and safety guidelines for preparing the solution.
+  2. [NA] Gather necessary equipment and chemicals, including volumetric flask, balance, pipette, chemicals, and PPE.
+  3. [PD] Don appropriate PPE for handling chemicals.
+  4. [ME] Calculate the required amounts of each chemical based on the desired concentration.
+  5. [ME] Weigh and measure the required amounts of chemicals using a balance and pipette.
+  6. [ME] Transfer the measured chemicals to the volumetric flask.
+  7. [ME] Add a small amount of solvent to the flask and swirl to dissolve the compound, then continue adding solvent until the solution reaches the desired volume.
+  8. [ME] Cap the volumetric flask and invert several times to thoroughly mix the solution.
+  9. [FV] Use a pH meter or other appropriate tool to verify the solution's concentration.
+  10. [ME] Adjust the solution's concentration if necessary, following safety protocols.
+  11. [FV] Label the prepared solution with the required information (e.g., concentration, date, lot number) and store it in the appropriate location, following safety protocols.
+  12. [IC] Document the preparation process, including any deviations or issues encountered, for future reference and quality control.
+
+================================================================
+ANSWER TEMPLATE
+
+185: _ | 
+186: _ | 
+187: _ | 
+188: _ | 
+189: _ | 
+190: _ | 
+191: _ | 
+192: _ | 
+

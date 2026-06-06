@@ -1,0 +1,366 @@
+BATCH 40/63 | Model: Claude Opus 4.7 | Tasks 313-320
+================================================================
+EXPERT REVIEW -- Micro-Action Sequence Evaluation
+For each task, read ALL four options, then choose the BEST (A/B/C/D).
+
+Criteria:
+  1. Completeness  -- no critical steps missing
+  2. Realism       -- every step is concretely executable
+  3. Stage accuracy -- stage label correct for each step:
+     IC=Intent_Communication  NA=Navigation_Addressing
+     PD=Perception_Diagnosis  ME=Manipulation_Execution  FV=Feedback_Verification
+  4. Conciseness   -- no redundant or duplicate steps
+  5. Scope         -- starts and ends at exactly the right point
+
+OUTPUT: fill the ANSWER TEMPLATE at the bottom.
+Format: N: X | one-sentence reason (max 12 words)
+IMPORTANT: Each task has a different best answer. Do NOT pick the same
+letter for every task without reading.
+================================================================
+
+--- Task 313: Monitor recreational facility operations.
+[A]
+  1. [IC] Review the daily operations schedule and staff assignments, ensuring adequate coverage and preparation for expected crowds.
+  2. [PD] Conduct a walk-through of the facility to inspect the condition of equipment, pools, and other areas, identifying any potential hazards or maintenance needs.
+  3. [PD] Check the pool and gym areas for proper chemical levels, water temperature, and equipment functionality, ensuring a safe environment for patrons.
+  4. [PD] Monitor the facility's security cameras and alarm systems to detect any potential security threats or incidents, such as trespassers or equipment malfunctions.
+  5. [ME] Respond to and resolve any incidents or emergencies that arise during the day, such as injuries, equipment failures, or security breaches.
+  6. [IC] Maintain open communication with patrons, staff, and other stakeholders to ensure a positive experience and address any concerns or issues that arise.
+  7. [PD] Conduct a final walk-through of the facility to ensure everything is in order, equipment is functioning properly, and there are no remaining hazards or issues.
+  8. [FV] Document any incidents, maintenance needs, or staff performance issues, and update the facility's records and databases accordingly.
+[B]
+  1. [IC] Review the daily schedule and staff assignments for the swimming pool and snack bar.
+  2. [NA] Patrol the swimming pool area, observing swimmers and ensuring safety protocols are followed.
+  3. [PD] Check the water quality by testing the pH and chlorine levels.
+  4. [PD] Inspect the changing rooms and restrooms for cleanliness and report any issues to the cleaning staff.
+  5. [PD] Monitor the snack bar for food safety and customer service quality.
+  6. [IC] Respond to a customer's complaint about a slow service at the snack bar.
+  7. [ME] Instruct the snack bar staff to improve service speed and apologize to the customer.
+  8. [PD] Check the facility's emergency equipment and ensure it is operational.
+  9. [NA] Conduct a final walk-through of the facility before closing to ensure all areas are clean and secure.
+  10. [FV] Log the day's operations, including any incidents or issues, in the facility's management system.
+[C]
+  1. [IC] Review the daily schedule, staff assignments, and any relevant reports or incident logs.
+  2. [NA] Conduct a walk-through of the facility, systematically inspecting each area (pool, gym, changing rooms, snack bar, etc.).
+  3. [PD] Observe and assess the condition of equipment, facilities, and safety measures, noting any hazards, maintenance needs, or potential issues.
+  4. [IC] Interact with staff (lifeguards, gym attendants, snack bar personnel) to check on their well-being, address any concerns, and ensure they are following protocols.
+  5. [PD] Monitor security systems (cameras, alarms) for any unusual activity or potential threats.
+  6. [ME] Respond to any incidents or emergencies that arise, taking appropriate action to ensure the safety and well-being of patrons and staff.
+  7. [FV] Document any incidents, maintenance needs, or staff performance issues in the facility's management system.
+[D]
+  1. [IC] Review the daily schedule, staff assignments, and weather forecast to plan the inspection route and ensure adequate preparation for expected conditions.
+  2. [NA] Patrol the facility using an efficient route, addressing designated areas such as pools, locker rooms, snack bars, and other recreational spaces.
+  3. [PD] Continuously observe and assess the environment, identifying potential hazards, maintenance needs, or safety concerns using visual inspection and sensor data.
+  4. [PD] Monitor and maintain proper chemical levels, water temperature, and equipment functionality in pools and other activity areas to ensure a safe environment for patrons.
+  5. [IC] Communicate with staff to review emergency procedures, ensure their understanding of protocols, and address any concerns or issues that arise.
+  6. [ME] Respond to and resolve any incidents or emergencies that occur during the monitoring process, such as injuries, equipment failures, or security breaches.
+  7. [FV] Document any issues found, incidents, or maintenance needs using a handheld device or facility management system, including photos and notes.
+  8. [PD] Conduct a final walk-through of the facility to ensure everything is in order, equipment is functioning properly, and there are no remaining hazards or issues.
+  9. [FV] Review the day's operations, including any incidents, maintenance needs, and staff performance, to identify areas for improvement and develop strategies for future events.
+  10. [IC] Communicate with staff and stakeholders to review the day's events, provide feedback, and set expectations for future operations.
+
+--- Task 314: Interview others for news or entertainment purposes.
+[A]
+  1. [NA] Arrive at the interview location early to set up recording equipment and familiarize yourself with the environment.
+  2. [IC] Greet the interviewee warmly, make small talk to build rapport, and confirm the interview's focus and duration.
+  3. [IC] Introduce yourself and the purpose of the interview, ensuring the interviewee understands the context.
+  4. [PD] Ask the first question, maintaining eye contact and showing active listening.
+  5. [PD] Listen actively to the interviewee's response, taking notes on key points and asking follow-up questions to delve deeper.
+  6. [ME] Repeat the questioning process for each subsequent question, adapting your approach based on the interviewee's responses.
+  7. [FV] Thank the interviewee for their time and insights, and provide your contact information for any follow-up questions.
+  8. [FV] Review your notes and recordings to ensure all necessary information was captured.
+  9. [FV] Transcribe and edit your recordings, ensuring the final product accurately represents the interviewee's responses.
+[B]
+  1. [IC] Arrive at the location and greet the interviewee.
+  2. [NA] Set up recording equipment and ensure a suitable location for the interview.
+  3. [IC] Introduce yourself and the purpose of the interview, ensuring the interviewee understands the context.
+  4. [PD] Ask open-ended questions to encourage engaging and relevant responses from the interviewee.
+  5. [PD] Listen actively to the interviewee's responses, taking notes and asking follow-up questions as needed.
+  6. [IC] Conclude the interview by thanking the interviewee for their time and providing your contact information for any follow-up questions.
+  7. [FV] Review your notes and recordings to ensure all necessary information was captured.
+  8. [FV] Transcribe and edit your recordings, ensuring the final product accurately represents the interviewee's responses.
+  9. [FV] Deliver the final interview transcript to your editor or publish it according to your organization's guidelines.
+[C]
+  1. [NA] Arrive at the interview location and set up recording equipment.
+  2. [IC] Greet the interviewee, introduce yourself, and confirm the interview's focus.
+  3. [IC] Begin with open-ended questions about the interviewee's background or the topic at hand.
+  4. [PD] Actively listen to responses, take notes, and ask follow-up questions for clarification or deeper understanding.
+  5. [ME] Guide the conversation through prepared questions while remaining adaptable to the interviewee's flow.
+  6. [IC] Conclude the interview by summarizing key points and thanking the interviewee for their time.
+  7. [FV] Review recordings and notes to ensure all essential information is captured.
+[D]
+  1. [IC] Arrive at the interview location and greet the interviewee.
+  2. [NA] Set up recording equipment, ensuring optimal audio and video quality.
+  3. [IC] Introduce yourself and the purpose of the interview, confirming the interviewee's understanding.
+  4. [PD] Ask the first question, maintaining eye contact and showing active listening.
+  5. [PD] Listen actively to the interviewee's response, taking notes on key points.
+  6. [ME] Ask follow-up questions based on the interviewee's response, clarifying any ambiguous points.
+  7. [ME] Repeat steps 4-6 for each subsequent question, adapting your approach based on the interviewee's responses.
+  8. [FV] Wrap up the interview by thanking the interviewee for their time and providing your contact information for any follow-up questions.
+  9. [FV] Review your notes and recordings to ensure all necessary information was captured.
+  10. [FV] Transcribe and edit your recordings, ensuring the final product accurately represents the interviewee's responses.
+
+--- Task 315: Supervise engineering or other technical personnel.
+[A]
+  1. [IC] Review project plans, schedules, and budgets to understand the team's objectives and constraints.
+  2. [IC] Conduct a morning meeting with the team to review the day's objectives and any outstanding issues.
+  3. [PD] Review progress reports and inspect the team's workstations and equipment to ensure they are properly maintained and calibrated.
+  4. [FV] Provide feedback on the team's work, suggest improvements, and address any technical issues that arise.
+  5. [NA] Monitor the team's progress, identify bottlenecks, and adjust the project plan accordingly.
+  6. [IC] Coordinate with other departments (e.g., procurement, operations) to ensure the project's smooth execution.
+  7. [IC] Conduct a mid-day check-in with the team to address any immediate concerns and provide guidance.
+  8. [FV] Review the day's progress and prepare a summary report for upper management.
+[B]
+  1. [IC] Review project plans, schedules, and budgets to understand the team's objectives and constraints.
+  2. [NA] Conduct a site visit to inspect the construction progress, identify potential issues, and discuss them with the team lead.
+  3. [IC] Hold a team meeting to discuss project status, address concerns, and set clear expectations for the next phase of work.
+  4. [PD] Review and approve the team's safety protocols to ensure compliance with industry standards and regulations.
+  5. [PD] Inspect the team's workstations and equipment to ensure they are properly maintained and calibrated.
+  6. [ME] Provide guidance and training to team members on specific technical skills or procedures as needed.
+  7. [NA] Monitor the team's progress, identify bottlenecks, and adjust the project plan accordingly.
+  8. [FV] Address any quality control issues or defects discovered during inspections or testing.
+  9. [IC] Document and report project progress, issues, and lessons learned to stakeholders and team members.
+  10. [FV] Conduct a final site visit to verify that the project has been completed to the required standards and specifications.
+[C]
+  1. [IC] Review project plans, schedules, and budgets to understand team objectives and constraints.
+  2. [IC] Conduct a team meeting to discuss project status, address concerns, and set clear expectations.
+  3. [PD] Observe the team's work, providing guidance and feedback on their progress and adherence to best practices.
+  4. [IC] Delegate specific tasks based on individual skill sets and experience, ensuring a balanced workload.
+  5. [ME] Address any technical issues or roadblocks that arise, leveraging expertise to find solutions.
+  6. [FV] Monitor project progress, tracking deadlines and identifying potential risks.
+  7. [IC] Provide regular updates to stakeholders, communicating project status and addressing concerns.
+[D]
+  1. [IC] Review project plans, objectives, and constraints to understand the team's goals and limitations.
+  2. [IC] Conduct a morning meeting with the team to discuss project status, address concerns, and set clear expectations for the day.
+  3. [PD] Inspect the work environment, tools, and equipment to ensure they are properly maintained, calibrated, and available.
+  4. [PD] Review progress reports and inspect work in progress to identify potential issues and diagnose problems.
+  5. [NA] Navigate to specific work areas, address technical issues, and provide guidance to team members as needed.
+  6. [NA] Monitor the team's progress, identify bottlenecks, and adjust the project plan accordingly.
+  7. [FV] Provide feedback on work progress, suggest improvements, and ensure adherence to quality standards and safety protocols.
+  8. [IC] Conduct a mid-day check-in with the team to address any immediate concerns, provide guidance, and discuss next steps.
+  9. [FV] Review the day's progress, prepare a summary report, and deliver it to stakeholders, discussing any necessary adjustments.
+  10. [FV] Conduct a final inspection to verify that the project has been completed to the required standards and specifications.
+
+--- Task 316: Coach others.
+[A]
+  1. [IC] Schedule a one-on-one coaching session with the new employee, outlining clear objectives and agenda.
+  2. [NA] Observe the employee in a real or simulated scenario relevant to their role.
+  3. [PD] Take detailed notes on the employee's approach and performance during the scenario.
+  4. [ME] Conduct a feedback session to discuss the observed performance and provide constructive feedback.
+  5. [ME] Engage in role-playing or hands-on exercises to practice and reinforce the concepts discussed.
+  6. [FV] Provide real-time feedback during the role-playing or exercises to guide the employee's improvement.
+  7. [FV] Review the employee's performance in the exercises and discuss areas for further improvement.
+  8. [NA] Agree on a plan for the employee to practice and apply the concepts learned in a real-world setting.
+  9. [FV] Schedule a follow-up meeting to review progress and provide additional support as needed.
+[B]
+  1. [IC] The manager schedules a one-on-one coaching session with the new employee.
+  2. [PD] The manager observes the new employee interacting with a customer who has a complaint.
+  3. [PD] The manager takes notes on the employee's approach to handling the complaint.
+  4. [IC] The manager meets with the employee to discuss the observed interaction.
+  5. [ME] The manager provides constructive feedback on the employee's handling of the complaint.
+  6. [ME] The manager and employee role-play a customer complaint scenario.
+  7. [FV] The manager provides real-time feedback during the role-play.
+  8. [ME] The employee practices handling a simulated customer complaint.
+  9. [PD] The manager observes the employee handling a real customer complaint.
+  10. [FV] The manager provides final feedback and encouragement to the employee.
+[C]
+  1. [PD] The coach identifies a specific skill or area for improvement in the coachee.
+  2. [IC] The coach communicates the identified area for improvement to the coachee, setting clear expectations and goals.
+  3. [ME] The coach provides demonstrations, explanations, or resources to illustrate the desired skill or approach.
+  4. [FV] The coachee practices the skill under the coach's guidance, receiving real-time feedback and adjustments.
+  5. [PD] The coach observes the coachee's performance, providing further feedback and identifying areas for continued development.
+  6. [IC] The coach and coachee collaboratively reflect on the session, discussing progress and setting goals for future improvement.
+[D]
+  1. [IC] Schedule a coaching session with clear objectives and agenda.
+  2. [PD] Observe the coachee in a relevant situation to understand their approach and skills.
+  3. [IC] Meet with the coachee to discuss the observed situation and provide constructive feedback.
+  4. [ME] Role-play or conduct a hands-on exercise to apply the coaching topic and practice new skills.
+  5. [FV] Provide real-time feedback and guidance during the exercise, highlighting strengths and areas for improvement.
+  6. [IC] Discuss the exercise results, answer questions, and provide additional guidance as needed.
+  7. [NA] Agree on a plan for the coachee to practice and apply the new skills in a real-world setting.
+  8. [PD] Provide additional resources and support to help the coachee continue learning and improving.
+  9. [FV] Schedule a follow-up meeting to review the coachee's progress and provide further guidance.
+  10. [IC] Motivate and encourage the coachee, fostering a positive and growth-oriented mindset.
+
+--- Task 317: Process sales or other transactions.
+[A]
+  1. [IC] Greet the customer and prepare the POS system for the transaction.
+  2. [PD] Scan each item from the customer's basket, ensuring the correct price and category are applied.
+  3. [ME] Apply any discounts or promotions to the items as necessary and calculate the total amount due, including taxes.
+  4. [IC] Inform the customer of the total amount due and present the payment options.
+  5. [ME] Process the customer's payment method chosen (cash, card, etc.).
+  6. [FV] Provide the customer with their receipt and any change due.
+  7. [ME] Bag the customer's items, ensuring they are secure and easy to carry.
+  8. [FV] Thank the customer and ask if they need any assistance with carrying their items.
+  9. [FV] Close the transaction in the POS system and prepare for the next customer.
+[B]
+  1. [IC] Greet the customer and ask if they have any coupons or loyalty cards.
+  2. [NA] Open a new transaction in the POS system.
+  3. [PD] Scan each item from the customer's basket, ensuring the correct price and category are applied.
+  4. [ME] Apply any discounts or promotions to the items as necessary.
+  5. [ME] Calculate the total amount due, including taxes.
+  6. [IC] Ask the customer how they would like to pay (cash, card, etc.).
+  7. [ME] Process the payment method chosen by the customer.
+  8. [FV] Provide the customer with their receipt and any change due.
+  9. [FV] Thank the customer and ask if they need any assistance with carrying their items.
+  10. [FV] Close the transaction in the POS system and prepare for the next customer.
+[C]
+  1. [IC] Greet the customer and prepare the POS system for the transaction.
+  2. [PD] Scan each item, verifying quantities with the customer.
+  3. [ME] Apply any discounts or promotions based on scanned items.
+  4. [IC] Inform the customer of the total amount due.
+  5. [ME] Process the customer's chosen payment method.
+  6. [FV] Provide the customer with a receipt and any change due.
+  7. [FV] Thank the customer and offer assistance with their items.
+[D]
+  1. [IC] Greet the customer and ask if they have any coupons or loyalty cards.
+  2. [NA] Open a new transaction in the POS system.
+  3. [PD] Scan each item from the customer's basket, ensuring the correct price and category are applied.
+  4. [ME] Apply any discounts or promotions to the items as necessary.
+  5. [ME] Calculate the total amount due, including taxes.
+  6. [IC] Ask the customer how they would like to pay (cash, card, etc.).
+  7. [ME] Process the payment method chosen by the customer.
+  8. [FV] Provide the customer with their receipt and any change due.
+  9. [FV] Thank the customer and ask if they need any assistance with carrying their items.
+  10. [FV] Close the transaction in the POS system and prepare for the next customer.
+
+--- Task 318: Gather organizational performance information.
+[A]
+  1. [IC] Log into the company's performance tracking software using provided credentials.
+  2. [PD] Identify the required performance metrics based on the company's KPIs.
+  3. [NA] Navigate to the performance metrics section and filter data by relevant criteria.
+  4. [ME] Extract the filtered data into a spreadsheet or data analysis tool.
+  5. [ME] Clean and preprocess the data by handling missing values and transforming data types as needed.
+  6. [PD] Analyze the data using statistical methods or visualizations to identify trends and areas for improvement.
+  7. [ME] Compile the complete performance dataset into a single, organized file for review.
+  8. [ME] Draft a comprehensive report summarizing the organizational performance findings.
+  9. [FV] Review the report for accuracy, completeness, and clarity.
+  10. [FV] Deliver the final report to the executive team for review and action.
+[B]
+  1. [IC] Review the company's strategic objectives and key performance indicators (KPIs) to determine which metrics are most relevant for the quarterly review.
+  2. [NA] Access the company's enterprise resource planning (ERP) system to retrieve data on production volumes, quality control metrics, and supply chain performance.
+  3. [PD] Analyze the data on production volumes and quality control metrics to identify trends and areas for improvement.
+  4. [IC] Contact the warehouse manager to discuss inventory levels, shipping schedules, and any supply chain disruptions.
+  5. [ME] Compile the data and findings into a comprehensive report, including recommendations for improvement.
+  6. [FV] Review the report for accuracy and completeness, ensuring that all relevant data and findings are included.
+  7. [NA] Print the report and distribute it to the CEO, other stakeholders, and relevant team members.
+  8. [IC] Present the findings and recommendations to the CEO and other stakeholders, addressing any questions or concerns.
+  9. [FV] Follow up with team members to ensure that they have received the report and are aware of the key findings and recommendations.
+  10. [ME] Update the company's performance metrics and KPIs for future reference, incorporating any lessons learned from the quarterly review.
+[C]
+  1. [IC] Identify the key performance indicators (KPIs) and relevant data sources based on the company's strategic objectives.
+  2. [NA] Access the relevant data sources, such as performance tracking software, HR management systems, or internal databases.
+  3. [ME] Extract the required performance data for the specified period, applying filters and search functions as needed.
+  4. [ME] Consolidate the extracted data from different sources into a single, organized dataset.
+  5. [ME] Clean and preprocess the data, addressing missing values, duplicates, and inconsistencies.
+  6. [PD] Analyze the processed data to identify trends, patterns, and areas for improvement, using statistical methods or visualizations.
+  7. [ME] Generate a comprehensive performance report summarizing the findings, including tables, charts, and an executive summary.
+  8. [FV] Review the report for accuracy, completeness, and clarity before submitting it to the relevant stakeholders.
+[D]
+  1. [IC] Identify key performance metrics and data sources based on organizational KPIs.
+  2. [IC] Log in to the company's intranet or performance tracking software using appropriate credentials.
+  3. [NA] Navigate to the relevant data sections or dashboards within the system.
+  4. [ME] Filter and extract data based on the identified metrics, time period, and relevant dimensions (e.g., department, location).
+  5. [ME] Clean and preprocess the extracted data by handling missing values, removing duplicates, and transforming data types as needed.
+  6. [PD] Analyze the data using statistical methods or visualizations to identify trends, patterns, and outliers.
+  7. [FV] Generate a comprehensive performance report, including tables, charts, and an executive summary.
+  8. [FV] Review the report for accuracy, completeness, and clarity, then submit it to the relevant stakeholders (e.g., HR director, executive team).
+
+--- Task 319: Install programs onto computer or computer-controlled equipment.
+[A]
+  1. [IC] Review the software installation guide and confirm system requirements.
+  2. [NA] Log into the computer system and navigate to the download location for the software package.
+  3. [ME] Download the software package and launch the installer.
+  4. [ME] Configure the software settings according to the manufacturer's recommendations.
+  5. [ME] Restart the computer system to apply the software installation.
+  6. [FV] Check the software for any errors or issues during startup.
+  7. [FV] Run a test sequence to ensure the software operates correctly.
+  8. [IC] Document the installation process and any issues encountered.
+  9. [IC] Inform the supervisor or relevant team that the installation is complete and the system is ready for use.
+[B]
+  1. [IC] Review software installation guide and confirm system requirements.
+  2. [NA] Log into computer system controlling robotic arm.
+  3. [NA] Navigate to download location for software package.
+  4. [ME] Download software package to computer system.
+  5. [ME] Run installer and follow on-screen prompts to install software.
+  6. [ME] Configure software settings according to manufacturer's recommendations.
+  7. [ME] Restart computer system to apply software installation.
+  8. [FV] Check software for any errors or issues during startup.
+  9. [FV] Run test sequence to ensure robotic arm operates correctly under new software control.
+  10. [FV] Confirm successful installation and operation of software with manufacturing supervisor.
+[C]
+  1. [IC] Review software installation guide and confirm system requirements.
+  2. [NA] Download the software package to the computer system.
+  3. [ME] Run the installer and follow on-screen prompts.
+  4. [ME] Configure software settings according to manufacturer's recommendations.
+  5. [ME] Restart the computer system.
+  6. [FV] Verify software functionality through a test sequence or operation.
+  7. [IC] Document the installation process, including any issues and resolutions.
+[D]
+  1. [IC] Review system requirements and installation guides to ensure compatibility.
+  2. [NA] Access the computer system or equipment using secure login credentials.
+  3. [NA] Navigate to the download location or connect the installation package (e.g., USB drive).
+  4. [ME] Download or initiate the installation process of the software package.
+  5. [PD] Review installation options and select desired features and settings.
+  6. [ME] Run the installer and follow on-screen prompts to install the software.
+  7. [ME] Configure software settings according to manufacturer's recommendations.
+  8. [ME] Restart the computer system or equipment to apply the software installation.
+  9. [FV] Check the software for any errors or issues during startup and verify its functionality.
+  10. [IC] Document the installation process, any encountered issues, and their resolutions.
+  11. [IC] Inform relevant users or stakeholders about the software installation and provide post-installation support information.
+
+--- Task 320: Check quality of foods or supplies.
+[A]
+  1. [NA] Approach the designated pallet and retrieve a handheld scanner.
+  2. [IC] Scan the pallet's barcode to access its digital record and inspection guidelines.
+  3. [PD] Visually inspect each item on the pallet for physical defects, expiration dates, and compliance with regulations.
+  4. [FV] Record the quality assessment (pass/fail) for each item using the handheld scanner.
+  5. [ME] Identify and tag any items that failed inspection for removal.
+  6. [FV] Summarize the overall quality assessment for the pallet based on the individual item inspections.
+  7. [FV] Record the overall pallet quality assessment in the handheld scanner and submit the inspection report.
+  8. [NA] Move the 'rejected' items to the recycling or disposal area.
+[B]
+  1. [NA] Approach the designated area or pallet containing the food or supplies to be inspected.
+  2. [NA] Retrieve any necessary equipment or tools for the inspection, such as a handheld scanner or can opener.
+  3. [PD] Visual inspection of the shipment to identify any visible signs of spoilage or damage.
+  4. [PD] Smell and touch the produce to assess its freshness and texture.
+  5. [NA] Check expiration dates and labels to ensure compliance with regulations and company standards.
+  6. [ME] Remove any spoiled or contaminated items from the shipment and set them aside for disposal.
+  7. [IC] Document the inspection results and any issues found, including photos and notes.
+  8. [IC] Notify the supplier or vendor of any issues found and request corrective action.
+  9. [FV] Review the inspection results and documentation to ensure accuracy and completeness.
+  10. [NA] Update the inventory management system with the inspection results and any changes to the shipment.
+  11. [NA] Store the inspected produce in a designated area, such as a cooler or refrigerated storage.
+  12. [ME] Dispose of any spoiled or contaminated items in accordance with company policies and regulations.
+[C]
+  1. [NA] Retrieve the batch of items from the designated location.
+  2. [PD] Visually inspect each item for defects, damage, or expiration.
+  3. [IC] Select a representative sample for further inspection (e.g., opening, weighing).
+  4. [PD] Conduct detailed inspection of the sample (e.g., contents, texture, weight).
+  5. [FV] Record inspection findings, including defects, deviations, and sample results.
+  6. [ME] Segregate defective or non-compliant items from the batch.
+  7. [IC] Communicate inspection results and any necessary actions to relevant personnel.
+[D]
+  1. [NA] Approach the designated location and ensure the supplies are stable and secure.
+  2. [IC] Scan the delivery label or use a handheld scanner to access the digital record and inspection guidelines.
+  3. [PD] Visually inspect each item, checking for physical defects, spoilage, or damage.
+  4. [PD] Check expiration dates, manufacturing codes, or other relevant information on each item.
+  5. [FV] Record the quality assessment (pass/fail) for each item using a handheld scanner or digital form.
+  6. [ME] If an item fails inspection, place it in a designated 'rejected' area or mark it for removal.
+  7. [ME] Repeat steps 3-6 for all items in the batch or shipment.
+  8. [FV] Compare the inspected count to the delivery manifest or expected quantity.
+  9. [IC] If the counts match, signal the appropriate personnel to move the supplies to storage or the next stage. If not, notify the supervisor and document the discrepancy.
+  10. [NA] Move the 'rejected' items to the recycling, disposal, or further inspection area as per company policies and regulations.
+
+================================================================
+ANSWER TEMPLATE
+
+313: _ | 
+314: _ | 
+315: _ | 
+316: _ | 
+317: _ | 
+318: _ | 
+319: _ | 
+320: _ | 
+

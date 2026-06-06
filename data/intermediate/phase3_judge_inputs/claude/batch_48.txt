@@ -1,0 +1,359 @@
+BATCH 48/63 | Model: Claude Opus 4.7 | Tasks 377-384
+================================================================
+EXPERT REVIEW -- Micro-Action Sequence Evaluation
+For each task, read ALL four options, then choose the BEST (A/B/C/D).
+
+Criteria:
+  1. Completeness  -- no critical steps missing
+  2. Realism       -- every step is concretely executable
+  3. Stage accuracy -- stage label correct for each step:
+     IC=Intent_Communication  NA=Navigation_Addressing
+     PD=Perception_Diagnosis  ME=Manipulation_Execution  FV=Feedback_Verification
+  4. Conciseness   -- no redundant or duplicate steps
+  5. Scope         -- starts and ends at exactly the right point
+
+OUTPUT: fill the ANSWER TEMPLATE at the bottom.
+Format: N: X | one-sentence reason (max 12 words)
+IMPORTANT: Each task has a different best answer. Do NOT pick the same
+letter for every task without reading.
+================================================================
+
+--- Task 377: Analyze financial information.
+[A]
+  1. [NA] Retrieve the quarterly financial reports from the company's internal database.
+  2. [PD] Review the financial reports to identify key trends and patterns in the data.
+  3. [ME] Input the extracted data into a spreadsheet software for organization and analysis.
+  4. [ME] Calculate key financial ratios, such as profitability, liquidity, and solvency ratios, using spreadsheet formulas.
+  5. [PD] Compare the company's financial performance to industry benchmarks and historical trends.
+  6. [ME] Draft a concise report summarizing the findings, including key financial metrics, industry analysis, and a clear investment recommendation.
+  7. [FV] Review and finalize the report, ensuring accuracy and clarity before submitting it to the senior analyst.
+  8. [FV] Deliver the report to the management team for review and action.
+[B]
+  1. [NA] Access the company's latest financial reports and data.
+  2. [PD] Extract key financial data points from the reports.
+  3. [ME] Input the extracted data into a spreadsheet software for organization and analysis.
+  4. [PD] Calculate key financial ratios and compare the company's financial performance to industry benchmarks and historical trends.
+  5. [IC] Research the company's industry, competitive landscape, and recent news to gain a broader understanding of its prospects.
+  6. [ME] Draft a concise report summarizing the findings, including key financial metrics, industry analysis, and a clear investment recommendation.
+  7. [FV] Review and finalize the report, ensuring accuracy and clarity before submitting it to the senior analyst.
+  8. [FV] Present the report to the company's leadership and answer any questions they may have.
+[C]
+  1. [NA] Retrieve the company's quarterly financial reports from the designated database.
+  2. [PD] Analyze the income statement, balance sheet, and cash flow statement to identify trends, patterns, and key financial metrics.
+  3. [ME] Calculate relevant financial ratios (e.g., debt-to-equity, return on assets) to assess the company's financial health and performance.
+  4. [PD] Compare the current quarter's financial data with previous quarters and industry benchmarks to contextualize the findings.
+  5. [ME] Draft a comprehensive report summarizing the key findings, insights, and potential areas for improvement.
+  6. [FV] Review the report for accuracy, completeness, and clarity before submitting it to the relevant stakeholders.
+[D]
+  1. [NA] Access the company's financial reports from the relevant database (e.g., internal, SEC's EDGAR).
+  2. [PD] Review and extract key financial data points from the income statement, balance sheet, and cash flow statement.
+  3. [ME] Input the extracted data into a spreadsheet software for organization and analysis.
+  4. [ME] Calculate key financial ratios (e.g., debt-to-equity, return on assets, profitability, liquidity, solvency) using spreadsheet formulas.
+  5. [PD] Compare the company's financial performance to industry benchmarks and historical trends.
+  6. [IC] Research the company's industry, competitive landscape, and recent news to gain a broader understanding of its prospects.
+  7. [ME] Draft a concise report summarizing the findings, including key financial metrics, industry analysis, and recommendations.
+  8. [FV] Review and finalize the report, ensuring accuracy, clarity, and completeness before submitting it to the relevant stakeholders.
+
+--- Task 378: Seal gaps or cracks to prevent leakage or moisture intrusion.
+[A]
+  1. [PD] Inspect the exterior walls to identify all gaps and cracks that need sealing, using a combination of eye-level observation and ladder-assisted inspection.
+  2. [IC] Select the appropriate sealant materials based on the type of gaps or cracks, the building's materials, and the specific environmental conditions.
+  3. [ME] Clean the identified gaps and cracks to remove any dirt, debris, or old sealant, and apply a primer to improve sealant adhesion.
+  4. [ME] Apply the sealant to the gaps and cracks, ensuring a smooth and even application using appropriate tools.
+  5. [FV] Allow the sealant to cure according to the manufacturer's instructions and visually inspect the sealed areas for completeness and adhesion.
+  6. [FV] Perform a simulated rain test by spraying water on the sealed areas to check for any leaks or moisture intrusion.
+  7. [IC] Document the completed work and inform the homeowner that the sealing process is complete and effective.
+[B]
+  1. [PD] Inspect the exterior walls to identify all gaps and cracks that need sealing.
+  2. [ME] Clean the identified gaps and cracks to remove any dirt, debris, or old sealant.
+  3. [ME] Apply a primer to the cleaned gaps and cracks to improve sealant adhesion.
+  4. [FV] Wait for the primer to dry according to the manufacturer's instructions.
+  5. [ME] Apply the sealant to the gaps and cracks, ensuring a smooth and even application.
+  6. [FV] Wait for the sealant to cure according to the manufacturer's instructions.
+  7. [FV] Perform a simulated rain test by using a hose to spray water on the sealed areas to check for any leaks or moisture intrusion.
+  8. [IC] Document the completed work and inform the homeowner that the sealing process is complete and effective.
+[C]
+  1. [NA] Arrive at the work site and gather all necessary tools and sealant materials.
+  2. [PD] Inspect the exterior walls to identify gaps and cracks, noting the type and severity.
+  3. [ME] Clean the identified gaps and cracks to remove dirt, debris, or old sealant.
+  4. [IC] Select the appropriate sealant material based on the gap type, material, and environmental conditions.
+  5. [ME] Prepare the sealant according to manufacturer instructions (mixing, priming, etc.).
+  6. [ME] Apply the sealant to the gaps and cracks, ensuring smooth and even coverage.
+  7. [FV] Allow the sealant to cure according to the manufacturer's instructions.
+  8. [FV] Visually inspect the sealed areas for completeness, smoothness, and any signs of leakage.
+  9. [IC] Document the completed work, including materials used, areas sealed, and any observations.
+[D]
+  1. [NA] Arrive at the site and gather necessary tools and materials.
+  2. [PD] Conduct a thorough visual inspection to identify gaps and cracks, using appropriate tools and techniques (e.g., ladder-assisted inspection).
+  3. [IC] Select appropriate sealant materials based on the type of gaps or cracks, building materials, and environmental factors.
+  4. [ME] Prepare the selected sealant materials according to the manufacturer's instructions.
+  5. [ME] Clean the identified gaps and cracks to remove dirt, debris, or old sealant.
+  6. [ME] Apply a primer to the cleaned gaps and cracks to improve sealant adhesion.
+  7. [FV] Wait for the primer to dry according to the manufacturer's instructions.
+  8. [ME] Apply the sealant to the gaps and cracks, using appropriate tools and techniques, ensuring thorough coverage and proper adhesion.
+  9. [FV] Allow the sealant to cure and dry according to the manufacturer's instructions.
+  10. [FV] Perform a visual inspection and water test to verify that the sealant has created a watertight seal and there are no leaks or moisture intrusions.
+  11. [IC] Document the sealing process, including photographs, notes, and test results, to maintain a record of the work and ensure future reference.
+  12. [FV] Review and refine the sealing process based on the results of the water test and visual inspection, to identify areas for improvement and optimize future applications.
+
+--- Task 379: Coordinate reporting or editing activities.
+[A]
+  1. [PD] Review initial drafts from reporters and photographers, identifying key factual points and potential gaps.
+  2. [IC] Assign specific editing and fact-checking tasks to individual team members based on their expertise.
+  3. [IC] Communicate deadlines and expectations to the team through a shared online platform.
+  4. [FV] Monitor progress on assigned tasks, providing feedback and guidance to team members as needed.
+  5. [PD] Review edited drafts for consistency, style, and factual accuracy.
+  6. [ME] Incorporate feedback from fact-checkers and make necessary revisions to the story.
+  7. [FV] Approve the final version of the story for publication.
+  8. [NA] Publish the story on the website and distribute it through social media channels.
+[B]
+  1. [PD] Review initial drafts from reporters and photographers, identifying key factual points and potential gaps.
+  2. [IC] Assign specific editing and fact-checking tasks to individual team members based on their expertise.
+  3. [IC] Communicate deadlines and expectations to the team through a shared online platform.
+  4. [FV] Monitor progress on assigned tasks, providing feedback and guidance to team members as needed.
+  5. [PD] Review edited drafts for consistency, style, and factual accuracy.
+  6. [ME] Incorporate feedback from fact-checkers and make necessary revisions to the story.
+  7. [FV] Approve the final version of the story for publication.
+  8. [NA] Publish the story on the website and distribute it through social media channels.
+[C]
+  1. [PD] The editor reviews the initial report from the field reporter to understand the scope and content.
+  2. [IC] The editor communicates with the field reporter to clarify any unclear points and confirm the accuracy of the information.
+  3. [NA] The editor assigns specific tasks to the editing team, such as fact-checking, writing subheadings, and formatting the article.
+  4. [FV] The editor monitors the progress of the editing team and provides feedback on their work.
+  5. [PD] The editor reviews the fact-checking report to ensure all information is accurate and up-to-date.
+  6. [ME] The editor compiles the various sections of the article into a cohesive whole, ensuring a smooth narrative flow.
+  7. [FV] The editor conducts a final review of the article to check for grammatical errors and ensure it meets the publication's style guide.
+  8. [FV] The editor submits the final article to the publication's editorial board for approval.
+[D]
+  1. [PD] Review initial drafts and reports to understand their scope, content, and identify key factual points and potential gaps.
+  2. [IC] Communicate with reporters, photographers, or field reporters to clarify any unclear points and confirm the accuracy of information.
+  3. [NA] Assign specific editing, fact-checking, or other tasks to individual team members based on their expertise.
+  4. [IC] Communicate deadlines, expectations, and any relevant guidelines to the team through appropriate channels.
+  5. [FV] Monitor progress on assigned tasks, providing feedback and guidance to team members as needed.
+  6. [PD] Review edited drafts, reports, or sections for consistency, style, factual accuracy, and any other required aspects.
+  7. [ME] Incorporate feedback, make necessary revisions, and compile the various sections into a cohesive whole.
+  8. [FV] Review the final product for any remaining inconsistencies, errors, or adherence to publication style guides.
+  9. [IC] Communicate any necessary revisions or final approval to the team and set a final deadline for completion.
+  10. [FV] Upon receiving the final product, review it once more to ensure it meets the project's requirements and deliver it to the appropriate recipient.
+
+--- Task 380: Teach medical procedures or medical equipment use to patients.
+[A]
+  1. [IC] Greet the patient warmly and explain the purpose of the session, which is to learn how to use medical equipment or perform a medical procedure.
+  2. [ME] Demonstrate the correct technique for using the medical equipment or performing the procedure, breaking down the steps into clear, sequential actions.
+  3. [ME] Guide the patient through the process, providing verbal instructions and physical assistance as needed.
+  4. [FV] Ask the patient to repeat the process independently while observing to ensure they understand and can perform the steps correctly.
+  5. [FV] Provide constructive feedback and clarify any misunderstandings or incorrect steps, then ask the patient to try again.
+  6. [IC] Explain when and how often the patient should use the equipment or perform the procedure based on their specific treatment plan.
+  7. [IC] Answer any questions the patient may have about the equipment or procedure.
+  8. [IC] Summarize the key points of the session, reinforce the importance of proper use, and encourage the patient to ask for help if they have any further questions or concerns.
+[B]
+  1. [IC] Greet the patient warmly and introduce the topic of today's session, which is learning to use an insulin pen.
+  2. [IC] Ask the patient about their current understanding of diabetes and insulin use to gauge their baseline knowledge.
+  3. [IC] Explain the purpose of insulin and how it helps manage diabetes in a simple, easy-to-understand manner.
+  4. [ME] Demonstrate the correct technique for using the insulin pen on a practice model or dummy, breaking down the steps into clear, sequential actions.
+  5. [ME] Hand the insulin pen to the patient and guide them through the process, providing verbal instructions and physical assistance as needed.
+  6. [FV] Ask the patient to repeat the process independently while observing to ensure they understand and can perform the steps correctly.
+  7. [FV] Provide constructive feedback and clarify any misunderstandings or incorrect steps, then ask the patient to try again.
+  8. [IC] Explain when and how often the patient should use the insulin pen based on their specific treatment plan.
+  9. [IC] Answer any questions the patient may have about the insulin pen or their diabetes management.
+  10. [IC] Summarize the key points of the session, reinforce the importance of proper insulin use, and encourage the patient to ask for help if they have any further questions or concerns.
+[C]
+  1. [IC] Greet the patient, introduce yourself, and explain the purpose of the session: to teach them how to use a specific medical device or perform a procedure.
+  2. [IC] Assess the patient's existing knowledge and understanding of the device/procedure through open-ended questions.
+  3. [IC] Provide a clear and concise explanation of the device/procedure's purpose, benefits, and potential risks.
+  4. [ME] Demonstrate the correct technique for using the device/performing the procedure on a model or practice tool.
+  5. [ME] Guide the patient through the process step-by-step, providing hands-on assistance and verbal cues as needed.
+  6. [FV] Observe the patient performing the task independently, providing feedback and correcting any errors.
+  7. [IC] Review key points, answer any remaining questions, and provide written instructions or diagrams for future reference.
+  8. [IC] Schedule a follow-up appointment to assess the patient's progress and provide ongoing support.
+[D]
+  1. [IC] Greet the patient warmly and introduce the topic of today's session, explaining the purpose of the medical procedure or equipment use.
+  2. [IC] Assess the patient's current understanding and knowledge regarding the medical procedure or equipment use.
+  3. [IC] Explain the importance, purpose, and key features of the medical procedure or equipment in simple, easy-to-understand terms.
+  4. [ME] Demonstrate the correct technique or use of the medical equipment on a practice model, dummy, or the patient's own equipment, breaking down the steps into clear, sequential actions.
+  5. [ME] Hand the medical equipment or guide the patient through the process, providing verbal instructions and physical assistance as needed.
+  6. [FV] Ask the patient to repeat the process independently while observing to ensure they understand and can perform the steps correctly.
+  7. [FV] Provide constructive feedback, clarify any misunderstandings or incorrect steps, and ask the patient to try again if necessary.
+  8. [IC] Explain when, how often, or under what circumstances the patient should use the medical equipment or perform the procedure based on their specific treatment plan.
+  9. [IC] Answer any questions the patient may have about the medical procedure or equipment use, providing additional support and resources as needed.
+  10. [IC] Summarize the key points of the session, reinforce the importance of proper use, and encourage the patient to ask for help if they have any further questions or concerns.
+
+--- Task 381: Install piping for installation or maintenance activities.
+[A]
+  1. [IC] Review the blueprint to understand the routing and dimensions of the new piping.
+  2. [NA] Locate and mark the starting and ending points of the piping route on the wall and floor.
+  3. [ME] Measure and cut the piping to the required lengths using a pipe cutter.
+  4. [ME] Apply flux to the pipe ends and solder fittings to create secure connections.
+  5. [ME] Connect the new pipes to the existing plumbing system using appropriate fittings.
+  6. [FV] Test the piping system for leaks by pressurizing the system and checking for any signs of leakage.
+  7. [ME] Secure the piping to the wall and floor using straps or clamps to prevent movement and maintain alignment.
+  8. [FV] Inspect the completed piping installation to ensure it meets the required standards and is ready for use.
+[B]
+  1. [IC] Review the blueprint to understand the routing and dimensions of the new piping.
+  2. [NA] Locate and mark the starting and ending points of the piping route on the wall and floor.
+  3. [ME] Remove any obstacles, such as drywall or baseboards, along the piping route.
+  4. [ME] Measure and cut the copper piping to the required lengths using a pipe cutter.
+  5. [ME] Bend the copper piping to match the routing marked earlier using a pipe bender.
+  6. [PD] Dry-fit the piping to ensure it follows the marked route and fits properly.
+  7. [ME] Apply flux to the piping and fittings, then solder them together using a propane torch.
+  8. [FV] Test the soldered joints for leaks by pressurizing the system and checking for any signs of leakage.
+  9. [ME] Secure the piping to the wall and floor using straps or clamps to prevent movement and maintain alignment.
+  10. [FV] Inspect the completed piping installation to ensure it meets the required standards and is ready for use.
+[C]
+  1. [IC] Review blueprints and discuss installation plan with relevant stakeholders to understand requirements and desired outcomes.
+  2. [NA] Navigate to the installation site and identify the optimal pipe routing, considering existing infrastructure and safety regulations.
+  3. [ME] Measure and cut pipes to the required lengths, ensuring precise dimensions for proper fit and functionality.
+  4. [ME] Prepare pipe ends and fittings for connection, applying flux and solder or appropriate joining methods.
+  5. [ME] Assemble the piping system, connecting pipes and fittings according to the planned route and ensuring proper alignment.
+  6. [FV] Conduct a pressure test to identify any leaks or weak points in the system.
+  7. [ME] Address any leaks or defects identified during the pressure test, making necessary adjustments and repairs.
+  8. [FV] Inspect the completed installation to ensure it meets all relevant codes and standards.
+[D]
+  1. [IC] Review blueprints and discuss installation plan with stakeholders to understand requirements and constraints.
+  2. [NA] Navigate to the work area, considering layout and spatial reasoning to access necessary materials and tools.
+  3. [PD] Select appropriate piping materials and tools based on system requirements and existing layout.
+  4. [ME] Measure, cut, and prepare piping materials for installation.
+  5. [ME] Prepare connection points by cleaning and applying pipe dope or tape.
+  6. [ME] Connect new piping to the existing plumbing system using appropriate fittings and secure connections.
+  7. [ME] Tighten connections using appropriate tools to ensure a secure fit.
+  8. [FV] Check connections for leaks by applying pressure to the system and monitoring for any signs of leakage.
+  9. [FV] If leaks are detected, disassemble and reapply pipe dope or tape, then reconnect and retest.
+  10. [FV] Test the new piping system by turning on the water supply and checking for leaks again.
+  11. [FV] Clean up the workspace and dispose of any waste materials, ensuring the area is safe and clean.
+  12. [IC] Document the installation process, including any challenges or issues that arose during the installation.
+  13. [PD] Review the installation process and identify areas for improvement for future installations.
+
+--- Task 382: Interview employees, customers, or others to collect information.
+[A]
+  1. [IC] Check the shared calendar to identify interviewees and their designated interview slots.
+  2. [NA] Navigate to the interview location, using the office map or environment to find a quiet area.
+  3. [IC] Approach the interviewee, introduce yourself, and explain the purpose of the interview.
+  4. [ME] Conduct the interview, actively listening and taking detailed notes on the interviewee's responses.
+  5. [IC] Clarify any ambiguous responses by asking follow-up questions.
+  6. [FV] Thank the interviewee for their time and provide any promised incentives.
+  7. [FV] Review the recorded interviews and notes to ensure completeness and accuracy.
+  8. [FV] Deliver the collected data to the project manager for further analysis.
+[B]
+  1. [NA] Arrive at the retail store and locate a quiet area to conduct interviews.
+  2. [ME] Set up recording equipment and ensure it is functioning properly.
+  3. [IC] Approach potential interviewees and explain the purpose of the interview.
+  4. [ME] Conduct the interview, asking structured questions to gather specific feedback.
+  5. [PD] Listen actively to the customer's responses and take detailed notes.
+  6. [IC] Clarify any ambiguous responses by asking follow-up questions.
+  7. [IC] Thank the customer for their time and provide any necessary incentives.
+  8. [FV] Review the recorded interviews and notes to ensure completeness and accuracy.
+  9. [FV] Deliver the collected data to the project manager for further analysis.
+[C]
+  1. [IC] Identify target interviewees and schedule interview slots.
+  2. [IC] Approach the interviewee, introduce yourself, and explain the purpose of the interview.
+  3. [NA] Guide the interviewee to a quiet, private space for the interview.
+  4. [ME] Conduct the interview, asking structured questions and actively listening to responses.
+  5. [PD] Take detailed notes on the interviewee's responses, capturing key insights and verbatim quotes.
+  6. [IC] Clarify any ambiguous responses by asking follow-up questions.
+  7. [FV] Thank the interviewee for their time and provide any necessary incentives.
+  8. [FV] Review and analyze the collected interview notes to identify patterns and themes.
+[D]
+  1. [IC] Check shared calendar or schedule to identify interviewees and their designated interview slots.
+  2. [NA] Navigate to the interview location, using maps or familiarizing oneself with the environment to avoid crowded areas and maintain discretion.
+  3. [PD] Locate the interviewee, using visual cues and subtle inquiries to confirm their identity and approach them.
+  4. [IC] Approach the interviewee, introduce yourself, and clearly communicate the purpose of the interview.
+  5. [NA] Guide the interviewee to a quiet, private space for the interview, ensuring minimal disruption to their routine.
+  6. [ME] Conduct the interview, asking structured or open-ended questions based on the research goals, actively listening, and taking notes on the interviewee's responses.
+  7. [IC] Clarify any ambiguous responses by asking follow-up questions, ensuring understanding, and probing for deeper insights.
+  8. [FV] Wrap up the interview, thank the interviewee for their time, and communicate the next steps or any follow-up actions.
+  9. [NA] Navigate back to the main area or next interview location, avoiding potential interruptions or distractions.
+  10. [FV] Review recorded interviews and notes, ensuring completeness and accuracy, and update the shared calendar or schedule with outcomes and follow-up actions.
+
+--- Task 383: Maintain recording or broadcasting equipment.
+[A]
+  1. [IC] Review the maintenance schedule and checklist for the day's tasks.
+  2. [NA] Navigate to the audio and video equipment areas in the studio.
+  3. [PD] Inspect each piece of equipment for any visible damage or wear.
+  4. [ME] Clean and calibrate the equipment as needed.
+  5. [PD] Check the levels and settings on the mixing console and other control panels.
+  6. [FV] Run a test broadcast to verify all equipment is functioning correctly.
+  7. [FV] Document the maintenance performed and any issues resolved.
+[B]
+  1. [IC] Review the maintenance schedule and checklist for the day's tasks.
+  2. [PD] Inspect each microphone for any visible damage or wear.
+  3. [ME] Clean the microphones with a specialized cleaning solution.
+  4. [PD] Check the audio levels and settings on the mixing console.
+  5. [FV] Run a test broadcast to verify all equipment is functioning correctly.
+  6. [PD] Inspect each camera for any visible damage or wear.
+  7. [ME] Clean the camera lenses and adjust focus settings.
+  8. [NA] Check the internet connection and ensure that it is stable and secure for the live broadcast.
+  9. [FV] Monitor the equipment during the live broadcast and be prepared to make any necessary adjustments or repairs in real-time.
+  10. [IC] Document the maintenance performed and any issues resolved.
+[C]
+  1. [IC] Review the maintenance schedule and checklist for the day's tasks.
+  2. [PD] Inspect all recording and broadcasting equipment (microphones, cameras, mixing console) for visible damage or wear.
+  3. [ME] Clean microphones and camera lenses using appropriate cleaning solutions.
+  4. [ME] Check audio levels and settings on the mixing console, adjusting as needed.
+  5. [FV] Conduct a test broadcast or recording to verify all equipment is functioning correctly.
+  6. [IC] Document the maintenance performed, including any issues identified and resolved.
+[D]
+  1. [IC] Review the maintenance schedule, broadcast schedule, and equipment checklist to ensure all necessary equipment is available and functioning properly.
+  2. [NA] Navigate to the equipment area in the studio, avoiding obstacles and other crew members.
+  3. [PD] Inspect each piece of equipment (microphones, cameras, mixing boards, etc.) for visible signs of damage, wear, or malfunction.
+  4. [PD] Check the levels, settings, and status lights on each piece of equipment, ensuring they are set correctly and functioning properly.
+  5. [ME] Clean and maintain each piece of equipment as needed, such as cleaning microphones, adjusting camera focus, or tightening loose connections.
+  6. [PD] Test the backup power supply and internet connection to ensure they are functioning properly.
+  7. [FV] Run a test broadcast or simulation to verify that all equipment is functioning correctly and making any necessary adjustments.
+  8. [IC] Communicate the status of the equipment and any ongoing maintenance to the director and other crew members.
+  9. [FV] Monitor the equipment during the live broadcast, making real-time adjustments or repairs as needed.
+  10. [FV] Document the maintenance performed, any issues resolved, and recommendations for future maintenance.
+  11. [NA] Disconnect equipment and secure the studio after the live stream concludes.
+
+--- Task 384: Inspect locomotives or other railroad equipment.
+[A]
+  1. [IC] The inspector arrives at the maintenance facility, locates the assigned locomotive, and reviews the locomotive's maintenance logs and any previous inspection reports.
+  2. [NA] The inspector dons safety gear including gloves, goggles, and a hard hat.
+  3. [PD] The inspector visually inspects the locomotive's exterior, checking for any visible damage or wear, and uses a flashlight to examine dark or hard-to-see areas.
+  4. [NA] The inspector climbs onto the locomotive and inspects the undercarriage for any signs of damage or wear, including wheels, bearings, and brake components.
+  5. [PD] The inspector checks the engine and related systems, including belts, hoses, fluid levels, and electrical connections, for leaks, overheating, and proper operation.
+  6. [PD] The inspector inspects the locomotive's electrical systems, including batteries, control cables, and control panels, for any signs of damage or malfunction.
+  7. [FV] The inspector documents any issues found during the inspection, including their location, severity, and potential causes.
+  8. [FV] The inspector reviews the documented issues and determines whether the locomotive is safe for operation. If necessary, flags the locomotive for further maintenance or repairs.
+  9. [IC] The inspector communicates the findings to the maintenance team and updates the locomotive's maintenance logs.
+[B]
+  1. [IC] Review the locomotive's maintenance log and identify the specific components requiring inspection.
+  2. [NA] Don safety gear including gloves, goggles, and a hard hat.
+  3. [NA] Access the locomotive's engine compartment by climbing a designated ladder and opening access panels.
+  4. [PD] Visually inspect the engine components, including belts, hoses, fluid levels, and electrical connections, looking for signs of wear, leaks, or damage.
+  5. [PD] Use a flashlight to illuminate dark or hard-to-see areas.
+  6. [FV] Document any observed issues, including their location, severity, and potential causes, using a handheld tablet or notepad.
+  7. [NA] Close the engine compartment access panels and descend the ladder.
+  8. [FV] Review the documented issues and determine whether the locomotive is safe for operation. If necessary, flag the locomotive for further maintenance or repairs.
+[C]
+  1. [IC] Review the locomotive's maintenance log and identify specific components requiring inspection.
+  2. [NA] Don necessary safety gear (gloves, goggles, hard hat).
+  3. [PD] Visually inspect the locomotive's exterior, focusing on wheels, axles, brake components, air intakes, and exhausts for visible damage or wear.
+  4. [NA] Access the locomotive's engine compartment and visually inspect engine components (belts, hoses, fluid levels, electrical connections) for leaks, damage, or wear.
+  5. [PD] Use a flashlight to illuminate hard-to-see areas and enhance visual inspection.
+  6. [PD] Listen for unusual noises or vibrations from the engine, indicating potential mechanical issues.
+  7. [FV] Document all findings, including location, severity, and potential causes of any issues, using a tablet or notepad.
+  8. [FV] Based on inspection findings, determine if the locomotive is safe for operation. Flag for further maintenance or repairs if necessary.
+[D]
+  1. [IC] Put on personal protective equipment (PPE) including a hard hat, safety glasses, and insulated gloves suitable for the environment.
+  2. [IC] Review the locomotive's maintenance log and inspection checklist to understand the specific components requiring inspection and the sequence of checks.
+  3. [NA] Locate and approach the assigned locomotive at the maintenance facility.
+  4. [NA] Climb onto the locomotive and access the engine compartment, undercarriage, and roof as needed.
+  5. [PD] Visually inspect the exterior, engine components, electrical systems, brake systems, wheels, and undercarriage for signs of wear, damage, leaks, or other issues.
+  6. [PD] Use a flashlight to illuminate dark or hard-to-see areas during the inspection.
+  7. [FV] Document all findings, including issues, their location, severity, potential causes, and recommended repairs using a handheld tablet or notepad.
+  8. [FV] Test the locomotive's horns, bells, lights, and other functional systems to ensure they operate correctly.
+  9. [FV] Review the documented findings and determine whether the locomotive is safe for operation. If necessary, flag the locomotive for further maintenance or repairs.
+  10. [FV] Sign off on the inspection report, indicating that the locomotive has passed all inspections and is safe for its next journey.
+
+================================================================
+ANSWER TEMPLATE
+
+377: _ | 
+378: _ | 
+379: _ | 
+380: _ | 
+381: _ | 
+382: _ | 
+383: _ | 
+384: _ | 
+

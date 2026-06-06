@@ -1,0 +1,360 @@
+BATCH 9/63 | Model: Gemini 3 Pro | Tasks 65-72
+================================================================
+EXPERT REVIEW -- Micro-Action Sequence Evaluation
+For each task, read ALL four options, then choose the BEST (A/B/C/D).
+
+Criteria:
+  1. Completeness  -- no critical steps missing
+  2. Realism       -- every step is concretely executable
+  3. Stage accuracy -- stage label correct for each step:
+     IC=Intent_Communication  NA=Navigation_Addressing
+     PD=Perception_Diagnosis  ME=Manipulation_Execution  FV=Feedback_Verification
+  4. Conciseness   -- no redundant or duplicate steps
+  5. Scope         -- starts and ends at exactly the right point
+
+OUTPUT: fill the ANSWER TEMPLATE at the bottom.
+Format: N: X | one-sentence reason (max 12 words)
+IMPORTANT: Each task has a different best answer. Do NOT pick the same
+letter for every task without reading.
+================================================================
+
+--- Task 65: Maintain test equipment.
+[A]
+  1. [IC] Review the maintenance log and calibration standards for the test equipment.
+  2. [NA] Navigate to the storage area and locate the test equipment that needs maintenance.
+  3. [PD] Inspect the equipment for any visible damage or wear.
+  4. [ME] Clean the equipment using appropriate cleaning materials and techniques.
+  5. [ME] Calibrate the equipment according to the manufacturer's instructions and standards.
+  6. [FV] Run diagnostic tests to verify that the equipment is calibrated correctly.
+  7. [FV] Document the calibration results and any adjustments made in the maintenance log.
+  8. [NA] Store the test equipment back in the designated area.
+  9. [IC] Notify the laboratory manager that the equipment is ready for use.
+[B]
+  1. [IC] Review the maintenance log for any outstanding issues or scheduled calibrations for each oscilloscope.
+  2. [NA] Gather necessary tools and calibration equipment (screwdrivers, cleaning supplies, calibration probes).
+  3. [ME] Power down each oscilloscope and disconnect it from power and any connected devices.
+  4. [ME] Clean the exterior of each oscilloscope with a microfiber cloth and appropriate cleaning solution.
+  5. [PD] Perform calibration procedures on each oscilloscope using the calibration probes and manufacturer's instructions.
+  6. [FV] Record calibration results and any maintenance performed in the maintenance log.
+  7. [ME] Reconnect each oscilloscope to power and any necessary devices.
+  8. [FV] Power on each oscilloscope and verify that it is functioning correctly.
+[C]
+  1. [IC] Review maintenance logs and schedules to identify equipment requiring attention.
+  2. [NA] Retrieve necessary tools, calibration standards, and the equipment's manual.
+  3. [PD] Inspect the equipment for visible damage, wear, or cleanliness issues.
+  4. [ME] Clean the equipment using appropriate techniques and materials.
+  5. [ME] Connect the equipment to calibration standards and follow the manufacturer's calibration procedure.
+  6. [FV] Run diagnostic tests to verify calibration accuracy and equipment functionality.
+  7. [FV] Document all maintenance activities, calibration results, and any adjustments made.
+  8. [NA] Store the equipment securely in its designated location.
+[D]
+  1. [IC] Review maintenance log and lab schedule to understand upcoming experiments' requirements and identify equipment needing maintenance.
+  2. [NA] Navigate to the storage area, avoiding obstacles, and locate the test equipment that needs maintenance.
+  3. [NA] Retrieve the maintenance manual, calibration standards, and necessary tools for the test equipment.
+  4. [PD] Inspect the equipment for any visible damage, wear, or signs of malfunction, using appropriate tools like magnifying glasses if necessary.
+  5. [ME] Power down the equipment and disconnect it from power and any connected devices.
+  6. [ME] Clean the equipment using appropriate cleaning materials and techniques, ensuring no damage is caused.
+  7. [ME] Perform routine maintenance tasks, such as lubricating, tightening, or replacing components, following the manufacturer's specifications.
+  8. [ME] Calibrate the equipment using a known reference standard, following the calibration procedure outlined in the manual.
+  9. [FV] Run diagnostic tests to verify that the equipment is functioning correctly and calibrated accurately.
+  10. [FV] Document the maintenance activities, recording the date, time, details of the work performed, and the equipment's current status in the maintenance log.
+  11. [NA] Store the test equipment back in the designated area, ensuring it is secure and protected from damage.
+  12. [IC] Notify the laboratory manager or relevant personnel that the equipment is ready for use.
+
+--- Task 66: Analyze crime scene evidence.
+[A]
+  1. [IC] Don personal protective equipment (PPE) to prevent contamination of the crime scene and protect against potential hazards.
+  2. [NA] Scan the crime scene, taking in the overall layout and any visible evidence, while maintaining a clear mental map of the scene's state.
+  3. [PD] Approach the first piece of evidence, such as a bloodstain or fingerprint, and observe its size, shape, location, and any surrounding context.
+  4. [ME] Carefully collect the evidence using appropriate tools (e.g., sterile swabs, latent print powder) and place it in an evidence bag, labeling it with a unique identifier and the time of collection.
+  5. [FV] Document the evidence's location and appearance using photographs and notes, ensuring the evidence's context is preserved for later analysis.
+  6. [PD] Analyze the collected evidence using specialized software or equipment, correlating it with the scene's layout and drawing initial conclusions about the events that transpired.
+  7. [IC] Draft a preliminary report outlining the evidence collected, its context, and initial interpretations, ensuring all relevant information is included.
+  8. [FV] Review the report, ensuring it's comprehensive and accurate, then submit it to the relevant authorities for further investigation.
+[B]
+  1. [PD] Review the crime scene report and associated documentation to understand the context and scope of the investigation.
+  2. [PD] Examine the DNA samples and fingerprints to identify any matches in the database.
+  3. [ME] Use specialized software to enhance and analyze the video footage.
+  4. [PD] Compare the analyzed evidence to known suspects and make connections.
+  5. [FV] Document all findings and create a report for the investigating officer.
+  6. [NA] Store the evidence in a secure location and maintain a chain of custody.
+  7. [IC] Collaborate with the investigating officer to discuss findings and develop a plan for further investigation.
+  8. [FV] Update the case file and maintain a record of all activities and findings.
+  9. [FV] Review the case file and ensure that all evidence has been properly documented and stored.
+  10. [FV] Submit the evidence and report to the crime lab for further analysis and testing.
+  11. [FV] Confirm receipt of the evidence and report by the crime lab and update the case log.
+  12. [PD] Analyze the crime scene photos and notes using specialized software, correlating the evidence with the scene's layout and drawing initial conclusions about the events that transpired.
+[C]
+  1. [ME] Don personal protective equipment (gloves, mask, booties) to prevent contamination of the crime scene.
+  2. [IC] Receive and verify the chain of custody for the evidence bag containing fingerprints, blood samples, and glass fragments.
+  3. [NA] Open the evidence bag in a controlled environment to prevent contamination.
+  4. [PD] Examine and document the bloodstain pattern, noting its size, shape, distribution, and any directional characteristics.
+  5. [ME] Carefully collect a blood sample using a sterile swab and appropriate packaging.
+  6. [ME] Lift latent fingerprints using powder and adhesive tape, ensuring proper technique for clear impressions.
+  7. [PD] Examine glass fragments under a microscope for trace evidence like fibers or additional fingerprints.
+  8. [FV] Document all findings, including photographs, descriptions, and preliminary hypotheses, in a detailed report.
+  9. [ME] Package and label all collected evidence, including blood samples, fingerprints, and glass fragments, for further analysis.
+[D]
+  1. [IC] Don personal protective equipment (PPE) to prevent contamination and protect against potential hazards.
+  2. [PD] Review the crime scene report and associated documentation to understand the context and scope of the investigation.
+  3. [NA] Scan the crime scene, taking in the overall layout and any visible evidence, while maintaining a clear mental map of the scene's state.
+  4. [PD] Approach and observe each piece of evidence, noting its size, shape, location, and context relative to other evidence and the scene's layout.
+  5. [ME] Carefully collect and preserve each piece of evidence, using appropriate tools and packaging, and labeling it with a unique identifier and collection time.
+  6. [FV] Document each piece of evidence's location, appearance, and context using photographs and notes.
+  7. [PD] Examine and analyze each piece of evidence separately, using appropriate tools and techniques (e.g., microscope, specialized software, database comparisons).
+  8. [IC] Formulate preliminary hypotheses about the events that caused or are related to each piece of evidence.
+  9. [IC] Draft a preliminary report outlining the evidence collected, its context, initial interpretations, and any preliminary hypotheses.
+  10. [FV] Review the report, ensuring it's comprehensive, accurate, and includes all relevant information, then submit it to the relevant authorities for further investigation.
+
+--- Task 67: Measure clients to ensure proper product fit.
+[A]
+  1. [IC] Greet the client, explain the measurement process, and ensure they are comfortable.
+  2. [NA] Select the appropriate measuring tape and ensure it is clean and undamaged.
+  3. [NA] Ask the client to remove outerwear and stand straight with feet together.
+  4. [PD] Measure the client's height from the top of their head to the floor.
+  5. [PD] Measure the client's chest circumference at the fullest part, ensuring the tape is level and snug.
+  6. [PD] Measure the client's waist circumference at the natural waistline, ensuring the tape is level and parallel to the floor.
+  7. [PD] Measure the client's inseam, from the top of the inner thigh down to the ankle, ensuring the tape is straight and close to the body.
+  8. [FV] Record all measurements accurately and double-check for errors.
+  9. [FV] Confirm the measurements with the client and ensure they are satisfied with the process.
+[B]
+  1. [IC] Greet the client and explain the measurement process.
+  2. [NA] Position the client in a standing posture and ensure they are comfortable.
+  3. [PD] Measure the client's shoulder width by placing the tape from one shoulder to the other.
+  4. [PD] Measure the client's chest circumference at the fullest part.
+  5. [PD] Measure the client's waist circumference at the natural waistline.
+  6. [PD] Measure the client's hips circumference at the fullest part.
+  7. [PD] Measure the client's inseam by placing the tape from the crotch to the ankle.
+  8. [ME] Record all measurements in a notebook or digital device.
+  9. [FV] Confirm the measurements with the client and ensure they are satisfied with the process.
+[C]
+  1. [IC] Greet the client, explain the measurement process, and ensure they understand its importance for proper product fit.
+  2. [NA] Instruct the client to stand in a relaxed, natural posture with feet together and outerwear removed.
+  3. [PD] Measure the client's chest circumference at the fullest part, ensuring the tape is level and snug.
+  4. [PD] Measure the client's waist circumference at the natural waistline, ensuring the tape is level and parallel to the floor.
+  5. [PD] Measure the client's inseam, from the top of the inner thigh down to the ankle, ensuring the tape is straight and close to the body.
+  6. [FV] Record all measurements accurately in a notebook or digital device, double-checking for errors.
+  7. [FV] Confirm the measurements with the client, allowing them to review and ask questions.
+[D]
+  1. [IC] Greet the client, explain the measurement process, and ensure they are comfortable.
+  2. [NA] Ask the client to remove outerwear and stand straight with feet together.
+  3. [PD] Measure the client's height from the top of their head to the floor.
+  4. [ME] Measure the client's chest circumference at the fullest part, ensuring the tape is level and snug.
+  5. [ME] Measure the client's waist circumference at the natural waistline, ensuring the tape is level and parallel to the floor.
+  6. [PD] Measure the client's inseam, from the top of the inner thigh down to the ankle, ensuring the tape is straight and close to the body.
+  7. [FV] Record all measurements accurately, double-checking for errors, and thank the client for their cooperation.
+
+--- Task 68: Read maps to determine routes.
+[A]
+  1. [IC] Open the navigation app on the mobile device or access the navigation system on the vehicle's dashboard.
+  2. [IC] Input the starting point and the first delivery location into the navigation app.
+  3. [NA] Add additional delivery locations to the route, considering the optimal order.
+  4. [PD] Analyze the map displayed on the screen, identifying major roads, traffic patterns, and potential obstacles.
+  5. [PD] Check real-time traffic data and adjust the route if necessary.
+  6. [FV] Review the planned route, verifying that it avoids congested areas and takes into account any known road closures.
+  7. [NA] Start the navigation and follow the app's guidance to the first destination.
+  8. [FV] Upon reaching a destination, mark it as completed in the navigation app and proceed to the next destination.
+[B]
+  1. [IC] Retrieve the paper map and digital GPS device.
+  2. [NA] Identify the starting point on the map.
+  3. [NA] Identify the first delivery location on the map.
+  4. [PD] Determine the route from the starting point to the first delivery location.
+  5. [ME] Input the first delivery location into the GPS device.
+  6. [ME] Repeat steps 3-5 for each subsequent delivery location.
+  7. [FV] Verify the overall route on the map for any potential shortcuts or errors.
+  8. [ME] Finalize the route in the GPS device.
+  9. [IC] Confirm the route with a supervisor or client if necessary.
+  10. [FV] Begin the delivery route according to the planned path.
+[C]
+  1. [NA] Retrieve the map and identify the starting point.
+  2. [NA] Identify all delivery locations on the map.
+  3. [PD] Analyze the map to determine the most efficient route between locations, considering factors like distance, terrain, and potential obstacles.
+  4. [ME] Mark the chosen route on the map for reference.
+  5. [FV] Verify the overall route for accuracy and potential improvements.
+  6. [ME] If using a digital GPS device, input the route or individual addresses.
+[D]
+  1. [IC] Access the navigation tool (app, map, or GPS device).
+  2. [IC] Input the starting point and all destination addresses into the navigation tool.
+  3. [PD] Analyze the map or route planner to identify major roads, traffic patterns, and potential obstacles.
+  4. [ME] Consider delivery time windows, estimated travel times, and any known road closures or traffic data.
+  5. [ME] Select or generate the route option that optimizes travel time while meeting all delivery deadlines.
+  6. [FV] Review the chosen route on the map or within the navigation tool, ensuring it avoids congested areas and potential issues.
+  7. [NA] Initiate navigation by starting turn-by-turn directions or following the planned route.
+  8. [FV] Upon reaching each destination, mark it as completed in the navigation tool (if applicable) and proceed to the next destination.
+
+--- Task 69: Notify others of equipment repair or maintenance needs.
+[A]
+  1. [PD] Visually inspect the conveyor belt, paying attention to the belt surface, rollers, and motor, and listen to the conveyor belt's operation, focusing on unusual noises.
+  2. [PD] Mentally assess the severity of the issue based on the observed symptoms.
+  3. [NA] Retrieve a mobile device (provided by the plant) with a pre-installed maintenance reporting app.
+  4. [IC] Open the maintenance reporting app and select the 'Report Issue' option, then input the specific location and symptoms of the issue.
+  5. [IC] Submit the report through the app, sending a notification to the maintenance supervisor and relevant personnel.
+  6. [FV] Monitor the system for acknowledgment or response from the recipients.
+  7. [IC] Follow up with the maintenance team to ensure they have received the notification and are en route to address the issue.
+[B]
+  1. [PD] Identify the need for equipment repair or maintenance.
+  2. [NA] Locate the relevant personnel to notify.
+  3. [PD] Draft a clear and concise message describing the issue.
+  4. [IC] Send the notification to the relevant personnel.
+  5. [FV] Monitor the system for acknowledgment or response from the recipients.
+  6. [IC] Follow up with the maintenance team to ensure they have received the notification.
+  7. [FV] Review the repair schedule and ensure that all necessary steps have been taken.
+[C]
+  1. [PD] Visually inspect the equipment, noting signs of wear, damage, or malfunction.
+  2. [PD] Mentally assess the severity of the issue and its potential impact on operations.
+  3. [NA] Access the designated communication system (e.g., intranet, mobile app, phone).
+  4. [IC] Compose a clear and concise message detailing the equipment, the issue, its location, and the urgency.
+  5. [IC] Select the appropriate personnel to notify (e.g., maintenance team, supervisor).
+  6. [IC] Submit the notification through the chosen communication system.
+  7. [FV] Optionally, follow up with the notified parties to confirm receipt and initiate action.
+[D]
+  1. [PD] Inspect the equipment (e.g., conveyor belt) visually and listen to its operation to identify any issues.
+  2. [PD] Assess the severity of the issue based on observed symptoms.
+  3. [NA] Access the plant's communication system or maintenance reporting app on a nearby device.
+  4. [PD] Draft a clear and concise message describing the issue, its location, and the impact on operations.
+  5. [IC] Identify and select the relevant personnel to notify, such as the maintenance team, supervisors, and the plant manager.
+  6. [IC] Send the notification immediately to minimize response time.
+  7. [FV] Monitor the system for acknowledgment or response from the recipients and follow up with the maintenance team if necessary.
+
+--- Task 70: Distribute supplies to workers.
+[A]
+  1. [IC] Review the list of required supplies for each worker and consult the digital inventory management system to understand the supplies to be distributed and their respective storage locations.
+  2. [NA] Locate and retrieve the designated supplies from the storage area, using the warehouse map to plan the most efficient route.
+  3. [ME] Load the supplies onto a transport cart or pallet jack and navigate to the designated distribution area or worker's workstation.
+  4. [PD] Identify the correct workstation or worker based on the workstation ID or description provided by the inventory management system.
+  5. [FV] Hand over the supplies to the identified worker, ensuring they acknowledge receipt and confirming that the correct supplies have been distributed.
+  6. [FV] Update the inventory management system with the successful delivery, marking the supplies as distributed.
+  7. [FV] Repeat steps 2 to 6 for all the required supplies and workers until the distribution cycle is complete.
+  8. [NA] Restock the supplies in the warehouse storage area and update the inventory list to reflect the distributed items.
+  9. [IC] Document any issues or concerns that arose during the distribution process and report them to the supervisor.
+[B]
+  1. [IC] Review the list of required supplies for each worker.
+  2. [NA] Navigate to the storage area where the supplies are located.
+  3. [ME] Retrieve the first set of supplies for the first worker.
+  4. [NA] Carry the supplies to the designated distribution area.
+  5. [FV] Verify that the correct supplies are being given to the first worker.
+  6. [ME] Repeat the process for the second worker, retrieving and verifying the correct supplies.
+  7. [ME] Continue the process for the remaining workers, ensuring each receives the correct supplies.
+  8. [PD] Check the inventory to ensure all supplies have been distributed.
+  9. [FV] Confirm with each worker that they have received the correct supplies.
+  10. [FV] Complete the distribution process and document the distribution for record-keeping.
+[C]
+  1. [IC] Review the list of required supplies for each worker.
+  2. [NA] Navigate to the storage area and locate the supplies.
+  3. [ME] Retrieve the supplies for the first worker.
+  4. [NA] Transport the supplies to the designated worker area.
+  5. [FV] Verify the worker's identity and confirm the correct supplies are being delivered.
+  6. [ME] Hand over the supplies and obtain confirmation of receipt.
+  7. [FV] Repeat steps 3-6 for each remaining worker.
+  8. [FV] Update inventory records to reflect the distributed supplies.
+[D]
+  1. [IC] Review the digital work order or inventory list to understand the supplies to be distributed and their respective storage locations.
+  2. [NA] Using the warehouse map, plan the most efficient route to visit all the required storage locations and worker areas.
+  3. [NA] Travel to the first storage location, avoiding obstacles and other workers using the planned route.
+  4. [PD] Locate the specific supplies in the storage rack using visual cues and the inventory management system's guidance.
+  5. [ME] Pick up the required supplies, ensuring they are securely held to prevent any damage or loss.
+  6. [NA] Travel to the designated worker area, following the planned route and avoiding any obstacles.
+  7. [PD] Identify the correct worker based on their ID or description provided by the inventory management system.
+  8. [FV] Hand over the supplies to the identified worker, ensuring they acknowledge receipt.
+  9. [FV] Update the inventory management system with the successful delivery, marking the supplies as distributed.
+  10. [FV] Repeat steps 3 to 9 for all the required supplies and workers until the distribution cycle is complete.
+
+--- Task 71: Train food preparation or food service personnel.
+[A]
+  1. [IC] Greet the trainee, introduce the dish to be prepared, and explain the importance of timing and order of operations in a busy kitchen.
+  2. [ME] Demonstrate the correct knife grip and cutting technique for the specific vegetables required for the dish.
+  3. [FV] Guide the trainee through the correct sequence of cutting and prep work, providing real-time feedback on technique and speed.
+  4. [ME] Demonstrate the correct way to handle and cook the protein for the dish, explaining the importance of temperature control.
+  5. [FV] Guide the trainee through cooking the protein, providing real-time feedback on temperature and cooking time.
+  6. [ME] Demonstrate the correct way to combine and cook the vegetables, explaining the importance of timing and seasoning.
+  7. [FV] Guide the trainee through combining and cooking the vegetables, providing real-time feedback on seasoning and cooking time.
+  8. [ME] Demonstrate the correct way to plate the dish, explaining the importance of presentation and garnish.
+  9. [FV] Guide the trainee through plating the dish, providing real-time feedback on presentation and garnish.
+  10. [FV] Taste the finished dish with the trainee, provide final feedback, and discuss areas for improvement.
+[B]
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+[C]
+  1. [IC] Introduce the trainee to the specific dish and explain the importance of following procedures and safety protocols in a kitchen environment.
+  2. [ME] Demonstrate the correct techniques for preparing key ingredients, including knife skills, measuring, and basic cooking methods.
+  3. [FV] Guide the trainee through hands-on practice of the demonstrated techniques, providing immediate feedback and corrections.
+  4. [IC] Explain the assembly process of the dish, highlighting the order of ingredients and proper plating techniques.
+  5. [FV] Supervise the trainee as they assemble the dish, offering guidance and ensuring adherence to the established procedures.
+  6. [FV] Conduct a final evaluation of the trainee's prepared dish, providing constructive feedback on both technique and presentation.
+[D]
+  1. [IC] Introduce the dish, explain its components, and emphasize the importance of timing and order of operations in a busy kitchen.
+  2. [ME] Demonstrate the correct knife grip and cutting technique for the specific ingredients required for the dish.
+  3. [FV] Guide the trainee through the correct sequence of prep work, providing real-time feedback on technique, speed, and order of operations.
+  4. [ME] Demonstrate the correct way to handle and cook the protein, explaining the importance of temperature control.
+  5. [FV] Guide the trainee through cooking the protein, providing real-time feedback on temperature and cooking time.
+  6. [ME] Demonstrate the correct way to combine and cook the vegetables, explaining the importance of timing and seasoning.
+  7. [FV] Guide the trainee through combining and cooking the vegetables, providing real-time feedback on seasoning and cooking time.
+  8. [ME] Demonstrate the correct way to plate the dish, explaining the importance of presentation and garnish.
+  9. [FV] Guide the trainee through plating the dish, providing real-time feedback on presentation and garnish.
+  10. [FV] Taste the finished dish with the trainee, provide final feedback, and discuss areas for improvement.
+
+--- Task 72: Mix sound inputs.
+[A]
+  1. [IC] Review the client's brief and discuss their vision for the track.
+  2. [NA] Import individual audio tracks into the Digital Audio Workstation (DAW) and organize them into separate tracks.
+  3. [PD] Listen to each track to understand the dynamics and characteristics of each instrument and vocal.
+  4. [ME] Adjust the volume levels and apply initial equalization (EQ) and compression to each track to balance its frequency spectrum and dynamics.
+  5. [ME] Pan each track to create a stereo image that complements the client's vision and add reverb and delay effects to create depth and space in the mix.
+  6. [FV] Listen to the mixed track critically in different environments (e.g., headphones, studio monitors) to ensure it sounds good across various playback systems.
+  7. [ME] Make final adjustments based on the feedback from different listening environments.
+  8. [NA] Export the final mixed track in the correct format for the next stage of production.
+  9. [IC] Review the exported track with the client and discuss any necessary revisions.
+[B]
+  1. [IC] Review the client's brief and discuss their vision for the track.
+  2. [NA] Open the DAW software and create a new project.
+  3. [NA] Import the individual sound tracks into the DAW timeline.
+  4. [PD] Listen to each track to identify its key elements and any necessary corrections.
+  5. [ME] Apply initial equalization (EQ) and compression to each track to balance its frequency spectrum and dynamics.
+  6. [ME] Pan each track to create a stereo image that complements the client's vision.
+  7. [FV] Listen to the mixed track in progress and make real-time adjustments based on auditory feedback.
+  8. [FV] Check the mixed track's levels against industry standards to ensure they are suitable for further processing.
+  9. [NA] Export the mixed track in the correct format for the next stage of production.
+  10. [IC] Review the exported track with the client and discuss any necessary revisions.
+[C]
+  1. [IC] Review the client brief and discuss their vision for the track.
+  2. [NA] Import individual audio tracks into the DAW and organize them into separate tracks.
+  3. [PD] Listen to each track to identify its key elements and any necessary corrections.
+  4. [ME] Adjust the volume levels of each track to achieve a balanced mix.
+  5. [ME] Apply equalization (EQ) to each track to shape the frequency content and enhance clarity.
+  6. [ME] Add compression to control the dynamic range of each track.
+  7. [ME] Pan each track to create a stereo image that complements the client's vision.
+  8. [FV] Listen to the mix in different environments and make adjustments based on feedback.
+  9. [NA] Export the final mixed track in the correct format.
+[D]
+  1. [IC] Review the client's brief and discuss their vision for the track.
+  2. [NA] Open the DAW software and create a new project.
+  3. [NA] Import individual audio tracks into the DAW timeline.
+  4. [PD] Listen to each track to identify its key elements and any necessary corrections.
+  5. [ME] Adjust the volume levels (gain staging) of each track to achieve a balanced mix.
+  6. [ME] Apply initial equalization (EQ) and compression to each track to balance its frequency spectrum and dynamics.
+  7. [ME] Pan each track to create a stereo image that complements the client's vision.
+  8. [FV] Listen to the mixed track in progress and make real-time adjustments based on auditory feedback.
+  9. [FV] Check the mixed track's levels against industry standards to ensure they are suitable for further processing.
+  10. [NA] Export the mixed track in the correct format for the next stage of production.
+  11. [IC] Review the exported track with the client and discuss any necessary revisions.
+
+================================================================
+ANSWER TEMPLATE
+
+65: _ | 
+66: _ | 
+67: _ | 
+68: _ | 
+69: _ | 
+70: _ | 
+71: _ | 
+72: _ | 
+

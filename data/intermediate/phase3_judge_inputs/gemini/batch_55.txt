@@ -1,0 +1,374 @@
+BATCH 55/63 | Model: Gemini 3 Pro | Tasks 433-440
+================================================================
+EXPERT REVIEW -- Micro-Action Sequence Evaluation
+For each task, read ALL four options, then choose the BEST (A/B/C/D).
+
+Criteria:
+  1. Completeness  -- no critical steps missing
+  2. Realism       -- every step is concretely executable
+  3. Stage accuracy -- stage label correct for each step:
+     IC=Intent_Communication  NA=Navigation_Addressing
+     PD=Perception_Diagnosis  ME=Manipulation_Execution  FV=Feedback_Verification
+  4. Conciseness   -- no redundant or duplicate steps
+  5. Scope         -- starts and ends at exactly the right point
+
+OUTPUT: fill the ANSWER TEMPLATE at the bottom.
+Format: N: X | one-sentence reason (max 12 words)
+IMPORTANT: Each task has a different best answer. Do NOT pick the same
+letter for every task without reading.
+================================================================
+
+--- Task 433: Cut openings in existing structures.
+[A]
+  1. [IC] Review the architectural plans to understand the required opening dimensions and discuss the plan with the team.
+  2. [NA] Measure and mark the cutting area on the wall using a measuring tape and chalk, ensuring the marked area is clear of any obstructions or hidden reinforcements.
+  3. [PD] Put on appropriate personal protective equipment (PPE), including safety glasses, gloves, and ear protection.
+  4. [ME] Secure the wall with clamps to prevent vibrations during cutting and set up a power saw with the appropriate blade for cutting concrete.
+  5. [ME] Slowly and carefully cut along the marked lines, using steady pressure and maintaining a consistent depth.
+  6. [ME] Break out the cut pieces using a sledgehammer and chisel, ensuring the opening is clean and free of debris.
+  7. [FV] Inspect the opening for any cracks or signs of structural weakness and ensure it meets the required dimensions.
+  8. [FV] Clean the opening area using a broom and dustpan, removing any remaining debris.
+  9. [IC] Communicate the results of the cutting process to the team and stakeholders, providing updates on any issues or concerns that arose during the process.
+[B]
+  1. [IC] Review blueprints and measurements for the new window opening.
+  2. [NA] Mark the location of the opening on the brick wall using chalk and a measuring tape.
+  3. [NA] Set up the laser level to ensure the marks are perfectly horizontal and vertical.
+  4. [PD] Prepare the masonry saw by ensuring it is properly fueled and the blade is sharp.
+  5. [PD] Put on personal protective equipment (PPE), including safety goggles, gloves, and a dust mask.
+  6. [ME] Start cutting along the marked lines, beginning at the top of the opening and working downwards.
+  7. [ME] Continue cutting along the sides of the opening, ensuring the cuts are vertical.
+  8. [ME] Finish cutting along the bottom of the opening, ensuring it is level.
+  9. [ME] Remove any loose bricks or debris from the opening.
+  10. [FV] Measure the opening to ensure it is the correct size (36 inches wide and 48 inches tall).
+  11. [FV] Adjust any cuts if necessary to meet the exact dimensions.
+  12. [FV] Clean up the work area and ensure all tools are properly stored.
+[C]
+  1. [IC] Review blueprints and mark the precise location and dimensions of the opening on the wall.
+  2. [PD] Ensure the marked area is clear of any obstructions or hidden reinforcements.
+  3. [ME] Put on appropriate personal protective equipment (PPE), including safety glasses, gloves, and ear protection.
+  4. [ME] Select and set up the appropriate concrete cutting tool (e.g., diamond-blade saw) based on wall thickness and desired cut quality.
+  5. [NA] Align the cutting blade with the marked lines on the wall, ensuring a straight and accurate cut.
+  6. [ME] Engage the cutting tool and slowly guide it along the marked lines, applying even pressure and controlling the cutting depth.
+  7. [FV] Monitor the progress of the cut, adjusting the cutting depth and speed as needed to prevent overheating or damage to the tool.
+  8. [ME] Carefully remove the cut concrete sections from the opening.
+  9. [FV] Inspect the finished opening for any irregularities or rough edges, making minor adjustments as needed.
+[D]
+  1. [IC] Review architectural plans and discuss the renovation plan with the team to understand the required opening dimensions and optimal cutting points.
+  2. [NA] Measure and mark the areas where the openings need to be cut, taking into account any obstacles or structural elements that need to be preserved.
+  3. [PD] Ensure the marked area is clear of any obstructions or hidden reinforcements.
+  4. [ME] Put on appropriate personal protective equipment (PPE), including safety glasses, gloves, ear protection, and dust mask.
+  5. [ME] Secure the wall with clamps to prevent vibrations during cutting.
+  6. [PD] Select the appropriate cutting tool (e.g., diamond-blade saw, hammer drill, or power saw) based on wall thickness and desired cut quality.
+  7. [ME] Set up the cutting tool and align the blade with the marked lines on the wall, ensuring a straight and accurate cut.
+  8. [ME] Slowly and carefully cut along the marked lines, using steady pressure and maintaining a consistent depth, monitoring the progress and adjusting as needed.
+  9. [ME] Once the cut is complete, carefully remove the cut pieces from the opening using appropriate tools (e.g., chisel, sledgehammer, or pry bar).
+  10. [PD] Inspect the finished opening for any irregularities, cracks, or signs of structural weakness, making minor adjustments as needed.
+  11. [ME] Clean the opening area using appropriate tools (e.g., broom, dustpan, or vacuum) to remove any remaining debris.
+  12. [FV] Inspect the opening one last time to ensure it meets the required dimensions and is structurally sound, documenting any issues or concerns for future reference.
+  13. [IC] Communicate the results of the cutting process to the team and stakeholders, providing updates on any issues or concerns that arose during the process.
+  14. [FV] Review the cutting process and identify areas for improvement, documenting any lessons learned or best practices for future reference.
+
+--- Task 434: Monitor equipment gauges or displays to ensure proper operation.
+[A]
+  1. [NA] Navigate to the equipment control panel and locate the gauges and displays.
+  2. [PD] Visually inspect the gauges and displays for any abnormal readings or alarms.
+  3. [PD] Compare the current gauge readings with the expected operating parameters.
+  4. [PD] Identify any deviations and determine if corrective action is necessary.
+  5. [ME] Take corrective action such as adjusting settings or notifying a supervisor.
+  6. [FV] Verify that the equipment is operating within normal parameters after taking corrective action.
+  7. [FV] Document the observed readings, any deviations, and actions taken in a logbook or digital system.
+  8. [FV] Continue monitoring the gauges and displays at regular intervals to ensure ongoing proper operation.
+[B]
+  1. [NA] Approach the industrial air compressor and locate the control panel with the gauges and displays.
+  2. [PD] Read the pressure gauge and compare the current reading to the expected operating range.
+  3. [PD] Read the temperature gauge and compare the current reading to the expected operating range.
+  4. [PD] Read the flow rate display and compare the current reading to the expected operating range.
+  5. [PD] Identify any deviations from the expected operating ranges and determine if corrective action is necessary.
+  6. [ME] If deviations are detected, take appropriate action such as adjusting the compressor settings or notifying a supervisor.
+  7. [FV] Record the observed readings and any actions taken in a logbook or digital system.
+  8. [FV] Continue monitoring the gauges and displays at regular intervals to ensure ongoing proper operation.
+[C]
+  1. [NA] Approach the equipment and locate the control panel with gauges and displays.
+  2. [PD] Scan the gauges and displays, noting pressure, temperature, flow rate, and any active alarms or error codes.
+  3. [PD] Compare the observed readings to the expected operating ranges, referencing any available documentation or manuals if needed.
+  4. [PD] Identify any deviations from the expected ranges or any active alarms.
+  5. [IC] If deviations or alarms are detected, determine the appropriate corrective action, which may involve adjusting settings, notifying a supervisor, or initiating maintenance procedures.
+  6. [ME] Implement the chosen corrective action, ensuring safety protocols are followed.
+  7. [FV] Record the observed readings, any actions taken, and the time of the event in a logbook or digital system.
+[D]
+  1. [NA] Approach the equipment and locate the control panel with gauges and displays.
+  2. [NA] Put on necessary personal protective equipment (PPE) before starting the monitoring process.
+  3. [PD] Visually inspect all gauges and displays on the control panel for any abnormal readings or alarms.
+  4. [PD] Check the equipment's log history to identify any recent issues or alarms.
+  5. [PD] Compare current gauge readings with the equipment's normal operating parameters.
+  6. [PD] Identify any issues or anomalies, and determine their causes.
+  7. [ME] Take corrective action to address any identified issues or anomalies.
+  8. [FV] Verify that the equipment is operating within normal parameters after taking corrective action.
+  9. [FV] Document any issues, anomalies, corrective actions taken, and the time of the event in the equipment's logbook or digital system.
+  10. [FV] Repeat the entire monitoring process at regular intervals to ensure ongoing proper operation.
+
+--- Task 435: Arrange facility schedules.
+[A]
+  1. [IC] Review incoming event requests and gather necessary details from relevant sources such as the registrar's office or event planners.
+  2. [NA] Access the facility calendar and master schedule to identify available time slots and resources.
+  3. [PD] Prioritize events based on factors such as event type, capacity requirements, and organizational importance.
+  4. [ME] Allocate appropriate rooms and resources for each event and tentatively assign time slots.
+  5. [PD] Identify and resolve any scheduling conflicts between events.
+  6. [IC] Communicate the tentative schedule to stakeholders for feedback and confirmation.
+  7. [ME] Refine the schedule based on stakeholder feedback and finalize the arrangements.
+  8. [FV] Distribute the finalized schedule to all relevant parties and update the scheduling system.
+  9. [FV] Monitor and update the schedule as needed to account for any last-minute changes or cancellations.
+[B]
+  1. [PD] Review the list of all classrooms and laboratories from the university's database.
+  2. [NA] Gather the course offerings and lab sessions for the upcoming semester from the registrar's office.
+  3. [PD] Identify the specific requirements for each classroom and lab session (e.g., room capacity, equipment needs).
+  4. [IC] Communicate with department heads and professors to confirm their scheduling preferences and any special requirements.
+  5. [ME] Input the gathered information into the scheduling software to begin arranging the schedules.
+  6. [PD] Identify and resolve any scheduling conflicts that arise, such as overlapping sessions or room capacity issues.
+  7. [FV] Review the initial schedule for any remaining conflicts or issues.
+  8. [ME] Finalize the schedule and generate a report of the arranged schedules.
+  9. [FV] Distribute the finalized schedules to all relevant parties, including department heads, professors, and administrative staff.
+  10. [FV] Conduct a final verification with key stakeholders to ensure that all schedules are acceptable and no further adjustments are needed.
+[C]
+  1. [NA] Gather course offerings, lab sessions, and facility requirements from the university database and registrar's office.
+  2. [IC] Identify specific scheduling preferences and requirements from department heads and professors.
+  3. [PD] Analyze gathered information to identify potential scheduling conflicts and optimize room utilization.
+  4. [ME] Input data into scheduling software and generate a preliminary schedule.
+  5. [FV] Review the preliminary schedule with stakeholders, address concerns, and refine the schedule.
+  6. [IC] Finalize the schedule and distribute it to all relevant parties.
+[D]
+  1. [IC] Review and gather all incoming event requests, ensuring all required details are provided.
+  2. [NA] Access and analyze the master schedule to identify available time slots and facilities for each event type.
+  3. [PD] Prioritize events based on factors such as event type, capacity requirements, organizational importance, and any specific preferences or requirements.
+  4. [ME] Check for and resolve any scheduling conflicts between approved events, ensuring optimal resource utilization.
+  5. [ME] Allocate appropriate rooms and resources (e.g., tables, chairs, AV equipment) for each event based on their requirements.
+  6. [IC] Communicate the approved schedule, any changes, and allocated resources to event organizers and relevant staff.
+  7. [FV] Monitor and update the schedule as needed throughout the scheduling period to account for any last-minute changes or cancellations.
+  8. [PD] Review the final schedule for any remaining conflicts or issues and make necessary adjustments.
+  9. [ME] Finalize the schedule and generate a report of the arranged schedules for distribution to relevant parties.
+  10. [FV] Conduct a final verification with key stakeholders to ensure that all schedules are acceptable and no further adjustments are needed.
+
+--- Task 436: Conduct eligibility or selection interviews.
+[A]
+  1. [NA] Prepare the interview environment, ensuring it is quiet, professional, and all necessary equipment is functional.
+  2. [IC] Greet the candidate, introduce oneself, and briefly explain the interview process.
+  3. [PD] Review the candidate's resume and any pre-submitted documentation to familiarize oneself with their background.
+  4. [ME] Ask pre-prepared questions related to the candidate's experience, skills, and qualifications, actively listening to their responses and taking notes.
+  5. [PD] Evaluate the candidate's responses and body language, looking for signs of confidence, enthusiasm, and relevant experience.
+  6. [FV] Allow the candidate to ask questions about the role, the company, or the interview process.
+  7. [FV] Summarize the key points of the interview and thank the candidate for their time.
+  8. [FV] Document the interview notes, including the candidate's responses and a preliminary assessment of their suitability.
+[B]
+  1. [PD] Review the candidate's resume and any pre-interview documentation to familiarize oneself with their background.
+  2. [IC] Greet the candidate and provide a brief introduction to the interview process.
+  3. [IC] Ask initial questions to understand the candidate's work experience and skills relevant to the job.
+  4. [PD] Evaluate the candidate's responses to determine if they meet the physical and cognitive requirements for the job.
+  5. [IC] Inquire about the candidate's availability and willingness to undergo any necessary physical assessments or training.
+  6. [IC] Discuss any potential barriers to eligibility and how they can be addressed.
+  7. [FV] Summarize the key points discussed and provide the candidate with feedback on their eligibility status.
+  8. [IC] Answer any remaining questions the candidate may have and provide information on the next steps in the process.
+  9. [FV] Conclude the interview and thank the candidate for their time.
+[C]
+  1. [PD] Review the candidate's resume and any pre-interview documentation to familiarize oneself with their background.
+  2. [NA] Prepare the interview room (physical space or virtual meeting) ensuring a quiet, professional environment.
+  3. [IC] Greet the candidate, introduce yourself, and briefly explain the interview process and expected duration.
+  4. [IC] Ask pre-determined questions related to the candidate's experience, skills, and qualifications, actively listening and taking notes.
+  5. [PD] Evaluate the candidate's responses, paying attention to both verbal and non-verbal cues, noting strengths and areas for further exploration.
+  6. [IC] Allow the candidate to ask questions about the role, the company, or the interview process, answering honestly and professionally.
+  7. [FV] Summarize the key points of the interview, thanking the candidate for their time and outlining the next steps in the process.
+[D]
+  1. [NA] Prepare the interview environment by ensuring it's quiet, professional, and set up with necessary equipment (e.g., chairs, table, video conferencing tools).
+  2. [IC] Establish a video connection with the candidate and confirm audio/video functionality.
+  3. [IC] Greet the candidate, introduce yourself, and briefly explain the interview process.
+  4. [PD] Review the candidate's resume, cover letter, and any pre-interview documentation to familiarize yourself with their background and qualifications.
+  5. [IC] Prepare a list of relevant questions focusing on the candidate's technical skills, experience, problem-solving abilities, and eligibility requirements.
+  6. [PD] Ask initial questions to understand the candidate's work experience, skills, and qualifications relevant to the job, actively listening to their responses and taking notes.
+  7. [ME] Ask follow-up questions based on the candidate's responses to clarify ambiguities, expand on their points, or assess specific eligibility criteria.
+  8. [PD] Evaluate the candidate's responses, body language, and overall fit with the company culture to determine their eligibility for the position.
+  9. [IC] Ask the candidate questions about their salary expectations, benefits, availability, willingness to undergo physical assessments or training, and any potential barriers to eligibility.
+  10. [FV] Summarize the key points discussed, provide the candidate with feedback on their eligibility status, and inform them about the next steps in the process.
+  11. [IC] Answer any remaining questions the candidate may have and thank them for their time.
+  12. [FV] Document the interview notes, including the candidate's responses, a preliminary assessment of their suitability, and any follow-up actions required.
+
+--- Task 437: Proofread documents, records, or other files to ensure accuracy.
+[A]
+  1. [NA] Receive the document from the source and save it to the local drive.
+  2. [PD] Open the document in the preferred word processing software and review its structure and content.
+  3. [ME] Set up the word processing software's proofreading tools, such as spelling and grammar check.
+  4. [PD] Proofread the document from the first page, checking for grammatical errors, punctuation mistakes, and awkward phrasing.
+  5. [ME] Use the software's tools to identify and correct spelling and basic grammar errors.
+  6. [PD] Manually review the corrected text to ensure the changes made by the software are appropriate and do not alter the document's meaning.
+  7. [PD] Check for factual inaccuracies by cross-referencing the document with relevant sources.
+  8. [ME] Correct any identified factual inaccuracies and ensure the document's language is consistent throughout.
+  9. [FV] Review the entire document one last time to ensure all errors have been corrected and the document is free of inconsistencies.
+  10. [FV] Save the final version of the document and send it back to the source via the agreed-upon method.
+[B]
+  1. [NA] Open the document to be proofread on a high-resolution monitor or computer screen.
+  2. [PD] Skim the document to get a general understanding of the content and target audience.
+  3. [PD] Read the document carefully, checking for grammatical errors, typos, and punctuation mistakes.
+  4. [PD] Verify factual information presented in the document against external sources if necessary.
+  5. [PD] Check for consistency in style, tone, and formatting throughout the document.
+  6. [ME] Correct any identified errors by editing the text directly in the document.
+  7. [FV] Reread the entire document after making corrections to ensure all errors have been addressed.
+  8. [FV] Save the edited document and send it to the client or supervisor for final approval.
+[C]
+  1. [NA] Open the document in a suitable word processing application.
+  2. [PD] Skim the document to understand its structure, content, and target audience.
+  3. [PD] Carefully read the document, checking for grammatical errors, typos, punctuation mistakes, and factual inaccuracies.
+  4. [PD] Verify factual information by cross-referencing with reliable sources if necessary.
+  5. [ME] Correct identified errors using the word processing software's tools.
+  6. [FV] Reread the entire document to ensure all errors have been addressed and the document flows logically.
+  7. [NA] Save the proofread document in the required format and location.
+[D]
+  1. [IC] Receive the document from the sender via email or other agreed-upon method.
+  2. [NA] Save the document to the local drive and open it in the preferred word processing software.
+  3. [PD] Scan the document to get an overview of its structure, content, and layout.
+  4. [ME] Set up the word processing software's proofreading tools, such as spelling, grammar, and style check.
+  5. [PD] Begin proofreading the document systematically, checking for errors, inconsistencies, and inaccuracies.
+  6. [ME] Use the software's tools to identify and correct spelling, basic grammar, and style errors.
+  7. [PD] Manually review the corrected text to ensure the changes made by the software are appropriate and do not alter the document's meaning.
+  8. [PD] Check for factual inaccuracies by cross-referencing the document with relevant sources, if necessary.
+  9. [ME] Correct any identified factual inaccuracies and ensure the document's language is consistent throughout.
+  10. [FV] Review the entire document one last time to ensure all errors have been corrected and the document is free of inconsistencies.
+  11. [FV] Save the final version of the document and send it back to the sender via email or other agreed-upon method.
+
+--- Task 438: Apply material to fill gaps in surfaces.
+[A]
+  1. [PD] Inspect the surface to identify all gaps and cracks that need to be filled.
+  2. [ME] Select and prepare the appropriate filler material, ensuring correct mixing and consistency.
+  3. [ME] Clean the identified gaps and cracks to remove any loose debris or dust.
+  4. [ME] Apply a thin, even layer of filler to the first gap using a putty knife, working from the center outwards.
+  5. [ME] Smooth the applied filler with the putty knife to ensure a flat and seamless surface.
+  6. [FV] Allow the filler to cure for the recommended time as specified by the manufacturer.
+  7. [ME] Repeat the application process for each identified gap, ensuring each is filled and smoothed.
+  8. [PD] Inspect the filled gaps to ensure they are smooth and flush with the surrounding surface.
+  9. [ME] Make any necessary touch-ups to ensure a seamless finish.
+  10. [IC] Notify the supervisor that the gap filling is complete and ready for further inspection.
+[B]
+  1. [PD] Inspect the surface to identify all gaps and cracks that need to be filled.
+  2. [IC] Select the appropriate material (epoxy filler or caulking) based on the gap size and type.
+  3. [ME] Prepare the material by mixing (if necessary) and loading it into the application tool (e.g., putty knife or caulking gun).
+  4. [ME] Apply the material to the first gap, following the manufacturer's instructions and using the appropriate tool.
+  5. [ME] Smooth the applied material to ensure a seamless finish, using a putty knife or other appropriate tool.
+  6. [FV] Allow the material to cure according to the manufacturer's instructions, monitoring the time and ensuring it is not exposed to excessive heat, moisture, or other environmental factors that could affect its performance.
+  7. [ME] Repeat the application process for each identified gap, ensuring each is filled and smoothed.
+  8. [FV] Inspect the filled gaps to ensure they are smooth and flush with the surrounding surface, making any necessary adjustments.
+  9. [ME] Make any necessary touch-ups to ensure a seamless finish.
+  10. [FV] Deliver the final result to the supervisor for inspection and approval.
+[C]
+  1. [PD] Inspect the surface to identify gaps and cracks, noting their size and shape.
+  2. [NA] Select the appropriate filler material based on gap size, surface type, and desired finish.
+  3. [ME] Prepare the filler material according to manufacturer instructions.
+  4. [ME] Clean the identified gaps to remove dust, debris, or loose particles.
+  5. [ME] Apply the filler material to the gap using a putty knife, ensuring a smooth and even surface.
+  6. [FV] Allow the filler to cure for the recommended time.
+  7. [FV] Inspect the filled gaps for smoothness and flushness with the surrounding surface.
+  8. [ME] Make any necessary touch-ups or adjustments to ensure a seamless finish.
+[D]
+  1. [PD] Inspect surfaces to identify gaps and cracks that need to be filled.
+  2. [IC] Select appropriate material (e.g., epoxy filler, caulk, joint compound) based on gap size, surface type, and manufacturer recommendations.
+  3. [ME] Prepare the material according to manufacturer instructions, mixing components if necessary.
+  4. [ME] Clean the gaps to remove any loose debris or dust, ensuring a smooth surface for application.
+  5. [NA] Position the application tool (e.g., putty knife, caulking gun) at the starting point of a gap.
+  6. [ME] Apply the material to the gap using smooth, even motions, working from the center outwards to avoid creating air pockets.
+  7. [ME] Smooth the applied material with a tool (e.g., putty knife, damp cloth) to remove excess material and ensure a seamless finish.
+  8. [PD] Inspect the filled gap to ensure it is smooth, even, and flush with the surrounding surface.
+  9. [FV] Allow the material to cure or dry according to the manufacturer's instructions, monitoring the time and environmental factors.
+  10. [PD] Inspect the filled gaps one final time to ensure they meet the desired standards, making any necessary touch-ups.
+  11. [IC] Notify the supervisor or relevant parties that the gap filling is complete and ready for any subsequent steps (e.g., sanding, painting).
+
+--- Task 439: Operate farming equipment.
+[A]
+  1. [IC] Check the tractor's fuel and oil levels, and ensure all safety features are functional.
+  2. [IC] Start the tractor engine and perform a pre-operational check, ensuring all systems are functioning correctly.
+  3. [NA] Drive the tractor to the designated field, navigating through the farm's gates and roads.
+  4. [ME] Attach the plow to the tractor's three-point hitch and adjust the plow's depth and angle according to the soil conditions.
+  5. [ME] Begin plowing the field in straight rows, ensuring consistent depth and coverage.
+  6. [FV] After completing each row, raise the plow, turn the tractor around, and lower the plow to resume plowing in the next row.
+  7. [PD] Monitor the tractor's engine temperature and listen for any unusual noises that may indicate a problem.
+  8. [NA] Once the field is plowed, raise the plow, drive the tractor back to the farm's storage area, and detach the plow.
+  9. [FV] Clean the tractor and the plow, removing any debris or dirt that may have accumulated during the plowing process.
+  10. [IC] Park the tractor in its designated storage area, secure it, and turn off the engine.
+[B]
+  1. [IC] Start the tractor engine and check all gauges and controls for proper operation.
+  2. [ME] Attach the plow to the tractor and adjust the plow's depth and angle according to the soil conditions.
+  3. [NA] Drive the tractor to the starting point at the edge of the field.
+  4. [ME] Engage the plow and begin plowing the first row, maintaining a consistent speed and depth.
+  5. [PD] Monitor the tractor's progress and adjust the plow as needed to ensure even plowing.
+  6. [ME] At the end of the first row, lift the plow, turn the tractor, and align it for the next row.
+  7. [ME] Repeat the plowing process for each row until the entire field is plowed.
+  8. [PD] Check the field for any missed spots or overlaps and address them by plowing those areas.
+  9. [NA] Lift the plow and drive the tractor to a safe parking spot.
+  10. [FV] Shut down the tractor engine and secure all equipment.
+[C]
+  1. [IC] Check fuel, oil levels, and safety features of the tractor.
+  2. [ME] Start the tractor engine.
+  3. [NA] Navigate the tractor to the field, using GPS or visual cues.
+  4. [ME] Attach the appropriate implement (plow, seeder, etc.) to the tractor.
+  5. [PD] Adjust implement settings (depth, angle, etc.) based on field conditions.
+  6. [ME] Operate the tractor and implement, monitoring progress and making adjustments as needed.
+  7. [NA] Upon completion, disengage the implement, return the tractor to storage, and secure it.
+  8. [FV] Perform post-operation checks (cleaning, refueling, etc.).
+[D]
+  1. [IC] Check and ensure tractor's fuel, oil levels, and safety features are functional.
+  2. [IC] Start the tractor engine and perform a pre-operational check of all systems.
+  3. [NA] Navigate the tractor to the designated field, using GPS and visual cues for accurate placement.
+  4. [ME] Attach the appropriate equipment (e.g., plow, seeder) to the tractor's three-point hitch and adjust settings based on soil conditions and crop requirements.
+  5. [ME] Begin operating the equipment in straight rows, maintaining consistent speed, depth, and coverage.
+  6. [FV] After completing each row, raise the equipment, turn the tractor around, and lower the equipment to resume operation in the next row.
+  7. [PD] Monitor the tractor's engine temperature, listen for unusual noises, and visually inspect the equipment's performance.
+  8. [NA] Upon completing the task, raise the equipment, navigate the tractor back to the storage area, and detach the equipment.
+  9. [FV] Clean the tractor and equipment, removing any debris or dirt accumulated during the process.
+  10. [IC] Park the tractor in its designated storage area, secure it, and turn off the engine.
+
+--- Task 440: Provide patrons with directions to locales or attractions.
+[A]
+  1. [IC] Greet the patrons and ask if they need directions to a specific location.
+  2. [IC] Confirm the patrons' current location and the destination.
+  3. [NA] Locate the destination on a digital or physical map and determine the most efficient route.
+  4. [ME] Explain the route to the patrons, highlighting key landmarks and turns.
+  5. [ME] Draw or show the route on a physical or digital map to provide a visual reference.
+  6. [ME] Provide a printed or digital map with the route highlighted.
+  7. [FV] Confirm that the patrons understand the directions and are confident in navigating to the destination.
+  8. [FV] Answer any additional questions the patrons have about the route or the destination.
+  9. [FV] Wish the patrons a pleasant visit and bid them farewell.
+[B]
+  1. [IC] Greet the patrons and ask if they need directions to a specific location.
+  2. [IC] Confirm the patrons' current location and the destination (the museum).
+  3. [NA] Locate the museum on a digital map or a physical map.
+  4. [NA] Identify the most efficient route from the patrons' current location to the museum.
+  5. [ME] Explain the route to the patrons, highlighting key landmarks and turns.
+  6. [ME] Draw the route on a physical map or use a digital map to show the path.
+  7. [ME] Provide a printed or digital map with the route highlighted.
+  8. [IC] Answer any additional questions the patrons have about the route or the museum.
+  9. [FV] Confirm that the patrons understand the directions and are confident in navigating to the museum.
+  10. [FV] Wish the patrons a pleasant visit and bid them farewell.
+[C]
+  1. [IC] Greet the patron and inquire about their desired destination.
+  2. [IC] Confirm the patron's current location and the specific destination.
+  3. [NA] Mentally visualize the route or consult a map to determine the most efficient path.
+  4. [ME] Explain the route to the patron using clear, concise language and landmarks.
+  5. [ME] Offer a physical map or digital directions if the patron requests them.
+  6. [FV] Confirm the patron understands the directions and answer any further questions.
+[D]
+  1. [IC] Greet patrons and inquire about their desired destination.
+  2. [IC] Actively listen to patrons' description and ask clarifying questions to ensure understanding.
+  3. [NA] Locate the destination on a digital map or physically on a map.
+  4. [NA] Determine the most efficient route from patrons' current location to the destination, considering factors like walking distance, public transportation options, and potential obstacles.
+  5. [ME] Clearly articulate the directions, using landmarks and easily recognizable points of reference.
+  6. [ME] Offer a physical map or digital directions with the route highlighted, if requested.
+  7. [FV] Confirm patrons' understanding of the directions and offer to repeat or clarify if needed.
+  8. [FV] Wish patrons a pleasant journey or visit and bid them farewell.
+
+================================================================
+ANSWER TEMPLATE
+
+433: _ | 
+434: _ | 
+435: _ | 
+436: _ | 
+437: _ | 
+438: _ | 
+439: _ | 
+440: _ | 
+

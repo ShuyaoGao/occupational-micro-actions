@@ -1,0 +1,368 @@
+BATCH 28/63 | Model: Gemini 3 Pro | Tasks 217-224
+================================================================
+EXPERT REVIEW -- Micro-Action Sequence Evaluation
+For each task, read ALL four options, then choose the BEST (A/B/C/D).
+
+Criteria:
+  1. Completeness  -- no critical steps missing
+  2. Realism       -- every step is concretely executable
+  3. Stage accuracy -- stage label correct for each step:
+     IC=Intent_Communication  NA=Navigation_Addressing
+     PD=Perception_Diagnosis  ME=Manipulation_Execution  FV=Feedback_Verification
+  4. Conciseness   -- no redundant or duplicate steps
+  5. Scope         -- starts and ends at exactly the right point
+
+OUTPUT: fill the ANSWER TEMPLATE at the bottom.
+Format: N: X | one-sentence reason (max 12 words)
+IMPORTANT: Each task has a different best answer. Do NOT pick the same
+letter for every task without reading.
+================================================================
+
+--- Task 217: Assess product or process usefulness.
+[A]
+  1. [IC] Review existing documentation and user feedback to understand the current process or product and identify areas for improvement.
+  2. [PD] Observe the process or product in operation and collect data on its performance, noting any inefficiencies or user difficulties.
+  3. [PD] Analyze the collected data to identify trends, patterns, and areas for improvement.
+  4. [ME] Develop and simulate proposed changes to predict their impact and evaluate feasibility.
+  5. [ME] Prioritize and plan the implementation of the most impactful and feasible changes.
+  6. [FV] Compile findings, recommendations, and implementation plans into a comprehensive report.
+  7. [FV] Present the report to stakeholders and address any questions or concerns.
+[B]
+  1. [PD] Review existing customer feedback and support tickets to identify patterns and areas where users with disabilities are struggling with the current feature.
+  2. [PD] Research industry benchmarks and best practices for designing accessible software features to inform the evaluation process.
+  3. [IC] Collaborate with cross-functional teams, including design, engineering, and accessibility experts, to gather input and feedback on the new software feature.
+  4. [ME] Develop and administer a survey or usability test to gather quantitative and qualitative data on the new software feature's effectiveness for users with disabilities.
+  5. [PD] Analyze the data collected from the survey or usability test to identify areas of improvement and opportunities for growth.
+  6. [FV] Develop a clear, data-driven recommendation for implementing the new software feature, taking into account the needs of users with disabilities and the business goals of the e-commerce platform.
+  7. [IC] Present the recommendation to stakeholders, including executives, designers, and engineers, to ensure buy-in and support for implementation.
+  8. [IC] Address any concerns or questions raised by stakeholders and provide additional data or analysis as needed to support the recommendation.
+  9. [ME] Work with cross-functional teams to implement the recommended changes to the software feature, ensuring that they meet the needs of users with disabilities and align with business goals.
+  10. [FV] Monitor and evaluate the effectiveness of the implemented changes, making adjustments as needed to ensure that the software feature meets the needs of users with disabilities and aligns with business goals.
+[C]
+  1. [IC] Define the specific product or process to be evaluated and its intended purpose.
+  2. [IC] Gather relevant documentation, user manuals, or existing data about the product or process.
+  3. [IC] Identify key performance indicators (KPIs) or metrics to assess usefulness.
+  4. [PD] Conduct observations, tests, or user feedback sessions to collect data on the product or process performance.
+  5. [PD] Analyze the collected data against the defined KPIs.
+  6. [FV] Compare the results to benchmarks, industry standards, or previous versions (if applicable).
+  7. [FV] Document findings, including strengths, weaknesses, and areas for improvement.
+  8. [FV] Formulate a conclusion regarding the overall usefulness of the product or process.
+[D]
+  1. [IC] Review relevant documentation, user manuals, and existing customer feedback to understand the product or process and identify areas for assessment.
+  2. [IC] Gather specific project details, industry benchmarks, and best practices to inform the assessment process.
+  3. [NA] Set up and configure the product or process in the relevant environment, if applicable.
+  4. [PD] Observe and interact with the product or process to diagnose its performance, identify issues, and gather data.
+  5. [PD] Analyze collected data and compare performance with established benchmarks or previous methods to assess usefulness.
+  6. [ME] Document encountered issues, false positives, or false negatives, and compile data into a comprehensive report.
+  7. [FV] Develop clear, data-driven recommendations for improvement, taking into account the needs of users and business goals.
+  8. [IC] Present the report and recommendations to stakeholders, addressing concerns and providing additional data as needed.
+  9. [ME] Work with relevant teams to implement recommended changes, ensuring they meet user needs and align with business goals.
+  10. [FV] Monitor and evaluate the effectiveness of implemented changes, making adjustments as needed.
+
+--- Task 218: Set equipment controls to meet cutting specifications.
+[A]
+  1. [IC] Retrieve the cutting specifications from the engineering drawings or work order.
+  2. [NA] Navigate to the CNC machine control panel and power on the machine.
+  3. [ME] Input the cutting specifications (spindle speed, feed rate, depth of cut) into the control software.
+  4. [FV] Verify the inputted specifications match the engineering drawings or work order.
+  5. [FV] Run a simulation of the cutting process to check for potential collisions or errors.
+  6. [FV] Perform a test cut and measure the results using precision tools to ensure the machine is cutting to the correct specifications.
+  7. [ME] Adjust the CNC machine settings if necessary to meet the specifications.
+  8. [FV] Confirm the CNC machine is now set to meet the cutting specifications and document the settings for future reference.
+[B]
+  1. [PD] Review the cutting specifications document provided by the quality control department to understand the required dimensions and tolerances.
+  2. [NA] Access the CNC machine's control system and navigate to the settings menu to begin configuring the equipment for the specific cutting operation.
+  3. [ME] Enter the required cutting parameters, including spindle speed, feed rate, and depth of cut, into the machine's control system, while ensuring accurate data entry to avoid errors.
+  4. [FV] Verify that the equipment settings are correct by reviewing the machine's display screen and checking the settings against the cutting specifications document.
+  5. [ME] Manually adjust the equipment controls, such as the spindle speed and feed rate, to fine-tune the cutting operation and ensure optimal results.
+  6. [PD] Monitor the cutting operation in real-time, using visual and auditory cues to detect any issues or deviations from the norm, such as unusual noise or vibration.
+  7. [ME] Make any necessary adjustments to the equipment settings or controls to address any issues or deviations detected during the cutting operation.
+  8. [FV] Verify that the machined part meets the customer's specifications, as verified by dimensional inspection and quality control checks, and document the results for future reference.
+  9. [FV] Perform a test cut to ensure the machine is cutting to the correct specifications.
+  10. [IC] Document the machine's cutting settings for future reference and notify the next shift of the changes made.
+[C]
+  1. [IC] Retrieve the cutting specifications from the work order or engineering drawings.
+  2. [NA] Navigate to the CNC machine control panel.
+  3. [NA] Power on the CNC machine and access the control software.
+  4. [ME] Input the cutting specifications (spindle speed, feed rate, depth of cut) into the control software.
+  5. [FV] Verify the inputted specifications match the original cutting specifications.
+  6. [ME] Perform a test cut on a scrap material.
+  7. [PD] Measure the test cut dimensions using precision tools.
+  8. [ME] Adjust CNC machine settings if necessary to meet the specified tolerances.
+  9. [FV] Confirm the CNC machine is now set to meet the cutting specifications.
+[D]
+  1. [IC] Retrieve cutting specifications from relevant documents (e.g., engineering drawings, work orders).
+  2. [NA] Navigate to the CNC machine (e.g., CNC lathe, milling machine) on the shop floor.
+  3. [PD] Power on the CNC machine and wait for it to initialize.
+  4. [ME] Access the machine's control panel and navigate to the cutting settings menu.
+  5. [ME] Input cutting parameters (e.g., spindle speed, feed rate, depth of cut) based on the retrieved specifications.
+  6. [FV] Verify that the inputted cutting settings match the retrieved specifications.
+  7. [FV] Perform a test cut to ensure the machine is cutting to the correct specifications.
+  8. [PD] Measure the test cut using precision measuring tools to confirm it meets the specified tolerances.
+  9. [ME] Adjust the CNC machine settings if necessary to meet the cutting specifications.
+  10. [IC] Document the machine's cutting settings for future reference and notify relevant personnel of the changes made.
+
+--- Task 219: Monitor business indicators.
+[A]
+  1. [NA] Log into the company's internal data dashboard to access the necessary business indicators.
+  2. [PD] Identify and retrieve the relevant KPIs for monitoring, including stock performance, sales figures, and customer satisfaction data.
+  3. [PD] Analyze the retrieved data using statistical methods and visualizations to identify trends, patterns, or anomalies.
+  4. [ME] Compile the analyzed data into a comprehensive report, including graphs and charts to visualize the trends.
+  5. [FV] Review the report for accuracy and completeness, ensuring all relevant data is included.
+  6. [IC] Send the report to the management team via email, attaching the document and including a summary of key findings in the email body.
+  7. [FV] Receive confirmation from the management team that the report has been received and is being reviewed.
+[B]
+  1. [NA] Log into the company's internal data dashboard to access the stock performance data.
+  2. [PD] Extract the stock performance data for the past week, including opening and closing prices, volume, and any significant market events.
+  3. [NA] Navigate to the customer satisfaction survey results within the CRM system.
+  4. [PD] Download the latest customer satisfaction scores and summarize the key findings.
+  5. [NA] Access the sales figures from the company's ERP system.
+  6. [PD] Extract the sales data for the past week, including total sales, top-selling products, and any significant changes.
+  7. [ME] Compile the extracted data into a comprehensive report, including graphs and charts to visualize the trends.
+  8. [FV] Review the report for accuracy and completeness, ensuring all relevant data is included.
+  9. [IC] Send the report to the management team via email, attaching the document and including a summary of key findings in the email body.
+  10. [FV] Receive confirmation from the management team that the report has been received and is being reviewed.
+[C]
+  1. [NA] Log into the company's data dashboard.
+  2. [IC] Identify and select the relevant business indicators to monitor based on current objectives.
+  3. [PD] Retrieve historical data for the selected indicators from the appropriate sources (e.g., sales figures, customer satisfaction scores, stock performance).
+  4. [PD] Analyze the retrieved data to identify trends, patterns, anomalies, and potential issues.
+  5. [ME] Summarize key findings and insights into a concise report or presentation.
+  6. [FV] Review the report for accuracy, completeness, and clarity.
+  7. [IC] Share the report with relevant stakeholders (e.g., management team) through appropriate channels.
+[D]
+  1. [NA] Log into the company's internal data dashboard using a secure connection.
+  2. [IC] Identify and select relevant KPIs based on business objectives and industry trends.
+  3. [PD] Retrieve historical data for the selected KPIs, considering the appropriate time frame (e.g., weekly, monthly, quarterly).
+  4. [ME] Clean and preprocess the retrieved data to ensure accuracy and consistency.
+  5. [PD] Analyze the data using statistical methods and visualizations to identify trends, patterns, or anomalies.
+  6. [FV] Compare the current KPI values with established benchmarks or previous performance to assess the company's progress.
+  7. [ME] Prepare a report or presentation summarizing the findings, including data visualizations and recommendations.
+  8. [IC] Review the report or presentation with relevant stakeholders to ensure its accuracy and relevance.
+  9. [NA] Schedule the report or presentation to be delivered to relevant stakeholders at the appropriate time.
+  10. [NA] Log out of the company's data dashboard and any other relevant tools to secure the data and end the workday.
+
+--- Task 220: Store records or related materials.
+[A]
+  1. [IC] Identify and review the digital and physical records that need to be stored, ensuring all necessary documents are present.
+  2. [NA] Log into the secure cloud-based document management system and locate the appropriate folder or category for the digital records.
+  3. [ME] Upload the digital records to the designated folder and verify the upload by checking the file names and sizes.
+  4. [ME] Label the physical records with the appropriate case number and date, and retrieve the designated filing cabinet.
+  5. [ME] Open the filing cabinet, locate the appropriate drawer and section, and place the physical records in the designated section.
+  6. [FV] Close the filing cabinet and ensure it is locked, then record the storage location of the physical records in a log or database.
+  7. [FV] Confirm that both digital and physical records are stored correctly and securely.
+[B]
+  1. [IC] Review the inventory of records and materials to be stored, ensuring all necessary documents are present.
+  2. [NA] Log into the secure cloud-based document management system.
+  3. [PD] Inspect the storage area to ensure it is clean, dry, and free from pests or other contaminants.
+  4. [ME] Upload the digital records to the designated folder.
+  5. [FV] Verify the upload by checking the file names and sizes.
+  6. [ME] Label the physical records with the appropriate case number and date.
+  7. [ME] Store the records and materials in designated areas, ensuring they are properly secured and protected.
+  8. [FV] Verify that all records and materials are properly stored and easily accessible.
+  9. [IC] Update the inventory and cataloging system to reflect the stored records and materials.
+  10. [FV] Record the storage location of the physical records in a log or database.
+  11. [FV] Confirm that both digital and physical records are stored correctly and securely.
+[C]
+  1. [IC] Identify and gather all records and materials to be stored.
+  2. [NA] Navigate to the designated storage location.
+  3. [PD] Inspect the storage area for suitability (cleanliness, security, etc.).
+  4. [ME] Organize and label records/materials according to the established system.
+  5. [ME] Store the records/materials in the appropriate location within the storage unit.
+  6. [FV] Verify the accuracy of storage location and labeling.
+  7. [IC] Update any relevant inventory or cataloging systems.
+[D]
+  1. [IC] Identify and gather all digital and physical records to be stored.
+  2. [NA] Log into the secure cloud-based document management system.
+  3. [NA] Locate the appropriate folder or category for the digital records.
+  4. [ME] Upload the digital records to the designated folder.
+  5. [FV] Verify the upload by checking the file names and sizes.
+  6. [ME] Label the physical records with the appropriate case number, date, and any other relevant information.
+  7. [NA] Navigate to the appropriate storage area for the physical records, using digital maps or wayfinding systems if available.
+  8. [PD] Inspect the storage area to ensure it is clean, dry, and free from pests or other contaminants.
+  9. [ME] Place the physical records in the designated section of the storage area, ensuring they are properly secured and protected.
+  10. [IC] Record the storage location of the physical records in a log or database, updating the inventory and cataloging system.
+  11. [FV] Confirm that both digital and physical records are stored correctly, securely, and easily accessible.
+
+--- Task 221: Create databases to store electronic data.
+[A]
+  1. [NA] Log into the cloud server management console to access the database management system (DBMS).
+  2. [IC] Review the company's data requirements and create a conceptual data model to identify entities, attributes, and relationships.
+  3. [ME] Design the physical database schema, including table structure, indexes, and constraints, using a database design tool or SQL queries.
+  4. [ME] Create the database schema using SQL queries or a database management system's graphical interface.
+  5. [ME] Configure the database management system to optimize performance and security, including setting up caching, indexing, and query optimization.
+  6. [ME] Populate the database with initial data, including sample records and test data, to verify data integrity and consistency.
+  7. [FV] Test the database schema and data population to ensure data integrity, consistency, and correctness.
+  8. [FV] Document the database schema, data population, and configuration to ensure maintainability and reproducibility.
+[B]
+  1. [NA] Log into the cloud server management console to access the database management system (DBMS).
+  2. [IC] Review the company's data requirements and create a conceptual data model to identify entities, attributes, and relationships.
+  3. [ME] Create a new database instance within the DBMS.
+  4. [ME] Define the schema for the customer details table, including fields such as customer ID, name, address, and contact information.
+  5. [ME] Populate the database with initial data, including sample records and test data, to verify data integrity and consistency.
+  6. [ME] Configure the database settings for performance optimization and security.
+  7. [FV] Run initial tests to verify that the database can store and retrieve data correctly.
+  8. [FV] Document the database structure and configuration settings for future reference.
+[C]
+  1. [IC] Identify the specific data requirements for the database, including entities, attributes, and relationships.
+  2. [ME] Design the physical database schema, including tables, indexes, and constraints.
+  3. [ME] Create the database and its schema using a DBMS.
+  4. [ME] Establish relationships between tables, ensuring data consistency.
+  5. [ME] Populate the database with initial data for testing.
+  6. [FV] Test the database schema and data population for functionality and performance.
+  7. [FV] Document the database structure, configuration, and testing results.
+[D]
+  1. [IC] Review the company's data requirements and create a conceptual data model to identify entities, attributes, and relationships.
+  2. [NA] Log in to the cloud service provider's console using secure credentials.
+  3. [NA] Navigate to the database management section of the console.
+  4. [PD] Review the e-commerce platform's data structure and requirements to determine the necessary databases and their types (e.g., relational, NoSQL).
+  5. [ME] Create a new database for each identified data type, specifying the appropriate engine and storage settings.
+  6. [ME] Define tables for each entity in the database with appropriate columns, data types, primary keys, and foreign keys to establish relationships.
+  7. [ME] Configure database users and roles, assigning appropriate permissions for each user.
+  8. [ME] Set up database backups and replication to ensure data redundancy and business continuity.
+  9. [ME] Configure database connection settings to allow secure communication with the e-commerce platform.
+  10. [FV] Test database connectivity by attempting to connect from the e-commerce platform's development environment.
+  11. [ME] Create necessary tables, indexes, and stored procedures based on the e-commerce platform's data structure.
+  12. [ME] Populate the database with initial data, including sample records and test data, to verify data integrity and consistency.
+  13. [FV] Document the database setup, including connection details, security settings, and any specific configurations, for future reference and maintenance.
+
+--- Task 222: Prepare reports related to compliance matters.
+[A]
+  1. [NA] Log into the financial institution's internal compliance database to access relevant regulatory updates and compliance data.
+  2. [PD] Review the latest AML regulations and compliance requirements for the quarter.
+  3. [NA] Gather data from various departments, including transaction logs, customer due diligence reports, and suspicious activity reports.
+  4. [PD] Analyze the gathered data to identify any potential non-compliance issues or suspicious activities.
+  5. [ME] Draft the report structure, including sections for executive summary, findings, and recommendations.
+  6. [ME] Input the analyzed data into the report, ensuring all compliance matters are accurately documented.
+  7. [FV] Review the report for clarity, accuracy, and completeness.
+  8. [IC] Submit the draft report to the compliance team for internal review.
+  9. [ME] Revise the report based on feedback from the compliance team.
+  10. [FV] Finalize the report and submit it to the regulatory body via the designated submission portal.
+[B]
+  1. [NA] Log into the financial institution's internal compliance database to access AML-related data.
+  2. [PD] Review the AML regulations and compliance requirements for the quarter.
+  3. [NA] Gather data from various departments, including transaction logs, customer due diligence reports, and suspicious activity reports.
+  4. [PD] Analyze the gathered data to identify any potential non-compliance issues or suspicious activities.
+  5. [ME] Draft the report structure, including sections for executive summary, findings, and recommendations.
+  6. [ME] Input the analyzed data into the report, ensuring all compliance matters are accurately documented.
+  7. [FV] Review the report for clarity, accuracy, and completeness.
+  8. [IC] Submit the draft report to the compliance team for internal review.
+  9. [ME] Revise the report based on feedback from the compliance team.
+  10. [FV] Finalize the report and submit it to the regulatory body via the designated submission portal.
+[C]
+  1. [IC] Review the latest AML regulations and internal compliance policies.
+  2. [NA] Identify relevant data sources, such as transaction logs, customer profiles, and suspicious activity reports.
+  3. [ME] Extract and compile the necessary data from the identified sources.
+  4. [PD] Analyze the data to identify any potential AML compliance violations or areas of risk.
+  5. [ME] Draft a report summarizing the findings, including key metrics, trends, and any identified concerns.
+  6. [FV] Review and edit the report for accuracy, clarity, and completeness.
+  7. [IC] Submit the completed report to the Chief Compliance Officer.
+[D]
+  1. [IC] Review the latest AML regulations and internal compliance policies.
+  2. [NA] Access the compliance management system and navigate to the relevant dashboard or database.
+  3. [PD] Extract and compile necessary data from relevant sources such as transaction logs, customer profiles, and suspicious activity reports.
+  4. [PD] Analyze the compiled data to identify potential compliance issues, trends, or areas of risk.
+  5. [ME] Draft a report summarizing the findings, including key metrics, trends, and any identified concerns.
+  6. [FV] Review and edit the report for accuracy, clarity, and completeness, ensuring it follows the required format and style guidelines.
+  7. [NA] Save the final report in the required format and upload it to the designated document management system or portal.
+  8. [IC] Notify the relevant stakeholders, such as the compliance team, CEO, or board of directors, that the report is ready for review.
+
+--- Task 223: Prepare drawings or diagrams of products or services.
+[A]
+  1. [IC] Review the product design specifications and requirements provided by the product design team.
+  2. [NA] Open the CAD software and create a new project file.
+  3. [PD] Input the dimensions and specifications of the product into the CAD software.
+  4. [ME] Create the initial 3D model of the product using the CAD software.
+  5. [ME] Generate detailed 2D drawings from the 3D model, including top, bottom, side, and isometric views.
+  6. [ME] Add annotations and labels to the drawings, including dimensions, materials, and part numbers.
+  7. [FV] Review the drawings and diagrams for accuracy and completeness, ensuring they meet the design specifications.
+  8. [FV] Save the CAD files and export the drawings in the required format (e.g., PDF, DWG).
+  9. [FV] Prepare a summary document with key drawings and diagrams for review by the product design team.
+  10. [FV] Deliver the drawings and summary document to the product design team for review and approval.
+[B]
+  1. [IC] Review the product design specifications and requirements provided by the product design team.
+  2. [NA] Open the CAD software and create a new project file for the industrial fans.
+  3. [PD] Input the dimensions and specifications of the industrial fans into the CAD software.
+  4. [ME] Create the initial 3D model of the industrial fan using the CAD software.
+  5. [ME] Generate detailed 2D drawings from the 3D model, including top, bottom, side, and isometric views.
+  6. [ME] Add annotations and labels to the drawings, including dimensions, materials, and part numbers.
+  7. [FV] Check the drawings for accuracy and completeness, ensuring they meet the design specifications.
+  8. [FV] Save the CAD files and export the drawings in the required format (e.g., PDF, DWG).
+  9. [FV] Prepare a summary document with key drawings and diagrams for review by the product design team.
+  10. [FV] Deliver the drawings and summary document to the product design team for review and approval.
+[C]
+  1. [IC] Review product design specifications, requirements, and reference images provided by the client or design team.
+  2. [NA] Select appropriate CAD software and create a new project file.
+  3. [PD] Input product dimensions, specifications, and any relevant design constraints into the CAD software.
+  4. [ME] Create the initial 3D model of the product, incorporating necessary details and components.
+  5. [ME] Generate detailed 2D drawings from the 3D model, including various views (top, bottom, side, isometric) and exploded views if necessary.
+  6. [ME] Add annotations, dimensions, labels, materials, and part numbers to the 2D drawings.
+  7. [FV] Review all drawings and diagrams for accuracy, completeness, and adherence to design specifications.
+  8. [FV] Export drawings and diagrams in the required file formats (e.g., PDF, DWG, JPEG).
+  9. [FV] Prepare a summary document or presentation highlighting key drawings and diagrams for client review.
+  10. [FV] Deliver the drawings, diagrams, and summary document to the client or design team for review and feedback.
+[D]
+  1. [IC] Review the product design specifications, requirements, and any reference materials provided by the design team or client.
+  2. [NA] Open the appropriate design software (e.g., CAD, graphic design) and create a new project file for the product or service.
+  3. [PD] Input the product's dimensions, specifications, and any relevant design elements into the software.
+  4. [ME] Create initial 2D or 3D models, sketches, or diagrams based on the input data, using appropriate tools and techniques within the software.
+  5. [ME] Generate additional views, details, and annotations as needed, such as top, bottom, side, isometric views, dimensions, materials, and part numbers.
+  6. [IC] Review the created visuals with the design team or client, incorporating their feedback and making necessary revisions.
+  7. [FV] Check the visuals for accuracy, completeness, and adherence to design specifications, using appropriate review tools and techniques.
+  8. [NA] Export the final visuals in the required file formats (e.g., PDF, DWG, JPEG, PNG, SVG) and prepare any supporting documentation.
+  9. [FV] Deliver the final visuals and supporting documentation to the design team or client for review, approval, or further action.
+
+--- Task 224: Develop data analysis or data management procedures.
+[A]
+  1. [IC] Meet with the relevant team (e.g., inventory management or marketing) to understand their specific data needs and requirements.
+  2. [NA] Identify and access relevant data sources, including databases and data warehouses, to gather the necessary data.
+  3. [PD] Clean and preprocess the data to handle missing values, inconsistencies, and irrelevant information.
+  4. [ME] Design the data analysis procedure, including selecting appropriate statistical methods and tools.
+  5. [ME] Implement the chosen analysis methods using statistical software or programming languages.
+  6. [FV] Test the analysis procedure with sample data to ensure it works as expected.
+  7. [FV] Generate reports and visualizations based on the analysis results to communicate findings effectively.
+  8. [FV] Present the results and analysis procedure to the relevant team and explain the methodology and findings.
+  9. [FV] Document the entire data analysis procedure, including methodology, scripts, and visualizations, for future reference and reproducibility.
+[B]
+  1. [IC] Review project requirements and business objectives to understand the need for data analysis and the expected outcomes.
+  2. [NA] Gather and clean relevant data from various sources, including customer purchase history, website interactions, and social media engagement.
+  3. [PD] Explore and visualize the data to identify patterns, trends, and correlations using data visualization tools.
+  4. [ME] Select and apply appropriate data analysis techniques, such as regression, clustering, or decision trees, to extract insights from the data.
+  5. [FV] Communicate findings and insights to stakeholders, including data visualizations and recommendations for business improvement.
+  6. [IC] Refine the data analysis plan based on feedback from stakeholders and iterate on the analysis to ensure that it meets the business objectives.
+  7. [NA] Document the data analysis plan, including the methodology, data visualizations, and recommendations, for future reference and replication.
+  8. [NA] Store the analyzed data and results in a secure and accessible location for future use and reference.
+  9. [IC] Review and update the data analysis plan regularly to ensure that it remains relevant and effective in meeting the business objectives.
+[C]
+  1. [IC] Meet with stakeholders (e.g., inventory management, marketing) to understand their specific data needs, desired outcomes, and available data sources.
+  2. [NA] Identify and access relevant data sources, including databases, spreadsheets, or cloud storage.
+  3. [PD] Clean and preprocess the data, handling missing values, inconsistencies, and irrelevant information.
+  4. [ME] Select appropriate data analysis techniques and tools based on the project objectives and data characteristics.
+  5. [ME] Implement the chosen analysis techniques using statistical software, programming languages, or data visualization tools.
+  6. [PD] Analyze the results, identify patterns, trends, and insights relevant to the project objectives.
+  7. [FV] Visualize the findings using charts, graphs, or dashboards to effectively communicate insights to stakeholders.
+  8. [FV] Document the entire data analysis process, including methodology, code, assumptions, and limitations, for reproducibility and future reference.
+  9. [FV] Present the findings and recommendations to stakeholders, explaining the analysis process and its implications.
+[D]
+  1. [IC] Meet with the relevant team (e.g., inventory management, marketing) to understand their specific data needs and requirements.
+  2. [NA] Access and explore the company's data sources to familiarize yourself with the existing data structure and identify relevant data fields and tables.
+  3. [PD] Clean and preprocess the data to handle missing values, inconsistencies, and irrelevant information, ensuring data quality for analysis.
+  4. [ME] Design the data analysis pipeline, including data transformation, aggregation, and analysis steps, tailored to the team's requirements.
+  5. [ME] Choose appropriate data analysis tools and software based on the designed pipeline, and implement the pipeline using scripts or tools.
+  6. [FV] Test the data analysis pipeline with sample data to ensure it works as expected and produces accurate results.
+  7. [FV] Generate reports and visualizations based on the pipeline's output, communicating findings and insights effectively to stakeholders.
+  8. [IC] Present the results to the relevant team, explaining the data analysis pipeline, findings, and recommendations for business improvement.
+  9. [FV] Document the data analysis pipeline, including the methodology, data sources, assumptions, and limitations, for future reference and reproducibility.
+
+================================================================
+ANSWER TEMPLATE
+
+217: _ | 
+218: _ | 
+219: _ | 
+220: _ | 
+221: _ | 
+222: _ | 
+223: _ | 
+224: _ | 
+

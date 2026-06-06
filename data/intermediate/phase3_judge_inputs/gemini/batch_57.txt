@@ -1,0 +1,359 @@
+BATCH 57/63 | Model: Gemini 3 Pro | Tasks 449-456
+================================================================
+EXPERT REVIEW -- Micro-Action Sequence Evaluation
+For each task, read ALL four options, then choose the BEST (A/B/C/D).
+
+Criteria:
+  1. Completeness  -- no critical steps missing
+  2. Realism       -- every step is concretely executable
+  3. Stage accuracy -- stage label correct for each step:
+     IC=Intent_Communication  NA=Navigation_Addressing
+     PD=Perception_Diagnosis  ME=Manipulation_Execution  FV=Feedback_Verification
+  4. Conciseness   -- no redundant or duplicate steps
+  5. Scope         -- starts and ends at exactly the right point
+
+OUTPUT: fill the ANSWER TEMPLATE at the bottom.
+Format: N: X | one-sentence reason (max 12 words)
+IMPORTANT: Each task has a different best answer. Do NOT pick the same
+letter for every task without reading.
+================================================================
+
+--- Task 449: Evaluate applicable laws and regulations to determine impact on organizational activities.
+[A]
+  1. [IC] Research and identify all relevant laws and regulations applicable to the organization's activities.
+  2. [NA] Access and organize all relevant documents and materials related to the company's operational activities.
+  3. [PD] Read and understand the identified laws and regulations, focusing on their relevance to the company's activities.
+  4. [PD] Compare the requirements of the laws and regulations with the company's current operational practices.
+  5. [ME] Draft a report summarizing the findings, outlining potential compliance risks, and recommending specific mitigation strategies.
+  6. [IC] Present the report to relevant stakeholders within the company, including legal counsel and senior management.
+  7. [ME] Implement the recommended actions to address any gaps or non-compliance, considering both immediate and long-term solutions.
+  8. [FV] Monitor and evaluate the company's ongoing compliance with the relevant laws and regulations.
+[B]
+  1. [IC] Retrieve the latest environmental regulations from the government's official website.
+  2. [NA] Log into the company's internal document management system to access the current waste disposal procedures.
+  3. [PD] Read through the retrieved environmental regulations, focusing on sections related to waste disposal.
+  4. [PD] Compare the identified regulatory sections with the company's current waste disposal procedures.
+  5. [PD] Identify specific areas where the company's practices do not comply with the new regulations.
+  6. [ME] Draft a preliminary report outlining the identified non-compliance issues.
+  7. [IC] Consult with the company's environmental compliance team to discuss the preliminary findings.
+  8. [ME] Revise the preliminary report based on feedback from the environmental compliance team.
+  9. [ME] Finalize the report and prepare a presentation for the company's management team.
+  10. [FV] Deliver the final report and presentation to the management team.
+[C]
+  1. [IC] Identify applicable laws and regulations relevant to the organization's activities.
+  2. [NA] Access and review the full text of identified laws and regulations.
+  3. [PD] Analyze the key provisions and requirements of the regulations, focusing on their impact on organizational activities.
+  4. [PD] Compare the regulatory requirements with the organization's current policies and procedures.
+  5. [PD] Identify specific areas of non-compliance or potential risks.
+  6. [ME] Develop a report outlining the findings, including potential impacts and recommended actions to address non-compliance.
+  7. [IC] Present the report to relevant stakeholders and discuss the findings and recommendations.
+[D]
+  1. [IC] Identify applicable laws and regulations relevant to the organization's activities.
+  2. [NA] Gather and organize all relevant documents and materials related to the organization's activities.
+  3. [PD] Read, understand, and analyze the identified laws and regulations, focusing on their relevance to the organization's activities.
+  4. [ME] Extract key provisions and requirements from the relevant laws and regulations.
+  5. [PD] Compare the extracted provisions with the organization's current activities to identify potential impacts and gaps in compliance.
+  6. [ME] Predict potential short-term and long-term impacts of the laws and regulations on the organization's activities.
+  7. [PD] Identify and document any existing compliance measures and controls implemented by the organization.
+  8. [ME] Recommend appropriate actions to address any gaps or non-compliance, considering both immediate and long-term solutions.
+  9. [FV] Prepare a comprehensive report outlining the findings, potential impacts, and recommended actions.
+  10. [IC] Present the report to the relevant stakeholders, explaining the findings and answering any questions or concerns.
+  11. [FV] Follow up on the implementation of the recommended actions and monitor the organization's ongoing compliance with the relevant laws and regulations.
+
+--- Task 450: Enforce rules or policies governing student behavior.
+[A]
+  1. [IC] Review the school's policies and procedures for enforcing student behavior, including the code of conduct and disciplinary actions.
+  2. [IC] Communicate the specific rules or policies to the students, emphasizing the importance of adhering to the rules.
+  3. [PD] Monitor the classroom or assembly hall, observing student behavior and looking for signs of misconduct or rule violations.
+  4. [NA] Approach the student(s) displaying misconduct and address the behavior, reminding them of the rules.
+  5. [ME] Implement the appropriate disciplinary action as per the school policy, such as confiscating a cell phone or redirecting behavior.
+  6. [FV] Document the incident, noting the student's name, the time of the violation, and the action taken.
+  7. [PD] Continue to monitor the class or assembly hall to ensure no further violations occur.
+  8. [IC] Communicate with parents or guardians about the incident and involve them in the support process.
+[B]
+  1. [IC] Review the school's policies and procedures for enforcing student behavior, including the code of conduct and disciplinary actions.
+  2. [PD] Observe student behavior during morning arrival and transitions between classes, identifying potential areas of concern.
+  3. [IC] Meet with teachers to discuss student behavior, share concerns, and coordinate strategies for supporting students in need.
+  4. [ME] Develop a plan to address specific student behavior issues, including strategies for de-escalation and conflict resolution.
+  5. [ME] Implement the plan, using active listening and empathy to de-escalate conflicts and redirect student behavior.
+  6. [PD] Monitor student behavior and adjust the plan as needed, ensuring that students are held accountable for their actions.
+  7. [FV] Document incidents, including student behavior, interventions, and outcomes, to inform future decisions and improve school policies.
+  8. [IC] Communicate with parents and guardians about student behavior, providing updates and involving them in the support process.
+  9. [IC] Collaborate with administrators to develop and refine school policies, ensuring that they are fair, effective, and aligned with student needs.
+  10. [FV] Reflect on the experience, identifying areas for improvement and strategies for enhancing student behavior support in the future.
+[C]
+  1. [IC] Review and ensure understanding of school policies regarding student behavior, including specific rules and consequences.
+  2. [IC] Communicate these policies clearly to students at the beginning of class or assembly, emphasizing expectations for appropriate behavior.
+  3. [PD] Actively monitor student behavior, observing for any signs of policy violations or potential disruptions.
+  4. [NA] Discreetly address any observed violations by approaching the student and reminding them of the relevant policy.
+  5. [ME] If necessary, implement appropriate consequences as outlined in the school policy, such as confiscating a cell phone or issuing a warning.
+  6. [FV] Document the incident, including the student's name, the nature of the violation, and the actions taken.
+[D]
+  1. [IC] Review and understand the school's policies and procedures governing student behavior, including the code of conduct and disciplinary actions.
+  2. [IC] Communicate the relevant rules and expectations to students at the beginning of the class or assembly, emphasizing the importance of adhering to them.
+  3. [PD] Scan the classroom or assembly hall, observing student behavior, posture, facial expressions, and engagement levels to identify any potential issues or rule violations.
+  4. [NA] Upon noticing a student exhibiting off-task behavior, misconduct, or rule violations, approach them discreetly and maintain a calm, authoritative demeanor.
+  5. [IC] Remind the student of the relevant rules and the importance of following them, using active listening and empathy to de-escalate conflicts and redirect their behavior.
+  6. [ME] If necessary, use non-verbal cues or subtle physical interventions to help the student resume appropriate behavior.
+  7. [PD] Monitor the student to ensure they resume appropriate behavior and do not resume misconduct. Adjust your approach as needed to maintain accountability.
+  8. [FV] If misconduct persists, discreetly signal nearby staff or security personnel for assistance, if necessary.
+  9. [FV] After the incident, review it with the disruptive student and discuss appropriate consequences or follow-up actions, involving parents or guardians if necessary.
+  10. [FV] Document the incident, including student behavior, interventions, and outcomes, to inform future decisions and improve school policies.
+
+--- Task 451: Communicate situation details to appropriate personnel.
+[A]
+  1. [PD] Identify the malfunction and its location in the plant.
+  2. [PD] Determine the severity and urgency of the situation.
+  3. [IC] Identify the appropriate personnel to communicate with, including the maintenance team and the plant manager.
+  4. [IC] Compose a clear and concise message detailing the malfunction and its location.
+  5. [IC] Use a communication method (e.g., phone, email, intercom) to reach the maintenance team and the plant manager.
+  6. [IC] Deliver the message to the maintenance team and the plant manager, ensuring they understand the details and urgency.
+  7. [FV] Confirm receipt and understanding of the message with the maintenance team and the plant manager.
+  8. [FV] Document the communication and the details of the malfunction for future reference.
+[B]
+  1. [PD] Identify the malfunction and its location in the plant.
+  2. [PD] Determine the severity and urgency of the situation.
+  3. [IC] Identify the appropriate personnel to communicate with, including the maintenance team and the plant manager.
+  4. [IC] Compose a clear and concise message detailing the malfunction and its location.
+  5. [IC] Use a communication method (e.g., phone, email, intercom) to reach the maintenance team.
+  6. [IC] Deliver the message to the maintenance team, ensuring they understand the details and urgency.
+  7. [IC] Repeat the communication process to reach the plant manager.
+  8. [FV] Confirm receipt and understanding of the message with the plant manager.
+  9. [FV] Document the communication and the details of the malfunction for future reference.
+[C]
+  1. [PD] Identify the malfunction and its location in the plant.
+  2. [PD] Determine the severity and urgency of the situation.
+  3. [IC] Identify the appropriate personnel to contact (e.g., maintenance team, plant manager).
+  4. [IC] Compose a clear and concise message detailing the malfunction, its location, and urgency.
+  5. [IC] Communicate the message to the identified personnel using the most appropriate method (e.g., phone, intercom).
+  6. [FV] Confirm receipt and understanding of the message with the contacted personnel.
+[D]
+  1. [PD] Identify and diagnose the situation, including its location, severity, and specific details.
+  2. [IC] Determine the appropriate personnel to communicate with, based on the situation's nature and severity.
+  3. [IC] Compose a clear, concise, and detailed message outlining the situation, its location, and any relevant specifics.
+  4. [IC] Establish communication with the identified personnel using the most efficient method (e.g., phone, email, intercom).
+  5. [IC] Deliver the message, ensuring the recipients understand the details and urgency of the situation.
+  6. [FV] Confirm receipt and understanding of the message with the recipients, and document the communication for future reference.
+
+--- Task 452: Prepare hot or cold beverages.
+[A]
+  1. [IC] The barista greets the customer and takes their order, specifying the type of beverage, size, milk type, and any additional preferences.
+  2. [NA] The barista selects the appropriate ingredients and equipment needed for the beverage, such as coffee beans, milk, and cups.
+  3. [ME] The barista prepares the beverage by operating the coffee machine or mixing ingredients, such as grinding coffee, pulling an espresso shot, or steaming milk.
+  4. [ME] The barista adds any additional ingredients, such as sweeteners, flavorings, or toppings, as per the customer's request.
+  5. [FV] The barista hands the prepared beverage to the customer, confirms the order, and receives payment or confirmation.
+  6. [FV] The barista cleans and sanitizes the workspace, including the coffee machine and utensils, to maintain a clean and safe environment.
+[B]
+  1. [IC] Greet the customer and take their order, specifying hot or cold beverage preference.
+  2. [NA] Select the appropriate coffee beans, tea, or other ingredients needed for the beverage.
+  3. [ME] Prepare the hot beverage by operating the commercial-grade coffee machine or prepare the cold beverage by pouring the ingredients into a cup.
+  4. [ME] Add any desired ingredients, such as milk, sugar, or flavorings, to the beverage.
+  5. [ME] Combine the espresso and steamed milk to create the latte (for hot beverage) or shake the mixture to combine the ingredients and chill the beverage (for cold beverage).
+  6. [FV] Pour the iced coffee into a glass and deliver both beverages to the customer.
+  7. [PD] Clean and sanitize the coffee machine, utensils, and workspace to maintain a clean and safe environment.
+  8. [NA] Restock the coffee shop's inventory and replenish supplies as needed.
+[C]
+  1. [IC] Greet the customer and confirm their beverage order (hot or cold, specific ingredients).
+  2. [NA] Select appropriate ingredients (coffee beans, tea, cold brew concentrate, milk, sweeteners) based on the order.
+  3. [ME] Prepare the beverage base: grind and tamp coffee for espresso, measure cold brew concentrate, or heat water for tea.
+  4. [ME] Steam or froth milk (if required) to the desired temperature and texture.
+  5. [ME] Combine the prepared base with milk, sweeteners, or other ingredients according to the order.
+  6. [FV] Serve the completed beverage to the customer.
+[D]
+  1. [IC] Greet the customer and take their order, specifying beverage type, size, temperature, and any customizations.
+  2. [NA] Retrieve the appropriate cup and any necessary ingredients for the ordered beverage.
+  3. [ME] Prepare the base of the beverage (e.g., espresso shot, tea bag, or cold brew concentrate) if applicable.
+  4. [ME] Prepare any additional ingredients (e.g., milk, water, ice, sweeteners, or flavorings) according to the customer's preferences.
+  5. [ME] Combine the prepared ingredients to create the final beverage.
+  6. [FV] Verify the beverage meets the required standards and quality before serving.
+  7. [FV] Hand the finished beverage to the customer and receive payment or confirmation of the order.
+  8. [PD] Clean and sanitize the workspace, including equipment and utensils, to maintain a clean and safe environment.
+  9. [NA] Restock any depleted ingredients or supplies and organize the workspace for the next customer or shift.
+
+--- Task 453: Prescribe assistive medical devices or related treatments.
+[A]
+  1. [PD] Review the patient's medical records and history, including details about their condition and any previous assistive device usage.
+  2. [PD] Conduct a thorough physical assessment of the patient's range of motion, strength, and dexterity to determine their mobility needs.
+  3. [IC] Discuss the patient's current symptoms, daily challenges, and goals for regaining independence.
+  4. [ME] Select and customize the most appropriate assistive device based on the patient's needs, preferences, and functional abilities.
+  5. [ME] Demonstrate the use of the selected assistive device and allow the patient to practice using it under supervision.
+  6. [IC] Provide written instructions for the use and care of the assistive device and answer any remaining questions.
+  7. [FV] Document the prescription for the assistive device, including the patient's name, device type, and specific instructions for use.
+  8. [FV] Monitor the patient's progress and adjust the assistive device as needed to ensure optimal performance and safety.
+[B]
+  1. [IC] Review the patient's medical records and history, including details about their condition and current functional limitations.
+  2. [PD] Conduct a thorough physical assessment of the patient's range of motion, strength, and dexterity to determine their mobility needs.
+  3. [PD] Research and review various assistive devices and technologies that may be suitable for the patient's needs, including wheelchairs, prosthetics, and orthotics.
+  4. [IC] Consult with other healthcare professionals, such as occupational therapists or engineers, to gather input and expertise on the patient's specific needs.
+  5. [ME] Select the most appropriate assistive device or technology for the patient's needs, taking into account their physical abilities, mobility needs, and lifestyle requirements.
+  6. [ME] Customize the selected assistive device to meet the patient's specific needs, including any necessary adjustments or modifications.
+  7. [FV] Train the patient on how to safely and effectively use the customized assistive device, including any necessary operating instructions or maintenance procedures.
+  8. [FV] Monitor the patient's progress and adjust the assistive device as needed to ensure optimal performance and safety.
+  9. [FV] Document the patient's progress, including any changes or adjustments made to the assistive device, and update their medical record accordingly.
+  10. [FV] Evaluate the effectiveness of the customized assistive device in meeting the patient's needs and make recommendations for future improvements or adjustments.
+[C]
+  1. [IC] Review the patient's medical records and history, including diagnosis, treatment plans, and any previous assistive device usage.
+  2. [PD] Conduct a physical assessment of the patient's mobility, strength, dexterity, and any relevant functional limitations.
+  3. [IC] Discuss the patient's goals, daily activities, and challenges they face due to their condition.
+  4. [IC] Present and explain various assistive device options tailored to the patient's specific needs and goals.
+  5. [ME] Demonstrate the use of each recommended device, allowing the patient to try them out and experience their functionality.
+  6. [IC] Collaborate with the patient to select the most appropriate assistive device based on their preferences, comfort level, and functional needs.
+  7. [ME] Provide written instructions for the selected device's use, care, and maintenance.
+  8. [FV] Schedule follow-up appointments to monitor the patient's progress, address any concerns, and make adjustments to the assistive device or treatment plan as needed.
+[D]
+  1. [IC] Greet the patient, introduce yourself, and explain the purpose of the appointment.
+  2. [PD] Review the patient's medical records, history, and any previous assistive device usage to understand their current condition and needs.
+  3. [IC] Ask the patient to describe their daily activities, challenges, and goals regarding their condition.
+  4. [PD] Conduct a physical assessment of the patient's affected area, evaluating range of motion, strength, dexterity, and mobility.
+  5. [PD] Based on the assessment and patient's needs, identify suitable assistive devices or treatments.
+  6. [IC] Present and explain the purpose, features, benefits, and limitations of each recommended device to the patient.
+  7. [ME] Demonstrate the use of each recommended device, ensuring the patient understands how to use it safely and effectively.
+  8. [IC] Collaborate with the patient to select the most appropriate assistive device based on their individual needs, preferences, and functional abilities.
+  9. [ME] Prescribe the selected assistive device, providing written instructions for its use, care, and any necessary adjustments or modifications.
+  10. [FV] Document the prescription, including the patient's name, device type, specific instructions, and any follow-up plans.
+  11. [IC] Conclude the appointment by summarizing the assistive devices prescribed, encouraging the patient to follow up if they have any further questions or concerns.
+
+--- Task 454: Clean work sites.
+[A]
+  1. [NA] Gather cleaning supplies, including brooms, mops, cleaning solution, and trash bags.
+  2. [PD] Inspect the work site to identify areas that need cleaning and prioritize high-traffic or high-priority areas.
+  3. [ME] Move any loose tools or equipment to a designated area for organization.
+  4. [ME] Sweep the floor to collect loose debris and dust, focusing on high-traffic areas.
+  5. [ME] Mop the floor with cleaning solution to remove stains and grime.
+  6. [ME] Wipe down workbenches and machines with a damp cloth and cleaning solution.
+  7. [ME] Dispose of trash and debris in designated bins.
+  8. [ME] Organize tools and equipment back in their designated storage areas.
+  9. [FV] Inspect the work site to ensure all areas are clean and organized.
+  10. [IC] Report the completion of the cleaning task to the supervisor and document any issues encountered.
+[B]
+  1. [NA] Gather cleaning supplies, including brooms, mops, cleaning solution, and trash bags.
+  2. [PD] Inspect the workshop to identify areas that need cleaning.
+  3. [ME] Move any loose tools or equipment to a designated area for organization.
+  4. [ME] Sweep the floor to collect loose debris and dust.
+  5. [ME] Mop the floor with cleaning solution to remove stains and grime.
+  6. [ME] Wipe down workbenches and machines with a damp cloth and cleaning solution.
+  7. [ME] Dispose of trash and debris in designated bins.
+  8. [ME] Organize tools and equipment back in their designated storage areas.
+  9. [FV] Inspect the workshop to ensure all areas are clean and organized.
+  10. [IC] Report the completion of the cleaning task to the supervisor.
+[C]
+  1. [ME] Don safety glasses and gloves.
+  2. [PD] Survey the site, identifying types and locations of debris.
+  3. [NA] Gather cleaning supplies (broom, dustpan, mop, cleaning solution, trash bags).
+  4. [ME] Collect loose debris (wood scraps, packaging) into designated bins.
+  5. [ME] Sweep concrete dust and small debris into piles using a broom and dustpan.
+  6. [ME] Load collected debris into a dumpster or designated waste container.
+  7. [ME] Mop the floor with cleaning solution to remove stains and grime.
+  8. [FV] Inspect the site for remaining debris and missed areas.
+  9. [IC] Report the completion of the cleaning task to the supervisor.
+[D]
+  1. [PD] Assess the work site, identifying areas that require immediate attention and the types of debris present.
+  2. [NA] Gather necessary cleaning supplies, including brooms, mops, cleaning solution, trash bags, and personal protective equipment (PPE).
+  3. [ME] Remove large, visible trash items and any loose tools or equipment from the workspace.
+  4. [ME] Sweep the floor to collect loose debris and dust, focusing on high-traffic areas and removing large debris first.
+  5. [ME] Empty the dustpan and refill it with cleaning solution, continuing to sweep the floor until all visible debris is removed.
+  6. [ME] Mop the floor with cleaning solution, using a gentle touch to avoid damaging the surface, and ensure all stains and grime are removed.
+  7. [ME] Wipe down workbenches, machines, and other surfaces with a damp cloth and cleaning solution, ensuring they are clean and free of debris.
+  8. [ME] Dispose of trash and debris in designated bins, ensuring they are properly sorted and recycled where applicable.
+  9. [ME] Organize tools and equipment back in their designated storage areas, ensuring they are secure and ready for the next use.
+  10. [FV] Inspect the work site to ensure all areas are clean, organized, and meet the required standards.
+  11. [IC] Document the cleaning process, including any issues encountered, the steps taken to resolve them, and submit the report to the relevant supervisor or manager.
+  12. [NA] Store cleaning equipment and materials in their designated areas, ensuring they are secure and ready for the next use.
+
+--- Task 455: Monitor the security of digital information.
+[A]
+  1. [IC] Log into the Security Information and Event Management (SIEM) system to access real-time network activity.
+  2. [PD] Review the system dashboard to understand the current network status and any active alerts.
+  3. [PD] Investigate any active alerts by drilling down into the specific events and affected systems.
+  4. [PD] Use the SIEM system's search and filtering capabilities to proactively identify any unusual network activities or patterns.
+  5. [PD] Analyze the results of the proactive search and compare them with known security threats and best practices.
+  6. [FV] Document any identified security threats, their potential impact, and the proposed mitigation strategies.
+  7. [ME] Implement the mitigation strategies, such as configuring firewall rules, isolating affected systems, or updating software.
+  8. [FV] Test the implemented mitigation strategies to ensure they are effective and do not cause any unintended side effects.
+  9. [FV] Document the results of the testing and update the security incident response plan if necessary.
+  10. [IC] Communicate the day's findings and actions taken to the security team and relevant stakeholders.
+[B]
+  1. [NA] Log into the SIEM system and access the dashboard.
+  2. [PD] Review the dashboard for any immediate alerts or anomalies.
+  3. [PD] Check the event logs for any suspicious activity.
+  4. [PD] Run specific queries to filter out false positives and identify potential threats.
+  5. [PD] Analyze the filtered data to determine the nature and scope of the threat.
+  6. [ME] Isolate affected systems or networks to prevent further damage.
+  7. [IC] Notify the incident response team and provide them with the necessary details.
+  8. [FV] Document the incident and the actions taken in the company's incident management system.
+  9. [PD] Monitor the system for any additional signs of compromise or further threats.
+  10. [FV] Complete the daily monitoring report and submit it to the supervisor.
+[C]
+  1. [IC] Log into the Security Information and Event Management (SIEM) system.
+  2. [PD] Review the system dashboard for active alerts and overall network status.
+  3. [PD] Investigate active alerts by analyzing event logs and affected systems.
+  4. [PD] Utilize SIEM search and filtering tools to proactively identify unusual network activity.
+  5. [PD] Compare identified activity with known threat intelligence and security best practices.
+  6. [FV] Document the identified threat, potential impact, and proposed mitigation strategies.
+  7. [ME] Implement mitigation strategies such as firewall rule adjustments, system isolation, or software updates.
+  8. [IC] Communicate findings and actions taken to the security team and relevant stakeholders.
+[D]
+  1. [IC] Log into the Security Information and Event Management (SIEM) system to access real-time network activity.
+  2. [PD] Review the system dashboard to understand the current network status and any active alerts.
+  3. [PD] Investigate any active alerts by drilling down into the specific events and affected systems.
+  4. [PD] Use the SIEM system's search and filtering capabilities to proactively identify any unusual network activities or patterns.
+  5. [PD] Analyze the results of the proactive search and compare them with known security threats and best practices.
+  6. [ME] Document any identified security threats, their potential impact, and the proposed mitigation strategies.
+  7. [ME] Implement the mitigation strategies, such as configuring firewall rules, isolating affected systems, or updating software.
+  8. [FV] Test the implemented mitigation strategies to ensure they are effective and do not cause any unintended side effects.
+  9. [FV] Document the results of the testing and update the security incident response plan if necessary.
+  10. [IC] Communicate the day's findings and actions taken to the security team and relevant stakeholders.
+
+--- Task 456: Create electrical schematics.
+[A]
+  1. [IC] Review the project requirements and specifications to understand the power needs and constraints.
+  2. [NA] Open the electrical design software and create a new project file, setting up layers, scales, and units according to the project standards.
+  3. [ME] Select and place the appropriate electrical components (e.g., circuit breakers, relays, sensors) on the schematic canvas, arranging them according to the control panel layout.
+  4. [ME] Connect the components using wires and labels to indicate the flow of electricity and control signals, ensuring adherence to electrical codes and standards.
+  5. [PD] Review the schematic for any errors or inconsistencies in component placement and connections, and cross-reference against relevant electrical codes and standards.
+  6. [FV] Run a simulation within the software to test the functionality of the schematic and verify its compliance with electrical codes and standards.
+  7. [FV] Save and export the schematic file in a standard format (e.g., PDF, DXF) for review by the project team and stakeholders.
+[B]
+  1. [IC] Review the project requirements and specifications for the industrial control panel.
+  2. [IC] Identify the electrical components needed for the control panel, such as circuit breakers, relays, and sensors.
+  3. [NA] Open the electrical design software and create a new project file.
+  4. [NA] Select the appropriate symbols and components from the software library.
+  5. [ME] Place the selected components on the schematic canvas and arrange them according to the control panel layout.
+  6. [ME] Connect the components using wires and labels to indicate the flow of electricity and control signals.
+  7. [PD] Review the schematic for any errors or inconsistencies in component placement and connections.
+  8. [FV] Run a simulation within the software to test the functionality of the schematic.
+  9. [FV] Generate a report summarizing the schematic design and any simulation results.
+  10. [FV] Save and export the schematic file for review by the project team.
+[C]
+  1. [IC] Review project requirements and specifications, identifying necessary electrical components.
+  2. [NA] Open electrical design software and create a new project file.
+  3. [NA] Select appropriate electrical symbols and components from the software library.
+  4. [ME] Place components on the schematic canvas according to the project layout.
+  5. [ME] Connect components with wires and labels, indicating electrical flow and control signals.
+  6. [PD] Review the schematic for errors, inconsistencies, and adherence to electrical codes.
+  7. [FV] Run a simulation to test the functionality of the schematic.
+  8. [FV] Save the schematic file and prepare it for review by the project team.
+[D]
+  1. [IC] Review project requirements, specifications, and client's needs to understand the desired functionality and constraints.
+  2. [NA] Gather and apply relevant electrical codes, standards, and regulations to the project.
+  3. [PD] Sketch out an initial layout of the electrical system on paper or digitally, considering component placement and connections.
+  4. [NA] Open the electrical design software and create a new project file, setting up layers, scales, and units according to project standards.
+  5. [ME] Select appropriate symbols and components from the software library and place them on the schematic canvas according to the initial layout.
+  6. [ME] Draw connections between components using appropriate line types, labels, and wire gauges, ensuring they meet electrical load and voltage drop requirements.
+  7. [ME] Add labels, annotations, and component identifications to the schematic for clarity and easy reference.
+  8. [FV] Review the schematic for accuracy, completeness, and adherence to electrical codes and standards, making necessary revisions.
+  9. [FV] Run a simulation or generate a report summarizing the schematic design and any simulation results.
+  10. [FV] Save, export, and distribute the final schematic file in a suitable format for review and approval by stakeholders.
+
+================================================================
+ANSWER TEMPLATE
+
+449: _ | 
+450: _ | 
+451: _ | 
+452: _ | 
+453: _ | 
+454: _ | 
+455: _ | 
+456: _ | 
+

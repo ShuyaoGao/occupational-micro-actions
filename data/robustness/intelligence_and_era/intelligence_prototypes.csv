@@ -1,0 +1,33 @@
+﻿class,prototype
+LLM,Draft a maintenance schedule including the start and end times and the tasks to be performed.
+LLM,Write the report summarizing the findings and recommendations for management.
+LLM,Calculate the total project cost based on labor rates and material quantities.
+LLM,Review the contract specifications to determine the required compliance criteria.
+LLM,Analyze the data to identify trends and patterns in customer behavior.
+LLM,Compose an email to the stakeholders outlining the next steps.
+LLM,Summarize the patient's medical history into a structured note.
+LLM,Develop a sampling strategy including sampling sites frequency and methods.
+Multimodal_Perception,Visually inspect the equipment for signs of wear damage or misalignment.
+Multimodal_Perception,Check the compaction level using a penetrometer or other testing equipment.
+Multimodal_Perception,Monitor the patient's vital signs on the display during the procedure.
+Multimodal_Perception,Use a leveling tool such as a laser level to check the flatness of the base.
+Multimodal_Perception,Observe the welding process to detect any defects in real time.
+Multimodal_Perception,Identify potential safety hazards by walking the construction site.
+Multimodal_Perception,Read instrument gauges and record the measured values.
+Multimodal_Perception,Recognize abnormal sounds from the running machine indicating wear.
+Embodied,Use a compactor machine to begin compacting the soil starting from the edges and working towards the center.
+Embodied,Don appropriate Personal Protective Equipment PPE like gloves safety glasses and hearing protection.
+Embodied,Transport the material to the designated location using a forklift or hand truck.
+Embodied,Sew the fabric pieces together using a sewing machine.
+Embodied,Insert sterile acupuncture needles into the identified points with precise depth and angle.
+Embodied,Cut the steel beam using an angle grinder.
+Embodied,Lift and carry the box of supplies to the storage area.
+Embodied,Drive the vehicle to the delivery location adhering to traffic laws.
+Human_Bound,Counsel the patient regarding lifestyle changes and treatment options.
+Human_Bound,Negotiate the terms of the contract with the client representative.
+Human_Bound,Discuss the implications of the diagnosis with the family in a sensitive manner.
+Human_Bound,Mediate a workplace dispute between two team members.
+Human_Bound,Obtain informed consent from the patient before the procedure.
+Human_Bound,Provide emotional support to the bereaved family.
+Human_Bound,Make a final discretionary judgment on whether to approve the loan application.
+Human_Bound,Testify in court regarding the findings of the investigation.

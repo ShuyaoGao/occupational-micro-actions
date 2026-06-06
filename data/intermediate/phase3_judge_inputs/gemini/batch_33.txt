@@ -1,0 +1,370 @@
+BATCH 33/63 | Model: Gemini 3 Pro | Tasks 257-264
+================================================================
+EXPERT REVIEW -- Micro-Action Sequence Evaluation
+For each task, read ALL four options, then choose the BEST (A/B/C/D).
+
+Criteria:
+  1. Completeness  -- no critical steps missing
+  2. Realism       -- every step is concretely executable
+  3. Stage accuracy -- stage label correct for each step:
+     IC=Intent_Communication  NA=Navigation_Addressing
+     PD=Perception_Diagnosis  ME=Manipulation_Execution  FV=Feedback_Verification
+  4. Conciseness   -- no redundant or duplicate steps
+  5. Scope         -- starts and ends at exactly the right point
+
+OUTPUT: fill the ANSWER TEMPLATE at the bottom.
+Format: N: X | one-sentence reason (max 12 words)
+IMPORTANT: Each task has a different best answer. Do NOT pick the same
+letter for every task without reading.
+================================================================
+
+--- Task 257: Audition or interview potential performers or staff members.
+[A]
+  1. [IC] Review the resumes and headshots of potential candidates to identify top contenders for each role.
+  2. [NA] Set up the audition space to accommodate the number of candidates and ensure a smooth flow of interviews.
+  3. [IC] Greet each candidate, introduce the production team, and explain the audition process.
+  4. [PD] Observe each candidate's performance, taking note of their strengths and weaknesses.
+  5. [IC] Conduct a brief interview with each candidate to assess their personality fit and availability.
+  6. [ME] Take notes and discuss the candidates with the production team to reach a consensus on casting decisions.
+  7. [FV] Contact the selected candidates to offer them a role in the production and provide details on the next steps.
+  8. [FV] Notify the unsuccessful candidates of the outcome and provide feedback on their performance.
+  9. [ME] Finalize the cast list and share it with the production team, ensuring everyone is aware of their roles and responsibilities.
+[B]
+  1. [IC] Review the resumes and headshots of potential candidates to identify top contenders for each role.
+  2. [NA] Set up the audition space to accommodate the number of candidates and ensure a smooth flow of interviews.
+  3. [IC] Welcome each candidate, introduce the production team, and explain the audition process.
+  4. [PD] Observe each candidate's performance, taking note of their strengths and weaknesses.
+  5. [IC] Conduct a brief interview with each candidate to assess their personality fit and availability.
+  6. [ME] Take notes and discuss the candidates with the production team to reach a consensus on casting decisions.
+  7. [FV] Contact the selected candidates to offer them a role in the production and provide details on the next steps.
+  8. [FV] Notify the unsuccessful candidates of the outcome and provide feedback on their performance.
+  9. [ME] Finalize the cast list and share it with the production team, ensuring everyone is aware of their roles and responsibilities.
+  10. [PD] Review the audition process and identify areas for improvement for future productions.
+[C]
+  1. [IC] Review candidate profiles (resumes, headshots, reels) to shortlist potential performers.
+  2. [NA] Prepare the audition space, ensuring necessary equipment and materials are ready.
+  3. [IC] Greet the candidate, confirm their identity, and explain the audition process.
+  4. [IC] Present the audition material (script excerpt, song, etc.) and provide clear instructions.
+  5. [PD] Observe the candidate's performance, taking detailed notes on their skills and suitability.
+  6. [IC] Engage in a brief Q&A session to assess personality, experience, and understanding of the role.
+  7. [FV] Thank the candidate for their time and inform them of the next steps in the process.
+  8. [ME] Compare candidate performances, considering notes and overall impressions.
+  9. [FV] Communicate casting decisions to candidates, providing constructive feedback when appropriate.
+[D]
+  1. [IC] Review the script, character descriptions, and candidate profiles to understand the production's needs and identify top contenders for each role.
+  2. [NA] Set up the audition space to accommodate the number of candidates and ensure a smooth flow of interviews.
+  3. [IC] Welcome each candidate, introduce the production team, and explain the audition process.
+  4. [PD] Ask candidates to perform a monologue, scene, or cold reading to assess their acting skills, vocal abilities, and adaptability.
+  5. [PD] Observe each candidate's performance, taking note of their strengths, weaknesses, and potential.
+  6. [IC] Engage in a brief Q&A session with each candidate to assess their personality fit, availability, and acting background.
+  7. [ME] Take notes and discuss the candidates with the production team to reach a consensus on casting decisions.
+  8. [FV] Contact selected candidates to offer them a role in the production and provide details on the next steps.
+  9. [FV] Notify unsuccessful candidates of the outcome and provide constructive feedback on their performance.
+  10. [ME] Finalize the cast list and share it with the production team, ensuring everyone is aware of their roles and responsibilities.
+  11. [PD] Review the audition process and identify areas for improvement for future productions.
+
+--- Task 258: Coordinate shipping activities with external parties.
+[A]
+  1. [IC] Review the shipping request and confirm details including quantity, weight, and special handling requirements.
+  2. [IC] Contact the shipping company to schedule a pickup time that aligns with the distributor's delivery window.
+  3. [PD] Verify that all packages are properly packaged and labeled according to shipping regulations and the carrier's requirements.
+  4. [NA] Navigate the warehouse to locate all packages and ensure they are ready for pickup.
+  5. [FV] Confirm with the shipping company that the shipment has been picked up and is on its way to the distributor.
+  6. [FV] Monitor the shipment's progress through the shipping company's tracking system to ensure it is on schedule.
+  7. [IC] Notify the distributor of the expected delivery time and any final preparations needed.
+  8. [FV] Receive confirmation from the distributor that the shipment has been received and is in good condition.
+[B]
+  1. [IC] Review the shipping request and confirm the details of the shipment.
+  2. [IC] Contact the shipping company to schedule a pickup time.
+  3. [IC] Communicate with the internal warehouse team to ensure the shipment is prepared.
+  4. [IC] Confirm the shipping details with the distributor.
+  5. [NA] Monitor the internal systems to ensure the shipment is properly labeled.
+  6. [NA] Oversee the loading of the shipment onto the shipping company's truck.
+  7. [FV] Confirm with the shipping company that the shipment has been picked up.
+  8. [FV] Monitor the shipment's progress through the shipping company's tracking system.
+  9. [FV] Contact the distributor to confirm the expected delivery time.
+  10. [FV] Receive confirmation from the distributor that the shipment has been received.
+[C]
+  1. [IC] Review the shipping request, confirming details like quantity, weight, and special handling requirements.
+  2. [IC] Contact the shipping company to schedule a pickup time that aligns with the distributor's delivery window.
+  3. [PD] Verify that all packages are properly packaged, labeled, and ready for pickup according to shipping regulations and the carrier's requirements.
+  4. [IC] Communicate with the warehouse team to confirm package readiness and address any issues.
+  5. [FV] Monitor the shipment's progress through the shipping company's tracking system.
+  6. [FV] Confirm successful delivery with the distributor and address any concerns.
+[D]
+  1. [IC] Review and confirm shipping details, including quantity, weight, special handling requirements, and destination address.
+  2. [IC] Contact the shipping company to schedule a pickup time that aligns with the distributor's delivery window.
+  3. [PD] Verify that all packages are properly packaged, labeled, and ready for pickup according to shipping regulations and the carrier's requirements.
+  4. [NA] Navigate the warehouse to locate all packages and communicate with the warehouse team to confirm their readiness for pickup.
+  5. [IC] Coordinate with the third-party shipping carrier to confirm the pickup time, location, and shipment details.
+  6. [ME] Oversee the loading of the shipment onto the shipping company's truck and confirm with them that the shipment has been picked up.
+  7. [FV] Monitor the shipment's progress through the shipping company's tracking system and communicate any delays or updates to the distributor.
+  8. [ME] Document the shipping process, any issues that arose during shipping, and the final delivery confirmation for future reference.
+
+--- Task 259: Conduct historical research.
+[A]
+  1. [IC] Identify the specific historical event, geographical location, and scope of the research.
+  2. [NA] Locate and access relevant archives and databases, such as library catalogs and online historical databases.
+  3. [PD] Review and analyze primary and secondary sources, including documents, photographs, and oral histories.
+  4. [ME] Organize and synthesize the gathered information into a structured format for analysis.
+  5. [ME] Draft a comprehensive report or paper summarizing the findings and insights.
+  6. [FV] Review and revise the draft report or paper to ensure accuracy, clarity, and reliability.
+  7. [FV] Submit the final report or paper for review or publication, ensuring it meets the required standards.
+[B]
+  1. [IC] Identify the specific historical event and geographical location for the research.
+  2. [NA] Locate and access the archives of the small town in rural England.
+  3. [PD] Review the archival documents and photographs related to the town's economic development during World War II.
+  4. [ME] Organize the documents and photographs into a structured format for analysis.
+  5. [PD] Conduct interviews with local residents who lived through World War II to gather oral histories.
+  6. [PD] Transcribe and analyze the oral histories to identify key themes and insights.
+  7. [ME] Synthesize the archival documents, photographs, and oral histories into a coherent narrative.
+  8. [ME] Draft a comprehensive report or paper summarizing the economic changes in the town during and after World War II.
+  9. [FV] Review and revise the draft report or paper to ensure accuracy and clarity.
+  10. [FV] Deliver the final report or paper to the client or academic journal for publication.
+[C]
+  1. [IC] Define the specific historical event, geographical location, and research question.
+  2. [NA] Identify and locate relevant primary and secondary sources using library catalogs, online databases, and archives.
+  3. [PD] Examine primary sources (documents, photographs, oral histories) and secondary sources (books, articles) to extract relevant information and identify patterns.
+  4. [ME] Organize and synthesize the gathered information using note-taking, outlining, or digital tools.
+  5. [PD] Cross-reference information from multiple sources to corroborate findings, identify biases, and develop a nuanced understanding.
+  6. [ME] Draft a written report or presentation summarizing the research findings, analysis, and conclusions.
+  7. [FV] Review and revise the draft for accuracy, clarity, and adherence to academic standards.
+[D]
+  1. [IC] Define the research scope by identifying the specific historical event, geographical location, and themes.
+  2. [NA] Access and search relevant archives, libraries, or databases for primary and secondary sources.
+  3. [PD] Review and analyze primary sources (documents, photographs, oral histories, etc.) to understand historical context and themes.
+  4. [ME] Organize and structure the analyzed sources for further analysis and synthesis.
+  5. [PD] Cross-reference and corroborate findings from different sources to validate information.
+  6. [ME] Synthesize the gathered information to identify key themes, insights, or factors contributing to the historical event.
+  7. [ME] Draft a comprehensive report or paper summarizing the research findings and conclusions.
+  8. [FV] Review and revise the draft to ensure accuracy, clarity, and adherence to formatting guidelines.
+  9. [FV] Document the research process, sources, and findings for future reference and sharing.
+  10. [FV] Deliver the final report or paper to the client or academic journal for publication or submission.
+
+--- Task 260: Maintain inventories of materials, equipment, or products.
+[A]
+  1. [IC] Log into the digital inventory management software and retrieve the daily inventory report.
+  2. [NA] Navigate to the inventory check module and locate the first item on the inventory list using the warehouse's layout and navigation system.
+  3. [PD] Physically move to the location of the first item and scan its barcode to confirm its identity and update its location in the system.
+  4. [PD] Check the physical stock level of the item and compare it with the system's record.
+  5. [ME] Update the inventory management system with the correct stock level of the item.
+  6. [FV] Repeat steps 2 to 5 for all items on the inventory list.
+  7. [FV] Generate a new inventory report to verify the accuracy of the updates and identify any discrepancies.
+  8. [FV] Resolve any discrepancies by updating the system or physically adjusting the stock levels.
+  9. [FV] Generate a summary report highlighting significant changes in stock levels or potential issues that require further attention.
+  10. [IC] Review the summary report with the warehouse supervisor to ensure all inventory-related tasks are completed and any issues are addressed.
+[B]
+  1. [PD] Review the current inventory levels and identify any discrepancies or areas of concern using the computerized inventory management system.
+  2. [ME] Physically count the inventory of a specific section of the warehouse, such as the camping gear department, to ensure accuracy and completeness.
+  3. [ME] Update the inventory management system with the new counts and reconcile any discrepancies.
+  4. [FV] Verify the accuracy of the inventory levels by comparing the physical counts with the system records.
+  5. [IC] Communicate any inventory discrepancies or concerns to the inventory clerks and provide guidance on how to resolve the issues.
+  6. [PD] Scan the barcode on incoming boxes of electronic components using a handheld scanner.
+  7. [PD] Verify the scanned information against the packing slip to ensure the correct items and quantities are received.
+  8. [ME] Update the inventory database with the received quantities of each component.
+  9. [IC] Retrieve the daily inventory report from the warehouse management system.
+  10. [NA] Locate the first item on the inventory list using the warehouse's layout and navigation system.
+  11. [PD] Scan the barcode of the located item to confirm its identity and update its location in the system.
+  12. [PD] Check the physical stock level of the item and compare it with the system's record.
+[C]
+  1. [IC] Access the digital inventory management software and navigate to the inventory check module.
+  2. [NA] Select a warehouse section to check and locate the first shelf within that section.
+  3. [PD] Scan the barcode of each component on the shelf using a handheld scanner.
+  4. [ME] Enter the quantity of each scanned component into the inventory management software.
+  5. [ME] Repeat steps 3 and 4 for all shelves within the selected section.
+  6. [FV] Review the updated inventory data for the completed section, identifying any discrepancies or shortages.
+  7. [NA] Repeat steps 2-6 for all remaining warehouse sections.
+  8. [FV] Generate a final inventory report summarizing the updated stock levels and any identified discrepancies.
+[D]
+  1. [IC] Retrieve the daily inventory report from the warehouse management system.
+  2. [NA] Navigate to the first item on the inventory list using the warehouse's layout and navigation system.
+  3. [PD] Scan the barcode of the located item to confirm its identity and update its location in the system.
+  4. [PD] Check the physical stock level of the item and compare it with the system's record.
+  5. [ME] Update the inventory management system with the correct stock level of the item.
+  6. [FV] Repeat steps 2 to 5 for all items on the inventory list.
+  7. [FV] Once all items are processed, generate a new inventory report to verify the accuracy of the updates.
+  8. [FV] Identify any discrepancies between the physical stock and the system's record and resolve them by updating the system or physically adjusting the stock levels.
+  9. [FV] Generate a summary report highlighting any significant changes in stock levels or potential issues that require further attention.
+  10. [IC] Review the summary report with the warehouse supervisor to ensure all inventory-related tasks are completed and any issues are addressed.
+
+--- Task 261: Plan employee work schedules.
+[A]
+  1. [IC] Review employee availability and preferences for the upcoming week, including requested time off, preferred shifts, and any scheduling restrictions.
+  2. [PD] Analyze historical sales data and customer traffic patterns to predict peak hours and staffing needs for each day of the week.
+  3. [ME] Determine minimum staffing levels required for each hour of operation, considering legal break requirements and desired customer service ratios.
+  4. [ME] Assign employees to shifts, prioritizing their preferences and availability while ensuring adequate coverage during peak hours.
+  5. [FV] Check for any scheduling conflicts or overlaps, making adjustments as needed to ensure a feasible and compliant schedule.
+  6. [IC] Finalize the schedule and communicate it to employees through the company's scheduling system or platform.
+  7. [FV] Confirm that all employees have received and understood the schedule, and address any remaining questions or concerns.
+  8. [FV] Document the finalized schedule and store it for record-keeping purposes.
+[B]
+  1. [IC] Review the store's operational needs for the upcoming week, including expected customer traffic and required staffing levels.
+  2. [NA] Access the employee database to review employee availability and preferences for the upcoming week.
+  3. [PD] Identify any labor law constraints, such as maximum hours per week and required rest periods.
+  4. [ME] Start drafting the schedule, assigning shifts to employees based on operational needs and preferences.
+  5. [FV] Check the draft schedule against labor law constraints to ensure compliance.
+  6. [PD] Review the draft schedule for any gaps or overstaffing issues.
+  7. [ME] Adjust the draft schedule to address any identified issues, ensuring optimal staffing levels.
+  8. [FV] Finalize the schedule by confirming all shifts and employee assignments.
+  9. [IC] Communicate the finalized schedule to all employees via email or the company's internal communication system.
+  10. [FV] Review and document any feedback or requests from employees regarding the schedule.
+[C]
+  1. [IC] Review employee availability and preferences for the upcoming week, including days off, requested shifts, and availability.
+  2. [PD] Analyze historical sales data and foot traffic patterns to predict peak hours and staffing needs for each day of the week.
+  3. [ME] Determine minimum staffing levels required for each hour of operation, considering legal break requirements and desired customer service ratios.
+  4. [ME] Assign employees to shifts, prioritizing their preferences and availability while ensuring adequate coverage during peak hours.
+  5. [FV] Check for any scheduling conflicts or overlaps, making adjustments as needed to ensure a feasible and compliant schedule.
+  6. [IC] Communicate the finalized schedule to all employees through the company's scheduling system or platform.
+[D]
+  1. [IC] Review employee availability and preferences for the upcoming week, including days off, requested shifts, and availability.
+  2. [PD] Analyze sales data, customer traffic patterns, and operational needs to determine peak hours and staff requirements for each day.
+  3. [ME] Create a draft schedule taking into account employee availability, peak hours, and labor laws, while prioritizing employee preferences.
+  4. [IC] Share the draft schedule with employees and solicit feedback and requests.
+  5. [ME] Revise the schedule based on employee feedback and requests, ensuring compliance with labor laws and business needs.
+  6. [FV] Finalize the work schedule for the upcoming week, ensuring accuracy, feasibility, and compliance with labor laws.
+  7. [IC] Communicate the final schedule to employees, providing clear instructions and expectations.
+  8. [PD] Monitor and adjust the schedule as needed to ensure compliance with labor laws and business needs.
+  9. [FV] Evaluate the success of the schedule in meeting business needs and employee preferences.
+  10. [FV] Document lessons learned and areas for improvement to inform future schedule planning.
+
+--- Task 262: Build agricultural structures.
+[A]
+  1. [IC] Carefully study the blueprint to understand the structure's layout, dimensions, and component requirements.
+  2. [PD] Measure and mark the ground according to the blueprint to ensure accurate placement of the structure's base.
+  3. [ME] Pour and level the concrete foundation, allowing it to cure for the specified period.
+  4. [ME] Assemble the base frame by connecting the prefabricated components, ensuring the structure is square and level.
+  5. [ME] Attach the base frame to the ground using stakes or anchors to secure it in place.
+  6. [ME] Assemble the walls and roof by connecting the prefabricated components, following the blueprint's specifications.
+  7. [ME] Install doors and windows, ensuring they are properly aligned and secured.
+  8. [PD] Inspect the entire structure for any gaps, leaks, or instability, and make necessary adjustments.
+  9. [ME] Apply clamps and screws to secure all joints and connections, ensuring the structure is sturdy and stable.
+  10. [ME] Cover the structure's frame with the transparent plastic sheeting, securing it in place with clamps and screws.
+  11. [FV] Conduct a final inspection of the assembled structure, verifying structural integrity and system functionality.
+[B]
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+[C]
+  1. [IC] Receive and decode assembly instructions from a central control unit.
+  2. [NA] Navigate to the designated assembly location and position the base frame components.
+  3. [ME] Securely fasten the base frame components using automated welding or bolting mechanisms.
+  4. [ME] Assemble the main structure (walls and roof) according to the blueprint specifications.
+  5. [ME] Install doors, windows, and any necessary ventilation or irrigation systems.
+  6. [FV] Conduct a final inspection of the assembled structure, verifying structural integrity and system functionality.
+[D]
+  1. [IC] Study the blueprint to understand the structure's layout, dimensions, and component requirements.
+  2. [NA] Gather all necessary tools and prefabricated components from the storage area.
+  3. [PD] Measure and mark the ground according to the blueprint for accurate placement of the structure's base.
+  4. [ME] Assemble the base frame by connecting components, ensuring the structure is square and level.
+  5. [ME] Secure the base frame to the ground using appropriate fasteners.
+  6. [ME] Assemble the walls and roof by connecting components according to the blueprint's specifications.
+  7. [ME] Install doors, windows, and other necessary hardware, ensuring they are properly aligned and secured.
+  8. [PD] Inspect the entire structure for any gaps, leaks, or instability, and make necessary adjustments.
+  9. [ME] Secure all joints and connections using clamps, screws, or other appropriate fasteners.
+  10. [ME] Cover the frame with the appropriate material (e.g., plastic sheeting, wire mesh, or wood), securing it in place.
+  11. [FV] Inspect the completed structure one last time to ensure all components are properly assembled and secured, meeting the success criteria.
+
+--- Task 263: Operate forestry equipment.
+[A]
+  1. [IC] Start the feller buncher engine and perform pre-operational checks, including hydraulic fluid, fuel, and tire pressure levels.
+  2. [NA] Navigate the feller buncher to the designated harvesting area, avoiding obstacles and following the planned harvest map.
+  3. [PD] Identify a suitable tree for felling based on size, species, and proximity to other trees, using the machine's cameras and mirrors.
+  4. [ME] Position the feller buncher's harvesting head around the selected tree and engage the harvesting head to cut the tree, ensuring it falls in a safe direction.
+  5. [ME] Repeat the tree selection and cutting process until the machine's load capacity is reached or the harvesting area is complete.
+  6. [NA] Drive the feller buncher to the designated landing area, following the planned route and avoiding obstacles.
+  7. [FV] Unload the harvested timber into the waiting truck or pile, ensuring it is stable and secure for transport.
+  8. [FV] Inspect the harvesting area for any remaining debris or hazards, and address them as necessary.
+  9. [IC] Return to the starting point or the next harvesting area, following the planned route and maintaining communication with the ground crew.
+[B]
+  1. [ME] Start the feller buncher engine and perform pre-operational checks (fluid levels, tire pressure, etc.).
+  2. [NA] Navigate the feller buncher to the designated harvesting area, avoiding obstacles and uneven terrain.
+  3. [PD] Identify a suitable tree for felling based on size, species, and proximity to other trees.
+  4. [NA] Position the feller buncher's cutting head in front of the selected tree.
+  5. [ME] Activate the cutting head and fell the tree, ensuring it falls in a safe direction.
+  6. [ME] Use the feller buncher's grapple to lift and stack the felled tree.
+  7. [NA] Transport the stacked trees to a designated collection point.
+  8. [ME] Deposit the trees at the collection point and prepare for the next felling cycle.
+  9. [FV] Inspect the harvesting area for any remaining debris or hazards, and address them as necessary.
+  10. [IC] Return to the starting point or the next harvesting area, following the planned route and maintaining communication with the ground crew.
+[C]
+  1. [IC] Start the feller buncher engine and perform pre-operational checks (fluid levels, tire pressure, safety features).
+  2. [NA] Navigate the feller buncher to the designated harvesting area, avoiding obstacles and uneven terrain.
+  3. [PD] Identify a suitable tree for felling based on size, species, and proximity to other trees.
+  4. [NA] Position the feller buncher's cutting head in front of the selected tree.
+  5. [ME] Activate the cutting head and fell the tree, ensuring it falls in a safe direction.
+  6. [ME] Use the feller buncher's grapple to lift and stack the felled tree.
+  7. [NA] Transport the stacked trees to a designated collection point.
+  8. [FV] Deposit the trees at the collection point and prepare for the next felling cycle.
+[D]
+  1. [ME] Start the feller buncher engine and perform pre-operational safety checks (hydraulic fluid, fuel, tire pressure, etc.).
+  2. [NA] Use the machine's GPS and onboard computer to locate the first harvesting area, following the planned harvest map.
+  3. [NA] Drive the feller buncher through the forest, avoiding obstacles such as large rocks, steep drop-offs, and standing dead trees.
+  4. [PD] Scan the area visually to identify suitable trees for harvesting, considering factors such as species, size, and health.
+  5. [ME] Position the feller buncher's harvesting head around the selected tree, using the machine's cameras and mirrors to maintain visibility.
+  6. [ME] Engage the harvesting head to cut the tree and gather it into the machine's grapple, ensuring no other trees are caught in the process.
+  7. [ME] Repeat steps 4-6 until the machine's load capacity is reached or the harvesting area is complete.
+  8. [NA] Drive the feller buncher to the designated landing area, following the planned route and avoiding obstacles.
+  9. [FV] Unload the harvested timber into the waiting truck or pile, ensuring it is stable and secure for transport.
+  10. [FV] Inspect the harvesting area for any remaining debris or hazards, and address them as necessary.
+  11. [IC] Return to the starting point or the next harvesting area, following the planned route and maintaining communication with the ground crew.
+
+--- Task 264: Perform manual service or maintenance tasks.
+[A]
+  1. [IC] Receive and acknowledge the work order specifying the location and type of maintenance task.
+  2. [NA] Navigate to the maintenance site and gather necessary tools and replacement parts.
+  3. [ME] Power down the system or isolate the component to ensure safety during maintenance.
+  4. [PD] Inspect the component for damage or issues, identifying the necessary repairs.
+  5. [ME] Perform the necessary repairs or replacements, ensuring proper installation.
+  6. [FV] Power up the system and check for proper operation, verifying the repair.
+  7. [FV] Document the maintenance performed, including any issues encountered and solutions implemented.
+[B]
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+[C]
+  1. [NA] Arrive at the designated location and gather necessary tools and replacement parts.
+  2. [ME] Power down the system or isolate the relevant component to ensure safety.
+  3. [PD] Inspect the system or component for visible damage, wear, or malfunction indicators.
+  4. [ME] Perform the required maintenance or repair tasks, following established procedures and safety guidelines.
+  5. [ME] Power up the system or re-engage the component and test its functionality.
+  6. [IC] Document the completed work, including details of the issue, repairs performed, and any parts replaced.
+[D]
+  1. [NA] Arrive at the work area and gather necessary tools and replacement parts.
+  2. [ME] Ensure safety by powering down or isolating the system/equipment, if applicable.
+  3. [PD] Inspect and diagnose the issue or perform a routine check.
+  4. [ME] Remove and replace faulty or worn-out components.
+  5. [ME] Clean or maintain components as required.
+  6. [ME] Reassemble or restore the system/equipment to its operational state.
+  7. [FV] Power up or reactivate the system/equipment and verify its proper operation.
+  8. [IC] Document the maintenance performed, issues encountered, and any relevant data.
+  9. [FV] Clean the work area, dispose of waste responsibly, and ensure safety protocols are maintained.
+  10. [IC] Update relevant records, schedules, or logs, and communicate completed tasks to stakeholders.
+
+================================================================
+ANSWER TEMPLATE
+
+257: _ | 
+258: _ | 
+259: _ | 
+260: _ | 
+261: _ | 
+262: _ | 
+263: _ | 
+264: _ | 
+

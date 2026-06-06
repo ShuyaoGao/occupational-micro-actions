@@ -1,0 +1,354 @@
+BATCH 6/63 | Model: Claude Opus 4.7 | Tasks 41-48
+================================================================
+EXPERT REVIEW -- Micro-Action Sequence Evaluation
+For each task, read ALL four options, then choose the BEST (A/B/C/D).
+
+Criteria:
+  1. Completeness  -- no critical steps missing
+  2. Realism       -- every step is concretely executable
+  3. Stage accuracy -- stage label correct for each step:
+     IC=Intent_Communication  NA=Navigation_Addressing
+     PD=Perception_Diagnosis  ME=Manipulation_Execution  FV=Feedback_Verification
+  4. Conciseness   -- no redundant or duplicate steps
+  5. Scope         -- starts and ends at exactly the right point
+
+OUTPUT: fill the ANSWER TEMPLATE at the bottom.
+Format: N: X | one-sentence reason (max 12 words)
+IMPORTANT: Each task has a different best answer. Do NOT pick the same
+letter for every task without reading.
+================================================================
+
+--- Task 41: Establish rules or policies governing student behavior.
+[A]
+  1. [IC] Conduct a school-wide survey and focus groups with students, parents, and staff to gather input on current rules and desired changes.
+  2. [PD] Analyze survey responses and focus group findings to identify common themes, concerns, and suggestions.
+  3. [NA] Research best practices and legal requirements for school codes of conduct.
+  4. [ME] Draft initial rules based on stakeholder input, best practices, and legal requirements.
+  5. [FV] Present draft rules to the school board for feedback and approval.
+  6. [ME] Revise rules based on school board feedback and finalize the code of conduct.
+  7. [ME] Create age-appropriate materials to teach the new rules to students and conduct training sessions for staff on enforcing the new rules.
+  8. [NA] Distribute the new code of conduct to students, parents, and staff, and make it easily accessible online.
+  9. [FV] Monitor the implementation of the new rules, gather feedback, and make adjustments as needed.
+[B]
+  1. [IC] Review existing school policies and handbooks from similar middle schools in the district to identify best practices and areas for improvement.
+  2. [IC] Conduct a survey or focus group with teachers, students, and parents to gather input on what they would like to see included in the new student handbook.
+  3. [ME] Develop a draft of the new student handbook that incorporates the feedback from the survey or focus group and addresses any areas of concern.
+  4. [PD] Review and revise the draft of the student handbook to ensure that it meets the needs of diverse students and is compliant with district and state regulations.
+  5. [FV] Finalize the student handbook and have it approved by the school administration and the school board.
+  6. [ME] Design and layout the student handbook in a clear and visually appealing format.
+  7. [NA] Print or digitally distribute the student handbook to students and parents by the first day of school.
+  8. [IC] Communicate the importance of the student handbook to students and parents through a parent-teacher organization meeting or school assembly.
+  9. [PD] Monitor and evaluate the effectiveness of the student handbook in promoting positive student behavior and reducing disciplinary incidents.
+  10. [ME] Revise and update the student handbook as needed to ensure that it remains relevant and effective in promoting positive student behavior.
+[C]
+  1. [IC] Review existing school policies and handbooks from similar schools to identify best practices and areas for improvement.
+  2. [IC] Conduct surveys and focus groups with students, teachers, and parents to gather diverse perspectives on desired changes and concerns regarding student behavior.
+  3. [PD] Analyze collected data to identify common themes, areas of consensus, and disagreement regarding student behavior expectations.
+  4. [ME] Draft a preliminary version of the revised code of conduct, incorporating feedback and addressing identified concerns.
+  5. [IC] Present the draft code of conduct to the school board for review and feedback.
+  6. [ME] Revise the code of conduct based on feedback received from the school board and finalize the document.
+  7. [NA] Disseminate the finalized code of conduct to students, staff, and parents through various channels (e.g., school website, handbooks, assemblies).
+[D]
+  1. [IC] Conduct a school-wide survey to gather input from students, parents, and staff on current rules and desired changes.
+  2. [PD] Analyze survey responses to identify common themes, concerns, and suggestions.
+  3. [NA] Research best practices and legal requirements for school codes of conduct.
+  4. [IC] Facilitate focus group discussions with representatives from each stakeholder group to discuss findings and brainstorm rules.
+  5. [ME] Draft initial rules based on stakeholder input, best practices, and legal requirements.
+  6. [FV] Present draft rules to the school board for feedback and approval.
+  7. [ME] Revise rules based on school board feedback and finalize the code of conduct.
+  8. [ME] Create age-appropriate materials to teach the new rules to students.
+  9. [FV] Conduct training sessions for staff on enforcing the new rules and handling disciplinary situations.
+  10. [NA] Distribute the new code of conduct to students, parents, and staff, and make it easily accessible online.
+  11. [FV] Monitor the implementation of the new rules, gather feedback, and make adjustments as needed.
+
+--- Task 42: Operate natural gas generation equipment.
+[A]
+  1. [IC] Review the current power demand and generator's status on the control panel.
+  2. [NA] Adjust the fuel valve settings to match the current demand, ensuring the generator does not exceed its capacity.
+  3. [PD] Monitor the generator's temperature, pressure, and vibration levels using the control panel.
+  4. [PD] Perform a visual inspection of the generator's external components for any signs of leakage or damage.
+  5. [ME] Adjust the generator's output based on the current demand and maintain a stable power output.
+  6. [PD] Monitor the generator's emissions and ensure they comply with environmental regulations.
+  7. [IC] Communicate any anomalies or maintenance needs to the control room and follow their instructions.
+  8. [FV] Perform a final check of the generator's status and ensure all systems are running within normal parameters.
+  9. [FV] Document the generator's performance, any anomalies, and completed maintenance tasks in the daily log.
+[B]
+  1. [IC] Review the maintenance schedule and equipment logs to identify any potential issues or areas for improvement.
+  2. [IC] Don personal protective equipment (PPE) and ensure all safety protocols are in place before approaching the equipment.
+  3. [PD] Conduct a visual inspection of the equipment to identify any signs of wear or damage.
+  4. [PD] Check the gas flow rates, pressure, and temperature to ensure they are within normal parameters.
+  5. [ME] Perform routine maintenance tasks, such as cleaning filters and replacing worn parts.
+  6. [PD] Monitor the equipment's performance during the maintenance cycle and make adjustments as needed.
+  7. [IC] Document the maintenance activities and any issues encountered during the cycle.
+  8. [IC] Review the maintenance schedule and equipment logs to identify areas for improvement and update the schedule as needed.
+  9. [FV] Verify that all equipment is functioning within normal parameters and no safety incidents have been reported.
+  10. [IC] Document the completion of the maintenance cycle and update the equipment logs accordingly.
+[C]
+  1. [IC] Access the control room and log into the SCADA system to monitor the natural gas generation equipment.
+  2. [PD] Review the current operational parameters (temperature, pressure, gas flow rates) on the SCADA dashboard.
+  3. [ME] Adjust the gas flow rate using the control panel if necessary to maintain stable power output within specified ranges.
+  4. [PD] Monitor vibration sensors and thermal imaging cameras for signs of equipment malfunction or overheating.
+  5. [PD] Perform a routine visual inspection of the generator's exterior and cooling system for visible signs of damage or leaks.
+  6. [ME] Adjust the cooling system settings if necessary to maintain optimal operating temperatures.
+  7. [FV] Document any adjustments made, the current operational status, and any observed anomalies in the plant's logbook.
+[D]
+  1. [IC] Review the daily maintenance report and check the generator's current status on the control panel.
+  2. [NA] Adjust the fuel valve settings to match the current demand, ensuring the generator does not exceed its capacity.
+  3. [PD] Monitor the generator's temperature, pressure, vibration levels, and emissions using the control panel and relevant sensors.
+  4. [IC] Communicate with the control room to confirm the generator's output and adjust settings as needed.
+  5. [PD] Perform a visual inspection of the generator's external components for any signs of leakage or damage.
+  6. [ME] Adjust the generator's output based on the current demand and maintain a stable power output.
+  7. [IC] Communicate any anomalies or maintenance needs to the control room and follow their instructions.
+  8. [FV] Perform a final check of the generator's status and ensure all systems are running within normal parameters.
+  9. [FV] Document the generator's performance, any anomalies, and completed maintenance tasks in the daily log.
+
+--- Task 43: Test performance of electrical, electronic, mechanical, or integrated systems or equipment.
+[A]
+  1. [IC] Review the system's performance specifications and test protocols.
+  2. [NA] Navigate to the system's control panel and identify the test ports.
+  3. [ME] Connect the test equipment to the system's test ports and power up the system.
+  4. [PD] Initiate the test sequence and monitor the system's performance data.
+  5. [FV] Compare the real-time data with expected performance data and adjust test parameters if necessary.
+  6. [FV] Record the test results and document any performance issues or recommendations.
+  7. [NA] Disconnect the test equipment and safely navigate away from the system.
+[B]
+  1. [IC] Review the system's performance specifications and test protocols.
+  2. [PD] Power on the conveyor belt system and verify that all components are operational.
+  3. [ME] Set up the test environment, including placing test objects on the conveyor belt.
+  4. [PD] Initiate the system and monitor the performance of the electrical motors.
+  5. [FV] Record the test results and compare them to the performance specifications.
+  6. [ME] Adjust any settings or components that do not meet the performance criteria.
+  7. [FV] Deliver the final test report to the supervisor or client.
+[C]
+  1. [IC] Review the system's performance specifications, test protocols, and safety procedures.
+  2. [NA] Navigate to the system's control panel and prepare the test environment.
+  3. [PD] Power on the system and verify the operational status of all components.
+  4. [ME] Initiate the predefined test sequence and monitor system performance.
+  5. [FV] Collect and analyze performance data, comparing it to the specifications.
+  6. [FV] Document the test results, including any identified issues and recommendations.
+[D]
+  1. [IC] Review system's documentation, performance specifications, and test protocols.
+  2. [NA] Safely navigate to the system's control panel or test location, avoiding obstacles.
+  3. [PD] Power on the system and verify that all components are operational.
+  4. [ME] Set up the test environment, including placing test objects or connecting test equipment.
+  5. [PD] Initiate the system and monitor its performance, recording relevant data.
+  6. [FV] Analyze the collected data, comparing it to the performance specifications.
+  7. [ME] Adjust any settings or components that do not meet the performance criteria.
+  8. [FV] Document the test results, including any performance issues and recommendations for improvement.
+  9. [IC] Review the test results with relevant stakeholders, discussing any performance issues and recommendations.
+  10. [NA] Safely disconnect any test equipment and navigate back from the test location.
+
+--- Task 44: Monitor alarm systems.
+[A]
+  1. [IC] Log into the alarm system's control panel using the assigned credentials.
+  2. [PD] Monitor the alarm system dashboard, paying attention to active sensors and triggered alerts.
+  3. [NA] Upon detecting an alarm, quickly locate its source on the building's floor plan displayed on the control panel.
+  4. [PD] Investigate the cause of the alarm by reviewing camera footage and sensor data.
+  5. [ME] If it's a genuine threat, follow the established security protocol to address the intrusion and notify the appropriate authorities.
+  6. [FV] Document the incident in the security log, including the time, location, and nature of the alarm.
+  7. [ME] Reset the alarm system after the incident is resolved.
+  8. [PD] Resume monitoring the alarm system and cameras.
+[B]
+  1. [PD] Review live feeds from security cameras, scanning for any unusual activity or suspicious individuals.
+  2. [PD] Monitor the alarm system dashboard, paying attention to active sensors and triggered alerts.
+  3. [PD] Listen for any audible alarms or distress calls through the security system's audio feed.
+  4. [NA] Investigate the source of any triggered alarms by reviewing camera footage and sensor data.
+  5. [IC] Dispatch the appropriate response team (e.g., security personnel, police) if a genuine threat is identified.
+  6. [FV] Document the incident in the security log, including the time, location, and nature of the alarm.
+  7. [ME] Reset the alarm system after the incident is resolved.
+  8. [PD] Resume monitoring the alarm system and cameras.
+[C]
+  1. [PD] Monitor the alarm system dashboard and live camera feeds for any triggered alarms or suspicious activity.
+  2. [NA] Upon detecting a triggered alarm, locate its source on the system's map and review associated camera footage.
+  3. [PD] Assess the situation through camera footage, looking for signs of intrusion, tampering, or other security breaches.
+  4. [IC] If a legitimate threat is identified, initiate the emergency response protocol, which may involve contacting security personnel or law enforcement.
+  5. [FV] Document the incident in the alarm system's log, including the time, location, nature of the alarm, and actions taken.
+  6. [ME] Reset the triggered alarm and resume monitoring the system for further activity.
+[D]
+  1. [IC] Log into the alarm system's control panel using assigned credentials.
+  2. [PD] Familiarize oneself with the current status of all alarm points on the system's interface.
+  3. [ME] Set the alarm system to 'armed' mode for the entire building.
+  4. [NA] Begin a patrol route around the building, checking for any signs of intrusion or disturbance.
+  5. [PD] Upon detecting an alarm, quickly locate its source on the building's floor plan displayed on the control panel.
+  6. [NA] Proceed to the location of the alarm, following the most direct and safe route.
+  7. [ME] Investigate the cause of the alarm. If it's a false alarm, reset the alarm point and document the incident.
+  8. [ME] If it's a genuine threat, follow the established security protocol to address the intrusion and notify the appropriate authorities.
+  9. [FV] Upon completing the patrol route and addressing all alarms, log out of the alarm system's control panel and end the shift.
+
+--- Task 45: Draw guide lines or markings on materials or workpieces using patterns or other references.
+[A]
+  1. [IC] Read the blueprint or pattern to understand the layout, dimensions, and spacing of the lines to be drawn.
+  2. [NA] Position the workpiece on a flat, stable surface to ensure accurate marking.
+  3. [PD] Align the pattern or blueprint with the workpiece to ensure accurate transfer of markings.
+  4. [ME] Secure the pattern or blueprint in place using clamps or tape to prevent movement.
+  5. [ME] Use a pencil or appropriate marking tool to trace the markings from the pattern or blueprint onto the workpiece.
+  6. [FV] Verify the markings by comparing them to the pattern or blueprint to ensure accuracy.
+  7. [ME] Adjust any markings that are not accurate by erasing and redrawing as necessary.
+  8. [FV] Inspect the final markings to ensure they are clear and accurate for the next steps in the process.
+[B]
+  1. [NA] Retrieve the material and the pattern or reference.
+  2. [NA] Position the material on a flat, stable surface.
+  3. [PD] Review the pattern or reference to understand the markings and guide lines required.
+  4. [PD] Align the pattern or reference with the material to ensure accurate transfer of markings.
+  5. [ME] Secure the pattern or reference in place using clamps or tape to prevent movement.
+  6. [ME] Use a marking tool to draw the guide lines and markings onto the material, using the pattern or reference as a reference.
+  7. [FV] Verify the markings and guide lines for accuracy, ensuring they are correctly drawn and aligned.
+  8. [ME] Make any necessary adjustments to the markings and guide lines, ensuring they meet the required specifications.
+  9. [ME] Remove the pattern or reference from the material.
+  10. [FV] Inspect the final markings and guide lines to ensure they are clear and accurate for the next steps in the process.
+[C]
+  1. [PD] Review the pattern or blueprint to understand the required markings, dimensions, and spacing.
+  2. [NA] Position the workpiece (e.g., door frame, aluminum plate, plywood) on a stable, flat surface.
+  3. [ME] Align the pattern or use measuring tools to mark the starting points and key reference points on the workpiece.
+  4. [ME] Using appropriate tools (pencil, chalk line, etc.), transfer the markings from the pattern or create guide lines according to the specified dimensions.
+  5. [FV] Verify the accuracy of the markings by comparing them to the pattern or blueprint.
+  6. [ME] Make any necessary adjustments or corrections to the markings.
+  7. [IC] Remove the pattern (if used) and prepare the workpiece for the next step in the process.
+[D]
+  1. [PD] Understand the pattern or blueprint, identifying key points, dimensions, and spacing for markings.
+  2. [NA] Position the material or workpiece on a flat, stable surface for accurate marking.
+  3. [ME] Select and prepare the appropriate marking tool (e.g., pencil, marker, chalk line) for the task.
+  4. [NA] Locate the starting point on the material that corresponds to the first marking's starting point on the reference material.
+  5. [ME] Measure and mark the length, spacing, and other dimensions of the first marking according to the reference material.
+  6. [ME] Draw or trace the first guide line or marking connecting the marked points using the selected tool.
+  7. [ME] Repeat steps 4 to 6 for each subsequent marking, ensuring they are accurately placed, parallel, and evenly spaced according to the reference material.
+  8. [FV] Inspect the drawn markings to ensure they are accurate, clear, and meet the required specifications.
+  9. [ME] Make any necessary adjustments to the markings, ensuring they meet the required specifications.
+  10. [FV] Review the completed task for quality and accuracy, ensuring that the guide lines and markings meet the required specifications.
+
+--- Task 46: Design energy production or management equipment or systems.
+[A]
+  1. [IC] Review client requirements and project specifications, including energy output targets and site constraints.
+  2. [PD] Conduct a site visit to assess the home's energy consumption, roof structure, and shading conditions.
+  3. [NA] Calculate the home's energy needs and determine the required solar panel capacity.
+  4. [ME] Design the solar panel layout, considering factors such as roof orientation, shading, and panel size.
+  5. [ME] Create a detailed design plan, including panel specifications, wiring diagrams, and installation instructions.
+  6. [IC] Review the design with the client to ensure all requirements are met and obtain final approval.
+  7. [FV] Finalize and deliver the detailed design package, including all supporting documentation and models, to the client for construction and implementation.
+[B]
+  1. [IC] Review client requirements and project specifications, including energy output targets and site constraints.
+  2. [PD] Conduct site survey and gather data on solar irradiance, temperature, and wind patterns to inform panel placement and angle decisions.
+  3. [ME] Select and specify solar panel technology and materials, considering factors such as efficiency, durability, and cost.
+  4. [ME] Design and optimize the panel array layout, taking into account factors such as energy output, structural integrity, and aesthetics.
+  5. [PD] Develop and simulate thermal and electrical models of the panel array, to predict energy output and identify potential issues.
+  6. [FV] Analyze and optimize the design for energy efficiency, cost-effectiveness, and environmental sustainability, using tools such as life cycle assessment and cost-benefit analysis.
+  7. [ME] Create detailed design packages, including CAD models, thermal and electrical simulations, and a cost-benefit analysis, for client review and approval.
+  8. [ME] Revise and refine the design based on client feedback and design review, ensuring that the final design meets all requirements and specifications.
+  9. [FV] Finalize and deliver the detailed design package, including all supporting documentation and models, to the client for construction and implementation.
+  10. [FV] Document and reflect on the design process, identifying lessons learned and areas for improvement for future projects.
+[C]
+  1. [IC] Meet with the client to discuss energy consumption patterns, budget constraints, and aesthetic preferences for the system.
+  2. [PD] Conduct a site survey to assess the home's energy consumption, roof structure, shading conditions, and local regulations.
+  3. [PD] Analyze energy consumption data and calculate the required solar panel capacity to meet the client's needs.
+  4. [ME] Design the solar panel layout, considering factors such as roof orientation, shading, panel size, and aesthetics.
+  5. [NA] Select appropriate solar panel models, inverters, and mounting hardware based on the calculated capacity, roof specifications, and aesthetic preferences.
+  6. [ME] Create detailed design plans, including panel specifications, wiring diagrams, installation instructions, and 3D visualizations.
+  7. [IC] Review the design with the client, addressing any questions or concerns and obtaining final approval.
+[D]
+  1. [IC] Review client requirements, project specifications, and energy output targets.
+  2. [PD] Conduct a site survey and gather data on solar irradiance, temperature, wind patterns, roof structure, and shading conditions.
+  3. [NA] Calculate the required solar panel capacity based on energy audit, site survey data, and client requirements.
+  4. [ME] Select and specify solar panel technology, materials, and mounting hardware, considering factors such as efficiency, durability, cost, and aesthetic preferences.
+  5. [ME] Design and optimize the panel array layout, taking into account energy output, structural integrity, aesthetics, and local regulations.
+  6. [PD] Develop and simulate thermal and electrical models of the panel array to predict energy output and identify potential issues.
+  7. [FV] Analyze and optimize the design for energy efficiency, cost-effectiveness, and environmental sustainability using tools such as life cycle assessment and cost-benefit analysis.
+  8. [ME] Create detailed design packages, including CAD models, thermal and electrical simulations, a cost-benefit analysis, and installation instructions, for client review and approval.
+  9. [IC] Obtain necessary permits and approvals from local authorities and utility companies.
+  10. [IC] Review the design with the client, addressing any questions or concerns and obtaining final approval.
+
+--- Task 47: Study product information to acquire professional knowledge.
+[A]
+  1. [NA] Access the company's internal product database or intranet to locate the product information portal.
+  2. [PD] Read the product overview document and technical specifications to understand the product's core features, benefits, and technical details.
+  3. [PD] Watch the product demonstration video to visualize the product's design, features, and user interface in action.
+  4. [PD] Read customer testimonials and reviews to understand the product's strengths and weaknesses from a user perspective.
+  5. [ME] Create concise notes summarizing the key features, benefits, and target audience for the product.
+  6. [ME] Practice explaining the product features and benefits to an imaginary customer, refining the sales pitch and anticipating potential questions.
+  7. [FV] Take an online quiz or review notes to test knowledge retention and understanding of the product information.
+  8. [FV] Prepare a summary document outlining the key features, benefits, and technical specifications of the product for future reference.
+[B]
+  1. [NA] Access the company's internal product database and locate the dedicated folder for the new product line.
+  2. [PD] Review the product specifications document, paying close attention to technical details.
+  3. [PD] Watch the official product demonstration video, focusing on the product's design, user interface, and key selling points.
+  4. [PD] Read through customer testimonials and reviews from early beta testers to understand user experiences and potential pain points.
+  5. [PD] Compare the new product to existing models in the company's product line, noting key differences and target audience overlaps.
+  6. [ME] Create concise notes summarizing the key features, benefits, and target audience for the new product.
+  7. [ME] Practice explaining the product features and benefits to an imaginary customer, refining the sales pitch and anticipating potential questions.
+  8. [FV] Review the notes and practice again, ensuring confidence and fluency in presenting the product information.
+  9. [FV] Test the sales pitch by presenting it to a colleague or mentor for feedback.
+  10. [FV] Prepare a summary document outlining the key features, benefits, and technical specifications of the product for future reference.
+[C]
+  1. [IC] Access the product information portal or designated resources.
+  2. [PD] Review the product overview document to understand core features, target market, and benefits.
+  3. [PD] Study the technical specifications sheet to understand performance, capabilities, and technical details.
+  4. [PD] Watch product demonstration videos to visualize features, design, and user interface.
+  5. [PD] Review customer testimonials and reviews to understand user experiences and potential pain points.
+  6. [ME] Summarize key features, benefits, and target audience in concise notes.
+  7. [ME] Practice explaining product features and benefits to an imaginary customer, refining the sales pitch.
+  8. [FV] Review notes and practice again, focusing on confidence and fluency.
+[D]
+  1. [NA] Access the company's internal product database or intranet to locate the dedicated folder or portal for the product.
+  2. [PD] Read the product overview document or watch the product demonstration video to understand the product's core features, target market, and key selling points.
+  3. [PD] Study the technical specifications document or sheet to understand the product's performance, capabilities, and technical details.
+  4. [PD] Read customer testimonials and reviews to understand the product's strengths, weaknesses, and user experiences.
+  5. [PD] Compare the product to existing models or competitors, noting key differences, target audience overlaps, and unique selling points.
+  6. [ME] Create concise notes summarizing the product's key features, benefits, target audience, and any relevant technical specifications.
+  7. [ME] Practice explaining the product's features, benefits, and unique selling points to an imaginary customer or colleague, refining the sales pitch and anticipating potential questions.
+  8. [FV] Review the notes and practice again, ensuring confidence and fluency in presenting the product information.
+  9. [FV] Participate in a role-playing exercise with a colleague or take an online quiz to test knowledge retention and understanding of the product information.
+  10. [FV] Prepare a summary document outlining the key features, benefits, and technical specifications of the product for future reference.
+
+--- Task 48: Inspect equipment to ensure proper functioning.
+[A]
+  1. [NA] Approach the conveyor belt system and ensure the area is clear of personnel and debris.
+  2. [IC] Review the maintenance log to understand the system's recent performance and any previous issues.
+  3. [PD] Visually inspect the conveyor belt for any signs of wear, such as cracks or fraying, and listen for any unusual noises like squealing or grinding.
+  4. [PD] Check the tension of the conveyor belt using a tension gauge and inspect the rollers and pulleys for any signs of damage or misalignment.
+  5. [PD] Check the electrical connections and wiring for any signs of damage or loose connections, and ensure the control panel indicators are functioning correctly.
+  6. [ME] Run the conveyor belt system to observe its operation and ensure it moves smoothly.
+  7. [FV] Document any issues found during the inspection and plan corrective actions.
+  8. [FV] Report the inspection results to the supervisor and update the maintenance log.
+[B]
+  1. [NA] Approach the conveyor belt system and ensure the area is clear of personnel and debris.
+  2. [IC] Review the maintenance log to understand the system's recent performance and any previous issues.
+  3. [PD] Visually inspect the conveyor belt for any signs of wear, such as cracks or fraying.
+  4. [PD] Check the tension of the conveyor belt using a tension gauge.
+  5. [PD] Listen for any unusual noises from the conveyor belt system, such as squealing or grinding.
+  6. [PD] Inspect the rollers and pulleys for any signs of damage or misalignment.
+  7. [PD] Check the electrical connections and wiring for any signs of damage or loose connections.
+  8. [ME] Run the conveyor belt system to observe its operation and ensure it moves smoothly.
+  9. [FV] Document any issues found during the inspection and plan corrective actions.
+  10. [FV] Report the inspection results to the supervisor and update the maintenance log.
+[C]
+  1. [NA] Approach the conveyor belt system, ensuring the area is clear of personnel and debris.
+  2. [PD] Visually inspect the conveyor belt for any signs of wear, damage, misalignment of rollers and pulleys, and check belt tension.
+  3. [PD] Listen for any unusual noises from the conveyor belt system, such as squealing, grinding, or rattling.
+  4. [PD] Check the electrical connections and wiring for any signs of damage or loose connections.
+  5. [ME] Run the conveyor belt system to observe its operation and ensure it moves smoothly.
+  6. [FV] Document any issues found during the inspection, including location, severity, and potential causes.
+  7. [FV] Report the inspection results to the supervisor and update the maintenance log.
+[D]
+  1. [NA] Approach the equipment, ensuring safe distance from moving parts and that the area is clear of personnel and debris.
+  2. [IC] Review the maintenance log to understand the equipment's recent performance and any previous issues.
+  3. [PD] Visually inspect the equipment for any signs of wear, damage, or misalignment, including belts, rollers, pulleys, and electrical connections.
+  4. [PD] Listen for any unusual noises or vibrations emanating from the equipment.
+  5. [PD] Check the equipment's control panel or display for any error messages or abnormal readings.
+  6. [ME] Initiate a system-wide diagnostic test, if applicable, and follow its prompts to inspect specific components.
+  7. [PD] Inspect each component for any visible signs of damage or malfunction, as indicated by the diagnostic test or visual inspection.
+  8. [PD] Measure and record relevant data, such as temperature, humidity, or other operational parameters, if applicable.
+  9. [FV] Compare the recorded data with desired parameters and the system's self-reported data, if applicable.
+  10. [FV] Document the inspection, including any issues found, data recorded, and actions taken to address them.
+  11. [FV] Report the inspection results to the relevant personnel and update the maintenance log.
+
+================================================================
+ANSWER TEMPLATE
+
+41: _ | 
+42: _ | 
+43: _ | 
+44: _ | 
+45: _ | 
+46: _ | 
+47: _ | 
+48: _ | 
+

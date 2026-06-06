@@ -1,0 +1,379 @@
+BATCH 23/63 | Model: Gemini 3 Pro | Tasks 177-184
+================================================================
+EXPERT REVIEW -- Micro-Action Sequence Evaluation
+For each task, read ALL four options, then choose the BEST (A/B/C/D).
+
+Criteria:
+  1. Completeness  -- no critical steps missing
+  2. Realism       -- every step is concretely executable
+  3. Stage accuracy -- stage label correct for each step:
+     IC=Intent_Communication  NA=Navigation_Addressing
+     PD=Perception_Diagnosis  ME=Manipulation_Execution  FV=Feedback_Verification
+  4. Conciseness   -- no redundant or duplicate steps
+  5. Scope         -- starts and ends at exactly the right point
+
+OUTPUT: fill the ANSWER TEMPLATE at the bottom.
+Format: N: X | one-sentence reason (max 12 words)
+IMPORTANT: Each task has a different best answer. Do NOT pick the same
+letter for every task without reading.
+================================================================
+
+--- Task 177: Collect environmental data or samples.
+[A]
+  1. [IC] Consult the daily work plan to confirm the designated sampling location and review the research project's objectives and sampling protocol.
+  2. [NA] Navigate to the designated sampling location using GPS coordinates or other navigation tools, taking into account environmental conditions.
+  3. [ME] Set up the sampling equipment, such as a water sampler or air quality monitor, ensuring it is functioning correctly.
+  4. [ME] Collect the environmental samples or data, following the established sampling protocol and taking necessary safety precautions.
+  5. [FV] Record the collected data, including location, time, and any relevant metadata, using a data logger or field notebook.
+  6. [ME] Securely store the collected samples in a cooler or designated storage to maintain their integrity and prevent contamination.
+  7. [PD] Review the collected data for quality and accuracy, identifying any potential issues or inconsistencies.
+  8. [IC] Communicate the successful data collection to the team and proceed to the next sampling location if applicable.
+[B]
+  1. [IC] Review the research project's objectives and sampling protocol to ensure understanding of the data requirements.
+  2. [NA] Navigate the motorized boat to the designated sampling site, taking into account water currents and weather conditions.
+  3. [ME] Deploy the sampling equipment, such as a water sampler or a pH meter, and ensure it is functioning correctly.
+  4. [ME] Collect the water samples or data, following the established sampling protocol and taking necessary safety precautions.
+  5. [FV] Record the collected data, including any relevant metadata, using a data logger or a field notebook.
+  6. [FV] Store the collected samples or data in a secure and organized manner, following established protocols for sample handling and data management.
+  7. [PD] Review the collected data for quality and accuracy, identifying any potential issues or inconsistencies.
+  8. [PD] Make any necessary adjustments to the sampling protocol or equipment, based on the review of the collected data.
+  9. [IC] Document the sampling event, including any challenges or issues encountered, and store the documentation in a secure and accessible manner.
+[C]
+  1. [IC] Review the research project's objectives and sampling protocol to understand data requirements.
+  2. [NA] Navigate to the designated sampling location, considering terrain, obstacles, and safety.
+  3. [ME] Set up the sampling equipment (e.g., water sampler, air quality monitor) and ensure it's functioning correctly.
+  4. [ME] Collect the environmental sample (e.g., water, air) following the established protocol and safety precautions.
+  5. [FV] Record the collected data (e.g., measurements, GPS coordinates) and relevant metadata.
+  6. [ME] Securely store the collected samples following established protocols for handling and preservation.
+  7. [PD] Review the collected data for quality and accuracy, identifying any potential issues.
+  8. [IC] Communicate the completion of data collection and any relevant observations to the team.
+[D]
+  1. [IC] Review the research project's objectives and sampling protocol to ensure understanding of the data requirements.
+  2. [NA] Navigate to the designated sampling location, considering factors such as terrain, obstacles, and weather conditions.
+  3. [ME] Set up and deploy the sampling equipment, ensuring it is functioning correctly and following safety precautions.
+  4. [ME] Collect the samples or data, following the established sampling protocol and taking necessary safety precautions.
+  5. [FV] Record the collected data, including any relevant metadata, using a data logger, field notebook, or other approved methods.
+  6. [FV] Store the collected samples or data in a secure, organized, and appropriate manner, following established protocols for sample handling and data management.
+  7. [PD] Review the collected data for quality, accuracy, and completeness, identifying any potential issues or inconsistencies.
+  8. [PD] Make any necessary adjustments to the sampling protocol or equipment based on the review of the collected data.
+  9. [IC] Document the sampling event, including any challenges or issues encountered, and store the documentation in a secure and accessible manner.
+  10. [IC] Communicate the successful data collection to the team and proceed to the next sampling location or task.
+
+--- Task 178: Prepare chemicals for work application.
+[A]
+  1. [IC] Review the experiment protocol to understand the required chemical solution and its concentration.
+  2. [NA] Locate the required chemicals and safety equipment in the lab.
+  3. [PD] Put on appropriate personal protective equipment (PPE) following safety protocols.
+  4. [ME] Measure and dispense the calculated volumes of each chemical into a beaker using a pipette or graduated cylinder.
+  5. [ME] Mix the chemicals gently to ensure they are evenly combined.
+  6. [PD] Check the pH of the solution using a pH meter or indicator strips to ensure it matches the desired range.
+  7. [ME] If necessary, adjust the pH by adding small amounts of acid or base while monitoring the pH meter.
+  8. [FV] Label the prepared chemical solution with the date, concentration, and any other relevant information.
+  9. [FV] Store the prepared chemical solution in the appropriate location, following safety protocols for chemical storage.
+[B]
+  1. [IC] Review the experiment protocol to understand the required chemical solution and its concentration.
+  2. [NA] Locate the required chemicals and safety equipment in the lab.
+  3. [PD] Put on appropriate personal protective equipment (PPE) following safety protocols.
+  4. [ME] Calculate the required volumes of each chemical based on the desired concentration.
+  5. [ME] Measure and dispense the calculated volumes of each chemical into a beaker using a pipette or graduated cylinder.
+  6. [ME] Mix the chemicals gently to ensure they are evenly combined.
+  7. [PD] Check the pH of the solution using a pH meter or indicator strips to ensure it matches the desired range.
+  8. [ME] If necessary, adjust the pH by adding small amounts of acid or base while monitoring the pH meter.
+  9. [FV] Clean and dry the workspace and equipment used to maintain lab hygiene.
+  10. [FV] Label the prepared chemical solution with the date, concentration, and any other relevant information.
+  11. [FV] Store the prepared chemical solution in the appropriate location, following safety protocols for chemical storage.
+[C]
+  1. [IC] Review the experimental protocol or project specifications to determine the required chemicals, concentrations, and volumes.
+  2. [IC] Don appropriate personal protective equipment (PPE) such as gloves, goggles, and lab coat.
+  3. [NA] Retrieve the required chemicals and necessary equipment (e.g., beakers, graduated cylinders, pH meter) from their designated storage locations.
+  4. [PD] Verify the identity and concentration of each chemical by checking the labels.
+  5. [ME] Accurately measure the required volume of each chemical using appropriate measuring tools (e.g., pipettes, graduated cylinders).
+  6. [ME] Carefully transfer the measured chemicals into a clean and appropriately sized mixing container.
+  7. [ME] Mix the chemicals thoroughly using a suitable stirring method (e.g., magnetic stirrer, gentle swirling) to ensure homogeneity.
+  8. [FV] Verify the concentration or pH of the prepared solution using appropriate methods (e.g., pH meter, indicator strips) and adjust if necessary.
+  9. [FV] Label the prepared chemical solution with relevant information (e.g., date, concentration, contents) and store it in the appropriate location following safety protocols.
+[D]
+  1. [IC] Review the experimental protocol to understand the required chemical solution, its concentration, and volume.
+  2. [NA] Locate and retrieve the required chemicals and safety equipment in the lab.
+  3. [PD] Put on appropriate personal protective equipment (PPE) following safety protocols.
+  4. [ME] Calculate the required volumes of each chemical based on the desired concentration.
+  5. [ME] Measure and dispense the calculated volumes of each chemical into a clean container using appropriate tools (e.g., pipette, graduated cylinder).
+  6. [ME] Mix the chemicals gently to ensure they are evenly combined.
+  7. [FV] Verify the prepared chemical solution's properties (e.g., pH, color, viscosity) against the desired specifications using appropriate tools (e.g., pH meter, visual inspection).
+  8. [ME] If necessary, adjust the solution's properties by adding small amounts of appropriate chemicals while monitoring the changes.
+  9. [FV] Clean and dry the workspace and equipment used to maintain lab hygiene.
+  10. [FV] Label the prepared chemical solution with relevant information (e.g., date, concentration, chemical names).
+  11. [FV] Store the prepared chemical solution in the appropriate location, following safety protocols for chemical storage.
+
+--- Task 179: Guide patrons on tours.
+[A]
+  1. [IC] Greet patrons at the entrance, introduce yourself, and outline the tour itinerary.
+  2. [NA] Lead the group to the first exhibit, navigating through the museum's layout.
+  3. [PD] Provide context and explain the significance of the artifacts in the first exhibit.
+  4. [ME] Answer patrons' questions and engage them in discussions about the exhibit.
+  5. [NA] Guide the group to the next exhibit, ensuring all patrons can safely navigate the route.
+  6. [PD] Observe patrons' engagement and interest levels at the new exhibit.
+  7. [ME] Encourage patrons to interact with the exhibit's features, such as touchscreens or audio guides.
+  8. [FV] Check the time and adjust the tour pace to ensure all intended exhibits are visited.
+  9. [FV] Conclude the tour at the exit, thank patrons for their participation, and ask for feedback.
+[B]
+  1. [IC] Greet patrons at the entrance, introduce yourself, and ask about their interests to tailor the tour.
+  2. [NA] Lead the group to the first exhibit, navigating through the museum's layout.
+  3. [PD] Provide context and explain the significance of the artifacts in the first exhibit.
+  4. [ME] Answer patrons' questions about the first exhibit and engage them in discussions.
+  5. [NA] Guide the group to the next exhibit, ensuring all patrons can safely navigate the route.
+  6. [PD] Observe patrons' engagement and interest levels at the new exhibit.
+  7. [ME] Encourage patrons to interact with the exhibit's features, such as touchscreens or audio guides.
+  8. [FV] Check the time and adjust the tour pace to ensure all intended exhibits are visited.
+  9. [NA] Lead the group to the next exhibit, being mindful of any potential disruptions or closures.
+  10. [FV] Conclude the tour at the exit, thank patrons for their participation, and ask for feedback.
+  11. [FV] Complete any necessary paperwork or digital records based on patrons' feedback and the tour's success.
+[C]
+  1. [IC] Greet patrons, introduce yourself, and briefly outline the tour's theme and route.
+  2. [NA] Lead the group to the first exhibit, navigating through the museum space while ensuring everyone can follow.
+  3. [IC] Explain the historical context and significance of the first exhibit, engaging patrons with questions and anecdotes.
+  4. [NA] Guide the group to the next exhibit, adjusting pace based on the group's interest and energy levels.
+  5. [IC] Provide information about the second exhibit, highlighting key artifacts and encouraging interaction.
+  6. [NA] Repeat steps 4 and 5 for subsequent exhibits, tailoring the content and pace to the group's interests.
+  7. [FV] Conclude the tour at a designated point, summarizing key takeaways and thanking patrons for their participation.
+[D]
+  1. [IC] Greet patrons at the entrance, introduce yourself, and ask about their interests to tailor the tour.
+  2. [NA] Review the exhibit layout and create a mental map of the tour route to ensure efficient navigation.
+  3. [NA] Lead the group to the first exhibit, navigating through the museum's layout.
+  4. [IC] Provide context and explain the significance of the artifacts in the first exhibit.
+  5. [ME] Answer patrons' questions about the first exhibit and engage them in discussions.
+  6. [NA] Guide the group to the next exhibit, ensuring all patrons can safely navigate the route.
+  7. [PD] Observe patrons' engagement and interest levels at the new exhibit.
+  8. [ME] Encourage patrons to interact with the exhibit's features, such as touchscreens or audio guides.
+  9. [FV] Check the time and adjust the tour pace to ensure all intended exhibits are visited.
+  10. [FV] Conclude the tour at the exit, thank patrons for their participation, and ask for feedback.
+  11. [FV] Complete any necessary paperwork or digital records based on patrons' feedback and the tour's success.
+
+--- Task 180: Reshape metal workpieces to established specifications.
+[A]
+  1. [IC] Retrieve the blueprint from the workshop's digital system and review the required dimensions for the workpieces.
+  2. [NA] Locate the batch of metal workpieces in the workshop's storage area using the provided inventory list.
+  3. [PD] Inspect the workpieces for any visible defects or damages that might affect the reshaping process.
+  4. [ME] Set up the metal press brake machine according to the required dimensions for the first workpiece.
+  5. [ME] Secure the workpiece onto the press brake machine's platform using clamps to prevent it from moving during reshaping.
+  6. [ME] Activate the press brake machine to reshape the workpiece to the required dimensions.
+  7. [FV] Measure the reshaped workpiece using a caliper or digital Vernier caliper to ensure it meets the specified dimensions.
+  8. [ME] If discrepancies are detected, adjust the workpiece's position and repeat the reshaping process.
+  9. [FV] Repeat steps 4 to 8 for each workpiece in the batch until all have been reshaped to meet the specified dimensions.
+  10. [FV] Once all workpieces have been reshaped, clean up the workspace, store the reshaped workpieces, and document the completion of the task in the workshop's digital system.
+[B]
+  1. [IC] Review the blueprint to understand the required dimensions and angles for the workpiece.
+  2. [NA] Locate the batch of metal workpieces in the workshop's storage area.
+  3. [PD] Inspect the workpieces for any visible defects or damages that might affect the reshaping process.
+  4. [ME] Set up the metal press brake machine according to the required dimensions for the first workpiece.
+  5. [ME] Secure the first workpiece onto the press brake machine's platform using clamps.
+  6. [ME] Activate the press brake machine to reshape the workpiece to the required dimensions.
+  7. [FV] Measure the reshaped workpiece using a caliper or digital Vernier caliper to ensure it meets the specified dimensions.
+  8. [ME] Repeat steps 4-7 for each workpiece in the batch until all have been reshaped to meet the specified dimensions.
+  9. [FV] Once all workpieces have been reshaped, clean up the workspace, store the reshaped workpieces, and document the completion of the task in the workshop's digital system.
+[C]
+  1. [NA] Retrieve the workpiece and blueprint.
+  2. [IC] Review the blueprint to understand required dimensions and angles.
+  3. [PD] Inspect the workpiece for defects or damage.
+  4. [NA] Secure the workpiece using appropriate tools (clamps, vise).
+  5. [ME] Shape the workpiece using the appropriate tools (hammer, press, torch).
+  6. [FV] Measure the reshaped workpiece against the blueprint.
+  7. [ME] Adjust and repeat shaping as needed until specifications are met.
+  8. [FV] Document the process and final dimensions.
+[D]
+  1. [NA] Retrieve the blueprint and workpieces from the workshop storage.
+  2. [IC] Review the blueprint to understand the required dimensions and angles for the workpieces.
+  3. [PD] Inspect the workpieces for any visible defects or damages that might affect the reshaping process.
+  4. [ME] Set up the metal reshaping machine (e.g., press brake, CNC lathe) according to the required dimensions for the first workpiece.
+  5. [ME] Secure the first workpiece onto the machine's platform using clamps to prevent it from moving during reshaping.
+  6. [ME] Activate the machine to reshape the workpiece to the required dimensions.
+  7. [FV] Remove the reshaped workpiece from the machine and place it on a nearby table.
+  8. [FV] Measure the reshaped workpiece using a caliper or digital Vernier caliper to ensure it meets the specified dimensions.
+  9. [FV] Repeat steps 4 to 8 for each workpiece in the batch until all have been reshaped to meet the specified dimensions.
+  10. [FV] Once all workpieces have been reshaped, clean up the workspace, store the reshaped workpieces, and document the completion of the task.
+
+--- Task 181: Design energy-efficient equipment or systems.
+[A]
+  1. [PD] Review the building's specifications, energy requirements, and climate data to understand the current system's performance and identify areas for improvement.
+  2. [NA] Research and select energy-efficient HVAC components and technologies that can be integrated into the design.
+  3. [ME] Design the HVAC system layout, including ductwork, piping, and equipment placement, and create detailed CAD models.
+  4. [PD] Simulate the performance of the designed system using specialized software, analyzing factors like airflow, pressure drop, and energy consumption.
+  5. [ME] Refine the HVAC system design based on simulation results, iterating on the CAD model and equipment selection to achieve the desired energy efficiency and performance.
+  6. [FV] Create detailed documentation of the designed system, including specifications, installation instructions, and maintenance procedures.
+  7. [IC] Collaborate with stakeholders, including building owners, engineers, and contractors, to review and approve the final design and documentation.
+  8. [FV] Finalize the design and documentation, preparing them for implementation in the building.
+[B]
+  1. [IC] Review the building's specifications and energy requirements.
+  2. [IC] Identify the energy efficiency standards and regulations applicable to the HVAC system.
+  3. [NA] Locate and review existing building management system documentation.
+  4. [PD] Conduct a site survey to assess the physical layout and environmental conditions.
+  5. [ME] Develop a preliminary HVAC system design that meets energy efficiency standards.
+  6. [ME] Integrate the HVAC system design with the building management system.
+  7. [FV] Run simulations to test the HVAC system's performance under various conditions.
+  8. [PD] Analyze the simulation results to identify any inefficiencies or issues.
+  9. [ME] Refine the HVAC system design based on simulation feedback.
+  10. [FV] Finalize the HVAC system design and prepare documentation for client review.
+[C]
+  1. [IC] Review building specifications, energy consumption data, and relevant regulations.
+  2. [PD] Conduct a site survey to assess the physical layout, insulation, and potential energy waste areas.
+  3. [ME] Calculate the building's heating and cooling loads based on collected data and climate considerations.
+  4. [NA] Research and select energy-efficient HVAC components and systems tailored to the building's needs.
+  5. [ME] Design the HVAC system layout, including ductwork, piping, and equipment placement, optimizing for efficiency.
+  6. [FV] Model and simulate the designed HVAC system's performance, analyzing energy consumption and potential issues.
+  7. [ME] Refine the HVAC system design based on simulation feedback and energy efficiency targets.
+  8. [FV] Create detailed HVAC system drawings, specifications, and documentation for construction and client review.
+[D]
+  1. [PD] Review building specifications, architectural plans, and energy consumption data to understand the current system's performance and identify areas for improvement.
+  2. [PD] Conduct a site survey to assess the building's physical layout, insulation, air leakage, and environmental conditions.
+  3. [ME] Calculate the building's heating, cooling, and ventilation loads based on gathered data and climate information.
+  4. [NA] Research and select energy-efficient equipment and systems, considering various technologies and components.
+  5. [ME] Design the HVAC system layout, including ductwork, piping, equipment placement, and integration with the building management system.
+  6. [ME] Model and simulate the designed HVAC system's performance using specialized software to analyze energy consumption, airflow, and other relevant factors.
+  7. [ME] Iterate and refine the HVAC system design based on simulation results, energy efficiency targets, and stakeholder feedback.
+  8. [FV] Create detailed HVAC system drawings, specifications, and documentation for construction, installation, and maintenance.
+  9. [IC] Collaborate with stakeholders to review and approve the final design and documentation.
+  10. [FV] Finalize the design and documentation, preparing them for implementation in the building.
+  11. [ME] Implement the designed system in the building, ensuring it is installed and commissioned according to the documentation.
+  12. [PD] Monitor and evaluate the performance of the implemented system, collecting data on energy consumption, airflow, and other relevant metrics.
+
+--- Task 182: Monitor building premises to ensure occupant or visitor safety.
+[A]
+  1. [IC] Receive patrol route and shift instructions from the security office via handheld radio.
+  2. [PD] Begin patrol route, starting with the lobby area, visually scanning for loitering individuals, unattended bags, or signs of forced entry.
+  3. [NA] Proceed to the first floor, checking fire exits for obstructions and ensuring doors are properly secured.
+  4. [PD] Listen for any unusual sounds (e.g., breaking glass, alarms) while patrolling the hallways.
+  5. [NA] Repeat steps 3 and 4 for each floor of the building, adjusting the patrol route based on any reported incidents or security concerns.
+  6. [IC] Upon completing the patrol circuit, return to the security office and provide a verbal report on any observed incidents or concerns.
+  7. [FV] Check the CCTV monitors to ensure no unauthorized access has occurred.
+  8. [IC] Contact the control room via the two-way radio to report that all areas are secure.
+  9. [ME] Hand over the flashlight, keys, and any incident reports to the day security officer on duty.
+[B]
+  1. [IC] Receive patrol route and shift instructions from the security office via handheld radio.
+  2. [PD] Begin patrol route, starting with the lobby area, visually scanning for loitering individuals, unattended bags, or signs of forced entry.
+  3. [PD] Check security cameras in the lobby area for any unusual activity, noting timestamps and locations.
+  4. [NA] Proceed to the first floor, checking fire exits for obstructions and ensuring doors are properly secured.
+  5. [PD] Inspect all accessible areas on the ground floor, checking for any signs of intrusion or safety hazards.
+  6. [ME] Upon discovering a locked door, use the set of keys to unlock it and gain access to the restricted area.
+  7. [PD] Inspect the restricted area, ensuring it's secure and free of any safety hazards.
+  8. [FV] Upon completing the patrol of all floors, return to the main entrance and check the CCTV monitors to ensure no unauthorized access has occurred.
+  9. [IC] Contact the control room via the two-way radio to report that all areas are secure.
+  10. [IC] Upon receiving confirmation from the control room, sign out in the logbook and end the patrol shift.
+  11. [ME] Hand over the flashlight, keys, and any incident reports to the day security officer on duty.
+[C]
+  1. [IC] Review patrol route and shift instructions.
+  2. [PD] Begin patrol, visually scanning for loitering, unattended items, or signs of forced entry.
+  3. [PD] Check security cameras for unusual activity, noting timestamps and locations.
+  4. [ME] Inspect fire exits and ensure doors are properly secured.
+  5. [PD] Listen for unusual sounds (e.g., alarms, breaking glass) and investigate.
+  6. [IC] Communicate any observed incidents or concerns to the security office.
+  7. [IC] Receive updated instructions or shift handover from the security office.
+[D]
+  1. [IC] Review building floor plan, access control logs, and CCTV feeds to familiarize with the patrol route and any ongoing events or incidents.
+  2. [NA] Begin patrol route, starting from high-traffic areas and entry points, using a flashlight to illuminate dark areas.
+  3. [PD] Visually scan for suspicious individuals, loitering, unattended bags, signs of forced entry, and any unusual activity on CCTV feeds.
+  4. [ME] Check and ensure the accessibility and functionality of fire extinguishers, emergency equipment, and emergency exits.
+  5. [IC] Communicate with occupants and visitors to ensure they are aware of emergency procedures and evacuation routes.
+  6. [ME] Upon discovering a locked door, use the set of keys to unlock it and gain access to the restricted area.
+  7. [PD] Inspect restricted areas, ensuring they are secure and free of any safety hazards.
+  8. [FV] Upon completing the patrol of all floors, return to the main control room and check CCTV monitors to ensure no unauthorized access has occurred.
+  9. [IC] Contact the control room via the two-way radio to report any incidents, potential hazards, or to confirm all areas are secure.
+  10. [IC] Upon receiving confirmation from the control room, sign out in the logbook, hand over equipment, and end the patrol shift.
+
+--- Task 183: Design water conservation systems.
+[A]
+  1. [PD] Review local climate data and water usage regulations to determine the optimal design parameters.
+  2. [NA] Conduct a site survey to assess topography, existing infrastructure, and the condition of the roof and gutters.
+  3. [ME] Calculate the required storage tank size and rainwater harvest volume based on roof area and local rainfall data.
+  4. [ME] Design the rainwater harvesting system, including catchment areas, storage tanks, and piping layout.
+  5. [ME] Select appropriate materials and components, including filtration systems and pumps, considering durability and cost-effectiveness.
+  6. [FV] Create detailed drawings and specifications for the water conservation system.
+  7. [FV] Simulate the system's performance using specialized software to ensure it meets design parameters.
+  8. [IC] Review the design with stakeholders to gather feedback and make necessary revisions.
+  9. [FV] Finalize the design and deliver the documentation to the construction team.
+[B]
+  1. [IC] Review local climate data and water usage regulations.
+  2. [NA] Conduct a site survey to assess topography and existing infrastructure.
+  3. [PD] Analyze the collected data to determine the optimal design parameters.
+  4. [ME] Design the rainwater harvesting system, including catchment areas and storage tanks.
+  5. [ME] Design the greywater recycling system, including filtration and distribution components.
+  6. [FV] Create detailed drawings and specifications for the water conservation system.
+  7. [FV] Simulate the system's performance using specialized software.
+  8. [IC] Review the design with stakeholders to gather feedback.
+  9. [ME] Revise the design based on feedback and simulation results.
+  10. [FV] Finalize the design and deliver the documentation to the construction team.
+[C]
+  1. [IC] Analyze local climate data (rainfall, evapotranspiration) and water usage regulations to determine water demand and design parameters.
+  2. [NA] Conduct a site survey to assess the building's roof area, topography, and existing infrastructure.
+  3. [PD] Calculate the optimal rainwater harvesting system capacity based on roof area, runoff coefficient, and estimated water demand.
+  4. [ME] Design the rainwater harvesting system, including catchment areas, storage tank size, filtration, and pumping components.
+  5. [FV] Create detailed drawings and specifications for the system, including piping layout and installation instructions.
+  6. [IC] Present the design to stakeholders (homeowner, authorities), address questions, and incorporate feedback.
+  7. [FV] Obtain necessary permits and approvals from local authorities.
+[D]
+  1. [IC] Review local climate data, water usage regulations, and building plans to understand the context and requirements.
+  2. [NA] Conduct a site survey to assess topography, existing infrastructure, and roof condition.
+  3. [PD] Analyze collected data to determine average annual precipitation, water demand, and optimal roof collection area.
+  4. [ME] Calculate required storage tank size based on water usage patterns, rainfall intensity, and estimated harvest volume.
+  5. [ME] Select appropriate materials, filtration systems, and pumps considering durability, maintenance, and cost-effectiveness.
+  6. [ME] Design the rainwater harvesting system, including catchment areas, storage tanks, piping, and plumbing layout.
+  7. [ME] Design the greywater recycling system, including filtration and distribution components, if applicable.
+  8. [FV] Create detailed drawings, specifications, and a parts list for the water conservation system.
+  9. [FV] Simulate the system's performance using specialized software and develop a testing and commissioning plan.
+  10. [IC] Review the design with stakeholders, address feedback, and make necessary revisions to ensure optimal water conservation and system efficiency.
+  11. [IC] Present the design to the client, explaining the system's components, how it works, and its expected water savings.
+  12. [FV] Obtain final approval, submit the design to local authorities for permitting, and ensure compliance with regulations and industry standards.
+
+--- Task 184: Maintain client information or service records.
+[A]
+  1. [IC] Answer the client's call and greet the client.
+  2. [IC] Listen to the client's description of the service issue and confirm their identity.
+  3. [NA] Identify the client's account in the CRM system.
+  4. [PD] Review the client's existing service records for context.
+  5. [ME] Update the client's contact information and service issue details in the CRM system.
+  6. [ME] Assign the service issue to the appropriate support team.
+  7. [PD] Review the updated information to ensure accuracy and completeness.
+  8. [FV] Confirm the updates with the client over the phone.
+  9. [ME] Save the updated client record in the CRM system.
+  10. [FV] End the call and thank the client for their time.
+[B]
+  1. [IC] Answer the client's call and greet the client.
+  2. [IC] Listen to the client's description of the service issue.
+  3. [NA] Identify the client's account in the CRM system.
+  4. [PD] Review the client's existing service records for context.
+  5. [ME] Update the client's contact information if it has changed.
+  6. [ME] Record the service issue details in the CRM system.
+  7. [ME] Assign the service issue to the appropriate support team.
+  8. [FV] Confirm the updates with the client over the phone.
+  9. [ME] Save the updated client record in the CRM system.
+  10. [FV] End the call and thank the client for their time.
+[C]
+  1. [IC] Greet the client and confirm their identity.
+  2. [NA] Access the client's record in the CRM system.
+  3. [PD] Review the client's existing information and service history.
+  4. [ME] Update the client's information based on their request or provided details.
+  5. [FV] Confirm the updated information with the client.
+  6. [ME] Save the changes to the client's record.
+[D]
+  1. [IC] Answer the client's call and greet the client.
+  2. [IC] Listen to the client's description of the service issue or updates.
+  3. [NA] Identify the client's account in the CRM system using their unique identifier or name.
+  4. [PD] Review the client's existing service records and information for context.
+  5. [ME] Update the client's contact information and other relevant details based on the provided description.
+  6. [ME] Record the service issue details, updates, or notes in the CRM system.
+  7. [ME] Assign the service issue or update to the appropriate support team, if necessary.
+  8. [FV] Confirm the updates with the client over the phone or via email to ensure accuracy.
+  9. [ME] Save the updated client record in the CRM system.
+  10. [FV] End the call or conversation and thank the client for their time.
+
+================================================================
+ANSWER TEMPLATE
+
+177: _ | 
+178: _ | 
+179: _ | 
+180: _ | 
+181: _ | 
+182: _ | 
+183: _ | 
+184: _ | 
+

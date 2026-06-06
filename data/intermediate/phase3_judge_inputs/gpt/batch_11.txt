@@ -1,0 +1,1655 @@
+BATCH 11/13 | Model: GPT (thinking mode) | Tasks 389-426
+================================================================
+EXPERT REVIEW -- Micro-Action Sequence Evaluation
+For each task, read ALL four options, then choose the BEST (A/B/C/D).
+
+Criteria:
+  1. Completeness  -- no critical steps missing
+  2. Realism       -- every step is concretely executable
+  3. Stage accuracy -- stage label correct for each step:
+     IC=Intent_Communication  NA=Navigation_Addressing
+     PD=Perception_Diagnosis  ME=Manipulation_Execution  FV=Feedback_Verification
+  4. Conciseness   -- no redundant or duplicate steps
+  5. Scope         -- starts and ends at exactly the right point
+
+OUTPUT: fill the ANSWER TEMPLATE at the bottom.
+Format: N: X | one-sentence reason (max 12 words)
+IMPORTANT: Each task has a different best answer. Do NOT pick the same
+letter for every task without reading.
+================================================================
+
+--- Task 389: Direct financial operations.
+[A]
+  1. [IC] Review the financial closing checklist to ensure all tasks are accounted for.
+  2. [NA] Navigate the accounting software to access the general ledger and reconcile accounts.
+  3. [PD] Diagnose discrepancies in account balances and investigate the causes.
+  4. [ME] Adjust entries in the general ledger to correct identified discrepancies.
+  5. [ME] Prepare the financial statements (income statement, balance sheet, cash flow statement).
+  6. [FV] Review the financial statements for accuracy and completeness.
+  7. [IC] Communicate with the accounting team to address any issues or questions.
+  8. [FV] Deliver the financial statements to the company's executives and external auditors.
+  9. [FV] Conduct a follow-up meeting with the accounting team to review the closing process and identify areas for improvement.
+[B]
+  1. [IC] Review the financial closing checklist to ensure all tasks are accounted for.
+  2. [IC] Conduct a team meeting to assign tasks and set deadlines for the closing process.
+  3. [NA] Navigate the accounting software to access the general ledger and reconcile accounts.
+  4. [PD] Diagnose discrepancies in account balances and investigate the causes.
+  5. [ME] Adjust entries in the general ledger to correct identified discrepancies.
+  6. [ME] Prepare the financial statements (income statement, balance sheet, cash flow statement).
+  7. [FV] Review the financial statements for accuracy and completeness.
+  8. [IC] Communicate with the accounting team to address any issues or questions.
+  9. [FV] Deliver the financial statements to the company's executives and external auditors.
+  10. [FV] Conduct a follow-up meeting with the accounting team to review the closing process and identify areas for improvement.
+[C]
+  1. [IC] Review the financial closing checklist to ensure all tasks are accounted for.
+  2. [NA] Navigate the accounting software to access the general ledger and relevant financial data.
+  3. [PD] Diagnose discrepancies in account balances and investigate the causes.
+  4. [ME] Adjust entries in the general ledger to correct identified discrepancies.
+  5. [ME] Prepare the financial statements (income statement, balance sheet, cash flow statement).
+  6. [FV] Review the financial statements for accuracy and completeness.
+  7. [IC] Communicate findings and any issues to the accounting team for review and resolution.
+  8. [FV] Deliver the finalized financial statements to the company's executives and external auditors.
+[D]
+  1. [IC] Review and understand the financial closing checklist to ensure all tasks are accounted for.
+  2. [IC] Conduct a team meeting to assign tasks, set deadlines, and communicate responsibilities for the closing process.
+  3. [NA] Navigate the accounting software to access the general ledger and reconcile accounts.
+  4. [PD] Diagnose and investigate discrepancies in account balances using knowledge of accounting principles and financial regulations.
+  5. [ME] Adjust entries in the general ledger to correct identified discrepancies and ensure accurate financial records.
+  6. [ME] Prepare the financial statements (income statement, balance sheet, cash flow statement) using the adjusted general ledger.
+  7. [FV] Review the financial statements for accuracy, completeness, and compliance with financial regulations.
+  8. [IC] Communicate with the accounting team to address any issues, answer questions, and ensure understanding of the closing process.
+  9. [FV] Deliver the finalized financial statements to the company's executives and external auditors for further review and processing.
+  10. [FV] Conduct a follow-up meeting with the accounting team to review the closing process, identify areas for improvement, and plan for future closings.
+
+--- Task 390: Cut trees or logs.
+[A]
+  1. [IC] Review the trail map and identify the path to be cleared.
+  2. [NA] Put on personal protective equipment (PPE), including hard hat, safety glasses, ear protection, and steel-toed boots.
+  3. [PD] Inspect the felling area for any hazards, such as power lines, rock outcrops, or animal nests.
+  4. [PD] Select the first tree to be felled based on its species, size, and proximity to the path.
+  5. [NA] Start the chainsaw and ensure it is functioning properly.
+  6. [ME] Make the undercut (the first cut) on the side of the tree where it is intended to fall.
+  7. [ME] Make the back cut (the second cut) on the opposite side of the tree, slightly above the undercut.
+  8. [PD] Monitor the tree's movement and guide it to fall in the intended direction.
+  9. [FV] Allow the tree to fall completely and ensure it lands safely without causing damage.
+  10. [FV] Turn off the chainsaw and secure it.
+  11. [FV] Inspect the cleared path for any remaining hazards or debris and remove them if necessary.
+[B]
+  1. [PD] Inspect the marked tree for lean, surrounding obstacles, and potential hazards like dead branches.
+  2. [ME] Clear a safe working area around the base of the tree, removing brush and loose debris.
+  3. [NA] Position the chainsaw at the designated felling notch, ensuring proper stance and grip.
+  4. [ME] Engage the chainsaw and make the initial cut, following the planned notch angle.
+  5. [ME] Continue cutting through the tree trunk, applying consistent pressure and monitoring the felling direction.
+  6. [PD] Listen for the cracking sound indicating the tree is about to fall.
+  7. [NA] Move to a safe distance in the planned escape route as the tree begins to fall.
+  8. [FV] Visually confirm that the tree has fallen in the intended direction and clear of obstacles.
+  9. [ME] Buck the felled tree into manageable sections using the chainsaw.
+  10. [FV] Inspect the cleared path for any remaining hazards or debris and remove them if necessary.
+  11. [IC] Communicate with the trail crew to confirm the path has been successfully cleared and is ready for marking.
+[C]
+  1. [PD] Assess the tree's condition, surrounding environment, and potential hazards like dead branches or power lines.
+  2. [NA] Don safety equipment including helmet, gloves, eye protection, and appropriate footwear.
+  3. [ME] Clear a safe working area around the tree base, removing brush and loose debris.
+  4. [PD] Plan the felling direction, considering the tree's lean and surrounding obstacles.
+  5. [ME] Make the undercut and back cut, following proper chainsaw techniques to avoid kickback.
+  6. [PD] Monitor the tree's movement and guide it to fall in the intended direction, moving to a safe distance as it begins to fall.
+  7. [FV] Confirm the tree has fallen safely and clear of obstacles.
+  8. [FV] Turn off the chainsaw and secure it.
+[D]
+  1. [PD] Review the work area and identify the tree(s) to be cut, considering their condition, surrounding environment, and intended falling direction.
+  2. [NA] Put on safety equipment, including helmet, gloves, protective eyewear, and other necessary PPE.
+  3. [NA] Start the chainsaw and ensure it is functioning properly.
+  4. [ME] Make the undercut (first cut) on the side of the tree where it is intended to fall, at a 60-70° angle.
+  5. [ME] Make the back cut (second cut) on the opposite side of the tree, slightly above the undercut, until the tree begins to lean.
+  6. [PD] Monitor the tree's movement, guide it to fall in the intended direction, and ensure it lands safely without causing damage.
+  7. [FV] Allow the tree to fall completely, then turn off the chainsaw and secure it.
+  8. [FV] Remove safety equipment and inspect it for any damage.
+  9. [IC] Document the work completed, report any issues or observations, and communicate with the team regarding the next steps.
+  10. [FV] Inspect the work area for any remaining hazards or debris and remove them if necessary.
+
+--- Task 391: Monitor clients to evaluate treatment progress.
+[A]
+  1. [IC] Greet the client warmly, establish rapport, and review the session agenda to ensure a comfortable environment.
+  2. [PD] Review the client's previous session notes and digital records to understand their baseline performance and progress.
+  3. [PD] Engage in open-ended conversation with the client to assess their current emotional state and any changes since the last session.
+  4. [PD] Observe the client's non-verbal cues (body language, tone of voice, facial expressions) for signs of anxiety or distress.
+  5. [PD] Ask targeted questions to gather specific information about the client's progress and any challenges they have faced.
+  6. [FV] Discuss the client's progress in relation to their goals, highlighting areas of improvement and identifying persistent challenges.
+  7. [ME] Collaboratively develop strategies for addressing ongoing challenges and reinforcing positive progress, setting specific goals and objectives.
+  8. [FV] Document the session's progress, including assessment results, feedback, and the developed action plan in the client's electronic health record.
+  9. [IC] Summarize the session's key takeaways, action plan, and next steps with the client, ensuring mutual understanding.
+  10. [FV] Schedule the next session and provide the client with specific exercises or strategies to continue at home.
+[B]
+  1. [IC] Greet the client, establish rapport, and review the agenda for the session.
+  2. [IC] Actively listen to the client's self-reported experiences and challenges related to their social anxiety.
+  3. [PD] Observe the client's non-verbal cues (body language, tone of voice, facial expressions) for signs of anxiety or distress.
+  4. [IC] Ask clarifying questions to probe deeper into the client's experiences and identify specific examples of progress or setbacks.
+  5. [NA] Refer to the client's CBT treatment plan and identify specific goals or techniques that are relevant to the reported experiences.
+  6. [FV] Discuss the client's progress in relation to their goals, highlighting areas of improvement and identifying persistent challenges.
+  7. [ME] Collaboratively develop strategies for addressing ongoing challenges and reinforcing positive progress.
+  8. [IC] Summarize the key takeaways from the session and schedule the next appointment.
+  9. [FV] Document the session's progress and any changes to the treatment plan in the client's electronic health record.
+  10. [IC] Bid the client farewell, expressing your support and looking forward to the next session.
+[C]
+  1. [IC] The therapist greets the client, reviews the session agenda, and ensures a comfortable environment.
+  2. [PD] The therapist reviews the client's previous session notes and digital records to understand the baseline performance and progress.
+  3. [IC] The therapist engages in open-ended conversation with the client to assess their current emotional state and progress towards goals.
+  4. [PD] The therapist observes the client's nonverbal cues (body language, tone of voice, facial expressions) for signs of progress or challenges.
+  5. [ME] The therapist, if applicable, guides the client through specific exercises or assessments relevant to their treatment plan.
+  6. [FV] The therapist discusses the assessment results and observations with the client, providing specific feedback and highlighting areas for improvement.
+  7. [ME] The therapist collaboratively develops a plan with the client to address areas for improvement, setting specific goals and objectives.
+  8. [IC] The therapist summarizes the session's key takeaways, action plan, and next steps with the client, ensuring mutual understanding.
+  9. [FV] The therapist documents the session's progress, including assessment results, feedback, and the developed action plan in the client's records.
+[D]
+  1. [IC] Greet the client warmly, establish rapport, and review the session agenda.
+  2. [PD] Review the client's previous session notes and digital records to understand their baseline performance and progress.
+  3. [PD] Ask open-ended questions to understand the client's emotional state, any pain or discomfort, and changes since the last session.
+  4. [PD] Actively listen to the client's responses, paraphrasing and summarizing to ensure understanding and engagement.
+  5. [ME] Consult the client's treatment plan and align the current session's goals accordingly.
+  6. [NA] Lead the client to the testing area and prepare necessary equipment for the evaluation.
+  7. [PD] Observe the client performing exercises or tasks, recording range of motion, strength, and any signs of discomfort or progress.
+  8. [PD] Compare the current data with baseline data and previous session records to evaluate progress.
+  9. [IC] Discuss the findings with the client, providing specific feedback and highlighting areas for improvement.
+  10. [ME] Collaboratively develop a plan to address areas for improvement, setting specific goals and objectives.
+  11. [FV] Document the session's progress, including assessment results, feedback, and the developed action plan in the client's electronic health record.
+  12. [NA] Escort the client back to the reception area, ensuring their comfort, privacy, and expressing your support for the next session.
+
+--- Task 392: Refer customers to appropriate personnel.
+[A]
+  1. [IC] Answer the incoming call and greet the customer professionally.
+  2. [PD] Listen actively to the customer's description of their issue or inquiry, taking notes as necessary.
+  3. [IC] Ask clarifying questions to confirm the customer's issue or inquiry, if necessary.
+  4. [NA] Access the company's internal directory or CRM system to locate the appropriate department or specialist for the customer's issue.
+  5. [ME] Connect the customer to the appropriate department or specialist, either by transferring the call or providing them with the correct contact information.
+  6. [FV] Confirm with the customer that they have been connected to the appropriate department or specialist, and thank them for their patience.
+  7. [FV] Document the call details, including the customer's issue, the department or specialist they were referred to, and any follow-up actions required.
+[B]
+  1. [IC] Answer the incoming call and greet the customer professionally.
+  2. [PD] Listen actively to the customer's description of their issue or inquiry, taking notes as necessary.
+  3. [IC] Ask clarifying questions to confirm the customer's issue or inquiry, if necessary.
+  4. [NA] Access the company's internal directory or CRM system to locate the appropriate department or specialist for the customer's issue.
+  5. [ME] Connect the customer to the appropriate department or specialist, either by transferring the call or providing them with the correct contact information.
+  6. [FV] Confirm with the customer that they have been connected to the appropriate department or specialist, and thank them for their patience.
+  7. [FV] Document the call details, including the customer's issue, the department or specialist they were referred to, and any follow-up actions required.
+[C]
+  1. [IC] Greet the customer and actively listen to their issue, asking clarifying questions to ensure understanding.
+  2. [PD] Identify the appropriate department or personnel based on the customer's issue.
+  3. [NA] Access the company's directory or system to locate the contact information for the designated department or personnel.
+  4. [IC] Inform the customer about the appropriate department or personnel and provide them with the contact information.
+  5. [IC] Offer to transfer the call directly or assist with any further questions.
+  6. [FV] Confirm the customer understands the referral and feels satisfied with the assistance provided.
+[D]
+  1. [IC] Greet the customer professionally and ask them to describe their issue.
+  2. [IC] Listen actively to the customer's description, taking notes as necessary, and ask clarifying questions to ensure understanding.
+  3. [PD] Identify the specific issue and determine the appropriate department or specialist based on the customer's description.
+  4. [NA] Access the company's internal directory or CRM system to locate the appropriate department or specialist.
+  5. [IC] Inform the customer about the appropriate department or specialist and provide them with the correct contact information or initiate the transfer.
+  6. [FV] Confirm with the customer that they have been connected to the appropriate department or specialist, and thank them for their patience.
+  7. [FV] Document the call details, including the customer's issue, the department or specialist they were referred to, and any follow-up actions required.
+
+--- Task 393: Calculate numerical data for medical activities.
+[A]
+  1. [IC] Log into the secure medical database system to access patient records.
+  2. [NA] Locate the specific records for the 50 patients involved in the clinical trial.
+  3. [PD] Extract blood pressure and heart rate data for each patient over the one-week period.
+  4. [ME] Import the extracted data into a spreadsheet or statistical software for analysis.
+  5. [ME] Calculate the average blood pressure and heart rate for each patient over the week.
+  6. [ME] Aggregate the individual patient averages to calculate the overall group averages.
+  7. [PD] Review the calculated averages for any outliers or anomalies.
+  8. [FV] Prepare a report summarizing the average blood pressure and heart rate for the group.
+  9. [FV] Deliver the report to the clinical trial team for further analysis and decision-making.
+[B]
+  1. [IC] Log into the secure medical database system to access patient records.
+  2. [NA] Locate the specific records for the 50 patients involved in the clinical trial.
+  3. [PD] Extract blood pressure and heart rate data for each patient over the one-week period.
+  4. [ME] Import the extracted data into a spreadsheet or statistical software for analysis.
+  5. [ME] Calculate the average blood pressure for each patient over the week.
+  6. [ME] Calculate the average heart rate for each patient over the week.
+  7. [ME] Aggregate the individual patient averages to calculate the overall group averages.
+  8. [PD] Review the calculated averages for any outliers or anomalies.
+  9. [FV] Prepare a report summarizing the average blood pressure and heart rate for the group.
+  10. [FV] Deliver the report to the clinical trial team for further analysis and decision-making.
+[C]
+  1. [IC] Log into the secure medical database system to access patient records.
+  2. [NA] Locate and retrieve records for the 50 patients involved in the clinical trial.
+  3. [PD] Extract blood pressure and heart rate data for each patient over the one-week period.
+  4. [ME] Import the extracted data into a spreadsheet or statistical software.
+  5. [ME] Calculate the average blood pressure and heart rate for each patient over the week.
+  6. [ME] Calculate the overall group averages for blood pressure and heart rate.
+  7. [FV] Review the calculated averages for any outliers or anomalies.
+  8. [FV] Prepare a report summarizing the average blood pressure and heart rate for the group.
+[D]
+  1. [IC] Log into the secure medical database system to access patient records.
+  2. [NA] Locate and access the specific records for the 50 patients involved in the clinical trial.
+  3. [PD] Extract blood pressure and heart rate data for each patient over the one-week period.
+  4. [ME] Import the extracted data into a spreadsheet or statistical software for analysis.
+  5. [ME] Calculate the average blood pressure and heart rate for each patient over the week.
+  6. [ME] Aggregate the individual patient averages to calculate the overall group averages.
+  7. [PD] Review the calculated averages for any outliers or anomalies.
+  8. [FV] Prepare a report summarizing the average blood pressure and heart rate for the group.
+  9. [FV] Review the report for accuracy and completeness.
+  10. [FV] Deliver the report to the clinical trial team for further analysis and decision-making.
+
+--- Task 394: Route mail to correct destinations.
+[A]
+  1. [IC] Scan the mail delivery manifest to understand the total volume and any special handling instructions.
+  2. [NA] Retrieve the first mail item from the sorting table.
+  3. [PD] Read the address on the mail item to determine the destination.
+  4. [PD] Identify the correct bin for the mail item based on the destination.
+  5. [ME] Move to the identified bin and place the mail item into the correct bin.
+  6. [IC] Repeat steps 2-5 for the remaining mail items.
+  7. [PD] Check for any mail items with incomplete or incorrect addresses and set them aside for further investigation.
+  8. [NA] Once all mail items have been sorted, push the sorting bins or trays to their respective collection areas.
+  9. [FV] Check each collection area to ensure all mail items have been delivered and no items have been left behind.
+  10. [IC] Notify the mailroom supervisor that the mail delivery has been completed and is ready for pick-up by the respective departments or individuals.
+[B]
+  1. [NA] Retrieve the first mail item from the sorting table.
+  2. [PD] Read the address on the mail item to determine the destination.
+  3. [PD] Identify the correct bin for the mail item based on the destination.
+  4. [NA] Move to the identified bin.
+  5. [ME] Place the mail item into the correct bin.
+  6. [NA] Retrieve the next mail item from the sorting table.
+  7. [PD] Read the address on the next mail item to determine the destination.
+  8. [PD] Identify the correct bin for the next mail item based on the destination.
+  9. [NA] Move to the identified bin.
+  10. [ME] Place the next mail item into the correct bin.
+  11. [FV] Double-check the work to ensure all mail has been accurately sorted and routed.
+  12. [FV] Deliver the sorted and routed mail to the correct destinations.
+[C]
+  1. [NA] Retrieve the first mail item from the sorting table.
+  2. [PD] Read the address on the mail item to determine the destination.
+  3. [PD] Identify the correct bin for the mail item based on the destination.
+  4. [NA] Move to the identified bin.
+  5. [ME] Place the mail item into the correct bin.
+  6. [IC] Repeat steps 1-5 for the remaining mail items.
+[D]
+  1. [IC] Scan the mail delivery manifest to understand the total volume and any special handling instructions.
+  2. [NA] Move to the mail delivery area and start picking up mail items.
+  3. [PD] Read and interpret the address on the first mail item.
+  4. [ME] Place the mail item in the appropriate sorting bin or tray based on the destination department or individual.
+  5. [ME] Repeat steps 2-4 for the next mail item until all items have been sorted.
+  6. [PD] Check for any mail items with incomplete or incorrect addresses.
+  7. [ME] Set aside any undeliverable mail items for further investigation or special handling.
+  8. [NA] Once all mail items have been sorted, push the sorting bins or trays to their respective collection areas.
+  9. [FV] Check each collection area to ensure all mail items have been delivered and no items have been left behind.
+  10. [IC] Notify the mailroom supervisor that the mail delivery has been completed and is ready for pick-up by the respective departments or individuals.
+
+--- Task 395: Warn individuals about rule violations or safety concerns.
+[A]
+  1. [PD] Scan the surrounding area for potential rule violations or safety concerns, paying attention to crowd density, suspicious behavior, and adherence to posted rules.
+  2. [PD] Identify a specific individual or group violating rules or posing safety concerns.
+  3. [NA] Approach the individual or group in a non-confrontational manner, maintaining a safe distance.
+  4. [IC] Make eye contact and use clear, concise language to explain the rule violation or safety concern.
+  5. [IC] Request the individual or group to correct the violation or address the safety concern.
+  6. [FV] Observe the individual's or group's response and ensure they comply with the request.
+  7. [ME] Document the warning and the corresponding rule violation or potential hazard, including the date, time, location, and individuals involved.
+[B]
+  1. [PD] Scan the surrounding area for potential rule violations or safety concerns, paying attention to crowd density, suspicious behavior, and adherence to posted rules.
+  2. [PD] Identify a specific individual violating the rules or posing a safety risk.
+  3. [NA] Approach the individual in a non-confrontational manner, maintaining a safe distance.
+  4. [IC] Make eye contact with the individual and use clear, concise language to explain the rule violation.
+  5. [IC] Point to the posted signage indicating the rule or safety protocol.
+  6. [IC] Explain the potential safety hazards associated with the rule violation.
+  7. [IC] Request the individual to cease the behavior and correct the safety issue.
+  8. [FV] Observe the individual's response and ensure they comply with the request.
+  9. [FV] Document the incident, including the date, time, location, and the individual involved.
+  10. [ME] If necessary, escort the individual to a safer location or assist them in rectifying the safety issue.
+  11. [NA] Continue monitoring the area and repeating the warning process as necessary until the entire area has been inspected and all rule violations or potential hazards have been addressed.
+[C]
+  1. [PD] Scan the environment for potential rule violations or safety concerns.
+  2. [NA] Approach the individual(s) involved, maintaining a safe distance and ensuring their attention.
+  3. [IC] Clearly communicate the specific rule violation or safety concern, using concise language and potentially visual aids.
+  4. [IC] Explain the potential risks or consequences associated with the violation.
+  5. [IC] Instruct the individual(s) on the necessary corrective action.
+  6. [FV] Observe the individual(s) to ensure they understand and are taking the necessary corrective action.
+  7. [FV] Document the incident, including the date, time, location, individuals involved, and the nature of the violation.
+[D]
+  1. [PD] Scan the surrounding area for potential rule violations or safety concerns.
+  2. [NA] Approach the individual or group involved in the violation, maintaining a safe distance and a non-confrontational manner.
+  3. [IC] Make eye contact and ensure the individual's attention, then clearly communicate the rule violation and potential risks.
+  4. [IC] Use visual aids, such as pointing to signs or demonstrating unsafe actions, to reinforce the warning.
+  5. [IC] Request the individual to stop the violating action and correct the issue, if applicable.
+  6. [PD] Monitor the individual to ensure they comply with the request and correct the safety violation.
+  7. [ME] Document the warning, including date, time, location, and the individual(s) involved, for future reference.
+  8. [IC] If necessary, take further action such as contacting authorities or management, or continue patrolling the area.
+
+--- Task 396: Schedule patient procedures or appointments.
+[A]
+  1. [IC] Receive a request for an MRI appointment from a doctor or patient.
+  2. [NA] Access the hospital's scheduling system and the patient's electronic health record to check available time slots and review medical history.
+  3. [PD] Identify a suitable time slot that accommodates the patient's availability, hospital resources, and medical staff.
+  4. [ME] Enter the patient's information and appointment details into the scheduling system.
+  5. [IC] Confirm the appointment time with the patient via phone or email and receive confirmation.
+  6. [ME] Update the scheduling system with the patient's confirmation and notify the MRI department of the scheduled appointment.
+  7. [ME] Send a confirmation email to the patient with all appointment details.
+  8. [FV] Final verification that the appointment is correctly scheduled and all parties are informed.
+[B]
+  1. [IC] Receive a request for an MRI appointment from a doctor or patient.
+  2. [NA] Access the hospital's scheduling system to check available time slots.
+  3. [PD] Identify a suitable time slot that accommodates the patient's availability and the hospital's resources.
+  4. [ME] Enter the patient's information into the scheduling system.
+  5. [IC] Confirm the appointment time with the patient via phone or email.
+  6. [ME] Update the scheduling system with the patient's confirmation.
+  7. [IC] Notify the MRI department of the scheduled appointment.
+  8. [ME] Send a confirmation email to the patient with all appointment details.
+  9. [FV] Final verification that the appointment is correctly scheduled and all parties are informed.
+[C]
+  1. [IC] Receive a request for an appointment from a doctor or patient.
+  2. [NA] Access the patient's electronic health record to review their medical history and previous appointments.
+  3. [NA] Check the availability of the relevant medical staff and required resources for the requested time frame.
+  4. [IC] Present available appointment options to the patient, considering their preferences.
+  5. [FV] Confirm the chosen appointment date and time with the patient.
+  6. [ME] Enter the appointment details into the scheduling system.
+  7. [IC] Send appointment confirmation to the patient (email or printout).
+[D]
+  1. [IC] Receive a request for an appointment from a patient or healthcare provider.
+  2. [NA] Access the patient's electronic health record (EHR) to review medical history and previous appointments.
+  3. [NA] Check the availability of relevant medical staff and facilities for the requested appointment.
+  4. [IC] Present the patient with available appointment options, considering their preferences and medical needs.
+  5. [IC] Confirm the chosen appointment date, time, and details with the patient.
+  6. [ME] Enter the appointment details into the scheduling system, updating the patient's EHR and clinic's master schedule.
+  7. [FV] Send a confirmation of the scheduled appointment to the patient and relevant medical staff via their preferred method.
+  8. [FV] Review the day's scheduled appointments to ensure all patients have been accommodated and no conflicts remain.
+
+--- Task 397: Assign class work to students.
+[A]
+  1. [IC] The teacher reviews the lesson plan and curriculum to determine the appropriate homework assignment.
+  2. [NA] The teacher logs into the Learning Management System (LMS) using their credentials.
+  3. [NA] The teacher navigates to the specific class section and selects the 'Assignments' or 'Homework' section.
+  4. [ME] The teacher creates a new assignment entry and inputs the assignment details, including the title, description, and due date.
+  5. [ME] The teacher uploads relevant resources and ensures the assignment details are accurate and complete.
+  6. [FV] The teacher reviews the assignment details for accuracy and completeness.
+  7. [ME] The teacher publishes the assignment, making it visible to all students in the class.
+[B]
+  1. [IC] Review the lesson plan and curriculum to determine the appropriate homework assignment.
+  2. [IC] Log into the LMS using teacher credentials.
+  3. [NA] Navigate to the class section for the math class.
+  4. [NA] Select the 'Assignments' or 'Homework' section within the class.
+  5. [PD] Create a new assignment by clicking the 'Create Assignment' button.
+  6. [ME] Input the assignment details, including the title, description, and due date.
+  7. [ME] Upload the homework document or links to the relevant resources.
+  8. [FV] Review the assignment details to ensure accuracy and completeness.
+  9. [FV] Click the 'Publish' or 'Assign' button to distribute the homework to the students.
+  10. [FV] Log out of the LMS to complete the assignment process.
+[C]
+  1. [IC] The teacher determines the appropriate homework assignment based on the lesson plan and curriculum.
+  2. [NA] The teacher logs into the Learning Management System (LMS).
+  3. [NA] The teacher navigates to the specific class section and selects the 'Assignments' section.
+  4. [ME] The teacher creates a new assignment entry and inputs the title, description, due date, and any relevant resources.
+  5. [FV] The teacher reviews the assignment details for accuracy and completeness.
+  6. [ME] The teacher publishes the assignment, making it visible to all students.
+[D]
+  1. [IC] Review lesson plan and curriculum to determine appropriate homework assignment.
+  2. [NA] Log into the Learning Management System (LMS) using teacher credentials.
+  3. [NA] Navigate to the specific class section for the subject.
+  4. [ME] Create a new assignment entry within the chosen class section.
+  5. [IC] Input the title, detailed instructions, word count, due date, and attach relevant resources for the assignment.
+  6. [FV] Review the assignment details for accuracy and completeness.
+  7. [ME] Publish the assignment, making it visible to all students in the class.
+  8. [IC] Wait for the class to settle down and gain their attention.
+  9. [IC] Clearly state the purpose of the class and the upcoming assignment, answering any student questions.
+
+--- Task 398: Convert data among multiple digital or analog formats.
+[A]
+  1. [PD] Open the CSV file in a text editor to understand the structure of the data.
+  2. [ME] Write a script in Python to convert the CSV data to JSON format using the pandas library.
+  3. [ME] Run the script to convert the CSV data to JSON format and save the output as a JSON file.
+  4. [FV] Open the JSON file in a text editor to verify the correctness of the conversion.
+  5. [NA] Install the necessary drivers and libraries to connect to the SQL database.
+  6. [ME] Write a script in Python to connect to the SQL database and upload the JSON data.
+  7. [FV] Run the script to upload the JSON data to the SQL database and verify the successful upload.
+[B]
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+[C]
+  1. [IC] Identify the source data format (analog, digital, physical) and the target format.
+  2. [NA] Connect and configure the necessary hardware or software for data acquisition or processing.
+  3. [PD] Acquire or load the data from the source.
+  4. [ME] Apply the appropriate conversion algorithm or method based on the identified formats.
+  5. [ME] Store the converted data in the desired target format.
+  6. [FV] Verify the accuracy and completeness of the converted data.
+[D]
+  1. [IC] Identify the source and target data formats.
+  2. [NA] Access the data source (e.g., open a CSV file, connect to an analog sensor).
+  3. [PD] Review and understand the data structure and format.
+  4. [ME] Convert the data from the source format to an intermediate digital format (e.g., CSV to JSON, analog to digital).
+  5. [ME] Store the intermediate digital data in a temporary buffer or file.
+  6. [NA] Connect to the target data storage or system (e.g., cloud-based database, SQL database).
+  7. [ME] Convert the intermediate digital data into the target format (e.g., JSON to CSV, digital to analog).
+  8. [ME] Upload or deliver the converted data to the target system or client's reporting system.
+  9. [FV] Verify the accuracy and completeness of the converted data in the target system.
+
+--- Task 399: Develop treatment plans for patients or clients.
+[A]
+  1. [PD] Review the patient's medical records, including surgical reports, pre-operative assessments, and any relevant history.
+  2. [PD] Conduct a physical examination of the patient's knee, assessing range of motion, strength, and any pain or limitations.
+  3. [IC] Discuss the patient's goals, concerns, and lifestyle factors that may influence the rehabilitation process.
+  4. [PD] Research and consult clinical guidelines and best practices for post-surgical knee rehabilitation.
+  5. [ME] Draft an initial treatment plan that includes exercises, stretches, and physical therapy sessions, tailored to the patient's specific needs.
+  6. [FV] Review the draft treatment plan with a senior physical therapist or medical professional for feedback.
+  7. [ME] Refine the treatment plan based on feedback and additional patient information.
+  8. [IC] Explain the treatment plan to the patient, including the rationale behind each component and expected outcomes.
+  9. [FV] Document the treatment plan in the patient's medical records and ensure all relevant parties (e.g., surgeons, nurses) are informed.
+  10. [NA] Schedule the first physical therapy session and provide the patient with a list of exercises to do at home.
+[B]
+  1. [PD] Review the patient's medical records and surgical notes to understand the extent of the knee surgery and any complications.
+  2. [PD] Conduct a physical examination of the patient's knee to assess range of motion, strength, and pain levels.
+  3. [IC] Discuss the patient's goals and expectations for rehabilitation with them.
+  4. [PD] Research and consult clinical guidelines and best practices for post-surgical knee rehabilitation.
+  5. [ME] Draft an initial treatment plan that includes exercises, stretches, and physical therapy sessions.
+  6. [FV] Review the draft treatment plan with a senior physical therapist or medical professional for feedback.
+  7. [ME] Refine the treatment plan based on feedback and additional patient information.
+  8. [NA] Schedule the first physical therapy session and provide the patient with a list of exercises to do at home.
+  9. [IC] Explain the treatment plan to the patient, including the rationale behind each component and expected outcomes.
+  10. [FV] Document the treatment plan in the patient's medical records and ensure all relevant parties (e.g., surgeons, nurses) are informed.
+[C]
+  1. [PD] Review the patient's medical records, surgical notes, and relevant history to understand the extent of the condition and any potential complications.
+  2. [PD] Conduct a physical examination to assess range of motion, strength, pain levels, and any other relevant physical indicators.
+  3. [IC] Discuss the patient's goals, expectations, lifestyle, and concerns regarding their rehabilitation.
+  4. [ME] Based on the patient's condition, goals, and physical capabilities, select appropriate exercises and treatment modalities.
+  5. [ME] Demonstrate each exercise to the patient, providing clear instructions on proper form, technique, and safety precautions.
+  6. [ME] Create a written treatment plan document outlining the selected exercises, frequency, duration, expected milestones, and any home exercise programs.
+  7. [IC] Review the treatment plan with the patient, answering any questions and ensuring they understand the plan and their role in the rehabilitation process.
+  8. [NA] Schedule follow-up appointments to monitor progress, adjust the treatment plan as needed, and provide ongoing support and motivation.
+[D]
+  1. [PD] Review the patient's medical records, including surgical reports, pre-operative assessments, and current living situation to understand their needs, circumstances, and medical history.
+  2. [PD] Conduct a physical examination, if applicable, to assess range of motion, strength, pain levels, and any limitations or symptoms.
+  3. [IC] Ask open-ended questions to understand the patient's goals, priorities, concerns, and any aggravating or alleviating factors, and identify their expectations for rehabilitation or treatment.
+  4. [PD] Research and consult clinical guidelines, best practices, and evidence-based treatment options relevant to the patient's specific needs and circumstances.
+  5. [ME] Develop a preliminary treatment plan that addresses the patient's specific needs, includes a clear timeline, and incorporates appropriate exercises, stretches, therapies, and medications.
+  6. [FV] Review the preliminary treatment plan with a senior professional or relevant parties for feedback, and refine the plan based on their input and additional patient information.
+  7. [FV] Document the final treatment plan in the patient's electronic health record (EHR), including medications, therapies, follow-up appointments, and any lifestyle changes recommended.
+  8. [IC] Review the treatment plan with the patient, explaining each component, answering questions, and ensuring they understand their role in the rehabilitation or treatment process.
+  9. [FV] Obtain the patient's approval and signature on the treatment plan, and schedule any necessary follow-up appointments or referrals.
+  10. [FV] Monitor the patient's progress, make adjustments to the treatment plan as needed, and evaluate its effectiveness to recommend future improvements.
+
+--- Task 400: Monitor patients to detect health problems.
+[A]
+  1. [IC] Review the patient's medical records and current treatment plan to familiarize oneself with the patient's medical history, medications, and previous health issues.
+  2. [NA] Navigate to the patient's room and introduce oneself, asking about their comfort and any concerns.
+  3. [PD] Measure and record the patient's vital signs, including blood pressure, heart rate, respiratory rate, temperature, and oxygen saturation.
+  4. [PD] Compare the current vital signs with previous readings and baseline values, looking for trends or significant changes.
+  5. [PD] Observe the patient's behavior and physical condition for any signs of distress or discomfort, and assess their pain level.
+  6. [FV] Document the patient's vital signs, behavior, and physical condition in the electronic health record (EHR).
+  7. [IC] Alert the physician or other healthcare professionals to any potential health problems or concerns identified.
+  8. [ME] Collaborate with the healthcare team to develop a plan for further evaluation and treatment of the patient's potential health problem.
+  9. [PD] Monitor the patient's response to the treatment plan and make any necessary adjustments.
+  10. [FV] Document the patient's response to the treatment plan and any necessary adjustments in the EHR.
+[B]
+  1. [IC] Review the patient's medical records and current treatment plan.
+  2. [NA] Navigate to the first patient's room and check the patient's vital signs using a monitor.
+  3. [PD] Observe the patient's vital signs on the monitor and compare them to the patient's baseline values.
+  4. [ME] Check the patient's oxygen saturation levels using a pulse oximeter.
+  5. [FV] Record the patient's vital signs and observations in the electronic health record (EHR).
+  6. [PD] Review the recorded data and compare it to the patients' baseline values and medical records.
+  7. [FV] Identify a potential health issue in one of the patients and alert the attending physician.
+  8. [FV] Document the alert and any subsequent actions taken in the EHR.
+  9. [PD] Monitor the patient's response to the plan and make any necessary adjustments.
+  10. [ME] Collaborate with the healthcare team to develop a plan for further evaluation and treatment of the patient's potential health problem.
+  11. [ME] Implement the plan for further evaluation and treatment of the patient's potential health problem.
+  12. [FV] Perform a final check on all patients before the end of the shift, ensuring their comfort and safety, and documenting any changes in their conditions.
+[C]
+  1. [IC] Review the patient's medical records and current treatment plan.
+  2. [NA] Proceed to the patient's bedside and introduce yourself.
+  3. [PD] Measure and record the patient's vital signs (blood pressure, heart rate, respiratory rate, temperature, oxygen saturation).
+  4. [PD] Observe the patient for any signs of distress, discomfort, or changes in behavior.
+  5. [PD] Compare current vital signs and observations to the patient's baseline values and medical history.
+  6. [FV] Document all findings and interventions in the patient's electronic health record.
+  7. [IC] Communicate any concerns or significant changes to the attending physician or relevant healthcare team members.
+[D]
+  1. [IC] Review patients' medical records, current treatment plans, and vital signs trends.
+  2. [NA] Navigate to the first patient's room and introduce yourself.
+  3. [PD] Measure and record the patient's vital signs (blood pressure, heart rate, respiratory rate, temperature, oxygen saturation).
+  4. [PD] Compare current vital signs with previous readings, looking for trends or significant changes.
+  5. [PD] Assess the patient's level of consciousness, neurological status, and inspect for signs of distress.
+  6. [ME] Document the patient's condition and any interventions performed in the EHR system.
+  7. [ME] Prioritize patients based on acuity levels and allocate time accordingly.
+  8. [FV] Communicate patients' conditions and any concerns to the interdisciplinary healthcare team.
+  9. [NA] Repeat steps 2-8 for all assigned patients.
+  10. [FV] Perform a final check on all patients before the end of the shift, ensuring their comfort and safety.
+
+--- Task 401: Trim client hair.
+[A]
+  1. [IC] Greet the client, discuss desired trim length and style, and confirm understanding.
+  2. [NA] Position the client in the chair, ensuring their comfort and proper posture for the trim.
+  3. [PD] Comb through the client's hair to assess its texture, thickness, and current length.
+  4. [NA] Section the hair into manageable parts using clips or combs.
+  5. [ME] Begin trimming, using the comb to lift sections of hair and scissors to precisely cut to the desired length.
+  6. [FV] Periodically check the symmetry and length of the haircut, making adjustments as needed.
+  7. [FV] Use a handheld mirror to show the client the back of their haircut.
+  8. [NA] Clean up the workstation, removing excess hair and preparing for the next client.
+[B]
+  1. [IC] Greet the client, understand their desired trim length and style, and confirm the boundaries of the task.
+  2. [NA] Position the client in the chair, ensuring their comfort and proper posture for the trim.
+  3. [PD] Detect and mark the desired starting point for the trim using a comb and marker.
+  4. [ME] Use scissors to trim hair to the desired length, following the marked points and maintaining a consistent angle.
+  5. [PD] Use a comb to check for any uneven lengths or missed spots, and adjust trimming as needed.
+  6. [ME] Use a blow dryer to remove excess hair from the client's shoulders and neck.
+  7. [FV] Show the client the trimmed hair in the mirror, ensuring they are satisfied with the result.
+  8. [FV] Clean up the workstation, removing excess hair and preparing for the next client.
+[C]
+  1. [IC] Greet the client, discuss desired trim length and style, and confirm understanding.
+  2. [NA] Position the client in the chair, ensuring their comfort and proper posture.
+  3. [PD] Visually inspect the client's hair to assess its texture, thickness, and current length.
+  4. [NA] Section the client's hair using a comb to isolate the areas to be trimmed.
+  5. [ME] Trim the hair in sections, using scissors to cut to the desired length, checking for symmetry and evenness regularly.
+  6. [FV] Show the client the trimmed hair in a mirror, asking for feedback and making any necessary adjustments.
+  7. [ME] Style the client's hair as desired, using appropriate techniques and products.
+  8. [NA] Clean up the workstation, removing excess hair and preparing for the next client.
+[D]
+  1. [IC] Greet the client, discuss desired trim length and style, and confirm understanding and boundaries.
+  2. [NA] Position the client in the chair, ensuring their comfort and proper posture for the trim.
+  3. [PD] Comb through the client's hair to assess its texture, thickness, and current length, and detect the desired starting point for the trim.
+  4. [ME] Select appropriate tools based on hair type, desired trim, and client's comfort (e.g., scissors, comb, clippers).
+  5. [ME] Begin trimming, using the comb to lift sections of hair and selected tools to precisely cut to the desired length and style.
+  6. [FV] Periodically check the symmetry, length, and style of the haircut, making adjustments as needed using a comb and mirror.
+  7. [FV] Use a blow dryer to remove excess hair from the client's shoulders and neck, and present the final result to the client in the mirror.
+  8. [NA] Clean up the workstation, removing excess hair and preparing for the next client.
+  9. [IC] Review the client's feedback, make any necessary adjustments, and discuss future appointments or styling tips.
+
+--- Task 402: Research energy production, use, or conservation.
+[A]
+  1. [IC] Review the project brief and confirm the scope and objectives with the project manager.
+  2. [NA] Access and understand the relevant energy consumption data from the utility provider's portal or other data sources.
+  3. [PD] Collect and analyze data on energy usage to identify trends, patterns, and areas for improvement.
+  4. [ME] Research and evaluate potential energy-saving technologies and best practices applicable to the identified areas for improvement.
+  5. [ME] Estimate the potential energy savings and financial viability of the recommended measures.
+  6. [FV] Compile the findings and recommendations into a comprehensive report.
+  7. [IC] Present the report to stakeholders and address any questions or concerns.
+  8. [IC] Follow up with stakeholders to discuss the next steps for implementing the recommended measures.
+[B]
+  1. [IC] Review the project brief and confirm the scope and objectives with the project manager.
+  2. [NA] Access the city's publicly available GIS data portal to download a shapefile of building footprints in the target neighborhood.
+  3. [PD] Use GIS software to filter the building data, selecting only structures with suitable roof characteristics (e.g., flat or gently sloped roofs).
+  4. [NA] Access historical solar irradiance data for the neighborhood from a meteorological database.
+  5. [ME] Calculate the estimated annual solar energy production for each eligible building roof using a solar irradiance model.
+  6. [NA] Research local electricity tariffs and incentives for solar panel installations.
+  7. [ME] Analyze the financial viability of rooftop solar installations in the neighborhood, considering factors like energy production, electricity costs, and incentives.
+  8. [FV] Compile the findings into a concise report outlining the potential energy generation capacity and financial viability of rooftop solar installations in the neighborhood.
+  9. [IC] Present the report to the university's sustainability team, outlining specific recommendations for reducing the building's energy consumption.
+  10. [FV] Deliver the final report to the project manager and ensure all stakeholders have access to the findings.
+[C]
+  1. [IC] Define the scope and objectives of the energy research project, clarifying the specific focus area (e.g., production, use, or conservation).
+  2. [NA] Gather relevant data sources based on the chosen focus. This could include historical energy consumption data, building plans, solar irradiance data, or energy technology specifications.
+  3. [PD] Analyze the collected data to identify patterns, trends, inefficiencies, or potential areas for improvement.
+  4. [ME] Research and evaluate potential energy solutions or conservation strategies relevant to the identified areas for improvement.
+  5. [ME] Estimate the potential impact (e.g., energy savings, cost reductions, environmental benefits) of the proposed solutions.
+  6. [FV] Prepare a comprehensive report summarizing the findings, analysis, proposed solutions, and their estimated impact.
+  7. [IC] Present the findings and recommendations to relevant stakeholders (e.g., project team, decision-makers).
+[D]
+  1. [IC] Review project brief and communicate scope and objectives with stakeholders.
+  2. [PD] Access and understand historical energy data, building characteristics, and relevant documentation.
+  3. [NA] Collect additional data through on-site observations, measurements, or GIS analysis.
+  4. [PD] Analyze collected data to identify trends, patterns, and areas for improvement.
+  5. [ME] Research and evaluate energy-saving technologies, best practices, and financial incentives.
+  6. [ME] Estimate potential energy savings, costs, and benefits for identified measures.
+  7. [FV] Prioritize energy-saving measures based on impact, feasibility, and payback period.
+  8. [FV] Prepare a comprehensive report outlining findings, recommendations, and next steps.
+  9. [IC] Present the report to stakeholders, answer questions, and discuss implementation.
+  10. [NA] Update relevant systems and databases with new data and recommended measures.
+
+--- Task 403: Develop detailed project plans.
+[A]
+  1. [IC] Conduct a kickoff meeting with stakeholders to gather initial requirements and expectations.
+  2. [NA] Break down the project into smaller tasks and sub-tasks, defining clear deliverables and milestones.
+  3. [PD] Estimate the time and resources required for each task, considering dependencies and potential risks.
+  4. [ME] Create a detailed project schedule using tools like Gantt charts, including milestones and dependencies.
+  5. [ME] Allocate resources (team members, materials, equipment) to each task, ensuring a balanced workload.
+  6. [IC] Develop a communication plan to ensure stakeholders are informed and engaged throughout the project.
+  7. [FV] Review the project plan with the team and stakeholders to ensure understanding and gather feedback.
+  8. [FV] Finalize the project plan document, incorporating all feedback and approvals.
+  9. [FV] Distribute the finalized project plan to all stakeholders and obtain their approval.
+[B]
+  1. [IC] Schedule a kick-off meeting with all team members and stakeholders to gather initial requirements and expectations.
+  2. [IC] Review project requirements and scope statement to understand the project's objectives, deliverables, and timelines.
+  3. [IC] Break down the project into smaller tasks and sub-tasks.
+  4. [PD] Estimate the time required for each task and sub-task.
+  5. [PD] Identify dependencies between tasks and sub-tasks.
+  6. [ME] Allocate resources (team members) to each task.
+  7. [ME] Create a Gantt chart to visualize the project timeline and dependencies.
+  8. [FV] Review the project plan with the team to ensure everyone understands their roles and responsibilities.
+  9. [FV] Finalize the project plan and document it in a project management tool.
+  10. [FV] Distribute the finalized project plan to all stakeholders and gather feedback.
+  11. [IC] Obtain approval from stakeholders, including the client, architects, engineers, and contractors, for the project plan.
+  12. [ME] Update the project plan based on feedback and approval from stakeholders.
+[C]
+  1. [IC] Conduct a kickoff meeting with stakeholders to understand project requirements, expectations, and scope.
+  2. [NA] Break down the project into smaller, manageable tasks and sub-tasks, defining clear deliverables and milestones.
+  3. [PD] Estimate the time and resources required for each task, considering dependencies and potential risks.
+  4. [ME] Assign tasks to specific team members based on their skills and availability, ensuring a balanced workload.
+  5. [ME] Create a visual representation of the project plan, such as a Gantt chart, outlining task dependencies, durations, and milestones.
+  6. [FV] Review the project plan with stakeholders, seeking feedback and incorporating necessary revisions.
+  7. [FV] Finalize the project plan document, ensuring all details are accurate and complete.
+[D]
+  1. [IC] Conduct a kickoff meeting with stakeholders to understand their requirements, expectations, and project objectives.
+  2. [PD] Review project requirements, scope statement, and any relevant regulations to understand the project's context.
+  3. [NA] Break down the project into smaller, manageable tasks and sub-tasks, defining clear deliverables and milestones for each.
+  4. [ME] Estimate the time, resources, and costs required for each task, considering potential complexities and dependencies.
+  5. [PD] Identify potential risks, challenges, and dependencies between tasks, developing contingency plans as needed.
+  6. [ME] Establish a realistic project schedule using tools like Gantt charts, considering dependencies, milestones, and resource availability.
+  7. [ME] Allocate resources (e.g., personnel, equipment, materials) to each task, ensuring a balanced workload distribution.
+  8. [NA] Plan the sequence and timing of heavy machinery movements, deliveries, or other logistical aspects to minimize disruption.
+  9. [IC] Coordinate with team members, subcontractors, or other stakeholders to ensure their work aligns with the project plan.
+  10. [ME] Prepare a detailed project budget, including contingencies, based on the estimated resources and costs.
+  11. [IC] Create a communication plan to keep stakeholders informed throughout the project, including regular progress updates and feedback mechanisms.
+  12. [FV] Prepare a final project plan document, incorporating all the above elements, and present it to stakeholders for approval.
+
+--- Task 404: Weigh materials to ensure compliance with specifications.
+[A]
+  1. [IC] Consult the order list to identify the first material type to be weighed.
+  2. [NA] Locate the correct scale in the warehouse that is suitable for the identified material type.
+  3. [ME] Safely move the identified material to the scale using appropriate equipment.
+  4. [PD] Calibrate the scale to ensure it is functioning correctly.
+  5. [ME] Place the material onto the scale and record its weight.
+  6. [PD] Compare the recorded weight with the specified weight for this material type.
+  7. [FV] If the weight is within the acceptable tolerance, mark the material as verified and move it to the loading area. If not, adjust the material or request a replacement.
+  8. [FV] Document the weight measurement and compliance status in the production log.
+  9. [IC] Repeat steps 1-8 for the next material type in the order.
+  10. [FV] Once all materials have been weighed and verified, double-check the loading area to ensure all materials are present and accounted for.
+[B]
+  1. [NA] Retrieve the batch of raw materials from the inventory.
+  2. [IC] Access the digital work instructions for the specific batch.
+  3. [ME] Calibrate the digital scale to ensure accuracy.
+  4. [ME] Place the raw materials on the scale, ensuring they are centered and stable.
+  5. [PD] Record the initial weight reading from the scale.
+  6. [PD] Compare the recorded weight with the specified weight requirements.
+  7. [ME] Adjust the weight if necessary by adding or removing materials.
+  8. [PD] Re-record the weight after any adjustments.
+  9. [FV] Document the final weight and any adjustments made in the batch record.
+  10. [FV] Confirm the batch is ready for the next stage of production.
+[C]
+  1. [NA] Retrieve the batch of materials to be weighed.
+  2. [IC] Access the digital work instructions for the specific batch to confirm weight specifications.
+  3. [ME] Calibrate the digital scale to ensure accuracy.
+  4. [ME] Place each material on the scale, ensuring it is centered and stable.
+  5. [PD] Record the weight reading from the scale.
+  6. [PD] Compare the recorded weight with the specified weight requirements.
+  7. [ME] Adjust the weight if necessary by adding or removing materials.
+  8. [FV] Re-record the weight after any adjustments and document the final weight and any adjustments made.
+[D]
+  1. [IC] Consult the production guidelines or order list to identify the first material type to be weighed.
+  2. [NA] Locate the appropriate scale in the warehouse that is suitable for the identified material type.
+  3. [ME] Safely move the identified material to the scale using appropriate equipment (e.g., forklift, hand truck).
+  4. [PD] Turn on the scale and ensure it is calibrated and functioning correctly.
+  5. [ME] Place the material onto the scale and record its weight.
+  6. [PD] Compare the recorded weight with the specified weight for this material type.
+  7. [FV] If the weight is within the acceptable tolerance, mark the material as verified and move it to the next stage. If not, adjust the material or request a replacement.
+  8. [IC] Repeat steps 2-7 for the next material type in the order.
+  9. [FV] Once all materials have been weighed and verified, double-check the next stage area to ensure all materials are present and accounted for.
+  10. [IC] Notify the supervisor or relevant personnel that the materials are ready for the next stage of production or delivery.
+
+--- Task 405: Package materials for transport.
+[A]
+  1. [IC] Retrieve the packing list from the warehouse management system and print it out.
+  2. [NA] Locate the designated storage area for the electronic components using the warehouse layout map.
+  3. [PD] Carefully pick up each electronic component from its designated slot, ensuring it's the correct one based on the packing list.
+  4. [ME] Place each component into an anti-static bag to prevent electrostatic discharge.
+  5. [ME] Place the bagged components into a custom foam insert in the shipping box to secure them during transit.
+  6. [ME] Seal the shipping box using packaging tape, ensuring all flaps are securely closed.
+  7. [FV] Label the shipping box with the correct shipping information, including the recipient's address and tracking number.
+  8. [NA] Place the shipping box onto a conveyor belt leading to the courier's pick-up area.
+  9. [FV] Double-check the packing list to ensure all items have been packed and accounted for.
+  10. [IC] Notify the warehouse management system that the shipment is ready for pick-up, completing the task.
+[B]
+  1. [NA] Retrieve the anti-static packaging materials from the designated storage area.
+  2. [ME] Lay out the anti-static bags on the work surface.
+  3. [NA] Retrieve the 20 small boxes of electronic components from the storage area.
+  4. [ME] Place each box of components into an anti-static bag.
+  5. [ME] Seal each anti-static bag securely.
+  6. [NA] Retrieve the packing slip and return address label from the office.
+  7. [ME] Place the sealed anti-static bags into a larger shipping box.
+  8. [ME] Attach the packing slip and return address label to the shipping box.
+  9. [ME] Seal the shipping box with tape.
+  10. [NA] Deliver the sealed shipping box to the loading dock for transport.
+[C]
+  1. [IC] Retrieve the packing list from the warehouse management system and print it out.
+  2. [NA] Locate the designated storage area for the electronic components using the warehouse layout map.
+  3. [PD] Carefully pick up each electronic component from its designated slot, verifying it matches the packing list.
+  4. [ME] Place each component into an anti-static bag.
+  5. [ME] Place the bagged components into a shipping box with custom foam inserts for secure positioning.
+  6. [ME] Seal the shipping box securely with packaging tape.
+  7. [ME] Attach the shipping label with the correct recipient address and tracking number.
+  8. [FV] Double-check the packing list to ensure all items have been packed and accounted for.
+  9. [NA] Place the sealed shipping box in the designated pick-up area for courier collection.
+[D]
+  1. [IC] Retrieve the packing list from the warehouse management system and print it out.
+  2. [NA] Locate the designated storage area for the materials using the warehouse layout map.
+  3. [PD] Verify the presence and condition of all materials based on the packing list.
+  4. [NA] Gather appropriate packaging materials such as boxes, foam inserts, and tape.
+  5. [ME] Begin packaging the materials, ensuring each item is properly secured and protected during transport.
+  6. [FV] Verify that the shipment is properly packaged and meets the delivery requirements.
+  7. [ME] Affix the delivery label to the shipment, ensuring it is securely attached and easily readable.
+  8. [NA] Place the shipping box onto a conveyor belt leading to the courier's pick-up area.
+  9. [FV] Double-check the packing list to ensure all items have been packed and accounted for.
+  10. [IC] Notify the warehouse management system that the shipment is ready for pick-up, completing the task.
+
+--- Task 406: Practice athletic or artistic skills.
+[A]
+  1. [PD] Review notes and video recordings from previous rehearsals to refresh memory on the skill or piece.
+  2. [ME] Warm up with appropriate stretches and exercises to prepare the body for the physical demands of the skill.
+  3. [NA] Position oneself in the optimal posture or stance for the skill, ensuring proper alignment and form.
+  4. [ME] Begin practicing the skill, focusing on specific sections or technical aspects.
+  5. [PD] Listen critically to or observe the performance, identifying any mistakes or areas for improvement.
+  6. [ME] Repeat the section with corrections, focusing on specific technical aspects.
+  7. [ME] Practice the entire skill or piece, focusing on overall expression and dynamics.
+  8. [FV] Take a break to rehydrate and recharge energy levels before continuing practice.
+  9. [FV] Receive feedback from a coach or peer on the performance and technique.
+  10. [ME] Make adjustments to the technique based on the feedback received and continue practicing.
+  11. [IC] Visualize the skill being executed perfectly to build confidence and focus.
+  12. [FV] Cool down with gentle stretches to prevent injury and reflect on the practice session.
+[B]
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+[C]
+  1. [IC] Review the chosen skill's requirements, techniques, or score/choreography.
+  2. [NA] Prepare the necessary equipment or environment for practice.
+  3. [ME] Warm up the relevant muscle groups to prevent injury.
+  4. [ME] Practice the skill in segments, focusing on technique and precision.
+  5. [FV] Self-assess performance, identifying areas for improvement.
+  6. [ME] Repeat practice, incorporating feedback and focusing on identified weaknesses.
+  7. [ME] Practice the skill in its entirety, aiming for fluidity and expression.
+  8. [FV] Record or mentally review the full performance for further analysis.
+[D]
+  1. [IC] Review and understand the skill or piece to be practiced.
+  2. [NA] Prepare the necessary equipment and set up the practice space.
+  3. [ME] Warm up and prepare the body for the physical demands of the skill.
+  4. [PD] Begin practicing the skill, focusing on the initial sections or movements.
+  5. [ME] Practice the skill with corrections, focusing on specific technical aspects.
+  6. [ME] Practice the skill in its entirety, focusing on overall expression, dynamics, and flow.
+  7. [FV] Take a short break to rehydrate, recharge, and assess progress.
+  8. [ME] Practice the skill in a more dynamic or challenging environment, if applicable.
+  9. [FV] Seek and incorporate feedback from coaches, peers, or self-evaluation.
+  10. [IC] Visualize successful execution of the skill in a performance or competitive setting.
+  11. [FV] Cool down and stretch to prevent injury and promote recovery.
+
+--- Task 407: Maintain the order of legal documents.
+[A]
+  1. [NA] Retrieve the list of legal documents that need to be organized from the filing cabinet.
+  2. [IC] Review the list of documents and understand the specific order required for each type of document.
+  3. [PD] Sort the documents based on their type and the required order.
+  4. [ME] Label each document with the appropriate identifier and order number.
+  5. [ME] Place the documents in the filing cabinet in the correct order.
+  6. [FV] Check the order of the documents in the filing cabinet to ensure they are correctly placed.
+  7. [ME] Update the digital record of the document order in the law firm's database.
+  8. [FV] Review the digital record to ensure it matches the physical order of the documents.
+  9. [IC] Notify the supervising attorney that the documents have been organized and are ready for use.
+[B]
+  1. [NA] Retrieve the list of legal documents that need to be organized from the filing cabinet.
+  2. [IC] Review the list of documents and understand the specific order required for each type of document.
+  3. [PD] Sort the documents based on their type and the required order.
+  4. [ME] Label each document with the appropriate identifier and order number.
+  5. [ME] Place the documents in the filing cabinet in the correct order.
+  6. [FV] Check the order of the documents in the filing cabinet to ensure they are correctly placed.
+  7. [ME] Update the digital record of the document order in the law firm's database.
+  8. [FV] Review the digital record to ensure it matches the physical order of the documents.
+  9. [IC] Notify the supervising attorney that the documents have been organized and are ready for use.
+  10. [FV] Document the process and any changes made to the document order in the firm's log.
+[C]
+  1. [NA] Retrieve the list of legal documents that need to be organized.
+  2. [IC] Review the list and understand the specific order required for each type of document.
+  3. [PD] Sort the documents based on their type and the required order.
+  4. [ME] Place the documents in the designated storage location (filing cabinet, binder, etc.) in the correct order.
+  5. [ME] Update the digital record of the document order in the firm's database.
+  6. [FV] Verify the order of both the physical documents and the digital record to ensure they match.
+[D]
+  1. [NA] Retrieve the list of legal documents that need to be organized from the filing cabinet.
+  2. [IC] Review the list of documents and understand the specific order required for each type of document.
+  3. [PD] Sort the documents based on their type and the required order.
+  4. [ME] Label each document with the appropriate identifier and order number.
+  5. [ME] Place the documents in the filing cabinet in the correct order.
+  6. [FV] Check the order of the documents in the filing cabinet to ensure they are correctly placed.
+  7. [ME] Update the digital record of the document order in the law firm's database.
+  8. [FV] Review the digital record to ensure it matches the physical order of the documents.
+  9. [IC] Notify the supervising attorney that the documents have been organized and are ready for use.
+  10. [FV] Document the process and any changes made to the document order in the firm's log.
+
+--- Task 408: Collaborate with others in marketing activities.
+[A]
+  1. [IC] Review the project brief and understand the product launch objectives, target audience, and key messaging.
+  2. [NA] Identify and invite key stakeholders (e.g., product managers, designers, content creators, event planners) to the initial brainstorming session.
+  3. [PD] Facilitate the brainstorming session, encouraging active participation and capturing ideas on a shared digital board.
+  4. [ME] Synthesize the brainstormed ideas into a coherent event concept, outlining key activities and milestones.
+  5. [ME] Create a shared project management board, breaking down tasks, setting deadlines, and assigning responsibilities.
+  6. [FV] Communicate the event concept and project plan to the stakeholders, seeking their feedback and approval.
+  7. [ME] Iterate on the event concept and project plan based on stakeholder feedback, incorporating changes and resetting deadlines as needed.
+  8. [NA] Coordinate with the event planning team to secure necessary resources (e.g., venue, AV equipment, catering) and manage logistics.
+  9. [ME] Work with content creators to develop marketing materials (e.g., invitations, social media posts, press releases) aligned with the event concept.
+  10. [FV] Conduct dry-runs and rehearsals, troubleshooting any issues and ensuring all teams are prepared for the event.
+  11. [FV] Finalize the event plan, ensuring all stakeholders are aligned and ready for the product launch event.
+[B]
+  1. [IC] The marketing manager calls the meeting to order and outlines the objectives of the launch event.
+  2. [IC] The team leader sends a group chat to discuss the campaign's objectives, timeline, and responsibilities.
+  3. [IC] The marketing specialist reviews the new dress line's target audience, key features, and brand messaging.
+  4. [NA] The team leader schedules posts for maximum visibility, considering the target audience's preferences and time zones.
+  5. [ME] The graphic designer creates initial mockups of social media posts based on the agreed-upon concepts.
+  6. [NA] The team creates a timeline for the marketing activities leading up to the launch event.
+  7. [FV] The team finalizes the plan and agrees on the next steps and follow-up actions.
+  8. [FV] The team reviews and approves the final content, making any necessary adjustments.
+  9. [FV] The team launches the social media campaign, and the team leader monitors its performance in real-time.
+  10. [FV] The team reviews the campaign's final results, discussing what worked well and what didn't.
+  11. [FV] The team leader documents the campaign's success and lessons learned, sharing them with the team and stakeholders.
+[C]
+  1. [IC] The marketing team leader defines the campaign objectives, target audience, and key messages.
+  2. [PD] The team brainstorms and collaboratively develops creative concepts and strategies.
+  3. [ME] Individual team members (designer, content creator, etc.) execute their assigned tasks (creating visuals, writing copy, etc.).
+  4. [FV] The team reviews and provides feedback on the developed materials, refining them iteratively.
+  5. [NA] The team leader finalizes the campaign plan, assigns responsibilities, and establishes a timeline.
+  6. [FV] The team launches the campaign and monitors its performance, making adjustments as needed.
+  7. [FV] The team evaluates the campaign's results, identifying successes and areas for improvement.
+[D]
+  1. [IC] Review and understand the project brief, including objectives, target audience, and key messaging.
+  2. [NA] Identify and invite key stakeholders to the initial brainstorming session.
+  3. [PD] Facilitate the brainstorming session, encouraging active participation and capturing ideas.
+  4. [ME] Synthesize brainstormed ideas into a coherent event concept or marketing plan.
+  5. [ME] Create a shared project management board, breaking down tasks, setting deadlines, and assigning responsibilities.
+  6. [FV] Communicate the event concept or marketing plan to stakeholders, seeking their feedback and approval.
+  7. [ME] Iterate on the event concept or marketing plan based on stakeholder feedback, incorporating changes and resetting deadlines as needed.
+  8. [NA] Coordinate with relevant teams to secure necessary resources and manage logistics.
+  9. [ME] Work with content creators to develop marketing materials aligned with the event concept or marketing plan.
+  10. [FV] Conduct dry-runs, rehearsals, or tests, troubleshooting any issues and ensuring all teams are prepared.
+  11. [FV] Finalize the event plan or marketing campaign, ensuring all stakeholders are aligned and ready for launch.
+
+--- Task 409: Package food or supplies.
+[A]
+  1. [IC] Review the shipment manifest to ensure all necessary items are accounted for and understand the packaging requirements.
+  2. [NA] Retrieve a standard cardboard box from the storage area and gather the canned goods and bottled water from the shelving units.
+  3. [ME] Place the canned goods and bottled water into the box, ensuring they are arranged to minimize movement, and wrap fragile items with bubble wrap.
+  4. [ME] Fill any empty spaces in the box with packing peanuts or additional bubble wrap to prevent movement.
+  5. [ME] Seal the box with packing tape, ensuring all edges are securely closed, and label the box with the destination address and any necessary handling instructions.
+  6. [NA] Place the box on the designated shipping pallet and record the packaging details in the warehouse management system.
+  7. [FV] Verify the packaged items against the shipment manifest to ensure accuracy and completeness.
+  8. [FV] Confirm that the box is ready for shipment and notify the shipping department.
+[B]
+  1. [IC] Review the shipment manifest to ensure all necessary items are accounted for and understand the packaging requirements.
+  2. [NA] Select and portion out the non-perishable food items according to the packaging specifications.
+  3. [NA] Prepare the packaging materials, including boxes, labels, and any necessary inserts.
+  4. [ME] Carefully place the portioned items into the prepared packaging materials.
+  5. [ME] Seal and label the packaged items according to the packaging specifications.
+  6. [FV] Verify the packaged items against the shipment manifest to ensure accuracy and completeness.
+  7. [NA] Prepare the packaged items for transport, including any necessary documentation or handling instructions.
+  8. [NA] Store the packaged items in a designated area for pickup or transport.
+  9. [IC] Document the packaging process and any issues or challenges encountered.
+[C]
+  1. [IC] Review the shipment manifest to understand required items, quantities, and packaging specifications.
+  2. [NA] Gather all necessary items and packaging materials based on the manifest.
+  3. [PD] Inspect each item for damage or spoilage, discarding any unsuitable items.
+  4. [ME] Carefully place items into appropriate packaging, considering fragility and weight distribution.
+  5. [ME] Securely seal the packaging, using appropriate methods like tape, heat sealing, or closures.
+  6. [ME] Label each package with destination address, handling instructions, and any other required information.
+  7. [FV] Verify packaged items against the manifest to ensure completeness and accuracy.
+  8. [NA] Place completed packages in the designated shipping area, organized for efficient loading.
+  9. [FV] Record packaging details in the warehouse management system, noting any exceptions or issues.
+[D]
+  1. [IC] Review the shipment manifest to understand the required items, their quantities, and packaging specifications.
+  2. [NA] Gather the required packaging materials, including boxes, bags, containers, labels, and any necessary inserts or protective materials like bubble wrap or packing peanuts.
+  3. [NA] Locate and retrieve the food or supply items from their respective storage areas, ensuring they are in good condition.
+  4. [PD] Inspect the food or supply items for any signs of spoilage, damage, or contamination before packaging.
+  5. [ME] Select the appropriate packaging material for each item based on its size, weight, fragility, and perishability.
+  6. [ME] Carefully place each item into the selected packaging material, ensuring it is secure and won't shift during transit.
+  7. [ME] Seal the packaging material tightly to maintain the required conditions (e.g., airtight, waterproof, or cold chain) and prevent contamination or leakage.
+  8. [ME] Label each package with the destination address, any necessary handling instructions, and relevant tracking information.
+  9. [NA] Place the packaged items in the designated shipping or delivery area, maintaining the required conditions (e.g., refrigerated) if applicable.
+  10. [FV] Verify the packaged items against the shipment manifest to ensure accuracy, completeness, and that all packaging requirements have been met.
+  11. [IC] Document the packaging process, any issues encountered, and the final status of the packaged items for record-keeping and future reference.
+
+--- Task 410: Analyze energy usage data.
+[A]
+  1. [NA] Access the energy usage data through the building's energy management system or a web-based interface.
+  2. [NA] Import the data into a data analysis software tool (e.g., Excel, Python).
+  3. [PD] Clean the data by handling missing values, outliers, and data types to ensure accuracy.
+  4. [PD] Visualize the data using charts and graphs to identify patterns and trends.
+  5. [PD] Apply statistical methods to quantify the identified patterns and trends.
+  6. [ME] Identify inefficiencies or anomalies in the energy usage patterns and potential areas for improvement.
+  7. [ME] Prepare a report summarizing the findings, including trends, inefficiencies, and recommendations for energy-saving strategies.
+  8. [FV] Present the report to the building management team and discuss the potential energy-saving opportunities.
+  9. [FV] Follow up with the building management team to ensure that the recommendations are implemented and monitor the energy efficiency improvements.
+[B]
+  1. [NA] Access the energy usage data for analysis.
+  2. [NA] Import the data into a data analysis software.
+  3. [PD] Clean and preprocess the data to ensure accurate analysis.
+  4. [PD] Apply data visualization techniques to identify patterns and trends.
+  5. [PD] Use statistical analysis techniques to identify relationships between energy usage and other factors.
+  6. [ME] Identify areas for energy efficiency improvements based on the analysis.
+  7. [ME] Create a report summarizing the findings and recommendations.
+  8. [FV] Present the report to the relevant stakeholders and discuss the potential energy-saving opportunities.
+[C]
+  1. [NA] Access the building's energy management system and retrieve the raw energy usage data for the desired period.
+  2. [ME] Import the retrieved data into a suitable data analysis software (e.g., Excel, Python).
+  3. [PD] Clean the data by addressing missing values, outliers, and inconsistencies.
+  4. [PD] Analyze the data to identify trends, patterns, and anomalies in energy consumption.
+  5. [ME] Visualize the analyzed data using charts and graphs to effectively communicate findings.
+  6. [ME] Based on the analysis, identify potential areas for energy efficiency improvements.
+  7. [FV] Prepare a comprehensive report summarizing the analysis, findings, and recommendations.
+  8. [FV] Present the report to the relevant stakeholders and address any questions or concerns.
+[D]
+  1. [NA] Access the energy usage data through the relevant interface or database.
+  2. [ME] Import the data into a data analysis software (e.g., Excel, Python with Pandas, Tableau).
+  3. [PD] Clean and preprocess the data by handling missing values, outliers, and data types.
+  4. [PD] Organize the data by time intervals (e.g., hourly, daily, weekly) and apply data visualization techniques to identify patterns and trends.
+  5. [PD] Use statistical analysis techniques to identify relationships between energy usage and other factors (e.g., time of day, weather, customer segments).
+  6. [ME] Identify areas for energy efficiency improvements based on the analysis of the energy usage data.
+  7. [IC] Research energy-saving strategies specific to the identified areas or customer segments.
+  8. [ME] Estimate the potential energy savings, associated costs, and implementation timelines for each identified opportunity.
+  9. [ME] Prepare a report summarizing the findings, recommendations, and potential energy savings for each opportunity.
+  10. [FV] Present the report to the relevant stakeholders (e.g., building owner, management team, plant manager) and address any questions or concerns.
+  11. [FV] Follow up with the stakeholders to ensure that the recommendations are implemented and track the achieved energy efficiency improvements.
+
+--- Task 411: Remove products or workpieces from production equipment.
+[A]
+  1. [IC] Receive a signal from the production equipment indicating that the production cycle is complete.
+  2. [NA] Move the robotic arm to the designated starting position above the production equipment.
+  3. [ME] Extend the robotic arm's gripper to the appropriate size to fit around the part.
+  4. [ME] Lower the gripper onto the part, applying gentle pressure to secure it.
+  5. [ME] Lift the part vertically, ensuring it clears the production equipment.
+  6. [NA] Navigate the robotic arm to the designated area for part placement, such as a conveyor belt or storage area.
+  7. [ME] Place the part in the designated area, ensuring it is securely positioned.
+  8. [FV] Verify that the part is securely in place using the robotic arm's computer vision system.
+  9. [PD] Check if there are any remaining parts in the production equipment.
+  10. [FV] Repeat steps 2 to 9 until all parts are removed.
+  11. [IC] Send a signal to the production equipment to indicate that all parts have been removed, allowing it to proceed with the next production cycle.
+[B]
+  1. [IC] Approach the CNC milling machine and ensure the machine is powered off and the safety guards are in place.
+  2. [NA] Open the machine's safety door and access the workholding fixture.
+  3. [PD] Locate the workholding fixture and identify the parts that need to be removed.
+  4. [ME] Release the clamps or fixturing devices holding the parts in place.
+  5. [ME] Gently lift the parts from the workholding fixture, ensuring they are not damaged.
+  6. [ME] Place the parts on a designated tray or container to transport them to the next stage of production.
+  7. [PD] Inspect the removed parts for any visible defects or damage.
+  8. [ME] Clean the workholding fixture to prepare it for the next batch of parts.
+  9. [ME] Close the machine's safety door and secure the area.
+  10. [FV] Deliver the parts to the designated area for further processing or quality control.
+[C]
+  1. [IC] Approach the CNC milling machine and ensure it is powered off and safety guards are in place.
+  2. [NA] Open the machine's safety door and access the workholding fixture.
+  3. [PD] Locate the parts needing removal within the fixture.
+  4. [ME] Release the clamps or fixturing devices holding the parts.
+  5. [ME] Carefully lift the parts from the fixture and place them on a designated tray.
+  6. [PD] Visually inspect the removed parts for any defects or damage.
+[D]
+  1. [IC] Receive a signal from the production equipment indicating that the production cycle is complete.
+  2. [NA] Move to the designated starting position above the production equipment.
+  3. [PD] Use computer vision or sensors to identify the parts that need to be removed.
+  4. [ME] Extend the gripper or appropriate tool to the required size to fit around the part.
+  5. [PD] Lower the gripper or tool onto the part, applying gentle pressure to secure it.
+  6. [ME] Lift the part vertically, ensuring it clears the production equipment.
+  7. [NA] Navigate to the designated removal area (e.g., conveyor belt, storage area, or tray).
+  8. [ME] Lower the part onto the removal area, ensuring it's securely placed.
+  9. [NA] Retract the gripper or tool and move back to the starting position.
+  10. [PD] Check if there are any remaining parts in the production equipment.
+  11. [FV] If there are remaining parts, repeat steps 4 to 10 until all parts are removed.
+  12. [IC] Send a signal to the production equipment to indicate that all parts have been removed, allowing it to proceed with the next production cycle.
+
+--- Task 412: Monitor organizational processes.
+[A]
+  1. [IC] Log into the organizational performance metrics dashboard.
+  2. [NA] Navigate to the relevant section of the dashboard to review key performance indicators.
+  3. [PD] Review and analyze the performance metrics, identifying trends and anomalies.
+  4. [ME] Use tools to visualize and further analyze the data, identifying potential areas for improvement.
+  5. [ME] Generate a report summarizing the findings and recommended actions.
+  6. [FV] Deliver the report to relevant stakeholders and discuss any necessary actions.
+[B]
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+[C]
+  1. [IC] Log into the relevant organizational process monitoring software.
+  2. [NA] Navigate to the dashboard displaying key performance indicators (KPIs) for the target process.
+  3. [PD] Review KPIs, identifying any deviations from expected performance levels or trends.
+  4. [NA] Drill down into specific areas of concern, accessing detailed reports and data logs.
+  5. [PD] Analyze the data to determine the root cause of any performance issues.
+  6. [ME] Document findings and recommendations for improvement in a report.
+  7. [IC] Share the report with relevant stakeholders, facilitating discussion and action planning.
+[D]
+  1. [IC] Log into the relevant software platform (e.g., inventory management, HR, or performance metrics dashboard) using appropriate credentials and multi-factor authentication.
+  2. [NA] Navigate to the relevant dashboard or section within the software platform that displays the key performance indicators (KPIs) or metrics for the process being monitored.
+  3. [PD] Review and analyze the displayed KPIs or metrics to identify trends, anomalies, or areas of concern.
+  4. [ME] If necessary, use additional tools (e.g., spreadsheets, mapping tools, or decision support systems) to further analyze the data and gain deeper insights.
+  5. [PD] If applicable, physically verify the data by comparing it with real-world conditions (e.g., counting inventory items or inspecting production samples).
+  6. [ME] Update the digital records or systems with any discrepancies found during the data verification process.
+  7. [FV] Identify at least two actionable insights or areas for process improvement based on the analysis and data review.
+  8. [FV] Create a clear plan for implementing the identified changes, including specific actions and timelines for completion.
+  9. [ME] Generate a report summarizing the findings, analysis, and recommended actions.
+  10. [IC] Share the report with the relevant stakeholders through appropriate communication channels (e.g., internal messaging systems, emails, or presentations).
+  11. [IC] Log out of the software platform and secure the system by following proper procedures.
+
+--- Task 413: Package agricultural products for shipment or further processing.
+[A]
+  1. [IC] Receive the order details and apple variety from the foreman.
+  2. [NA] Move to the packaging station and retrieve an empty box.
+  3. [ME] Place the specified number of apples into the box, ensuring they are neatly arranged to maximize space and minimize damage.
+  4. [ME] Seal the box using tape or a sealing machine to ensure it is securely closed.
+  5. [IC] Label the box with the necessary information, including the contents and weight.
+  6. [NA] Place the sealed and labeled box on the pallet for shipment.
+  7. [FV] Verify that the box contains the correct number of apples and that the label information matches the contents.
+  8. [FV] Once the pallet is full, confirm the packaging is complete and ready for shipment.
+[B]
+  1. [NA] Approach the conveyor belt with empty boxes and packaging materials.
+  2. [NA] Retrieve an empty box from the storage area and place it on the packaging station.
+  3. [ME] Count and place the specified number of apples into the box.
+  4. [ME] Arrange the apples neatly in the box to maximize space and minimize damage.
+  5. [ME] Seal the box using tape or a sealing machine.
+  6. [ME] Retrieve a label from the label printer and affix it to the box.
+  7. [FV] Verify the label information matches the contents of the box.
+  8. [NA] Place the sealed and labeled box on the pallet for shipment.
+  9. [PD] Weigh the apples using the scale to determine if they have reached the target weight of 20 kilograms.
+  10. [IC] Label the box with the necessary information, including the contents and weight.
+  11. [FV] Verify that the pallet contains the correct number of boxes, each containing exactly 20 kilograms of apples.
+  12. [FV] Once the pallet is full, confirm the packaging is complete and ready for shipment.
+[C]
+  1. [NA] Retrieve an empty box and place it on the packaging station.
+  2. [ME] Count and place the specified quantity of produce into the box.
+  3. [ME] Arrange the produce neatly in the box to maximize space and minimize damage.
+  4. [ME] Seal the box using tape or a sealing machine.
+  5. [IC] Affix the pre-printed label with barcode and product information to the box.
+  6. [FV] Visually inspect the sealed and labeled box to ensure it meets quality standards.
+  7. [NA] Place the sealed and labeled box on the designated pallet for shipment.
+[D]
+  1. [IC] Receive order details, including product type and quantity.
+  2. [NA] Navigate to the designated harvesting or storage area.
+  3. [PD] Perform quality control: inspect products for ripeness, damage, and size consistency.
+  4. [ME] Gather the specified quantity of products.
+  5. [PD] Weigh the gathered products to ensure the target quantity is met.
+  6. [ME] Pack the weighed products into a box, ensuring they are securely packed and evenly distributed.
+  7. [ME] Seal the box using tape or a sealing machine, ensuring it is secure and airtight.
+  8. [IC] Label the box with necessary information, including product type, quantity, and any other relevant details.
+  9. [NA] Place the sealed and labeled box on a pallet, ensuring it is stable and secure.
+  10. [FV] Verify that the pallet is ready for shipment, including all necessary documentation and labeling.
+  11. [NA] Navigate the pallet to the loading area for transportation, avoiding any obstacles.
+
+--- Task 414: Submit financial applications.
+[A]
+  1. [IC] Log into the bank's online portal using the analyst's credentials.
+  2. [NA] Navigate to the loan application section within the portal.
+  3. [PD] Review the required fields and documents for the loan application.
+  4. [NA] Gather all necessary documents, such as business financial statements, tax returns, and business plan.
+  5. [ME] Enter the business and financial details into the application fields.
+  6. [ME] Upload the gathered documents to the corresponding sections in the application.
+  7. [PD] Review the application for any missing or incorrect information.
+  8. [ME] Submit the application by clicking the 'Submit' button.
+  9. [FV] Verify the submission by checking for a confirmation message or email from the bank.
+  10. [FV] Record the submission details, such as the submission date and confirmation number, for future reference.
+[B]
+  1. [IC] Log into the bank's online portal using the analyst's credentials.
+  2. [NA] Navigate to the loan application section within the portal.
+  3. [PD] Review the required fields and documents for the loan application.
+  4. [NA] Gather all necessary documents, such as business financial statements, tax returns, and business plan.
+  5. [ME] Enter the business and financial details into the application fields.
+  6. [ME] Upload the gathered documents to the corresponding sections in the application.
+  7. [PD] Review the application for any missing or incorrect information.
+  8. [ME] Submit the application by clicking the 'Submit' button.
+  9. [FV] Verify the submission by checking for a confirmation message or email from the bank.
+  10. [FV] Record the submission details, such as the submission date and confirmation number, for future reference.
+[C]
+  1. [IC] Log into the bank's online loan application portal using the analyst's credentials.
+  2. [NA] Navigate to the loan application section within the portal.
+  3. [PD] Review the required documents and fields for the loan application.
+  4. [NA] Gather all necessary documents (business financials, tax returns, business plan).
+  5. [ME] Enter the business and financial details into the application fields.
+  6. [ME] Upload the gathered documents to the corresponding sections in the application.
+  7. [PD] Review the application for completeness and accuracy.
+  8. [ME] Submit the application electronically.
+  9. [FV] Verify submission by checking for a confirmation message or email.
+[D]
+  1. [IC] Log into the bank's online portal using the analyst's credentials.
+  2. [NA] Navigate to the loan application section within the portal.
+  3. [PD] Review the required fields and documents for the loan application.
+  4. [NA] Gather all necessary documents, such as business financial statements, tax returns, and business plan.
+  5. [ME] Enter the business and financial details into the application fields.
+  6. [ME] Upload the gathered documents to the corresponding sections in the application.
+  7. [PD] Review the application for any missing or incorrect information.
+  8. [ME] Submit the application by clicking the 'Submit' button.
+  9. [FV] Verify the submission by checking for a confirmation message or email from the bank.
+  10. [FV] Record the submission details, such as the submission date and confirmation number, for future reference.
+
+--- Task 415: Lay cables to connect equipment.
+[A]
+  1. [IC] Review the office floor plan and network diagram to understand the cable layout and equipment locations.
+  2. [NA] Retrieve the necessary cables and tools from the storage area.
+  3. [PD] Plan the cable route, considering the raised floor and pre-drilled holes.
+  4. [ME] Lay the cable from the server rack to the nearest pre-drilled hole, then through the pre-drilled holes in the raised floor.
+  5. [ME] Lay the cable from the last pre-drilled hole to the workstation and secure it using cable ties.
+  6. [ME] Connect the cable to the server and workstation ports, ensuring correct connections.
+  7. [FV] Test the network connections to ensure they are stable and functioning correctly.
+  8. [FV] Document the cable layout and network connections for future reference and maintenance.
+[B]
+  1. [NA] Review the office floor plan and network diagram to understand the cable layout and equipment locations.
+  2. [NA] Gather the necessary cables and equipment from the storage room, ensuring the correct types and quantities are obtained.
+  3. [ME] Locate the router and switch, ensuring they are properly secured and powered on.
+  4. [PD] Plan the cable route, considering the raised floor and pre-drilled holes.
+  5. [ME] Lay the cable from the server rack to the nearest pre-drilled hole.
+  6. [ME] Route the cable through the pre-drilled holes in the raised floor.
+  7. [ME] Connect the cable to the server and workstation ports.
+  8. [FV] Verify the connection by testing the network connectivity between the server and workstation.
+[C]
+  1. [NA] Identify the starting point (server rack) and endpoint (workstation) for the cable connection.
+  2. [PD] Plan the cable route, considering the raised floor, pre-drilled holes, and any obstacles.
+  3. [NA] Retrieve the necessary cables and tools from the storage area.
+  4. [ME] Lay the cable from the server rack to the nearest pre-drilled hole, following the planned route.
+  5. [ME] Route the cable through the pre-drilled holes in the raised floor.
+  6. [ME] Lay the cable from the last pre-drilled hole to the workstation.
+  7. [ME] Connect the cable to the server and workstation ports.
+  8. [FV] Verify the connection by testing the network connectivity between the server and workstation.
+[D]
+  1. [IC] Review the floor plan, network diagram, and equipment specifications to understand the cable layout, equipment locations, and required cable types.
+  2. [NA] Gather necessary cables, tools, and equipment from the storage area, ensuring the correct types and quantities are obtained.
+  3. [NA] Navigate through the workspace to the starting point, avoiding obstacles and ensuring a safe working environment.
+  4. [PD] Identify the starting point, endpoint, and plan the cable route, considering any obstacles, pre-drilled holes, or cable pathways.
+  5. [ME] Lay the cable from the starting point to the nearest pre-drilled hole or cable pathway, securing it as needed.
+  6. [ME] Route the cable through pre-drilled holes, cable pathways, or along walls, ceilings, ensuring it is secure and well-organized.
+  7. [ME] Lay the cable from the last cable pathway or pre-drilled hole to the endpoint, securing it as needed.
+  8. [ME] Connect the cable to the equipment ports at both the starting point and endpoint, ensuring the correct ports and cable types.
+  9. [FV] Test the network connections by verifying connectivity between the connected equipment.
+  10. [IC] Document the cable layout, network connections, and any troubleshooting steps taken for future reference and maintenance.
+
+--- Task 416: Type documents.
+[A]
+  1. [NA] Open the word processing software on the computer.
+  2. [IC] Retrieve the initial draft of the document to be typed.
+  3. [PD] Read and understand the content of the document section by section.
+  4. [ME] Type the content into the word processing software, ensuring accuracy and correct formatting.
+  5. [FV] Review the typed content for any errors or inconsistencies.
+  6. [ME] Repeat steps 3-5 for each section of the document.
+  7. [FV] Save the document with a clear and descriptive file name.
+[B]
+  1. [IC] Retrieve the initial draft of the contract document from the attorney.
+  2. [NA] Open the word processing software on the computer.
+  3. [PD] Read the first section of the contract and understand the legal jargon.
+  4. [ME] Type the first section of the contract, ensuring accuracy and correct formatting.
+  5. [FV] Review the typed section for any errors or inconsistencies.
+  6. [ME] Repeat steps 3-5 for the second section of the contract.
+  7. [FV] Save the document with a clear and descriptive file name.
+  8. [FV] Print the document for the attorney's review.
+  9. [FV] Deliver the printed document to the attorney.
+[C]
+  1. [IC] Retrieve the document to be typed.
+  2. [NA] Open the word processing software.
+  3. [PD] Review the document, understanding its content and structure.
+  4. [ME] Type the document content accurately, applying appropriate formatting.
+  5. [FV] Proofread the typed document for errors and inconsistencies.
+  6. [FV] Save the document with a descriptive file name.
+[D]
+  1. [IC] Retrieve the document to be typed from the designated source.
+  2. [NA] Open the word processing software on the computer.
+  3. [PD] Read and understand the content of the first section of the document.
+  4. [ME] Type the content of the first section, ensuring accuracy and correct formatting.
+  5. [FV] Review the typed section for any errors or inconsistencies.
+  6. [ME] Repeat steps 3-5 for the remaining sections of the document.
+  7. [FV] Save the document with a clear and descriptive file name.
+
+--- Task 417: Calculate costs of goods or services.
+[A]
+  1. [IC] Review the client order to understand the quantity and type of goods or services required.
+  2. [NA] Access the company's inventory management system to retrieve the cost of raw materials and component data.
+  3. [ME] Calculate the total material cost by multiplying the quantity required by the current price of each component.
+  4. [ME] Estimate the labor cost based on the time required for production and the hourly wage rates.
+  5. [ME] Calculate the overhead cost by applying the overhead cost allocation rate to the total production cost (excluding overhead).
+  6. [ME] Sum the material cost, labor cost, and overhead cost to determine the total cost of production.
+  7. [FV] Review the calculated costs for any errors or inconsistencies.
+  8. [FV] Document the calculation and results, including any assumptions or methodologies used, in a clear and concise manner.
+  9. [FV] Send the total cost to the relevant stakeholders for inclusion in the client quotation or internal reporting.
+[B]
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+[C]
+  1. [IC] Identify the specific goods or services for which cost calculation is required.
+  2. [NA] Access relevant databases or systems containing cost data for raw materials, labor, and overhead.
+  3. [PD] Retrieve the unit cost of each component (materials, labor, overhead) based on current pricing and production data.
+  4. [ME] Calculate the total cost by multiplying the unit cost of each component by its required quantity and summing the results.
+  5. [FV] Review the calculated cost for reasonableness and identify any potential discrepancies or errors.
+  6. [FV] Document the cost breakdown and total cost in a clear and organized manner, suitable for reporting or further analysis.
+[D]
+  1. [IC] Understand the scope of the calculation by reviewing the order or production plan.
+  2. [NA] Access relevant databases or physical records to gather cost data for each component or service.
+  3. [PD] Check current inventory levels or production rates to determine the quantity of each component or service required.
+  4. [ME] Calculate the cost of each component or service based on its current price and the required quantity.
+  5. [ME] Sum the costs of all components or services to calculate the total material or service cost.
+  6. [ME] Calculate the labor cost based on the time required and the applicable labor rate.
+  7. [ME] Add the material or service cost and labor cost together to calculate the total production cost.
+  8. [PD] Check for and include any additional costs such as overhead, taxes, or shipping in the total cost.
+  9. [FV] Round the total cost to the nearest currency unit and format it for presentation or reporting.
+  10. [FV] Review the calculation for errors or inconsistencies and verify its accuracy.
+  11. [FV] Document the calculation, including assumptions and methodologies used, in a clear and concise manner.
+  12. [IC] Communicate the calculated cost to relevant stakeholders, such as the sales team, management, or accounting department.
+
+--- Task 418: Interpret cultural or religious information for others.
+[A]
+  1. [IC] Review the cultural and religious norms specific to the region and consult with experts to validate understanding.
+  2. [IC] Prepare a detailed presentation on cultural and religious practices, including customs, holidays, and etiquette.
+  3. [NA] Set up the presentation environment, including visual aids and handouts.
+  4. [IC] Begin the presentation by introducing the cultural and religious context of the region.
+  5. [PD] Explain customs, etiquette, and the significance of religious holidays, using visual aids and examples.
+  6. [FV] Facilitate a Q&A session to address any questions or concerns from the audience.
+  7. [FV] Distribute handouts and additional resources for further learning and reference.
+  8. [FV] Conclude the session by summarizing key points and confirming audience understanding.
+[B]
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+[C]
+  1. [IC] Review cultural and religious norms specific to the target region.
+  2. [ME] Structure a presentation or training materials outlining key cultural and religious practices.
+  3. [IC] Deliver the presentation or training session, explaining customs, etiquette, holidays, and their impact on daily life and business.
+  4. [FV] Facilitate a Q&A session to address participant questions and concerns.
+  5. [FV] Provide supplementary resources for further learning and reference.
+[D]
+  1. [IC] Research and understand the cultural and religious norms, practices, and context specific to the target audience or location.
+  2. [ME] Prepare educational materials, such as presentations, handouts, or multimedia content, to facilitate understanding.
+  3. [NA] Set up the learning environment, including any necessary equipment like presentation screens or projectors.
+  4. [IC] Introduce the cultural and religious context, providing historical background and significance.
+  5. [PD] Explain customs, etiquette, holidays, and their impact on daily life and business operations, using relevant examples and visual aids.
+  6. [IC] Facilitate interactive sessions, such as Q&A, group discussions, or multimedia presentations, to enhance understanding and engagement.
+  7. [NA] Distribute additional resources, such as handouts or online materials, for further learning and reference.
+  8. [FV] Evaluate the effectiveness of the learning session through feedback, observations, or assessments.
+  9. [FV] Reflect on the learning session, identify areas for improvement, and plan for future sessions or follow-ups.
+
+--- Task 419: Process x-rays or other medical images.
+[A]
+  1. [NA] Retrieve and load the x-ray images from the imaging system into specialized radiology software.
+  2. [IC] Review the patient's medical history and any relevant previous images to understand the context of the current x-ray images.
+  3. [ME] Adjust image brightness, contrast, and zoom to optimize visualization.
+  4. [PD] Systematically scan the entire x-ray image, looking for abnormalities in lung tissue, heart size, and bone structure.
+  5. [ME] Annotate the images with markers and notes to highlight findings and formulate a preliminary diagnosis.
+  6. [ME] Generate a report summarizing the findings and annotations.
+  7. [NA] Save the processed images and report in the appropriate format to the PACS system.
+  8. [IC] Notify the radiologist that the processed X-ray images are ready for review.
+[B]
+  1. [NA] Retrieve the x-ray images from the imaging system.
+  2. [NA] Open the imaging software and load the x-ray images.
+  3. [IC] Review the patient's medical history and imaging requisition form.
+  4. [ME] Adjust the image contrast and brightness to enhance visibility.
+  5. [PD] Analyze the images for abnormalities, such as shadows or nodules.
+  6. [ME] Annotate the images with markers and notes to highlight findings.
+  7. [ME] Save the processed images and annotations.
+  8. [ME] Generate a report summarizing the findings and annotations.
+  9. [FV] Deliver the processed images and report to the radiologist for further review.
+[C]
+  1. [IC] Retrieve the x-ray images from the Picture Archiving and Communication System (PACS).
+  2. [NA] Load the x-ray images into the image processing software.
+  3. [IC] Review the patient's medical history and imaging requisition form.
+  4. [ME] Adjust image contrast and brightness to enhance visibility.
+  5. [PD] Systematically scan the entire x-ray image, looking for abnormalities.
+  6. [ME] Annotate the images with markers and notes to highlight findings.
+  7. [ME] Generate a report summarizing the findings and annotations.
+  8. [NA] Save the processed images and report in the appropriate format.
+[D]
+  1. [IC] Receive the digital x-ray image files from the Picture Archiving and Communication System (PACS).
+  2. [NA] Load the x-ray images into the image processing software.
+  3. [IC] Review the patient's medical history and any relevant previous images to understand the context.
+  4. [PD] Adjust image brightness, contrast, and zoom to optimize visualization.
+  5. [PD] Systematically scan the entire x-ray image, looking for abnormalities and comparing with previous images (if available) to identify changes over time.
+  6. [ME] Apply automated image processing algorithms to extract relevant information and enhance visibility.
+  7. [ME] Formulate a preliminary diagnosis based on the observed findings.
+  8. [FV] Document the findings and diagnosis in the patient's electronic medical record.
+  9. [NA] Save the processed images and report in the appropriate format to the PACS system.
+  10. [IC] Notify the radiologist that the processed x-ray images are ready for review.
+
+--- Task 420: Calculate data to inform organizational operations.
+[A]
+  1. [IC] Log into the company's sales database system.
+  2. [NA] Navigate to the sales data for the past quarter and extract relevant sales data including total sales, units sold, and product categories.
+  3. [ME] Import the extracted data into a spreadsheet or data analysis tool and calculate total sales revenue and units sold per product category.
+  4. [PD] Identify trends and patterns in the sales data and review calculations for accuracy and relevance.
+  5. [ME] Create visualizations (charts and graphs) to represent the sales data and prepare a written report summarizing the findings and recommendations.
+  6. [PD] Review and edit the report for accuracy and clarity.
+  7. [FV] Deliver the report to the relevant stakeholders (e.g., managers, executives) and follow up to ensure the report's insights are actioned upon.
+[B]
+  1. [IC] Log into the company's sales database system.
+  2. [NA] Navigate to the sales data for the past quarter.
+  3. [PD] Extract the relevant sales data, including total sales, units sold, and product categories.
+  4. [ME] Import the extracted data into a spreadsheet or data analysis tool.
+  5. [ME] Calculate total sales revenue for the quarter.
+  6. [PD] Identify trends and patterns in the sales data.
+  7. [ME] Create visualizations (charts and graphs) to represent the sales data.
+  8. [FV] Write a summary report detailing the findings and recommendations for inventory management and staffing.
+  9. [FV] Deliver the report to the relevant stakeholders (e.g., managers, executives).
+[C]
+  1. [IC] Log into the company's relevant data system (e.g., sales database, ERP).
+  2. [NA] Navigate to the specific data module containing sales, inventory, or operational data.
+  3. [PD] Extract relevant data points, including sales figures, inventory levels, customer demographics, or operational metrics.
+  4. [ME] Import the extracted data into a spreadsheet or data analysis tool.
+  5. [ME] Perform calculations and analysis to identify trends, patterns, and insights.
+  6. [ME] Create visualizations (charts, graphs) to represent the findings in a clear and concise manner.
+  7. [FV] Summarize the key findings and recommendations in a written report.
+  8. [FV] Deliver the report to relevant stakeholders (managers, executives).
+[D]
+  1. [IC] Access and log into the company's data management system (e.g., sales database, ERP, or customer database).
+  2. [NA] Navigate to the relevant data modules (e.g., sales data, customer data, or logistics data).
+  3. [PD] Extract and preprocess relevant data, handling missing values, outliers, and inconsistencies as needed.
+  4. [ME] Calculate key performance indicators (KPIs) such as total sales revenue, units sold per product category, customer lifetime value (CLTV), or route optimization metrics.
+  5. [PD] Analyze the calculated KPIs and identify trends, patterns, or insights relevant to organizational operations.
+  6. [ME] Create visualizations (e.g., charts, graphs) to represent the analyzed data and facilitate communication of findings.
+  7. [ME] Prepare a written report summarizing the findings, recommendations, and actionable steps for relevant stakeholders.
+  8. [PD] Review and refine the report for accuracy, clarity, and relevance to ensure it meets the needs of the intended audience.
+  9. [FV] Deliver the report to the relevant stakeholders (e.g., managers, executives, or drivers) through appropriate communication channels (e.g., email, in-person, or driver communication platforms).
+  10. [FV] Follow up with stakeholders to ensure the report's insights are actioned upon and address any questions or concerns that arise.
+  11. [IC] Log out of the data management system and secure any sensitive information used during the process.
+
+--- Task 421: Interpret financial information for others.
+[A]
+  1. [PD] Review the financial statements, including the income statement, balance sheet, and cash flow statement.
+  2. [PD] Identify key financial metrics such as revenue, expenses, net income, assets, liabilities, and cash flow.
+  3. [IC] Develop a narrative that explains the financial performance and future prospects clearly.
+  4. [ME] Create visual aids, such as charts and graphs, to illustrate financial trends and metrics.
+  5. [IC] Schedule and conduct a meeting with stakeholders to present the financial analysis.
+  6. [ME] Present the financial statements, key metrics, and visual aids to the stakeholders.
+  7. [FV] Answer questions and provide additional context and clarification as needed.
+  8. [FV] Provide recommendations based on the financial analysis.
+  9. [FV] Conclude the meeting by summarizing key points and next steps.
+[B]
+  1. [PD] Review the financial statements, including income statement, balance sheet, and cash flow statement.
+  2. [PD] Identify the key financial metrics relevant to the audience, such as revenue growth, profitability, and cash burn rate.
+  3. [IC] Develop a narrative that explains the financial performance and future prospects in a clear and concise manner.
+  4. [ME] Create visual aids, such as charts and graphs, to illustrate the key financial data.
+  5. [IC] Present the financial information to the audience.
+  6. [FV] Answer questions from the audience about the financials.
+  7. [FV] Provide recommendations based on the financial analysis.
+  8. [IC] Conclude the presentation by summarizing the key takeaways and reiterating the investment opportunity.
+[C]
+  1. [PD] Review the financial statements (income statement, balance sheet, cash flow statement) and identify key metrics relevant to the audience.
+  2. [PD] Analyze trends and patterns in the financial data.
+  3. [IC] Develop a clear and concise narrative summarizing the financial performance and key insights.
+  4. [ME] Create visual aids (charts, graphs) to illustrate key financial data and trends.
+  5. [IC] Present the financial information to the target audience, explaining the narrative and visuals.
+  6. [FV] Address questions from the audience, providing further clarification and insights.
+  7. [FV] Summarize key takeaways and next steps based on the discussion.
+[D]
+  1. [PD] Review and understand the financial statements (income statement, balance sheet, cash flow statement) and relevant financial reports.
+  2. [PD] Identify and summarize key financial metrics relevant to the audience (e.g., revenue, expenses, net income, assets, liabilities, cash flow, growth rates, profitability).
+  3. [PD] Analyze financial trends and patterns over time to identify insights and potential issues.
+  4. [ME] Prepare visual aids (charts, graphs, tables) to effectively communicate the financial information and insights.
+  5. [IC] Schedule and confirm a meeting with the intended audience to discuss the financial information.
+  6. [ME] Present the financial information, insights, and visual aids to the audience in a clear, concise, and engaging manner.
+  7. [FV] Facilitate a question-and-answer session to address any queries or concerns from the audience.
+  8. [FV] Summarize the key points, insights, and next steps discussed during the meeting.
+  9. [IC] Conclude the meeting by thanking the audience for their time and reiterating the agreed-upon next steps.
+
+--- Task 422: Design electromechanical equipment or systems.
+[A]
+  1. [IC] Review the project requirements and specifications for the electromechanical equipment or system.
+  2. [PD] Research and select appropriate materials and components based on the required performance criteria.
+  3. [ME] Create a preliminary design using CAD software, incorporating key components and mechanical and electrical specifications.
+  4. [FV] Simulate the design using software to validate its performance and make any necessary adjustments.
+  5. [ME] Generate detailed engineering drawings, specifications, and a bill of materials (BOM) for the electromechanical system.
+  6. [ME] Assemble a prototype of the electromechanical system using the ordered components and materials.
+  7. [FV] Test the prototype to ensure it meets the required performance criteria and safety standards.
+  8. [IC] Prepare and deliver the final design package, including CAD models, specifications, and performance predictions, to the client and manufacturing team.
+[B]
+  1. [IC] Review the project requirements and specifications for the automated conveyor system.
+  2. [NA] Research and select appropriate materials and components for the conveyor system.
+  3. [PD] Create a preliminary design sketch of the conveyor system, including mechanical and electrical components.
+  4. [ME] Use CAD software to develop a detailed 3D model of the conveyor system.
+  5. [FV] Perform a simulation of the conveyor system to test its functionality and identify any potential issues.
+  6. [ME] Refine the design based on the simulation results and feedback from the team.
+  7. [ME] Generate detailed engineering drawings and specifications for the conveyor system.
+  8. [ME] Create a bill of materials (BOM) for the conveyor system, including all required components and materials.
+  9. [IC] Prepare a presentation to present the design to the client and stakeholders, including a detailed explanation of the system's functionality and benefits.
+  10. [FV] Deliver the final design documentation and BOM to the client and manufacturing team for production.
+[C]
+  1. [IC] Review project requirements and specifications, including functional needs, performance targets, and any relevant constraints.
+  2. [NA] Research and select appropriate components and materials based on the project specifications and industry best practices.
+  3. [ME] Develop a preliminary design concept, including sketches or diagrams outlining the system's overall structure and functionality.
+  4. [ME] Create a detailed 3D model of the design using CAD software, incorporating all selected components and ensuring proper assembly and clearances.
+  5. [FV] Simulate the design's performance using appropriate software tools, analyzing factors such as stress, motion, and thermal behavior.
+  6. [ME] Refine the design based on simulation results and feedback, iterating on component selection, geometry, or control strategies as needed.
+  7. [FV] Generate detailed engineering drawings, specifications, and documentation for manufacturing and assembly.
+[D]
+  1. [IC] Review project requirements, including specifications, constraints, and performance targets.
+  2. [PD] Conduct literature review and research on existing designs, identifying best practices and innovative solutions.
+  3. [ME] Create a preliminary design sketch, considering mechanical, electrical, and control components.
+  4. [ME] Use CAD software to develop a detailed 3D model of the system, defining geometry, materials, and kinematic relationships.
+  5. [FV] Perform simulations (e.g., CFD, FEA, motion) to test functionality, predict performance, and identify potential issues.
+  6. [ME] Iterate on the design, making adjustments based on simulation results and feedback to optimize performance and meet requirements.
+  7. [ME] Create detailed engineering drawings, specifications, and a bill of materials (BOM) for the system.
+  8. [IC] Prepare a presentation to communicate the design to clients and stakeholders, explaining functionality, benefits, and performance predictions.
+  9. [NA] Order required components and materials based on the design specifications.
+  10. [ME] Assemble a prototype of the system using the ordered components and materials.
+  11. [FV] Test the prototype to ensure it meets the required performance criteria and validate the design.
+  12. [IC] Document lessons learned, update the design process, and deliver the final design package to the client.
+
+--- Task 423: Assist skilled construction or extraction personnel.
+[A]
+  1. [IC] Communicate with the construction personnel to understand the materials and tools needed.
+  2. [NA] Navigate to the storage area to retrieve the required materials and tools.
+  3. [ME] Retrieve and secure the required materials and tools from the storage area.
+  4. [NA] Carry the materials and tools to the construction personnel's work area, avoiding obstacles.
+  5. [ME] Place the materials and tools in the designated area near the construction personnel.
+  6. [PD] Monitor the work area for any issues or additional needs.
+  7. [ME] Deliver any additional materials or tools as requested by the construction personnel.
+  8. [FV] Verify that the materials and tools are correctly positioned and ready for use.
+[B]
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+[C]
+  1. [IC] Listen to the skilled worker's verbal description of the needed materials and tools.
+  2. [NA] Locate the storage area where the requested materials and tools are kept.
+  3. [ME] Retrieve the required materials and tools from the storage area.
+  4. [NA] Transport the materials and tools to the worker's location, avoiding obstacles and other personnel.
+  5. [ME] Present the materials and tools to the worker, confirming they have everything needed.
+  6. [PD] Monitor the work area for any issues or additional requests from the worker.
+  7. [ME] Respond to any additional requests from the worker, retrieving further materials or tools as needed.
+[D]
+  1. [IC] Communicate with the skilled personnel (e.g., mason, carpenter, welder) to understand their needs and the day's plan.
+  2. [NA] Navigate to the storage area, avoiding obstacles and other workers, to retrieve the required materials and tools.
+  3. [ME] Retrieve the required number and type of materials (e.g., bricks, lumber, steel beams) and tools from the storage area.
+  4. [NA] Carry the retrieved materials and tools to the skilled personnel's work area, avoiding obstacles and other workers.
+  5. [PD] Assist the skilled personnel in locating, identifying, and preparing the materials for use (e.g., measuring, cutting, positioning).
+  6. [ME] Help the skilled personnel execute the task, using appropriate tools and techniques (e.g., laying bricks, welding, crane operation).
+  7. [PD] Monitor the work area for any issues, additional needs, or safety concerns throughout the task.
+  8. [ME] Deliver any additional materials or tools as requested by the skilled personnel during the task.
+  9. [FV] Verify the completed task meets the required standards and quality, using visual inspection and documentation.
+  10. [FV] Review the completed task with the skilled personnel, discussing lessons learned and areas for improvement for future projects.
+
+--- Task 424: Test mechanical equipment to ensure proper functioning.
+[A]
+  1. [IC] Wear appropriate personal protective equipment (PPE) including safety glasses, gloves, and a hard hat.
+  2. [IC] Review the equipment's maintenance manual and technical specifications to understand its expected performance characteristics and any specific testing procedures.
+  3. [NA] Navigate to the control panel of the equipment and connect it to a power source.
+  4. [PD] Power on the equipment and observe its initial operation, checking for any unusual noises or vibrations.
+  5. [ME] Run the equipment through its full range of motion and observe for any operational issues, ensuring it meets the manufacturer's specifications.
+  6. [PD] Use diagnostic tools (e.g., multimeter, pressure gauge) to measure the equipment's performance data and compare it to expected values.
+  7. [PD] Check the equipment's components for any signs of wear or damage, and ensure all connections are secure.
+  8. [FV] Document the test results, noting any issues identified and necessary repairs or adjustments.
+  9. [ME] Make any necessary repairs or adjustments to the equipment to ensure it is functioning correctly and efficiently.
+[B]
+  1. [IC] Review the maintenance log and previous test results for the conveyor belt system.
+  2. [IC] Wear appropriate personal protective equipment (PPE) including safety glasses, gloves, and a hard hat.
+  3. [PD] Power on the conveyor belt system and observe its initial operation.
+  4. [PD] Check the belt for any visible signs of wear, such as cracks or fraying.
+  5. [ME] Use a torque wrench to check the tightness of all bolts and screws.
+  6. [ME] Run the conveyor belt through its full range of motion and observe for any operational issues.
+  7. [FV] Check the emergency stop function to ensure it halts the system immediately.
+  8. [FV] Document the test results and any necessary repairs or adjustments in the maintenance log.
+  9. [NA] Consult the warehouse blueprint to locate the HVAC system's main control panel.
+  10. [PD] Review the control panel's readings to understand the current system status.
+  11. [ME] Connect the multimeter to the control panel to measure voltage and current.
+  12. [FV] Document the test results and any observations in the maintenance log, and submit the report to the supervisor.
+[C]
+  1. [IC] Review the equipment's maintenance log and manufacturer specifications to understand expected performance and testing procedures.
+  2. [IC] Don appropriate personal protective equipment (PPE) such as safety glasses, gloves, and a hard hat.
+  3. [NA] Navigate to the equipment's control panel and power it on.
+  4. [PD] Observe the equipment's initial operation, noting any unusual noises, vibrations, or visual anomalies.
+  5. [ME] Conduct specific tests based on the equipment type and manufacturer specifications (e.g., measuring output pressure, running the equipment through its range of motion, checking component tightness).
+  6. [FV] Record test results and any observed issues, comparing them to expected performance standards.
+  7. [FV] Document the findings in the maintenance log and recommend any necessary repairs or adjustments.
+[D]
+  1. [IC] Review the manufacturer's specifications and maintenance logs to understand the equipment's expected performance and history.
+  2. [IC] Wear appropriate personal protective equipment (PPE) as required for the specific equipment being tested.
+  3. [NA] Navigate to the equipment's control panel or main access point.
+  4. [PD] Power on the equipment and observe its initial operation.
+  5. [PD] Conduct a visual inspection of the equipment, checking for signs of wear, damage, or any visible issues.
+  6. [PD] Listen for any unusual noises or vibrations that may indicate equipment malfunction.
+  7. [ME] Use appropriate tools (e.g., torque wrench, multimeter) to measure and verify critical parameters, such as pressure, voltage, or tightness of fasteners.
+  8. [ME] Test the equipment's functionality by running it through its full range of motion or using test packages, as applicable.
+  9. [FV] Check the emergency stop function to ensure it halts the system immediately, if applicable.
+  10. [FV] Document the test results, any observations, and necessary repairs or adjustments in the maintenance log.
+
+--- Task 425: Remove worn, damaged or outdated materials from work areas.
+[A]
+  1. [PD] Enter the work area and visually scan the environment to identify worn, damaged, or outdated materials.
+  2. [PD] Approach the first identified material and inspect it closely for signs of wear, damage, or obsolescence.
+  3. [ME] If the material is deemed worn, damaged, or outdated, carefully pick it up to avoid injury or further damage.
+  4. [NA] Move to the designated disposal area, navigating around obstacles and other materials.
+  5. [ME] Place the removed material in the appropriate disposal container.
+  6. [IC] Repeat the inspection and removal process for all identified materials.
+  7. [FV] Double-check the work area to ensure no materials were missed.
+  8. [FV] Document the removed materials and their locations for future reference.
+  9. [FV] Report the completion of the task to the supervisor and provide any necessary documentation.
+[B]
+  1. [NA] Enter the workshop and visually scan the area to identify potential materials that need to be removed.
+  2. [PD] Approach the first identified material and inspect it closely for signs of wear, damage, or obsolescence.
+  3. [ME] If the material is deemed worn, damaged, or outdated, pick it up carefully to avoid injury or further damage.
+  4. [NA] Move to the designated disposal area, navigating around obstacles and other materials.
+  5. [ME] Place the removed material in the appropriate disposal container.
+  6. [FV] Document the removed materials and their locations for future reference.
+  7. [PD] Review the warehouse inventory and identify the materials to be removed, using a barcode scanner to track the materials and a spreadsheet to document the removal process.
+  8. [NA] Gather necessary equipment, including a forklift, pallet jack, and trash bags, and ensure that the warehouse is clear of any obstacles or hazards.
+  9. [ME] Remove the identified materials from the warehouse, using the forklift or pallet jack to transport the materials to a designated disposal area.
+  10. [FV] Dispose of the removed materials, following local regulations and guidelines for waste disposal.
+  11. [IC] Document any issues or challenges encountered during the removal process, and suggest improvements for future removal tasks.
+  12. [FV] Inspect the cleared area to ensure all target materials have been removed.
+[C]
+  1. [PD] Enter the work area and visually scan for worn, damaged, or outdated materials.
+  2. [PD] Approach the first identified material and assess its condition.
+  3. [IC] If necessary, select and utilize appropriate tools for safe removal.
+  4. [ME] Carefully remove the material, minimizing risk of injury or further damage.
+  5. [NA] Transport the removed material to the designated disposal area.
+  6. [ME] Dispose of the material according to established procedures.
+  7. [IC] Repeat steps 2-6 for all identified materials.
+  8. [FV] Conduct a final walkthrough to ensure all target materials have been removed.
+[D]
+  1. [PD] Enter the work area and visually scan for worn, damaged, or outdated materials.
+  2. [PD] Approach the first identified material and inspect it closely for signs of wear, damage, or obsolescence.
+  3. [IC] Select appropriate tools and personal protective equipment (PPE) based on the material type and potential hazards.
+  4. [NA] Safely maneuver to the material, ensuring stable footing and navigating around obstacles.
+  5. [ME] Apply force with the selected tool to loosen, break apart, or remove the material, following established protocols for hazardous materials.
+  6. [NA] Lift and carry the detached material to the designated disposal container, navigating around obstacles and other materials.
+  7. [ME] Deposit the material into the container, ensuring it is stable and won't fall out or cause hazards.
+  8. [IC] Repeat steps 4-7 for each identified worn, damaged, or outdated material in the designated area.
+  9. [FV] Visually inspect the cleared area to ensure all target materials have been removed and no hazards remain.
+  10. [FV] Document the removed materials, their locations, and any issues or challenges encountered during the removal process.
+  11. [FV] Report the completion of the task to the supervisor and provide any necessary documentation.
+
+--- Task 426: Monitor green energy equipment, systems, or facilities.
+[A]
+  1. [IC] Access the monitoring system interface on a laptop or tablet.
+  2. [PD] Review real-time data on solar panel output, battery charge levels, and grid connection status.
+  3. [PD] Compare current data with historical trends and performance benchmarks.
+  4. [NA] Visually inspect the solar panels for any signs of damage, debris, or shading.
+  5. [PD] Check the connections and wiring of the solar panels and battery system.
+  6. [FV] Record any observations or potential issues in a digital log.
+  7. [IC] Alert the appropriate personnel (e.g., maintenance team) if any critical issues are identified.
+  8. [FV] Generate a report summarizing the monitoring session and any actions taken.
+[B]
+  1. [IC] Access the monitoring system interface on a laptop or tablet.
+  2. [PD] Review real-time data on solar panel output, battery charge levels, and grid connection status.
+  3. [PD] Compare current data with historical trends and performance benchmarks.
+  4. [NA] Visually inspect the solar panels for any signs of damage, debris, or shading.
+  5. [PD] Check the connections and wiring of the solar panels and battery system.
+  6. [FV] Record any observations or potential issues in a digital log.
+  7. [IC] Alert the appropriate personnel (e.g., maintenance team) if any critical issues are identified.
+  8. [FV] Generate a report summarizing the monitoring session and any actions taken.
+[C]
+  1. [IC] Access the monitoring system interface on a laptop or tablet.
+  2. [PD] Review real-time data on solar panel output, battery charge levels, and grid connection status.
+  3. [PD] Compare current data with historical trends and performance benchmarks.
+  4. [PD] Visually inspect the solar panels for any signs of damage, debris, or shading.
+  5. [FV] Record any observations or potential issues in a digital log.
+  6. [IC] Alert the appropriate personnel (e.g., maintenance team) if any critical issues are identified.
+[D]
+  1. [IC] Access the monitoring system interface on a laptop or tablet.
+  2. [PD] Review real-time data on solar panel output, battery charge levels, and grid connection status.
+  3. [PD] Compare current data with historical trends and performance benchmarks.
+  4. [NA] Visually inspect the solar panels for any signs of damage, debris, or shading.
+  5. [PD] Check the connections and wiring of the solar panels and battery system.
+  6. [FV] Record any observations or potential issues in a digital log.
+  7. [IC] Alert the appropriate personnel (e.g., maintenance team) if any critical issues are identified.
+  8. [NA] Navigate to the next section or turbine, avoiding obstacles and maintaining a safe distance.
+  9. [PD] Retrieve real-time data from the next equipment's control system.
+  10. [FV] Generate a report based on the recorded data and submit it to the control room for review.
+  11. [IC] Confirm the end of the monitoring round with the control room and sign off for the day.
+
+================================================================
+ANSWER TEMPLATE
+
+389: _ | 
+390: _ | 
+391: _ | 
+392: _ | 
+393: _ | 
+394: _ | 
+395: _ | 
+396: _ | 
+397: _ | 
+398: _ | 
+399: _ | 
+400: _ | 
+401: _ | 
+402: _ | 
+403: _ | 
+404: _ | 
+405: _ | 
+406: _ | 
+407: _ | 
+408: _ | 
+409: _ | 
+410: _ | 
+411: _ | 
+412: _ | 
+413: _ | 
+414: _ | 
+415: _ | 
+416: _ | 
+417: _ | 
+418: _ | 
+419: _ | 
+420: _ | 
+421: _ | 
+422: _ | 
+423: _ | 
+424: _ | 
+425: _ | 
+426: _ | 
+

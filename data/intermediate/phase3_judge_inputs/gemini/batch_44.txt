@@ -1,0 +1,366 @@
+BATCH 44/63 | Model: Gemini 3 Pro | Tasks 345-352
+================================================================
+EXPERT REVIEW -- Micro-Action Sequence Evaluation
+For each task, read ALL four options, then choose the BEST (A/B/C/D).
+
+Criteria:
+  1. Completeness  -- no critical steps missing
+  2. Realism       -- every step is concretely executable
+  3. Stage accuracy -- stage label correct for each step:
+     IC=Intent_Communication  NA=Navigation_Addressing
+     PD=Perception_Diagnosis  ME=Manipulation_Execution  FV=Feedback_Verification
+  4. Conciseness   -- no redundant or duplicate steps
+  5. Scope         -- starts and ends at exactly the right point
+
+OUTPUT: fill the ANSWER TEMPLATE at the bottom.
+Format: N: X | one-sentence reason (max 12 words)
+IMPORTANT: Each task has a different best answer. Do NOT pick the same
+letter for every task without reading.
+================================================================
+
+--- Task 345: Teach medical procedures to healthcare personnel.
+[A]
+  1. [IC] Gather the healthcare personnel in the training room and introduce the sterile catheter insertion procedure, ensuring all necessary equipment is available and functioning properly.
+  2. [IC] Explain the theoretical background, key steps, and potential complications of the sterile catheter insertion procedure.
+  3. [ME] Demonstrate the sterile catheter insertion procedure on a simulation mannequin, highlighting critical points and potential pitfalls.
+  4. [FV] Have the healthcare personnel practice the procedure on the simulation mannequin, providing real-time feedback and guidance.
+  5. [FV] Observe each trainee perform the procedure and provide immediate feedback, addressing common mistakes and questions.
+  6. [IC] Conduct a final review of the procedure, emphasizing critical steps and safety protocols.
+  7. [FV] Evaluate the effectiveness of the training session, using metrics such as proficiency and feedback to inform future training sessions.
+[B]
+  1. [NA] Gather necessary equipment and supplies for the procedure, ensuring all items are sterile and readily available.
+  2. [IC] Explain the purpose of the procedure, when it's indicated, and the potential complications if not performed correctly.
+  3. [ME] Demonstrate the procedure step-by-step, narrating each action and its purpose.
+  4. [PD] Observe students' understanding by asking them to describe the procedure in their own words.
+  5. [FV] Have students practice the procedure using a simulation or mannequin while providing real-time feedback and guidance.
+  6. [IC] Ask students to identify potential sources of error and how to avoid them.
+  7. [FV] Have students practice the procedure again, this time focusing on speed and efficiency.
+  8. [IC] Ask students to role-play scenarios where they need to explain the procedure to a patient or family member.
+  9. [ME] Have students demonstrate the procedure one last time, independently, to reinforce learning.
+  10. [FV] Evaluate students' performance, provide final feedback, and document their proficiency for their clinical rotation.
+[C]
+  1. [IC] Gather healthcare personnel and introduce the medical procedure, outlining its purpose and importance.
+  2. [IC] Explain the theoretical background and key steps of the procedure, using clear and concise language.
+  3. [ME] Demonstrate the procedure step-by-step on a simulation mannequin, highlighting critical points and potential pitfalls.
+  4. [FV] Guide participants in practicing the procedure on the mannequin, providing individual feedback and addressing questions.
+  5. [IC] Facilitate a group discussion to address common mistakes, reinforce key concepts, and clarify any remaining uncertainties.
+  6. [IC] Conclude with a summary of key learning points and emphasize the importance of safe and effective practice.
+[D]
+  1. [NA] Gather necessary equipment, supplies, and personnel for the procedure, ensuring all items are sterile, functional, and readily available.
+  2. [IC] Introduce the procedure, its purpose, indications, potential complications, and objectives of the training session.
+  3. [ME] Demonstrate the procedure step-by-step on a simulation mannequin or using a presentation, narrating each action and its purpose.
+  4. [PD] Ask trainees to describe the procedure in their own words to assess their understanding.
+  5. [FV] Have trainees practice the procedure using a simulation or mannequin while providing real-time feedback and guidance.
+  6. [IC] Facilitate a group discussion to address trainees' questions, concerns, and potential sources of error.
+  7. [ME] Have trainees demonstrate the procedure one last time, independently, to reinforce learning and assess proficiency.
+  8. [FV] Evaluate trainees' performance, provide final feedback, and document their proficiency for their clinical rotation or future reference.
+
+--- Task 346: Cut glass.
+[A]
+  1. [IC] The artisan puts on safety goggles and gloves to protect themselves from glass shards and dust.
+  2. [NA] Measure and mark the cutting line on the glass using a straight edge and a felt-tip marker.
+  3. [ME] Position the glass cutting wheel at the starting point of the marked line and apply steady pressure while rolling the cutting wheel along the marked line.
+  4. [PD] Inspect the cut line to ensure it is complete and continuous.
+  5. [ME] Place the glass on a flat surface and gently apply pressure along the cut line to break the glass.
+  6. [ME] Use a glass file or grinder to smooth any rough edges along the cut line.
+  7. [FV] Inspect the final cut piece for any imperfections or cracks.
+[B]
+  1. [IC] The artisan puts on safety goggles and gloves to protect themselves from glass shards and dust.
+  2. [NA] Measure and mark the cutting line on the glass using a straight edge and a felt-tip marker.
+  3. [NA] Apply a thin layer of oil along the marked line to lubricate the cutting wheel.
+  4. [NA] Position the glass cutting wheel at the starting point of the marked line.
+  5. [ME] Apply steady pressure and roll the cutting wheel along the marked line, maintaining a consistent speed.
+  6. [PD] Inspect the cut line to ensure it is complete and continuous.
+  7. [ME] Place the glass on a flat surface and gently apply pressure along the cut line to break the glass.
+  8. [ME] Use a glass file to smooth any rough edges along the cut line.
+  9. [FV] Inspect the final cut piece for any imperfections or cracks.
+  10. [FV] Clean the work area and store the glass safely until it is ready to be installed.
+[C]
+  1. [IC] Don safety goggles and gloves.
+  2. [NA] Measure and mark the cutting line on the glass.
+  3. [NA] Position the glass cutter at the starting point of the marked line.
+  4. [ME] Apply firm, even pressure to the glass cutter, scoring the glass along the marked line.
+  5. [ME] Gently snap the glass along the scored line.
+  6. [ME] Inspect the cut edge for imperfections and smooth any rough spots with a glass file.
+[D]
+  1. [PD] Inspect the glass to understand the cutting pattern and ensure all lines are clearly marked.
+  2. [IC] Put on safety goggles and gloves to protect yourself from glass shards and dust.
+  3. [NA] Measure and mark the cutting line on the glass using a straight edge and a felt-tip marker.
+  4. [NA] Position the glass cutter along the marked line, ensuring the cutting wheel is firmly against the glass surface.
+  5. [ME] Apply firm, even pressure to the glass cutter, scoring the glass along the marked line.
+  6. [ME] Lift the glass cutter away from the scored line.
+  7. [ME] Gently snap the glass along the scored line using running pliers, breaking the glass cleanly.
+  8. [FV] Inspect the cut edge to ensure it's clean and straight. If not, repeat the scoring and snapping process.
+  9. [ME] Repeat steps 4-8 for each pre-marked line until the entire pattern is cut.
+  10. [ME] Carefully remove any sharp edges or debris from the cut glass using a glass grinder or sandpaper.
+  11. [FV] Inspect the finished glass for any signs of imperfection or defect, and make any necessary adjustments or repairs.
+  12. [FV] Clean the work area and store the glass safely until it is ready to be installed.
+
+--- Task 347: Cut meat products.
+[A]
+  1. [IC] Review the order list and understand the specific cuts required for each meat product.
+  2. [NA] Retrieve the meat products from the refrigerated storage area and place them on the cutting table.
+  3. [NA] Wash hands and sanitize the cutting tools and surface.
+  4. [NA] Position the meat product securely on the cutting table to access the desired cuts.
+  5. [ME] Use a sharp knife to make the first cut along the identified line, and continue cutting along the identified lines to separate the desired cuts.
+  6. [PD] Inspect the cuts to ensure they meet the desired specifications.
+  7. [ME] Trim any excess fat or connective tissue from the cuts.
+  8. [FV] Label and package the cuts for retail sale.
+  9. [FV] Place the packaged cuts in the display case or refrigeration unit.
+[B]
+  1. [NA] Retrieve the side of beef from the cooler and place it on the cutting table.
+  2. [IC] Wash hands and sanitize the cutting tools and surface.
+  3. [IC] Identify the specific cuts to be made based on customer orders or standard retail cuts.
+  4. [NA] Position the side of beef on the cutting table to access the desired cuts.
+  5. [ME] Use a sharp knife to make the first cut along the identified line.
+  6. [ME] Continue cutting along the identified lines to separate the desired cuts.
+  7. [PD] Inspect the cuts to ensure they meet the desired specifications.
+  8. [ME] Trim any excess fat or connective tissue from the cuts.
+  9. [FV] Label and package the cuts for retail sale.
+  10. [FV] Place the packaged cuts in the display case or refrigeration unit.
+[C]
+  1. [IC] Review the order list and understand the specific cuts required for each meat product.
+  2. [NA] Wash hands and sanitize the cutting tools and surface.
+  3. [NA] Retrieve the appropriate meat product from storage and place it securely on the cutting board.
+  4. [PD] Select the appropriate knife for the required cut.
+  5. [ME] Execute the specific cut according to the order specifications.
+  6. [FV] Inspect the cut to ensure it meets the required specifications.
+  7. [FV] Repeat steps 4-6 for each meat product on the list.
+  8. [FV] Package and label the cut meat products according to established procedures.
+[D]
+  1. [IC] Review and understand the specific cuts required for each meat product based on customer orders or standard retail cuts.
+  2. [NA] Wash hands and put on appropriate safety and hygiene gear.
+  3. [NA] Retrieve the meat products from refrigerated storage and place them on the cutting table, ensuring they are securely positioned for cutting.
+  4. [PD] Select the appropriate knife and cutting board for the first meat product.
+  5. [ME] Use the selected knife to make the first cut along the identified line, applying the correct cutting technique and force to achieve the desired cut.
+  6. [ME] Continue cutting along the identified lines to separate the desired cuts, ensuring they meet the required specifications.
+  7. [PD] Inspect the cuts to ensure they meet the desired specifications, trimming any excess fat or connective tissue as needed.
+  8. [FV] Label and package the cuts for retail sale or storage, ensuring they are safely and efficiently transported.
+  9. [FV] Clean and sanitize the workspace and tools for the next work cycle.
+
+--- Task 348: Order instructional or library materials or equipment.
+[A]
+  1. [IC] Review recent circulation data and patron requests to identify popular and needed materials.
+  2. [NA] Navigate to the library's inventory management system to check existing stock.
+  3. [PD] Identify gaps in the current inventory and list the materials to be ordered.
+  4. [NA] Access the supplier's online catalog to browse available materials.
+  5. [ME] Select and add the desired materials to the shopping cart, specifying quantities and details.
+  6. [FV] Review the shopping cart to confirm the accuracy of the selected items and details.
+  7. [ME] Proceed to checkout and enter the necessary order details, including shipping and payment information.
+  8. [FV] Review the final order summary and confirm the purchase.
+  9. [ME] Print or save a copy of the order confirmation for record-keeping.
+  10. [IC] Notify relevant library staff about the new materials that will be arriving.
+[B]
+  1. [IC] Review recent circulation data and patron requests to identify popular and needed materials.
+  2. [NA] Navigate to the library's inventory management system to check existing stock.
+  3. [PD] Identify gaps in the current inventory and list the materials to be ordered.
+  4. [NA] Access the supplier's online catalog to browse available materials.
+  5. [ME] Select and add the desired materials to the shopping cart.
+  6. [FV] Review the shopping cart to confirm the accuracy of the selected items.
+  7. [ME] Proceed to checkout and enter the necessary order details.
+  8. [FV] Review the final order summary and confirm the purchase.
+  9. [ME] Print or save a copy of the order confirmation for record-keeping.
+  10. [IC] Notify the children's section staff about the new materials that will be arriving.
+[C]
+  1. [IC] Review circulation data and patron requests to identify needed materials.
+  2. [NA] Check library's inventory system for existing stock.
+  3. [PD] Identify gaps in inventory and create a list of materials to order.
+  4. [NA] Access supplier's catalog and locate desired materials.
+  5. [ME] Select materials and add them to the shopping cart.
+  6. [FV] Review the shopping cart for accuracy and proceed to checkout.
+  7. [ME] Enter order details, including shipping address and payment information.
+  8. [FV] Confirm the order and receive an order confirmation.
+[D]
+  1. [IC] Review recent circulation data and patron requests to identify popular and needed materials.
+  2. [PD] Check the library's inventory management system to assess existing stock and identify gaps.
+  3. [NA] Access the library's approved vendor website for ordering materials.
+  4. [IC] Enter login credentials to access the vendor's online ordering system.
+  5. [NA] Search for the desired materials using relevant identifiers (e.g., ISBN, title, author).
+  6. [ME] Select the correct edition, specify the desired quantity, and add the materials to the shopping cart.
+  7. [FV] Review the order summary to confirm the accuracy of selected items, quantities, and shipping address.
+  8. [ME] Enter the library's purchase order number and any relevant funding codes into the ordering system.
+  9. [ME] Submit the order and confirm receipt of the order confirmation email.
+  10. [FV] Check the order status regularly to ensure it is progressing as expected and that the materials are due to arrive on time.
+  11. [FV] Upon arrival, inspect the materials to ensure they meet the library's quality standards and are in good condition before shelving them.
+  12. [IC] Notify relevant staff (e.g., children's section, literacy program) about the arrival of new materials and their availability for use.
+
+--- Task 349: Evaluate treatment options to guide medical decisions.
+[A]
+  1. [PD] Review the patient's medical history, including laboratory results, imaging studies, and previous treatment plans.
+  2. [IC] Consult with the patient to understand their preferences, lifestyle, and any concerns they may have regarding treatment.
+  3. [NA] Access the electronic health record system to retrieve relevant clinical guidelines and treatment protocols.
+  4. [PD] Review clinical trial data and recent medical literature to assess the latest treatment options and their efficacy.
+  5. [PD] Evaluate the potential side effects and risks associated with each treatment option, considering the patient's overall health.
+  6. [IC] Discuss the treatment options with a multidisciplinary team, including surgeons, radiation oncologists, and nurses, to gather diverse perspectives.
+  7. [ME] Develop a treatment plan that aligns with the patient's preferences and maximizes the likelihood of successful outcomes.
+  8. [FV] Present the recommended treatment plan to the patient, explaining the rationale and addressing any questions or concerns.
+  9. [FV] Document the treatment plan and patient consent in the electronic health record system for future reference.
+  10. [FV] Schedule follow-up appointments to monitor the patient's response to treatment and adjust the plan as needed.
+[B]
+  1. [PD] Review the patient's medical history and current health status, including recent lab results and imaging studies.
+  2. [IC] Consult with the patient to understand their preferences, lifestyle, and any concerns they may have regarding treatment.
+  3. [NA] Access the electronic health record system to retrieve relevant clinical guidelines and treatment protocols.
+  4. [PD] Review clinical trial data and recent medical literature to assess the latest treatment options and their efficacy.
+  5. [PD] Evaluate the potential side effects and risks associated with each treatment option, considering the patient's overall health.
+  6. [PD] Consider the patient's quality of life and how different treatments may impact their daily activities and long-term prognosis.
+  7. [IC] Discuss the treatment options with a multidisciplinary team, including surgeons, radiation oncologists, and nurses, to gather diverse perspectives.
+  8. [ME] Develop a treatment plan that aligns with the patient's preferences and maximizes the likelihood of successful outcomes.
+  9. [FV] Present the recommended treatment plan to the patient, explaining the rationale and addressing any questions or concerns.
+  10. [FV] Document the treatment plan and patient consent in the electronic health record system for future reference.
+[C]
+  1. [PD] Review the patient's medical history, including lab results, imaging studies, and previous treatment plans.
+  2. [IC] Consult with the patient to understand their preferences, concerns, lifestyle, and treatment goals.
+  3. [NA] Access relevant clinical guidelines, medical literature, and recent research to identify potential treatment options.
+  4. [PD] Evaluate the potential benefits, risks, and side effects of each treatment option, considering the patient's individual health status.
+  5. [IC] Discuss the treatment options with the patient, explaining the rationale, addressing concerns, and ensuring informed consent.
+  6. [ME] Collaboratively develop a personalized treatment plan with the patient, incorporating their preferences and goals.
+  7. [FV] Document the finalized treatment plan in the patient's electronic health record.
+[D]
+  1. [PD] Review the patient's medical history, including laboratory results, imaging studies, and current medications.
+  2. [IC] Evaluate the patient's current health status and consider their preferences, lifestyle, and any concerns regarding treatment.
+  3. [NA] Access relevant clinical guidelines, treatment protocols, and recent medical literature to assess the latest treatment options and their efficacy.
+  4. [PD] Assess the potential benefits, side effects, and risks associated with each treatment option, considering the patient's overall health and quality of life.
+  5. [IC] Discuss treatment options with a multidisciplinary team to gather diverse perspectives and consider the patient's individual needs.
+  6. [ME] Develop a personalized treatment plan that aligns with the patient's preferences and maximizes the likelihood of successful outcomes.
+  7. [FV] Present the recommended treatment plan to the patient, explaining the rationale, addressing questions, and ensuring informed decision-making.
+  8. [FV] Document the treatment plan and patient consent in the electronic health record system for future reference and seamless coordination of care.
+  9. [FV] Schedule follow-up appointments to monitor the patient's response to treatment and adjust the plan as needed.
+
+--- Task 350: Communicate with other construction or extraction personnel to discuss project details.
+[A]
+  1. [IC] The site manager gathers all construction and extraction personnel in a designated meeting area.
+  2. [IC] The site manager reviews the project schedule and key milestones with the team.
+  3. [IC] The site manager outlines the specific roles and responsibilities of each team member.
+  4. [PD] The site manager discusses any safety protocols and logistical concerns, such as equipment availability and material delivery schedules.
+  5. [IC] The site manager opens the floor for questions and clarifications from the team.
+  6. [ME] The site manager summarizes the key points discussed and ensures all team members understand their tasks and responsibilities.
+  7. [FV] The site manager distributes any necessary documents or materials related to the project.
+  8. [FV] The site manager documents the agreements and decisions made during the meeting, including any changes to the project schedule or budget.
+  9. [FV] The site manager sends a follow-up email to the team members to confirm their understanding of their tasks and responsibilities.
+[B]
+  1. [IC] Gather all construction and extraction personnel in a designated meeting area.
+  2. [IC] Review the project schedule and key milestones with the team.
+  3. [IC] Outline the specific roles and responsibilities of each team member.
+  4. [IC] Discuss any safety protocols and procedures that need to be followed.
+  5. [IC] Address any logistical concerns, such as equipment availability and material delivery schedules.
+  6. [IC] Open the floor for questions and clarifications from the team.
+  7. [IC] Listen to the team's feedback and address any issues or concerns.
+  8. [FV] Confirm that all team members have a clear understanding of their roles and responsibilities.
+  9. [FV] Distribute any necessary documents or materials related to the project.
+  10. [FV] Conclude the meeting and confirm the next steps and any follow-up actions.
+[C]
+  1. [IC] The site manager gathers all construction and extraction personnel in a designated meeting area.
+  2. [IC] The site manager reviews the project schedule, key milestones, and individual roles and responsibilities.
+  3. [IC] The site manager discusses safety protocols and procedures that need to be followed.
+  4. [IC] The site manager addresses any logistical concerns, such as equipment availability and material delivery schedules.
+  5. [IC] The site manager opens the floor for questions and clarifications from the team.
+  6. [FV] The site manager summarizes key points and confirms understanding of roles and responsibilities.
+  7. [FV] The site manager distributes any necessary documents or materials related to the project.
+[D]
+  1. [IC] Gather all construction and extraction personnel in a designated meeting area.
+  2. [IC] Review the project schedule, key milestones, and specific roles and responsibilities of each team member.
+  3. [IC] Discuss safety protocols, procedures, equipment availability, and material delivery schedules.
+  4. [IC] Open the floor for questions and clarifications from the team.
+  5. [FV] Listen to the team's feedback, address any issues or concerns, and confirm understanding of roles and responsibilities.
+  6. [ME] Document agreements, decisions, and changes to the project schedule or budget.
+  7. [FV] Send a follow-up communication (email, text, or verbal) to confirm understanding of tasks and responsibilities.
+
+--- Task 351: Maintain plumbing structures or fixtures.
+[A]
+  1. [IC] Review the maintenance checklist and any previous work orders for the plumbing fixtures that require maintenance.
+  2. [NA] Navigate to the location of the plumbing fixtures and gather necessary tools and equipment.
+  3. [PD] Inspect the plumbing fixtures for signs of leaks, clogs, or other issues, using tools like a flashlight and mirror if necessary.
+  4. [ME] Turn off the water supply to the fixture to prevent further damage and water flow.
+  5. [ME] Disassemble the fixture and clean or replace any damaged parts, ensuring proper fit and seal.
+  6. [ME] Reassemble the fixture and tighten all connections, then turn the water supply back on.
+  7. [FV] Test the fixture for leaks and proper functionality, ensuring it meets the required standards.
+  8. [FV] Document the completed work, noting any issues identified or resolved, and report back to the building manager.
+[B]
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+[C]
+  1. [IC] Review the maintenance request or work order, noting the location and type of plumbing issue.
+  2. [NA] Gather necessary tools and materials based on the identified issue (e.g., wrench, pliers, replacement parts).
+  3. [NA] Locate the specific plumbing fixture requiring attention.
+  4. [PD] Inspect the fixture, identifying the source of the problem (e.g., leak, clog, damaged part).
+  5. [ME] Disassemble the fixture as needed to access the problem area.
+  6. [ME] Repair or replace the damaged component(s) using appropriate techniques and tools.
+  7. [ME] Reassemble the fixture, ensuring all connections are secure.
+  8. [FV] Test the repaired fixture for proper functionality and absence of leaks.
+  9. [IC] Document the completed repair, noting any replaced parts and observations.
+[D]
+  1. [IC] Review maintenance logs, blueprints, and previous work orders to understand the scope of work and locate the specific fixtures that require maintenance.
+  2. [NA] Gather necessary tools and equipment, such as wrenches, pliers, a bucket, flashlight, mirror, and any specific repair materials like solder or O-rings.
+  3. [NA] Navigate to the location of the fixtures and visually inspect them for signs of leaks, clogs, or other issues, using a flashlight and mirror if necessary.
+  4. [ME] Turn off the water supply to the fixture to prevent further water flow and damage.
+  5. [ME] Disassemble the fixture, removing handles, spouts, and other components to access the problematic area.
+  6. [PD] Diagnose the source of the issue by inspecting the fixture's components and identifying worn, damaged, or clogged parts.
+  7. [ME] Repair or replace the damaged parts, using the appropriate tools and materials. This may involve cleaning the area, applying flux, heating pipes, or installing new components.
+  8. [ME] Reassemble the fixture and tighten all connections using the appropriate tools.
+  9. [FV] Turn the water supply back on and test the fixture for leaks or issues, ensuring it functions properly.
+  10. [IC] Document the completed work, update maintenance logs, and inform relevant parties about the repairs made and any issues identified or resolved.
+
+--- Task 352: Assist disabled or incapacitated individuals.
+[A]
+  1. [IC] Approach the individual's room, knock on the door, and announce presence to ensure awareness and safety.
+  2. [NA] Enter the room, assess the environment for any potential hazards or obstacles, and greet the individual.
+  3. [PD] Assess the individual's needs and priorities for the assistance session, using a standardized assessment tool if necessary.
+  4. [NA] Adjust the wheelchair to the appropriate height and position it next to the bed for a smooth transfer.
+  5. [ME] Assist the individual in transferring from the bed to the wheelchair using proper lifting techniques to avoid injury.
+  6. [ME] Secure the individual in the wheelchair, ensuring they are properly seated and fastened.
+  7. [NA] Navigate the wheelchair from the bedroom to the kitchen, carefully avoiding obstacles and ensuring the individual's safety.
+  8. [NA] Position the wheelchair at the dining table in the kitchen, ensuring it is stable and the individual can reach the table.
+  9. [ME] Assist the individual in transferring from the wheelchair to the dining chair using proper lifting techniques.
+  10. [ME] Secure the individual in the dining chair, ensuring they are properly seated and stable.
+  11. [FV] Confirm with the individual that they are comfortable and ready to eat breakfast.
+[B]
+  1. [IC] Approach the individual's bedroom and knock on the door to announce presence.
+  2. [IC] Enter the bedroom and confirm with the individual that they are ready to be assisted to the kitchen.
+  3. [NA] Move the wheelchair next to the individual's bed and adjust the wheelchair to a comfortable position for transfer.
+  4. [ME] Assist the individual in transferring from the bed to the wheelchair, using proper lifting techniques to avoid injury.
+  5. [ME] Secure the individual in the wheelchair, ensuring they are properly seated and fastened.
+  6. [NA] Navigate the wheelchair from the bedroom through the hallway, carefully avoiding obstacles and ensuring the individual's safety.
+  7. [NA] Enter the kitchen and position the wheelchair at the dining table, ensuring it is stable and the individual can reach the table.
+  8. [ME] Assist the individual in transferring from the wheelchair to the dining chair, using proper lifting techniques.
+  9. [ME] Secure the individual in the dining chair, ensuring they are properly seated and stable.
+  10. [FV] Confirm with the individual that they are comfortable and ready to eat breakfast.
+[C]
+  1. [IC] Approach the individual, introduce yourself, and explain the process in a clear and calm manner.
+  2. [PD] Assess the individual's needs and preferences for assistance, considering their mobility limitations and any assistive devices they use.
+  3. [NA] Position the wheelchair next to the bed at a comfortable height for transfer, ensuring a clear path and removing any obstacles.
+  4. [ME] Assist the individual in transferring from the bed to the wheelchair, using proper lifting techniques and ensuring their safety and comfort throughout the process.
+  5. [ME] Secure the individual in the wheelchair, ensuring they are properly seated and fastened.
+  6. [FV] Confirm with the individual that they are comfortable and ready to proceed to the desired location.
+[D]
+  1. [IC] Approach the individual's location and announce your presence to ensure their safety and awareness.
+  2. [NA] Enter the individual's space, assess the environment for hazards, and establish a safe path.
+  3. [IC] Greet the individual, introduce yourself, and establish a rapport to build trust.
+  4. [PD] Assess the individual's needs and priorities for the assistance session using a standardized assessment tool or checklist.
+  5. [NA] Position yourself and any assistive devices appropriately to minimize effort and prevent injury.
+  6. [ME] Provide physical assistance with transferring the individual from one position to another, using proper body mechanics and safety precautions.
+  7. [ME] Assist the individual with personal care activities, using gentle and respectful techniques.
+  8. [ME] Prepare and serve a meal or snack to the individual, considering their dietary needs and ensuring a safe eating environment.
+  9. [IC] Engage in conversation with the individual, using active listening skills and empathy to promote social interaction.
+  10. [FV] Complete the assistance session by ensuring the individual's safety, independence, and providing a clear plan for follow-up care or support.
+  11. [FV] Document the assistance session in the individual's medical record, noting any observations or issues that arose during the process.
+
+================================================================
+ANSWER TEMPLATE
+
+345: _ | 
+346: _ | 
+347: _ | 
+348: _ | 
+349: _ | 
+350: _ | 
+351: _ | 
+352: _ | 
+

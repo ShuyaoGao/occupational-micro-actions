@@ -1,0 +1,5 @@
+,BGE=LLM,BGE=Multimodal_Perception,BGE=Embodied,BGE=Human_Bound
+MPNet=LLM,6757,580,235,751
+MPNet=Multimodal_Perception,406,2301,187,45
+MPNet=Embodied,298,256,2089,101
+MPNet=Human_Bound,419,104,87,1201

@@ -1,0 +1,359 @@
+BATCH 56/63 | Model: Gemini 3 Pro | Tasks 441-448
+================================================================
+EXPERT REVIEW -- Micro-Action Sequence Evaluation
+For each task, read ALL four options, then choose the BEST (A/B/C/D).
+
+Criteria:
+  1. Completeness  -- no critical steps missing
+  2. Realism       -- every step is concretely executable
+  3. Stage accuracy -- stage label correct for each step:
+     IC=Intent_Communication  NA=Navigation_Addressing
+     PD=Perception_Diagnosis  ME=Manipulation_Execution  FV=Feedback_Verification
+  4. Conciseness   -- no redundant or duplicate steps
+  5. Scope         -- starts and ends at exactly the right point
+
+OUTPUT: fill the ANSWER TEMPLATE at the bottom.
+Format: N: X | one-sentence reason (max 12 words)
+IMPORTANT: Each task has a different best answer. Do NOT pick the same
+letter for every task without reading.
+================================================================
+
+--- Task 441: Position containers to receive materials or workpieces.
+[A]
+  1. [IC] Consult the production schedule to identify the components required for the next cycle.
+  2. [NA] Locate the correct containers for each component in the storage area.
+  3. [NA] Retrieve the containers and carry them to the assembly line, navigating around obstacles.
+  4. [PD] Identify the correct position for each container based on the assembly line layout.
+  5. [ME] Place the containers in their respective positions, ensuring they are level and stable.
+  6. [ME] Secure the containers using clamps or other fastening mechanisms to prevent movement during the production cycle.
+  7. [FV] Verify that all containers are correctly positioned, securely fastened, and ready to receive components.
+[B]
+  1. [NA] Retrieve the first container from the storage area.
+  2. [NA] Move the container to the conveyor belt area, navigating around obstacles.
+  3. [ME] Position the container at the designated spot on the conveyor belt.
+  4. [PD] Check the alignment of the container with the material drop point.
+  5. [ME] Adjust the container position if necessary to ensure proper alignment.
+  6. [NA] Retrieve the second container from the storage area.
+  7. [NA] Move the second container to the conveyor belt area, navigating around obstacles.
+  8. [ME] Position the second container at the designated spot on the conveyor belt, ensuring appropriate spacing from the first container.
+  9. [PD] Check the alignment and spacing of the second container with the material drop point and the first container.
+  10. [ME] Adjust the second container position if necessary to ensure proper alignment and spacing.
+  11. [FV] Verify that the containers are positioned correctly and are ready to receive materials and workpieces.
+[C]
+  1. [IC] Receive signal indicating containers are needed.
+  2. [NA] Navigate to the storage area and identify the required containers.
+  3. [ME] Retrieve the containers.
+  4. [NA] Transport containers to the designated area.
+  5. [ME] Position containers at their designated spots, ensuring alignment and spacing.
+  6. [FV] Verify the correct positioning and alignment of all containers.
+[D]
+  1. [IC] Receive signal from the production system indicating materials or workpieces are ready.
+  2. [NA] Identify and retrieve the required containers from the storage area, navigating around obstacles.
+  3. [PD] Check containers for any damage or defects, ensuring they are suitable for use.
+  4. [ME] Position the containers at the designated spots on the conveyor belt or assembly line, ensuring appropriate spacing and alignment.
+  5. [FV] Verify that the containers are correctly positioned, aligned, and secure, ready to receive materials or workpieces.
+  6. [IC] Signal to the production team that the containers are positioned correctly and ready to receive materials or workpieces.
+
+--- Task 442: Inspect telecommunications equipment to identify problems.
+[A]
+  1. [IC] Consult the service map to locate the next cabinet and plan the route.
+  2. [NA] Navigate to the cabinet's location, traversing varied terrain and obstacles.
+  3. [PD] Open the cabinet door and visually inspect the interior for any obvious damage or issues.
+  4. [PD] Check the environmental conditions inside the cabinet, including temperature and humidity.
+  5. [PD] Inspect the power supply and connectivity to ensure they are functioning correctly.
+  6. [PD] Check the status of each piece of equipment by accessing its management interface or using a diagnostic tool.
+  7. [ME] Identify any equipment with abnormal readings or error messages and document the findings.
+  8. [ME] If necessary, perform basic troubleshooting steps, such as resetting equipment or checking connections.
+  9. [FV] Close the cabinet door and secure it, ensuring it is properly sealed and protected from the elements.
+  10. [FV] Update the service map with the findings and mark the cabinet as inspected.
+  11. [FV] Proceed to the next cabinet on the service map, repeating the inspection process.
+[B]
+  1. [NA] The technician arrives at the data center and dons appropriate PPE (Personal Protective Equipment).
+  2. [NA] The technician navigates to the first rack containing the network routers and switches.
+  3. [PD] The technician visually inspects the front panel of the first router for any LED indicators showing errors or warnings.
+  4. [PD] The technician accesses the router's management interface via a laptop to check for more detailed status information.
+  5. [PD] The technician checks the switch for similar issues by visually inspecting the front panel and accessing its management interface.
+  6. [PD] The technician uses a network analyzer tool to check for any unusual traffic patterns or connectivity issues.
+  7. [FV] The technician documents any identified issues in a logbook or digital system.
+  8. [PD] The technician repeats the inspection process for the remaining routers and switches in the rack.
+  9. [NA] The technician moves to the next rack and repeats the inspection process.
+  10. [FV] The technician completes the inspection of all equipment and delivers the documented issues to the supervisor.
+[C]
+  1. [IC] Don appropriate PPE (Personal Protective Equipment) and consult the site map or work order to identify the target equipment.
+  2. [NA] Navigate to the location of the target equipment, considering safety protocols and potential obstacles.
+  3. [PD] Visually inspect the equipment for any obvious signs of damage, wear, or malfunctioning indicators.
+  4. [ME] Connect diagnostic tools (e.g., signal strength meter, cable tester) to the equipment and run tests as needed.
+  5. [PD] Analyze the diagnostic results and visual inspection findings to pinpoint the specific problem(s).
+  6. [IC] Document the identified problems, including location, nature of the issue, and any relevant diagnostic readings.
+  7. [ME] If authorized and within scope, perform basic troubleshooting steps (e.g., resetting equipment, checking connections).
+  8. [FV] Securely store diagnostic tools and ensure the work area is left in a safe and organized condition.
+[D]
+  1. [NA] Arrive at the data center and don appropriate PPE (Personal Protective Equipment).
+  2. [NA] Navigate to the first rack containing the network routers and switches.
+  3. [PD] Visually inspect the front panel of the first router for any LED indicators showing errors or warnings.
+  4. [PD] Access the router's management interface via a laptop to check for more detailed status information.
+  5. [PD] Check the switch for similar issues by visually inspecting the front panel and accessing its management interface.
+  6. [PD] Use a network analyzer tool to check for any unusual traffic patterns or connectivity issues.
+  7. [FV] Document any identified issues in a logbook or digital system.
+  8. [PD] Repeat the inspection process for the remaining routers and switches in the rack.
+  9. [NA] Move to the next rack and repeat the inspection process.
+  10. [FV] Complete the inspection of all equipment and deliver the documented issues to the supervisor.
+
+--- Task 443: Notify others of equipment problems.
+[A]
+  1. [PD] Approach the malfunctioning equipment and observe the nature of the problem, including any unusual noises or visible damage.
+  2. [PD] Check the equipment's control panel and operational logs to confirm the malfunction and gather diagnostic information.
+  3. [IC] Determine the appropriate personnel to notify based on the severity and nature of the problem.
+  4. [NA] Navigate to the nearest communication device (e.g., phone, radio) to contact the relevant personnel.
+  5. [IC] Use the communication device to clearly and concisely describe the problem, its location, and its severity to the relevant personnel.
+  6. [FV] Listen for a response from the relevant personnel, confirming receipt of the notification and the plan for resolution.
+  7. [FV] Return to the malfunctioning equipment to monitor the situation until the relevant personnel arrives.
+[B]
+  1. [PD] Observe the conveyor belt and identify any issues.
+  2. [PD] Confirm the malfunction by checking operational logs and sensors.
+  3. [IC] Notify the maintenance team of the issue.
+  4. [ME] Document the equipment problem and notification in the plant's maintenance log.
+  5. [FV] Verify that all relevant stakeholders have been notified and that the plan for resolving the issue has been communicated.
+  6. [NA] Return to the conveyor belt area to monitor the situation until the maintenance team arrives.
+[C]
+  1. [PD] Observe the equipment to identify the malfunction.
+  2. [PD] Confirm the malfunction by checking relevant logs or sensors.
+  3. [IC] Determine the appropriate personnel to notify based on the problem's severity.
+  4. [NA] Navigate to the nearest communication device (phone, radio).
+  5. [IC] Clearly communicate the problem, location, and severity to the designated personnel.
+  6. [FV] Confirm receipt of the notification from the contacted personnel.
+[D]
+  1. [PD] Observe and diagnose the equipment problem through visual and auditory inspection, and check operational logs for confirmation.
+  2. [NA] Retrieve a communication device (e.g., two-way radio, phone) from the nearest available location.
+  3. [IC] Select the appropriate communication channel to reach the relevant personnel (e.g., maintenance team, production manager).
+  4. [IC] Clearly and concisely communicate the problem, its location, and any relevant diagnostic information to the appropriate personnel.
+  5. [FV] Listen for and acknowledge receipt of the notification from the relevant personnel.
+  6. [ME] Document the equipment problem and the notification in the plant's maintenance log or relevant system.
+  7. [FV] Review the notification process to ensure that all relevant stakeholders have been informed and that a plan for resolution is in place.
+  8. [NA] Return to the equipment area to monitor the situation until the relevant personnel arrives or the issue is resolved.
+
+--- Task 444: Collaborate with others to develop or implement marketing strategies.
+[A]
+  1. [IC] The team leader presents the overarching marketing goals and objectives, emphasizing the target audience and desired outcomes.
+  2. [PD] The team reviews market research, customer data, and competitor strategies to identify target demographics and gaps.
+  3. [ME] The team brainstorms and refines marketing strategy ideas, visualizing concepts and discussing potential tactics.
+  4. [ME] The team develops a detailed marketing plan, including objectives, target audience, key messaging, and tactics.
+  5. [NA] The team coordinates with design and content teams to create visual assets and copy that align with the marketing strategy.
+  6. [FV] The team presents the final marketing strategy and plan to stakeholders for feedback and approval.
+  7. [ME] The team makes necessary revisions to the marketing plan based on stakeholder feedback and finalizes the plan.
+  8. [IC] The team communicates the finalized marketing strategy to the rest of the company and stakeholders.
+  9. [ME] The team implements the marketing plan, creating and scheduling content, and monitoring performance metrics.
+  10. [FV] The team holds a follow-up meeting to review the initial results and plan for the next phase of the campaign.
+[B]
+  1. [IC] The team leader reviews the meeting agenda and ensures all team members have the necessary materials and data to contribute to the discussion.
+  2. [PD] The team begins discussing customer feedback and market trends, with each member sharing their insights and expertise.
+  3. [IC] The team leader asks each member to share their ideas for the marketing strategy, encouraging creative thinking and open discussion.
+  4. [ME] The team begins to brainstorm and refine ideas for the marketing campaign, using whiteboards and sticky notes to visualize their concepts.
+  5. [IC] The team leader summarizes the key points and action items from the discussion, ensuring everyone is on the same page.
+  6. [ME] The team begins to develop a detailed marketing plan, including budgeting, timelines, and resource allocation.
+  7. [PD] The team reviews and refines the marketing plan, ensuring it aligns with the company's overall goals and objectives.
+  8. [IC] The team leader presents the final marketing plan to the product development team, highlighting key strategies and tactics.
+  9. [PD] The team receives feedback from the product development team and makes any necessary adjustments to the marketing plan.
+  10. [ME] The team finalizes the marketing plan and prepares to launch the product campaign, with a clear understanding of their roles and responsibilities.
+[C]
+  1. [IC] The team leader schedules a kickoff meeting to discuss the product, target audience, and desired marketing outcomes.
+  2. [PD] The team reviews market research, customer data, and competitor analysis to identify target demographics and preferences.
+  3. [IC] The team brainstorms and discusses potential marketing strategies, considering budget, reach, and engagement.
+  4. [ME] The team selects the most promising marketing strategies and outlines a preliminary plan, including key messaging and target platforms.
+  5. [IC] Team members are assigned roles and responsibilities for content creation, social media management, performance tracking, and stakeholder communication.
+  6. [ME] The team develops a detailed marketing plan document, including objectives, KPIs, timelines, and resource allocation.
+  7. [FV] The marketing plan is presented to stakeholders for feedback and approval.
+  8. [ME] The team incorporates stakeholder feedback and finalizes the marketing plan.
+[D]
+  1. [IC] Attend a team meeting to understand the product's unique selling points, target audience, and overall marketing goals.
+  2. [PD] Review market research, customer data, and competitor analysis to identify target demographics, preferences, and gaps in the market.
+  3. [ME] Brainstorm initial marketing strategy ideas with the team, considering the product's strengths, market gaps, and customer preferences.
+  4. [ME] Create a detailed marketing plan outlining objectives, target audience, key messaging, tactics, budget, timelines, and assigned roles.
+  5. [NA] Coordinate with relevant teams (design, content, sales) to create or adapt visual assets, copy, and other materials that align with the marketing strategy.
+  6. [FV] Present the draft marketing strategy and plan to stakeholders for feedback and approval.
+  7. [ME] Make necessary revisions to the marketing plan based on stakeholder feedback and ensure everyone is aligned on the final strategy.
+  8. [ME] Implement the approved marketing strategy, monitoring performance metrics, and making adjustments as needed.
+  9. [FV] Regularly review and analyze campaign performance data to assess progress towards objectives and identify areas for improvement.
+  10. [IC] Hold periodic team meetings to discuss campaign performance, gather feedback, and plan for future phases or iterations of the marketing strategy.
+
+--- Task 445: Advise others on management of emergencies or hazardous situations or materials.
+[A]
+  1. [IC] Receive the emergency call from the plant manager, noting the specific substance involved, location, and initial observations.
+  2. [NA] Access the plant's chemical database to retrieve the Safety Data Sheet (SDS) for the specific substance, identifying its hazards, containment procedures, and first aid measures.
+  3. [PD] Assess the situation based on the manager's report and the SDS information, prioritizing immediate actions to minimize risk.
+  4. [ME] Instruct the manager to evacuate the immediate area, establish a safe perimeter, and don appropriate personal protective equipment (PPE).
+  5. [ME] Advise the manager to activate the plant's emergency alarm system and notify all personnel.
+  6. [ME] Provide the manager with the contact information for the local hazardous materials (HazMat) team.
+  7. [IC] Monitor the situation through ongoing communication with the manager, providing further guidance and support as needed.
+  8. [FV] Confirm that the manager has understood and is implementing the advised steps.
+  9. [FV] Conclude the call and follow up with a written summary of the advised steps and emergency procedures.
+[B]
+  1. [IC] Receive the emergency call from the production line supervisor, noting the specific substance involved, location, and initial observations.
+  2. [PD] Access the plant's chemical database to retrieve the Safety Data Sheet (SDS) for the specific substance, identifying its hazards, containment procedures, and first aid measures.
+  3. [PD] Assess the situation based on the supervisor's report and the SDS information, prioritizing immediate actions to minimize risk.
+  4. [IC] Clearly and concisely instruct the supervisor on the initial steps to take, such as evacuating personnel, isolating the leak area, and donning appropriate protective gear.
+  5. [IC] Confirm the supervisor's understanding of the instructions and answer any immediate questions.
+  6. [IC] Monitor the situation through ongoing communication with the supervisor, providing further guidance and support as needed.
+  7. [IC] Once the immediate threat is contained, advise the supervisor on next steps, such as contacting emergency services and initiating a full incident report.
+  8. [NA] Meet employees at the designated assembly point to confirm everyone has evacuated safely.
+  9. [FV] Conduct a roll call to account for all employees and confirm everyone is present and unharmed.
+  10. [PD] Inspect the building to ensure all employees have evacuated and no one is left behind.
+  11. [IC] Conduct a debriefing session with employees to discuss the drill's outcomes, provide feedback, and answer any questions.
+[C]
+  1. [IC] Receive emergency call, noting substance, location, and initial observations.
+  2. [NA] Access Safety Data Sheet (SDS) for the substance, identifying hazards, containment, and first aid.
+  3. [PD] Assess the situation based on the report and SDS, prioritizing immediate actions.
+  4. [IC] Clearly instruct on immediate steps: evacuation, isolation, PPE.
+  5. [FV] Confirm understanding of instructions and address immediate questions.
+  6. [IC] Monitor situation, provide ongoing guidance and support.
+  7. [IC] Advise on next steps: contacting emergency services, incident report.
+[D]
+  1. [IC] Receive an emergency call from the responsible party, noting the specific hazard, location, and initial observations.
+  2. [PD] Access relevant safety data and information, such as Safety Data Sheets (SDS) or emergency response plans, to understand the hazard and recommended safety measures.
+  3. [PD] Assess the situation and prioritize immediate actions to minimize risk, such as evacuating personnel, isolating the hazard, and donning appropriate PPE.
+  4. [IC] Clearly and concisely communicate the initial steps to take to the responsible party, ensuring they understand and can implement them.
+  5. [IC] Confirm the responsible party's understanding of the instructions and answer any immediate questions.
+  6. [IC] Monitor the situation through ongoing communication with the responsible party, providing further guidance and support as needed.
+  7. [IC] Once the immediate threat is contained, advise the responsible party on next steps, such as contacting emergency services and initiating a full incident report.
+  8. [FV] Conduct a final verification to ensure the situation has been resolved and all necessary steps have been taken.
+
+--- Task 446: Create technology-based learning materials.
+[A]
+  1. [IC] Review the learning objectives and target audience to understand the required content and skills to be taught.
+  2. [NA] Gather and organize multimedia assets (images, videos, audio clips) that support the learning objectives from approved sources.
+  3. [PD] Sketch out a storyboard or outline for each module, including the sequence of content, interactions, and assessments.
+  4. [ME] Open the learning management system (LMS) software and create a new module, setting up the basic structure and layout.
+  5. [ME] Design and create interactive elements such as quizzes, simulations, and multimedia content within the module.
+  6. [FV] Test the module thoroughly to ensure all interactive elements function correctly and the content is accurate and engaging.
+  7. [IC] Gather feedback from subject matter experts (SMEs) or stakeholders and make necessary revisions to the modules.
+  8. [ME] Package the modules for SCORM or xAPI compliance, ensuring they can be uploaded and tracked within the LMS.
+  9. [NA] Upload the modules to the LMS, associating them with the appropriate course and setting up any access restrictions or completion tracking.
+  10. [FV] Test the modules within the LMS to ensure they function correctly and learners can access and complete them as intended.
+[B]
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+[C]
+  1. [IC] Define learning objectives and target audience for the technology-based learning materials.
+  2. [NA] Gather and organize relevant content (text, images, videos) aligned with the learning objectives.
+  3. [NA] Select and familiarize yourself with the chosen authoring tool (e.g., Articulate Storyline, LMS platform).
+  4. [PD] Design the module structure, including learning units, interactive exercises, and assessments.
+  5. [ME] Develop interactive elements (quizzes, simulations, drag-and-drop activities) to reinforce learning.
+  6. [ME] Build the module within the chosen authoring tool, incorporating content, interactive elements, and navigation.
+  7. [FV] Thoroughly test the module functionality, including interactive elements, navigation, and accessibility.
+  8. [IC] Gather feedback from subject matter experts or stakeholders and refine the module accordingly.
+  9. [NA] Package the module for the target LMS (e.g., SCORM, xAPI) and upload it to the platform.
+[D]
+  1. [IC] Review and understand the learning objectives, target audience, and client requirements.
+  2. [NA] Gather and organize content, including text, images, videos, and multimedia assets from approved sources.
+  3. [PD] Sketch out a storyboard or outline for each module, including the sequence of content, interactions, and assessments.
+  4. [ME] Open the chosen authoring tool (e.g., Articulate Storyline, Adobe Captivate) and create a new project, setting basic settings according to LMS requirements.
+  5. [ME] Design the master slide layout, including the course header, navigation menu, and footer, ensuring consistency across all modules.
+  6. [ME] Create slides for each section of the module, incorporating text, multimedia assets, and interactive elements like quizzes, drag-and-drop, or click-to-reveal.
+  7. [FV] Test each module thoroughly to ensure all interactive elements function correctly and the content is accurate and engaging.
+  8. [IC] Gather feedback from subject matter experts (SMEs) or stakeholders and make necessary revisions to the modules.
+  9. [ME] Package the modules for SCORM, xAPI, or other LMS compliance standards, ensuring they can be uploaded and tracked within the LMS.
+  10. [NA] Upload the modules to the LMS, associating them with the appropriate course and setting up any access restrictions or completion tracking.
+
+--- Task 447: Inspect materials or equipment to determine need for repair or replacement.
+[A]
+  1. [NA] The technician navigates to the conveyor belt system and ensures it is powered off and safe to inspect.
+  2. [PD] The technician visually inspects the conveyor belt for any visible signs of wear, such as cracks, fraying, or uneven wear patterns.
+  3. [PD] The technician touches the conveyor belt to feel for any irregularities or damage that may not be visible.
+  4. [PD] The technician listens to the conveyor belt system for any unusual noises or vibrations that may indicate problems.
+  5. [PD] The technician checks the tension of the conveyor belt to ensure it is within the specified range.
+  6. [IC] The technician consults the manufacturer's specifications and maintenance logs for recommended replacement intervals and acceptable wear limits.
+  7. [FV] The technician documents the inspection findings, including the condition of the conveyor belt, recommended action, and date of inspection.
+  8. [FV] The technician reviews the documentation to ensure all necessary repairs or replacements are noted.
+  9. [FV] The technician delivers the inspection report to the supervisor for further action.
+[B]
+  1. [NA] Arrive at the inspection site and ensure it is safe to inspect.
+  2. [PD] Visually inspect the equipment or material for any visible signs of wear, damage, or corrosion.
+  3. [PD] Use a multimeter or other diagnostic tool to measure electrical resistance, voltage, and current, and assess electrical health.
+  4. [IC] Consult the equipment's maintenance manual and manufacturer's documentation to understand its design, specifications, and recommended maintenance procedures.
+  5. [PD] Assess the equipment's overall condition, considering factors such as its age, usage, and any previous repairs or maintenance.
+  6. [FV] Document all findings, noting any components that need repair or replacement.
+  7. [FV] Review the documentation to ensure all necessary repairs or replacements are noted.
+  8. [FV] Deliver the inspection report to the supervisor for further action.
+[C]
+  1. [NA] Navigate to the equipment and ensure it is safely powered off.
+  2. [PD] Visually inspect the equipment for any obvious signs of damage, wear, or misalignment.
+  3. [PD] Use tactile inspection to identify irregularities or damage not visible to the eye.
+  4. [PD] Listen for unusual noises or vibrations that may indicate problems.
+  5. [IC] Consult equipment manuals or specifications to understand expected operating parameters and maintenance schedules.
+  6. [FV] Based on the inspection findings and reference materials, determine the need for repair or replacement.
+  7. [FV] Document the inspection findings, including specific observations, recommended actions, and date.
+[D]
+  1. [NA] Ensure the equipment is powered off and safe to inspect.
+  2. [PR] Don appropriate Personal Protective Equipment (PPE).
+  3. [PD] Visually inspect the equipment for visible signs of damage, wear, or anomalies.
+  4. [PD] Manually inspect the equipment for any irregularities, softness, stiffness, or unusual textures.
+  5. [PD] Listen for unusual noises or vibrations that may indicate problems.
+  6. [PD] Check the tension, alignment, and other specified parameters of the equipment.
+  7. [IC] Consult manufacturer's specifications, maintenance logs, and any relevant documentation.
+  8. [PD] Assess the equipment's overall condition, considering its age, usage, and previous repairs.
+  9. [FV] Determine whether the equipment requires repair, replacement, or can continue operating safely.
+  10. [FV] Document the inspection findings, recommended actions, and date of inspection.
+  11. [FV] Submit the inspection report to the relevant supervisor or manager for further action.
+
+--- Task 448: Evaluate data quality.
+[A]
+  1. [IC] Review the project brief and data dictionary to understand the client's data quality expectations and the dataset's structure.
+  2. [NA] Access the dataset using the provided credentials and load it into a suitable data analysis environment (e.g., Python with Pandas).
+  3. [PD] Perform exploratory data analysis, including calculating descriptive statistics and identifying missing values, outliers, and inconsistencies.
+  4. [PD] Check for missing values, duplicates, and verify the accuracy and consistency of the data by comparing with known benchmarks or standards.
+  5. [FV] Summarize the findings in a report, including identified data quality issues, their potential impact, and recommendations for remediation.
+  6. [IC] Present the report to stakeholders and discuss the implications and next steps for data quality improvement.
+[B]
+  1. [IC] Review the project brief to understand the client's data quality expectations and the intended use of the dataset.
+  2. [NA] Access the dataset using the provided credentials and format.
+  3. [PD] Identify the relevant data quality dimensions for the marketing campaign, such as completeness, accuracy, timeliness, uniqueness, and consistency.
+  4. [ME] Write a SQL query to check for missing values and nulls.
+  5. [FV] Run the query and analyze the results to determine the percentage of missing values.
+  6. [ME] Check for duplicate entries by comparing hashes of the rows.
+  7. [PD] Verify the accuracy of the data by comparing it with a known reference dataset, if available.
+  8. [FV] Check if the data is up-to-date by comparing the most recent entry's timestamp with the current date.
+  9. [PD] Assess the consistency of the data by checking if the same information is represented in the same way throughout the dataset.
+  10. [ME] Prepare a report summarizing the data quality assessment, highlighting any issues found, and providing recommendations for remediation.
+  11. [IC] Present the report to the client, explaining the findings and answering any questions they may have.
+[C]
+  1. [IC] Review project documentation and client expectations to understand the intended use of the data and specific data quality requirements.
+  2. [NA] Access and load the dataset into a suitable data analysis environment.
+  3. [PD] Perform exploratory data analysis, including calculating descriptive statistics and visualizing data distributions.
+  4. [PD] Check for missing values, outliers, and inconsistencies within the dataset.
+  5. [PD] Cross-reference the data with known benchmarks or external sources to validate accuracy.
+  6. [FV] Document all identified data quality issues, including their severity and potential impact.
+  7. [FV] Propose data cleaning or preprocessing strategies to address the identified issues.
+  8. [IC] Communicate the data quality assessment findings and recommendations to stakeholders.
+[D]
+  1. [IC] Review project brief and dataset documentation to understand data quality expectations and dataset structure.
+  2. [NA] Access the dataset using provided credentials and format.
+  3. [NA] Load the dataset into a suitable data analysis environment (e.g., Python with Pandas).
+  4. [PD] Perform exploratory data analysis, including calculating descriptive statistics and visualizing data.
+  5. [PD] Check for missing values, duplicates, and outliers in the dataset.
+  6. [PD] Verify the accuracy, timeliness, uniqueness, and consistency of the data by cross-checking with known benchmarks or external sources.
+  7. [FV] Document any issues found during the data quality evaluation, including their potential impact on the intended use of the dataset.
+  8. [ME] Propose corrective actions for any identified data quality issues and prepare a report summarizing the assessment.
+  9. [IC] Present the report to stakeholders, explaining the findings and answering any questions they may have.
+
+================================================================
+ANSWER TEMPLATE
+
+441: _ | 
+442: _ | 
+443: _ | 
+444: _ | 
+445: _ | 
+446: _ | 
+447: _ | 
+448: _ | 
+

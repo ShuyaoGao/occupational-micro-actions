@@ -1,0 +1,371 @@
+BATCH 54/63 | Model: Gemini 3 Pro | Tasks 425-432
+================================================================
+EXPERT REVIEW -- Micro-Action Sequence Evaluation
+For each task, read ALL four options, then choose the BEST (A/B/C/D).
+
+Criteria:
+  1. Completeness  -- no critical steps missing
+  2. Realism       -- every step is concretely executable
+  3. Stage accuracy -- stage label correct for each step:
+     IC=Intent_Communication  NA=Navigation_Addressing
+     PD=Perception_Diagnosis  ME=Manipulation_Execution  FV=Feedback_Verification
+  4. Conciseness   -- no redundant or duplicate steps
+  5. Scope         -- starts and ends at exactly the right point
+
+OUTPUT: fill the ANSWER TEMPLATE at the bottom.
+Format: N: X | one-sentence reason (max 12 words)
+IMPORTANT: Each task has a different best answer. Do NOT pick the same
+letter for every task without reading.
+================================================================
+
+--- Task 425: Remove worn, damaged or outdated materials from work areas.
+[A]
+  1. [PD] Enter the work area and visually scan the environment to identify worn, damaged, or outdated materials.
+  2. [PD] Approach the first identified material and inspect it closely for signs of wear, damage, or obsolescence.
+  3. [ME] If the material is deemed worn, damaged, or outdated, carefully pick it up to avoid injury or further damage.
+  4. [NA] Move to the designated disposal area, navigating around obstacles and other materials.
+  5. [ME] Place the removed material in the appropriate disposal container.
+  6. [IC] Repeat the inspection and removal process for all identified materials.
+  7. [FV] Double-check the work area to ensure no materials were missed.
+  8. [FV] Document the removed materials and their locations for future reference.
+  9. [FV] Report the completion of the task to the supervisor and provide any necessary documentation.
+[B]
+  1. [NA] Enter the workshop and visually scan the area to identify potential materials that need to be removed.
+  2. [PD] Approach the first identified material and inspect it closely for signs of wear, damage, or obsolescence.
+  3. [ME] If the material is deemed worn, damaged, or outdated, pick it up carefully to avoid injury or further damage.
+  4. [NA] Move to the designated disposal area, navigating around obstacles and other materials.
+  5. [ME] Place the removed material in the appropriate disposal container.
+  6. [FV] Document the removed materials and their locations for future reference.
+  7. [PD] Review the warehouse inventory and identify the materials to be removed, using a barcode scanner to track the materials and a spreadsheet to document the removal process.
+  8. [NA] Gather necessary equipment, including a forklift, pallet jack, and trash bags, and ensure that the warehouse is clear of any obstacles or hazards.
+  9. [ME] Remove the identified materials from the warehouse, using the forklift or pallet jack to transport the materials to a designated disposal area.
+  10. [FV] Dispose of the removed materials, following local regulations and guidelines for waste disposal.
+  11. [IC] Document any issues or challenges encountered during the removal process, and suggest improvements for future removal tasks.
+  12. [FV] Inspect the cleared area to ensure all target materials have been removed.
+[C]
+  1. [PD] Enter the work area and visually scan for worn, damaged, or outdated materials.
+  2. [PD] Approach the first identified material and assess its condition.
+  3. [IC] If necessary, select and utilize appropriate tools for safe removal.
+  4. [ME] Carefully remove the material, minimizing risk of injury or further damage.
+  5. [NA] Transport the removed material to the designated disposal area.
+  6. [ME] Dispose of the material according to established procedures.
+  7. [IC] Repeat steps 2-6 for all identified materials.
+  8. [FV] Conduct a final walkthrough to ensure all target materials have been removed.
+[D]
+  1. [PD] Enter the work area and visually scan for worn, damaged, or outdated materials.
+  2. [PD] Approach the first identified material and inspect it closely for signs of wear, damage, or obsolescence.
+  3. [IC] Select appropriate tools and personal protective equipment (PPE) based on the material type and potential hazards.
+  4. [NA] Safely maneuver to the material, ensuring stable footing and navigating around obstacles.
+  5. [ME] Apply force with the selected tool to loosen, break apart, or remove the material, following established protocols for hazardous materials.
+  6. [NA] Lift and carry the detached material to the designated disposal container, navigating around obstacles and other materials.
+  7. [ME] Deposit the material into the container, ensuring it is stable and won't fall out or cause hazards.
+  8. [IC] Repeat steps 4-7 for each identified worn, damaged, or outdated material in the designated area.
+  9. [FV] Visually inspect the cleared area to ensure all target materials have been removed and no hazards remain.
+  10. [FV] Document the removed materials, their locations, and any issues or challenges encountered during the removal process.
+  11. [FV] Report the completion of the task to the supervisor and provide any necessary documentation.
+
+--- Task 426: Monitor green energy equipment, systems, or facilities.
+[A]
+  1. [IC] Access the monitoring system interface on a laptop or tablet.
+  2. [PD] Review real-time data on solar panel output, battery charge levels, and grid connection status.
+  3. [PD] Compare current data with historical trends and performance benchmarks.
+  4. [NA] Visually inspect the solar panels for any signs of damage, debris, or shading.
+  5. [PD] Check the connections and wiring of the solar panels and battery system.
+  6. [FV] Record any observations or potential issues in a digital log.
+  7. [IC] Alert the appropriate personnel (e.g., maintenance team) if any critical issues are identified.
+  8. [FV] Generate a report summarizing the monitoring session and any actions taken.
+[B]
+  1. [IC] Access the monitoring system interface on a laptop or tablet.
+  2. [PD] Review real-time data on solar panel output, battery charge levels, and grid connection status.
+  3. [PD] Compare current data with historical trends and performance benchmarks.
+  4. [NA] Visually inspect the solar panels for any signs of damage, debris, or shading.
+  5. [PD] Check the connections and wiring of the solar panels and battery system.
+  6. [FV] Record any observations or potential issues in a digital log.
+  7. [IC] Alert the appropriate personnel (e.g., maintenance team) if any critical issues are identified.
+  8. [FV] Generate a report summarizing the monitoring session and any actions taken.
+[C]
+  1. [IC] Access the monitoring system interface on a laptop or tablet.
+  2. [PD] Review real-time data on solar panel output, battery charge levels, and grid connection status.
+  3. [PD] Compare current data with historical trends and performance benchmarks.
+  4. [PD] Visually inspect the solar panels for any signs of damage, debris, or shading.
+  5. [FV] Record any observations or potential issues in a digital log.
+  6. [IC] Alert the appropriate personnel (e.g., maintenance team) if any critical issues are identified.
+[D]
+  1. [IC] Access the monitoring system interface on a laptop or tablet.
+  2. [PD] Review real-time data on solar panel output, battery charge levels, and grid connection status.
+  3. [PD] Compare current data with historical trends and performance benchmarks.
+  4. [NA] Visually inspect the solar panels for any signs of damage, debris, or shading.
+  5. [PD] Check the connections and wiring of the solar panels and battery system.
+  6. [FV] Record any observations or potential issues in a digital log.
+  7. [IC] Alert the appropriate personnel (e.g., maintenance team) if any critical issues are identified.
+  8. [NA] Navigate to the next section or turbine, avoiding obstacles and maintaining a safe distance.
+  9. [PD] Retrieve real-time data from the next equipment's control system.
+  10. [FV] Generate a report based on the recorded data and submit it to the control room for review.
+  11. [IC] Confirm the end of the monitoring round with the control room and sign off for the day.
+
+--- Task 427: Assist individuals with special needs.
+[A]
+  1. [PD] Observe the individual's current state and mood, looking for any non-verbal cues indicating their needs or discomfort.
+  2. [ME] Gently wake the individual if they're still sleeping, using a soft, reassuring voice and touch.
+  3. [ME] Assist the individual in transferring from the bed to their wheelchair, ensuring their safety and comfort.
+  4. [NA] Push the wheelchair to the bathroom, navigating through the home while avoiding obstacles.
+  5. [ME] Assist the individual with their personal hygiene routine, following their specific preferences and needs.
+  6. [ME] Help the individual get dressed, selecting appropriate clothing based on the day's activities and weather.
+  7. [ME] Prepare breakfast according to the individual's dietary needs and preferences.
+  8. [ME] Assist the individual in eating their breakfast, ensuring they're comfortable and safe.
+  9. [FV] Clean up the breakfast area, ensuring all utensils and surfaces are clean and safe.
+  10. [IC] Check in with the individual, ensuring they're comfortable and ready for the day's activities, and communicate this to any other caregivers or family members.
+[B]
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+[C]
+  1. [IC] Approach the individual and greet them warmly, assessing their mood and readiness for the day.
+  2. [ME] Assist the individual in transferring to a comfortable position for dressing, considering any physical limitations.
+  3. [NA] Help the individual select appropriate clothing based on their preferences, the weather, and any sensory sensitivities.
+  4. [ME] Provide assistance with dressing, adapting techniques to the individual's abilities and needs.
+  5. [ME] Prepare a simple, nutritious meal, considering any dietary restrictions or preferences.
+  6. [ME] Assist the individual with eating, providing support and encouragement as needed.
+  7. [IC] Engage in conversation or activities that are enjoyable and stimulating for the individual.
+  8. [PD] Observe the individual for any signs of discomfort or distress, and adjust support accordingly.
+[D]
+  1. [PD] Approach the individual and greet them warmly, assessing their mood and needs through non-verbal cues.
+  2. [ME] Gently wake the individual if they're still sleeping, using a soft, reassuring voice and touch.
+  3. [ME] Assist the individual in transferring from their bed or chair to a stable position, ensuring their safety and comfort.
+  4. [ME] Help the individual with their personal hygiene routine, following their specific preferences and needs.
+  5. [ME] Assist the individual in getting dressed, selecting appropriate clothing based on the day's activities and weather.
+  6. [ME] Prepare a meal according to the individual's dietary needs and preferences.
+  7. [ME] Assist the individual in eating their meal, ensuring they're comfortable, safe, and at a suitable pace.
+  8. [FV] Clean up the meal area, ensuring all utensils and surfaces are clean and safe.
+  9. [IC] Check in with the individual, ensuring they're comfortable, engaged, and ready for the day's activities.
+  10. [IC] Communicate the individual's needs, preferences, and progress to other caregivers or family members.
+
+--- Task 428: Monitor processes for compliance with standards.
+[A]
+  1. [IC] Review the relevant quality control standards and checklists for the day's production run.
+  2. [NA] Navigate to the manufacturing floor and approach the relevant production stations.
+  3. [PD] Observe the manufacturing process at each station, comparing it with the relevant standards.
+  4. [ME] Document any non-compliance issues, including their location and time of observation.
+  5. [PD] Review production line data and previous quality control reports to understand the current compliance status.
+  6. [ME] Develop and implement a corrective action plan to address identified non-compliance issues.
+  7. [PD] Monitor the production line to ensure compliance with standards and identify areas for further improvement.
+  8. [IC] Communicate findings and recommendations to the production team and management.
+  9. [FV] Document and track progress, including compliance rates and areas for further improvement.
+[B]
+  1. [IC] Review the ISO 9001 quality management standards and the specific compliance requirements for the electronic circuit board manufacturing process.
+  2. [NA] Navigate to the manufacturing floor and approach the electronic circuit board assembly line.
+  3. [PD] Observe the initial stages of the manufacturing process, including the preparation and assembly of components.
+  4. [PD] Check the documentation and records for the materials and components used in the manufacturing process.
+  5. [PD] Inspect the quality of the soldering and assembly of the circuit boards.
+  6. [PD] Monitor the testing and quality control processes for the circuit boards.
+  7. [FV] Document any non-compliance issues and deviations from the ISO 9001 standards.
+  8. [IC] Communicate the identified issues to the production team and provide guidance on corrective actions.
+  9. [FV] Verify that the corrective actions have been implemented and the process is now compliant with the ISO 9001 standards.
+  10. [FV] Deliver the final report to the management team, summarizing the compliance status and any ongoing issues.
+[C]
+  1. [IC] Review relevant compliance standards and checklists for the specific manufacturing process.
+  2. [NA] Navigate to the designated manufacturing area.
+  3. [PD] Observe the manufacturing process, comparing it to the established standards.
+  4. [FV] Document any observed non-compliance issues, including specific details and timestamps.
+  5. [FV] Capture photographic evidence of non-compliant processes, if applicable.
+  6. [PD] Analyze documented non-compliance issues to identify root causes and potential solutions.
+  7. [IC] Communicate findings and recommendations to relevant personnel, including production staff and management.
+  8. [ME] Collaborate with the production team to implement corrective actions and prevent recurrence.
+  9. [FV] Monitor the effectiveness of corrective actions and make adjustments as needed.
+[D]
+  1. [IC] Review and understand the relevant standards and compliance requirements for the process being monitored.
+  2. [PD] Access and review previous quality control reports and production line data to understand the current compliance status.
+  3. [NA] Navigate to the production line or relevant work area and observe the process in action.
+  4. [PD] Conduct a visual inspection of the production line or process, comparing observed activities with the relevant standards.
+  5. [ME] Document any identified non-compliance issues, including the time, location, and a brief description of the deviation.
+  6. [ME] Take photographic or video evidence of the identified non-compliance issues, if possible.
+  7. [ME] Review the documented non-compliance issues and develop a corrective action plan, including training, process adjustments, and quality control checks.
+  8. [ME] Implement the corrective action plan, including training staff and adjusting processes as needed.
+  9. [PD] Monitor the process to ensure ongoing compliance with standards and identify areas for further improvement.
+  10. [IC] Communicate findings, recommendations, and corrective actions to production line staff, management, and other relevant stakeholders.
+  11. [FV] Document and track progress, including compliance rates and areas for further improvement, to inform future quality control efforts.
+
+--- Task 429: Record information about parts, materials or repair procedures.
+[A]
+  1. [IC] Retrieve the vehicle's repair order and open the digital record-keeping system.
+  2. [PD] Identify the specific parts used for the repair by visually inspecting the parts and cross-referencing with the manufacturer's catalog.
+  3. [ME] Enter the part numbers and descriptions into the digital record-keeping system.
+  4. [PD] Identify the materials used for the repair, such as lubricants or adhesives, and record their quantities.
+  5. [ME] Enter the material descriptions and quantities into the digital record-keeping system.
+  6. [PD] Document the repair procedures performed, including specific tools and techniques used.
+  7. [ME] Enter the repair procedures into the digital record-keeping system, including any notes or observations.
+  8. [FV] Review the recorded information for accuracy and completeness.
+  9. [FV] Save the completed record in the digital system and print a copy for the customer.
+[B]
+  1. [PD] Review the repair job's documentation to identify the parts used, materials consumed, and procedures followed.
+  2. [NA] Locate the relevant documentation templates, such as repair manuals or inventory lists.
+  3. [ME] Carefully record the parts used, materials consumed, and procedures followed in the designated documentation template.
+  4. [FV] Review the recorded information for accuracy and completeness.
+  5. [ME] Update the inventory lists and repair manuals as necessary to reflect the parts used and materials consumed during the repair job.
+  6. [NA] Store the completed documentation in a designated location, such as a file cabinet or digital storage device.
+  7. [FV] Verify that all necessary documentation is complete and accurate before closing the repair job.
+  8. [PD] Document any issues or challenges encountered during the repair job, including any necessary corrections or improvements.
+  9. [FV] Review the documented information to identify areas for improvement and optimize future repair jobs.
+[C]
+  1. [IC] Retrieve the vehicle's repair order and open the digital record-keeping system.
+  2. [PD] Identify the parts used for the repair by visually inspecting them and cross-referencing with the manufacturer's catalog.
+  3. [ME] Enter the part numbers, descriptions, and quantities into the digital record-keeping system.
+  4. [PD] Identify the materials used for the repair, such as lubricants or adhesives, and record their quantities.
+  5. [ME] Enter the material descriptions and quantities into the digital record-keeping system.
+  6. [ME] Document the repair procedures performed, including specific tools and techniques used, in the digital system.
+  7. [FV] Review the recorded information for accuracy and completeness.
+  8. [FV] Save the completed record in the digital system.
+[D]
+  1. [IC] Retrieve the vehicle's repair order and open the digital record-keeping system.
+  2. [PD] Identify and record the specific parts used for the repair by visually inspecting them and cross-referencing with the manufacturer's catalog.
+  3. [ME] Enter the part numbers, descriptions, and quantities into the digital record-keeping system.
+  4. [PD] Identify and record the materials used for the repair, such as lubricants or adhesives, including their quantities.
+  5. [ME] Enter the material descriptions, types, and quantities into the digital record-keeping system.
+  6. [PD] Document the repair procedures performed, including specific tools and techniques used.
+  7. [ME] Enter the repair procedures, tools used, and any notes or observations into the digital record-keeping system.
+  8. [FV] Review the recorded information for accuracy, completeness, and consistency.
+  9. [FV] Save the completed record in the digital system and print a copy for the customer.
+  10. [FV] Deliver the printed record to the customer, confirm its accuracy, and update inventory and repair manuals as necessary.
+
+--- Task 430: Prepare research reports.
+[A]
+  1. [PD] Review the collected data and research findings to ensure completeness and accuracy.
+  2. [IC] Identify the specific sections and structure of the report based on the agency's guidelines.
+  3. [NA] Open a new document in a word processing software and set up the document with the required formatting (margins, font, headers, etc.).
+  4. [ME] Write the introduction section, summarizing the research objectives and methodology, followed by the methods, results, discussion, and conclusion sections.
+  5. [FV] Review the entire document for accuracy, clarity, and adherence to formatting guidelines.
+  6. [NA] Save the document and upload it to the agency's submission portal.
+[B]
+  1. [PD] Review the collected data and research findings to ensure completeness and accuracy.
+  2. [IC] Identify the specific sections and structure of the report based on the agency's guidelines.
+  3. [NA] Open a new document in a word processing software and set up the document with the required formatting (margins, font, headers, etc.).
+  4. [ME] Write the introduction section, summarizing the research objectives and methodology.
+  5. [ME] Write the methods section, detailing the data collection and analysis procedures.
+  6. [ME] Write the results section, presenting the findings and supporting data.
+  7. [ME] Write the discussion section, interpreting the results and discussing their implications.
+  8. [ME] Write the conclusion section, summarizing the findings and suggesting future research directions.
+  9. [FV] Review the entire document for accuracy, clarity, and adherence to formatting guidelines.
+  10. [NA] Save the document and upload it to the agency's submission portal.
+[C]
+  1. [IC] Review research findings and agency guidelines to define report structure.
+  2. [NA] Open a new document in word processing software and set up formatting.
+  3. [ME] Write the introduction, summarizing research objectives and methodology.
+  4. [ME] Write the methods, results, and discussion sections, presenting findings and analysis.
+  5. [ME] Write the conclusion, summarizing findings and suggesting future research.
+  6. [FV] Review the entire document for accuracy, clarity, and adherence to guidelines.
+  7. [NA] Save the document and submit it through the designated agency portal.
+[D]
+  1. [PD] Review and ensure completeness and accuracy of collected data and research findings.
+  2. [IC] Identify specific sections and structure of the report based on agency's guidelines.
+  3. [NA] Open a new document in a word processing software and set up the document with required formatting.
+  4. [ME] Write the introduction section, summarizing research objectives and methodology.
+  5. [ME] Write the methods section, detailing data collection and analysis procedures.
+  6. [ME] Write the results section, presenting findings and supporting data.
+  7. [ME] Write the discussion section, interpreting results and discussing implications.
+  8. [ME] Write the conclusion section, summarizing findings and suggesting future research directions.
+  9. [FV] Review the entire document for accuracy, clarity, and adherence to formatting guidelines.
+  10. [NA] Save the document and upload it to the agency's submission portal.
+
+--- Task 431: Replace worn, damaged, or defective mechanical parts.
+[A]
+  1. [PD] Review repair manual and conveyor belt system documentation to understand the bearing replacement procedure and identify potential challenges.
+  2. [PD] Locate the worn-out bearing and assess its condition to confirm the need for replacement.
+  3. [ME] Shut down the conveyor belt system and ensure it is powered off and safe to work on.
+  4. [NA] Retrieve the replacement bearing from the inventory or a nearby storage area.
+  5. [ME] Remove the worn-out bearing and inspect the surrounding area for any debris or damage.
+  6. [ME] Install the replacement bearing, ensuring it is properly seated and secured.
+  7. [ME] Reassemble the conveyor belt system around the new bearing, ensuring all components are securely in place.
+  8. [FV] Test the conveyor belt system to ensure the new bearing is functioning correctly and the system operates smoothly.
+  9. [IC] Document the replacement process and any issues encountered during the maintenance activity.
+[B]
+  1. [PD] Review repair manual and conveyor belt system documentation to understand the bearing replacement procedure and identify potential challenges.
+  2. [PD] Locate the worn-out bearing and assess its condition to confirm the need for replacement.
+  3. [NA] Select the correct replacement bearing from the toolroom, ensuring it matches the repair manual's specifications.
+  4. [NA] Gather necessary tools and equipment, including a bearing press and lubricant, to facilitate the replacement procedure.
+  5. [NA] Disconnect the conveyor belt system's power supply and lock out the system to ensure safety during the replacement procedure.
+  6. [ME] Remove the worn-out bearing and inspect the surrounding area for any debris or damage.
+  7. [ME] Install the replacement bearing, ensuring it is properly seated and secured.
+  8. [FV] Reconnect the conveyor belt system's power supply and restart the system, monitoring its performance to ensure the replacement bearing is functioning correctly.
+  9. [FV] Verify the conveyor belt system's performance parameters, including speed and tension, to ensure the replacement bearing is operating within designated limits.
+  10. [IC] Document the replacement procedure, including any challenges encountered and lessons learned, to improve future maintenance operations.
+[C]
+  1. [PD] Identify the worn bearing on the conveyor belt system through visual inspection.
+  2. [ME] Power down the conveyor belt system and ensure it is safe to work on.
+  3. [NA] Retrieve the correct replacement bearing from inventory.
+  4. [ME] Remove the damaged bearing using appropriate tools.
+  5. [ME] Install the new bearing, ensuring proper alignment and fit.
+  6. [FV] Test the conveyor belt system to verify the new bearing is functioning correctly.
+  7. [IC] Document the replacement process and any encountered issues.
+[D]
+  1. [PD] Review repair manual and system documentation to understand the replacement procedure and identify potential challenges.
+  2. [PD] Locate and assess the condition of the worn-out part to confirm the need for replacement.
+  3. [NA] Select the correct replacement part from the inventory or storage area, ensuring it matches the repair manual's specifications.
+  4. [NA] Gather necessary tools and equipment to facilitate the replacement procedure.
+  5. [NA] Disconnect the system's power supply and lock out the system to ensure safety during the replacement procedure.
+  6. [ME] Remove the worn-out part and inspect the surrounding area for any debris or damage.
+  7. [ME] Install the replacement part, ensuring it is properly seated, secured, and aligned.
+  8. [FV] Reconnect the system's power supply and restart the system, monitoring its performance to ensure the replacement part is functioning correctly.
+  9. [FV] Verify the system's performance parameters to ensure the replacement part is operating within designated limits.
+  10. [IC] Document the replacement procedure, including any challenges encountered and lessons learned, to improve future maintenance operations.
+
+--- Task 432: Research sustainable agricultural processes or practices.
+[A]
+  1. [IC] Review existing literature and online databases for sustainable agricultural practices suitable for the farm's specific conditions.
+  2. [IC] Meet with the farm owners to discuss current practices, challenges, and goals.
+  3. [NA] Collect soil and water samples from the farm for laboratory analysis.
+  4. [PD] Analyze the collected data and samples to understand the current conditions and identify potential improvements.
+  5. [ME] Develop a customized plan for implementing sustainable practices, including specific recommendations and expected outcomes.
+  6. [IC] Present the plan to the farm owners and address any questions or concerns.
+  7. [ME] Implement the selected sustainable practices on the farm, including any necessary changes to equipment or resources.
+  8. [FV] Monitor and evaluate the effectiveness of the implemented sustainable practices, making adjustments as needed.
+  9. [FV] Document the results and lessons learned, preparing a final report for the farm owners.
+[B]
+  1. [IC] Review existing literature on sustainable irrigation methods for semi-arid regions.
+  2. [NA] Visit the local farm to observe current irrigation practices and discuss challenges with the farm manager.
+  3. [ME] Collect soil and water samples from the farm for laboratory analysis.
+  4. [PD] Analyze the collected data and samples to understand the current water usage and soil conditions.
+  5. [ME] Design a set of experiments to test different sustainable irrigation methods, such as drip irrigation and rainwater harvesting.
+  6. [ME] Implement the experiments on a small plot within the farm to test the proposed sustainable irrigation methods.
+  7. [FV] Monitor the experiments, recording data on water usage, plant growth, and yield.
+  8. [FV] Analyze the results of the experiments to determine the effectiveness of the sustainable irrigation methods.
+  9. [FV] Prepare a report detailing the findings and recommendations for sustainable irrigation practices.
+  10. [FV] Present the report to the farm manager and discuss the proposed sustainable irrigation solution.
+[C]
+  1. [IC] The researcher meets with the farm owner to discuss current practices, challenges, and goals related to sustainability.
+  2. [IC] The researcher reviews existing literature and online resources on sustainable agricultural practices relevant to the farm's location, crops, and challenges.
+  3. [ME] The researcher identifies 2-3 promising sustainable practices based on the initial research and the farm's specific needs.
+  4. [NA] The researcher visits the farm to observe current practices, collect soil samples, and identify suitable locations for implementing the chosen practices.
+  5. [PD] The researcher analyzes the soil samples and any other relevant data (e.g., water usage records) to understand the farm's current conditions.
+  6. [ME] The researcher develops a customized plan outlining the implementation of the chosen sustainable practices, including timelines, resource requirements, and expected outcomes.
+  7. [FV] The researcher presents the plan to the farm owner, explaining the rationale behind the recommendations and addressing any questions or concerns.
+[D]
+  1. [PD] Review farm's historical crop records, soil test results, and water usage data to understand the current state of soil, crops, and water consumption.
+  2. [IC] Research sustainable farming practices suitable for the farm's climate, soil type, and crop types, focusing on irrigation methods, soil management, and crop selection.
+  3. [IC] Meet with farm owners to discuss current practices, challenges, and goals, and to present preliminary findings and recommendations.
+  4. [ME] Collect soil samples from key locations on the farm map for further analysis, ensuring proper labeling and storage.
+  5. [PD] Analyze collected soil samples to determine nutrient content, organic matter, pH levels, and other relevant properties.
+  6. [ME] Based on data analysis, select the most suitable sustainable practices, such as improved irrigation methods, soil management techniques, and crop rotation.
+  7. [ME] Create a detailed implementation plan outlining timelines, resource requirements, and expected outcomes for the selected sustainable practices.
+  8. [IC] Review the implementation plan with farm owners, addressing their concerns, questions, and feedback to refine the plan as needed.
+  9. [ME] Implement the selected sustainable practices on the farm, monitoring progress and making adjustments as needed.
+  10. [FV] Document the results of the implemented sustainable practices, including any lessons learned and recommendations for future improvements.
+
+================================================================
+ANSWER TEMPLATE
+
+425: _ | 
+426: _ | 
+427: _ | 
+428: _ | 
+429: _ | 
+430: _ | 
+431: _ | 
+432: _ | 
+

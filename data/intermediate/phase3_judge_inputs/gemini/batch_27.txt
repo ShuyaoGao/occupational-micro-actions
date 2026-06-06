@@ -1,0 +1,368 @@
+BATCH 27/63 | Model: Gemini 3 Pro | Tasks 209-216
+================================================================
+EXPERT REVIEW -- Micro-Action Sequence Evaluation
+For each task, read ALL four options, then choose the BEST (A/B/C/D).
+
+Criteria:
+  1. Completeness  -- no critical steps missing
+  2. Realism       -- every step is concretely executable
+  3. Stage accuracy -- stage label correct for each step:
+     IC=Intent_Communication  NA=Navigation_Addressing
+     PD=Perception_Diagnosis  ME=Manipulation_Execution  FV=Feedback_Verification
+  4. Conciseness   -- no redundant or duplicate steps
+  5. Scope         -- starts and ends at exactly the right point
+
+OUTPUT: fill the ANSWER TEMPLATE at the bottom.
+Format: N: X | one-sentence reason (max 12 words)
+IMPORTANT: Each task has a different best answer. Do NOT pick the same
+letter for every task without reading.
+================================================================
+
+--- Task 209: Assemble electrical components, subsystems, or systems.
+[A]
+  1. [PD] Review the assembly blueprint and bill of materials to ensure all necessary components are present and accounted for.
+  2. [NA] Retrieve and organize the control panel frame and mounting hardware from the storage area.
+  3. [ME] Position the control panel frame on the workbench and secure it using clamps.
+  4. [ME] Mount the circuit breakers, relays, and PLC to the control panel frame using screws and a screwdriver.
+  5. [ME] Run the necessary wiring from the circuit breakers to the relays and PLC, following the assembly blueprint.
+  6. [ME] Secure the wiring using cable ties and clips to keep the control panel organized.
+  7. [ME] Connect the input and output terminals of the PLC to the appropriate components.
+  8. [FV] Run a preliminary test on the control panel to ensure all components are functioning correctly.
+  9. [IC] Document the assembly process and any notes on the control panel's configuration.
+  10. [NA] Deliver the assembled control panel to the installation area for further integration into the industrial automation system.
+[B]
+  1. [PD] Review the electrical system design and bill of materials to ensure all necessary components are present and accounted for.
+  2. [NA] Sort and organize the electrical components, ensuring easy access and minimizing clutter in the workspace.
+  3. [ME] Begin assembling the electrical subsystems, starting with the power supply unit and working their way through the system.
+  4. [FV] Verify the electrical connections and ensure that all components are properly seated and secured.
+  5. [FV] Test the electrical system to ensure that it is functioning as intended and meets the required specifications.
+  6. [ME] Make any necessary adjustments or repairs to the electrical system to ensure that it meets the required specifications.
+  7. [IC] Document the electrical system assembly, including any notable issues or challenges encountered during the process.
+  8. [FV] Perform a final inspection of the electrical system to ensure that it is complete and meets the required specifications.
+  9. [NA] Package the electrical system for shipping or storage, ensuring that it is properly protected and secured.
+  10. [IC] Verify that all necessary documentation and paperwork are complete and accurate, including any relevant certifications or compliance records.
+  11. [FV] Deliver the assembled electrical system to the installation area for further integration into the industrial automation system.
+[C]
+  1. [IC] Review the assembly blueprint and bill of materials to identify components and their placement.
+  2. [NA] Gather all necessary components and tools from the designated storage area.
+  3. [NA] Prepare the work area by organizing components and ensuring a clean, clutter-free workspace.
+  4. [ME] Mount the control panel frame to the workbench using clamps or other appropriate securing methods.
+  5. [ME] Install components onto the control panel frame according to the blueprint, using appropriate fasteners and tools.
+  6. [ME] Connect wiring between components, following the wiring diagram meticulously.
+  7. [PD] Inspect all connections and component placements, verifying they match the blueprint and are properly secured.
+  8. [FV] Conduct a preliminary test of the assembled control panel to ensure all components are functioning correctly.
+  9. [IC] Document the assembly process, noting any deviations from the blueprint or specific configurations.
+[D]
+  1. [IC] Review the assembly blueprint or wiring diagram to understand the layout, components, and connections.
+  2. [NA] Gather all required components and tools, ensuring easy access and minimizing clutter in the workspace.
+  3. [ME] Position the base component (e.g., control panel frame, circuit board) on the workbench and secure it using clamps or other means.
+  4. [ME] Mount or place the components onto the base component according to the blueprint or diagram, using appropriate fasteners (e.g., screws, solder).
+  5. [ME] Connect the components using wiring, following the blueprint or diagram, ensuring correct polarity and secure fastening.
+  6. [ME] Route and secure wiring harnesses, ensuring no wires are pinched or obstructed, and the assembly remains organized.
+  7. [PD] Verify all connections and component placements against the blueprint or diagram, ensuring correctness and completeness.
+  8. [FV] Test the assembled system to ensure all components are functioning correctly and meet the required specifications.
+  9. [IC] Document the assembly process, including any notable issues, challenges, or changes made to the original design.
+  10. [NA] Prepare the assembled system for delivery, storage, or integration by packaging it properly and ensuring all necessary documentation is complete.
+
+--- Task 210: Evaluate the characteristics of green technologies.
+[A]
+  1. [PD] Review the plant's energy consumption reports to understand its current energy profile.
+  2. [IC] Research and compile a list of relevant green technologies applicable to manufacturing plants.
+  3. [NA] Gather detailed information about each selected green technology, including its working principle, energy savings, implementation costs, and environmental impact.
+  4. [ME] Calculate the potential energy savings and return on investment (ROI) for each technology based on the plant's energy profile.
+  5. [PD] Evaluate the environmental impact of each technology, considering factors such as greenhouse gas emissions, water usage, and waste generation.
+  6. [ME] Rank the technologies based on their potential energy savings, ROI, and environmental impact.
+  7. [FV] Prepare a detailed report outlining the findings, including recommendations for the most promising technologies.
+  8. [IC] Present the report to the plant's management team, answering questions and addressing concerns.
+  9. [ME] Based on feedback, refine the report and recommendations as necessary.
+  10. [FV] Submit the final report and recommendations to the plant's sustainability committee for review and implementation.
+[B]
+  1. [PD] Review the plant's energy consumption data from the past year.
+  2. [PD] Analyze the roof's size, orientation, and shading to estimate solar panel capacity.
+  3. [IC] Research the cost of solar panel installation and maintenance in the local market.
+  4. [ME] Calculate the estimated annual energy generation of the solar panels.
+  5. [ME] Estimate the payback period for the solar panel investment based on energy savings and installation costs.
+  6. [IC] Research the environmental impact of solar panel manufacturing and disposal.
+  7. [FV] Summarize the findings in a written report, outlining the pros and cons of solar panel installation.
+  8. [FV] Deliver the report to the plant manager and discuss the findings.
+[C]
+  1. [IC] Define the scope and specific requirements of the green technology evaluation with the client.
+  2. [NA] Research and gather data on relevant green technologies, including their technical specifications, performance data, environmental impact, and cost-effectiveness.
+  3. [PD] Analyze and compare the collected data to identify the strengths and weaknesses of each green technology in relation to the client's requirements.
+  4. [ME] Develop a comprehensive report summarizing the findings of the evaluation, including a clear ranking of the green technologies based on their suitability for the client's needs.
+  5. [IC] Present the report findings to the client, clearly explaining the analysis and recommendations, and addressing any questions or concerns.
+[D]
+  1. [PD] Review the plant's energy consumption data and understand its current energy profile.
+  2. [IC] Research and compile a list of relevant green technologies applicable to the plant's industry.
+  3. [NA] Gather detailed information about each selected green technology, including its working principle, energy savings, implementation costs, and environmental impact.
+  4. [ME] Calculate the potential energy savings and return on investment (ROI) for each technology based on the plant's energy profile.
+  5. [PD] Evaluate the environmental impact of each technology, considering factors such as greenhouse gas emissions, water usage, and waste generation.
+  6. [ME] Rank the technologies based on their potential energy savings, ROI, and environmental impact.
+  7. [FV] Prepare a detailed report outlining the findings, including recommendations for the most promising technologies.
+  8. [IC] Present the report to the plant's management team, answering questions and addressing concerns.
+  9. [ME] Based on feedback, refine the report and recommendations as necessary.
+  10. [FV] Submit the final report and recommendations to the plant's sustainability committee for review and implementation.
+  11. [IC] Follow up with the sustainability committee to ensure the report is being considered and to provide any additional information or support as needed.
+
+--- Task 211: Confer with others about financial matters.
+[A]
+  1. [IC] Greet the client and invite them to sit down in the conference room.
+  2. [IC] Review the meeting's agenda and objectives with the client.
+  3. [PD] Review the client's financial documents and investment portfolio.
+  4. [PD] Present the current state of the portfolio, highlighting key performance metrics.
+  5. [PD] Discuss potential investment strategies and their risks and benefits.
+  6. [IC] Listen to the client's feedback and concerns about the proposed strategies.
+  7. [ME] Adjust the proposed strategies based on the client's feedback.
+  8. [FV] Summarize the agreed-upon investment plan and next steps.
+  9. [FV] Provide the client with a written summary of the meeting and the proposed investment plan.
+  10. [FV] Schedule the next review session and conclude the meeting.
+[B]
+  1. [IC] Greet the client and invite them to sit down in the conference room.
+  2. [IC] Ask the client about their current financial situation and any recent changes.
+  3. [NA] Review the client's investment portfolio and financial documents.
+  4. [PD] Present the current state of the portfolio, highlighting key performance metrics.
+  5. [PD] Discuss potential investment strategies and their risks and benefits.
+  6. [IC] Listen to the client's feedback and concerns about the proposed strategies.
+  7. [ME] Adjust the proposed strategies based on the client's feedback.
+  8. [FV] Summarize the agreed-upon investment plan and next steps.
+  9. [FV] Provide the client with a written summary of the meeting and the proposed investment plan.
+  10. [IC] Conclude the meeting by scheduling the next review session.
+[C]
+  1. [IC] Greet participants and confirm the meeting's purpose.
+  2. [PD] Review relevant financial documents and data.
+  3. [IC] Discuss financial goals, risk tolerance, and any relevant changes in circumstances.
+  4. [ME] Present potential financial strategies and explain their implications.
+  5. [IC] Address participant questions and concerns, adjusting strategies as needed.
+  6. [FV] Summarize the agreed-upon financial plan and next steps.
+  7. [NA] Provide a written summary of the meeting and plan.
+[D]
+  1. [IC] Greet clients and begin the meeting, setting expectations and reviewing the agenda.
+  2. [PD] Review and discuss clients' financial documents, goals, and risk tolerance.
+  3. [IC] Present relevant financial options, strategies, or plans based on the clients' profile.
+  4. [ME] Use financial planning tools to generate preliminary plans or projections.
+  5. [IC] Present and discuss the preliminary plans or projections with the clients.
+  6. [ME] Collaboratively adjust the plans based on clients' feedback and preferences.
+  7. [FV] Summarize the agreed-upon plan, next steps, and schedule a follow-up meeting.
+  8. [NA] Share the meeting summary and agreed-upon plan with relevant parties.
+  9. [IC] Conclude the meeting, thanking clients for their time and input.
+
+--- Task 212: Monitor health or behavior of people or animals.
+[A]
+  1. [PD] Review the medical history and vaccination records of the subjects to identify any potential health risks.
+  2. [NA] Enter the area and observe the overall environment for cleanliness and stress indicators.
+  3. [PD] Observe each subject's behavior and physical condition, looking for signs of illness or stress such as changes in appetite, water intake, or unusual activity.
+  4. [ME] Check the subjects' vital signs, including temperature, pulse, and respiration, using appropriate tools.
+  5. [FV] Record all observations and findings in the subjects' health records.
+  6. [PD] Identify any trends or concerns across the group of subjects and consult with a veterinarian if necessary.
+  7. [IC] Communicate the findings and recommendations to the relevant staff.
+  8. [FV] Update the master log with the morning's observations and any follow-up actions required.
+[B]
+  1. [PD] Review the medical history and vaccination records of the animals to identify any potential health risks.
+  2. [PD] Observe the animals' behavior and physical condition, looking for signs of illness or stress such as changes in appetite or water intake.
+  3. [ME] Take the temperature of the animals to check for signs of fever or illness.
+  4. [ME] Examine the animals' eyes, ears, and mouth for signs of illness or injury.
+  5. [FV] Record the observations and findings in the animals' medical records.
+  6. [IC] Communicate the findings to the relevant staff and provide recommendations for any necessary action.
+  7. [ME] Develop a plan to address any identified health or behavioral issues, including any necessary medication or environmental modifications.
+  8. [ME] Implement the plan to address any identified health or behavioral issues, including any necessary medication or environmental modifications.
+  9. [PD] Monitor the animals' response to the implemented plan and make any necessary adjustments.
+  10. [FV] Update the health records for each animal, noting any changes or concerns.
+  11. [FV] Conclude the monitoring session and ensure all animals are comfortable and settled.
+[C]
+  1. [IC] Review relevant medical history and behavioral records for each subject.
+  2. [PD] Systematically observe each subject's environment and overall appearance for any signs of distress, illness, or abnormal behavior.
+  3. [ME] Conduct targeted physical examinations, including temperature, pulse, respiration checks, and visual inspection for abnormalities.
+  4. [FV] Record all observations and findings in a clear and organized manner.
+  5. [PD] Identify any subjects requiring further attention or intervention based on the collected data.
+  6. [IC] Communicate any concerns or recommendations to relevant personnel (e.g., veterinarian, caretakers).
+[D]
+  1. [IC] Review medical history and behavioral norms of each subject.
+  2. [NA] Enter the area and approach each subject, maintaining a calm demeanor.
+  3. [PD] Visually assess the subject's overall appearance and demeanor.
+  4. [ME] Measure and record vital signs: temperature, pulse, blood pressure (if applicable), and respiration rate.
+  5. [ME] Check the subject's gums for color and capillary refill time (if applicable).
+  6. [PD] Listen to the subject's heart and lungs (if applicable) for any abnormal sounds.
+  7. [FV] Record all observations and findings in the subject's digital health record.
+  8. [PD] Review all recorded observations to identify any trends, concerns, or anomalies across the group of subjects.
+  9. [IC] Consult with relevant professionals (e.g., veterinarian, doctor) to discuss any concerns or anomalies.
+  10. [FV] Update the master log with the monitoring session's observations and any follow-up actions required.
+
+--- Task 213: Position hand tools.
+[A]
+  1. [IC] Mentally plan the layout of the workbench, considering the tools needed for the task and their preferred working order.
+  2. [PD] Open the toolbox and visually scan the contents to identify the required tools for the task.
+  3. [NA] Retrieve the hammer from the toolbox and place it within easy reach on the right side of the workbench.
+  4. [NA] Retrieve the screwdriver and place it to the left of the hammer, ensuring sufficient clearance for easy access.
+  5. [NA] Retrieve a set of wrenches and arrange them in a row on the workbench, ensuring they are easily accessible.
+  6. [NA] Retrieve a measuring tape and place it on the workbench, ensuring it is uncoiled and ready for use.
+  7. [FV] Visually inspect the workbench layout, making minor adjustments to tool positions for optimal ergonomics.
+[B]
+  1. [PD] Open the toolbox and visually scan the contents to identify the required tools for the task.
+  2. [ME] Grasp the identified tool by its handle, ensuring a secure grip to prevent slipping.
+  3. [NA] Remove the tool from the toolbox, navigating around other tools and the toolbox's edges without causing any damage.
+  4. [NA] Position the tool on the designated spot on the workbench, ensuring it's easily accessible and won't roll off or interfere with other tools.
+  5. [NA] Retrieve the hammer from the toolbox and place it on the left side of the workbench.
+  6. [NA] Retrieve the screwdriver from the toolbox and place it next to the hammer.
+  7. [FV] Review the arrangement of the tools to ensure they are all within reach and properly positioned.
+[C]
+  1. [IC] Mentally plan the workbench layout, considering the tools needed and their preferred working order.
+  2. [NA] Retrieve each tool from its storage location (e.g., toolbox, drawer).
+  3. [ME] Place each tool on the workbench in a designated spot based on frequency of use and ergonomic considerations.
+  4. [FV] Visually scan the workbench layout to ensure all tools are within easy reach and positioned for optimal workflow.
+  5. [ME] Make any necessary minor adjustments to tool positions for improved ergonomics and efficiency.
+[D]
+  1. [IC] Identify and mentally plan the layout of the workbench, considering the tools needed for the task and their preferred working order.
+  2. [PD] Open the toolbox and visually scan the contents to identify the required tools for the task.
+  3. [ME] Grasp the first identified tool by its handle, ensuring a secure grip to prevent slipping.
+  4. [NA] Remove the tool from the toolbox, navigating around other tools and the toolbox's edges without causing any damage.
+  5. [NA] Position the tool on the designated spot on the workbench, ensuring it's easily accessible and won't roll off or interfere with other tools.
+  6. [FV] Repeat the process for any additional required tools until all necessary tools are positioned and ready for use.
+  7. [FV] Step back from the workbench and visually inspect the layout, making minor adjustments to tool positions for optimal ergonomics.
+  8. [FV] Confirm that all hand tools are correctly positioned on the workbench, ready for use during the task.
+
+--- Task 214: Develop educational goals, standards, policies, or procedures.
+[A]
+  1. [IC] Conduct an initial meeting with the school board to understand their vision and expectations for the new educational goals and standards.
+  2. [NA] Gather data on current educational performance metrics and student needs through surveys and interviews with teachers and students.
+  3. [PD] Review existing educational policies and standards to identify gaps and areas for enhancement.
+  4. [PD] Research best practices in STEM education from other high-performing schools and educational institutions.
+  5. [ME] Draft initial educational goals and standards based on the gathered data and research.
+  6. [IC] Organize a focus group with teachers, students, and parents to gather feedback on the draft goals and standards.
+  7. [ME] Revise the draft goals and standards based on the feedback received from the focus group.
+  8. [ME] Develop a detailed implementation plan that includes timelines, resources, and training for teachers.
+  9. [IC] Present the revised goals, standards, and implementation plan to the school board for approval.
+  10. [NA] Distribute the approved educational goals and standards to teachers, students, and parents.
+  11. [FV] Monitor and evaluate the implementation of the new standards and policies, making adjustments as needed to ensure they are meeting the needs of the school district.
+[B]
+  1. [PD] Review existing educational standards and policies for mathematics programs in similar suburban school districts to identify best practices and areas for improvement.
+  2. [IC] Consult with a team of educators to gather input on the needs and challenges of teaching mathematics in a diverse student population.
+  3. [PD] Use educational databases and online resources to research and gather data on effective teaching practices and strategies for mathematics education.
+  4. [ME] Develop a draft of the educational standards and policies for the mathematics program, incorporating the research and input from educators.
+  5. [FV] Review and revise the draft standards based on feedback from educators and other stakeholders.
+  6. [FV] Finalize the educational standards and policies for the mathematics program, ensuring that they are comprehensive, well-communicated, and feasible for implementation.
+  7. [IC] Communicate the final standards and policies to educators, administrators, and other stakeholders, ensuring that they understand the expectations and requirements.
+  8. [ME] Develop a plan for implementing the new standards and policies, including professional development for educators and support for students.
+  9. [FV] Monitor and evaluate the implementation of the new standards and policies, making adjustments as needed to ensure that they are meeting the needs of the school district.
+  10. [FV] Refine and update the educational standards and policies as needed, based on ongoing evaluation and feedback from educators and stakeholders.
+  11. [NA] Distribute the approved educational goals and standards to teachers, students, and parents.
+  12. [FV] Conduct a follow-up meeting with the school board to confirm the successful implementation and adoption of the new educational goals and standards.
+[C]
+  1. [PD] Review existing educational standards and policies, identifying best practices and areas for improvement.
+  2. [IC] Consult with educators, administrators, and other stakeholders to gather input on needs, challenges, and desired outcomes.
+  3. [PD] Research current trends, best practices, and innovative approaches in education relevant to the specific subject or area.
+  4. [IC] Define clear and measurable learning goals and objectives aligned with the identified best practices and stakeholder input.
+  5. [ME] Develop a detailed curriculum framework outlining learning activities, assessments, and resources to achieve the defined goals.
+  6. [FV] Seek feedback on the draft curriculum from stakeholders, incorporating revisions and refinements based on their input.
+  7. [ME] Finalize the educational goals, standards, policies, or procedures, ensuring clarity, consistency, and alignment with overall educational vision.
+  8. [IC] Communicate the finalized documents to all relevant stakeholders, providing clear explanations and support for implementation.
+[D]
+  1. [IC] Conduct an initial meeting with key stakeholders (school board, educators, administrators) to understand their vision and expectations for new educational goals and standards.
+  2. [NA] Gather data on current educational performance, student needs, and best practices through surveys, interviews, and research.
+  3. [PD] Review existing educational policies, standards, and relevant national/state guidelines to identify gaps and areas for enhancement.
+  4. [ME] Draft initial educational goals, standards, and policies based on gathered data, research, and stakeholder input.
+  5. [IC] Organize focus groups and consultations with teachers, students, parents, and other stakeholders to gather feedback on the draft goals and standards.
+  6. [ME] Revise the draft goals and standards based on stakeholder feedback, ensuring they are comprehensive, well-communicated, and feasible for implementation.
+  7. [ME] Develop a detailed implementation plan, including timelines, resources, training, and support for educators and students.
+  8. [IC] Present the revised goals, standards, implementation plan, and any supporting documents to the school board or governing body for approval.
+  9. [ME] Obtain necessary approvals and make any required revisions based on the governing body's feedback.
+  10. [NA] Distribute the approved educational goals and standards to all relevant stakeholders, ensuring they understand the expectations and requirements.
+  11. [FV] Monitor and evaluate the implementation of the new standards, making adjustments as needed based on ongoing feedback and evaluation.
+
+--- Task 215: Package products for storage or shipment.
+[A]
+  1. [IC] Review the storage request to understand the types and quantities of products to be packaged.
+  2. [NA] Gather appropriate packaging materials based on the product types, such as bubble wrap, foam inserts, and sturdy boxes.
+  3. [PD] Inspect each product for any damages or fragile components that require extra protection.
+  4. [ME] Wrap each product securely with bubble wrap or place it in a foam insert, ensuring all components are covered and protected.
+  5. [ME] Place the wrapped products into sturdy boxes, optimizing space usage and ensuring the boxes are not overfilled.
+  6. [ME] Seal the boxes securely using packaging tape, reinforcing the seals to prevent any openings during storage or shipment.
+  7. [FV] Label each box with the appropriate storage location, product types, and any special handling instructions.
+  8. [FV] Verify the packaged products against the storage request to confirm all products have been securely packaged and are ready for storage or shipment.
+[B]
+  1. [NA] Retrieve the products from the conveyor belt or storage area.
+  2. [PD] Inspect each product for any visible damage or defects.
+  3. [NA] Select appropriate packaging materials (boxes, bubble wrap, foam inserts, etc.).
+  4. [ME] Wrap each product in bubble wrap or place it in a foam insert.
+  5. [ME] Place the wrapped product into a cardboard box.
+  6. [ME] Fill any empty spaces in the box with packing peanuts or air pillows.
+  7. [ME] Seal the box with tape.
+  8. [ME] Print and affix a shipping label to the box.
+  9. [NA] Place the labeled box on a pallet or in a designated storage area.
+  10. [FV] Verify that the box is correctly labeled and securely packaged.
+[C]
+  1. [NA] Retrieve products from the conveyor belt or designated location.
+  2. [PD] Inspect each product for damage and identify any special handling requirements.
+  3. [NA] Select appropriate packaging materials based on product type and fragility.
+  4. [ME] Wrap or place each product securely in chosen packaging materials.
+  5. [ME] Place packaged products into designated boxes or containers.
+  6. [ME] Seal containers securely using tape or other fastening methods.
+  7. [IC] Label containers with necessary information (e.g., product type, destination, handling instructions).
+  8. [FV] Verify that all products are correctly packaged, labeled, and ready for storage or shipment.
+[D]
+  1. [IC] Review the storage or shipment request to understand the types, quantities, and specific requirements of the products.
+  2. [NA] Gather appropriate packaging materials based on the product types, such as boxes, bubble wrap, foam inserts, packing peanuts, and tape.
+  3. [PD] Retrieve and inspect each product for any visible damage or fragile components that require extra protection.
+  4. [ME] Prepare the packaging materials by measuring and cutting bubble wrap, foam inserts, or other protective materials as needed.
+  5. [ME] Wrap or protect each product with the prepared packaging materials, ensuring all components are covered and secure.
+  6. [ME] Place the protected products into boxes, optimizing space usage and ensuring the boxes are not overfilled.
+  7. [ME] Fill any empty spaces in the boxes with packing peanuts, air pillows, or other cushioning materials to prevent movement during storage or shipment.
+  8. [ME] Seal the boxes securely using packaging tape, reinforcing the seals to prevent any openings during storage or shipment.
+  9. [IC] Label each box with the appropriate information, such as product types, quantities, storage locations, and any special handling instructions.
+  10. [FV] Check the packaged products against the storage or shipment request to confirm all products have been securely packaged and are ready for their destination.
+
+--- Task 216: Load materials into equipment for processing.
+[A]
+  1. [IC] Consult the production schedule to understand the required material and quantity for the next run.
+  2. [NA] Locate the correct material in the storage area and transport it to the equipment using appropriate tools (e.g., forklift).
+  3. [PD] Check the material's quality and dimensions to ensure it meets the production requirements.
+  4. [ME] Open the equipment's loading mechanism (e.g., hopper lid) and position the material container over the opening.
+  5. [ME] Pour the material into the equipment and close the loading mechanism.
+  6. [PD] Check the level of material in the equipment and adjust if necessary.
+  7. [NA] Close the material container and return it to the storage area.
+  8. [FV] Verify that the equipment is ready for processing by checking its control panel or interface.
+[B]
+  1. [IC] Inspect the equipment to ensure it is powered on and ready for loading.
+  2. [PD] Measure and calculate the exact amount of material required for the print job.
+  3. [NA] Retrieve the container of plastic pellets from the storage area.
+  4. [NA] Move the container to the injection molding machine.
+  5. [ME] Open the lid of the injection molding machine's hopper.
+  6. [ME] Position the container over the hopper opening.
+  7. [ME] Pour the pellets into the hopper.
+  8. [ME] Close the lid of the hopper.
+  9. [PD] Check the level of pellets in the hopper.
+  10. [ME] Adjust the hopper level if necessary by adding or removing pellets.
+  11. [NA] Close the container and move it back to the storage area.
+  12. [FV] Confirm the machine is ready for processing.
+[C]
+  1. [FV] Confirm the processing equipment is ready for material loading.
+  2. [NA] Retrieve the container of material from its storage location.
+  3. [NA] Position the container near the equipment's loading point.
+  4. [ME] Open the equipment's loading mechanism (hopper, chute, etc.).
+  5. [ME] Transfer the material from the container into the equipment.
+  6. [ME] Close the equipment's loading mechanism.
+  7. [PD] Verify the material level within the equipment.
+  8. [ME] Adjust the material level if necessary.
+  9. [NA] Return the empty container to its storage location.
+[D]
+  1. [IC] Consult the production schedule to understand the required material and quantity for the next run.
+  2. [NA] Locate the correct material in the storage area using appropriate equipment (e.g., forklift).
+  3. [PD] Check the material's quality, dimensions, and quantity to ensure it meets the production requirements.
+  4. [NA] Transport the material to the processing equipment using appropriate equipment (e.g., forklift).
+  5. [ME] Load the material onto the processing equipment's feeding or hopper system.
+  6. [ME] Configure the material on the feeding system according to the equipment's requirements.
+  7. [FV] Double-check that the material is securely fastened or positioned on the feeding system.
+  8. [FV] Confirm that the processing equipment is ready to start the production or processing run.
+  9. [ME] Initiate the production or processing run by activating the equipment's control system.
+
+================================================================
+ANSWER TEMPLATE
+
+209: _ | 
+210: _ | 
+211: _ | 
+212: _ | 
+213: _ | 
+214: _ | 
+215: _ | 
+216: _ | 
+

@@ -1,0 +1,365 @@
+BATCH 43/63 | Model: Gemini 3 Pro | Tasks 337-344
+================================================================
+EXPERT REVIEW -- Micro-Action Sequence Evaluation
+For each task, read ALL four options, then choose the BEST (A/B/C/D).
+
+Criteria:
+  1. Completeness  -- no critical steps missing
+  2. Realism       -- every step is concretely executable
+  3. Stage accuracy -- stage label correct for each step:
+     IC=Intent_Communication  NA=Navigation_Addressing
+     PD=Perception_Diagnosis  ME=Manipulation_Execution  FV=Feedback_Verification
+  4. Conciseness   -- no redundant or duplicate steps
+  5. Scope         -- starts and ends at exactly the right point
+
+OUTPUT: fill the ANSWER TEMPLATE at the bottom.
+Format: N: X | one-sentence reason (max 12 words)
+IMPORTANT: Each task has a different best answer. Do NOT pick the same
+letter for every task without reading.
+================================================================
+
+--- Task 337: Clean materials to prepare them for production.
+[A]
+  1. [NA] Retrieve the materials from the storage bin and place them on a clean, designated work surface.
+  2. [PD] Inspect the materials visually for any obvious contaminants or damage.
+  3. [NA] Set up the cleaning station with the appropriate cleaning tools and solutions.
+  4. [ME] Apply the cleaning solution and use the cleaning tools to remove contaminants.
+  5. [PD] Inspect the materials again to ensure they are free from contaminants.
+  6. [NA] Place the cleaned materials into a clean, designated container.
+  7. [ME] Seal the container to prevent any new contaminants from entering.
+  8. [ME] Label the container with the date and type of material.
+  9. [NA] Deliver the cleaned materials to the next production stage.
+[B]
+  1. [IC] Don personal protective equipment (PPE) to protect yourself from potential chemicals or debris.
+  2. [NA] Locate the cleaning station and necessary cleaning solutions and equipment.
+  3. [PD] Inspect the materials for any obvious contaminants or damage.
+  4. [NA] Set up the cleaning station with the necessary equipment and solutions.
+  5. [ME] Use the appropriate cleaning method (e.g., vacuum, ultrasonic cleaner, water jet) to remove contaminants.
+  6. [PD] Inspect the materials again to ensure they are free from contaminants.
+  7. [NA] Place the cleaned materials into a designated container or on a conveyor belt for further processing.
+  8. [ME] Seal the container or activate the next stage of processing.
+  9. [FV] Verify that the materials have been properly cleaned and are ready for further processing.
+  10. [NA] Deliver the cleaned materials to the next stage of production.
+[C]
+  1. [NA] Retrieve the materials from storage and place them on a designated work surface.
+  2. [PD] Visually inspect the materials for any obvious contaminants or damage.
+  3. [IC] Select and set up the appropriate cleaning tools and solutions based on material type and contaminant.
+  4. [ME] Clean the materials using the chosen tools and solutions, following established procedures.
+  5. [PD] Re-inspect the cleaned materials to verify the removal of contaminants and absence of damage.
+  6. [NA] Place the cleaned materials into a designated container for further processing.
+[D]
+  1. [NA] Retrieve the materials from storage and place them on a designated work surface.
+  2. [PD] Inspect the materials visually for any obvious contaminants or damage.
+  3. [NA] Set up the cleaning station with appropriate equipment and cleaning solutions.
+  4. [ME] Remove loose dust and debris using a vacuum cleaner or high-pressure water jet.
+  5. [IC] Apply the appropriate cleaning solution based on the type of contaminants present.
+  6. [ME] Use a clean cloth or scrubbing brushes to remove remaining contaminants.
+  7. [ME] Rinse the materials with clean water to remove any remaining cleaning solution.
+  8. [PD] Inspect the materials again to confirm they are free of contaminants.
+  9. [NA] Place the cleaned materials into a clean, designated container and seal it.
+  10. [NA] Deliver the cleaned materials to the next production stage for further processing.
+
+--- Task 338: Communicate with management or other staff to resolve problems.
+[A]
+  1. [IC] Identify the specific issue and determine the need for communication with relevant teams or management.
+  2. [NA] Gather necessary data and logs to understand the issue thoroughly.
+  3. [IC] Initiate communication with the relevant team leads or management to discuss the issue and proposed solutions.
+  4. [ME] Collaborate with the team leads or management to brainstorm and agree on a plan to resolve the issue.
+  5. [ME] Implement the agreed-upon solution and monitor the progress.
+  6. [FV] Verify that the issue has been resolved by testing and gathering feedback from affected parties.
+  7. [FV] Communicate the resolution status and any necessary adjustments to all relevant parties.
+[B]
+  1. [IC] Identify the issue and determine that communication with relevant teams is necessary.
+  2. [IC] Schedule a meeting with the relevant teams.
+  3. [NA] Gather initial data and logs from the relevant teams to understand the issue.
+  4. [IC] Present the issue and data to the relevant teams during the meeting.
+  5. [PD] Discuss potential causes and solutions with the relevant teams.
+  6. [ME] Agree on a plan to resolve the issue with the relevant teams.
+  7. [ME] Implement the agreed-upon solution.
+  8. [FV] Test the resolution by verifying that the issue has been resolved.
+  9. [FV] Communicate the resolution to all relevant parties.
+  10. [ME] Document the issue and resolution for future reference.
+[C]
+  1. [IC] Identify the problem and determine which teams or individuals need to be involved.
+  2. [PD] Gather relevant data and information about the problem.
+  3. [IC] Communicate the problem, relevant data, and desired outcome to the appropriate teams or individuals.
+  4. [ME] Facilitate a collaborative discussion to brainstorm potential solutions.
+  5. [ME] Agree on a solution and assign responsibilities.
+  6. [FV] Monitor the implementation of the solution and provide support as needed.
+  7. [FV] Confirm that the problem has been resolved and document the outcome.
+[D]
+  1. [PD] Identify and understand the problem by gathering relevant data, logs, and user reports.
+  2. [IC] Determine the affected parties (e.g., departments, teams) and their roles in resolving the issue.
+  3. [IC] Communicate the issue, its impact, and the need for collaboration to the affected parties and management.
+  4. [ME] Collaboratively brainstorm potential solutions, considering available resources and time constraints.
+  5. [FV] Obtain approval for the chosen solution and revised timeline (if applicable) from the relevant authorities.
+  6. [ME] Execute the plan, working with the necessary teams or individuals to resolve the issue.
+  7. [FV] Test the resolution by verifying that the issue has been resolved and gathering feedback from affected parties.
+  8. [ME] Document the issue, resolution, and lessons learned for future reference and continuous improvement.
+
+--- Task 339: Inspect timing devices.
+[A]
+  1. [IC] The technician reviews the maintenance schedule and identifies the timing devices that need inspection.
+  2. [NA] The technician dons personal protective equipment (PPE) and proceeds to the location of the first timing device, navigating through the workspace and avoiding obstacles.
+  3. [PD] The technician visually inspects the timing device for any signs of damage or wear, using a flashlight to illuminate the area if necessary.
+  4. [PD] The technician uses a diagnostic tool to measure the timing device's output signal and compares it to the expected values.
+  5. [FV] The technician records the results of the inspection, including any deviations from the expected values, in a logbook or digital database.
+  6. [ME] If the timing device is malfunctioning, the technician performs any necessary adjustments or repairs to the timing device.
+  7. [FV] The technician retests the timing device to ensure it is functioning correctly.
+  8. [NA] The technician repeats the inspection process for the remaining timing devices, following the same procedure for each device.
+  9. [FV] The technician documents the inspection results and any repairs made, and submits the completed inspection report to the maintenance supervisor for review and approval.
+[B]
+  1. [IC] Review the maintenance schedule and identify the timing devices that need inspection.
+  2. [NA] Navigate to the location of the first timing device in the production line.
+  3. [PD] Visually inspect the timing device for any visible damage or abnormalities.
+  4. [PD] Use a diagnostic tool to measure the timing device's output signal.
+  5. [PD] Compare the measured output signal to the expected values.
+  6. [NA] If the timing device is functioning correctly, move on to the next device.
+  7. [PD] If the timing device is malfunctioning, note the specific issues.
+  8. [ME] Perform any necessary adjustments or repairs to the timing device.
+  9. [FV] Retest the timing device to ensure it is functioning correctly.
+  10. [FV] Document the inspection results and any repairs made.
+[C]
+  1. [IC] Review the maintenance schedule and identify the timing devices requiring inspection.
+  2. [NA] Navigate to the location of the first timing device.
+  3. [PD] Visually inspect the device for any damage or abnormalities.
+  4. [PD] Use a diagnostic tool to measure the device's output signal and compare it to expected values.
+  5. [FV] Record the inspection results, noting any deviations or issues.
+  6. [NA] Repeat steps 2-5 for each remaining timing device.
+  7. [FV] Review all inspection results and identify devices requiring repair or further attention.
+  8. [FV] Create a report summarizing the inspection findings and recommendations.
+[D]
+  1. [IC] Review the maintenance schedule and identify timing devices for inspection.
+  2. [NA] Navigate to the location of the first timing device, ensuring safety and avoiding obstacles.
+  3. [NA] Don personal protective equipment (PPE) if required for the inspection process.
+  4. [PD] Visually inspect the timing device for any signs of damage, wear, or abnormalities.
+  5. [PD] Use a diagnostic tool (e.g., multimeter, calibration tool) to measure the device's output signal or electrical properties.
+  6. [PD] Compare the measured output signal or properties with the expected values or manufacturer's specifications.
+  7. [NA] If the device is functioning correctly, proceed to the next device. If not, note the specific issues and flag it for repair.
+  8. [ME] Perform any necessary adjustments, repairs, or maintenance on the malfunctioning device.
+  9. [FV] Retest the timing device to ensure it is functioning correctly after any adjustments or repairs.
+  10. [FV] Document the inspection results, including any repairs made, and submit the report to the relevant supervisor or manager.
+
+--- Task 340: Measure ingredients or substances to be used in production processes.
+[A]
+  1. [IC] Retrieve the recipe and read the list of required ingredients and their respective measurements.
+  2. [NA] Gather all necessary measuring tools, such as cups, spoons, scales, and bowls.
+  3. [NA] Place the scale on a flat surface and ensure it is calibrated to zero.
+  4. [ME] Begin measuring dry ingredients, such as flour, sugar, and baking powder, using the appropriate measuring cup or spoon for each.
+  5. [ME] For ingredients that require weighing, such as chocolate chips or nuts, use a scale to ensure accurate measurement.
+  6. [NA] Transfer measured ingredients into designated bowls or containers, keeping them organized and easily accessible for the next stage of production.
+  7. [FV] Double-check that all ingredients have been measured accurately and that none have been forgotten or measured incorrectly.
+  8. [FV] Clean and put away all measuring tools, ensuring they are ready for the next use.
+[B]
+  1. [IC] Retrieve the recipe for chocolate chip cookies from the production manual.
+  2. [IC] Identify the required ingredients and their quantities from the recipe.
+  3. [NA] Gather all necessary measuring tools, including a scale and measuring cups.
+  4. [NA] Place the scale on a flat surface and ensure it is calibrated to zero.
+  5. [PD] Measure 2 cups of flour using a measuring cup and pour it onto the scale.
+  6. [FV] Verify the weight of the flour on the scale matches the recipe's requirement.
+  7. [PD] Measure 1 cup of sugar using a measuring cup and pour it onto the scale.
+  8. [FV] Verify the weight of the sugar on the scale matches the recipe's requirement.
+  9. [PD] Measure 1 cup of butter using a measuring cup and place it on the scale.
+  10. [FV] Verify the weight of the butter on the scale matches the recipe's requirement.
+  11. [PD] Measure 1 cup of chocolate chips using a measuring cup and pour them into a container.
+  12. [FV] Deliver all measured ingredients to the mixing station for the next step in the production process.
+[C]
+  1. [IC] Retrieve the recipe and identify the required ingredients and their quantities.
+  2. [NA] Gather necessary measuring tools (scale, cups, spoons).
+  3. [PD] Calibrate the scale and ensure a clean workspace.
+  4. [ME] Measure each ingredient according to the recipe, using appropriate tools.
+  5. [FV] Verify the weight of each ingredient against the recipe requirement.
+  6. [NA] Transfer measured ingredients to designated containers.
+  7. [FV] Confirm all ingredients are measured accurately and ready for the next production stage.
+[D]
+  1. [IC] Retrieve the recipe or production manual specifying the required ingredients and their quantities.
+  2. [NA] Gather all necessary measuring tools, such as cups, spoons, scales, and bowls.
+  3. [PD] Clean the workspace to ensure accurate measurements and prevent cross-contamination.
+  4. [ME] Begin measuring dry ingredients using the appropriate measuring cup or spoon for each.
+  5. [ME] Level off excess ingredients using a straight edge or the back of a knife to ensure accurate measurement.
+  6. [ME] Proceed with liquid ingredients, using measuring cups or spoons as appropriate.
+  7. [ME] For ingredients that require weighing, such as chocolate chips or nuts, use a scale to ensure accurate measurement.
+  8. [NA] Transfer measured ingredients into designated bowls or containers, keeping them organized and easily accessible for the next stage of production.
+  9. [FV] Double-check that all ingredients have been measured accurately and that none have been forgotten or measured incorrectly.
+  10. [FV] Confirm that all ingredients are measured accurately and ready for use in the next stage of production.
+
+--- Task 341: Prepare compounds or solutions to be used for repairs.
+[A]
+  1. [IC] Review the repair specifications and chemical requirements to ensure the correct compounds and solutions are prepared.
+  2. [NA] Retrieve the required chemicals and equipment from the storage area.
+  3. [PD] Measure the required amounts of each chemical using appropriate lab equipment (e.g., pipette, balance).
+  4. [ME] Mix the chemicals in a designated container, following the manufacturer's instructions and recommended mixing techniques.
+  5. [PD] Check the mixed compound for uniformity and consistency, ensuring it meets the specified properties.
+  6. [FV] Label the prepared compound with the details, date, and time of preparation.
+  7. [NA] Store the prepared compound in the appropriate location, following lab protocols.
+  8. [FV] Document the preparation process, including any deviations from the standard protocol.
+[B]
+  1. [IC] Review repair specifications and chemical requirements for the task at hand, ensuring the correct compounds and solutions are prepared.
+  2. [PD] Measure and prepare the necessary chemicals, using equipment such as pipettes and measuring cylinders, while following safety protocols to avoid contamination or exposure.
+  3. [ME] Mix the prepared chemicals in a controlled environment, using equipment such as mixers and stirrers, while monitoring the chemical reactions and properties.
+  4. [FV] Verify the prepared compounds and solutions meet the specified chemical properties and requirements, using equipment such as spectrometers and chromatographs.
+  5. [FV] Label and store the prepared compounds and solutions in a controlled environment, following safety protocols and ensuring proper documentation.
+  6. [IC] Review and update the laboratory records and documentation, ensuring accurate and up-to-date information on the prepared compounds and solutions.
+  7. [FV] Dispose of any waste materials and chemicals, following safety protocols and regulatory requirements.
+  8. [FV] Clean and maintain the laboratory equipment and workspace, ensuring a safe and organized environment for future tasks.
+  9. [IC] Review the prepared compounds and solutions with the repair team, ensuring they meet the specified requirements and are ready for use.
+  10. [IC] Document the preparation of the compounds and solutions, including any issues or challenges encountered during the process.
+[C]
+  1. [IC] Review repair specifications and identify required compounds or solutions.
+  2. [NA] Retrieve necessary compounds, solutions, and equipment from storage.
+  3. [IC] Consult manufacturer instructions or safety data sheets for mixing ratios and safety precautions.
+  4. [ME] Measure and combine components according to specifications, using appropriate tools.
+  5. [ME] Mix the components thoroughly, ensuring uniformity and proper activation.
+  6. [PD] Verify the prepared compound or solution meets visual and consistency expectations.
+  7. [ME] Transfer the prepared compound or solution to a suitable container for application.
+[D]
+  1. [IC] Review repair specifications and experiment protocol to understand the required solution, its concentration, and the correct compounds or solutions to be prepared.
+  2. [PD] Consult the safety data sheet (SDS) for each chemical to be used and don appropriate personal protective equipment (PPE).
+  3. [NA] Locate and retrieve all required chemicals, equipment, and materials from the storage area.
+  4. [PD] Measure the required amount of each chemical and material using appropriate equipment (e.g., pipette, measuring cup, scoop).
+  5. [ME] Mix the chemicals and materials in the designated order, following the manufacturer's instructions or protocol, using appropriate equipment (e.g., mixing stick, stirrer).
+  6. [PD] Check the mixed compound or solution for uniformity, consistency, color, clarity, and odor to ensure it meets the specified requirements and expected properties.
+  7. [ME] Transfer the prepared compound or solution to an appropriate container for ease of use and storage.
+  8. [FV] Label the prepared compound or solution with relevant details, such as experiment or repair details, date, and time of preparation.
+  9. [NA] Store the prepared compound or solution in the appropriate location, following safety protocols and lab or workplace regulations.
+  10. [IC] Document the preparation process, including any deviations from the standard protocol, and review the prepared compound or solution with the relevant team.
+
+--- Task 342: Maintain inventory of medical supplies or equipment.
+[A]
+  1. [IC] Log into the inventory management software using the assigned credentials.
+  2. [PD] Review daily usage reports and identify any items nearing low stock levels.
+  3. [NA] Navigate to the storage facilities using the hospital's internal map and access control system.
+  4. [PD] Physically inspect shelves for low stock or expired items and verify the physical stock of high-priority items.
+  5. [ME] Update the inventory system with the day's usage and physical stock verification.
+  6. [PD] Check the system for any low-stock or out-of-stock items and calculate the required quantities for reorder.
+  7. [ME] Place orders for low-stock or out-of-stock items with the hospital's suppliers.
+  8. [NA] Navigate to the receiving area to check for any incoming deliveries of medical supplies or equipment.
+  9. [FV] Verify the received items against the purchase orders and update the inventory system.
+  10. [FV] Generate and review the day's inventory report and send it to the hospital's management team.
+[B]
+  1. [PD] Review inventory management software to identify low-stock items and anticipate demand for medical supplies and equipment.
+  2. [NA] Physically walk through the designated storage area and visually inspect shelves for low stock or expired items.
+  3. [PD] Scan barcodes of identified low-stock items using a handheld scanner.
+  4. [ME] Update the inventory database with the scanned data, noting quantities and expiration dates.
+  5. [NA] Retrieve replacement stock from the central supply area, matching quantities to the identified needs.
+  6. [ME] Restock shelves, ensuring proper organization and rotation of stock (FIFO - First In, First Out).
+  7. [FV] Generate a daily inventory report summarizing current stock levels and flagging any items requiring replenishment.
+  8. [FV] Review the generated report and ensure accuracy before submitting it to the pharmacy manager.
+  9. [IC] Notify the procurement team if any supplies are below the minimum threshold.
+  10. [ME] Restock any items that are below the minimum threshold.
+  11. [FV] Final verification of the updated inventory records and physical stock.
+[C]
+  1. [IC] Access the inventory management software and review daily usage reports.
+  2. [PD] Identify low-stock items and calculate required reorder quantities.
+  3. [NA] Navigate to the storage facility and locate the identified items.
+  4. [PD] Physically verify stock levels and check for expired items.
+  5. [ME] Update the inventory system with verified stock levels and reorder information.
+  6. [IC] Place orders for necessary supplies with the hospital's suppliers.
+  7. [FV] Receive and verify incoming deliveries, updating the inventory system accordingly.
+  8. [FV] Generate and review a comprehensive inventory report for management.
+[D]
+  1. [IC] Log into the inventory management software using assigned credentials.
+  2. [PD] Review daily usage reports and identify high-priority items or low-stock items.
+  3. [NA] Navigate to the storage facilities using the hospital's internal map and access control system.
+  4. [PD] Locate and verify the physical stock of high-priority and low-stock items.
+  5. [ME] Update the inventory system with the day's usage and physical stock verification.
+  6. [PD] Check the system for any out-of-stock items and calculate required quantities for reorder.
+  7. [ME] Place orders for out-of-stock items with the hospital's suppliers.
+  8. [ME] Review and update the inventory rotation schedule to ensure efficient use of storage space.
+  9. [NA] Navigate to the receiving area to check for any incoming deliveries of medical supplies or equipment.
+  10. [FV] Verify received items against purchase orders and update the inventory system.
+  11. [FV] Generate and review the day's inventory report and send it to the hospital's management team.
+
+--- Task 343: Provide counsel, comfort, or encouragement to individuals or families.
+[A]
+  1. [IC] Greet the family warmly, introduce yourself, and invite them to sit down in the counseling room.
+  2. [IC] Ask the family to share their experiences and emotions since the loss, actively listening for emotional cues.
+  3. [PD] Listen attentively to the family's stories and acknowledge their emotions, offering verbal cues like nodding and saying 'I understand'.
+  4. [ME] Provide reassurance and validate the family's feelings of grief and loss, offering words of comfort and encouragement.
+  5. [ME] Discuss coping strategies and resources available to the family, providing written materials and contact information for additional support.
+  6. [PD] Address any specific concerns or questions the family may have, ensuring they feel heard and understood.
+  7. [NA] Provide a clear plan for the next steps, including follow-up appointments and recommended resources.
+  8. [FV] Check in with the family to ensure they feel supported and understood, offering a reassuring smile or gentle touch if appropriate.
+  9. [FV] Offer to schedule a follow-up session to continue providing support, summarizing the key takeaways from the session.
+  10. [FV] Conclude the session by thanking the family for their openness and reassures them of their progress, leaving them with your contact information and a final word of encouragement.
+[B]
+  1. [IC] Greet the family and invite them to sit down in the counseling room.
+  2. [IC] Ask the family to share their experiences and emotions since the loss.
+  3. [PD] Listen attentively to the family's stories and acknowledge their emotions.
+  4. [ME] Provide reassurance and validate the family's feelings of grief and loss.
+  5. [ME] Discuss coping strategies and resources available to the family.
+  6. [PD] Address any specific concerns or questions the family may have.
+  7. [ME] Provide written materials and contact information for additional support.
+  8. [FV] Check in with the family to ensure they feel supported and understood.
+  9. [FV] Offer to schedule a follow-up session to continue providing support.
+  10. [FV] Conclude the session by thanking the family for their openness and reassuring them of their progress.
+[C]
+  1. [IC] The counselor greets the individual or family warmly, introduces themselves, and explains their role.
+  2. [IC] The counselor invites the individual or family to share their story and express their feelings related to the situation.
+  3. [PD] The counselor listens attentively, offering verbal and non-verbal cues to demonstrate empathy and understanding.
+  4. [ME] The counselor offers words of comfort, validation, and encouragement, acknowledging the individual or family's feelings and experiences.
+  5. [ME] The counselor provides information about relevant resources, such as support groups, therapy options, or coping strategies.
+  6. [FV] The counselor checks in with the individual or family to ensure they feel heard, understood, and supported.
+  7. [FV] The counselor summarizes the key points discussed and outlines any agreed-upon next steps.
+[D]
+  1. [IC] Greet the individual or family warmly, introduce yourself, and explain your role.
+  2. [IC] Invite the individual or family to sit comfortably and share their experiences and emotions.
+  3. [PD] Listen attentively to their story, maintaining eye contact, nodding, and offering verbal cues to show empathy.
+  4. [ME] Acknowledge and validate their emotions, offering words of comfort and encouragement.
+  5. [IC] Ask clarifying questions to gain a deeper understanding of their specific needs and concerns.
+  6. [ME] Offer practical suggestions for coping, such as support groups, therapy options, or self-care activities.
+  7. [IC] Encourage the individual or family to ask questions or express any concerns they may have.
+  8. [ME] Offer appropriate physical comfort, such as a hug or tissues, if the individual or family seems receptive.
+  9. [FV] Summarize their feelings and the agreed-upon next steps, ensuring they feel heard and understood.
+  10. [IC] Bid the individual or family farewell, leaving them with your contact information and a final word of encouragement.
+
+--- Task 344: Cut tile, stone, or other masonry materials.
+[A]
+  1. [PD] Measure and mark the cutting dimensions on the tile using a high-precision caliper and a fine-tip marker.
+  2. [NA] Select the appropriate cutting tool, such as a wet saw or a diamond blade saw, based on the tile's material.
+  3. [NA] Position the tile on the cutting tool and align the marked cutting line with the blade.
+  4. [ME] Operate the cutting tool to make the cut, applying steady pressure and maintaining a consistent speed.
+  5. [FV] Inspect the cut edge for smoothness and accuracy, and use a tile file or grinder to smooth any rough edges if necessary.
+  6. [FV] Dry-fit the cut tile in the intended area to ensure it fits correctly and make any necessary adjustments.
+[B]
+  1. [IC] Measure the distance from the edge of the tile to the center of the sink drain.
+  2. [IC] Mark the center point of the sink drain on the tile.
+  3. [IC] Draw a circle around the center point to indicate the area to be cut out.
+  4. [NA] Position the tile on the cutting mat of the tile cutter.
+  5. [NA] Align the cutting wheel of the tile cutter with the marked circle.
+  6. [PD] Apply pressure and move the tile cutter along the marked circle to score the tile.
+  7. [ME] Snap the tile along the scored line to complete the cut.
+  8. [FV] Inspect the cut edge for any rough spots or imperfections.
+  9. [ME] Use a tile file to smooth any rough edges or imperfections.
+  10. [FV] Place the cut tile around the plumbing fixture to ensure it fits perfectly.
+[C]
+  1. [IC] Measure and mark the area to be cut on the tile.
+  2. [NA] Select the appropriate cutting tool (wet saw, tile nippers, etc.) based on the tile material and cut complexity.
+  3. [ME] Secure the tile in the chosen cutting tool, aligning the marked cut line with the blade or nipper jaws.
+  4. [ME] Execute the cut using the selected tool, applying steady pressure and controlled movement.
+  5. [FV] Inspect the cut edge for smoothness and accuracy.
+  6. [ME] If necessary, refine the cut using a tile file or grinder to smooth rough edges or adjust the shape.
+[D]
+  1. [IC] Review the blueprint and measure the area to understand the required tile cuts.
+  2. [NA] Select the appropriate cutting tool based on the tile material and required cuts.
+  3. [PD] Measure and mark the cutting lines on the tile using a pencil or marker, ensuring precision and accounting for any irregular shapes.
+  4. [ME] Secure the tile in the cutting tool, ensuring it is stable and the cutting line is aligned with the blade.
+  5. [ME] Operate the cutting tool to make the first cut, applying steady pressure and maintaining a consistent speed.
+  6. [FV] Inspect the cut and use tile nippers, a grinder, or a tile file to make any necessary adjustments or smooth rough edges.
+  7. [ME] Repeat steps 3-6 for all necessary tiles, ensuring each tile fits perfectly within the required area.
+  8. [FV] Dry-fit the cut tiles in the area to ensure they fit correctly and make any necessary adjustments to the cuts.
+  9. [ME] Once satisfied with the fit, remove the tiles and prepare them for installation by applying thinset mortar to the back.
+  10. [ME] Install the cut and prepared tiles in the area, ensuring they are level, properly spaced, and aligned with one another.
+
+================================================================
+ANSWER TEMPLATE
+
+337: _ | 
+338: _ | 
+339: _ | 
+340: _ | 
+341: _ | 
+342: _ | 
+343: _ | 
+344: _ | 
+

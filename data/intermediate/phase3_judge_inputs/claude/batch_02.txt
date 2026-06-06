@@ -1,0 +1,367 @@
+BATCH 2/63 | Model: Claude Opus 4.7 | Tasks 9-16
+================================================================
+EXPERT REVIEW -- Micro-Action Sequence Evaluation
+For each task, read ALL four options, then choose the BEST (A/B/C/D).
+
+Criteria:
+  1. Completeness  -- no critical steps missing
+  2. Realism       -- every step is concretely executable
+  3. Stage accuracy -- stage label correct for each step:
+     IC=Intent_Communication  NA=Navigation_Addressing
+     PD=Perception_Diagnosis  ME=Manipulation_Execution  FV=Feedback_Verification
+  4. Conciseness   -- no redundant or duplicate steps
+  5. Scope         -- starts and ends at exactly the right point
+
+OUTPUT: fill the ANSWER TEMPLATE at the bottom.
+Format: N: X | one-sentence reason (max 12 words)
+IMPORTANT: Each task has a different best answer. Do NOT pick the same
+letter for every task without reading.
+================================================================
+
+--- Task 9: Inspect completed work to ensure proper installation.
+[A]
+  1. [IC] Review the installation checklist and specifications for the HVAC system.
+  2. [NA] Navigate to the HVAC control panel located in the mechanical room on the ground floor.
+  3. [PD] Verify the connections and wiring of the control panel against the installation specifications.
+  4. [NA] Navigate to the air handler units located on each floor.
+  5. [PD] Inspect the air handler units for proper installation, including checking for any visible damage or misalignment.
+  6. [PD] Check the ductwork connections and seals for proper installation and integrity.
+  7. [ME] Power on the HVAC system and observe the operation of the control panel and air handlers.
+  8. [PD] Monitor the HVAC system for any unusual noises, vibrations, or other signs of malfunction.
+  9. [FV] Document any issues found during the inspection and note any necessary corrective actions.
+  10. [FV] Deliver the inspection report to the project manager and confirm that all issues have been addressed.
+[B]
+  1. [IC] Review the installation checklist and specifications for the HVAC system.
+  2. [NA] Navigate to the HVAC control panel located in the mechanical room on the ground floor.
+  3. [PD] Verify the connections and wiring of the control panel against the installation specifications.
+  4. [ME] Power on the HVAC system and observe the operation of the control panel and air handlers.
+  5. [PD] Monitor the HVAC system for any unusual noises, vibrations, or other signs of malfunction.
+  6. [FV] Document any issues found during the inspection and note any necessary corrective actions.
+  7. [FV] Deliver the inspection report to the project manager and confirm that all issues have been addressed.
+  8. [ME] Update the electrical installation plan and specifications to reflect any changes or corrections made during the inspection.
+  9. [FV] File the documentation and records the inspection results for future reference and quality control purposes.
+  10. [ME] Close the panel door and secure it with the provided latch.
+  11. [FV] Turn off the circuit breaker, document the inspection results, and sign off on the completed installation.
+[C]
+  1. [IC] Review the installation checklist and specifications for the HVAC system.
+  2. [NA] Navigate to the HVAC control panel located in the mechanical room.
+  3. [PD] Verify the connections and wiring of the control panel against the installation specifications.
+  4. [PD] Inspect the air handler units for proper installation, including checking for any visible damage or misalignment.
+  5. [PD] Check the ductwork connections and seals for proper installation and integrity.
+  6. [ME] Power on the HVAC system and observe the operation of the control panel and air handlers.
+  7. [FV] Document any issues found during the inspection and note any necessary corrective actions.
+[D]
+  1. [IC] Review installation checklist and specifications for the HVAC system.
+  2. [NA] Navigate to the HVAC control panel and air handler units, following the installation plan.
+  3. [PD] Verify control panel connections and wiring against installation specifications.
+  4. [PD] Inspect air handler units for proper installation, checking for damage or misalignment.
+  5. [PD] Check ductwork connections and seals for proper installation and integrity.
+  6. [ME] Power on the HVAC system and observe the operation of the control panel and air handlers.
+  7. [PD] Monitor the HVAC system for any unusual noises, vibrations, or other signs of malfunction.
+  8. [FV] Document any issues found during the inspection and note necessary corrective actions.
+  9. [IC] Deliver the inspection report to the project manager and confirm that all issues have been addressed.
+
+--- Task 10: Analyze traffic data.
+[A]
+  1. [IC] Access the city's real-time traffic data platform through a secure login and navigate to the traffic data section to download the relevant data.
+  2. [NA] Load the dataset into a data analysis software tool and clean the data by handling missing values, outliers, and inconsistencies.
+  3. [PD] Aggregate the data by time intervals (e.g., hourly, daily) to analyze traffic patterns and visualize the data using charts, graphs, and maps to identify peak congestion hours.
+  4. [ME] Calculate average traffic speed and volume during peak hours to quantify congestion and compare peak congestion hours with other factors (e.g., weather, events) to identify potential causes.
+  5. [FV] Generate a report summarizing the findings, visualizations, and suggested improvements, and present the report to stakeholders for feedback.
+[B]
+  1. [IC] Access the traffic data repository to retrieve the raw data collected from sensors and cameras at the intersection.
+  2. [NA] Navigate to the specific files containing traffic data for the intersection in question.
+  3. [NA] Load the traffic data into a data analysis software tool.
+  4. [PD] Preprocess the data to clean and organize it for analysis, including removing any outliers or erroneous data points.
+  5. [PD] Perform initial data visualization to identify patterns and trends in traffic flow.
+  6. [ME] Apply statistical and machine learning techniques to analyze traffic patterns and congestion levels.
+  7. [ME] Generate detailed reports summarizing the findings and insights from the traffic data analysis.
+  8. [FV] Review the generated reports to ensure accuracy and completeness of the analysis.
+  9. [FV] Present the findings and recommendations to relevant stakeholders, such as city planners and traffic management authorities.
+  10. [FV] Deliver the final report and recommendations to the stakeholders for implementation.
+[C]
+  1. [NA] Access the traffic data repository and navigate to the specific files containing traffic data for the intersection in question.
+  2. [NA] Load the traffic data into a data analysis software tool.
+  3. [PD] Clean and preprocess the data to remove outliers, handle missing values, and prepare it for analysis.
+  4. [ME] Analyze traffic patterns and congestion levels using statistical techniques and visualizations.
+  5. [FV] Generate a report summarizing the findings, including visualizations, insights, and potential recommendations.
+  6. [FV] Present the findings and recommendations to relevant stakeholders.
+[D]
+  1. [IC] Access the city's real-time traffic data platform through a secure login.
+  2. [IC] Select the relevant time frame for analysis (e.g., 7:00 AM to 9:00 AM) and filter the data by roadway type (e.g., major arteries, highways).
+  3. [NA] Load the dataset into a data analysis software (e.g., Python with Pandas, R, or Excel) and review the dataset structure and documentation to understand the variables and their meanings.
+  4. [PD] Clean the data by handling missing values, outliers, and inconsistencies, and aggregate the data by time intervals (e.g., hourly, daily) to analyze traffic patterns.
+  5. [FV] Visualize the data using charts, graphs, and maps to identify peak congestion hours and visualize traffic flow data on a map of the city, using color coding to represent traffic density.
+  6. [ME] Calculate average traffic speed and volume during peak hours to quantify congestion and identify the three intersections with the highest concentration of red (congested) data points.
+  7. [NA] Access historical traffic data for the identified intersections to understand typical congestion patterns and compare peak congestion hours with other factors (e.g., weather, events) to identify potential causes.
+  8. [ME] Use traffic simulation software to model the impact of different traffic light timings on congestion at each intersection and suggest at least two potential improvements based on the identified causes of congestion.
+  9. [FV] Document the proposed traffic light timings for each intersection, summarize the findings, visualizations, and suggested improvements in a report.
+  10. [IC] Present the report to stakeholders, answer any questions about the findings, and refine the analysis based on feedback.
+
+--- Task 11: Prepare operational budgets for green energy or other green operations.
+[A]
+  1. [IC] Review the company's financial policies, strategic plan, and green energy goals to understand the budgeting requirements and constraints.
+  2. [PD] Gather and analyze historical financial data, including revenue, expenses, and energy production, for past green energy projects.
+  3. [PD] Research and forecast market trends, industry forecasts, and government policies that may impact the company's green energy operations.
+  4. [ME] Estimate costs for green initiatives, including capital expenditures, operating expenses, and potential subsidies, and project revenue based on anticipated sales volume and market pricing.
+  5. [ME] Develop a detailed budget document outlining projected revenues, expenses, and profitability, including a separate section for green initiative costs.
+  6. [FV] Review and revise the budget document with the finance team to ensure it aligns with the company's financial policies and strategic goals.
+  7. [IC] Present the finalized budget to senior management, explaining key assumptions and highlighting the financial impact of green initiatives.
+  8. [FV] Finalize the operational budgets based on stakeholder feedback and submit them for approval.
+[B]
+  1. [IC] Review the company's financial policies and green energy goals to understand the budgeting requirements and constraints.
+  2. [NA] Research and gather cost estimates for solar panels, installation equipment, and labor from multiple suppliers.
+  3. [PD] Calculate the total cost of the solar panel installation, including materials, labor, and any additional expenses.
+  4. [PD] Estimate the ongoing operational costs, such as maintenance, insurance, and potential energy savings.
+  5. [ME] Prepare a detailed budget document outlining all costs, including a breakdown of initial and ongoing expenses.
+  6. [FV] Review the budget document with the finance team to ensure it aligns with the company's financial policies and goals.
+  7. [ME] Finalize the budget document and prepare a presentation to present the budget to senior management.
+  8. [FV] Present the budget to senior management and answer any questions they may have.
+  9. [PD] Review historical financial data for the solar farm, wind farm, and biomass power plant, including revenue, expenses, and energy production.
+  10. [PD] Research current market trends and forecasts for energy production and prices, including government policies and regulations that may impact the company's operations.
+  11. [IC] Consult with the company's management team and subject matter experts to understand their strategic goals and priorities for the upcoming fiscal year.
+  12. [ME] Develop a comprehensive operational budget that takes into account the analyst's findings from steps 1-3, including revenue projections, expense allocations, and energy production forecasts.
+[C]
+  1. [IC] Review the company's strategic plan, green energy goals, and financial policies to understand the scope of work and budgetary constraints.
+  2. [NA] Research and gather cost estimates for relevant green energy technologies, equipment, and installation from multiple suppliers.
+  3. [PD] Estimate the total project costs, including materials, labor, permits, and potential contingencies.
+  4. [PD] Project ongoing operational costs, such as maintenance, insurance, energy consumption, and potential savings.
+  5. [ME] Develop a detailed budget document outlining all costs, including a breakdown of initial and ongoing expenses, and potential revenue streams.
+  6. [FV] Review the budget with relevant stakeholders (finance team, management) to ensure alignment with company goals and address any concerns.
+  7. [ME] Finalize the budget document, incorporating feedback and securing necessary approvals.
+[D]
+  1. [IC] Review the company's strategic plan, financial policies, and green energy goals to understand the budgeting requirements and constraints.
+  2. [PD] Gather historical financial data, including revenue, expenses, and production figures, as well as historical cost data for similar projects.
+  3. [PD] Research current market trends, industry forecasts, and government policies that may impact the company's green operations.
+  4. [IC] Consult with the company's management team and subject matter experts to understand their strategic goals and priorities for the upcoming fiscal year.
+  5. [ME] Identify and list all cost components for each green energy project, including capital expenditures, operating expenses, and potential subsidies.
+  6. [ME] Forecast future costs for each component based on historical data, industry trends, and project-specific details, including production costs, revenue projections, and green initiative costs.
+  7. [ME] Enter the forecasted costs into the budgeting software, ensuring they are correctly categorized and attributed to the appropriate projects.
+  8. [ME] Calculate the total budget required for each project and the overall budget for all projects, and compare it to the company's overall financial strategy.
+  9. [ME] Prepare a detailed budget document outlining all costs, including a breakdown of initial and ongoing expenses, and generate budget reports and visualizations for presentation.
+  10. [FV] Review and analyze the budget with the finance team to ensure it aligns with the company's financial policies and goals, and make necessary adjustments based on feedback.
+  11. [IC] Present the finalized budget to senior management, stakeholders, and other relevant parties, answering questions and addressing concerns.
+  12. [FV] Finalize the operational budgets based on stakeholder feedback and submit them for approval.
+
+--- Task 12: Advise others on financial matters.
+[A]
+  1. [IC] Greet the client, introduce yourself, and establish a comfortable atmosphere.
+  2. [IC] Ask open-ended questions to understand the client's financial goals and concerns.
+  3. [PD] Review the client's financial documents and current financial situation.
+  4. [PD] Use financial software to analyze the client's data and identify trends, opportunities, and potential pitfalls.
+  5. [IC] Present findings and recommendations, using clear and concise language to explain complex financial concepts.
+  6. [IC] Answer any questions the client has about the proposed plan and address any concerns.
+  7. [ME] Create a personalized financial plan with specific investment strategies and budgeting recommendations.
+  8. [FV] Review the financial plan with the client, ensuring they understand the recommendations and feel confident in their ability to implement them.
+  9. [FV] Schedule a follow-up meeting to review progress and adjust the plan as needed.
+[B]
+  1. [IC] Greet the client and confirm the purpose of the meeting.
+  2. [PD] Review the client's current financial documents and retirement savings plan.
+  3. [IC] Discuss the client's current financial situation and retirement goals.
+  4. [PD] Analyze the client's risk tolerance and investment portfolio.
+  5. [ME] Propose a tailored financial plan with specific investment recommendations.
+  6. [IC] Explain the proposed financial plan and investment recommendations in detail.
+  7. [IC] Answer any questions the client has about the proposed plan.
+  8. [ME] Review the steps the client needs to take to implement the financial plan.
+  9. [FV] Confirm the client's understanding and agreement with the proposed financial plan.
+  10. [FV] Schedule a follow-up meeting to review progress and adjust the plan as needed.
+[C]
+  1. [IC] Greet the client and confirm the purpose of the meeting.
+  2. [PD] Review the client's current financial documents and understand their financial situation.
+  3. [IC] Discuss the client's financial goals, risk tolerance, and investment preferences.
+  4. [ME] Analyze the client's financial data and develop a tailored financial plan.
+  5. [IC] Present the financial plan to the client, explaining recommendations clearly and concisely.
+  6. [FV] Address the client's questions and concerns, refining the plan as needed.
+  7. [FV] Summarize the agreed-upon plan and outline next steps, including implementation and follow-up.
+[D]
+  1. [IC] Greet the client(s) warmly, introduce yourself, and establish a comfortable and professional atmosphere.
+  2. [NA] Ask the client(s) to sit down in a quiet, well-lit area where you can spread out your materials and take notes.
+  3. [IC] Begin the meeting by asking open-ended questions to understand the client's current financial situation, goals, and concerns.
+  4. [PD] Review and analyze the client's financial documents, including income statements, expense reports, investment accounts, and other relevant data.
+  5. [PD] Use financial software to analyze the client's data, identify trends, opportunities, and potential pitfalls, and generate potential investment scenarios based on their goals and risk tolerance.
+  6. [IC] Present your findings and recommendations to the client, using clear and concise language to explain complex financial concepts.
+  7. [IC] Address the client's questions and provide feedback to refine your suggestions, ensuring they align with their goals and risk tolerance.
+  8. [ME] Create a personalized financial plan for the client, outlining specific investment strategies, budgeting recommendations, and risk management techniques.
+  9. [FV] Review the financial plan with the client, ensuring they understand the recommendations and feel confident in their ability to implement them.
+  10. [ME] Document the financial plan and recommendations in the client's file, ensuring all relevant information is readily available for future reference.
+  11. [IC] Thank the client for their time, reiterate the next steps in their financial planning, and schedule a follow-up meeting if necessary.
+
+--- Task 13: Travel to work sites to perform installation, repair or maintenance work.
+[A]
+  1. [IC] Receive service call details (address, issue description) from dispatch and input address into GPS navigation system.
+  2. [NA] Drive to the work site, following GPS directions.
+  3. [NA] Park the vehicle near the work site and gather necessary tools and equipment.
+  4. [PD] Locate the issue area and visually inspect the components for any obvious damage or issues.
+  5. [ME] Perform necessary repairs or maintenance, following safety protocols and best practices.
+  6. [FV] Test the repaired or maintained component to ensure proper functionality.
+  7. [FV] Clean up the work area and return tools to the vehicle.
+  8. [NA] Drive back to the company office, updating the work order status on the tablet en route.
+[B]
+  1. [NA] Retrieve the service van from the company lot and start the engine.
+  2. [NA] Drive the service van to the commercial office building, following GPS directions.
+  3. [NA] Retrieve the necessary tools and equipment from the van and carry them to the building's entrance.
+  4. [NA] Locate the elevator or stairs to the third floor and transport the equipment to the installation site.
+  5. [IC] Confirm the installation site with the building's maintenance staff and obtain any necessary access.
+  6. [PD] Prepare the installation site by clearing the area and setting up the necessary tools.
+  7. [ME] Install the HVAC unit by connecting the ductwork, electrical wiring, and securing the unit in place.
+  8. [FV] Test the HVAC unit to ensure it is functioning correctly and adjust settings as needed.
+  9. [FV] Clean up the installation site and ensure all tools and equipment are properly stored.
+  10. [NA] Return to the service van and drive back to the company lot, completing the workday.
+[C]
+  1. [IC] Receive service call details (address, issue description) from dispatch.
+  2. [NA] Navigate to the work site using GPS.
+  3. [NA] Gather necessary tools and equipment from the vehicle.
+  4. [PD] Locate the work area and assess the situation.
+  5. [ME] Perform the required installation, repair, or maintenance work.
+  6. [FV] Test the system and verify functionality.
+  7. [ME] Clean up the work area and return tools to the vehicle.
+  8. [IC] Communicate completion to the client or dispatch.
+  9. [NA] Navigate back to the base or next job location.
+[D]
+  1. [IC] Check work order details and homeowner's address on the company tablet.
+  2. [NA] Drive to the homeowner's address, following GPS navigation.
+  3. [IC] Knock on the door, greet the homeowner, and confirm the issue.
+  4. [PD] Ask the homeowner to show the faulty outlet and observe its location and condition.
+  5. [ME] Put on safety glasses and gloves, then turn off power to the outlet using the main electrical panel.
+  6. [PD] Remove the outlet cover and inspect wires and terminals for damage or corrosion.
+  7. [ME] Tighten loose connections and replace damaged components, following electrical codes and best practices.
+  8. [FV] Restore power to the outlet and test it by plugging in a working device.
+  9. [ME] Clean up the work area and return tools to the tool belt.
+  10. [IC] Thank the homeowner, explain the work performed, and provide any necessary instructions or warnings.
+  11. [NA] Drive back to the company office, updating the work order status on the tablet en route.
+
+--- Task 14: Maintain medical records.
+[A]
+  1. [IC] Log into the EMR system using secure credentials.
+  2. [NA] Navigate to the patient's medical record using the patient's medical record number (MRN).
+  3. [PD] Review the existing medical record for accuracy and completeness.
+  4. [ME] Update the patient's demographic information, medical history, medication lists, allergies, and immunization records as necessary.
+  5. [FV] Save the updated medical record and verify the changes.
+  6. [FV] Generate a summary report of the updated medical record for review.
+  7. [FV] Log out of the EMR system securely.
+[B]
+  1. [IC] Log into the EMR system using secure credentials.
+  2. [NA] Navigate to the patient's medical record.
+  3. [PD] Review the existing medical record for accuracy and completeness.
+  4. [ME] Update the patient's demographic information if necessary.
+  5. [ME] Enter new medical history or update existing entries.
+  6. [ME] Update medication lists and allergies.
+  7. [ME] Review and update immunization records.
+  8. [FV] Save the updated medical record and verify the changes.
+  9. [FV] Generate a summary report of the updated medical record for review.
+  10. [FV] Log out of the EMR system securely.
+[C]
+  1. [IC] Log into the EMR system using secure credentials.
+  2. [NA] Navigate to the patient's record using their identifier (e.g., MRN).
+  3. [PD] Review the existing record for accuracy, completeness, and any necessary updates.
+  4. [ME] Update patient demographics, medical history, medications, allergies, and immunization records as needed.
+  5. [FV] Save the updated record and verify the changes have been successfully saved.
+[D]
+  1. [IC] Log into the EHR system using secure credentials.
+  2. [NA] Access the 'Discharged Patients' list for the current day.
+  3. [PD] Review the first patient's discharge summary to understand key details.
+  4. [NA] Locate the corresponding patient record in the EHR system.
+  5. [ME] Update the patient's record with discharge details, ensuring all fields are accurately filled.
+  6. [FV] Verify that the updated record matches the discharge summary.
+  7. [ME] Save the updated record and move on to the next patient.
+  8. [ME] Repeat steps 3 to 7 for all discharged patients for the day.
+  9. [ME] Once all records are updated, generate a summary report of the day's discharges.
+  10. [FV] Review the summary report, ensure all discharges are accounted for, and log out of the EHR system.
+
+--- Task 15: Observe equipment in operation to detect potential problems.
+[A]
+  1. [NA] Approach the equipment area and position oneself at a safe distance.
+  2. [PD] Visually inspect the equipment for any visible signs of wear, misalignment, or damage.
+  3. [PD] Listen for any unusual noises or vibrations coming from the equipment.
+  4. [PD] Review the equipment's control panel and monitoring systems for any warning signs or anomalies.
+  5. [ME] Use diagnostic tools to perform a quick check on the equipment's mechanical and software components.
+  6. [FV] Document any observed issues or anomalies in the maintenance log.
+  7. [IC] Report the findings to the supervisor or maintenance team.
+  8. [FV] Confirm that the supervisor or maintenance team has received the report and is addressing the issues.
+[B]
+  1. [NA] The technician arrives at the manufacturing plant and proceeds to the area where the conveyor belt system is located.
+  2. [PD] The technician reviews the operational status of the conveyor belt system on the control panel.
+  3. [PD] The technician visually inspects the conveyor belt for any visible signs of wear or damage.
+  4. [PD] The technician listens for any unusual noises coming from the conveyor belt system, such as grinding or squealing.
+  5. [PD] The technician checks the temperature of the conveyor belt and its components using a thermal imaging camera.
+  6. [PD] The technician reviews the system logs and error messages on the control panel to identify any recent issues or anomalies.
+  7. [PD] The technician uses a vibration sensor to check for any unusual vibrations in the conveyor belt system.
+  8. [FV] The technician documents any observed issues or anomalies in a maintenance log.
+  9. [FV] The technician reports any identified issues to the supervisor or maintenance team.
+  10. [FV] The technician confirms that the supervisor or maintenance team has received the report and is addressing the issues.
+[C]
+  1. [NA] Navigate to the equipment location.
+  2. [PD] Observe the equipment's operation, noting its sounds, rhythms, and visual appearance.
+  3. [PD] Utilize sensors or monitoring systems to gather quantitative data (temperature, vibration, etc.).
+  4. [PD] Review equipment logs and error messages for historical context and potential clues.
+  5. [FV] Identify potential problems based on observations and data analysis.
+  6. [FV] Document the identified problems with details about location, severity, and potential causes.
+  7. [IC] Communicate the findings to the appropriate personnel (supervisor, maintenance team).
+[D]
+  1. [PR] Don appropriate Personal Protective Equipment (PPE) for the task.
+  2. [NA] Navigate to the equipment using a facility map or GPS, avoiding obstacles and other equipment.
+  3. [NA] Approach the equipment and position oneself at a safe distance for observation.
+  4. [PD] Visually inspect the equipment for any visible signs of wear, damage, or unusual conditions.
+  5. [PD] Listen for any unusual noises or vibrations that could indicate a problem.
+  6. [PD] Review real-time performance data, system logs, and error messages on the control panel or monitoring systems.
+  7. [PD] Use diagnostic tools to measure performance metrics such as temperature, pressure, flow rate, or vibration levels.
+  8. [FV] Document any observed issues, anomalies, or abnormal readings in a maintenance log or system.
+  9. [FV] Prioritize identified issues based on their severity and potential impact on production or safety.
+  10. [IC] Report identified issues to the relevant supervisor, maintenance team, or production team, including recommendations for further action.
+  11. [FV] Coordinate with relevant teams to ensure that all necessary actions have been taken to address the identified issues.
+
+--- Task 16: Cast molds of patient anatomies to create medical or dental devices.
+[A]
+  1. [PD] Review the patient's CT scan data to understand their unique jaw structure and identify the areas that require precise mold creation.
+  2. [NA] Prepare the dental impression tray and materials (impression paste, tray, and mixing tools).
+  3. [ME] Mix the dental impression paste according to the manufacturer's instructions.
+  4. [ME] Place the mixed impression paste into the dental tray and insert the tray into the patient's mouth, instructing the patient to bite down firmly.
+  5. [FV] Remove the tray from the patient's mouth after the specified setting time and inspect the impression for any air bubbles, imperfections, or incomplete coverage.
+  6. [ME] Pour the dental stone or plaster into the impression to create the mold and allow it to set according to the manufacturer's instructions.
+  7. [FV] Remove the mold from the impression tray and inspect for accuracy and completeness.
+  8. [ME] If necessary, make any adjustments to the mold to ensure it meets the required standards.
+  9. [FV] Verify that the custom dental implant meets the patient's needs and requirements based on the created mold and fabrication process.
+[B]
+  1. [PD] Review the patient's CT scan data to understand their unique jaw structure and identify the areas that require precise mold creation.
+  2. [NA] Select the appropriate materials and equipment for mold creation, considering factors such as accuracy, durability, and cost.
+  3. [ME] Use a 3D printing or milling machine to create a precise mold of the patient's anatomy, based on the selected materials and equipment.
+  4. [PD] Inspect the created mold for accuracy and quality, checking for any defects or imperfections.
+  5. [ME] Make any necessary adjustments to the mold, based on the inspection results, to ensure it meets the required standards.
+  6. [ME] Use the created mold to fabricate the custom dental implant, following established protocols and procedures.
+  7. [PD] Inspect the fabricated implant for accuracy and quality, checking for any defects or imperfections.
+  8. [FV] Verify that the custom dental implant meets the patient's needs and requirements, based on the created mold and fabrication process.
+  9. [IC] Document the created mold and fabricated implant, including any adjustments or modifications made during the process.
+[C]
+  1. [PD] Review the patient's anatomical data (impression, scan, etc.) to understand the required mold specifications.
+  2. [ME] Select appropriate mold material and prepare it according to manufacturer instructions.
+  3. [ME] Carefully pour the prepared material into the impression or mold container, ensuring complete coverage and minimizing air bubbles.
+  4. [FV] Allow the mold material to set and harden according to the manufacturer's recommended time.
+  5. [ME] Carefully separate the mold from the impression or container.
+  6. [PD] Inspect the mold for any imperfections, air bubbles, or incomplete coverage.
+  7. [ME] If necessary, make adjustments to the mold to correct imperfections.
+  8. [IC] Prepare the mold for the next stage of device fabrication (e.g., casting, 3D printing).
+[D]
+  1. [PD] Review patient's dental impression or CT scan data to understand their unique anatomy and identify areas requiring precise mold creation.
+  2. [NA] Select appropriate materials (e.g., dental stone, plaster, or 3D printing materials) and equipment based on accuracy, durability, and cost requirements.
+  3. [ME] Prepare the mold material according to manufacturer instructions (e.g., mixing plaster, preparing 3D printing materials).
+  4. [ME] Secure the dental impression or use a 3D printing/milling machine to create a precise mold based on the selected materials and equipment.
+  5. [PD] Inspect the created mold for accuracy, quality, and any defects or imperfections.
+  6. [ME] Make any necessary adjustments to the mold to ensure it meets the required standards.
+  7. [ME] Use the created mold to fabricate the custom medical or dental device, following established protocols and procedures.
+  8. [PD] Inspect the fabricated device for accuracy, quality, and any defects or imperfections.
+  9. [ME] Make any necessary adjustments to the device, based on the inspection results, to ensure it meets the required standards.
+  10. [FV] Verify that the custom medical or dental device meets the patient's needs and requirements, based on the created mold and fabrication process.
+  11. [IC] Document the created mold and fabricated device, including any adjustments or modifications made during the process.
+
+================================================================
+ANSWER TEMPLATE
+
+9: _ | 
+10: _ | 
+11: _ | 
+12: _ | 
+13: _ | 
+14: _ | 
+15: _ | 
+16: _ | 
+

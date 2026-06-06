@@ -1,0 +1,368 @@
+BATCH 59/63 | Model: Claude Opus 4.7 | Tasks 465-472
+================================================================
+EXPERT REVIEW -- Micro-Action Sequence Evaluation
+For each task, read ALL four options, then choose the BEST (A/B/C/D).
+
+Criteria:
+  1. Completeness  -- no critical steps missing
+  2. Realism       -- every step is concretely executable
+  3. Stage accuracy -- stage label correct for each step:
+     IC=Intent_Communication  NA=Navigation_Addressing
+     PD=Perception_Diagnosis  ME=Manipulation_Execution  FV=Feedback_Verification
+  4. Conciseness   -- no redundant or duplicate steps
+  5. Scope         -- starts and ends at exactly the right point
+
+OUTPUT: fill the ANSWER TEMPLATE at the bottom.
+Format: N: X | one-sentence reason (max 12 words)
+IMPORTANT: Each task has a different best answer. Do NOT pick the same
+letter for every task without reading.
+================================================================
+
+--- Task 465: Record service or repair activities.
+[A]
+  1. [NA] The technician accesses the digital work order system on a tablet device and logs into the work order system using their credentials.
+  2. [NA] The technician navigates to the specific work order for the repair activity and reads the initial details to understand the context of the repair.
+  3. [PD] The technician inspects the equipment and identifies any issues or areas that require attention.
+  4. [ME] The technician performs necessary repairs or maintenance, following standard procedures and guidelines.
+  5. [ME] The technician records the start and end times of the repair activity and describes the specific repair actions taken.
+  6. [FV] The technician tests the repaired equipment to ensure it is functioning correctly.
+  7. [FV] The technician reviews the logged activities for accuracy and completeness.
+  8. [FV] The technician submits the completed work order to the system.
+[B]
+  1. [IC] The technician arrives at the office building and begins to prepare for the maintenance activity by reviewing the schedule and gathering necessary tools and equipment.
+  2. [NA] The technician accesses the digital work order system on a tablet device.
+  3. [NA] The technician logs into the work order system using their credentials.
+  4. [NA] The technician navigates to the specific work order for the HVAC repair.
+  5. [PD] The technician reads the initial details of the work order to understand the context of the repair.
+  6. [NA] The technician selects the section to log repair activities.
+  7. [ME] The technician inputs the start time of the repair activity.
+  8. [ME] The technician describes the specific repair actions taken, such as replacing a faulty part.
+  9. [ME] The technician inputs the end time of the repair activity.
+  10. [FV] The technician reviews the logged activities for accuracy and completeness.
+  11. [FV] The technician submits the completed work order to the system.
+[C]
+  1. [NA] Access the digital work order system on a tablet device.
+  2. [NA] Locate and select the specific work order for the service/repair activity.
+  3. [PD] Review the initial details of the work order to understand the context of the service/repair.
+  4. [ME] Record the start time of the service/repair activity.
+  5. [ME] Document the specific service/repair actions taken, including parts used and any observations.
+  6. [ME] Record the end time of the service/repair activity.
+  7. [FV] Review the logged activities for accuracy and completeness.
+  8. [FV] Submit the completed work order.
+[D]
+  1. [NA] Access the digital work order system on a mobile device.
+  2. [NA] Log into the work order system using credentials.
+  3. [NA] Navigate to the specific work order for the repair activity.
+  4. [PD] Read and understand the initial details of the work order.
+  5. [NA] Select the section to log repair activities.
+  6. [ME] Begin the repair activity and input the start time.
+  7. [ME] Describe the specific repair actions taken and any issues encountered.
+  8. [ME] Input the end time of the repair activity upon completion.
+  9. [FV] Review the logged activities for accuracy, completeness, and any lessons learned.
+  10. [FV] Submit the completed work order to the system.
+
+--- Task 466: Evaluate construction projects to determine compliance with external standards or regulations.
+[A]
+  1. [IC] Review the construction project plans and documentation to identify relevant standards and regulations.
+  2. [NA] Travel to the construction site and don personal protective equipment (PPE) to conduct a physical inspection.
+  3. [PD] Inspect structural elements, electrical installations, fire safety features, and accessibility for compliance with regulations.
+  4. [ME] Document observations, take photos, and note specific locations and codes violated.
+  5. [PD] Compare findings with original building plans and codes to prepare a detailed compliance report.
+  6. [ME] Prepare a written report detailing non-compliant issues, recommendations for remediation, and an overall compliance assessment.
+  7. [FV] Present the report to the construction team and relevant regulatory authorities, discussing necessary steps to achieve full compliance.
+[B]
+  1. [IC] Review the construction project plans and documentation.
+  2. [IC] Identify the specific external standards and regulations applicable to the project.
+  3. [NA] Travel to the construction site to conduct a physical inspection.
+  4. [PD] Inspect the structural elements of the building for compliance with regulations.
+  5. [PD] Check electrical installations for compliance with safety regulations.
+  6. [PD] Inspect fire safety features, such as fire alarms and fire exits.
+  7. [PD] Review the collected data and compare it against the regulatory standards.
+  8. [ME] Prepare a detailed report summarizing the findings and compliance status.
+  9. [FV] Deliver the report to the project manager and relevant regulatory authorities.
+[C]
+  1. [IC] Review the construction project plans, specifications, and relevant external standards and regulations.
+  2. [NA] Travel to the construction site and don appropriate personal protective equipment (PPE).
+  3. [PD] Conduct a thorough visual inspection of the construction site, focusing on structural elements, electrical installations, fire safety features, and accessibility.
+  4. [ME] Perform necessary tests on systems like fire alarms and sprinklers to verify functionality.
+  5. [FV] Document all observations, including photographs, detailed descriptions of non-compliant issues, and references to specific code sections.
+  6. [ME] Compile a detailed inspection report summarizing findings, recommendations for remediation, and overall compliance status.
+  7. [FV] Submit the inspection report to the project manager, relevant authorities, and stakeholders.
+[D]
+  1. [IC] Review building plans, specifications, and permit documents to identify relevant external standards and regulations.
+  2. [NA] Don personal protective equipment (PPE) and access the construction site, following safety protocols.
+  3. [PD] Conduct a comprehensive physical inspection of the construction site and building, focusing on structural elements, electrical installations, fire safety features, accessibility, and exterior compliance.
+  4. [ME] Test fire alarms, sprinkler systems, and other active safety features to ensure proper functionality.
+  5. [FV] Document observations, take photographs, and note specific locations and codes violated during the inspection.
+  6. [PD] Compare collected data with the original building plans and applicable regulations to assess compliance.
+  7. [ME] Prepare a written report detailing all non-compliant issues, recommendations for remediation, and an overall compliance assessment.
+  8. [FV] Present the report to the construction team, discuss necessary steps to achieve full compliance, and communicate with relevant regulatory authorities.
+
+--- Task 467: Maintain vehicles in good working condition.
+[A]
+  1. [IC] Review maintenance schedules and prioritize tasks based on vehicle usage and upcoming inspections.
+  2. [NA] Locate the first vehicle in the designated maintenance area.
+  3. [PD] Inspect the vehicle's exterior and undercarriage for any visible damage or issues.
+  4. [ME] Check and adjust the tire pressure and inspect the tread depth.
+  5. [ME] Check and top up all fluid levels, including oil, coolant, power steering fluid, and brake fluid.
+  6. [ME] Change the vehicle's engine oil and oil filter.
+  7. [FV] Test drive the vehicle to ensure all systems are functioning correctly.
+  8. [IC] Record the maintenance tasks performed and update the service schedule for the next vehicle.
+  9. [ME] Repeat the process for the remaining vehicles in the fleet.
+[B]
+  1. [IC] Review maintenance schedules and prioritize tasks based on vehicle usage and upcoming inspections.
+  2. [PD] Conduct a visual inspection of the first vehicle, checking for signs of wear, damage, or needed repairs.
+  3. [PD] Use diagnostic equipment to check the vehicle's oil, coolant, and brake levels, as well as its air filter and tire pressure.
+  4. [NA] Locate and retrieve the necessary tools and parts for the maintenance tasks, using the garage's inventory management system.
+  5. [ME] Replace the air filter and rotate the tires, following the manufacturer's instructions and safety protocols.
+  6. [ME] Check and top off the vehicle's fluids, as needed, and record the maintenance activities in the garage's logbook.
+  7. [PD] Perform a safety inspection of the vehicle, checking for any potential hazards or issues that could affect its safe operation.
+  8. [IC] Update the vehicle's maintenance records and schedule the next inspection or maintenance task, as needed.
+  9. [ME] Repeat the maintenance process for the remaining vehicles in the fleet, following the same procedures and protocols.
+  10. [FV] Review the day's work, ensuring that all maintenance tasks were completed and that the vehicles are in good working condition.
+[C]
+  1. [IC] Review maintenance schedules and prioritize vehicles based on usage and upcoming inspections.
+  2. [NA] Locate the first vehicle designated for maintenance.
+  3. [PD] Conduct a visual inspection of the vehicle's exterior and undercarriage for damage, leaks, or wear.
+  4. [ME] Check and adjust tire pressure and inspect tread depth.
+  5. [ME] Check and top off all fluid levels (oil, coolant, brake fluid, etc.).
+  6. [FV] Perform a test drive to evaluate vehicle performance and identify any issues.
+  7. [IC] Document all maintenance tasks performed and update the vehicle's service record.
+  8. [IC] Repeat the process for the remaining vehicles in the fleet.
+[D]
+  1. [IC] Review maintenance schedules and prioritize tasks based on vehicle usage and upcoming inspections.
+  2. [NA] Locate the first vehicle in the designated maintenance area.
+  3. [PD] Conduct a visual inspection of the vehicle, checking for signs of wear, damage, or needed repairs.
+  4. [PD] Use diagnostic equipment to check the vehicle's oil, coolant, brake levels, air filter, and tire pressure.
+  5. [NA] Locate and retrieve the necessary tools and parts for the maintenance tasks using the garage's inventory management system.
+  6. [ME] Perform maintenance tasks as identified, such as changing oil, replacing air filters, rotating tires, and topping off fluids.
+  7. [PD] Perform a safety inspection of the vehicle, checking for any potential hazards or issues that could affect its safe operation.
+  8. [FV] Test drive the vehicle to ensure all systems are functioning correctly.
+  9. [IC] Record the maintenance tasks performed, update the vehicle's maintenance records, and schedule the next inspection or maintenance task as needed.
+  10. [ME] Repeat the maintenance process for the remaining vehicles in the fleet, following the same procedures and protocols.
+  11. [FV] Review the day's work, ensuring that all maintenance tasks were completed and that the vehicles are in good working condition.
+
+--- Task 468: Inspect facilities to ensure compliance with safety, quality, or service standards.
+[A]
+  1. [IC] Review the facility's blueprint, safety records, and inspection checklist to familiarize with the layout and known hazards.
+  2. [ME] Don personal protective equipment (PPE) required for the inspection, such as hard hat, safety glasses, and steel-toe boots.
+  3. [NA] Navigate to the designated inspection area using the provided plant map and following the designated inspection route.
+  4. [PD] Inspect the area for potential safety hazards, including unguarded machinery, obstructed walkways, improper chemical storage, and non-compliance with safety protocols.
+  5. [FV] Document any observed non-compliances with detailed notes, photographs, and GPS coordinates.
+  6. [IC] Consult relevant safety regulations to verify the severity and potential consequences of the observed non-compliances.
+  7. [NA] Repeat steps 3-6 for all designated inspection areas within the plant.
+  8. [FV] Compile a formal inspection report summarizing findings, including photographs, descriptions of non-compliances, and recommendations for corrective actions.
+  9. [IC] Communicate the findings and recommendations to the facility manager and discuss necessary corrective actions.
+  10. [FV] Submit the inspection report to the facility manager for their records and schedule a follow-up inspection if necessary.
+[B]
+  1. [IC] Review inspection checklist and familiarize self with store layout and safety protocols
+  2. [NA] Navigate to the food handling and preparation areas, noting any visible hazards or non-compliance issues
+  3. [PD] Verify that food handling and preparation procedures are being followed correctly, including proper temperature control and sanitation practices
+  4. [FV] Document any non-compliance issues, including photos and witness statements if necessary
+  5. [FV] Provide a report to store management with recommendations for corrective action
+  6. [IC] Review and update the inspection checklist to reflect any changes or improvements identified during the inspection
+  7. [IC] Collaborate with store management to develop a corrective action plan to address any non-compliance issues identified during the inspection
+  8. [FV] Verify that corrective actions have been implemented and are effective in addressing non-compliance issues
+  9. [FV] Update the inspection report and provide a final copy to store management
+  10. [IC] Schedule a follow-up inspection to ensure ongoing compliance with safety and quality standards
+[C]
+  1. [IC] Review inspection scope, facility layout, safety protocols, and relevant regulations.
+  2. [ME] Don required personal protective equipment (PPE).
+  3. [NA] Navigate to the designated inspection area using provided maps or guidance.
+  4. [PD] Visually inspect the area for potential safety hazards, non-compliances, and areas of concern.
+  5. [FV] Document observed non-compliances with detailed notes, photographs, and GPS coordinates if applicable.
+  6. [IC] Consult relevant safety regulations to verify the severity and potential consequences of identified non-compliances.
+  7. [IC] Communicate findings and recommendations to facility management, discussing corrective actions.
+  8. [FV] Compile a formal inspection report summarizing findings, including photographs, descriptions, and recommendations.
+[D]
+  1. [IC] Review facility layout, safety records, and inspection scope to familiarize with the facility and known hazards.
+  2. [ME] Don personal protective equipment (PPE) required for the inspection.
+  3. [IC] Meet with the facility manager to discuss the inspection scope, schedule, and any specific areas of concern.
+  4. [NA] Navigate to designated inspection areas, following safety protocols and avoiding obstacles.
+  5. [PD] Inspect the area for visible signs of hazards, non-compliance, or improper operation, including machinery, safety guards, emergency stops, worker adherence to safety protocols, and storage of hazardous materials.
+  6. [FV] Document observed non-compliances with detailed notes, photos, GPS coordinates, and witness statements if necessary.
+  7. [IC] Consult relevant safety regulations to verify the severity and potential consequences of the observed non-compliances.
+  8. [NA] Repeat steps 4-7 for all designated inspection areas within the facility.
+  9. [FV] Compile a formal inspection report summarizing findings, including photographs, descriptions of non-compliances, and recommendations for corrective actions.
+  10. [IC] Conduct a follow-up meeting with the facility manager to discuss findings, recommend corrective actions, and schedule a follow-up inspection if necessary.
+  11. [FV] Finalize and submit the inspection report to the facility manager for their records.
+
+--- Task 469: Maintain inventory records.
+[A]
+  1. [IC] Log into the digital inventory management system.
+  2. [NA] Retrieve a handheld barcode scanner and navigate to the inventory management section of the system.
+  3. [PD] Scan barcodes on incoming shipments and update the inventory records, verifying against the packing slips.
+  4. [NA] Physically shelve the received items in their designated locations, following the warehouse's organization system.
+  5. [PD] Scan the barcodes of items being shipped to customers, updating the inventory system to reflect outgoing stock.
+  6. [ME] Physically pack and label the outgoing shipments, ensuring accuracy and proper handling.
+  7. [FV] Reconcile any discrepancies between physical counts and system records, flagging potential issues for further investigation.
+  8. [FV] Generate a daily inventory report summarizing stock levels, movements, and any outstanding discrepancies.
+  9. [FV] Log out of the inventory management system and perform a final check to ensure all records are up-to-date and accurate.
+[B]
+  1. [IC] Log into the digital inventory management system.
+  2. [IC] Review the day's incoming shipments and outgoing sales.
+  3. [NA] Navigate to the inventory management section of the system.
+  4. [ME] Input the details of incoming shipments into the system.
+  5. [ME] Update the inventory records for outgoing sales.
+  6. [PD] Perform a physical inventory count for a random selection of items.
+  7. [PD] Compare the physical count with the digital inventory records.
+  8. [ME] Adjust the digital inventory records to match the physical count.
+  9. [FV] Generate a report of the day's inventory changes.
+  10. [FV] Save and close the inventory management system.
+[C]
+  1. [IC] Log into the digital inventory management system.
+  2. [PD] Scan barcodes on incoming shipments to update inventory records.
+  3. [FV] Verify scanned data against packing slips for discrepancies.
+  4. [ME] Manually update inventory records for any discrepancies or errors.
+  5. [PD] Scan barcodes of items being shipped to customers, updating inventory records.
+  6. [FV] Generate a daily inventory report summarizing stock levels and movements.
+[D]
+  1. [IC] Log into the inventory management system using provided credentials.
+  2. [PD] Retrieve a handheld barcode scanner and ensure it's charged and functioning.
+  3. [NA] Navigate to the 'Received Shipments' section of the software and select the current day's shipments.
+  4. [NA] Proceed to the designated receiving area and locate the first pallet of products.
+  5. [PD] Scan the barcode on the shipping label of the first product and compare the scanned product code with the one listed in the software.
+  6. [ME] Update the quantity of the scanned product in the inventory management system.
+  7. [ME] Repeat steps 5 and 6 for all products on the pallet, ensuring each one is scanned and its quantity updated.
+  8. [NA] Once all products on the pallet have been scanned, move to the designated storage location and place the pallet in the correct bay.
+  9. [ME] Repeat steps 4 to 8 for all incoming shipments, ensuring each one is processed and stored correctly.
+  10. [FV] Once all shipments have been processed, log out of the inventory management software and perform a final check to ensure all records are up-to-date and accurate.
+
+--- Task 470: Write computer programming code.
+[A]
+  1. [IC] Review the project requirements and existing documentation to understand the integration needs and data structures.
+  2. [NA] Set up the development environment, including the text editor or IDE and necessary dependencies.
+  3. [PD] Design the code structure and necessary components based on the requirements.
+  4. [ME] Write the code to implement the designed components and functionalities.
+  5. [FV] Write unit tests to cover the implemented functionalities and ensure they work as expected.
+  6. [FV] Run the unit tests and debug any issues that arise.
+  7. [FV] Document the code with comments and any necessary documentation.
+  8. [IC] Commit the code changes to the version control system with clear commit messages.
+  9. [IC] Notify the project team about the successful completion of the feature.
+[B]
+  1. [IC] Review the requirements document to understand the data structure and the expected output format.
+  2. [NA] Open a text editor or IDE to start writing the Python script.
+  3. [PD] Import necessary Python libraries (e.g., pandas for CSV handling).
+  4. [ME] Write the code to read the input CSV file using pandas.
+  5. [ME] Process the data to calculate total sales and average sales per product.
+  6. [ME] Write the code to output the processed data to a new CSV file.
+  7. [FV] Run the script to test the functionality and check for any errors.
+  8. [FV] Verify the output CSV file to ensure it contains the correct data.
+  9. [FV] Document the code with comments and any necessary documentation.
+  10. [FV] Deliver the completed Python script to the client or team for further use.
+[C]
+  1. [IC] Review the project requirements and specifications to understand the desired functionality, input data format, and expected output.
+  2. [NA] Select and open a suitable Integrated Development Environment (IDE) or text editor.
+  3. [PD] Import necessary libraries or modules based on the programming language and project requirements.
+  4. [ME] Write the code to implement the program logic, including data input, processing, and output.
+  5. [FV] Test the code thoroughly using various test cases and debugging techniques to identify and fix any errors.
+  6. [FV] Document the code with clear comments and explanations to improve readability and maintainability.
+  7. [FV] Save the completed code file in the appropriate location.
+[D]
+  1. [IC] Review project requirements and existing codebase/documentation to understand the task and context.
+  2. [NA] Set up the development environment, including the text editor, IDE, and necessary dependencies.
+  3. [PD] Plan and design the code structure, data models, and algorithms required to solve the problem.
+  4. [ME] Write the code to implement the planned functionality, following best practices and coding standards.
+  5. [ME] Write unit tests to ensure the code functions correctly under various conditions.
+  6. [FV] Run the unit tests to identify and debug any issues or errors in the code.
+  7. [FV] Document the code with comments, inline documentation, and any necessary external documentation.
+  8. [IC] Commit the code changes to the version control system with clear, concise commit messages.
+  9. [IC] Notify the project team or stakeholders about the completed task and any relevant updates.
+
+--- Task 471: Prepare land for agricultural use.
+[A]
+  1. [NA] Using GPS data, navigate to the designated plot of land.
+  2. [PD] Inspect the plot to identify obstacles such as rocks, stumps, weeds, and poor drainage areas.
+  3. [ME] Remove identified obstacles using appropriate tools such as a backhoe, shovel, or tractor-mounted brush cutter.
+  4. [ME] Till the land to a depth of 6-8 inches using a tractor with a tiller attachment.
+  5. [ME] Apply a layer of compost and granular fertilizer based on soil test results.
+  6. [ME] Use a rake to mix the fertilizer and compost into the top layer of soil.
+  7. [ME] Level the land using a grader or other heavy machinery to ensure a smooth, even surface.
+  8. [PD] Inspect the land to ensure it is clear, level, and has proper tilth.
+  9. [FV] Document the preparation process and any observations for future reference.
+[B]
+  1. [PD] Inspect the plot of land to identify areas with dense weed growth.
+  2. [ME] Operate a tractor-mounted brush cutter to clear the weeds.
+  3. [ME] Collect and dispose of the cut weeds.
+  4. [PD] Inspect the soil to determine its condition and nutrient levels.
+  5. [ME] Operate a tiller to loosen the soil to a depth of 6-8 inches.
+  6. [ME] Apply a layer of compost to the tilled soil.
+  7. [ME] Use a spreader to apply granular fertilizer based on soil test results.
+  8. [ME] Operate a rake to mix the fertilizer and compost into the top layer of soil.
+  9. [FV] Inspect the prepared land to ensure it is ready for planting.
+  10. [FV] Document the preparation process and any observations for future reference.
+[C]
+  1. [PD] Inspect the plot for obstacles like rocks, trees, or dense weed growth.
+  2. [ME] Clear obstacles using appropriate tools (e.g., brush cutter, backhoe).
+  3. [PD] Assess soil condition (compaction, nutrient levels).
+  4. [ME] Till the soil to a depth of 6-8 inches.
+  5. [ME] Amend the soil with compost and fertilizer based on soil analysis.
+  6. [ME] Level the soil surface using a rake or leveling attachment.
+  7. [FV] Inspect the prepared land to ensure it meets planting criteria.
+[D]
+  1. [PD] Inspect the land to identify obstacles such as rocks, stumps, or debris, and areas with dense weed growth.
+  2. [ME] Mark the location of identified obstacles using flags or GPS coordinates.
+  3. [ME] Remove identified obstacles using appropriate tools such as a backhoe, shovel, or tractor-mounted brush cutter.
+  4. [PD] Inspect the soil to determine its condition, nutrient levels, and pH, and check for signs of standing water or poor drainage.
+  5. [ME] If necessary, install drainage tiles or create furrows to improve drainage, and apply lime or sulfur to adjust soil pH.
+  6. [ME] Till the land to a depth of at least 6 inches using a tractor with a plow attachment, breaking up compacted soil and loosing any remaining debris.
+  7. [ME] Level the land using a grader or other heavy machinery to ensure a smooth, even surface, and apply a layer of compost to the tilled soil.
+  8. [PD] Test the land for proper tilth by squeezing a handful of soil, and apply granular fertilizer based on soil test results.
+  9. [ME] If necessary, add organic matter or other amendments to improve soil tilth and fertility.
+  10. [FV] Inspect the prepared land to ensure it is clear of obstacles, has proper drainage, and meets the success criteria for planting.
+  11. [FV] Document the preparation process, any observations, and the success criteria for future reference.
+
+--- Task 472: Develop promotional materials.
+[A]
+  1. [IC] Meet with the client to discuss the requirements and vision for the promotional materials.
+  2. [NA] Research competitor materials and gather relevant images and text to align with the client's vision.
+  3. [PD] Sketch initial design concepts and create mood boards for different visual styles and messaging.
+  4. [ME] Refine the chosen design concept into a digital format using graphic design software.
+  5. [FV] Present the initial designs to the client and gather feedback for necessary revisions.
+  6. [ME] Finalize the designs and prepare them for both digital and print formats.
+  7. [NA] Create a master folder containing all final designs and their variations, and share it with the client.
+  8. [FV] Review the final designs one last time to ensure they accurately represent the product and align with the client's vision.
+  9. [IC] Confirm the completion of the promotional materials with the client and archive the project folder for future reference.
+[B]
+  1. [IC] Meet with the client to discuss the requirements for the promotional materials.
+  2. [NA] Research eco-friendly office supplies and gather relevant images and text.
+  3. [NA] Open graphic design software and create a new flyer template.
+  4. [ME] Design the layout of the flyer, incorporating images and text.
+  5. [FV] Review the design for clarity and effectiveness, making adjustments as necessary.
+  6. [IC] Send a draft of the flyer to the client for feedback.
+  7. [ME] Revise the flyer based on the client's feedback.
+  8. [ME] Finalize the flyer design and prepare it for both digital and print formats.
+  9. [FV] Send the final version of the flyer to the client for approval.
+  10. [FV] Deliver the approved flyer in both digital and print-ready formats to the client.
+[C]
+  1. [IC] Meet with the client to discuss their promotional needs, target audience, and desired tone.
+  2. [NA] Research relevant industry trends, competitor campaigns, and effective promotional strategies.
+  3. [ME] Develop initial design concepts and mood boards, exploring different visual styles and messaging.
+  4. [FV] Present the initial concepts to the client, gather feedback, and iterate on the designs.
+  5. [ME] Finalize the chosen design concept, creating the necessary promotional materials (e.g., flyers, social media graphics).
+  6. [NA] Prepare the final designs for delivery, ensuring they are in the correct formats for their intended use.
+  7. [IC] Deliver the finalized promotional materials to the client, providing clear instructions and support.
+[D]
+  1. [IC] Meet with the client to discuss promotional materials requirements, target audience, and desired tone.
+  2. [PD] Research competitor campaigns and successful promotional materials in the relevant niche.
+  3. [ME] Develop initial concept sketches and mood boards, exploring different visual styles and messaging approaches.
+  4. [FV] Present initial concepts to the client, gather feedback, and iterate on the designs.
+  5. [ME] Refine chosen design concepts into finalized digital assets for various promotional materials and platforms.
+  6. [ME] Export finalized designs in appropriate file formats for each promotional material and platform.
+  7. [NA] Create a master folder containing all final designs, their variations, and relevant files, and share it with the client.
+  8. [FV] Review final designs with the client to ensure they accurately represent the product and align with the company's brand.
+  9. [IC] Send an email to the client confirming the completion of promotional materials and attaching the master folder.
+  10. [NA] Archive the project folder for future reference and potential updates.
+
+================================================================
+ANSWER TEMPLATE
+
+465: _ | 
+466: _ | 
+467: _ | 
+468: _ | 
+469: _ | 
+470: _ | 
+471: _ | 
+472: _ | 
+

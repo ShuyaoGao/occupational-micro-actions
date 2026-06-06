@@ -1,0 +1,337 @@
+BATCH 63/63 | Model: Claude Opus 4.7 | Tasks 496-502
+================================================================
+EXPERT REVIEW -- Micro-Action Sequence Evaluation
+For each task, read ALL four options, then choose the BEST (A/B/C/D).
+
+Criteria:
+  1. Completeness  -- no critical steps missing
+  2. Realism       -- every step is concretely executable
+  3. Stage accuracy -- stage label correct for each step:
+     IC=Intent_Communication  NA=Navigation_Addressing
+     PD=Perception_Diagnosis  ME=Manipulation_Execution  FV=Feedback_Verification
+  4. Conciseness   -- no redundant or duplicate steps
+  5. Scope         -- starts and ends at exactly the right point
+
+OUTPUT: fill the ANSWER TEMPLATE at the bottom.
+Format: N: X | one-sentence reason (max 12 words)
+IMPORTANT: Each task has a different best answer. Do NOT pick the same
+letter for every task without reading.
+================================================================
+
+--- Task 496: Advise patients on healthcare system processes.
+[A]
+  1. [IC] Greet the patient warmly, introduce yourself, and confirm their identity and the purpose of the consultation.
+  2. [PD] Review the patient's medical history and insurance information to understand their current situation.
+  3. [IC] Explain the healthcare system processes and policies relevant to the patient's situation, using clear and simple language.
+  4. [NA] Provide written materials summarizing the discussion and instructions, and visually illustrate key concepts using diagrams or brochures.
+  5. [ME] Outline the next steps the patient needs to take, including appointments, referrals, or paperwork, and confirm their understanding.
+  6. [FV] Answer any further questions the patient may have and provide reassurance.
+  7. [FV] Provide contact information for follow-up questions or concerns and document the advice session in the patient's EHR.
+[B]
+  1. [IC] Greet the patient warmly, introduce yourself, and confirm their identity.
+  2. [IC] Actively listen to the patient's concerns and questions about their healthcare needs.
+  3. [PD] Explain the relevant healthcare processes in clear, concise language, avoiding jargon.
+  4. [NA] Outline the next steps the patient needs to take, including appointments, referrals, or paperwork.
+  5. [IC] Answer any further questions the patient may have patiently and thoroughly.
+  6. [IC] Provide contact information for follow-up questions or concerns.
+  7. [FV] Confirm the patient's understanding and offer reassurance.
+  8. [NA] Provide written information and resources, such as brochures or websites, to support the patient's understanding and navigation of the healthcare system.
+  9. [FV] Review the patient's understanding of the healthcare system processes and policies, to ensure that they feel confident and prepared to navigate the system.
+  10. [ME] Document the advice session in the patient's electronic health record, noting the patient's understanding and any follow-up actions required.
+[C]
+  1. [IC] Greet the patient, confirm their identity, and briefly explain the purpose of the consultation.
+  2. [IC] Actively listen to the patient's concerns and questions regarding healthcare processes.
+  3. [IC] Explain relevant healthcare processes in clear, concise language, avoiding jargon and using visual aids if helpful.
+  4. [NA] Outline the next steps the patient needs to take, including appointments, referrals, or paperwork.
+  5. [IC] Address any further questions the patient may have patiently and thoroughly.
+  6. [FV] Confirm the patient's understanding and offer reassurance.
+  7. [IC] Provide contact information for follow-up questions or concerns.
+[D]
+  1. [IC] Greet the patient warmly, introduce yourself, and confirm their identity and the purpose of the consultation.
+  2. [IC] Actively listen to the patient's concerns and questions about their healthcare needs.
+  3. [PD] Review the patient's medical history and insurance information.
+  4. [IC] Explain relevant healthcare processes in clear, concise language, avoiding jargon, and using visual aids where appropriate.
+  5. [NA] Outline the next steps the patient needs to take, including appointments, referrals, or paperwork.
+  6. [IC] Answer any further questions the patient may have patiently and thoroughly.
+  7. [IC] Provide contact information for follow-up questions or concerns.
+  8. [FV] Confirm the patient's understanding of the discussed processes and offer reassurance.
+  9. [ME] Document the advice session in the patient's electronic health record (EHR), noting the patient's understanding and any follow-up actions required.
+
+--- Task 497: Develop educational policies.
+[A]
+  1. [PD] Conduct a literature review on current educational policies and their impact, and gather data on literacy rates and educational trends.
+  2. [PD] Conduct interviews with educators, administrators, and other stakeholders to understand their challenges and needs.
+  3. [ME] Draft a policy proposal outlining the identified issues and proposed solutions, incorporating best practices and ethical considerations.
+  4. [FV] Seek feedback from stakeholders, including teachers, administrators, and community members, to revise and refine the policy draft.
+  5. [ME] Finalize the policy document, ensuring compliance with state and federal laws, and prepare for presentation to the state education board.
+  6. [IC] Present the policy proposal to the state education board and address any questions or concerns raised during the approval process.
+  7. [FV] Finalize the policy document based on feedback from the state education board and submit it for implementation.
+[B]
+  1. [PD] Review existing educational policies and research on effective STEM curriculum design to inform the development of new policies.
+  2. [IC] Conduct stakeholder analysis to identify key stakeholders, their interests, and potential areas of conflict.
+  3. [ME] Develop a draft of the new STEM curriculum policies, including key components such as scope, sequence, and assessment.
+  4. [FV] Seek feedback from stakeholders, including teachers, administrators, and community members, to revise and refine the policy draft.
+  5. [ME] Finalize the policy document, including any necessary revisions and edits.
+  6. [IC] Present the final policy document to the school board and district administrators for approval.
+  7. [IC] Address any questions or concerns raised by the school board and district administrators during the approval process.
+  8. [ME] Implement the approved STEM curriculum policies, including any necessary training or professional development for teachers.
+  9. [PD] Monitor and evaluate the effectiveness of the new STEM curriculum policies, including gathering data on student outcomes and teacher feedback.
+  10. [ME] Revise and refine the STEM curriculum policies based on evaluation data and feedback from stakeholders.
+[C]
+  1. [IC] Define the scope and target audience of the educational policy.
+  2. [PD] Conduct a comprehensive review of existing educational policies and research relevant to the policy's scope.
+  3. [NA] Gather data on current educational practices and outcomes related to the policy's focus.
+  4. [IC] Engage with key stakeholders (educators, administrators, parents, community members) to understand their perspectives and needs.
+  5. [PD] Analyze the collected data and stakeholder feedback to identify key challenges and opportunities for improvement.
+  6. [ME] Draft the educational policy document, outlining clear objectives, strategies, and implementation guidelines.
+  7. [FV] Seek feedback on the draft policy from relevant stakeholders and experts.
+  8. [ME] Revise and finalize the policy document based on feedback received.
+  9. [IC] Present the finalized policy to the relevant decision-making body for approval.
+[D]
+  1. [PD] Conduct a literature review and gather data on existing educational policies, their impact, and relevant literacy rates.
+  2. [IC] Conduct interviews with educators, administrators, and stakeholders to understand their challenges, needs, and priorities.
+  3. [PD] Analyze collected data to identify key factors affecting the area of focus (e.g., literacy rates, STEM education, AI integration).
+  4. [ME] Draft a policy proposal outlining identified issues, proposed solutions, objectives, strategies, and metrics for success.
+  5. [FV] Seek feedback from stakeholders, including teachers, administrators, community members, and legal advisors, to revise and refine the policy draft.
+  6. [ME] Finalize the policy document, ensuring compliance with relevant laws and addressing any remaining questions or concerns.
+  7. [IC] Present the final policy document to the relevant authority (e.g., state education board, district policy committee) for approval.
+  8. [ME] Implement the approved policy, including any necessary training, professional development, or resource allocation.
+  9. [PD] Monitor and evaluate the effectiveness of the new policy, gathering data on student outcomes, teacher feedback, and other relevant metrics.
+  10. [ME] Revise and refine the policy based on evaluation data and feedback from stakeholders, creating a continuous improvement cycle.
+
+--- Task 498: Clean food service areas.
+[A]
+  1. [NA] Gather cleaning supplies, including cleaning solution, sponges, mops, and disposable gloves, from the storage closet and transport them to the kitchen area.
+  2. [ME] Put on disposable gloves to protect hands and maintain hygiene.
+  3. [ME] Clear all loose debris and trash from the kitchen floor and surfaces.
+  4. [ME] Wipe down all surfaces, including countertops, prep tables, and cooking stations, using a cleaning solution.
+  5. [ME] Sanitize all surfaces using a sanitizing solution to ensure they are free from bacteria.
+  6. [ME] Clean and sanitize all cooking equipment, such as stoves, ovens, and grills.
+  7. [ME] Mop the kitchen floor, starting from the farthest corner and working towards the exit.
+  8. [ME] Empty and clean the dishwashing area, including the dishwasher and any sinks.
+  9. [FV] Inspect all cleaned areas to ensure they meet hygiene standards.
+  10. [FV] Remove and dispose of used cleaning supplies and gloves properly.
+[B]
+  1. [NA] Gather cleaning supplies, including cleaning solution, sponges, mops, and disposable gloves.
+  2. [ME] Put on disposable gloves to protect hands and maintain hygiene.
+  3. [ME] Clear all loose debris and trash from the kitchen floor and surfaces.
+  4. [ME] Wipe down all surfaces, including countertops, prep tables, and cooking stations, using a cleaning solution.
+  5. [ME] Sanitize all surfaces using a sanitizing solution to ensure they are free from bacteria.
+  6. [ME] Clean and sanitize all cooking equipment, such as stoves, ovens, and grills.
+  7. [ME] Mop the kitchen floor, starting from the farthest corner and working towards the exit.
+  8. [ME] Empty and clean the dishwashing area, including the dishwasher and any sinks.
+  9. [FV] Inspect all cleaned areas to ensure they meet hygiene standards.
+  10. [FV] Remove and dispose of used cleaning supplies and gloves properly.
+[C]
+  1. [NA] Gather cleaning supplies: cleaning solution, sponges, mops, gloves, and trash bags.
+  2. [ME] Put on disposable gloves.
+  3. [ME] Clear all loose debris and trash into designated trash bags.
+  4. [ME] Wipe down all surfaces (countertops, tables, cooking stations) with cleaning solution.
+  5. [ME] Sanitize all surfaces using a sanitizing solution.
+  6. [ME] Clean and sanitize cooking equipment (stoves, ovens, grills).
+  7. [ME] Mop the floor, starting from the farthest corner and working towards the exit.
+  8. [ME] Empty and clean the dishwashing area, including the dishwasher and sinks.
+  9. [FV] Visually inspect all cleaned areas to ensure they meet hygiene standards.
+  10. [IC] Remove and dispose of used cleaning supplies and gloves properly.
+[D]
+  1. [PD] Assess the food service area, identifying areas that need cleaning.
+  2. [IC] Put on appropriate Personal Protective Equipment (PPE), including gloves and a face mask.
+  3. [NA] Gather cleaning supplies, including cleaning solution, sponges, mops, disposable gloves, and trash bags.
+  4. [ME] Remove trash and debris from the floor and surfaces, using a broom and dustpan if necessary.
+  5. [ME] Wipe down all surfaces, including countertops, prep tables, cooking stations, and appliances, using a cleaning solution.
+  6. [ME] Sanitize all surfaces using a sanitizing solution to ensure they are free from bacteria.
+  7. [ME] Clean and sanitize all cooking equipment, such as stoves, ovens, and grills, following the manufacturer's instructions.
+  8. [ME] Mop the kitchen floor, starting from the farthest corner and working towards the exit, ensuring all food residue and grease are removed, and the floor is left dry and safe for walking.
+  9. [ME] Empty and clean all trash cans, replacing liners as needed.
+  10. [FV] Inspect all cleaned areas to ensure they meet the required sanitation standards.
+  11. [FV] Remove and dispose of used cleaning supplies and gloves properly, following local waste management guidelines.
+  12. [IC] Remove PPE and dispose of it appropriately, then leave the food service area, ready for the next shift.
+
+--- Task 499: Maintain watercraft engines or machinery.
+[A]
+  1. [IC] Review the boat's maintenance log to understand the history and upcoming tasks.
+  2. [NA] Don personal protective equipment (PPE) and safety gear appropriate for working on the boat.
+  3. [NA] Locate and access the boat's engine room, navigating through tight spaces and obstacles.
+  4. [PD] Inspect the engine and machinery for any visible signs of wear, damage, or leaks.
+  5. [PD] Use diagnostic tools to measure and analyze engine performance, such as checking oil pressure and temperature.
+  6. [ME] Perform necessary maintenance tasks, such as changing oil, replacing filters, or tightening loose bolts.
+  7. [FV] Test the engine and machinery to ensure they are functioning properly after maintenance.
+  8. [ME] Clean the engine room and surrounding areas to maintain a safe and organized workspace.
+  9. [IC] Update the boat's maintenance log with the tasks performed and any notable observations.
+[B]
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+[C]
+  1. [IC] Review the boat's maintenance log and identify scheduled tasks.
+  2. [NA] Don appropriate personal protective equipment (PPE) like safety glasses and gloves.
+  3. [NA] Locate and safely access the engine compartment.
+  4. [PD] Conduct a visual inspection of the engine and machinery for leaks, corrosion, or loose connections.
+  5. [ME] Perform necessary maintenance tasks as per the schedule, such as changing oil, replacing filters, or tightening bolts.
+  6. [PD] Use diagnostic tools to measure engine performance (e.g., oil pressure, temperature).
+  7. [FV] Start the engine and listen for any unusual noises or vibrations.
+  8. [IC] Document all maintenance tasks performed and any observed issues in the log.
+[D]
+  1. [IC] Review the boat's maintenance log and schedule to understand the history and upcoming tasks.
+  2. [NA] Don personal protective equipment (PPE) and safety gear appropriate for working on the boat.
+  3. [NA] Locate and access the boat's engine room, navigating through tight spaces and obstacles.
+  4. [PD] Inspect the engine and machinery for any visible signs of wear, damage, or leaks.
+  5. [PD] Use diagnostic tools to measure and analyze engine performance, such as checking oil level, quality, and pressure; coolant level; and battery connections.
+  6. [ME] Perform necessary maintenance tasks, such as changing oil and filter, replacing air and fuel filters, checking and replacing spark plugs, inspecting and replacing belts and hoses, and cleaning the air filter.
+  7. [FV] Start the engine and listen for any unusual noises or vibrations to ensure it's functioning properly after maintenance.
+  8. [ME] Clean the engine room and surrounding areas to maintain a safe and organized workspace.
+  9. [IC] Update the boat's maintenance log with the tasks performed, any notable observations, and recommendations for future maintenance.
+  10. [IC] Communicate the maintenance status and any recommendations to the boat owner or captain.
+
+--- Task 500: Schedule dining reservations.
+[A]
+  1. [IC] Answer the phone and greet the customer.
+  2. [IC] Ask the customer for the desired date, time, party size, and any special requests.
+  3. [NA] Log into the digital reservation system and navigate to the scheduling interface.
+  4. [PD] Check the availability of tables for the requested date and time, and identify a suitable table.
+  5. [ME] Enter the reservation details into the system and confirm the reservation with the customer.
+  6. [FV] Provide the customer with a confirmation number and any special requests noted.
+  7. [FV] Thank the customer for their reservation and end the call.
+[B]
+  1. [IC] Answer the phone and greet the customer.
+  2. [IC] Ask the customer for the desired date, time, and number of guests.
+  3. [NA] Log into the digital reservation system.
+  4. [PD] Check the availability of tables for the requested date and time.
+  5. [PD] Identify a suitable table that fits the number of guests.
+  6. [ME] Enter the reservation details into the system.
+  7. [FV] Confirm the reservation with the customer.
+  8. [FV] Provide the customer with a confirmation number.
+  9. [FV] Thank the customer for their reservation.
+  10. [FV] End the call and log out of the reservation system.
+[C]
+  1. [IC] Receive customer request for reservation, including date, time, and party size.
+  2. [NA] Access and navigate to the reservation system.
+  3. [PD] Check system for table availability matching the customer's request.
+  4. [IC] If available, confirm reservation details with the customer.
+  5. [ME] Enter confirmed reservation details into the system.
+  6. [FV] Provide customer with confirmation number and any relevant information.
+[D]
+  1. [IC] Answer the phone and greet the customer, introducing yourself and the restaurant.
+  2. [IC] Ask the customer for their name, the desired date, time, and number of guests, and any special requests or preferences.
+  3. [NA] Access the digital reservation system using the computer keyboard or login interface.
+  4. [PD] Check the availability of tables for the requested date, time, and party size, considering any special requests or preferences.
+  5. [ME] Offer alternative times, table configurations, or nearby restaurants if the initial request cannot be accommodated.
+  6. [IC] Confirm the reservation details with the customer, including time, date, party size, table configuration, and any special requests.
+  7. [ME] Enter the confirmed reservation details into the system, ensuring accuracy and completeness.
+  8. [FV] Communicate the reservation confirmation details (date, time, restaurant name, confirmation number) to the customer and thank them for their reservation.
+  9. [FV] Print out or save the reservation list for the waitstaff and kitchen, ensuring it is up-to-date and easily accessible.
+
+--- Task 501: Configure computer networks.
+[A]
+  1. [IC] Review the network design documentation and building blueprints to understand the layout and requirements.
+  2. [NA] Navigate to the server room and identify the network switches, routers, and access points that need to be configured.
+  3. [ME] Connect to the network switches and routers using a console cable and configure the IP addresses, VLANs, and QoS policies.
+  4. [ME] Set up the wireless access points and configure the SSIDs, security settings, and network security measures.
+  5. [ME] Install and configure network management and monitoring tools to monitor and manage network devices.
+  6. [PD] Run a network discovery scan to identify all connected devices and ensure they are properly configured.
+  7. [FV] Test the network connectivity between workstations, servers, and wireless devices to ensure proper functionality.
+  8. [FV] Document the network configuration and settings for future reference and provide basic troubleshooting instructions.
+[B]
+  1. [IC] Review the network design documentation and requirements for the new office space.
+  2. [IC] Review the building's blueprint to understand the layout and location of all desktops and servers.
+  3. [IC] Calculate the total number of network ports required and order necessary networking hardware.
+  4. [NA] Physically install network hubs and switches in designated locations, ensuring they are securely mounted and properly ventilated.
+  5. [NA] Run network cables through the building's infrastructure, ensuring they are properly secured and do not interfere with other utilities.
+  6. [ME] Connect all network ports to the hubs and switches, ensuring proper termination and no crossed cables.
+  7. [PD] Configure the network's IP addressing scheme, ensuring no address conflicts and efficient use of available IP addresses.
+  8. [ME] Set up the network's DHCP server to automatically assign IP addresses to connected devices.
+  9. [PD] Configure the network's firewall and access control lists (ACLs) to secure the network from external threats and unauthorized access.
+  10. [FV] Connect all desktops to the network and ensure they can access the shared servers.
+  11. [FV] Test the network's performance by transferring large files between desktops and servers, ensuring it can handle the expected workload.
+  12. [FV] Document the network's configuration, including IP addressing scheme, hardware locations, and security measures, for future reference and maintenance.
+[C]
+  1. [IC] Review network design documentation, blueprints, and requirements to understand the scope and layout of the network.
+  2. [NA] Identify the location of network equipment (routers, switches, access points) and plan the cabling route.
+  3. [ME] Physically install network hubs, switches, and access points, ensuring secure mounting and proper ventilation.
+  4. [ME] Run network cables, ensuring proper termination, secure connections, and no interference with other utilities.
+  5. [ME] Connect network devices (routers, switches, access points) and configure basic settings (IP addresses, VLANs, QoS).
+  6. [ME] Configure network security measures (firewall, intrusion detection, access control lists) to protect against threats.
+  7. [FV] Test network connectivity and performance on all workstations (wired and wireless) to ensure proper functionality.
+  8. [FV] Document the network configuration, including hardware locations, IP addressing scheme, and security settings.
+[D]
+  1. [IC] Review the network design documentation, building blueprints, and requirements to understand the network layout, equipment locations, and performance needs.
+  2. [ME] Unpack and inventory network equipment (router, switch, access points, cables) and calculate the total number of network ports required.
+  3. [NA] Physically install network hubs and switches in designated locations, ensuring they are securely mounted, properly ventilated, and follow the planned cabling route.
+  4. [NA] Run network cables through the building's infrastructure, ensuring they are properly secured, do not interfere with other utilities, and follow the planned route.
+  5. [ME] Connect all network ports to the hubs and switches, ensuring proper termination and no crossed cables.
+  6. [PD] Connect to the network equipment using a network management tool to assess the current network configuration and diagnose any potential issues.
+  7. [ME] Configure the network's IP addressing scheme, ensuring no address conflicts and efficient use of available IP addresses.
+  8. [ME] Set up the network's DHCP server to automatically assign IP addresses to connected devices.
+  9. [ME] Configure network security measures, including firewalls, intrusion detection systems, and access control lists (ACLs) to protect against cyber threats and unauthorized access.
+  10. [ME] Configure the network's wireless access points, setting up SSIDs, passwords, and security protocols, and plan their optimal placement for Wi-Fi coverage.
+  11. [FV] Test the network configuration by connecting all desktops, servers, and wireless devices, ensuring they can access shared resources and the internet.
+  12. [FV] Test the network's performance by transferring large files between desktops, servers, and wireless devices, ensuring it can handle the expected workload.
+  13. [FV] Document the network's configuration, including IP addressing scheme, hardware locations, security measures, and performance metrics, for future reference and maintenance.
+  14. [IC] Notify the IT team, end-users, and project manager that the network configuration is complete, and provide them with the final network configuration report.
+
+--- Task 502: Operate natural gas distribution equipment.
+[A]
+  1. [IC] The technician arrives at the gas distribution station and dons personal protective equipment (PPE), including a hard hat, safety glasses, and gloves.
+  2. [IC] The technician reviews the work order and confirms the specific valves to be operated and the required gas flow rates.
+  3. [NA] The technician navigates to the first valve location, which is a large, underground valve chamber, and ensures the area is free of gas leaks using a gas detector.
+  4. [PD] The technician reads the current position of the valve and the pressure gauges to assess the current state of the gas flow.
+  5. [ME] The technician operates the valve handle to adjust the gas flow as per the work order, applying the correct torque to ensure the valve is properly closed or opened.
+  6. [FV] The technician rechecks the valve position and pressure gauges to confirm the gas flow has been adjusted correctly.
+  7. [ME] The technician repeats steps 3-6 for each valve specified in the work order, ensuring all valves are adjusted as required.
+  8. [FV] The technician completes the final valve adjustment and rechecks all valves and gauges to ensure the system is stable and safe.
+  9. [FV] The technician documents the completed work in the system log and reports back to the control center, confirming the task is complete.
+[B]
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+[C]
+  1. [IC] Don personal protective equipment (PPE) including hard hat, safety glasses, and gloves.
+  2. [IC] Review the work order to identify specific valves to be operated and required gas flow rates.
+  3. [NA] Navigate to the first valve location, which may be a large, underground valve chamber.
+  4. [NA] Access the valve chamber, ensuring the area is free of gas leaks using a gas detector.
+  5. [PD] Read the current valve position and pressure gauges to assess the existing gas flow.
+  6. [ME] Operate the valve handle to adjust the gas flow according to the work order, applying the correct torque.
+  7. [FV] Verify the adjusted gas flow by rechecking the valve position and pressure gauges.
+  8. [ME] Repeat steps 3-7 for each valve specified in the work order.
+  9. [FV] Document the completed work in the system log, noting any observations or issues encountered.
+[D]
+  1. [IC] Arrive at the gas distribution station and don personal protective equipment (PPE).
+  2. [IC] Review the work order and confirm the specific valves to be operated and the required gas flow rates.
+  3. [NA] Navigate to the first valve location and open the valve chamber cover.
+  4. [NA] Descend into the valve chamber using a ladder, ensuring the area is free of gas leaks using a gas detector.
+  5. [PD] Read the current position of the valve and the pressure gauges to assess the current state of the gas flow.
+  6. [ME] Operate the valve handle to adjust the gas flow as per the work order, applying the correct torque.
+  7. [FV] Recheck the valve position and pressure gauges to confirm the gas flow has been adjusted correctly.
+  8. [ME] Repeat steps 3-7 for each valve specified in the work order, ensuring all valves are adjusted as required.
+  9. [FV] Complete the final valve adjustment and recheck all valves and gauges to ensure the system is stable and safe.
+  10. [FV] Document the completed work in the system log and report back to the control center, confirming the task is complete.
+
+================================================================
+ANSWER TEMPLATE
+
+496: _ | 
+497: _ | 
+498: _ | 
+499: _ | 
+500: _ | 
+501: _ | 
+502: _ | 
+

@@ -1,0 +1,366 @@
+BATCH 18/63 | Model: Claude Opus 4.7 | Tasks 137-144
+================================================================
+EXPERT REVIEW -- Micro-Action Sequence Evaluation
+For each task, read ALL four options, then choose the BEST (A/B/C/D).
+
+Criteria:
+  1. Completeness  -- no critical steps missing
+  2. Realism       -- every step is concretely executable
+  3. Stage accuracy -- stage label correct for each step:
+     IC=Intent_Communication  NA=Navigation_Addressing
+     PD=Perception_Diagnosis  ME=Manipulation_Execution  FV=Feedback_Verification
+  4. Conciseness   -- no redundant or duplicate steps
+  5. Scope         -- starts and ends at exactly the right point
+
+OUTPUT: fill the ANSWER TEMPLATE at the bottom.
+Format: N: X | one-sentence reason (max 12 words)
+IMPORTANT: Each task has a different best answer. Do NOT pick the same
+letter for every task without reading.
+================================================================
+
+--- Task 137: Review blueprints or specifications to determine work requirements.
+[A]
+  1. [NA] Retrieve the blueprints and specifications from the project folder.
+  2. [PD] Scan the title block of the blueprint to identify the unit number, project name, and revision date.
+  3. [PD] Review the project overview and scope of work section to understand the building's layout and HVAC needs.
+  4. [PD] Examine the floor plans to identify the number and size of rooms, their locations, and any special requirements (e.g., server rooms, meeting rooms).
+  5. [PD] Check the HVAC system specifications for the required air flow rates, temperature settings, and any special equipment needs.
+  6. [PD] Identify the locations of existing HVAC components, such as vents, ducts, and control panels.
+  7. [ME] Determine the necessary HVAC system components and their installation locations based on the blueprints and specifications.
+  8. [ME] Create a list of all required HVAC system components and their specifications.
+  9. [PD] Identify any potential challenges or obstacles in the installation process, such as structural barriers or existing utilities.
+  10. [ME] Document the identified work requirements and any challenges in a detailed report.
+  11. [FV] Submit the detailed report to the project manager for review and approval.
+[B]
+  1. [NA] Retrieve the blueprints and specifications from the project folder.
+  2. [PD] Review the project overview and scope of work section to understand the building's layout and HVAC needs.
+  3. [PD] Examine the floor plans to identify the number and size of rooms, their locations, and any special requirements (e.g., server rooms, meeting rooms).
+  4. [PD] Check the HVAC system specifications for the required air flow rates, temperature settings, and any special equipment needs.
+  5. [PD] Identify the locations of existing HVAC components, such as vents, ducts, and control panels.
+  6. [ME] Determine the necessary HVAC system components and their installation locations based on the blueprints and specifications.
+  7. [ME] Create a list of all required HVAC system components and their specifications.
+  8. [PD] Identify any potential challenges or obstacles in the installation process, such as structural barriers or existing utilities.
+  9. [ME] Document the identified work requirements and any challenges in a detailed report.
+  10. [FV] Submit the detailed report to the project manager for review and approval.
+[C]
+  1. [NA] Retrieve the blueprints and specifications from the project folder.
+  2. [IC] Review the project overview and scope of work to understand the building's layout and HVAC needs.
+  3. [PD] Examine the floor plans to identify room sizes, locations, and special requirements.
+  4. [PD] Analyze the HVAC system specifications for airflow rates, temperature settings, and equipment needs.
+  5. [PD] Identify the locations of existing HVAC components (vents, ducts, control panels).
+  6. [ME] Determine necessary HVAC components and their installation locations based on the analysis.
+  7. [ME] Document identified work requirements, challenges, and a list of required components.
+  8. [FV] Submit the detailed report to the project manager for review and approval.
+[D]
+  1. [NA] Retrieve and unfold the blueprint roll from the project folder or construction site office.
+  2. [PD] Review the project overview and scope of work section to understand the building's layout, HVAC needs, and other notable features or requirements.
+  3. [PD] Examine the floor plans and identify the number and size of rooms, their locations, and any special requirements (e.g., server rooms, meeting rooms, HVAC components).
+  4. [PD] Check the HVAC system specifications for required air flow rates, temperature settings, and any special equipment needs.
+  5. [PD] Identify the locations of existing HVAC components, such as vents, ducts, and control panels, and compare them with the blueprint to identify any discrepancies.
+  6. [ME] Determine the necessary HVAC system components and their installation locations based on the blueprints and specifications.
+  7. [ME] Estimate the quantity and type of materials, labor, and tools required for the HVAC installation based on the blueprint dimensions and specifications.
+  8. [PD] Identify any potential challenges or obstacles in the installation process, such as structural barriers or existing utilities, and document them in a detailed report.
+  9. [FV] Prepare a mental checklist or notes for the installation process based on the blueprint review and identified work requirements.
+  10. [FV] Submit the detailed report to the project manager for review and approval.
+
+--- Task 138: Administer first aid.
+[A]
+  1. [NA] Assess the scene for safety hazards and ensure the environment is safe before approaching the injured person.
+  2. [IC] Approach the injured person and communicate your intention to help, asking if they are conscious and responsive.
+  3. [NA] Open the first aid kit and put on disposable gloves to prevent contamination.
+  4. [PD] Inspect the wound to assess its severity and determine the appropriate course of action.
+  5. [ME] Clean the wound with antiseptic wipes or sterile saline solution to remove any dirt or debris.
+  6. [ME] Apply gentle pressure to the wound with a sterile pad to stop any bleeding.
+  7. [ME] Cover the wound with a sterile bandage and secure it with adhesive tape.
+  8. [FV] Monitor the injured person's vital signs (breathing, pulse) and provide any necessary comfort or reassurance.
+  9. [IC] Provide a clear and concise report of the incident and the care provided to the arriving medical professionals.
+[B]
+  1. [NA] Approach the injured person and assess the environment for safety.
+  2. [IC] Ask the injured person if they are conscious and responsive.
+  3. [NA] Open the first aid kit and retrieve the necessary supplies (gloves, antiseptic wipes, bandages, and adhesive tape).
+  4. [NA] Put on gloves to protect both the responder and the injured person from infection.
+  5. [PD] Inspect the wound to assess its severity and determine the appropriate course of action.
+  6. [ME] Clean the wound with antiseptic wipes to remove any dirt or debris.
+  7. [ME] Apply gentle pressure to the wound with a sterile pad to stop any bleeding.
+  8. [ME] Cover the wound with a sterile bandage and secure it with adhesive tape.
+  9. [FV] Assess the injured person's condition and provide any necessary comfort or reassurance.
+  10. [FV] Deliver the final result to the injured person, confirming that the wound is properly cared for and that further medical attention is not immediately required.
+[C]
+  1. [NA] Assess the scene for safety hazards and ensure the injured person is in a stable position.
+  2. [ME] Don disposable gloves to prevent contamination.
+  3. [IC] Check the injured person's responsiveness and ask about their condition.
+  4. [ME] Control any bleeding by applying direct pressure to the wound with a clean cloth.
+  5. [ME] Clean the wound with sterile saline solution or clean water if available.
+  6. [ME] Dress the wound with a sterile bandage, securing it firmly but not too tightly.
+  7. [FV] Monitor the injured person's vital signs (breathing, pulse) and reassure them while awaiting professional medical help.
+[D]
+  1. [IC] Ensure personal protective equipment (PPE) is worn to prevent infection and protect from hazards.
+  2. [NA] Assess the scene for immediate hazards and ensure safety before approaching the victim.
+  3. [IC] Approach the victim, maintain a calm demeanor, and explain your intention to help.
+  4. [PD] Check the victim's airway for obstructions and ensure they are breathing normally.
+  5. [ME] Open the victim's airway using the head-tilt chin-lift maneuver if necessary.
+  6. [PD] Check the victim's wound, assess its severity, and determine the appropriate course of action.
+  7. [ME] Clean the wound with antiseptic wipes or sterile saline solution to remove any dirt or debris.
+  8. [ME] Apply gentle pressure to the wound with a sterile pad to stop any bleeding, if necessary.
+  9. [ME] Cover the wound with a sterile bandage and secure it with adhesive tape.
+  10. [FV] Monitor the victim's condition, check their vital signs, and provide any necessary comfort or reassurance.
+  11. [FV] Prepare the victim for further medical attention, including calling for additional medical staff and preparing the victim for transport.
+  12. [IC] Provide a clear and concise report of the incident and the care provided to the arriving medical professionals.
+
+--- Task 139: Greet customers, patrons, or visitors.
+[A]
+  1. [PD] Visually scan the entrance area for incoming customers.
+  2. [IC] Smile warmly and make eye contact with the entering customer.
+  3. [IC] Verbally greet the customer with a phrase like 'Good morning!' or 'Welcome in!'
+  4. [IC] Ask the customer, 'How can I assist you today?'
+  5. [PD] Listen attentively to the customer's response and identify their purpose of visit.
+  6. [ME] Provide assistance or information based on the customer's needs, such as checking a reservation system or offering directions.
+  7. [FV] Offer additional assistance or information if needed.
+  8. [FV] Thank the customer and wish them a good day as they leave the desk.
+[B]
+  1. [PD] Notice the guest approaching the front desk.
+  2. [IC] Stand up, smile, and make eye contact with the guest.
+  3. [IC] Greet the guest and ask for their name.
+  4. [PD] Listen to the guest's name and check the reservation system.
+  5. [FV] Confirm the guest's reservation and provide feedback.
+  6. [FV] Offer assistance with the check-in process and ask if the guest needs any additional information or services.
+  7. [FV] Hand the guest the key card and provide final feedback.
+[C]
+  1. [PD] Visually scan the entrance area for incoming customers.
+  2. [IC] Make eye contact with the entering customer and smile warmly.
+  3. [IC] Verbally greet the customer with a phrase like 'Good morning!' or 'Welcome in!'
+  4. [PD] Listen attentively to the customer's response and identify their purpose of visit.
+  5. [ME] Provide an appropriate response based on the customer's needs.
+[D]
+  1. [PD] Scan the entrance area for incoming customers.
+  2. [IC] Make eye contact with the entering customer and smile warmly.
+  3. [IC] Verbally greet the customer with a phrase like 'Good morning!' or 'Welcome in!'
+  4. [IC] Maintain eye contact briefly while the customer acknowledges the greeting.
+  5. [IC] Ask the customer, 'How can I help you today?' or 'What brings you in?'
+  6. [PD] Listen attentively to the customer's response and identify their purpose of visit.
+  7. [ME] If the customer needs assistance, provide clear, concise directions or information.
+  8. [FV] Offer assistance with any other questions or needs the customer may have.
+  9. [FV] Thank the customer and wish them a good day as they leave the desk.
+
+--- Task 140: Connect hoses to equipment or machinery.
+[A]
+  1. [IC] Consult the maintenance checklist and blueprint to identify the hoses required for the equipment.
+  2. [NA] Locate the required hoses in the storage area, navigating around other equipment and supplies.
+  3. [PD] Inspect the hoses for any signs of damage or wear, and verify they are the correct type for the equipment.
+  4. [NA] Approach the equipment, carefully avoiding any hazards such as hot surfaces and moving parts.
+  5. [PD] Identify the connection points on the equipment that correspond to the hoses to be connected.
+  6. [ME] Align the hose connectors with the corresponding ports on the equipment, applying gentle pressure to ensure a proper seal.
+  7. [ME] Tighten the hose connectors using the appropriate tool, ensuring they are securely fastened.
+  8. [FV] Inspect the connected hoses for any signs of leaks or improper connections.
+  9. [FV] Document the maintenance task as completed in the maintenance log, and notify the supervisor that the equipment is ready for operation.
+[B]
+  1. [NA] Locate the equipment or machinery to be connected.
+  2. [PD] Identify the specific ports or connection points on the equipment or machinery where the hoses need to be connected.
+  3. [NA] Retrieve the hoses from the storage area or nearby cabinet.
+  4. [PD] Inspect the hoses for any damage or signs of wear.
+  5. [ME] Connect the hoses to the equipment or machinery in the correct order, following the manufacturer's instructions.
+  6. [PD] Check the hoses for leaks, using a visual inspection and listening for any unusual sounds.
+  7. [FV] Verify that the equipment or machinery is functioning properly, checking the pressure gauge and listening for any unusual sounds.
+  8. [IC] Document the connection and report completion to the supervisor.
+  9. [NA] Store the hoses in the nearby cabinet, ensuring they are properly secured and organized.
+  10. [FV] Clean up the work area, removing any debris or tools.
+[C]
+  1. [PD] Identify the specific connection points on the equipment.
+  2. [NA] Retrieve the correct hoses from storage, checking for damage.
+  3. [ME] Align the hose connector with the corresponding port.
+  4. [ME] Securely connect the hose to the port.
+  5. [FV] Visually inspect the connection for leaks or improper fit.
+  6. [IC] Document the connection and report completion (if required).
+[D]
+  1. [IC] Consult maintenance checklist and blueprint to identify required hoses and their corresponding ports on the equipment.
+  2. [NA] Locate and retrieve the identified hoses from the storage area, navigating around other equipment and supplies.
+  3. [PD] Inspect the hoses for any signs of damage, wear, or kinks, and verify they are the correct type for the equipment.
+  4. [NA] Approach the equipment, carefully avoiding hot surfaces, moving parts, and other obstacles.
+  5. [PD] Identify the connection points on the equipment that correspond to the hoses to be connected.
+  6. [ME] Align the hose connectors with the corresponding ports on the equipment, applying gentle pressure to ensure a proper seal.
+  7. [ME] Tighten the hose connectors using the appropriate tool, ensuring they are securely fastened.
+  8. [FV] Inspect the connected hoses for any signs of leaks or improper connections, using visual inspection and listening for unusual sounds.
+  9. [FV] Document the maintenance task as completed in the maintenance log, and notify the supervisor that the equipment is ready for operation.
+
+--- Task 141: Assist customers to ensure comfort or safety.
+[A]
+  1. [IC] Greet the guest with a friendly demeanor and ask if they need any assistance with their room or have any comfort and safety concerns.
+  2. [IC] Listen to the guest's verbal description of their comfort and safety concerns.
+  3. [NA] Navigate to the relevant areas of the room to address the guest's concerns, such as the thermostat or amenities.
+  4. [ME] Adjust settings or make necessary changes to ensure the guest's comfort and safety, such as setting the thermostat or checking the air filtration system.
+  5. [PD] Inspect the room's amenities and environment to ensure they meet the guest's comfort and safety requirements.
+  6. [IC] Explain to the guest how to use the room's amenities safely and comfortably, and address any remaining concerns.
+  7. [FV] Verify that the guest is satisfied with the adjustments and that their concerns have been addressed.
+  8. [FV] Thank the guest for their time and ensure they are satisfied with the assistance provided.
+[B]
+  1. [IC] Greet the guest and ask if they need any assistance with their room.
+  2. [IC] Listen to the guest's verbal description of their comfort and safety concerns.
+  3. [NA] Navigate to the thermostat control panel in the room.
+  4. [ME] Adjust the thermostat to the guest's preferred temperature.
+  5. [FV] Verify that the temperature is set correctly by checking the thermostat display.
+  6. [PD] Inspect the room's amenities, such as the mini-fridge, coffee maker, and shower, for any safety issues.
+  7. [ME] Address any safety concerns by either fixing the issue or informing the guest of the proper use of the amenity.
+  8. [IC] Explain to the guest how to use the room's amenities safely and comfortably.
+  9. [IC] Ask the guest if they have any further questions or concerns.
+  10. [FV] Thank the guest for their time and ensure they are satisfied with the assistance provided.
+[C]
+  1. [IC] Greet the guest and inquire about their comfort or safety needs.
+  2. [IC] Actively listen to the guest's description of their concerns.
+  3. [NA] Identify and navigate to the relevant area or amenity based on the guest's concerns.
+  4. [PD] Inspect the area or amenity for potential safety hazards or comfort issues.
+  5. [ME] Address the identified issues by making necessary adjustments, repairs, or providing instructions to the guest.
+  6. [FV] Verify that the guest's concerns have been addressed and they are satisfied with the outcome.
+[D]
+  1. [IC] Greet the guest warmly, make eye contact, and ask if they need any assistance with their room or comfort.
+  2. [IC] Listen actively to the guest's description of their comfort and safety concerns, and clarify any ambiguities by asking probing questions.
+  3. [NA] Navigate to the relevant areas in the room, such as the thermostat control panel, amenities, and air filtration system, based on the guest's concerns.
+  4. [ME] Adjust settings and make any necessary changes to ensure the guest's comfort and safety, such as setting the thermostat, ensuring the room is hypoallergenic, or fixing safety issues with amenities.
+  5. [FV] Verify that the changes made have addressed the guest's concerns by checking the thermostat display, inspecting the room for allergens, or testing the safety of amenities.
+  6. [IC] Explain to the guest how to use the room's amenities safely and comfortably, and provide any necessary instructions or information.
+  7. [IC] Ask the guest if they have any further questions, concerns, or special requests, and offer to connect them with the appropriate staff member if needed.
+  8. [FV] Thank the guest for their time, ensure they are satisfied with the assistance provided, and invite them to contact the concierge desk for further assistance if needed.
+
+--- Task 142: Assemble wood products.
+[A]
+  1. [IC] Review the blueprint to understand the dimensions and design of the bookshelf.
+  2. [NA] Gather all necessary wood pieces, tools, and fasteners based on the blueprint.
+  3. [PD] Measure and mark the wood pieces for cutting using a measuring tape and pencil.
+  4. [ME] Cut the wood pieces using a miter saw, following the marked lines and ensuring safety protocols.
+  5. [FV] Inspect the cut pieces for accuracy and make any necessary adjustments.
+  6. [ME] Assemble the base of the bookshelf using the cut pieces, applying wood glue, and clamping them together.
+  7. [ME] Drill pilot holes and attach the shelves to the base using screws, ensuring they are level and evenly spaced.
+  8. [ME] Assemble the back panel, ensuring it fits snugly against the base and shelves.
+  9. [ME] Attach the back panel to the bookshelf using screws, ensuring it is secure and flush with the edges.
+  10. [FV] Inspect the assembled bookshelf for any gaps, misalignments, or weak points, making final adjustments as needed.
+[B]
+  1. [IC] Review the blueprint to understand the dimensions and design of the bookshelf.
+  2. [NA] Gather all necessary wood pieces, tools, and fasteners (screws, glue, etc.) based on the blueprint.
+  3. [PD] Measure and mark the wood pieces for cutting using a measuring tape and pencil.
+  4. [ME] Cut the wood pieces using a miter saw, following the marked lines and ensuring safety protocols.
+  5. [FV] Inspect the cut pieces for accuracy and make any necessary adjustments.
+  6. [ME] Assemble the base of the bookshelf using the cut pieces, applying wood glue, and clamping them together.
+  7. [NA] Allow the glue to set for the recommended time, ensuring the base remains stable and aligned.
+  8. [ME] Drill pilot holes and attach the shelves to the base using screws, ensuring they are level and evenly spaced.
+  9. [ME] Assemble the back panel, ensuring it fits snugly against the base and shelves.
+  10. [ME] Attach the back panel to the bookshelf using screws, ensuring it is secure and flush with the edges.
+  11. [FV] Inspect the assembled bookshelf for any gaps, misalignments, or weak points, making final adjustments as needed.
+[C]
+  1. [IC] Review the assembly blueprint and identify all required components.
+  2. [NA] Gather all necessary wood pieces, tools, and fasteners (screws, glue, etc.) based on the blueprint.
+  3. [PD] Lay out the wood pieces according to the blueprint to visualize the assembly process.
+  4. [ME] Assemble the base of the bookshelf, applying wood glue and securing with clamps.
+  5. [NA] Allow the glue to dry according to the manufacturer's instructions.
+  6. [ME] Attach the shelves to the base using screws, ensuring they are level and evenly spaced.
+  7. [FV] Inspect the assembled bookshelf for any loose screws, misalignments, or structural weaknesses.
+  8. [ME] Make any necessary adjustments or repairs to ensure the bookshelf is sturdy and functional.
+[D]
+  1. [IC] Review the blueprint or instructions to understand the design and required components.
+  2. [NA] Gather all necessary wood pieces, tools, and fasteners (screws, glue, etc.) based on the blueprint or instructions.
+  3. [PD] Measure and mark the wood pieces for cutting, if necessary, using a measuring tape and pencil.
+  4. [ME] Cut the wood pieces using a suitable saw, following the marked lines and ensuring safety protocols.
+  5. [FV] Inspect the cut pieces for accuracy and make any necessary adjustments.
+  6. [ME] Assemble the base or main structure of the wood product using the cut pieces, applying glue if necessary, and clamping them together.
+  7. [NA] Allow any applied glue to set for the recommended time, ensuring the base remains stable and aligned.
+  8. [ME] Drill pilot holes and attach any shelves, panels, or other components to the base using screws or other fasteners, ensuring they are level, evenly spaced, and secure.
+  9. [FV] Inspect the assembled wood product for any gaps, misalignments, or weak points, making final adjustments as needed.
+  10. [ME] Apply finishing touches, such as sanding rough edges or applying a finish, if required.
+  11. [FV] Deliver the completed wood product to the designated area or client, ensuring proper installation and setup.
+
+--- Task 143: Cut materials according to specifications or needs.
+[A]
+  1. [IC] Review the specifications or client's plans to determine the required dimensions and types of materials.
+  2. [NA] Select the appropriate type of material from the available stock and measure it to ensure it matches the required dimensions.
+  3. [PD] Mark the desired cutting lines on the material using a tape measure and pencil.
+  4. [ME] Secure the material to the workbench using clamps to prevent movement during cutting.
+  5. [PD] Select the appropriate saw blade for the material and type of cut required.
+  6. [ME] Turn on the saw and carefully guide it along the marked lines, applying steady pressure to ensure a straight and clean cut.
+  7. [FV] Monitor the cut and adjust the saw's angle or pressure as needed to maintain the desired depth and width.
+  8. [FV] Once the cut is complete, turn off the saw and allow it to come to a complete stop before removing it from the material.
+  9. [FV] Remove the clamps and inspect the cut for quality and accuracy.
+  10. [ME] If necessary, use sandpaper or a plane to smooth any rough edges or surfaces.
+  11. [NA] Deliver the cut materials to the client or the next stage of production.
+[B]
+  1. [IC] Review the architect's specifications for the custom home build, highlighting the required cuts for the 2x4 lumber.
+  2. [PD] Measure the 2x4 lumber to ensure it is the correct length for the required cuts.
+  3. [ME] Select the appropriate power tool for making the cuts, such as a circular saw or a miter saw.
+  4. [ME] Set up the power tool and ensure it is properly calibrated for the required cuts.
+  5. [ME] Make the required cuts on the 2x4 lumber, following the specifications and taking necessary safety precautions.
+  6. [PD] Inspect the cut lumber to ensure it meets the specifications and is free of defects.
+  7. [ME] Make any necessary adjustments to the power tool or cutting process to achieve the required specifications.
+  8. [FV] Verify that the cut lumber meets the specifications and is ready for use in the custom home build.
+  9. [NA] Store the cut lumber in a designated area, ready for use in the custom home build.
+  10. [IC] Document the cutting process and any issues encountered, for future reference and quality control.
+[C]
+  1. [IC] Review the specifications or blueprints to determine required dimensions and types of cuts.
+  2. [NA] Select the appropriate material from stock, ensuring it matches the specifications.
+  3. [PD] Measure and mark the desired cutting lines on the material using appropriate tools.
+  4. [ME] Secure the material to the workbench using clamps to prevent movement during cutting.
+  5. [IC] Select the appropriate saw blade for the material and the type of cut required.
+  6. [ME] Carefully guide the saw along the marked lines, applying even pressure to ensure a straight and clean cut.
+  7. [FV] Inspect the cut piece for accuracy and quality, making adjustments if necessary.
+[D]
+  1. [IC] Review the specifications, plans, or sketches to understand the required cuts and dimensions.
+  2. [NA] Select the appropriate material from the available stock, ensuring it matches the specifications.
+  3. [PD] Measure and mark the desired cutting lines on the material using a tape measure and pencil, following the specified dimensions.
+  4. [ME] Secure the material to the workbench using clamps to prevent movement during cutting.
+  5. [IC] Select the appropriate tool (e.g., saw, power tool) and blade for the material and the type of cut required.
+  6. [ME] Turn on the tool and carefully guide it along the marked line, applying steady pressure and monitoring the cut.
+  7. [FV] Once the cut is complete, turn off the tool and allow it to come to a complete stop before removing it from the material.
+  8. [FV] Remove the clamps and inspect the cut for quality, accuracy, and any imperfections.
+  9. [ME] If necessary, use sandpaper or a plane to smooth any rough edges or surfaces.
+  10. [IC] Document the cutting process, any issues encountered, and the final results for future reference and quality control.
+  11. [NA] Deliver the cut materials to the client or the next stage of production.
+
+--- Task 144: Reconcile records of sales or other financial transactions.
+[A]
+  1. [NA] Log into the accounting software and access the sales and transaction records for the current period.
+  2. [NA] Retrieve and organize all physical receipts and digital records for the period.
+  3. [PD] Compare each digital transaction record with the corresponding physical receipt or digital entry.
+  4. [ME] Record any discrepancies in a log for further investigation and resolution.
+  5. [ME] Correct or adjust entries in the accounting software to resolve identified discrepancies.
+  6. [FV] Generate a reconciliation report summarizing the matched transactions and any adjustments made.
+  7. [FV] Review the reconciliation report for accuracy and completeness, and document any issues for management review.
+[B]
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+[C]
+  1. [NA] Retrieve the day's sales report from the POS system.
+  2. [ME] Import the sales data into the accounting software.
+  3. [PD] Compare the imported sales data with existing transactions in the accounting software.
+  4. [FV] Flag any discrepancies for further investigation, noting specific details.
+  5. [PD] Investigate flagged discrepancies by cross-referencing transaction details.
+  6. [ME] Correct or adjust entries in the accounting software to resolve discrepancies.
+  7. [FV] Generate a reconciliation report summarizing matched transactions and adjustments.
+[D]
+  1. [IC] Log into the accounting software using the provided credentials.
+  2. [NA] Navigate to the 'Bank Reconciliation' or 'Sales Reconciliation' module within the software.
+  3. [PD] Select the correct time period (e.g., day, week, month) and relevant account for reconciliation.
+  4. [NA] Retrieve the digital sales records for the selected time period.
+  5. [ME] Print out the sales records for the selected time period, if necessary for manual comparison.
+  6. [PD] Compare each sales record with the corresponding digital record in the software, and match them with the relevant bank statement entries.
+  7. [ME] Enter any unmatched sales records into the software.
+  8. [PD] Resolve any discrepancies between sales records and bank statements by investigating and correcting entries.
+  9. [FV] Generate a reconciliation report summarizing the matched and unmatched records.
+  10. [FV] Review the reconciliation report for accuracy, completeness, and any remaining discrepancies.
+  11. [IC] Communicate the results of the reconciliation to the accounting team and any relevant stakeholders.
+
+================================================================
+ANSWER TEMPLATE
+
+137: _ | 
+138: _ | 
+139: _ | 
+140: _ | 
+141: _ | 
+142: _ | 
+143: _ | 
+144: _ | 
+

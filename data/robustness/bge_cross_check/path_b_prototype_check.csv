@@ -1,0 +1,33 @@
+﻿text,true_label,pred_label,prob_LLM,prob_Multimodal_Perception,prob_Embodied,prob_Human_Bound
+Draft a maintenance schedule including the start and end times and the tasks to be performed.,LLM,Human_Bound,0.05421974,0.22495414,0.15043828,0.5703878
+Write the report summarizing the findings and recommendations for management.,LLM,Human_Bound,0.05134862,0.18985398,0.18356408,0.57523334
+Calculate the total project cost based on labor rates and material quantities.,LLM,Human_Bound,0.020780524,0.25676885,0.1581135,0.56433713
+Review the contract specifications to determine the required compliance criteria.,LLM,Human_Bound,0.054565065,0.21931458,0.16676429,0.55935615
+Analyze the data to identify trends and patterns in customer behavior.,LLM,Human_Bound,0.029002503,0.30652285,0.14261599,0.52185863
+Compose an email to the stakeholders outlining the next steps.,LLM,Human_Bound,0.048076455,0.18037863,0.15338466,0.6181602
+Summarize the patient's medical history into a structured note.,LLM,Human_Bound,0.05854455,0.23738669,0.2251926,0.47887617
+Develop a sampling strategy including sampling sites frequency and methods.,LLM,Human_Bound,0.014653465,0.3140324,0.18141554,0.48989853
+Visually inspect the equipment for signs of wear damage or misalignment.,Multimodal_Perception,Multimodal_Perception,0.008584444,0.46585524,0.10305918,0.4225011
+Check the compaction level using a penetrometer or other testing equipment.,Multimodal_Perception,Human_Bound,0.04873975,0.2935797,0.20084037,0.4568402
+Monitor the patient's vital signs on the display during the procedure.,Multimodal_Perception,Human_Bound,0.015656874,0.2562927,0.20165817,0.5263922
+Use a leveling tool such as a laser level to check the flatness of the base.,Multimodal_Perception,Human_Bound,0.014927613,0.31261137,0.26978406,0.40267694
+Observe the welding process to detect any defects in real time.,Multimodal_Perception,Human_Bound,0.012972415,0.32745174,0.13838126,0.5211946
+Identify potential safety hazards by walking the construction site.,Multimodal_Perception,Human_Bound,0.008712599,0.29192263,0.1908875,0.5084773
+Read instrument gauges and record the measured values.,Multimodal_Perception,Human_Bound,0.07103063,0.31647745,0.12625538,0.48623654
+Recognize abnormal sounds from the running machine indicating wear.,Multimodal_Perception,Multimodal_Perception,0.0137440795,0.43086657,0.1970966,0.3582927
+Use a compactor machine to begin compacting the soil starting from the edges and working towards the center.,Embodied,Multimodal_Perception,0.054045163,0.5400047,0.117470495,0.2884797
+Don appropriate Personal Protective Equipment PPE like gloves safety glasses and hearing protection.,Embodied,Human_Bound,0.007494899,0.18131898,0.2535019,0.55768424
+Transport the material to the designated location using a forklift or hand truck.,Embodied,Human_Bound,0.011554539,0.19802374,0.26777437,0.5226473
+Sew the fabric pieces together using a sewing machine.,Embodied,Human_Bound,0.036572263,0.40162963,0.09339054,0.46840757
+Insert sterile acupuncture needles into the identified points with precise depth and angle.,Embodied,Human_Bound,0.0122981155,0.2003315,0.2568542,0.5305162
+Cut the steel beam using an angle grinder.,Embodied,Human_Bound,0.02916225,0.20341696,0.29745492,0.46996593
+Lift and carry the box of supplies to the storage area.,Embodied,Human_Bound,0.008252713,0.20468652,0.26958135,0.5174794
+Drive the vehicle to the delivery location adhering to traffic laws.,Embodied,Human_Bound,0.008766881,0.19226445,0.23373412,0.5652346
+Counsel the patient regarding lifestyle changes and treatment options.,Human_Bound,Human_Bound,0.019886265,0.1573368,0.19928119,0.6234957
+Negotiate the terms of the contract with the client representative.,Human_Bound,Human_Bound,0.02836714,0.2069622,0.22942208,0.53524864
+Discuss the implications of the diagnosis with the family in a sensitive manner.,Human_Bound,Human_Bound,0.009508232,0.20725395,0.23251046,0.55072737
+Mediate a workplace dispute between two team members.,Human_Bound,Human_Bound,0.011449468,0.13128841,0.1079949,0.7492672
+Obtain informed consent from the patient before the procedure.,Human_Bound,Human_Bound,0.009628606,0.10291249,0.08350401,0.8039549
+Provide emotional support to the bereaved family.,Human_Bound,Human_Bound,0.013470362,0.1371798,0.31987867,0.5294711
+Make a final discretionary judgment on whether to approve the loan application.,Human_Bound,Human_Bound,0.035577137,0.22728287,0.18750632,0.5496337
+Testify in court regarding the findings of the investigation.,Human_Bound,Human_Bound,0.04788072,0.19433662,0.18561848,0.5721641

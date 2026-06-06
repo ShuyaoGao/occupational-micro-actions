@@ -1,0 +1,502 @@
+1: D | Best balance; minor stage issue but most complete and realistic. 
+2: D | Most comprehensive; includes resources, validation, though slightly over-scoped. 
+3: D | Adds equipment calibration and inspection; highest realism and completeness. 
+4: D | Covers broad input scenarios; avoids coding-specific overreach. 
+5: C | Proper research structure; avoids unnecessary operational specifics. 
+6: D | Most complete; includes prep, administration, recording, and interpretation. 
+7: B | Handles exceptions and special items; more realistic workflow. 
+8: C | Concise, accurate, no unnecessary system-level steps. 
+9: D | Most complete inspection flow; minor stage mislabel only. 
+10: B | Best analytical rigor; proper pipeline from preprocessing to reporting. 
+11: D | Most comprehensive budgeting workflow with forecasting and validation. 
+12: C | Concise, correct flow; avoids redundancy and stage misclassification. 
+13: C | Balanced, complete workflow without unnecessary over-specification. 
+14: C | Correct scope; avoids unnecessary reporting and repetition. 
+15: B | Most thorough observation with multiple diagnostic modalities. 
+16: D | Most complete end-to-end process including fabrication and validation. 
+17: A | Balanced patrol workflow; clear stages and realistic execution. 
+18: D | Most complete; includes safety, monitoring, adjustment, and post-process steps. 
+19: C | Proper advisory scope; avoids implementation overreach. 
+20: D | Most rigorous calibration with validation, safety, and documentation. 
+21: D | Most comprehensive supervision including resources and closure checks. 
+22: C | Best balance; generalizable without over-specific or redundant steps. 
+23: D | Most complete merchandising flow including evaluation and inventory update. 
+24: A | Most complete sterilization including pre-cleaning, cycle, inspection, documentation. 
+25: D | Most complete coordination including tech, rehearsal, performance, and wrap-up. 
+26: D | Comprehensive specification workflow with stakeholder alignment and documentation. 
+27: D | Best realism; includes calibration, monitoring, output handling, and communication. 
+28: C | Concise and generalizable without redundant or excessive procedural detail. 
+29: D | Strong end-to-end application including implementation and evaluation. 
+30: D | Most complete workflow including coordination, verification, and preparation. 
+31: C | Balanced completeness without overextension into reporting or coordination. 
+32: D | Most rigorous evaluation process with validation and stakeholder integration. 
+33: D | Most rigorous; includes calculation, verification, documentation, and continuation. 
+34: D | Most complete; includes sequencing, marking, and proper tightening protocol. 
+35: C | Best pedagogical flow; includes preparation, delivery, interaction, and closure. 
+36: D | Most complete clinical protocol including site selection and safety steps. 
+37: C | Correct scope; avoids unnecessary intervention beyond monitoring role. 
+38: D | Most complete with simulation, validation, and stakeholder communication. 
+39: B | Strong audit rigor; includes controls, analytics, and reporting. 
+40: D | Most realistic communication including timing, clarity, and confirmation. 
+41: D | Most complete; includes stakeholder input, training, and iterative evaluation. 
+42: D | Best operational realism with monitoring, control, communication, and logging. 
+43: D | Most complete testing loop including adjustment, validation, and reporting. 
+44: C | Correct scope; focused monitoring without unnecessary patrol actions. 
+45: D | Most precise; includes measurement, repetition, and verification steps. 
+46: D | Most rigorous design process with modeling, optimization, and approvals. 
+47: D | Most comprehensive learning loop including comparison and validation. 
+48: D | Most thorough inspection with diagnostics, measurement, and validation. 
+49: C | Balanced workflow; covers composition, refinement, and delivery without redundancy. 
+50: D | Best monitoring loop with diagnosis, communication, and documentation. 
+51: A | Most rigorous chain-of-custody handling and verification steps. 
+52: D | Most realistic mooring with correct knotting and force handling. 
+53: C | Proper monitoring scope with analysis and intervention without excess steps. 
+54: D | Most complete escort process including safety, navigation, and handoff. 
+55: D | Most thorough hazard inspection with detailed checks and follow-up. 
+56: D | Most comprehensive compliance review with systematic comparison and reporting. 
+57: D | Most complete; includes full cleaning cycle plus reporting closure. 
+58: D | Most rigorous; integrates modeling, experimentation, validation, and dissemination. 
+59: D | Most complete sewing workflow including positioning, monitoring, and finishing. 
+60: D | Best end-to-end layout process including iteration and print preparation. 
+61: D | Most comprehensive care routine including health checks and environment maintenance. 
+62: D | Most complete emergency communication with escalation and monitoring. 
+63: D | Most rigorous lab workflow including safety, analysis, and reporting. 
+64: A | Best supervision flow with monitoring, feedback, documentation, and closure. 
+65: D | Most complete maintenance including repair, calibration, validation, and reporting. 
+66: D | Most comprehensive analysis from scene review to reporting. 
+67: A | Most complete measurement set with proper procedure and verification. 
+68: C | Best focused on map reading without execution overreach. 
+69: D | Most complete notification with assessment, communication, and follow-up. 
+70: D | Most complete logistics flow with routing, identification, and tracking. 
+71: D | Most complete training loop with demonstration, practice, and feedback. 
+72: D | Most complete mixing workflow with gain staging, processing, and validation. 
+73: D | Most complete preprocessing including renaming and validation steps. 
+74: A | Best flow with identification, printing, correction, and verification. 
+75: D | Most complete reporting workflow including synthesis, revision, and follow-up. 
+76: C | Most comprehensive budgeting with forecasting, justification, and communication. 
+77: D | Best generalizable administrative workflow with processing and verification. 
+78: D | Most complete clinical protocol including prep, monitoring, and documentation. 
+79: A | Most complete repositioning including preparation, support, feedback, and documentation. 
+80: D | Most rigorous evaluation with modeling, comparison, and stakeholder integration. 
+81: D | Most complete documentation with setup, capture, verification, and chain-of-custody. 
+82: D | Most complete operation including safety, monitoring, shutdown, and validation. 
+83: D | Most rigorous trimming with hazard checks, tool choice, and cleanup. 
+84: D | Most complete evaluation workflow including fairness check and communication. 
+85: A | Best structured emergency response from dispatch to handover. 
+86: D | Most complete transaction including verification, processing, and security. 
+87: D | Most comprehensive supervision including monitoring, intervention, and closure. 
+88: D | Most complete adjustment with PPE, multi-stage control, and safety checks. 
+89: D | Most complete lifecycle including planning, execution, and post-event evaluation. 
+90: D | Most rigorous pipeline with transformation, analysis, interpretation, and reporting. 
+91: D | Most comprehensive including site, codes, suppliers, and budget adjustments. 
+92: A | Most complete with decision handling, documentation, and repetition loop. 
+93: D | Most complete installation with setup, calibration, testing, and documentation. 
+94: C | Correct scope; general installation without unnecessary panel-specific overreach. 
+95: D | Most complete advising including medication, devices, lifestyle, and follow-up. 
+96: D | Most complete specimen prep with preservation, labeling, verification, and storage. 
+97: D | Most complete inspection including PPE, deep checks, testing, and reporting. 
+98: C | Concise monitoring workflow without redundant reporting/confirmation steps. 
+99: D | Most complete inspection with tools, sampling, prioritization, and reporting. 
+100: D | Best full communication cycle including delivery, engagement, and follow-up. 
+101: D | Most complete operation including safety, monitoring, and control-room communication. 
+102: C | Correct scope focused on representation creation without optimization overreach. 
+103: D | Most thorough assessment with diagnostics, output checks, and validation loop. 
+104: D | Most complete organization including placement, review, and catalog update. 
+105: D | Most complete loop with safety, repetition, and final documentation. 
+106: D | Most complete forensic workflow including reconstruction and full reporting. 
+107: D | Most comprehensive modeling including data prep, iteration, and documentation. 
+108: D | Most rigorous evaluation including tests, scenarios, and multi-dimensional assessment. 
+109: D | Most complete maintenance including PPE, diagnostics, repair, and documentation. 
+110: D | Best general workflow with calibration, monitoring, finishing, and documentation. 
+111: D | Most complete advising including needs assessment, delivery, and feedback. 
+112: D | Most comprehensive inspection including PPE, access, analysis, and reporting. 
+113: D | Most complete transaction flow with verification and closure steps. 
+114: D | Most complete HR entry including validation, storage, and confirmation. 
+115: D | Most comprehensive training including instruction, practice, testing, and certification. 
+116: D | Most complete interpretation including planning, communication, and validation. 
+117: B | Most precise marking with measurement, symmetry, and durability steps. 
+118: D | Most complete demonstration including briefing, malfunction, reset, and explanation. 
+119: D | Most rigorous prescribing including tests, guidelines, and documentation. 
+120: D | Most comprehensive pricing including costs, margins, update, and communication. 
+121: D | Most complete riveting including prep, marking, execution, and inspection. 
+122: D | Most comprehensive testing with inspection, measurement, analysis, and reporting. 
+123: D | Most complete compliance loop including correction, update, and communication. 
+124: D | Most complete history including symptoms, history, social factors, and verification. 
+125: C | Best scoped measurement without unnecessary post-analysis or reporting. 
+126: D | Most comprehensive escort with threat checks, monitoring, and reporting. 
+127: D | Most thorough advising including risk factors, personalization, and follow-up. 
+128: C | Best planning scope; avoids premature implementation and overreach. 
+129: D | Most complete with risk assessment, planning, implementation, and evaluation. 
+130: D | Best full loop including sorting, special handling, and iteration. 
+131: D | Most comprehensive with risk assessment, comparison, application, and verification. 
+132: D | Most complete including mounting, verification, processing, and monitoring. 
+133: A | Best sterile maintenance including setup, monitoring, correction, and communication. 
+134: A | Best structured training with demo, practice, assessment, and feedback. 
+135: C | Best monitoring scope without overreach into planning or intervention. 
+136: D | Most complete lab workflow including prep, execution, analysis, and cleanup. 
+137: B | Complete and focused; avoids unnecessary estimation and overreach. 
+138: D | Most complete first aid including airway, bleeding control, and escalation. 
+139: D | Best full greeting cycle including engagement, assistance, and closure. 
+140: D | Most complete connection with inspection, alignment, securing, and verification. 
+141: D | Most comprehensive assistance including clarification, adjustment, and confirmation. 
+142: D | Most complete assembly including prep, construction, finishing, and delivery. 
+143: D | Most complete cutting workflow including prep, execution, finishing, and delivery. 
+144: D | Most comprehensive reconciliation including matching, correction, and reporting. 
+145: D | Most complete imaging workflow with capture, review, upload, and reporting. 
+146: D | Most comprehensive verification including retrieval, analysis, communication, and documentation. 
+147: A | Best focused record entry with clear logging, verification, and saving. 
+148: D | Most rigorous leveling including measurement, adjustment, verification, and documentation. 
+149: D | Most complete analysis pipeline including cleaning, modeling, and stakeholder validation. 
+150: D | Most complete inspection with PPE, systematic checks, measurement, and reporting. 
+151: C | Best scoped planting workflow without unnecessary procurement or redesign steps. 
+152: D | Most comprehensive evaluation including observation, feedback, documentation, and reporting. 
+153: D | Most complete clinical workflow from assessment to prescription and follow-up. 
+154: D | Best balance of interaction, verification, payment, and closure. 
+155: D | Most comprehensive strategy process including analysis, validation, and rollout. 
+156: D | Most complete maternal care covering prenatal, labor, delivery, and postnatal. 
+157: D | Most rigorous chemotherapy protocol including safety, dosing, administration, and monitoring. 
+158: C | Best scoped setup workflow without redundancy or over-specification. 
+159: D | Most complete maintenance including safety, inspection, execution, testing, and reporting. 
+160: D | Most comprehensive analysis including multi-factor assessment and communication. 
+161: C | Best generalizable lab workflow without over-specific instrumentation assumptions. 
+162: D | Most comprehensive including evaluation, prioritization, and feasibility analysis. 
+163: D | Most complete legal workflow including drafting, compliance, review, and execution. 
+164: C | Correct scope focused on computation without unnecessary field procedures. 
+165: D | Most rigorous selection including testing, validation, lifecycle, and monitoring. 
+166: A | Best structured counting with clear execution, recording, and verification. 
+167: D | Most comprehensive estimation including site factors, scheduling, and validation. 
+168: D | Most complete scientific modeling loop including hypothesis, testing, and refinement. 
+169: B | Most complete reading workflow including diagrams, specs, and troubleshooting. 
+170: B | Most complete with measurement, entry, verification, and record updating. 
+171: D | Most comprehensive survey including measurement, marking, processing, and reporting. 
+172: C | Best scoped maintenance without over-specific or redundant actions. 
+173: D | Most complete procurement workflow including selection, ordering, and confirmation. 
+174: B | Most comprehensive HR lifecycle including hiring, development, and evaluation. 
+175: D | Most complete diagnosis including examination, imaging, analysis, and communication. 
+176: D | Most complete verification including reconciliation, correction, reporting, and communication. 
+177: D | Most complete with collection, validation, adjustment, and documentation. 
+178: C | Best balanced lab workflow with verification, safety, and correct sequencing. 
+179: D | Most complete tour flow including planning, engagement, monitoring, and closure. 
+180: A | Most rigorous with measurement, correction loop, and batch completion. 
+181: C | Best scoped design process without overreach into implementation/monitoring. 
+182: A | Best realistic patrol flow without unsafe or unnecessary actions. 
+183: D | Most comprehensive including dual systems, simulation, approval, and compliance. 
+184: D | Most complete record maintenance including update, assignment, and confirmation. 
+185: D | Most complete lifecycle with monitoring, response, remediation, and reporting. 
+186: D | Best generalizable sorting including verification, documentation, and downstream handling. 
+187: D | Most comprehensive maintenance including systems, repair, testing, and cleanup. 
+188: A | Most complete training including planning, delivery, assessment, and documentation. 
+189: D | Most complete care including hygiene, treatment, monitoring, and documentation. 
+190: D | Most rigorous evaluation with structured recording, scoring, and submission. 
+191: D | Most complete communication including delivery, clarification, agreement, and closure. 
+192: D | Most complete preparation including calculation, verification, adjustment, and documentation. 
+193: D | Most complete documentation workflow including elicitation, drafting, validation, and distribution. 
+194: D | Most comprehensive inspection including measurement, repair, validation, and reporting. 
+195: D | Most complete installation including prep, install, verification, and documentation. 
+196: D | Most rigorous maintenance including inspection, adjustment, repair, testing, and closure. 
+197: D | Most complete fitting including measurement, adjustment, validation, and instruction. 
+198: D | Most comprehensive tutoring including differentiation, interaction, feedback, and reflection. 
+199: D | Most complete legal documentation including capture, organization, storage, and revision. 
+200: D | Most complete lubrication including prep, cleaning, application, validation, and logging. 
+201: D | Most complete loading with safety, parameter setting, and verification. 
+202: D | Most complete assistance including assessment, support, adjustment, and confirmation. 
+203: B | Best validation loop with explicit review, update, and verification steps. 
+204: C | Best scope; focuses on knowledge maintenance without case-level overreach. 
+205: D | Most comprehensive troubleshooting including diagnosis, fix, validation, and monitoring. 
+206: D | Most complete hiring lifecycle including evaluation, negotiation, onboarding, and review. 
+207: D | Most rigorous verification including inspection, system check, decision, and communication. 
+208: A | Best balance of analysis, selection, execution, and monitoring. 
+209: D | Most complete assembly with wiring, verification, testing, and packaging. 
+210: D | Most comprehensive evaluation including analysis, ranking, reporting, and follow-up. 
+211: D | Most complete consultation including tools, iteration, and formal closure. 
+212: D | Most thorough monitoring including vitals, diagnostics, trends, and escalation. 
+213: C | Best concise workflow focusing on positioning without unnecessary repetition. 
+214: D | Most complete development including stakeholders, drafting, approval, and evaluation. 
+215: D | Most complete packaging including prep, cushioning, sealing, labeling, and verification. 
+216: D | Most complete loading including validation, positioning, securing, and initiation. 
+217: C | Best scoped evaluation without implementation overreach or redundancy. 
+218: D | Most complete setup with verification, testing, adjustment, and documentation. 
+219: C | Balanced monitoring workflow without unnecessary preprocessing or logout steps. 
+220: D | Most complete storage including digital, physical, logging, and verification. 
+221: D | Most comprehensive database creation including security, backups, and configuration. 
+222: D | Most complete compliance reporting including extraction, analysis, storage, and notification. 
+223: D | Most complete drawing workflow including iteration, feedback, and final delivery. 
+224: D | Most complete procedure development including pipeline design, testing, and documentation. 
+225: C | Best promotion flow with setup, engagement, and follow-up. 
+226: B | Most complete operation including inspection, execution, monitoring, and closure. 
+227: D | Most comprehensive fabrication including prep, processing, testing, and packaging. 
+228: C | Correct advisory scope without overreach into full implementation. 
+229: D | Most complete HR advising including diagnosis, guidance, and follow-up. 
+230: D | Most complete template design including iteration, refinement, and delivery. 
+231: D | Most comprehensive planning including safety, coordination, and execution readiness. 
+232: D | Most complete care routine including hygiene, safety, and documentation. 
+233: D | Most complete installation including marking, repetition, inspection, and documentation. 
+234: D | Most comprehensive estimation including costs, pricing, and client validation. 
+235: A | Most complete entry flow including verification, saving, and issue logging. 
+236: D | Best communication including explanation, confirmation, and documentation. 
+237: D | Most thorough inspection including systems, test drive, and reporting. 
+238: D | Most complete assistance including care, safety, and daily coordination. 
+239: D | Most complete AV workflow including setup, testing, monitoring, and reporting. 
+240: D | Most comprehensive coordination including anticipation, adjustment, and service flow control. 
+241: C | Best balanced workflow without redundancy or over-detailed execution steps. 
+242: D | Most complete with safety, execution, repetition, and documentation. 
+243: D | Most comprehensive advising including selection, guidance, and closure. 
+244: C | Correct scope focused on selection without execution overreach. 
+245: C | Best concise evaluation including inspection, measurement, and reporting. 
+246: C | Correct scope focused on computation and explanation only. 
+247: D | Most complete evaluation including inspection, testing, classification, and reporting. 
+248: D | Most comprehensive troubleshooting including diagnosis, communication, resolution, and logging. 
+249: A | Most complete referral workflow including assessment, guidance, and documentation. 
+250: D | Most complete installation including removal, safety, testing, and documentation. 
+251: C | Best balance of security, escort, and documentation without overreach. 
+252: A | Most complete goal-setting including assessment, collaboration, and documentation. 
+253: D | Most complete command workflow including monitoring, response, and closure. 
+254: B | Best practical installation including prep, execution, testing, and documentation. 
+255: D | Most complete operation including prep, execution, verification, and handoff. 
+256: D | Most complete validation including checks, logging, reporting, and delivery. 
+257: D | Most complete audition loop including performance, evaluation, decisions, and feedback. 
+258: D | Most comprehensive coordination including loading, tracking, communication, and documentation. 
+259: D | Most rigorous research including validation, synthesis, documentation, and delivery. 
+260: D | Most complete inventory cycle including verification, reconciliation, reporting, and review. 
+261: D | Most complete scheduling including drafting, feedback, adjustment, and evaluation. 
+262: D | Most complete build including prep, assembly, inspection, and finishing. 
+263: D | Most complete forestry operation including navigation, execution, unloading, and safety checks. 
+264: D | Most comprehensive maintenance including repair, testing, cleanup, and documentation. 
+265: D | Most complete coordination with agenda, decisions, documentation, and closure. 
+266: D | Most rigorous development including analysis, validation, revision, and training plan. 
+267: D | Most comprehensive repair including diagnostics, parts retrieval, reassembly, and documentation. 
+268: D | Most complete search including consent, inspection, escalation, and documentation. 
+269: D | Most complete inspection including PPE, testing, comparison, reporting, and confirmation. 
+270: D | Most comprehensive compliance including training, coordination, monitoring, and reporting. 
+271: D | Most complete policy development including schema, preservation, approval, and evaluation. 
+272: C | Correct scope inspection without unnecessary maintenance execution steps. 
+273: D | Most complete design coordination including dependencies, validation, and stakeholder delivery. 
+274: D | Most complete operation covering multiple workflows, monitoring, packaging, and delivery. 
+275: D | Most complete review including navigation, analysis, summarization, and preparation. 
+276: D | Most comprehensive plan including sampling, feasibility, permits, and finalization. 
+277: D | Most complete resolution including diagnosis, communication, execution, and documentation. 
+278: D | Most complete facilitation including feedback, redirection, summarization, and closure. 
+279: D | Most complete data collection including observation, interviews, validation, and reporting. 
+280: D | Most complete lab workflow including prep, analysis, comparison, reporting, and cleanup. 
+281: D | Most comprehensive evaluation including vitals, exams, tools, and care planning. 
+282: D | Most complete setup including assessment, assembly, rigging, coordination, and verification. 
+283: D | Most complete advising including site assessment, planning, implementation, and evaluation. 
+284: D | Most correct directing role separating instruction from execution and tracking. 
+285: C | Best scoped removal including disposal awareness without redundant steps. 
+286: D | Most complete reporting including sourcing, verification, delivery, and follow-up. 
+287: A | Correct interview scope without unnecessary examination procedures. 
+288: D | Most complete monitoring including inspection, escalation, logging, and repetition. 
+289: D | Most complete supervision loop including coordination, monitoring, issue handling, and closure. 
+290: C | Best balanced evaluation without redundant data handling or overextended monitoring. 
+291: D | Most complete forensic workflow including survey, collection, validation, and reporting. 
+292: C | Best scoped first aid prioritizing ABCs, EMS, stabilization, and handoff. 
+293: D | Most complete agricultural workflow including prep, planting, maintenance, harvest, and closure. 
+294: D | Most comprehensive research workflow from design through dissemination and review. 
+295: D | Most complete classification including observation, comparison, validation, and documentation. 
+296: D | Most rigorous evaluation including technical, market, risk, and stakeholder validation. 
+297: A | Most complete modeling loop including validation, refinement, and stakeholder communication. 
+298: D | Most comprehensive reporting including diagnosis, documentation, escalation, and safety control. 
+299: D | Most complete consultation including assessment, diagnosis, treatment, and follow-up. 
+300: A | Best structured record maintenance including validation, reporting, and system control. 
+301: D | Most complete administration including preparation, aseptic technique, monitoring, and handoff. 
+302: C | Best investigative direction including coordination, analysis, iteration, and reporting. 
+303: D | Most complete holding procedure including positioning, monitoring, adjustment, and release. 
+304: A | Most complete workflow including preparation, cooking, monitoring, and sanitation. 
+305: D | Most complete update workflow including verification, updates, validation, and communication. 
+306: D | Most complete tagging including generation, attachment, verification, and batch handling. 
+307: D | Most complete presentation including setup, feedback loop, revision, and approval. 
+308: A | Best scoped interaction focused on answering questions without unnecessary logging. 
+309: D | Most comprehensive evaluation including analysis, mitigation, costing, and stakeholder validation. 
+310: D | Most complete verification including checks, cross-validation, system updates, and communication. 
+311: D | Most rigorous method development including modeling, prioritization, reporting, and follow-up. 
+312: D | Most complete coordination including logistics, communication, monitoring, and validation. 
+313: C | Balanced monitoring with inspection, interaction, response, and documentation. 
+314: D | Most complete interview including setup, questioning, adaptation, and post-processing. 
+315: D | Most comprehensive supervision including inspection, guidance, monitoring, and reporting. 
+316: D | Most complete coaching loop including observation, feedback, practice, and follow-up. 
+317: D | Most complete transaction including setup, processing, confirmation, and closure. 
+318: C | Best scoped data gathering without unnecessary distribution or KPI updates. 
+319: D | Most complete installation including validation, configuration, testing, and communication. 
+320: D | Most complete inspection including verification, segregation, reconciliation, and reporting. 
+321: D | Most complete lifecycle including environment setup, integration, testing, and delivery. 
+322: B | Correct scope focuses on method selection without unnecessary full analysis. 
+323: A | Best scoped detection without overreach into suppression actions. 
+324: C | Focused on interprofessional conferencing without unnecessary implementation steps. 
+325: A | Most complete sales contact including CRM logging and follow-up planning. 
+326: D | Most comprehensive arrangement including setup, adjustment, inspection, and documentation. 
+327: D | Most complete control including adjustment, troubleshooting, monitoring, and reporting. 
+328: D | Most complete hiring lifecycle including screening, selection, onboarding, and documentation. 
+329: D | Most complete intake including verification, clarification, documentation, and closure. 
+330: D | Most comprehensive installation including prep, assembly, securing, testing, and documentation. 
+331: D | Most complete validation including inspection, cross-checking, decision, and reporting. 
+332: D | Most complete learning loop including evaluation, application, reflection, and updating. 
+333: D | Most complete assembly including setup, alignment, testing, and documentation. 
+334: A | Best complete recording including scanning, entry, verification, and submission. 
+335: A | Most complete surgical workflow including prep, execution, recovery, and documentation. 
+336: B | Correct scope focused on specification development without full deployment overreach. 
+337: D | Most complete cleaning including multi-stage removal, rinse, verification, and transfer. 
+338: D | Most complete communication loop including approval, execution, verification, and documentation. 
+339: D | Most complete inspection including PPE, diagnostics, repair, retest, and reporting. 
+340: C | Best balanced measuring workflow without unnecessary redundancy or over-specific detail. 
+341: D | Most complete preparation including safety, mixing, verification, labeling, and storage. 
+342: A | Most comprehensive inventory loop including verification, ordering, receiving, and reporting. 
+343: D | Most complete counseling including clarification, support, engagement, and closure. 
+344: C | Correct scope focused on cutting without extending into installation. 
+345: D | Most complete training loop including assessment, practice, evaluation, and documentation. 
+346: D | Most complete cutting including scoring, snapping, repetition, finishing, and cleanup. 
+347: D | Most complete workflow including hygiene, cutting, trimming, packaging, and cleanup. 
+348: D | Most comprehensive ordering including tracking, receiving, inspection, and notification. 
+349: D | Most complete evaluation including multidisciplinary input, planning, follow-up, and documentation. 
+350: D | Most complete communication including documentation, confirmation, and follow-up. 
+351: D | Most complete maintenance including diagnosis, repair, testing, and reporting. 
+352: D | Most complete assistance including assessment, care, support, and documentation. 
+353: D | Most complete evaluation including code review, testing, reporting, and stakeholder communication. 
+354: D | Most complete communication including channel selection, delivery, interaction, and follow-up. 
+355: D | Most complete handling including preparation, arrangement, verification, and transport. 
+356: D | Most complete coordination including planning, assignment, validation, and submission. 
+357: D | Most complete analysis including interpretation, validation, stakeholder clarification, and documentation. 
+358: D | Most complete consultation including assessment, discussion, adjustment, documentation, and closure. 
+359: D | Most complete assistance including intraoperative support, monitoring, documentation, and communication. 
+360: D | Most complete directing including coordination, diagnosis, execution, testing, and reporting. 
+361: D | Most complete lifecycle including development, training, communication, and iterative improvement. 
+362: A | Most complete operation including startup, monitoring, adjustment, inspection, and logging. 
+363: D | Most comprehensive communication including preparation, interaction, submission, follow-up, and documentation. 
+364: D | Most complete crisis intervention including assessment, de-escalation, safety planning, and confirmation. 
+365: D | Most complete counseling including environment, support, resources, and structured closure. 
+366: D | Most complete securing including loading strategy, stabilization, verification, and communication. 
+367: D | Most complete analysis including preparation, testing, validation, documentation, and communication. 
+368: D | Most complete communication including review, delivery, confirmation, and documentation. 
+369: D | Most complete promotion including targeting, engagement, demonstration, and follow-up. 
+370: D | Most complete transaction including verification, processing, and system recording. 
+371: D | Most comprehensive development including stakeholder input, pilot, scaling, and documentation. 
+372: B | Most complete housekeeping including cleaning, restocking, inspection, and documentation. 
+373: D | Most complete presentation including preparation, delivery, engagement, follow-up, and reflection. 
+374: A | Most complete preparation including cleaning, setup, testing, communication, and documentation. 
+375: D | Most complete setup including placement, configuration, testing, adjustment, and communication. 
+376: D | Most complete imaging including positioning, scanning, validation, storage, and documentation. 
+377: D | Most complete analysis including ratios, benchmarking, context, and reporting. 
+378: D | Most complete sealing including prep, application, curing, testing, and documentation. 
+379: D | Most complete coordination including assignment, monitoring, revision, and final delivery. 
+380: D | Most complete teaching including assessment, demonstration, practice, feedback, and reinforcement. 
+381: B | Most complete installation including prep, fitting, joining, testing, and securing. 
+382: D | Most complete interviewing including setup, identification, questioning, closure, and documentation. 
+383: D | Most comprehensive maintenance including inspection, testing, monitoring, communication, and documentation. 
+384: D | Most complete inspection including full-system checks, testing, documentation, and sign-off. 
+385: D | Most complete editing including rough cut, refinement, enhancement, and delivery. 
+386: D | Most complete assembly including prep, lubrication, iterative assembly, testing, and packaging. 
+387: B | Most complete calculation including input, carrier comparison, selection, and recording. 
+388: C | Most complete documentation including collaboration, drafting, visuals, review, and publication. 
+389: D | Most complete direction including coordination, execution, validation, communication, and review. 
+390: B | Most complete cutting including hazard prep, felling, bucking, and communication. 
+391: D | Most complete monitoring including assessment, measurement, comparison, feedback, and documentation. 
+392: D | Most complete referral including identification, routing, confirmation, and documentation. 
+393: D | Most complete calculation including validation, reporting, and final review. 
+394: D | Most complete routing including sorting, exception handling, delivery, and verification. 
+395: C | Best concise warning flow without unnecessary escalation or repetition. 
+396: D | Most complete scheduling including options, confirmation, recording, and verification. 
+397: A | Most complete assignment including creation, verification, publishing, and LMS workflow. 
+398: D | Most complete conversion including intermediate handling, delivery, and validation. 
+399: D | Most comprehensive planning including assessment, validation, documentation, and follow-up. 
+400: D | Most complete monitoring including prioritization, repetition, escalation, and documentation. 
+401: D | Most complete haircut including tool choice, trimming, feedback, and closure. 
+402: D | Most comprehensive research including data, analysis, prioritization, and reporting. 
+403: D | Most complete planning including risks, logistics, budget, and coordination. 
+404: A | Most complete weighing including calibration, verification, documentation, and repetition. 
+405: D | Most complete packaging including verification, protection, labeling, and system update. 
+406: D | Most complete practice including progression, feedback, variation, and recovery. 
+407: D | Most complete document control including labeling, verification, logging, and reporting. 
+408: D | Most complete collaboration including planning, coordination, execution, and validation. 
+409: D | Most complete packaging including inspection, protection, labeling, and documentation. 
+410: D | Most comprehensive analysis including modeling, estimation, and follow-up. 
+411: D | Most complete removal including sensing, repetition, and system signaling. 
+412: C | Best scoped monitoring without unnecessary system updates or logout steps. 
+413: D | Most complete packaging including quality control, weighing, and transport. 
+414: A | Most complete submission including verification and recordkeeping. 
+415: D | Most complete cabling including routing, securing, testing, and documentation. 
+416: D | Most complete typing including iterative review and structured execution. 
+417: D | Most complete costing including materials, labor, overhead, and communication. 
+418: D | Most comprehensive interpretation including preparation, delivery, evaluation, and follow-up. 
+419: A | Best balanced processing including enhancement, annotation, reporting, and notification. 
+420: D | Most complete analysis including preprocessing, KPI calculation, reporting, and follow-up. 
+421: D | Most complete interpretation including analysis, visualization, presentation, and closure. 
+422: D | Most complete design lifecycle including prototype, testing, and final delivery. 
+423: D | Most complete assistance including preparation, execution support, and verification. 
+424: D | Most complete testing including inspection, measurement, safety, and documentation. 
+425: D | Most complete removal including PPE, safe handling, verification, and reporting. 
+426: D | Most complete monitoring including inspection rounds, logging, and reporting. 
+427: A | Most complete care routine including hygiene, nutrition, mobility, and communication. 
+428: D | Most comprehensive compliance including documentation, corrective action, and tracking. 
+429: D | Most complete recording including parts, materials, procedures, and follow-up. 
+430: B | Most detailed report writing with full structured sections and submission. 
+431: D | Most complete replacement including safety lockout, installation, testing, and documentation. 
+432: C | Best scoped research without unnecessary full implementation steps. 
+433: D | Most complete workflow including safety, tool selection, execution, inspection, and reporting. 
+434: D | Most comprehensive monitoring including history check, action, verification, and logging. 
+435: A | Best structured scheduling including prioritization, conflict resolution, and stakeholder feedback. 
+436: D | Most complete interview including preparation, questioning, evaluation, and documentation. 
+437: A | Most rigorous proofreading including tools, validation, factual checks, and final review. 
+438: D | Most complete filling process including prep, application, curing, inspection, and communication. 
+439: D | Most complete operation including setup, monitoring, execution, and post-operation care. 
+440: D | Most complete guidance including clarification, route optimization, delivery, and confirmation. 
+441: D | Adds container inspection and readiness signaling beyond basic placement. 
+442: C | Best scoped inspection with diagnostics, analysis, and minimal unnecessary repetition. 
+443: D | Most complete notification including communication, documentation, and follow-up monitoring. 
+444: D | Most comprehensive collaboration including planning, implementation, evaluation, and iteration. 
+445: D | Most complete advisory including assessment, instruction, monitoring, and final verification. 
+446: D | Most complete development including design, build, testing, packaging, and deployment. 
+447: D | Most complete inspection including safety, multi-sensory checks, evaluation, and reporting. 
+448: D | Most comprehensive evaluation including validation, issue analysis, remediation, and reporting. 
+449: D | Most comprehensive including impact prediction, controls, and compliance follow-up. 
+450: C | Best scoped enforcement without unnecessary planning or policy redesign steps. 
+451: D | Most complete communication including delivery, confirmation, and documentation. 
+452: D | Most complete preparation including customization, verification, serving, and cleanup. 
+453: D | Most complete prescribing workflow including assessment, selection, instruction, and documentation. 
+454: A | Best complete cleaning including prioritization, execution, verification, and reporting. 
+455: B | Best monitoring focus including detection, response, notification, and continued surveillance. 
+456: D | Most complete schematic creation including design, compliance, simulation, and delivery. 
+457: D | Most complete including safety shutdown, wiring, testing, and compliance check. 
+458: D | Most complete operation including PPE, setup, monitoring, inspection, and cleanup. 
+459: C | Best balanced inspection including condition, security, documentation, and communication. 
+460: D | Most complete slaughter workflow including processing, inspection, and transfer. 
+461: D | Most complete setup including preparation, assembly, configuration, testing, and cleanup. 
+462: D | Most comprehensive design including analysis, modeling, validation, and stakeholder alignment. 
+463: D | Most complete inspection including detailed evaluation, classification, and reporting. 
+464: D | Most complete operation including control, monitoring, coordination, and reporting. 
+465: C | Best scoped recording without unnecessary repair or navigation steps. 
+466: D | Most comprehensive including testing, comparison, reporting, and stakeholder communication. 
+467: D | Most complete maintenance including diagnostics, repair, testing, and documentation. 
+468: D | Most complete inspection including coordination, verification, reporting, and follow-up. 
+469: B | Best balanced inventory control including updates, verification, reconciliation, and reporting. 
+470: D | Most complete coding workflow including design, testing, versioning, and communication. 
+471: D | Most complete land prep including drainage, soil correction, validation, and documentation. 
+472: D | Most comprehensive development including design, refinement, delivery, and archiving. 
+473: C | Focused coordination discussion without unnecessary execution and monitoring steps. 
+474: C | Best balanced planning lifecycle without redundant monitoring or overextension. 
+475: D | Most complete monitoring including prediction, adjustment, communication, and logging. 
+476: A | Most accurate mortar application including placement, alignment, and inspection. 
+477: C | Most complete advisory including research, analysis, communication, and structured closure. 
+478: D | Most comprehensive optimization including validation, review, deployment, and feedback. 
+479: D | Most complete event lifecycle including planning, execution, reconciliation, and feedback. 
+480: D | Most complete monitoring including inspection loop, response, documentation, and handover. 
+481: D | Most complete policy lifecycle including validation, alignment, and implementation planning. 
+482: C | Best concise relay including transmission and confirmation without unnecessary overhead. 
+483: D | Most complete instruction including teaching, feedback, assessment, and closure. 
+484: C | Most balanced collaboration including problem framing, coordination, execution, and validation. 
+485: D | Most complete reception including clarification, confirmation, and transition to execution. 
+486: D | Most complete AV operation including setup, configuration, monitoring, and teardown. 
+487: A | Most complete cleaning including sorting, pre-treatment, washing, storage, and verification. 
+488: C | Most comprehensive care including assessment, advice, goal-setting, and follow-up. 
+489: D | Most complete reporting workflow including research, interviews, synthesis, and verification. 
+490: D | Most complete inspection including checks, adjustments, validation, and reporting. 
+491: C | Best balanced attachment including inspection, securing, and functional testing. 
+492: D | Most comprehensive hazard testing including measurement, iteration, reporting, and follow-up. 
+493: A | Most complete financial analysis including validation, ratios, trends, and stakeholder reporting. 
+494: D | Most complete inventory control including coverage validation and reporting. 
+495: D | Most complete design lifecycle including analysis, iteration, compliance, and documentation. 
+496: D | Most complete advising including assessment, explanation, confirmation, and documentation. 
+497: D | Most comprehensive lifecycle including development, implementation, evaluation, and iteration. 
+498: D | Most complete cleaning including assessment, execution, sanitation, and compliance checks. 
+499: D | Most complete maintenance including diagnostics, repair, testing, and reporting. 
+500: D | Most complete reservation workflow including alternatives, confirmation, and system update. 
+501: D | Most comprehensive configuration including installation, security, testing, and communication. 
+502: D | Most complete operation including safety checks, execution, verification, and reporting. 

@@ -1,0 +1,379 @@
+BATCH 47/63 | Model: Claude Opus 4.7 | Tasks 369-376
+================================================================
+EXPERT REVIEW -- Micro-Action Sequence Evaluation
+For each task, read ALL four options, then choose the BEST (A/B/C/D).
+
+Criteria:
+  1. Completeness  -- no critical steps missing
+  2. Realism       -- every step is concretely executable
+  3. Stage accuracy -- stage label correct for each step:
+     IC=Intent_Communication  NA=Navigation_Addressing
+     PD=Perception_Diagnosis  ME=Manipulation_Execution  FV=Feedback_Verification
+  4. Conciseness   -- no redundant or duplicate steps
+  5. Scope         -- starts and ends at exactly the right point
+
+OUTPUT: fill the ANSWER TEMPLATE at the bottom.
+Format: N: X | one-sentence reason (max 12 words)
+IMPORTANT: Each task has a different best answer. Do NOT pick the same
+letter for every task without reading.
+================================================================
+
+--- Task 369: Promote products, services, or programs.
+[A]
+  1. [IC] Research the target audience's interests and pain points to tailor the promotion effectively.
+  2. [IC] Prepare a tailored presentation or display that highlights the unique features and benefits of the products.
+  3. [NA] Set up the booth or display area with eye-catching visuals, product samples, and marketing materials.
+  4. [IC] Engage with attendees, answer questions, and provide product demonstrations to build interest.
+  5. [FV] Gather feedback from attendees and adjust the promotion strategy as needed.
+  6. [PD] Collect contact information from interested attendees for follow-up communication.
+  7. [ME] Ensure the booth or display area remains tidy and organized throughout the event.
+  8. [FV] Evaluate the overall success of the promotion by analyzing booth traffic, engagement, and follow-up inquiries.
+[B]
+  1. [IC] Review the target audience and their needs to tailor the promotion strategy.
+  2. [ME] Set up the promotional materials, including visual displays and product demonstrations.
+  3. [IC] Engage with potential customers, answer questions, and provide product demonstrations.
+  4. [FV] Monitor customer feedback and adjust the promotion strategy as needed to optimize results.
+  5. [ME] Maintain a clean and organized display area to ensure a positive customer experience.
+  6. [PD] Stay up-to-date with product information, including features, benefits, and pricing, to effectively communicate with customers.
+  7. [IC] Develop a plan for handling customer inquiries and concerns in a timely and professional manner.
+  8. [PD] Collect contact information from interested customers for follow-up communication.
+  9. [FV] Evaluate the overall success of the promotion by analyzing booth traffic, engagement, and follow-up inquiries.
+  10. [ME] Prepare a post-promotion report summarizing the promotion's success, lessons learned, and recommendations for future events.
+[C]
+  1. [IC] Research the target audience, their needs, and the best promotional channels.
+  2. [IC] Develop a compelling message and tailor it to the chosen promotional channels.
+  3. [ME] Prepare promotional materials (e.g., brochures, demos, visuals) that align with the message.
+  4. [NA] Set up the promotional space (booth, online platform) in an inviting and organized manner.
+  5. [IC] Engage with potential customers, actively listen to their needs, and present the product/service benefits.
+  6. [ME] Demonstrate the product/service, highlighting its key features and value proposition.
+  7. [IC] Answer questions, address concerns, and provide additional information to potential customers.
+  8. [ME] Collect contact information from interested individuals for follow-up and relationship building.
+  9. [FV] Evaluate the effectiveness of the promotional efforts by tracking metrics and gathering feedback.
+[D]
+  1. [IC] Research target audience, their interests, and pain points to understand their needs.
+  2. [IC] Prepare a tailored presentation or communication strategy highlighting unique features and benefits.
+  3. [NA] Set up promotional materials, displays, and equipment at the designated location.
+  4. [PD] Test and ensure all demonstration equipment and materials are functioning properly.
+  5. [PD] Observe and identify potential customers or attendees with interest in the products or services.
+  6. [IC] Approach potential customers and initiate communication to gauge their interest.
+  7. [IC] Deliver the presentation or provide a product overview, highlighting benefits and addressing pain points.
+  8. [ME] Demonstrate the product or service using real-life examples or samples, if applicable.
+  9. [IC] Answer questions, address concerns, and gather feedback from potential customers.
+  10. [ME] Distribute promotional materials, such as brochures, samples, or business cards, to interested customers.
+  11. [ME] Collect contact information from interested customers for follow-up communication and future promotions.
+  12. [FV] Monitor and evaluate the success of the promotion, gathering feedback and identifying areas for improvement.
+
+--- Task 370: Record sales or transactions data.
+[A]
+  1. [IC] Greet the customer and ask for their items, making eye contact and maintaining a friendly demeanor.
+  2. [NA] Scan each item's barcode using the POS system scanner, ensuring the beep indicates a successful scan.
+  3. [PD] Verify the scanned item's details (name, price) on the POS system screen.
+  4. [ME] Apply any applicable discounts or promotions to the transaction.
+  5. [ME] Process the payment through the POS system, using the appropriate payment terminal (cash, card, mobile).
+  6. [FV] Verify the payment was successful by checking the terminal's display and listening for the confirmation beep.
+  7. [FV] Print the receipt and verify the transaction details on the receipt.
+  8. [FV] Hand the receipt and any purchased items to the customer, confirming the transaction details verbally.
+  9. [IC] Thank the customer for their purchase, inviting them to return and preparing for the next customer in line.
+[B]
+  1. [IC] Greet the customer and ask for their order.
+  2. [ME] Enter the items ordered into the POS system using the touchscreen interface.
+  3. [IC] Confirm the order details with the customer verbally.
+  4. [ME] Process the payment using the POS system (cash, card, or mobile payment).
+  5. [ME] Print or display a receipt for the customer.
+  6. [ME] Hand the receipt and any purchased items to the customer.
+  7. [FV] The POS system automatically records the transaction details (items, price, time, payment method) in its database.
+  8. [IC] Prepare for the next customer.
+[C]
+  1. [IC] Greet the customer and ask for the items they wish to purchase.
+  2. [NA] Scan each item's barcode using the POS system scanner.
+  3. [PD] Verify the scanned item details (name, price) on the POS system screen.
+  4. [IC] Ask the customer about their preferred payment method.
+  5. [ME] Process the payment through the POS system using the selected method.
+  6. [IC] Confirm the transaction details with the customer verbally.
+  7. [ME] Print the receipt and hand it to the customer along with their purchased items.
+[D]
+  1. [IC] Greet the customer and ask for their items, maintaining a friendly demeanor.
+  2. [PD] Scan each item's barcode using the POS system scanner, ensuring a successful scan.
+  3. [PD] Verify the scanned item's details (name, price) on the POS system screen.
+  4. [ME] Apply any applicable discounts or promotions to the transaction.
+  5. [ME] Enter the customer's payment method (credit card, cash, etc.) into the POS system.
+  6. [ME] Process the payment through the POS system and verify its success.
+  7. [ME] Print or display a receipt for the customer, if requested.
+  8. [ME] Hand the customer their purchased items, receipt, and correct change, ensuring they have everything before they leave.
+  9. [IC] Thank the customer for their purchase, inviting them to return and preparing for the next customer in line.
+  10. [FV] The POS system automatically records the transaction details (items, price, time, payment method) in its database.
+
+--- Task 371: Develop operational methods or processes that use green materials or emphasize sustainability.
+[A]
+  1. [PD] Conduct an on-site assessment of the current process to identify areas for improvement in waste generation, material usage, and energy consumption.
+  2. [PD] Research and identify suitable green materials and sustainable practices that can be integrated into the process.
+  3. [ME] Design and prototype new operational methods that incorporate the identified green materials and sustainable practices.
+  4. [IC] Present the new operational methods to the management team and gather feedback.
+  5. [ME] Revise the operational methods based on feedback and finalize the plan.
+  6. [ME] Implement the new operational methods in a pilot phase to test their effectiveness.
+  7. [FV] Monitor the pilot phase and collect data on the performance of the new methods, including waste reduction and energy efficiency metrics.
+  8. [FV] Evaluate the pilot phase results and make any necessary adjustments before full-scale implementation.
+  9. [IC] Develop and implement training programs for employees on the new operational methods and green materials.
+  10. [FV] Continuously monitor and evaluate the performance of the new operational methods and make adjustments as needed.
+[B]
+  1. [PD] Conduct a site visit to observe the current waste generation process and identify key areas for improvement.
+  2. [PD] Collect data on the types and quantities of waste generated by the plant.
+  3. [PD] Research and identify green materials and sustainable practices that can be integrated into the recycling process.
+  4. [ME] Design a new recycling process that incorporates the identified green materials and sustainable practices.
+  5. [ME] Create a detailed plan for implementing the new recycling process, including timelines and resource requirements.
+  6. [IC] Present the new recycling process to the plant's management team and gather feedback.
+  7. [ME] Revise the recycling process based on feedback and finalize the plan.
+  8. [ME] Implement the new recycling process in a pilot phase to test its effectiveness.
+  9. [FV] Monitor the pilot phase and collect data on the new process's performance.
+  10. [FV] Evaluate the pilot phase results and make any necessary adjustments before full-scale implementation.
+[C]
+  1. [PD] Conduct an on-site assessment of the existing process, observing material usage, waste generation, and energy consumption.
+  2. [IC] Research and identify suitable green materials that meet the company's functional and aesthetic requirements.
+  3. [ME] Design a new operational method incorporating the selected green materials and waste reduction strategies.
+  4. [IC] Present the proposed operational method to stakeholders, addressing their questions and concerns.
+  5. [ME] Implement a pilot program of the new method with a small group, closely monitoring its performance.
+  6. [FV] Analyze the pilot program data, make necessary adjustments, and finalize the new operational method.
+  7. [NA] Train all relevant personnel on the finalized new operational method.
+  8. [ME] Implement the finalized method across the entire operation, monitoring its ongoing performance and making continuous improvements.
+[D]
+  1. [PD] Conduct a site visit and review existing processes to understand waste generation, material usage, and energy consumption.
+  2. [IC] Interview stakeholders to understand their current practices, sustainability goals, and any constraints.
+  3. [PD] Research and identify suitable green materials and sustainable practices that meet the required performance and functional needs.
+  4. [ME] Design and plan a new process that incorporates the identified green materials and sustainable practices.
+  5. [IC] Present the new process to stakeholders, addressing their questions and concerns.
+  6. [ME] Collaborate with stakeholders to refine the new process based on their feedback and finalize the plan.
+  7. [NA] Order and receive the necessary green materials and any required equipment for the process conversion.
+  8. [ME] Implement the new process in a pilot phase, monitoring its performance, and collecting data.
+  9. [FV] Evaluate the pilot phase results, make necessary adjustments, and finalize the new process.
+  10. [NA] Implement the finalized new process across the entire operation, ensuring all team members are trained and understand the changes.
+  11. [FV] Monitor the new process during full-scale implementation, ensuring it runs smoothly and meets the required performance standards.
+  12. [IC] Document the successful implementation of the new process using green materials and update relevant standard operating procedures.
+
+--- Task 372: Perform housekeeping duties.
+[A]
+  1. [IC] Enter the room and assess the overall cleanliness and any specific areas that need attention.
+  2. [NA] Collect all trash from the room, including the bathroom and wastebasket.
+  3. [ME] Dust all surfaces, starting from the top (ceiling fans, shelves) and moving downwards.
+  4. [ME] Wipe down all horizontal surfaces with disinfectant, including the desk, coffee table, and bathroom countertops.
+  5. [ME] Clean the bathroom, including the toilet, sink, and shower/tub, using appropriate cleaning agents.
+  6. [ME] Vacuum the carpeted areas, including under the bed and furniture.
+  7. [ME] Make the bed with fresh linens, ensuring the bedspread and pillows are neatly arranged.
+  8. [FV] Inspect the room to ensure all tasks have been completed and the room meets the required standards.
+  9. [FV] Record the completion of the task in the management system.
+[B]
+  1. [IC] Enter the room and assess the overall cleanliness and any specific areas that need attention.
+  2. [NA] Collect all trash from the room, including the bathroom and the wastebasket.
+  3. [ME] Dust all surfaces, including the desk, nightstands, and TV stand.
+  4. [ME] Wipe down all horizontal surfaces with disinfectant, including the desk, coffee table, and bathroom countertops.
+  5. [ME] Clean the bathroom, including the toilet, sink, and shower/tub, using appropriate cleaning agents.
+  6. [ME] Vacuum the carpeted areas, including under the bed and furniture.
+  7. [ME] Make the bed with fresh linens, ensuring the bedspread and pillows are neatly arranged.
+  8. [NA] Restock the bathroom with fresh towels, toiletries, and other amenities.
+  9. [FV] Inspect the room to ensure all tasks have been completed and the room meets the hotel's standards.
+  10. [FV] Record the completion of the task in the hotel's management system.
+[C]
+  1. [IC] Assess the room for overall cleanliness and specific areas needing attention.
+  2. [NA] Gather necessary cleaning supplies (trash bags, disinfectant, vacuum, etc.).
+  3. [ME] Collect and dispose of all trash from the room.
+  4. [ME] Dust all surfaces, including furniture, shelves, and electronics.
+  5. [ME] Wipe down all horizontal surfaces with disinfectant.
+  6. [ME] Vacuum or sweep the floor, paying attention to corners and under furniture.
+  7. [ME] Make the bed with fresh linens.
+  8. [FV] Inspect the room to ensure all tasks are completed and the room meets cleanliness standards.
+[D]
+  1. [IC] Assess the overall cleanliness and identify specific areas that need attention.
+  2. [NA] Collect all trash from the room, including the bathroom and wastebaskets.
+  3. [ME] Dust all surfaces, starting from the top (ceiling fans, shelves) and moving downwards.
+  4. [PD] Wipe down all horizontal surfaces with disinfectant, including desks, tables, and countertops.
+  5. [ME] Clean the bathroom, including the toilet, sink, shower/tub, and floors, using appropriate cleaning agents.
+  6. [ME] Vacuum the carpeted areas, ensuring to reach under furniture and along walls.
+  7. [ME] Make the bed with fresh linens, ensuring the bedspread and pillows are neatly arranged.
+  8. [NA] Restock the bathroom with fresh towels, toiletries, and other amenities.
+  9. [FV] Inspect the room to ensure all tasks have been completed and the room meets the required standards.
+  10. [IC] Document the completion of the task and any additional maintenance needed.
+
+--- Task 373: Present sustainable products or services information to the public.
+[A]
+  1. [NA] Arrive at the presentation venue and set up the presentation area, ensuring all materials and equipment are in place and visually appealing.
+  2. [IC] Greet attendees and initiate conversations to understand their interests and concerns about sustainable products.
+  3. [ME] Present the features and benefits of the sustainable products, using visual aids and engaging storytelling techniques.
+  4. [ME] Demonstrate the product's effectiveness or provide samples to allow attendees to experience the benefits firsthand.
+  5. [FV] Answer questions from the audience, addressing any concerns or queries in a professional and friendly manner.
+  6. [FV] Distribute promotional materials, such as brochures and business cards, and collect contact details from interested attendees.
+  7. [IC] Thank attendees for their time and interest, and encourage them to share their positive experience with others.
+  8. [NA] Pack up presentation materials and leave the venue in a clean and organized state.
+  9. [FV] Send a follow-up email to collected contacts, summarizing the presentation and providing additional resources.
+[B]
+  1. [IC] Gather and review data on eco-friendly office supplies, including product specifications, environmental benefits, and cost comparisons.
+  2. [IC] Create a presentation deck with slides that highlight key points, benefits, and case studies.
+  3. [NA] Arrive at the conference room and set up the presentation equipment, including the projector and laptop.
+  4. [NA] Check the lighting and adjust the room to ensure the presentation is visible to all attendees.
+  5. [IC] Introduce the topic and outline the key points to be covered in the presentation.
+  6. [ME] Deliver the presentation, highlighting the environmental benefits and cost savings of the eco-friendly office supplies.
+  7. [ME] Use visual aids and case studies to illustrate the benefits of the products.
+  8. [FV] Open the floor for questions and address any concerns or queries from the audience.
+  9. [FV] Summarize the key points and reiterate the benefits of adopting eco-friendly office supplies.
+  10. [FV] Distribute business cards and promotional materials to the audience for follow-up.
+  11. [PD] Review the sales data and customer feedback to identify areas for improvement and optimize future presentations.
+[C]
+  1. [NA] Set up the presentation area, ensuring it is visually appealing and includes relevant product samples or displays.
+  2. [IC] Greet attendees and initiate conversations, identifying their interests and needs related to sustainable products.
+  3. [ME] Present key features and benefits of the sustainable products, highlighting environmental and social impact, using clear and concise language.
+  4. [ME] Demonstrate product usage or effectiveness, if applicable, using samples or interactive elements.
+  5. [FV] Address attendee questions and concerns, providing accurate information and building rapport.
+  6. [IC] Offer promotional materials like brochures or direct attendees to online resources for further information.
+  7. [FV] Collect contact information from interested attendees for follow-up communication, respecting privacy preferences.
+  8. [IC] Conclude the interaction by thanking attendees for their time and interest, leaving a positive lasting impression.
+[D]
+  1. [IC] Gather and review data on sustainable products or services, including features, benefits, environmental impact, and customer testimonials.
+  2. [NA] Set up presentation area, including visually appealing display of products, signage, and any necessary equipment (e.g., projector, laptop).
+  3. [IC] Greet attendees and initiate conversations to understand their interests, needs, and concerns regarding sustainable products or services.
+  4. [ME] Deliver the presentation, highlighting key features, benefits, environmental impact, and success stories or case studies.
+  5. [ME] Use visual aids, product samples, or demos to illustrate the benefits and functionality of the products or services.
+  6. [FV] Address customer questions, concerns, or objections, providing clear and concise explanations or additional information.
+  7. [NA] Offer promotional materials, such as brochures, business cards, or website information, for further exploration of the products or services.
+  8. [NA] Monitor the audience and adjust the presentation as needed to maintain engagement and interest.
+  9. [NA] Pack up the presentation area, ensuring a clean and organized display and leaving the space in a better condition than found.
+  10. [PD] Reflect on the presentation's success, noting what worked well and what could be improved for future events.
+  11. [FV] Send follow-up communications to collected contacts, summarizing the presentation and providing additional resources or offers.
+
+--- Task 374: Prepare patient treatment areas for use.
+[A]
+  1. [IC] Consult the patient chart to understand the specific needs and equipment required for the next patient.
+  2. [NA] Remove and dispose of any used medical waste, such as used needles, gauze, or gloves, following hospital protocols.
+  3. [ME] Wipe down all surfaces with disinfectant wipes, paying special attention to high-touch areas like doorknobs, light switches, and medical equipment.
+  4. [ME] Inspect and restock the room with necessary supplies based on the patient's needs, such as medications, IV fluids, or medical equipment.
+  5. [ME] Adjust the room's temperature and lighting to the patient's comfort level, as indicated in their chart.
+  6. [ME] Set up any specialized medical equipment required for the patient's treatment, following the manufacturer's instructions.
+  7. [FV] Test all equipment to ensure it is functioning properly and that the room is ready for the next patient.
+  8. [IC] Communicate with the nursing staff to confirm the room is ready for the next patient and to update them on any equipment issues or supply needs.
+  9. [FV] Document the room preparation in the patient's chart and the hospital's electronic records system.
+[B]
+  1. [IC] Enter the treatment room and verify the scheduled procedure and patient details.
+  2. [NA] Gather necessary surgical equipment and materials from the supply closet.
+  3. [PD] Inspect the patient bed for cleanliness and functionality.
+  4. [ME] Clean and disinfect the patient bed and surrounding area.
+  5. [ME] Set up the patient bed with sterile linens and positioning devices.
+  6. [ME] Arrange surgical instruments and equipment on the sterile field.
+  7. [PD] Check the functionality of medical devices and equipment.
+  8. [ME] Ensure all necessary supplies are within reach and properly organized.
+  9. [PD] Perform a final visual inspection of the treatment area.
+  10. [FV] Confirm readiness with the surgical team and deliver the prepared treatment area.
+[C]
+  1. [IC] Review the scheduled procedure and patient details to determine specific needs and equipment.
+  2. [NA] Remove used disposable items (gloves, bibs, etc.) and dispose of them according to protocol.
+  3. [ME] Clean and disinfect all surfaces (chair, tray, countertop, light handles) using appropriate solutions.
+  4. [ME] Restock disposable items (bibs, gloves, suction tips, gauze) in their designated holders.
+  5. [PD] Inspect and gather necessary equipment (instruments, medications, IV fluids) based on the patient's needs.
+  6. [ME] Set up specialized medical equipment, ensuring proper functionality and calibration.
+  7. [ME] Adjust room temperature, lighting, and ventilation to ensure patient comfort.
+  8. [FV] Perform a final visual inspection of the room to confirm readiness and address any overlooked details.
+[D]
+  1. [IC] Review patient chart and treatment room schedule to understand specific needs and equipment required.
+  2. [NA] Remove and dispose of used medical waste following hospital protocols.
+  3. [PD] Wipe down all surfaces with disinfectant, paying special attention to high-touch areas.
+  4. [ME] Inspect and restock the room with necessary supplies based on the patient's needs.
+  5. [FV] Check room inventory management system to ensure all supplies are accounted for and restocked.
+  6. [ME] Adjust room temperature and lighting to the patient's comfort level.
+  7. [ME] Set up any specialized medical equipment required for the patient's treatment.
+  8. [FV] Test all equipment to ensure it is functioning properly.
+  9. [IC] Communicate with nursing staff to confirm the room is ready and update them on any issues or supply needs.
+  10. [FV] Document room preparation in the patient's chart and hospital's electronic records system.
+
+--- Task 375: Set up still or video cameras or related equipment.
+[A]
+  1. [IC] Review the event requirements and confirm the camera setup specifications with the event organizer.
+  2. [NA] Carry the camera and related equipment to the designated location, navigating through the environment.
+  3. [PD] Identify the best location for the camera based on the room layout and event requirements.
+  4. [ME] Set up the tripod and place the camera on it, ensuring it is stable and level.
+  5. [ME] Adjust the camera settings, such as focus, zoom, and exposure, to suit the lighting conditions.
+  6. [ME] Connect the camera to the power source and any additional recording devices.
+  7. [FV] Perform a test recording to check the camera settings and lighting.
+  8. [FV] Adjust settings or equipment as needed based on the test recording.
+  9. [FV] Confirm that the camera and lighting equipment are ready to capture the event.
+[B]
+  1. [IC] Review the event requirements and confirm the camera setup specifications with the event organizer.
+  2. [NA] Unpack camera equipment from carrying cases and lay out components on a nearby table.
+  3. [NA] Inspect the location for a stable and unobtrusive location to place the tripod, considering power outlets and potential obstructions.
+  4. [ME] Assemble the tripod, ensuring all legs are extended and locked securely.
+  5. [ME] Attach the camera to the tripod head, ensuring it's securely fastened and balanced.
+  6. [PD] Connect the camera to the external power source, ensuring the cable is safely routed to avoid tripping hazards.
+  7. [PD] Power on the camera and adjust the ISO, aperture, and shutter speed settings for optimal low-light performance.
+  8. [PD] Focus the camera on the desired subject, using manual focus if necessary to achieve the best possible sharpness.
+  9. [ME] Frame the shot by adjusting the tripod's position and camera's orientation to capture the desired composition.
+  10. [FV] Verify the camera is recording by checking the viewfinder or LCD screen and listening for the recording sound.
+  11. [IC] Communicate the setup's completion to the director or assistant, ensuring they understand the camera's position and focal length.
+[C]
+  1. [IC] Review event requirements and confirm camera setup specifications with the event organizer.
+  2. [NA] Transport camera equipment to the designated location.
+  3. [PD] Identify the optimal camera placement based on the room layout, event requirements, and desired shot composition.
+  4. [ME] Set up the tripod and securely mount the camera.
+  5. [ME] Adjust camera settings (focus, zoom, exposure, etc.) to suit the lighting conditions and desired visual effect.
+  6. [ME] Connect the camera to power sources and any additional recording devices.
+  7. [FV] Conduct a test recording to verify functionality and make necessary adjustments.
+  8. [FV] Confirm the camera setup is complete and ready for the event.
+[D]
+  1. [IC] Review event requirements and confirm camera setup specifications with the event organizer.
+  2. [NA] Carry camera equipment to the event location, navigating through the terrain and identifying the best setup location.
+  3. [ME] Set up tripod and place the camera on it, ensuring stability and leveling.
+  4. [PD] Adjust camera settings (focus, zoom, exposure, ISO, aperture, shutter speed) based on lighting conditions and desired shot composition.
+  5. [ME] Set up lighting equipment to enhance video quality and reduce shadows, if necessary.
+  6. [ME] Connect the camera to the power source and any additional recording devices.
+  7. [FV] Perform a test recording to check camera settings, lighting, and audio feeds, ensuring high-quality capture.
+  8. [ME] Make necessary adjustments to camera settings, placement, or equipment based on the test recording.
+  9. [FV] Confirm that the camera and lighting equipment are ready to capture the event.
+  10. [IC] Communicate the setup's completion to relevant parties, ensuring they understand the camera's position and focal length.
+
+--- Task 376: Operate diagnostic imaging equipment.
+[A]
+  1. [IC] Greet the patient, verify their identity, and explain the procedure, addressing any concerns to ensure informed consent.
+  2. [IC] Review the patient's referral form and medical history to understand the imaging requirements.
+  3. [NA] Position the patient on the imaging table and ensure they are comfortable and correctly aligned for the scan.
+  4. [ME] Select and configure the appropriate imaging protocol and settings based on the patient's condition and the imaging requirements.
+  5. [ME] Initiate the scan, monitoring the patient and equipment to ensure optimal imaging.
+  6. [FV] Review the images as they are generated to ensure they are clear and complete, making adjustments as needed.
+  7. [FV] If necessary, repeat the scan to obtain additional or clearer images.
+  8. [FV] Complete the scan, ensure the images are saved, and assist the patient off the table.
+[B]
+  1. [IC] Review the patient's referral form and medical history to understand the imaging requirements.
+  2. [NA] Prepare the CT scanner by selecting the appropriate imaging protocol for a head scan.
+  3. [NA] Position the patient on the CT table and ensure they are comfortable and still.
+  4. [ME] Secure the patient's head with a headrest to prevent movement during the scan.
+  5. [PD] Conduct a preliminary scan to ensure the patient is correctly positioned and the imaging parameters are accurate.
+  6. [ME] Adjust the patient's position if necessary to ensure optimal imaging.
+  7. [ME] Initiate the full scan sequence, monitoring the patient and equipment throughout.
+  8. [FV] Review the images as they are generated to ensure they are clear and complete.
+  9. [FV] If necessary, repeat the scan to obtain additional or clearer images.
+  10. [FV] Complete the scan, ensure the images are saved, and assist the patient off the table.
+[C]
+  1. [IC] Review the patient's referral form and medical history to understand the imaging requirements and the specific body part to be scanned.
+  2. [NA] Position the patient on the imaging table, ensuring comfort and stability, and align the target body part with the scanner.
+  3. [ME] Select the appropriate imaging protocol and adjust scanner settings (e.g., kVp, mA, scan time) based on the patient's needs and the imaging goals.
+  4. [ME] Initiate the scan sequence, monitoring the patient and equipment throughout the process.
+  5. [FV] Review the acquired images in real-time to assess image quality and make adjustments to positioning or settings as needed.
+  6. [NA] Once the scan is complete, assist the patient off the table and ensure their comfort and well-being.
+  7. [FV] Save the images to the appropriate system (PACS) and document the procedure details in the patient's record.
+[D]
+  1. [IC] Review the patient's referral form, medical history, and the ordering physician's requirements to understand the imaging protocol and necessary preparations.
+  2. [NA] Position the patient correctly on the CT scanner bed, ensuring proper alignment with the scanner's gantry and the patient's comfort.
+  3. [ME] Select the appropriate imaging protocol and adjust the scanner's settings based on the patient's condition and the required examination.
+  4. [PD] Conduct a preliminary scan to ensure the patient is correctly positioned and the imaging parameters are accurate.
+  5. [ME] Adjust the patient's position if necessary to ensure optimal imaging, then initiate the full scan sequence.
+  6. [FV] Monitor the patient and equipment throughout the scan, ensuring their safety and the quality of the images.
+  7. [PD] Review the captured images to ensure they meet the ordering physician's requirements, making adjustments as needed.
+  8. [NA] Store the captured images in the hospital's radiology information system (RIS) for further analysis and communicate the imaging results to the ordering physician.
+  9. [ME] Clean and maintain the CT scanner, ensuring it is ready for the next patient.
+  10. [IC] Document the imaging procedure, any issues encountered, and the scan findings in the patient's electronic medical record.
+
+================================================================
+ANSWER TEMPLATE
+
+369: _ | 
+370: _ | 
+371: _ | 
+372: _ | 
+373: _ | 
+374: _ | 
+375: _ | 
+376: _ | 
+

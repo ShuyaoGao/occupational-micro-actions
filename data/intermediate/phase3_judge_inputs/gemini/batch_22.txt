@@ -1,0 +1,371 @@
+BATCH 22/63 | Model: Gemini 3 Pro | Tasks 169-176
+================================================================
+EXPERT REVIEW -- Micro-Action Sequence Evaluation
+For each task, read ALL four options, then choose the BEST (A/B/C/D).
+
+Criteria:
+  1. Completeness  -- no critical steps missing
+  2. Realism       -- every step is concretely executable
+  3. Stage accuracy -- stage label correct for each step:
+     IC=Intent_Communication  NA=Navigation_Addressing
+     PD=Perception_Diagnosis  ME=Manipulation_Execution  FV=Feedback_Verification
+  4. Conciseness   -- no redundant or duplicate steps
+  5. Scope         -- starts and ends at exactly the right point
+
+OUTPUT: fill the ANSWER TEMPLATE at the bottom.
+Format: N: X | one-sentence reason (max 12 words)
+IMPORTANT: Each task has a different best answer. Do NOT pick the same
+letter for every task without reading.
+================================================================
+
+--- Task 169: Read technical information needed to perform maintenance or repairs.
+[A]
+  1. [IC] Retrieve the technical manual from the digital database using the specific model number or VIN.
+  2. [NA] Navigate to the relevant section in the manual that addresses the specific maintenance or repair task.
+  3. [PD] Read and comprehend the introductory text, diagrams, and procedural instructions for the maintenance task.
+  4. [PD] Identify and note any critical values, tolerances, safety precautions, and potential risks associated with the maintenance task.
+  5. [FV] Confirm understanding of the technical information by summarizing the key points and steps to a supervisor or colleague.
+[B]
+  1. [IC] Retrieve technical manual or documentation
+  2. [NA] Navigate to relevant section or page
+  3. [PD] Read and comprehend technical information
+  4. [PD] Locate and examine technical diagrams or schematics
+  5. [PD] Review specifications and critical values
+  6. [PD] Review troubleshooting guide and potential issues
+  7. [FV] Confirm understanding and summarize key points
+[C]
+  1. [IC] Receive dispatch notification with equipment model number and brief malfunction description.
+  2. [NA] Access the equipment manufacturer's online technical documentation portal.
+  3. [PD] Search the documentation database using the equipment model number.
+  4. [NA] Open the relevant technical manual and navigate to the section describing the reported malfunction.
+  5. [PD] Carefully read and comprehend the repair instructions, diagrams, and safety precautions.
+  6. [FV] Confirm understanding of the technical information by summarizing key points.
+[D]
+  1. [IC] Receive maintenance task details including equipment model and malfunction description.
+  2. [NA] Access the manufacturer's online technical documentation portal using a tablet or computer.
+  3. [PD] Search the documentation database using the equipment model number or other relevant identifiers.
+  4. [PD] Scan search results to identify the most relevant technical manual or section.
+  5. [NA] Open the selected technical manual and navigate to the section describing the reported malfunction or maintenance task.
+  6. [PD] Read and comprehend the repair or maintenance instructions, diagrams, safety precautions, and any relevant troubleshooting guides.
+  7. [PD] Review the maintenance task checklist to ensure all necessary steps and procedures are covered.
+  8. [ME] Gather all necessary tools, equipment, and replacement parts required for the maintenance task.
+  9. [FV] Confirm understanding of the technical information by summarizing key points and steps with a supervisor or colleague.
+  10. [FV] Verify that the maintenance task is complete and that the equipment is functioning correctly.
+
+--- Task 170: Record vital statistics or other health information.
+[A]
+  1. [IC] Approach the patient, introduce yourself, and explain the check-up process.
+  2. [ME] Prepare and sanitize the equipment needed for the check-up, such as a thermometer, blood pressure cuff, and pulse oximeter.
+  3. [PD] Position the patient comfortably and measure their temperature using the thermometer.
+  4. [PD] Measure and record the patient's blood pressure using the blood pressure cuff.
+  5. [PD] Measure and record the patient's pulse rate and oxygen saturation using the pulse oximeter.
+  6. [IC] Ask the patient about any pain or discomfort and document their responses.
+  7. [NA] Log in to the EHR system and navigate to the patient's record.
+  8. [FV] Enter and submit the collected vital statistics and other health information into the EHR system, ensuring all fields are accurately filled out.
+[B]
+  1. [IC] Approach the patient and introduce yourself, explaining the process of taking vital signs.
+  2. [ME] Prepare and sanitize the equipment needed for the check-up, such as a thermometer, blood pressure cuff, and pulse oximeter.
+  3. [PD] Measure and record the patient's temperature using the thermometer.
+  4. [PD] Measure and record the patient's blood pressure using the blood pressure cuff.
+  5. [PD] Measure and record the patient's pulse rate and oxygen saturation using the pulse oximeter.
+  6. [IC] Ask the patient about any pain or discomfort and document their responses.
+  7. [NA] Log in to the EHR system and navigate to the patient's record.
+  8. [FV] Enter and submit the collected vital statistics and other health information into the EHR system, ensuring all fields are accurately filled out.
+  9. [FV] Review the entered data for accuracy and completeness, and make any necessary corrections.
+  10. [FV] Save the record in the EHR system and update the patient's medical history as necessary.
+[C]
+  1. [IC] Greet the patient, introduce yourself, and explain the purpose of taking vital signs.
+  2. [ME] Wash hands thoroughly using soap and water.
+  3. [NA] Gather necessary equipment (thermometer, stethoscope, blood pressure cuff).
+  4. [PD] Measure and record the patient's temperature.
+  5. [PD] Measure and record the patient's blood pressure.
+  6. [PD] Measure and record the patient's pulse rate and respiration.
+  7. [IC] Inquire about any pain or discomfort the patient is experiencing.
+  8. [FV] Enter all collected vital signs and patient-reported information into the EHR system.
+[D]
+  1. [IC] Approach the patient, introduce yourself, and explain the check-up process.
+  2. [ME] Prepare and sanitize the equipment needed for the check-up, such as a thermometer, blood pressure cuff, and pulse oximeter.
+  3. [PD] Measure and record the patient's temperature using the thermometer.
+  4. [PD] Measure and record the patient's blood pressure using the blood pressure cuff.
+  5. [PD] Measure and record the patient's pulse rate and oxygen saturation using the pulse oximeter.
+  6. [IC] Ask the patient about any pain or discomfort and document their responses.
+  7. [NA] Log in to the EHR system and navigate to the patient's record.
+  8. [FV] Enter and submit the collected vital statistics and other health information into the EHR system, ensuring all fields are accurately filled out.
+
+--- Task 171: Survey land or properties.
+[A]
+  1. [IC] Review the provided map and legal documents to understand the property boundaries and any specific points of interest.
+  2. [NA] Arrive at the property and conduct a visual inspection to identify any potential obstacles or challenges.
+  3. [NA] Set up the survey equipment, including the total station and GPS receiver, at a known reference point.
+  4. [PD] Walk the perimeter of the property, using a total station or GPS rover to measure and record precise locations of key points and boundaries.
+  5. [ME] Record all measurements and observations in a field notebook and digital data logger.
+  6. [PD] Identify any potential encroachments or discrepancies between recorded data and property boundaries.
+  7. [FV] Review all collected data and ensure completeness and accuracy.
+  8. [ME] Use the recorded data to create a detailed map of the property, including boundaries, key points, and natural features.
+  9. [FV] Review the map for accuracy and completeness, making any necessary adjustments.
+  10. [ME] Prepare a final report summarizing the survey findings and including the map.
+  11. [IC] Deliver the final report and map to the client, explaining the findings and answering any questions.
+[B]
+  1. [IC] Review the provided map and legal documents to understand the property boundaries and any specific points of interest.
+  2. [NA] Arrive at the property and conduct a visual inspection to identify any potential obstacles or challenges.
+  3. [NA] Use GPS to locate the property's boundary and establish a reference frame for the survey.
+  4. [ME] Measure and record the property's dimensions using a total station or other surveying equipment.
+  5. [PD] Use existing monuments to verify the property's corners and ensure that the survey is accurate.
+  6. [FV] Record and document the survey data, including all relevant measurements and notes.
+  7. [ME] Use surveying software to process and analyze the survey data, and generate a final map or report.
+  8. [FV] Verify the accuracy of the survey data and ensure that it meets the client's requirements.
+  9. [IC] Deliver the final survey report and map to the client, and ensure that they understand the results.
+[C]
+  1. [IC] Review property documents and maps to understand boundaries and points of interest.
+  2. [NA] Arrive at the site, don appropriate safety gear, and locate the starting point using GPS.
+  3. [NA] Establish control points using a GPS base station and reference markers.
+  4. [PD] Traverse the property perimeter, measuring distances and angles using a total station.
+  5. [ME] Record all measurements and observations in a digital data logger.
+  6. [PD] Identify and document any encroachments or discrepancies from the property boundaries.
+  7. [ME] Process the collected data using surveying software to generate a detailed map.
+  8. [FV] Review the generated map for accuracy and completeness, making necessary adjustments.
+  9. [ME] Prepare a final report summarizing the survey findings and including the map.
+  10. [IC] Deliver the final report and map to the client, explaining the findings and addressing any questions.
+[D]
+  1. [IC] Review provided map and legal documents to understand property boundaries and points of interest.
+  2. [NA] Arrive at the property and conduct a visual inspection to identify potential obstacles and challenges.
+  3. [NA] Set up a GPS base station at a known reference point with clear line-of-sight to the sky.
+  4. [NA] Use GPS to locate the property's boundary and establish a reference frame for the survey.
+  5. [PD] Walk the perimeter of the property, using a GPS rover to record coordinates at regular intervals.
+  6. [PD] Measure and record distances and angles using a total station or similar device at key points and boundaries.
+  7. [ME] Record all measurements, observations, and notes in a field notebook and digital data logger.
+  8. [ME] Identify and mark any potential encroachments, discrepancies, or key points with temporary flags or stakes.
+  9. [FV] Review all collected data for completeness, accuracy, and consistency.
+  10. [ME] Use surveying software to process and analyze the data, generating a final map or report.
+  11. [FV] Review the final map or report for accuracy, completeness, and client requirements.
+  12. [IC] Deliver the final report and map to the client, explaining the findings and addressing any questions or concerns.
+
+--- Task 172: Maintain green energy production plant equipment.
+[A]
+  1. [IC] Review the maintenance schedule and task list on the tablet to understand the scope of work and prioritize tasks.
+  2. [IC] Don personal protective equipment (PPE) and lock out the equipment to ensure safety during maintenance.
+  3. [NA] Navigate to the designated equipment using the plant's layout map and navigation tools.
+  4. [PD] Inspect the equipment for signs of wear or damage and document findings on the tablet.
+  5. [ME] Perform routine maintenance tasks, such as cleaning, lubricating moving parts, and replacing worn or damaged components.
+  6. [FV] Test the equipment to ensure it is functioning within optimal parameters and document the results.
+  7. [FV] Document the maintenance work, including any issues encountered and resolutions, on the tablet.
+  8. [ME] Return the equipment to operation and ensure it is functioning within optimal parameters.
+  9. [IC] Update the plant's maintenance records and notify relevant personnel of the completion of the maintenance tasks.
+[B]
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+[C]
+  1. [IC] Review the maintenance schedule and task list, prioritizing tasks and identifying required tools and equipment.
+  2. [NA] Navigate to the designated equipment location (wind turbine or solar panel array) using plant maps and navigation tools.
+  3. [IC] Don personal protective equipment (PPE) and secure the work area, following safety protocols.
+  4. [PD] Inspect the equipment for visible damage, wear, or malfunctions, documenting findings.
+  5. [ME] Perform necessary maintenance tasks, such as cleaning, lubrication, component replacement, or repairs, using appropriate tools.
+  6. [FV] Test equipment functionality after maintenance, ensuring it operates within specified parameters.
+  7. [FV] Document all maintenance activities, including tasks performed, components replaced, and any issues encountered.
+[D]
+  1. [IC] Review the turbine's maintenance history and any reported issues on the tablet while preparing the maintenance vehicle.
+  2. [IC] Don personal protective equipment (PPE) and secure the safety harness to the designated anchor point on the turbine structure.
+  3. [NA] Drive the maintenance vehicle to the base of the wind turbine, navigating the uneven terrain and strong winds.
+  4. [NA] Climb the wind turbine using the safety harness and ladder, securing oneself at each level.
+  5. [PD] Inspect the turbine's blades, gearbox oil level and condition, main bearing, and electrical components for any signs of damage, wear, or issues.
+  6. [ME] Replace any damaged or worn components, such as turbine blades, gearbox oil, or electrical parts, using the appropriate tools and safety procedures.
+  7. [FV] Test the turbine's functionality by running it through a series of diagnostic tests and ensuring it operates within the expected parameters.
+  8. [FV] Document the maintenance performed, any issues found, and the turbine's current condition in the maintenance log on the tablet.
+  9. [NA] Descend the wind turbine, secure the maintenance vehicle, and return to the base for the next scheduled maintenance task.
+  10. [IC] Review the maintenance schedule and task list to ensure all tasks were completed and document any issues or areas for improvement.
+  11. [IC] Update the plant's maintenance records and notify relevant personnel of the completion of the maintenance tasks.
+
+--- Task 173: Order construction or extraction materials or equipment.
+[A]
+  1. [PD] Review project plans and specifications to determine material and equipment requirements.
+  2. [NA] Access the company's preferred vendor database and identify suppliers who offer the required materials.
+  3. [PD] Compare pricing, delivery times, and supplier reputation to select the best options.
+  4. [IC] Contact the chosen vendor to place the order, specifying quantities, delivery address, and desired delivery date.
+  5. [FV] Confirm the order details with the vendor, including pricing, delivery date, and any applicable taxes or fees.
+  6. [ME] Provide payment information to the vendor and place the order.
+  7. [FV] Receive and record the order confirmation number and delivery schedule.
+  8. [IC] Notify the project team of the order details and expected delivery date.
+  9. [FV] Verify receipt of orders and track delivery schedules.
+[B]
+  1. [PD] Review project plans and specifications to determine material and equipment requirements.
+  2. [IC] Contact suppliers and vendors to request quotes and availability for materials and equipment.
+  3. [PD] Compare quotes and availability from multiple suppliers and vendors to select the best options.
+  4. [IC] Place orders for materials and equipment with selected suppliers and vendors.
+  5. [FV] Verify receipt of orders and track delivery schedules.
+  6. [PD] Inspect received materials and equipment for quality and accuracy.
+  7. [IC] Notify suppliers and vendors of any issues or discrepancies with orders.
+  8. [NA] Coordinate with construction team to receive and store materials and equipment.
+  9. [PD] Update project plans and records to reflect received materials and equipment.
+  10. [FV] Verify that all materials and equipment are on site and ready for use.
+[C]
+  1. [PD] Review project plans and specifications to determine material and equipment requirements.
+  2. [NA] Access the company's preferred vendor database and identify suppliers who offer the required materials.
+  3. [PD] Compare pricing and delivery times from multiple vendors, considering factors like reputation and past performance.
+  4. [IC] Contact the chosen vendor by phone or online platform to place the order, specifying quantities, delivery address, and desired delivery date.
+  5. [FV] Confirm the order details with the vendor, including pricing, delivery date, and any applicable taxes or fees.
+  6. [ME] Provide payment information to the vendor, either through an online portal or over the phone.
+  7. [FV] Receive and record the order confirmation number and delivery schedule.
+[D]
+  1. [PD] Review project plans, specifications, and material lists to determine requirements for construction or extraction materials or equipment.
+  2. [NA] Access the procurement system or supplier's website using appropriate credentials.
+  3. [PD] Search for and select required materials and equipment in the procurement system or supplier's catalog, ensuring they match project specifications.
+  4. [PD] Check supplier stock levels, lead times, and availability to ensure timely delivery.
+  5. [ME] Add required quantities of selected materials and equipment to the virtual shopping cart or order form.
+  6. [ME] Proceed to checkout, entering delivery address, preferred delivery date, and reviewing order summary for accuracy.
+  7. [ME] Enter payment information and place the order, receiving an order confirmation.
+  8. [FV] Verify receipt of order confirmation and match it with the placed order.
+  9. [IC] Notify the project team of order details, expected delivery date, and forward order confirmation to relevant parties (e.g., accounting).
+
+--- Task 174: Manage human resources activities.
+[A]
+  1. [IC] Review the job description and requirements with the hiring manager to ensure clarity and accuracy.
+  2. [NA] Draft the job posting and post it on the company website and relevant job boards.
+  3. [PD] Screen resumes and shortlist candidates based on the job requirements.
+  4. [IC] Contact shortlisted candidates to schedule initial interviews.
+  5. [ME] Conduct initial interviews with shortlisted candidates and provide feedback to the hiring manager.
+  6. [IC] Coordinate with the hiring manager to select a shortlist of top candidates for final interviews.
+  7. [IC] Make a job offer to the selected candidate, including details on salary, benefits, and expectations.
+  8. [NA] Onboard the new employee, including providing necessary paperwork, benefits information, and company policies.
+  9. [ME] Set up the new hire's workstation, including their computer, phone, and access badges.
+  10. [IC] Schedule regular check-ins with the new team members to address any questions or concerns and provide ongoing support.
+  11. [FV] Send a survey to the new team members to gather feedback on the onboarding process and identify areas for improvement.
+[B]
+  1. [IC] Review the job description and requirements with the hiring manager to ensure clarity and accuracy.
+  2. [IC] Post job openings on company's website and relevant job boards, and reach out to professional networks to find potential candidates.
+  3. [PD] Screen and interview candidates, using a standardized evaluation process to ensure fairness and consistency.
+  4. [PD] Check candidate references and verify their education and work history.
+  5. [IC] Make a job offer to the selected candidate, including details on salary, benefits, and expectations.
+  6. [NA] Onboard the new employee, including providing necessary paperwork, benefits information, and company policies.
+  7. [NA] Administer benefits, including health insurance, retirement plans, and other employee perks.
+  8. [PD] Conduct performance evaluations, including setting goals, providing feedback, and documenting progress.
+  9. [ME] Develop and implement employee development plans, including training, mentorship, and career advancement opportunities.
+  10. [FV] Manage employee terminations, including providing support, processing paperwork, and ensuring a smooth transition.
+  11. [PD] Monitor and analyze HR metrics, including employee turnover, time-to-hire, and benefits utilization.
+  12. [ME] Adjust HR strategies and processes as needed, based on data analysis and employee feedback.
+[C]
+  1. [IC] Collaborate with the hiring manager to define the job role, responsibilities, and required qualifications.
+  2. [ME] Develop a compelling job posting that highlights the role's key aspects and attracts qualified candidates.
+  3. [NA] Disseminate the job posting on relevant platforms, including the company website, job boards, and professional networks.
+  4. [PD] Screen applications and resumes to identify candidates who meet the minimum qualifications.
+  5. [ME] Conduct interviews with shortlisted candidates, using standardized questions to assess their skills, experience, and cultural fit.
+  6. [FV] Evaluate candidate performance based on pre-defined criteria and provide feedback to the hiring manager.
+  7. [IC] Extend a job offer to the selected candidate, outlining compensation, benefits, and start date.
+[D]
+  1. [IC] Review company's current human resources needs and develop a plan to address these needs, including recruitment and employee onboarding.
+  2. [NA] Post job openings on company's website and relevant job boards, and reach out to professional networks to find potential candidates.
+  3. [PD] Screen and interview candidates, using a standardized evaluation process to ensure fairness and consistency.
+  4. [PD] Check candidate references and verify their education and work history.
+  5. [IC] Make a job offer to the selected candidate, including details on salary, benefits, and expectations.
+  6. [IC] Review the new hire's application and resume, noting key skills and experience.
+  7. [ME] Prepare a welcome packet with company policies, benefits information, and onboarding schedule.
+  8. [NA] Greet the new hire, introduce them to the HR team, and provide a tour of the office.
+  9. [IC] Review the employment contract and company policies, answering any questions the new hire may have.
+  10. [NA] Coordinate with the IT department to set up necessary hardware, software, and access permissions for the new team member.
+  11. [PD] Organize in-person or virtual training sessions for the new team member to familiarize them with the company's tools, processes, and best practices.
+  12. [ME] Facilitate team-building activities to help the new team member integrate with the existing team and foster a collaborative work environment.
+  13. [IC] Schedule regular check-ins with the new team member to address any questions or concerns and provide ongoing support.
+  14. [FV] Send a survey to the new team member to gather feedback on the onboarding process and identify areas for improvement.
+  15. [FV] Review the survey results and take appropriate action to address any identified issues or areas for improvement.
+
+--- Task 175: Diagnose dental conditions.
+[A]
+  1. [IC] Greet the patient, review their medical history, and ask about their symptoms.
+  2. [NA] Adjust the dental chair and position the patient for optimal access to their mouth.
+  3. [PD] Visually inspect the patient's teeth and gums using a dental mirror and explorer.
+  4. [PD] Use a periodontal probe to measure the depth of the gum pockets around each tooth.
+  5. [PD] Take X-rays of the affected area to visualize the tooth roots and surrounding bone.
+  6. [PD] Analyze the collected data (visual inspection, probing, X-rays) to determine the cause of the pain.
+  7. [IC] Explain the diagnosis to the patient in clear, understandable terms.
+  8. [IC] Discuss treatment options with the patient, considering their individual needs and preferences.
+  9. [FV] Document the findings and recommended treatment plan in the patient's electronic record.
+  10. [IC] Schedule any necessary follow-up appointments for treatment.
+[B]
+  1. [IC] Greet the patient, explain the procedure, and obtain any relevant medical history.
+  2. [NA] Adjust the dental chair and position the patient for optimal access to their mouth.
+  3. [PD] Use a dental mirror to examine the patient's teeth, checking for signs of decay, cracks, or other abnormalities.
+  4. [PD] Use a periodontal probe to measure the depth of the gum pockets around each tooth, checking for signs of gum disease.
+  5. [ME] Use an explorer tool to gently probe the surfaces of the teeth, feeling for any soft or sticky areas that may indicate decay.
+  6. [PD] Use a dental X-ray machine to capture images of the patient's teeth, jaws, and surrounding structures, looking for any hidden issues.
+  7. [FV] Document the findings in the patient's electronic record, noting any issues found and recommending appropriate follow-up care.
+  8. [IC] Explain the findings to the patient, answering any questions they may have, and scheduling any necessary follow-up appointments.
+[C]
+  1. [IC] Greet the patient, review their medical history, and inquire about their symptoms.
+  2. [PD] Visually inspect the patient's teeth and gums using a dental mirror and explorer.
+  3. [PD] Probe the affected tooth and surrounding gums to assess tenderness and mobility.
+  4. [PD] Take X-rays of the affected area to visualize the tooth roots and surrounding bone.
+  5. [PD] Analyze the collected data (visual inspection, probing, X-rays) to determine the cause of the dental issue.
+  6. [IC] Explain the diagnosis to the patient in clear, understandable terms.
+  7. [IC] Discuss treatment options with the patient, considering their individual needs and preferences.
+  8. [FV] Document the diagnosis, treatment plan, and any recommended follow-up care in the patient's electronic record.
+[D]
+  1. [IC] Greet the patient, explain the procedure, and obtain relevant medical history.
+  2. [NA] Position the patient and adjust the dental chair for optimal access.
+  3. [PD] Visually inspect the patient's teeth and gums using a dental mirror and explorer, checking for signs of decay, inflammation, or other issues.
+  4. [PD] Use a periodontal probe to measure gum pockets and check for signs of gum disease.
+  5. [ME] Gently probe the surfaces of the teeth with an explorer tool to detect any soft or sticky areas indicating decay.
+  6. [PD] Take X-rays of the patient's teeth, jaws, and surrounding structures to visualize hidden issues.
+  7. [PD] Analyze the collected data (visual inspection, probing, X-rays) to determine the cause of any symptoms and make a differential diagnosis.
+  8. [FV] Document the findings in the patient's electronic record, noting any issues found and recommending appropriate follow-up care.
+  9. [IC] Explain the findings to the patient, answer any questions, and schedule necessary follow-up appointments or treatments.
+
+--- Task 176: Verify accuracy of financial or transactional data.
+[A]
+  1. [NA] Retrieve and access the transactional records and financial statements for the specified period from the company's financial management system.
+  2. [PD] Review the transactional records and financial statements to understand the format and structure.
+  3. [PD] Compare each transaction record with the corresponding entry in the financial statements.
+  4. [ME] Document any discrepancies found between the transaction records and financial statements.
+  5. [PD] Investigate the cause of any discrepancies, such as data entry errors or missing transactions.
+  6. [ME] Correct any discrepancies by updating the transaction records or financial statements as needed.
+  7. [FV] Verify that all discrepancies have been resolved and the data is now accurate.
+  8. [FV] Document any changes or corrections made to the transactional records and financial reports.
+  9. [IC] Communicate any changes or corrections to relevant stakeholders, such as management or auditors.
+[B]
+  1. [NA] Retrieve the transactional records for the month of July from the store's database.
+  2. [NA] Open the financial statements for the same period and ensure they are up-to-date.
+  3. [PD] Review the first transaction record to understand the format and structure.
+  4. [PD] Compare the first transaction record with the corresponding entry in the financial statements.
+  5. [PD] Repeat the comparison process for each transaction record in the dataset.
+  6. [ME] Document any discrepancies found between the transaction records and financial statements.
+  7. [PD] Investigate the cause of any discrepancies, such as data entry errors or missing transactions.
+  8. [ME] Correct any discrepancies by updating the transaction records or financial statements as needed.
+  9. [FV] Verify that all discrepancies have been resolved and the data is now accurate.
+  10. [FV] Deliver the final verified transactional data and financial statements to the store manager.
+[C]
+  1. [NA] Retrieve the transactional records and corresponding financial statements for the specified period.
+  2. [PD] Review the format and structure of the transactional records.
+  3. [PD] Compare each transactional record with its corresponding entry in the financial statements.
+  4. [ME] Document any discrepancies found between the transactional records and financial statements.
+  5. [PD] Investigate the cause of any discrepancies, such as data entry errors or missing transactions.
+  6. [ME] Correct any discrepancies by updating the transaction records or financial statements as needed.
+  7. [FV] Verify that all discrepancies have been resolved and the data is now accurate.
+[D]
+  1. [NA] Retrieve transactional records and relevant financial statements for the specified period.
+  2. [PD] Review the first few transaction records to understand their format and structure.
+  3. [PD] Compare each transaction record with its corresponding entry in the financial statements.
+  4. [ME] Document any discrepancies found between the transaction records and financial statements.
+  5. [PD] Investigate the cause of each discrepancy, such as data entry errors or missing transactions.
+  6. [ME] Correct each discrepancy by updating the relevant transaction records or financial statements.
+  7. [FV] Verify that all discrepancies have been resolved and the data is now accurate.
+  8. [FV] Generate a report summarizing the errors found, the corrections made, and the final verified data.
+  9. [IC] Communicate the final verified data and report to relevant stakeholders, such as management or auditors.
+
+================================================================
+ANSWER TEMPLATE
+
+169: _ | 
+170: _ | 
+171: _ | 
+172: _ | 
+173: _ | 
+174: _ | 
+175: _ | 
+176: _ | 
+

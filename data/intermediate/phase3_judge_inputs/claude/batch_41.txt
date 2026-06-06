@@ -1,0 +1,372 @@
+BATCH 41/63 | Model: Claude Opus 4.7 | Tasks 321-328
+================================================================
+EXPERT REVIEW -- Micro-Action Sequence Evaluation
+For each task, read ALL four options, then choose the BEST (A/B/C/D).
+
+Criteria:
+  1. Completeness  -- no critical steps missing
+  2. Realism       -- every step is concretely executable
+  3. Stage accuracy -- stage label correct for each step:
+     IC=Intent_Communication  NA=Navigation_Addressing
+     PD=Perception_Diagnosis  ME=Manipulation_Execution  FV=Feedback_Verification
+  4. Conciseness   -- no redundant or duplicate steps
+  5. Scope         -- starts and ends at exactly the right point
+
+OUTPUT: fill the ANSWER TEMPLATE at the bottom.
+Format: N: X | one-sentence reason (max 12 words)
+IMPORTANT: Each task has a different best answer. Do NOT pick the same
+letter for every task without reading.
+================================================================
+
+--- Task 321: Develop computer or information systems.
+[A]
+  1. [IC] Conduct a meeting with stakeholders to understand their requirements and expectations for the system.
+  2. [NA] Review the existing IT infrastructure to identify integration points and compatibility issues.
+  3. [PD] Design the system architecture, including database schema, modules, and user interface.
+  4. [ME] Write the code for the system, including user interfaces, backend logic, and database interactions.
+  5. [ME] Integrate the system with existing systems using APIs and perform real-time analytics.
+  6. [FV] Conduct unit tests and integration testing to ensure the system functions correctly.
+  7. [FV] Deploy the system to the production environment and ensure it meets security standards.
+  8. [FV] Provide training to end-users and gather feedback for future improvements.
+[B]
+  1. [IC] Conduct a meeting with the retail company's management to understand their requirements for the CRM system.
+  2. [NA] Navigate the company's existing IT infrastructure to identify integration points with the CRM system.
+  3. [PD] Design the architecture of the CRM system, including database schema and system modules.
+  4. [ME] Write the code for the CRM system, including user interfaces, backend logic, and database interactions.
+  5. [ME] Integrate the CRM system with the existing inventory and sales systems using APIs.
+  6. [ME] Develop real-time analytics features to provide insights into customer behavior and sales trends.
+  7. [FV] Conduct unit tests on individual components of the CRM system to ensure they function correctly.
+  8. [FV] Deploy the CRM system to the retail company's production environment.
+  9. [FV] Deliver the CRM system to the retail company and provide training to the end-users.
+  10. [IC] Collaborate with healthcare professionals to understand their needs and requirements for the mobile app.
+  11. [ME] Design the mobile app's user interface and user experience to ensure it is user-friendly and meets the hospital's requirements.
+  12. [FV] Test the mobile app to ensure it meets the hospital's requirements and is free of bugs.
+  13. [IC] Meet with the farmers market organizers to understand their specific requirements for the mobile application.
+  14. [IC] Create a detailed project plan outlining the development phases, timelines, and resource allocation.
+  15. [ME] Write the source code for the mobile application using a programming language like Swift (for iOS) or Kotlin (for Android).
+  16. [IC] Attend the daily stand-up meeting to understand the team's progress, blockers, and new tasks.
+  17. [IC] Review the project's user stories and acceptance criteria to gain a deep understanding of the required features.
+  18. [PD] Sketch out an initial database schema, considering one-to-many and many-to-many relationships between tasks, projects, users, and other relevant entities.
+  19. [ME] Set up the development environment, including installing and configuring Node.js, MongoDB, and creating a new React project using Create React App.
+  20. [ME] Implement the core features of the web application, such as task creation, editing, and deletion, using React components and state management.
+[C]
+  1. [IC] Collaborate with stakeholders to understand their requirements and desired functionalities for the computer or information system.
+  2. [NA] Analyze existing systems and infrastructure to identify potential integration points and technical constraints.
+  3. [PD] Design the system architecture, including database schema, modules, and user interfaces.
+  4. [ME] Develop and write the code for the system, implementing the designed architecture and functionalities.
+  5. [FV] Conduct unit tests and integration tests to ensure the system functions correctly and meets the specified requirements.
+  6. [NA] Deploy the system to the production environment, following best practices for security and performance.
+  7. [IC] Provide training and support to users, ensuring they understand how to effectively use the system.
+[D]
+  1. [IC] Conduct a meeting with stakeholders to understand their requirements, needs, and expectations for the system.
+  2. [NA] Review and analyze the existing systems and infrastructure to identify integration points and potential challenges.
+  3. [PD] Design the system architecture, including database schema, system modules, and user interface wireframes.
+  4. [ME] Set up the development environment, including necessary tools, frameworks, and databases.
+  5. [ME] Write the code for the system, including user interfaces, backend logic, and database interactions.
+  6. [ME] Integrate the system with existing systems and infrastructure using APIs or other integration methods.
+  7. [FV] Conduct unit tests on individual components of the system to ensure they function correctly.
+  8. [FV] Perform integration testing to ensure the system works seamlessly with other systems and meets stakeholder requirements.
+  9. [FV] Deploy the system to the production environment, following best practices for security and stability.
+  10. [IC] Deliver the system to stakeholders, provide training to end-users, and gather feedback for future iterations.
+
+--- Task 322: Determine appropriate methods for data analysis.
+[A]
+  1. [IC] Review the project objectives and key performance indicators (KPIs) to understand the context and objectives of the data analysis.
+  2. [NA] Access and load the dataset into a data analysis software, performing initial data cleaning, handling missing values, and outliers.
+  3. [PD] Inspect the data for completeness and quality, identifying any missing or erroneous entries and understanding the data structure and characteristics.
+  4. [PD] Explore the dataset by calculating basic statistics, visualizing distributions, and identifying potential correlations between variables.
+  5. [ME] Select appropriate data analysis methods based on the dataset's nature, research questions, and initial findings, considering methods such as regression, clustering, time series analysis, or dimensionality reduction.
+  6. [ME] Implement the chosen analysis methods using the data analysis software, ensuring proper handling of assumptions and potential biases.
+  7. [PD] Interpret the results of the analysis, drawing insights, and identifying trends or patterns in the data.
+  8. [ME] Create visualizations (e.g., charts, graphs, plots) to effectively communicate the findings to stakeholders.
+  9. [FV] Draft a report summarizing the analysis process, findings, and recommendations, highlighting key insights.
+  10. [FV] Review the report for clarity, coherence, and accuracy, ensuring it effectively conveys the analysis process and findings.
+  11. [FV] Present the final report to stakeholders, including any recommendations or insights gained, and discuss implications for business decisions.
+[B]
+  1. [IC] Review the project objectives and key performance indicators (KPIs) for the retail chain.
+  2. [NA] Access the sales data from the retail chain's database.
+  3. [PD] Inspect the data for completeness and quality, identifying any missing or erroneous entries.
+  4. [PD] Identify the key variables and features in the data that are relevant to customer purchase patterns.
+  5. [PD] Research and evaluate different data analysis methods that can be applied to the sales data.
+  6. [PD] Consider the computational resources and time constraints for implementing the analysis methods.
+  7. [ME] Select the most suitable data analysis methods based on the project objectives and data characteristics.
+  8. [ME] Document the selected methods and the rationale behind the choice.
+  9. [FV] Prepare a preliminary report outlining the chosen methods and expected outcomes.
+  10. [FV] Present the preliminary report to the project team for feedback and approval.
+[C]
+  1. [IC] Review the project objectives, KPIs, and research questions to understand the context and goals of the data analysis.
+  2. [PD] Examine the dataset to understand its structure, quality, and characteristics (missing values, data types, distribution).
+  3. [ME] Brainstorm a list of potential data analysis methods suitable for the data types, dataset size, and project objectives.
+  4. [ME] Evaluate and select the 3-5 most promising data analysis methods, documenting the rationale for each choice.
+  5. [FV] Prepare a concise report summarizing the recommended methods and their justifications.
+  6. [FV] Submit the report to the relevant stakeholders for review and feedback.
+[D]
+  1. [IC] Review project objectives, KPIs, and research questions to understand the context and objectives of the data analysis.
+  2. [PD] Examine the dataset to understand its structure, quality, and characteristics, such as missing values, data types, and distribution.
+  3. [PD] Identify the key variables and features in the data that are relevant to the project objectives and research questions.
+  4. [PD] Research and evaluate different data analysis methods suitable for the identified variables and project objectives.
+  5. [ME] Consider computational resources, time constraints, and data characteristics to select the most suitable data analysis methods.
+  6. [ME] Implement the selected data analysis methods using appropriate software or tools, handling assumptions and potential biases.
+  7. [PD] Interpret the results of the analysis, drawing insights, and identifying trends or patterns in the data.
+  8. [ME] Create visualizations to effectively communicate the findings and insights to stakeholders.
+  9. [FV] Draft a report summarizing the analysis process, findings, and recommendations, highlighting at least three key insights.
+  10. [FV] Review the report for clarity, coherence, and accuracy, ensuring it effectively conveys the analysis process and findings.
+  11. [FV] Present the final results of the data analysis to stakeholders, including any recommendations or insights gained, and discuss implications for business decisions.
+
+--- Task 323: Locate fires or fire danger areas.
+[A]
+  1. [IC] Consult the patrol map and communicate with the base station to confirm the assigned area and any known hotspots.
+  2. [NA] Navigate through the area, using landmarks and GPS to follow the patrol route.
+  3. [PD] Scan the surroundings for visible smoke or flames, focusing on areas with dry fuel and recent lightning strike scars.
+  4. [PD] Use thermal imaging and specialized fire detection equipment to confirm the presence of fire or heat sources.
+  5. [FV] Assess the size, location, and behavior of the fire, and report the findings to the base station for further instructions.
+  6. [FV] Document the location, size, and status of the fire or fire danger area using GPS and photography, for future reference and follow-up actions.
+  7. [NA] Return to the patrol route and continue searching for additional fires or fire danger areas until the end of the shift.
+[B]
+  1. [PD] Review weather forecast and fire danger rating for the area.
+  2. [NA] Navigate through the warehouse or forest, using a map and GPS to cover all areas systematically.
+  3. [PD] Use thermal imaging camera or other specialized equipment to scan for signs of heat, smoke, or flames.
+  4. [PD] Inspect storage areas or surroundings for any signs of electrical malfunctions, exposed wiring, or flammable materials.
+  5. [PD] Listen for unusual sounds or smells that may indicate a fire.
+  6. [FV] Record any identified fire danger areas or existing fires on a checklist.
+  7. [IC] Report any identified fire danger areas or existing fires to the appropriate personnel for immediate action.
+  8. [NA] Update maps and GPS coordinates to reflect observations and recommendations.
+  9. [PD] Continue patrolling the area, using knowledge and experience to identify potential fire hazards and hotspots.
+  10. [PD] Use thermal imaging device to scan the area for signs of heat, smoke, or flames.
+  11. [PD] Assess the risk of ignition based on factors such as fuel load, weather conditions, and topography.
+  12. [FV] Document the location, size, and status of the fire or fire danger area using GPS and photography.
+[C]
+  1. [IC] Receive mission briefing, including area map, known hazards, and communication protocols.
+  2. [ME] Equip with necessary safety gear and fire detection tools (thermal camera, etc.).
+  3. [NA] Systematically navigate the designated area using the map and GPS.
+  4. [PD] Actively scan for visual signs of fire (smoke, flames) and use thermal imaging to detect heat signatures.
+  5. [PD] Assess potential fire hazards (flammable materials, electrical issues) and note any unusual sounds or smells.
+  6. [FV] Record location and details of any identified fire danger areas or active fires.
+  7. [IC] Communicate findings to the base station or team leader, following established protocols.
+[D]
+  1. [IC] Review weather forecast, fire danger rating, and patrol map. Communicate assigned area and known hotspots with the base station.
+  2. [NA] Navigate through the assigned area using landmarks, GPS, and patrol route.
+  3. [PD] Scan surroundings visually for smoke, flames, or other signs of fire, focusing on high-risk areas.
+  4. [PD] Listen for sounds and smell smoke that may indicate hidden fires.
+  5. [PD] Use specialized fire detection equipment (e.g., infrared cameras, CO2 sensors) to confirm heat sources or hidden fires.
+  6. [FV] Assess fire size, location, and behavior. Report findings to the base station for further instructions.
+  7. [NA] If instructed, approach fire danger area cautiously, maintaining a safe distance, and using appropriate safety measures.
+  8. [ME] Use suppression tools (e.g., water pack) to extinguish small fires or create firebreaks around larger fires, following base station instructions.
+  9. [FV] Document fire location, size, and status using GPS and photography for future reference and follow-up actions.
+  10. [NA] Return to the patrol route and continue searching for additional fires or fire danger areas until the end of the shift.
+
+--- Task 324: Confer with other professionals to plan patient care.
+[A]
+  1. [PD] Review the patient's medical history, current condition, and recent test results to understand their medical status.
+  2. [IC] Communicate with the patient and their family to understand their goals, values, and preferences for care.
+  3. [IC] Collaborate with team members to discuss the patient's condition, share knowledge, and develop a plan of care.
+  4. [PD] Analyze the patient's condition and develop a comprehensive care plan that addresses their medical, emotional, and social needs.
+  5. [ME] Document the care plan in the patient's medical record, including any relevant notes, orders, or instructions.
+  6. [IC] Communicate the care plan to the patient and their family, addressing any questions or concerns they may have.
+  7. [PD] Review and revise the care plan as necessary, based on new information or changes in the patient's condition.
+  8. [ME] Implement the care plan, including any necessary interventions, treatments, or services.
+  9. [FV] Evaluate the effectiveness of the care plan and make any necessary adjustments to ensure the patient's needs are met.
+[B]
+  1. [PD] Review the patient's medical history and current condition, including any relevant test results or medical images.
+  2. [IC] Communicate with the patient and their family to understand their goals, values, and preferences for care.
+  3. [IC] Collaborate with team members to discuss the patient's condition, share knowledge, and develop a plan of care.
+  4. [PD] Analyze the patient's condition and develop a plan of care that addresses their medical, emotional, and social needs.
+  5. [ME] Document the care plan in the patient's medical record, including any relevant notes, orders, or instructions.
+  6. [IC] Communicate the care plan to the patient and their family, addressing any questions or concerns they may have.
+  7. [PD] Review and revise the care plan as necessary, based on new information or changes in the patient's condition.
+  8. [ME] Implement the care plan, including any necessary interventions, treatments, or services.
+  9. [FV] Evaluate the effectiveness of the care plan and make any necessary adjustments to ensure the patient's needs are met.
+  10. [IC] Coordinate with the hospital's case management team to ensure the care plan aligns with the patient's insurance coverage and any necessary referrals are made.
+[C]
+  1. [PD] Review the patient's medical history, current condition, recent test results, and care plan.
+  2. [IC] The care team convenes to discuss the patient's case.
+  3. [IC] Each team member presents their perspective on the patient's needs and progress.
+  4. [ME] The team collaboratively develops a comprehensive care plan outlining specific goals, interventions, and responsibilities.
+  5. [ME] The care plan is documented and shared with all relevant parties, including the patient and their family.
+  6. [IC] The team schedules a follow-up meeting to review progress and make adjustments to the care plan as needed.
+[D]
+  1. [PD] Review the patient's electronic health record (EHR) to understand their current medical status, recent treatments, and allergies.
+  2. [IC] Consult the patient's attending physician to discuss their perspective on the patient's care and any upcoming orders or concerns.
+  3. [IC] Coordinate with relevant healthcare professionals (e.g., nurses, physical therapists, social workers) to gather their insights and assessments of the patient's condition.
+  4. [PD] Review the patient's lab results, imaging reports, and any other relevant test results to identify trends, abnormalities, or areas of concern.
+  5. [IC] Gather in a conference room or use a virtual platform to discuss the patient's condition, share knowledge, and develop a plan of care.
+  6. [PD] Analyze the patient's condition and develop a comprehensive care plan that addresses their medical, emotional, and social needs, including immediate interventions, long-term goals, and discharge planning.
+  7. [ME] Document the care plan in the patient's EHR, ensuring it is easily accessible to all involved healthcare professionals.
+  8. [IC] Communicate the care plan to the patient and their family, addressing any questions or concerns they may have.
+  9. [PD] Review and revise the care plan as necessary, based on new information or changes in the patient's condition.
+  10. [ME] Implement the care plan, including any necessary interventions, treatments, or services, and coordinate with the appropriate healthcare professionals and support services.
+
+--- Task 325: Contact current or potential customers to promote products or services.
+[A]
+  1. [PD] Log into the CRM system and review the prospect's profile, noting their industry, company size, and previous interactions.
+  2. [NA] Dial the prospect's phone number using the CRM system.
+  3. [IC] Greet the prospect and introduce oneself, briefly stating the purpose of the call.
+  4. [IC] Engage the prospect in a conversation, asking open-ended questions to understand their current challenges and needs.
+  5. [ME] Present a tailored pitch highlighting the key features and benefits of the product, addressing the prospect's specific pain points.
+  6. [FV] Address any questions or concerns the prospect may have about the product.
+  7. [IC] Propose a follow-up meeting or product demonstration to discuss the prospect's specific needs in more detail.
+  8. [FV] Thank the prospect for their time and end the call.
+  9. [NA] Document the call details and next steps in the CRM system.
+[B]
+  1. [PD] Review the prospect's profile in the CRM system, noting their industry, company size, and any previous interactions.
+  2. [ME] Dial the prospect's phone number using a VoIP system.
+  3. [IC] Introduce oneself and the company, briefly stating the purpose of the call.
+  4. [IC] Engage the prospect in a conversation, asking open-ended questions to understand their current CRM challenges and needs.
+  5. [ME] Present a tailored pitch highlighting the key features and benefits of the CRM solution, addressing the prospect's specific pain points.
+  6. [FV] Address any questions or concerns the prospect may have about the solution.
+  7. [IC] Propose a follow-up meeting to discuss the prospect's specific needs in more detail and potentially schedule a product demonstration.
+  8. [FV] Thank the prospect for their time and end the call.
+[C]
+  1. [IC] Review the prospect's profile in the CRM system, noting their industry, company size, and any previous interactions.
+  2. [NA] Dial the prospect's phone number using a VoIP system.
+  3. [IC] Introduce oneself, the company, and briefly state the purpose of the call.
+  4. [IC] Engage the prospect in a conversation, asking open-ended questions to understand their current needs and challenges.
+  5. [ME] Present a tailored pitch highlighting the key features and benefits of the product, addressing the prospect's specific pain points.
+  6. [FV] Address any questions or concerns the prospect may have about the product.
+  7. [IC] Propose a follow-up meeting or demo to discuss the prospect's needs in more detail.
+  8. [FV] Thank the prospect for their time and end the call.
+[D]
+  1. [IC] Review the prospect's profile in the CRM system, noting their industry, company size, and any previous interactions.
+  2. [NA] Dial the prospect's phone number using a VoIP system or integrated communication tool in the CRM system.
+  3. [IC] Introduce oneself and the company, briefly stating the purpose of the call.
+  4. [IC] Engage the prospect in a conversation, asking open-ended questions to understand their current needs, challenges, and pain points.
+  5. [ME] Present a tailored pitch highlighting the key features and benefits of the product/service, addressing the prospect's specific needs and pain points.
+  6. [PD] Address any questions or concerns the prospect may have about the product/service.
+  7. [IC] Propose a follow-up meeting or demo to further discuss the prospect's needs and potentially schedule a product demonstration.
+  8. [NA] Schedule the follow-up meeting or mark the prospect as interested in the product/service in the CRM system.
+  9. [FV] Thank the prospect for their time and end the call.
+  10. [PD] Prepare for the next sales call by reviewing the next prospect's profile in the CRM system.
+
+--- Task 326: Arrange items for use or display.
+[A]
+  1. [PD] Study the display area and the items to be arranged to understand the layout and visual requirements.
+  2. [NA] Retrieve the first batch of items from the storage area.
+  3. [NA] Move to the designated display area.
+  4. [ME] Arrange the items on the display shelf, ensuring they are aligned and spaced appropriately.
+  5. [ME] Repeat steps 2-4 for all remaining items.
+  6. [FV] Step back and visually inspect the arrangement to ensure all items are neatly placed and aligned with the display's aesthetic.
+  7. [ME] Make any necessary adjustments to the items' positions or spacing based on the visual inspection.
+  8. [FV] Perform a final inspection of the entire display area to ensure all items are secure, well-organized, and aligned with the display's theme.
+[B]
+  1. [PD] Study the gallery space and the artwork collection to gain a deep understanding of the exhibit's theme and visual requirements.
+  2. [NA] Measure the gallery space and the pedestals to determine the optimal layout for the artwork.
+  3. [ME] Select and arrange the pedestals and walls to create a visually appealing and safe display environment.
+  4. [NA] Carefully remove the artwork from their storage cases and transport them to the display area.
+  5. [ME] Gently place the artwork on the pedestals and walls, ensuring they are secure and level.
+  6. [FV] Step back and evaluate the exhibit's visual impact, making adjustments as needed to achieve a balanced and harmonious display.
+  7. [FV] Double-check the exhibit's safety and security, ensuring that the artwork is properly fastened and the gallery space is clear of obstacles.
+  8. [ME] Make any final adjustments to the exhibit, including minor tweaks to the artwork's placement or the addition of supporting elements.
+  9. [FV] Step back and evaluate the final exhibit, ensuring it meets the desired visual and safety standards.
+  10. [IC] Document the exhibit's layout and artwork placement for future reference and maintenance.
+[C]
+  1. [IC] Identify the items to be arranged and their designated display locations.
+  2. [NA] Gather all necessary items from their storage locations.
+  3. [ME] Arrange the items on the designated display surfaces, ensuring proper spacing, alignment, and visual appeal.
+  4. [FV] Step back and visually inspect the overall arrangement, making any necessary adjustments for balance and visual harmony.
+[D]
+  1. [IC] Understand the layout, item locations, and specific requirements through the display plan or by studying the items themselves.
+  2. [PD] Inspect each item, checking for any damage or special handling needs.
+  3. [NA] Gather necessary tools and equipment based on the items' installation or display requirements.
+  4. [NA] Move to the designated display area, following the layout plan's sequence.
+  5. [ME] Position the first item according to the layout plan, ensuring it's securely mounted, placed, or displayed.
+  6. [ME] Adjust any additional elements, such as lighting or supporting materials, to enhance the item's display.
+  7. [FV] Step back and visually inspect the item, ensuring it aligns with the display's aesthetic and theme.
+  8. [ME] Repeat steps 5-7 for all remaining items, moving sequentially through the display area.
+  9. [FV] Once all items are positioned, walk through the display area to ensure a cohesive visitor or user experience.
+  10. [ME] Make any necessary adjustments to items' positions or display elements based on the walkthrough.
+  11. [FV] Perform a final inspection of the entire display area, ensuring all items are secure, well-displayed, and aligned with the display's theme.
+  12. [IC] Document the display's layout and item placement for future reference and maintenance.
+
+--- Task 327: Control pumps or pumping equipment.
+[A]
+  1. [IC] Log into the SCADA system using secure credentials.
+  2. [NA] Navigate to the pump control interface within the SCADA system.
+  3. [PD] Review real-time data on the pump's flow rate, pressure, and other relevant parameters.
+  4. [PD] Compare the current flow rate and pressure to the target values specified for the system.
+  5. [ME] Adjust the pump's speed using the SCADA controls to achieve the desired flow rate and pressure.
+  6. [FV] Monitor the pump's response to the adjustment and observe the changes in flow rate and pressure.
+  7. [ME] Fine-tune the pump speed as needed to achieve and maintain the desired flow rate and pressure.
+  8. [PD] Check for any error codes or warning signs on the control panel.
+  9. [FV] Document the adjustment made to the pump's settings and any relevant observations.
+  10. [IC] Inform the building management about the completion of the maintenance cycle and any issues resolved.
+[B]
+  1. [IC] Log into the SCADA system using secure credentials.
+  2. [NA] Navigate to the pump control interface within the SCADA system.
+  3. [PD] Review real-time data on the pump's flow rate, pressure, and other relevant parameters.
+  4. [PD] Compare the current flow rate to the target range specified for the system.
+  5. [ME] If the flow rate deviates from the target range, adjust the pump's speed using the SCADA controls.
+  6. [FV] Monitor the pump's response to the adjustment and observe the changes in flow rate.
+  7. [ME] Fine-tune the pump speed as needed to achieve and maintain the desired flow rate.
+  8. [FV] Log the adjustment made to the pump's settings and any relevant observations.
+[C]
+  1. [PD] Review the current flow rate and pressure readings on the control panel.
+  2. [PD] Compare the current readings to the desired flow rate and pressure values.
+  3. [NA] Select the appropriate pump from the control panel.
+  4. [ME] Adjust the pump settings using the control panel switches.
+  5. [FV] Monitor the gauges to observe the immediate effects of the adjustment.
+  6. [ME] Make additional adjustments if necessary to fine-tune the pump settings.
+  7. [FV] Confirm that the pump settings are stable and within the operational parameters.
+  8. [FV] Record the adjustments and current readings in the logbook.
+[D]
+  1. [IC] Access the pump control interface via the SCADA system or central control panel.
+  2. [PD] Review real-time data on the pump's flow rate, pressure, and other relevant parameters.
+  3. [PD] Compare the current flow rate and pressure to the target range and operational parameters.
+  4. [ME] Adjust the pump's speed or settings using the SCADA controls or control panel switches to maintain optimal flow rates and pressure.
+  5. [FV] Monitor the pump's response to the adjustment and observe the changes in flow rate and pressure.
+  6. [ME] Fine-tune the pump settings as needed to achieve and maintain the desired flow rate and pressure.
+  7. [PD] Check for any error codes or warning signs on the control panel or SCADA system.
+  8. [IC] If any error codes are present, consult the maintenance manual to troubleshoot and resolve the issue.
+  9. [FV] Once all pumps are functioning correctly and flow rates and pressure are within acceptable range, document the maintenance cycle in the logbook or system records.
+  10. [IC] Inform relevant personnel, such as plant management or building management, about the completion of the maintenance cycle and any issues resolved.
+
+--- Task 328: Hire farming, fishing or forestry workers.
+[A]
+  1. [IC] Identify the number of additional workers needed and draft a job posting that clearly outlines the responsibilities, required skills, and working conditions for the farming positions.
+  2. [NA] Publish the job posting on relevant job boards, social media, and local community boards.
+  3. [PD] Screen resumes and applications to identify qualified candidates based on their experience and skills.
+  4. [PD] Schedule and conduct interviews with shortlisted candidates to assess their skills, experience, and fit for the farm environment.
+  5. [ME] Select the most suitable candidates and extend job offers, outlining the terms and conditions of employment.
+  6. [ME] Onboard new hires, providing them with necessary training, safety instructions, and equipment.
+  7. [FV] Confirm the new hires' understanding of their roles, responsibilities, and working conditions, and answer any final questions they may have.
+[B]
+  1. [IC] Review job requirements and qualifications for the seasonal worker position.
+  2. [IC] Create a job posting ad to be published on the local job board and social media.
+  3. [PD] Screen initial applications and resumes to identify qualified candidates.
+  4. [NA] Schedule interviews with top candidates.
+  5. [PD] Conduct interviews with candidates to assess their skills, experience, and fit for the job.
+  6. [PD] Select the most qualified candidates and extend job offers.
+  7. [ME] Coordinate the onboarding process, including orientation and safety training.
+  8. [ME] Provide the new hires with necessary equipment and work assignments.
+  9. [FV] Confirm that all new hires have successfully started their roles and are performing their tasks effectively.
+[C]
+  1. [IC] Determine the number of workers needed for the harvest season based on farm size, crop type, and anticipated workload.
+  2. [IC] Draft a clear and concise job posting outlining responsibilities, required skills, working conditions, and compensation.
+  3. [NA] Publish the job posting on relevant platforms such as online job boards, social media, and local community centers.
+  4. [PD] Review applications and resumes, shortlisting candidates based on relevant experience and qualifications.
+  5. [PD] Conduct interviews with shortlisted candidates to assess their skills, experience, and suitability for the farm environment.
+  6. [IC] Select the most qualified candidates and extend formal job offers, outlining terms and conditions of employment.
+  7. [ME] Prepare the workspace and necessary tools for the new hires, ensuring a smooth onboarding experience.
+[D]
+  1. [IC] Review the current workforce and identify the number of additional workers needed.
+  2. [IC] Draft a job posting outlining responsibilities, required skills, working conditions, and compensation.
+  3. [NA] Publish the job posting on relevant job boards, social media, and local community boards.
+  4. [PD] Screen applications and resumes, assessing candidates' relevant experience and skills.
+  5. [IC] Schedule interviews with top candidates, providing additional job information.
+  6. [PD] Conduct interviews to assess candidates' skills, experience, and fit for the job, using scenario-based questions.
+  7. [ME] Select the most suitable candidates and extend job offers, outlining terms and conditions.
+  8. [ME] Onboard new hires, providing necessary training, safety instructions, and equipment.
+  9. [ME] Facilitate the completion of necessary paperwork, such as tax forms and employment agreements.
+  10. [FV] Confirm new hires' understanding of their roles, responsibilities, and working conditions, and answer any final questions.
+
+================================================================
+ANSWER TEMPLATE
+
+321: _ | 
+322: _ | 
+323: _ | 
+324: _ | 
+325: _ | 
+326: _ | 
+327: _ | 
+328: _ | 
+

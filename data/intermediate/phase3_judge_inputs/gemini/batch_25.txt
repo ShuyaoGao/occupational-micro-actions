@@ -1,0 +1,388 @@
+BATCH 25/63 | Model: Gemini 3 Pro | Tasks 193-200
+================================================================
+EXPERT REVIEW -- Micro-Action Sequence Evaluation
+For each task, read ALL four options, then choose the BEST (A/B/C/D).
+
+Criteria:
+  1. Completeness  -- no critical steps missing
+  2. Realism       -- every step is concretely executable
+  3. Stage accuracy -- stage label correct for each step:
+     IC=Intent_Communication  NA=Navigation_Addressing
+     PD=Perception_Diagnosis  ME=Manipulation_Execution  FV=Feedback_Verification
+  4. Conciseness   -- no redundant or duplicate steps
+  5. Scope         -- starts and ends at exactly the right point
+
+OUTPUT: fill the ANSWER TEMPLATE at the bottom.
+Format: N: X | one-sentence reason (max 12 words)
+IMPORTANT: Each task has a different best answer. Do NOT pick the same
+letter for every task without reading.
+================================================================
+
+--- Task 193: Document operational procedures.
+[A]
+  1. [IC] Review existing documentation and familiarize with the new automated assembly line.
+  2. [PD] Observe the assembly line operators performing their tasks and take detailed notes.
+  3. [IC] Interview operators to gather additional insights and clarify any ambiguous procedures.
+  4. [PD] Organize the collected information into a structured format, categorizing procedures by task type.
+  5. [ME] Draft the initial sections of the manual, focusing on setup and operation procedures.
+  6. [FV] Review the drafted sections with the plant manager to ensure accuracy and completeness.
+  7. [ME] Revise the manual based on feedback and add sections on troubleshooting and maintenance.
+  8. [ME] Format the manual for consistency, adding headings, subheadings, and bullet points.
+  9. [FV] Proofread the manual to correct any grammatical or typographical errors.
+  10. [ME] Print and bind the manual for distribution.
+  11. [FV] Submit the manual to the plant manager for final approval.
+  12. [FV] Distribute the approved manual to all relevant personnel for training and reference.
+[B]
+  1. [IC] Review existing documentation and familiarize with the new automated assembly line.
+  2. [PD] Observe assembly line operators performing tasks and take detailed notes.
+  3. [IC] Interview operators to gather additional insights and clarify ambiguous procedures.
+  4. [PD] Organize collected information into a structured format, categorizing procedures by task type.
+  5. [ME] Draft the initial sections of the manual, focusing on setup and operation procedures.
+  6. [FV] Review the drafted sections with the plant manager to ensure accuracy and completeness.
+  7. [ME] Revise the manual based on feedback and add sections on troubleshooting and maintenance.
+  8. [ME] Format the manual for consistency, adding headings, subheadings, and bullet points.
+  9. [FV] Proofread the manual to correct any grammatical or typographical errors.
+  10. [ME] Print and bind the manual for distribution.
+  11. [FV] Deliver the manual to the plant manager for final approval.
+  12. [FV] Distribute the approved manual to all relevant personnel for training and reference.
+[C]
+  1. [PD] Review existing documentation and observe the process to understand the tasks involved.
+  2. [PD] Identify key steps, safety precautions, and potential challenges in the process.
+  3. [ME] Structure the documentation using a clear hierarchy (e.g., sections, subsections, numbered steps).
+  4. [ME] Write detailed, step-by-step instructions for each task, using clear language and avoiding jargon.
+  5. [ME] Supplement written instructions with diagrams, images, or videos to enhance clarity.
+  6. [FV] Review the draft with subject matter experts (operators, supervisors) for feedback and accuracy.
+  7. [ME] Revise the documentation based on feedback, ensuring completeness and clarity.
+  8. [FV] Proofread the final document for grammar, punctuation, and formatting errors.
+  9. [FV] Submit the finalized documentation for approval by the appropriate authority.
+[D]
+  1. [IC] Review existing documentation, technical specifications, and observe the process in action to familiarize with the task.
+  2. [PD] Identify key steps, critical points, and safety precautions involved in the process.
+  3. [IC] Interview operators or subject matter experts to gather additional insights and clarify any ambiguous procedures.
+  4. [PD] Organize the collected information into a structured format, categorizing procedures by task type.
+  5. [ME] Draft the initial sections of the manual, focusing on setup, operation, troubleshooting, and maintenance procedures.
+  6. [FV] Review the drafted sections with relevant stakeholders to ensure accuracy, completeness, and clarity.
+  7. [ME] Revise the manual based on feedback, incorporating any necessary changes and additions.
+  8. [ME] Format the manual for consistency, adding headings, subheadings, bullet points, diagrams, or illustrations to enhance clarity.
+  9. [FV] Proofread the manual to correct any grammatical, typographical, or formatting errors.
+  10. [ME] Print and bind the manual for distribution, and submit the final version to the relevant supervisor for approval.
+  11. [FV] Distribute the approved manual to all relevant personnel for training and reference.
+
+--- Task 194: Inspect systems to determine if they are operating properly.
+[A]
+  1. [PD] Review system documentation and maintenance logs to understand the system's design, operation, and previous maintenance history.
+  2. [NA] Navigate to the inspection area, taking note of any visual indicators of issues (e.g., unusual noises, leaks, or damage).
+  3. [PD] Access the system's control panel and retrieve operational data, comparing it to expected performance metrics.
+  4. [PD] Physically inspect the system components for any visible signs of malfunction, such as clogging, damage, or wear.
+  5. [PD] Analyze the collected data and observations to determine if the system is operating within specified parameters.
+  6. [FV] Document any issues or concerns found during the inspection, including photographs or videos of the system's condition.
+  7. [IC] Develop a plan for repair or maintenance, including any necessary parts or personnel.
+  8. [FV] Verify that the system is operating within acceptable parameters, using tools as needed.
+  9. [FV] Update the maintenance logs and system documentation to reflect the inspection findings and any necessary actions.
+  10. [IC] Notify the relevant team or supervisor of the inspection findings and any necessary actions.
+[B]
+  1. [NA] Arrive at the inspection location and proceed to the area of interest.
+  2. [PD] Review system documentation and maintenance logs to understand the system's design, operation, and previous maintenance history.
+  3. [NA] Access the control panel and review sensor data for the system.
+  4. [PD] Interpret sensor data to determine if the system is operating within specified parameters.
+  5. [PD] Physically inspect the system for any visible signs of malfunction, such as clogging or damage.
+  6. [FV] Document findings and confirm that the system is operating properly.
+  7. [FV] Deliver inspection report to the relevant authority.
+[C]
+  1. [IC] Review system documentation and operational parameters to understand expected performance.
+  2. [NA] Navigate to the system location, taking note of any immediate visual cues or environmental factors.
+  3. [PD] Conduct a visual inspection of the system components, looking for any obvious signs of damage, malfunction, or deviation from normal operation.
+  4. [NA] Access system controls or data interfaces to retrieve operational data and performance metrics.
+  5. [PD] Analyze the collected data, comparing it to the expected parameters and identifying any anomalies or deviations.
+  6. [ME] If anomalies are detected, perform further troubleshooting steps as needed, referencing system documentation or manuals.
+  7. [FV] Document the inspection findings, including any identified issues, repairs performed, and overall system status.
+  8. [FV] Communicate the inspection results to the relevant stakeholders, such as supervisors or maintenance teams.
+[D]
+  1. [IC] Review system documentation, maintenance logs, and operational parameters to understand the system's design, operation, and previous maintenance history.
+  2. [NA] Navigate to the system's location, taking note of any visual indicators of issues (e.g., unusual noises, leaks, or damage).
+  3. [NA] Access the system's control panel or relevant data sources to retrieve operational data.
+  4. [PD] Analyze the system's operational data, looking for anomalies, deviations, or signs of malfunction.
+  5. [PD] Physically inspect the system for visible signs of malfunction, such as damage, clogging, or debris.
+  6. [PD] Use specialized tools (e.g., thermometer, multimeter) to measure relevant system parameters and compare them to expected values.
+  7. [IC] Document any issues, concerns, or anomalies found during the inspection, including photographs or videos of the system's condition.
+  8. [IC] Develop a plan for repair or maintenance, including any necessary parts or personnel.
+  9. [ME] Perform any necessary manual adjustments, repairs, or maintenance on the system, following established procedures.
+  10. [FV] Recheck the system's operational data and perform a final physical inspection to ensure it is operating within acceptable parameters.
+  11. [IC] Update the maintenance logs and system documentation to reflect the inspection findings and any necessary actions taken.
+  12. [IC] Notify the relevant stakeholders (e.g., building management, facilities team, supervisor) of the inspection findings and any necessary actions.
+
+--- Task 195: Install computer hardware.
+[A]
+  1. [IC] Review the new hardware's documentation and specifications to ensure compatibility with the existing computer system.
+  2. [NA] Power off the computer and disconnect all power sources and cables.
+  3. [NA] Open the computer case and ground yourself by wearing an anti-static wrist strap.
+  4. [PD] Locate and disconnect the power supply unit (PSU) and any other necessary cables from the motherboard and the intended slot.
+  5. [ME] Install the new hardware (e.g., SSD or graphics card) into the designated slot and secure it with screws.
+  6. [NA] Reconnect the PSU and any other necessary cables to the motherboard and the new hardware.
+  7. [NA] Close the computer case and power on the computer.
+  8. [FV] Check the computer's BIOS to confirm the new hardware is recognized and functioning correctly.
+  9. [FV] Run a diagnostic tool to confirm the hardware is functioning correctly.
+[B]
+  1. [IC] The technician grounds themselves by wearing an anti-static wrist strap.
+  2. [IC] The technician powers off the computer and disconnects all power sources.
+  3. [NA] The technician opens the computer case and identifies the available slots for the SSD and graphics card.
+  4. [NA] The technician removes the necessary screws to access the internal components.
+  5. [ME] The technician installs the SSD into the designated slot and secures it with screws.
+  6. [ME] The technician connects the SSD data cable and power cable.
+  7. [ME] The technician installs the graphics card into the available PCI-E slot and secures it with screws.
+  8. [ME] The technician applies a thin layer of thermal paste on the CPU.
+  9. [NA] The technician reconnects all power cables and closes the computer case.
+  10. [FV] The technician powers on the computer and checks the BIOS to ensure the new hardware is recognized.
+  11. [FV] The technician runs a diagnostic tool to confirm the hardware is functioning correctly.
+[C]
+  1. [IC] The technician grounds themselves using an anti-static wrist strap.
+  2. [NA] Power off the computer and disconnect all power cables.
+  3. [NA] Open the computer case and identify the available slots for the new hardware.
+  4. [ME] Install the SSD into the designated slot and secure it with screws.
+  5. [ME] Connect the SSD data and power cables.
+  6. [ME] Install the graphics card into the PCI-E slot and secure it with screws.
+  7. [NA] Close the computer case and reconnect all necessary power cables.
+  8. [FV] Power on the computer and verify the new hardware is recognized in the BIOS.
+[D]
+  1. [IC] Review hardware documentation and ensure all necessary tools and components are available.
+  2. [NA] Power off the computer and disconnect all power sources.
+  3. [NA] Open the computer case and identify available slots for the new hardware.
+  4. [NA] Remove necessary screws and components to access internal components.
+  5. [ME] Install the new hardware (e.g., SSD, graphics card) into the designated slots.
+  6. [ME] Connect necessary data and power cables to the new hardware.
+  7. [ME] Apply thermal paste to the CPU (if necessary) and reconnect all power cables.
+  8. [NA] Close the computer case and power on the computer.
+  9. [FV] Check the BIOS to ensure the new hardware is recognized and functioning correctly.
+  10. [FV] Run diagnostic tools to confirm the hardware is functioning correctly.
+  11. [FV] Document the installation process for future reference.
+
+--- Task 196: Maintain production or processing equipment.
+[A]
+  1. [IC] Shut down the equipment and ensure it is in a safe state for maintenance.
+  2. [IC] Review the maintenance schedule and checklist for the specific tasks required.
+  3. [NA] Remove protective covers and access internal components of the machine.
+  4. [PD] Inspect the machine's components for signs of wear or damage.
+  5. [ME] Clean the machine's components using appropriate cleaning agents and tools.
+  6. [ME] Lubricate moving parts of the machine according to the manufacturer's specifications.
+  7. [ME] Replace any worn or damaged parts identified during the inspection.
+  8. [ME] Reassemble the machine and replace protective covers.
+  9. [FV] Power up the machine and run a diagnostic test to ensure all systems are functioning correctly.
+  10. [FV] Document the maintenance performed and any issues identified or resolved.
+[B]
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+[C]
+  1. [IC] Review the maintenance schedule and checklist for the specific equipment.
+  2. [ME] Power down the equipment and ensure it is in a safe state for maintenance.
+  3. [NA] Don appropriate personal protective equipment (PPE).
+  4. [PD] Visually inspect the equipment for signs of damage, wear, or debris.
+  5. [ME] Perform necessary cleaning, lubrication, or adjustments according to the checklist and manufacturer's specifications.
+  6. [FV] Test the equipment's functionality and performance.
+  7. [IC] Document the maintenance performed, including any repairs made and the overall condition of the equipment.
+[D]
+  1. [IC] Review maintenance schedule and checklist, and identify the root cause of any issues.
+  2. [NA] Don personal protective equipment (PPE) and safety glasses.
+  3. [ME] Power down and disconnect the machine from the power source.
+  4. [PD] Open access panels and visually inspect the machine for signs of damage, wear, or debris.
+  5. [ME] Use compressed air to clean internal components and remove dust and debris.
+  6. [ME] Lubricate moving parts according to manufacturer's specifications.
+  7. [PD] Check and adjust belt tension, roller alignment, and cutting tool sharpness as needed.
+  8. [ME] Replace any worn or damaged parts identified during the inspection.
+  9. [ME] Close access panels and reconnect the machine to the power source.
+  10. [FV] Power on the machine and run a test cycle to verify proper operation.
+  11. [IC] Document the maintenance activities performed, including any repairs made and the overall condition of the machine.
+  12. [NA] Remove PPE and safety glasses, and return any tools used to their proper storage location.
+
+--- Task 197: Fit eyeglasses, contact lenses, or other vision aids.
+[A]
+  1. [IC] Greet the customer, review their prescription, and discuss their frame preferences.
+  2. [PD] Measure the customer's pupillary distance (PD) using a calibrated instrument.
+  3. [NA] Select the appropriate frame based on the prescription, face shape, and style preferences.
+  4. [ME] Insert the lenses into the frame and ensure they are properly aligned with the customer's pupils.
+  5. [ME] Adjust the frame to fit the customer's face, ensuring a comfortable and secure fit.
+  6. [FV] Have the customer try on the eyeglasses and provide feedback on the fit and vision clarity.
+  7. [FV] Make any final adjustments to the fit and confirm the customer's satisfaction.
+  8. [IC] Explain the care and maintenance of the eyeglasses to the customer.
+  9. [FV] Hand the eyeglasses to the customer and confirm they are satisfied with the fit and appearance.
+[B]
+  1. [IC] Greet the patient, explain the fitting process, and ensure they understand the purpose of the visit.
+  2. [PD] Measure the patient's pupillary distance (PD) using a pupillometer.
+  3. [NA] Select the appropriate frame for the patient based on their prescription, face shape, and personal preference.
+  4. [ME] Position the frame on the patient's face and mark the temples for proper alignment.
+  5. [ME] Adjust the frame's temples to fit the patient's head size and shape.
+  6. [ME] Insert the prescription lenses into the frame, ensuring they are correctly aligned with the patient's PD.
+  7. [PD] Check the patient's vision using a phoropter or trial frame to ensure the prescription is accurate.
+  8. [IC] Explain the care and maintenance of the eyeglasses to the patient.
+  9. [FV] Allow the patient to try on the eyeglasses and provide feedback on comfort and vision.
+  10. [FV] Finalize the fitting, clean the eyeglasses, and hand them over to the patient.
+[C]
+  1. [IC] The optician greets the customer, reviews their prescription, and discusses their frame preferences.
+  2. [PD] The optician measures the customer's pupillary distance (PD) using a calibrated instrument.
+  3. [NA] The optician selects the appropriate frame based on the prescription, face shape, and style preferences.
+  4. [ME] The optician inserts the lenses into the frame, ensuring they are properly aligned with the customer's pupils.
+  5. [ME] The optician adjusts the frame to fit the customer's face, ensuring comfort and stability.
+  6. [FV] The customer tries on the eyeglasses and provides feedback on the fit and vision clarity.
+  7. [ME] The optician makes any necessary adjustments based on the customer's feedback.
+  8. [IC] The optician provides care instructions and warranty information.
+[D]
+  1. [IC] Greet the patient, explain the fitting process, and ensure they understand the purpose of the visit.
+  2. [IC] Review the patient's prescription and discuss frame preferences.
+  3. [PD] Measure the patient's pupillary distance (PD) using a pupillometer or PD ruler.
+  4. [NA] Select the appropriate frame for the patient based on their prescription, face shape, and personal preference.
+  5. [ME] Position the frame on the patient's face and mark the temples for proper alignment.
+  6. [ME] Adjust the frame's temples to fit the patient's head size and shape.
+  7. [ME] Insert the prescription lenses into the frame, ensuring they are correctly aligned with the patient's PD.
+  8. [PD] Check the patient's vision using a phoropter or trial frame to ensure the prescription is accurate.
+  9. [FV] Allow the patient to try on the eyeglasses and provide feedback on comfort and vision.
+  10. [FV] Finalize the fitting, clean the eyeglasses, hand them over to the patient, and provide care instructions.
+
+--- Task 198: Tutor students who need extra assistance.
+[A]
+  1. [IC] Greet students by name and create a welcoming atmosphere.
+  2. [IC] Ask each student about their understanding of the topic and their specific difficulties.
+  3. [NA] Review the student's recent work to identify specific areas of difficulty.
+  4. [ME] Explain the topic using clear, simple language and relevant examples.
+  5. [ME] Demonstrate the topic by solving a sample problem step-by-step, encouraging student participation.
+  6. [FV] Provide guided practice, offering individual support and feedback as students work through problems.
+  7. [IC] Assign independent practice problems for students to complete before the next session.
+  8. [FV] Summarize the topics covered and assign follow-up work if necessary.
+  9. [IC] End the tutoring session, encouraging students to ask questions if they need further clarification.
+[B]
+  1. [IC] Greet students and create a welcoming atmosphere.
+  2. [PD] Review the previous lesson's material, asking targeted questions to assess each student's current understanding.
+  3. [IC] Introduce the new algebra concept using clear explanations and relatable examples.
+  4. [ME] Demonstrate the concept by solving a sample problem step-by-step, encouraging student participation.
+  5. [ME] Provide guided practice, offering individual support and feedback as students work through problems.
+  6. [PD] Circulate among the students, observing their progress and addressing any questions or difficulties.
+  7. [IC] Assign independent practice problems for students to complete before the next session.
+  8. [IC] Summarize key takeaways from the session and encourage students to ask any remaining questions.
+  9. [FV] Check for understanding by asking the student to explain the topic in their own words.
+  10. [IC] End the tutoring session, encouraging students to ask questions if they need further clarification.
+[C]
+  1. [IC] Greet the student and inquire about their specific challenges with quadratic equations.
+  2. [PD] Review the student's recent homework or assessments to identify recurring errors or areas of confusion.
+  3. [ME] Explain the core concepts of quadratic equations using clear language, examples, and visual aids if helpful.
+  4. [ME] Demonstrate the process of solving quadratic equations step-by-step, encouraging the student to participate and ask questions.
+  5. [ME] Provide guided practice problems, offering support and feedback as the student works through them.
+  6. [FV] Review the student's solutions, identifying any mistakes and discussing the correct approach.
+  7. [IC] Assign additional practice problems for independent work, ensuring the student understands the next steps.
+[D]
+  1. [IC] Greet students and create a welcoming, relaxed learning atmosphere.
+  2. [IC] Ask each student what topics they need help with and their current level of understanding.
+  3. [NA] Organize the tutoring session based on students' needs, grouping those with similar topics or levels.
+  4. [PD] Review the student's prior knowledge and assessments to identify areas where they need extra support.
+  5. [PD] Begin with the first student or group, reviewing the topic from the beginning to assess their understanding.
+  6. [ME] Explain the topic using clear, simple language, relevant examples, and visual aids to help students visualize concepts.
+  7. [ME] Engage the student in practice problems or exercises to reinforce learning.
+  8. [FV] Check for understanding by asking the student to explain the topic in their own words and provide constructive feedback.
+  9. [FV] Circulate among all students, providing individual assistance as needed, and encouraging them to ask questions.
+  10. [IC] Summarize the topics covered, assign follow-up work if necessary, and encourage students to ask questions if they need further clarification.
+  11. [PD] End the tutoring session, reflecting on the instruction, identifying areas for improvement, and making adjustments for future sessions.
+
+--- Task 199: Document information related to legal proceedings.
+[A]
+  1. [IC] Receive case assignment from supervising attorney, including client name, case number, and brief description of the incident.
+  2. [NA] Access the firm's document management system and search for client files using the provided case number.
+  3. [PD] Review initial documents (police report, incident report) to identify key parties involved and potential sources of further documentation.
+  4. [IC] Contact the client's medical provider to request copies of medical records related to the injury.
+  5. [PD] Review received medical records and extract relevant information (diagnosis, treatment dates, prognosis).
+  6. [ME] Compile all gathered information into a structured digital case file, including summaries of key documents and a timeline of events.
+  7. [IC] Submit the completed case file to the supervising attorney for review.
+  8. [FV] Receive feedback from the supervising attorney regarding the case file and any required revisions.
+  9. [ME] Make any necessary revisions to the case file based on the attorney's feedback.
+[B]
+  1. [IC] Receive case assignment from supervising attorney, including client name, case number, and brief description of the incident.
+  2. [NA] Access the firm's document management system and search for client files using the provided case number.
+  3. [PD] Review initial documents (police report, incident report) to identify key parties involved (witnesses, store employees) and potential sources of further documentation.
+  4. [IC] Contact the client's medical provider to request copies of medical records related to the injury.
+  5. [PD] Review received medical records and extract relevant information (diagnosis, treatment dates, prognosis).
+  6. [NA] Locate and review any witness statements or security footage obtained by the firm's investigators.
+  7. [ME] Compile all gathered information into a structured digital case file, including summaries of key documents and a timeline of events.
+  8. [IC] Submit the completed case file to the supervising attorney for review.
+  9. [FV] Review the documented information for accuracy and completeness.
+  10. [ME] Save the digital document and audio recording files to the appropriate folders.
+  11. [FV] Deliver the digital document and audio recording files to the legal team for review.
+[C]
+  1. [IC] Receive case assignment from supervising attorney, including client name, case number, and brief description of the incident.
+  2. [NA] Access the firm's document management system and locate the client's case file using the provided case number.
+  3. [PD] Review initial documents (police report, incident report) to identify key parties involved and potential sources of further documentation.
+  4. [ME] Document key information from initial reports into the case file, creating a structured timeline of events.
+  5. [IC] Contact relevant parties (medical providers, witnesses) to request necessary documentation.
+  6. [PD] Receive and review additional documentation, extracting relevant information and updating the case file timeline.
+  7. [ME] Summarize key findings and developments in a clear and concise memo for the supervising attorney.
+  8. [FV] Submit the completed case file and memo to the supervising attorney for review.
+[D]
+  1. [IC] Receive case assignment or relevant documents from the supervising attorney or senior associate, including necessary details or documents.
+  2. [NA] Access and navigate the firm's document management system or case file to locate or create a new document for recording information.
+  3. [PD] Review and understand the context of the case or documents, identifying key parties, events, or disputes.
+  4. [ME] Set up recording devices (e.g., laptop, digital recorder) if required for courtroom proceedings or obtain relevant documents from external sources (e.g., medical records).
+  5. [PD] Listen to and document information related to legal proceedings, such as judge's remarks, attorneys' statements, witness testimonies, and arguments, ensuring accuracy and completeness.
+  6. [NA] Review and organize the documented information, ensuring it is structured, chronological, and easy to understand.
+  7. [ME] Save and store the digital document and any related audio recordings or files in the appropriate folders or case file, ensuring they are securely stored and easily retrievable.
+  8. [FV] Submit or deliver the documented information to the relevant parties (e.g., legal team, supervising attorney, senior associate) for review and further action.
+  9. [ME] Review and update the case file, case timeline, or document management system with the new information, ensuring consistency and accuracy.
+  10. [FV] Receive and address feedback from relevant parties regarding the documented information, making any necessary revisions or updates.
+
+--- Task 200: Lubricate production equipment.
+[A]
+  1. [IC] Consult the machine's maintenance manual to understand the specific lubrication requirements and identify the lubrication points.
+  2. [NA] Don safety gear, including gloves and safety glasses, and navigate to the location of the conveyor belt system.
+  3. [PD] Visually inspect the conveyor belt system for any visible damage or wear that might require additional attention.
+  4. [ME] Shut down the conveyor belt system to prevent any accidental movement during lubrication.
+  5. [ME] Clean the lubrication points using a cloth to remove any dirt or debris.
+  6. [ME] Retrieve the appropriate lubricant and apply it to the moving parts of the conveyor belt system, ensuring even distribution.
+  7. [FV] Inspect the lubricated areas to ensure proper coverage and no excess lubricant is left behind.
+  8. [FV] Restart the conveyor belt system and monitor its operation to ensure smooth movement.
+  9. [FV] Document the lubrication process and record any observations or issues noted during the task.
+[B]
+  1. [IC] Review the maintenance manual to understand the specific lubrication requirements for the conveyor belt system.
+  2. [NA] Navigate to the location of the conveyor belt system, ensuring the necessary safety gear and tools are available.
+  3. [PD] Visually inspect the conveyor belt system for any visible damage or wear that might require additional attention.
+  4. [ME] Shut down the conveyor belt system to prevent accidental movement during lubrication.
+  5. [NA] Retrieve the appropriate lubricant from the storage area and bring it to the conveyor belt system.
+  6. [ME] Apply the lubricant to the moving parts of the conveyor belt system, ensuring even distribution.
+  7. [FV] Inspect the lubricated areas to ensure proper coverage and no excess lubricant is left behind.
+  8. [FV] Restart the conveyor belt system and monitor its operation to ensure smooth movement.
+  9. [IC] Document the lubrication process and record any observations or issues noted during the task.
+[C]
+  1. [IC] Review the conveyor belt's maintenance schedule and lubrication requirements.
+  2. [NA] Gather necessary lubrication equipment and materials (correct lubricant type and amount).
+  3. [ME] Safely isolate the conveyor belt system (lockout/tagout procedures if applicable).
+  4. [PD] Visually inspect the conveyor belt system for any damage or wear.
+  5. [ME] Apply lubricant to the designated points, ensuring even distribution.
+  6. [ME] Remove excess lubricant and clean the area around the lubrication points.
+  7. [FV] Reactivate the conveyor belt system and observe its operation.
+  8. [IC] Document the lubrication process, including lubricant type, amount used, and any observations.
+[D]
+  1. [IC] Review maintenance manual and schedule to understand lubrication requirements and check current lubrication levels.
+  2. [NA] Gather necessary safety gear, tools, and lubricant materials, including the correct type and amount of lubricant.
+  3. [ME] Shut down the conveyor belt system to prevent accidental movement during lubrication.
+  4. [PD] Locate and visually inspect lubrication points on the conveyor belt system for any visible damage or wear.
+  5. [ME] Clean lubrication points using a cloth to remove any dirt or debris.
+  6. [ME] Apply lubricant to the moving parts and lubrication points, ensuring even distribution and following manufacturer's instructions.
+  7. [FV] Inspect lubricated areas to ensure proper coverage and no excess lubricant is left behind.
+  8. [FV] Restart the conveyor belt system and monitor its operation to ensure smooth movement and proper functioning of lubricated parts.
+  9. [IC] Document the lubrication process, including the type and amount of lubricant used, and update the conveyor belt's maintenance schedule.
+
+================================================================
+ANSWER TEMPLATE
+
+193: _ | 
+194: _ | 
+195: _ | 
+196: _ | 
+197: _ | 
+198: _ | 
+199: _ | 
+200: _ | 
+

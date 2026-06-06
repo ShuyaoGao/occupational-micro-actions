@@ -1,0 +1,391 @@
+BATCH 35/63 | Model: Gemini 3 Pro | Tasks 273-280
+================================================================
+EXPERT REVIEW -- Micro-Action Sequence Evaluation
+For each task, read ALL four options, then choose the BEST (A/B/C/D).
+
+Criteria:
+  1. Completeness  -- no critical steps missing
+  2. Realism       -- every step is concretely executable
+  3. Stage accuracy -- stage label correct for each step:
+     IC=Intent_Communication  NA=Navigation_Addressing
+     PD=Perception_Diagnosis  ME=Manipulation_Execution  FV=Feedback_Verification
+  4. Conciseness   -- no redundant or duplicate steps
+  5. Scope         -- starts and ends at exactly the right point
+
+OUTPUT: fill the ANSWER TEMPLATE at the bottom.
+Format: N: X | one-sentence reason (max 12 words)
+IMPORTANT: Each task has a different best answer. Do NOT pick the same
+letter for every task without reading.
+================================================================
+
+--- Task 273: Confer with technical personnel to prepare designs or operational plans.
+[A]
+  1. [IC] Schedule a meeting with all technical personnel involved in the project and provide them with relevant design documents in advance.
+  2. [PD] Review existing technical documentation and requirements to understand the current state and identify areas for improvement.
+  3. [IC] Present initial design concepts to the team and discuss technical concerns and feedback.
+  4. [ME] Collaborate on refining the design to address identified issues, considering factors like efficiency, cost, and manufacturability.
+  5. [ME] Draft detailed design specifications and operational plans, and document any technical dependencies and interfaces.
+  6. [FV] Review the draft with the team to ensure completeness and accuracy, and make any necessary revisions.
+  7. [FV] Finalize the design document and operational plan, and prepare it for implementation.
+  8. [IC] Present the finalized design document and operational plan to the project stakeholders for approval.
+[B]
+  1. [IC] Schedule a meeting with all technical personnel involved in the project.
+  2. [PD] Gather and review existing technical documentation and requirements.
+  3. [IC] Present initial design concepts to the team.
+  4. [IC] Discuss and address technical concerns and feedback from the team.
+  5. [PD] Identify and document any technical dependencies and interfaces.
+  6. [ME] Collaborate on refining the design to address identified issues.
+  7. [ME] Draft detailed design specifications and operational plans.
+  8. [FV] Review the draft with the team to ensure completeness and accuracy.
+  9. [FV] Finalize the design document and operational plan.
+  10. [FV] Deliver the finalized design document and operational plan to the project manager.
+[C]
+  1. [IC] Identify the technical personnel required for the design or operational planning process.
+  2. [IC] Schedule a meeting with the identified technical personnel.
+  3. [PD] Review existing relevant documentation and requirements.
+  4. [IC] Present initial design concepts or operational plans to the team.
+  5. [IC] Facilitate a discussion to gather feedback, address concerns, and identify dependencies.
+  6. [ME] Collaboratively refine the design or plan based on the team's input.
+  7. [FV] Document the finalized design specifications or operational plan.
+  8. [FV] Distribute the finalized documentation to all relevant stakeholders.
+[D]
+  1. [PD] Review existing technical documentation and project requirements.
+  2. [IC] Schedule a meeting with all relevant technical personnel.
+  3. [IC] Present initial design concepts and ideas during the meeting.
+  4. [IC] Discuss and address technical concerns and feedback from the team.
+  5. [PD] Identify and document technical dependencies, interfaces, and assumptions.
+  6. [ME] Collaboratively refine the design to address identified issues and incorporate feedback.
+  7. [ME] Draft detailed design specifications and operational plans.
+  8. [FV] Review the draft with the team to ensure completeness, accuracy, and compliance with relevant codes and standards.
+  9. [FV] Finalize the design document and operational plan.
+  10. [IC] Deliver the finalized design document and operational plan to the project manager and relevant stakeholders.
+
+--- Task 274: Operate photographic developing or print production equipment.
+[A]
+  1. [IC] Receive the digital photo file from the client and confirm the total number of images.
+  2. [NA] Load the digital photo file into the photo lab software and select the appropriate paper size, type, and finish.
+  3. [PD] Review the images on the computer screen to ensure they are suitable for printing and match the client's requirements.
+  4. [ME] Send the print job to the digital photo lab printer, ensuring the paper tray is correctly loaded with the selected paper type.
+  5. [FV] Monitor the printing process to ensure it is functioning correctly and producing prints of consistent quality.
+  6. [FV] Retrieve the printed photos and inspect them for quality, ensuring sharpness, color accuracy, and proper cropping.
+  7. [ME] Package the prints securely, ensuring they are protected from damage during transport to the client.
+  8. [IC] Deliver the packaged prints to the client, confirming they are satisfied with the final product and addressing any concerns or questions they may have.
+[B]
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+[C]
+  1. [NA] Enter the darkroom and ensure the red safety light is on.
+  2. [NA] Retrieve the negative and place it in the enlarger's film holder.
+  3. [ME] Focus the enlarger and adjust the aperture for desired contrast.
+  4. [ME] Place photographic paper under the enlarger and expose it for the calculated time.
+  5. [ME] Develop the exposed paper in the developer solution, agitating gently.
+  6. [ME] Transfer the paper through stop bath and fixer solutions, following recommended times.
+  7. [ME] Rinse the print thoroughly and squeegee off excess water.
+  8. [ME] Hang the print to dry in a dust-free environment.
+  9. [FV] Inspect the final print for quality and make any necessary adjustments.
+[D]
+  1. [IC] Receive the photographic material (film, digital file, or USB drive) from the client and confirm the requirements.
+  2. [NA] Navigate to the appropriate workstation or equipment (darkroom, minilab, or computer) and prepare the necessary chemicals or materials.
+  3. [NA] Load the photographic material into the appropriate device (film onto development reel, digital file into minilab software, or USB drive into computer).
+  4. [PD] Perform any necessary diagnostic checks or adjustments, such as measuring and mixing chemicals, reviewing images, or setting print parameters.
+  5. [ME] Initiate the development or printing process, ensuring the equipment is functioning correctly and producing consistent results.
+  6. [PD] Monitor the ongoing process, checking for any errors, paper jams, or deviations from the expected outcome.
+  7. [FV] Retrieve the developed or printed material from the equipment and inspect it for quality, ensuring it meets the client's requirements.
+  8. [ME] Package the final product securely, ensuring it is protected from damage during transport or storage.
+  9. [IC] Deliver the final product to the client, confirming their satisfaction and addressing any concerns or questions they may have.
+
+--- Task 275: Review customer information.
+[A]
+  1. [IC] Receive customer identifier (e.g., order number, email address) from the customer.
+  2. [NA] Input customer identifier into the CRM system search bar and locate the customer's profile.
+  3. [PD] Review the customer's personal information, including name, address, and contact details.
+  4. [PD] Examine the customer's account balances, recent transactions, and order history.
+  5. [PD] Check for any outstanding alerts, notifications, or previous notes made by other representatives.
+  6. [ME] Summarize key points and prepare a list of questions to clarify uncertainties or gather additional information.
+  7. [FV] Save the summary and questions in a secure document for reference during the call.
+  8. [FV] Confirm that the review is complete and all necessary information is ready for the upcoming call.
+[B]
+  1. [IC] Log into the financial institution's customer management system using secure credentials.
+  2. [NA] Navigate to the specific customer's profile page using the customer's unique identifier.
+  3. [PD] Review the customer's personal information, including name, address, and contact details.
+  4. [PD] Examine the customer's account balances and recent transactions.
+  5. [PD] Check for any outstanding alerts or notifications related to the customer's accounts.
+  6. [PD] Review any previous notes or comments made by other representatives during past interactions.
+  7. [ME] Summarize the key points and any issues that need to be addressed during the upcoming call.
+  8. [ME] Prepare a list of questions to ask the customer to clarify any uncertainties or gather additional information.
+  9. [FV] Save the summary and questions in a secure document for reference during the call.
+  10. [FV] Confirm that the review is complete and all necessary information is ready for the upcoming call.
+[C]
+  1. [IC] Receive customer identifier (e.g., name, account number) from the customer or system.
+  2. [NA] Locate the customer's profile using the identifier in the customer management system.
+  3. [PD] Review the customer's personal information, account details, and recent activity.
+  4. [PD] Identify any outstanding issues, alerts, or notes related to the customer.
+  5. [ME] Summarize key findings and any action items needed for further interaction.
+[D]
+  1. [IC] Receive customer identifier (e.g., customer ID, email address) from the customer or relevant source.
+  2. [NA] Input the customer identifier into the CRM system search bar.
+  3. [PD] Locate and select the customer's profile from the search results.
+  4. [NA] Navigate to the 'Customer Details' or 'Profile' tab within the customer's profile.
+  5. [PD] Review the customer's personal information, including name, address, contact details, and account balances.
+  6. [PD] Examine the customer's recent transactions and account activity.
+  7. [PD] Check for any outstanding alerts, notifications, or notes related to the customer's accounts.
+  8. [ME] Summarize the key points, account status, and any issues that need to be addressed.
+  9. [ME] Prepare a list of questions or topics to discuss with the customer based on the review.
+  10. [FV] Save the summary and prepared questions in a secure document or system for reference during the upcoming interaction.
+  11. [FV] Confirm that the review is complete and all necessary information is ready for the upcoming interaction.
+
+--- Task 276: Develop environmental remediation or protection plans.
+[A]
+  1. [PD] Review existing data on the site's environmental conditions, including soil and groundwater samples, air quality monitoring data, and historical records of industrial activities.
+  2. [NA] Conduct a site visit to assess the physical layout and environmental conditions, and collect soil and water samples.
+  3. [PD] Analyze the collected samples in a laboratory setting to identify specific contaminants and their concentrations.
+  4. [ME] Develop a remediation strategy that includes methods like soil excavation and groundwater treatment, and evaluate the technical and economic feasibility of different options.
+  5. [ME] Draft the environmental remediation plan, including detailed steps, timelines, and resource allocation.
+  6. [IC] Consult with regulatory agencies to ensure the plan meets all legal requirements and obtain necessary permits and approvals.
+  7. [IC] Present the plan to stakeholders, including local residents and business owners, and establish a communication plan to keep them informed about the project's progress.
+  8. [FV] Finalize the remediation plan based on feedback and submit it for approval.
+[B]
+  1. [PD] Review existing data on the site's environmental conditions, including soil and groundwater samples, air quality monitoring data, and historical records of industrial activities.
+  2. [PD] Conduct a site assessment to identify areas of contamination and determine the extent of the problem.
+  3. [ME] Develop a conceptual design for the remediation project, including options for treatment technologies and engineering systems.
+  4. [ME] Evaluate the technical and economic feasibility of different remediation options, including cost-benefit analyses and sensitivity analyses.
+  5. [ME] Develop a detailed remediation plan, including timelines, budgets, and resource allocation.
+  6. [IC] Obtain necessary permits and approvals from regulatory authorities, including environmental impact assessments and risk assessments.
+  7. [FV] Develop a monitoring and maintenance plan to ensure that the remediation project is successful and sustainable in the long term.
+  8. [IC] Establish a communication plan to keep stakeholders informed about the project's progress and any changes or issues that arise.
+  9. [PD] Identify and mitigate potential risks and uncertainties associated with the remediation project, including environmental and health risks.
+  10. [FV] Develop a contingency plan to address any unexpected issues or setbacks that may arise during the remediation project.
+  11. [FV] Review and revise the remediation plan as necessary to ensure that it remains effective and sustainable in the long term.
+  12. [ME] Finalize and implement the remediation plan, including all necessary permits, approvals, and resource allocation.
+[C]
+  1. [IC] Review existing site data (reports, aerial imagery, historical records) to understand potential contaminants and land use.
+  2. [NA] Conduct a site visit to visually assess conditions, identify contamination areas, and collect soil/water samples.
+  3. [PD] Analyze collected samples in a laboratory to identify specific contaminants and their concentrations.
+  4. [IC] Research and evaluate suitable remediation technologies based on contaminant types and site characteristics.
+  5. [ME] Develop a detailed remediation plan outlining chosen methods, equipment, timeline, costs, and safety protocols.
+  6. [IC] Present the remediation plan to regulatory agencies and stakeholders, incorporating feedback and revisions.
+  7. [IC] Obtain necessary permits and approvals from regulatory authorities, ensuring compliance with environmental regulations.
+  8. [ME] Implement the remediation plan, monitoring progress and making adjustments as needed.
+  9. [FV] Document the entire remediation process, including data, decisions, and outcomes, for future reference and reporting.
+[D]
+  1. [IC] Review site history documents, aerial imagery, and existing environmental data to understand past land use, potential contaminant types, and current conditions.
+  2. [NA] Conduct a site visit to assess the physical layout, observe environmental conditions, and identify areas of contamination.
+  3. [ME] Collect soil, water, and other relevant samples from various points on the site for laboratory analysis.
+  4. [PD] Analyze collected samples in a laboratory setting to identify specific contaminants, their concentrations, and potential risks.
+  5. [IC] Research and evaluate various remediation technologies suitable for the specific contaminants and site conditions.
+  6. [ME] Develop a conceptual design for the remediation project, including options for treatment technologies, engineering systems, and a preliminary timeline.
+  7. [ME] Evaluate the technical and economic feasibility of different remediation options, including cost-benefit analyses and sensitivity analyses.
+  8. [IC] Obtain necessary permits and approvals from regulatory authorities, including environmental impact assessments and risk assessments.
+  9. [ME] Develop a detailed remediation plan, including timelines, budgets, resource allocation, and a monitoring and maintenance plan for long-term sustainability.
+  10. [FV] Finalize the remediation plan based on feedback, submit it for approval, and coordinate with stakeholders to ensure its successful implementation.
+
+--- Task 277: Resolve customer complaints or problems.
+[A]
+  1. [IC] Answer the incoming call and greet the customer professionally.
+  2. [PD] Listen attentively to the customer's problem and ask clarifying questions to understand the issue.
+  3. [NA] Access the customer's account and review their subscription details or order history.
+  4. [PD] Analyze the customer's problem and identify potential solutions or alternatives.
+  5. [IC] Communicate the proposed solution to the customer and address any concerns or objections.
+  6. [ME] Adjust the customer's subscription settings or perform necessary actions to resolve the issue.
+  7. [FV] Ask the customer to confirm that the issue has been resolved and they are satisfied.
+  8. [FV] Document the issue and resolution in the customer's account, including any necessary updates or changes.
+  9. [IC] Thank the customer for their patience and end the call politely.
+[B]
+  1. [IC] Answer the customer's call and greet them.
+  2. [IC] Ask the customer to describe the issue they are experiencing.
+  3. [NA] Log into the customer's account management system to review their subscription details.
+  4. [PD] Check the customer's subscription status and access permissions.
+  5. [ME] Adjust the customer's subscription settings to grant access to the required features.
+  6. [ME] Instruct the customer to log out and log back into the software to apply the changes.
+  7. [FV] Ask the customer to confirm that they can now access the features.
+  8. [FV] Document the resolution in the customer's account and close the support ticket.
+[C]
+  1. [IC] Answer the incoming call and greet the customer professionally.
+  2. [IC] Listen attentively to the customer's problem, asking clarifying questions to ensure full understanding.
+  3. [NA] Access the customer's account information using provided identifiers.
+  4. [PD] Analyze the customer's problem, cross-referencing it with known issues and troubleshooting steps.
+  5. [IC] Explain the proposed solution clearly and patiently to the customer, addressing any concerns.
+  6. [ME] Guide the customer through the resolution steps, if applicable.
+  7. [FV] Confirm the issue is resolved and the customer is satisfied.
+  8. [FV] Document the call details, resolution, and any follow-up steps in the CRM system.
+  9. [IC] Thank the customer for their patience and end the call politely.
+[D]
+  1. [IC] Answer the customer's call and greet them professionally.
+  2. [IC] Ask the customer to clearly describe their issue.
+  3. [NA] Access the customer's account and relevant order/information using provided details.
+  4. [PD] Listen actively to identify the root cause of the issue by asking clarifying questions.
+  5. [PD] Cross-reference the issue with known problems and troubleshoot accordingly.
+  6. [IC] Explain the solution or next steps clearly and patiently, using non-technical language.
+  7. [ME] Guide the customer through the steps to resolve the issue, if applicable.
+  8. [FV] Ask the customer to confirm that their issue has been resolved.
+  9. [FV] Document the call details, resolution, and any follow-up steps in the CRM system.
+  10. [IC] Thank the customer for their patience and end the call politely.
+
+--- Task 278: Guide class discussions.
+[A]
+  1. [IC] Review the lesson plan and key discussion points, preparing any necessary materials such as handouts or presentation slides.
+  2. [NA] Set up the smartboard or projector to ensure visual aids are visible to all students.
+  3. [IC] Introduce the topic and pose an initial open-ended question to stimulate discussion.
+  4. [PD] Facilitate the discussion by actively listening to student responses and taking notes on key points and areas of confusion.
+  5. [ME] Use visual aids, such as diagrams or graphs, to illustrate key concepts and ideas.
+  6. [FV] Summarize key points raised by students and connect them back to the broader themes of the course.
+  7. [IC] Encourage students to build on each other's ideas and engage in respectful debate.
+  8. [FV] Conclude the session by reiterating key takeaways and assigning any follow-up readings or tasks.
+[B]
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+[C]
+  1. [IC] Review lesson plan, identifying key discussion points and learning objectives.
+  2. [NA] Prepare the learning environment: physical setup (classroom) or digital platform (online).
+  3. [IC] Introduce the topic with a clear, engaging question to stimulate initial thought.
+  4. [PD] Actively listen to student responses, taking notes on key points and areas needing clarification.
+  5. [IC] Use follow-up questions to encourage deeper thinking, diverse perspectives, and student-to-student interaction.
+  6. [FV] Summarize key discussion points, connecting them back to the broader topic and learning objectives.
+  7. [FV] Conclude the discussion by reiterating key takeaways and assigning any follow-up activities.
+[D]
+  1. [IC] Review lesson plan, key discussion points, and student notes to understand the current level of knowledge and any specific topics students might be struggling with.
+  2. [NA] Set up necessary materials, such as presentation slides, smartboard with relevant images, or digital collaboration platform with virtual classroom.
+  3. [IC] Introduce the topic and outline discussion objectives for students, then pose an open-ended question to start the discussion.
+  4. [PD] Facilitate a round-robin or open discussion, encouraging students to contribute and build on each other's ideas, and actively listen to their responses.
+  5. [ME] Use visual aids, such as diagrams, graphs, or relevant documents, to illustrate key concepts and ideas, and share them with students.
+  6. [FV] Provide feedback and clarifications on students' responses, ensuring accuracy and depth of understanding, and redirect the conversation with follow-up questions.
+  7. [FV] Summarize key points raised by students, connect them back to the broader themes of the course, and transition to the next discussion topic or activity.
+  8. [FV] Conclude the session by reiterating key takeaways, connecting them to the broader context, and assigning any follow-up readings or tasks.
+
+--- Task 279: Collect data about project sites.
+[A]
+  1. [IC] Review the list of potential sites and their addresses to plan the day's itinerary.
+  2. [NA] Drive to the first project site using GPS navigation.
+  3. [PD] Visually inspect the site boundaries, identifying any potential obstacles or hazards.
+  4. [ME] Use a handheld GPS device to record precise coordinates of key site features.
+  5. [ME] Collect soil samples at designated locations, labeling each sample with its GPS coordinates.
+  6. [ME] Take panoramic photographs of the site from multiple angles, capturing the surrounding landscape and existing infrastructure.
+  7. [PD] Record initial observations about the site environment, including vegetation, water sources, and potential wildlife habitats.
+  8. [ME] Transfer all collected data (photos, GPS coordinates, soil samples, and observations) to a portable storage device.
+  9. [FV] Upload the data to the project server when a stable internet connection is available.
+  10. [FV] Cross-check the collected data with available maps and records to ensure accuracy and completeness.
+  11. [FV] Prepare a report summarizing the findings from each site, highlighting their strengths and weaknesses.
+[B]
+  1. [IC] Review the project list and prioritize the sites to visit based on the project manager's previous experience and the urgency of each project.
+  2. [NA] Drive to the designated project site coordinates using GPS navigation.
+  3. [PD] Visually inspect the site boundaries, identifying any potential obstacles or hazards.
+  4. [ME] Use a handheld GPS device to record precise coordinates of key site features (e.g., corners, potential bridge supports).
+  5. [ME] Collect soil samples at designated locations using a hand auger, labeling each sample with its GPS coordinates.
+  6. [PD] Record initial observations about the site environment, including vegetation, water sources, and potential wildlife habitats.
+  7. [ME] Transfer all collected data (photos, GPS coordinates, soil samples, and observations) to a portable storage device.
+  8. [FV] Upload the data to the project server when a stable internet connection is available.
+  9. [FV] Review the collected data for accuracy and completeness.
+  10. [IC] Document any issues or challenges encountered during the data collection process.
+[C]
+  1. [IC] Review the project list and prioritize sites based on urgency and project manager's insights.
+  2. [NA] Travel to the first site using GPS navigation.
+  3. [PD] Visually inspect the site boundaries, noting potential hazards and key features.
+  4. [ME] Use a handheld GPS device to record coordinates of key site features.
+  5. [ME] Take panoramic photographs of the site from multiple angles.
+  6. [ME] Collect soil samples at designated locations, labeling each with GPS coordinates.
+  7. [PD] Record initial observations about the site environment (vegetation, water sources, etc.).
+  8. [NA] Repeat steps 2-7 for each remaining site.
+  9. [ME] Transfer all collected data to a secure storage device.
+  10. [FV] Upload data to the project server when internet access is available.
+[D]
+  1. [IC] Review project list and prioritize sites based on urgency and previous experience.
+  2. [NA] Travel to the first project site using GPS navigation.
+  3. [PD] Park the vehicle safely and observe the site's surroundings, noting any immediate issues or features.
+  4. [ME] Walk around the site, measuring dimensions, checking soil conditions, and noting existing structures or utilities.
+  5. [PD] Collect data using a camera and GPS device, including photos, GPS coordinates, and any other relevant information.
+  6. [IC] Interview local residents or property owners to gather additional information about the site's history and potential issues.
+  7. [NA] Repeat steps 2-6 for the remaining project sites.
+  8. [FV] Upon returning to the office, organize and review the collected data for accuracy and completeness.
+  9. [FV] Cross-check the collected data with available maps and records to ensure accuracy and completeness.
+  10. [FV] Prepare a report summarizing the findings from each site, highlighting their strengths and weaknesses.
+  11. [ME] Upload the final report to the company's database and notify the project team of the completion of the task.
+
+--- Task 280: Analyze laboratory specimens to detect abnormalities or other problems.
+[A]
+  1. [NA] Retrieve the blood sample from the storage refrigerator and verify the patient's identification.
+  2. [ME] Prepare the hematology analyzer by loading the necessary reagents and ensuring the equipment is calibrated.
+  3. [ME] Place the blood sample into the hematology analyzer and initiate the analysis process.
+  4. [PD] Monitor the hematology analyzer for any error messages or warnings during the analysis.
+  5. [NA] Once the analysis is complete, retrieve the results from the hematology analyzer.
+  6. [PD] Review the results to identify any abnormalities or deviations from normal ranges.
+  7. [FV] Document the findings in the patient's medical record, noting any abnormalities.
+  8. [PD] Compare the results with the patient's previous blood tests, if available, to identify any trends or changes.
+  9. [FV] Prepare a report summarizing the findings and any recommendations for further testing or treatment.
+  10. [FV] Deliver the report to the physician or healthcare provider for further evaluation and patient management.
+[B]
+  1. [IC] Review the patient records and laboratory requests to understand the purpose of the analysis and any specific requirements or concerns.
+  2. [NA] Select the appropriate equipment, including the microscope, centrifuge, and staining equipment, and set up the workspace to prevent contamination.
+  3. [PD] Examine each sample using the microscope, looking for abnormal cell counts or other signs of disease.
+  4. [ME] Perform centrifugation to separate the blood components and prepare the samples for staining.
+  5. [ME] Apply various staining techniques to highlight specific cell structures and examine the samples under the microscope.
+  6. [FV] Record the results of the analysis, including any abnormal cell counts or other signs of disease, and prepare the reports for the clinicians.
+  7. [FV] Review the reports for accuracy and completeness before submitting them to the clinicians.
+  8. [FV] Store the unused samples in a secure location and properly dispose of any contaminated materials.
+  9. [FV] Clean and maintain the equipment, including the microscope and centrifuge, to ensure proper function and prevent contamination.
+  10. [FV] Document the entire process, including any challenges or issues encountered, to improve future analyses and maintain quality control.
+[C]
+  1. [NA] Retrieve the blood sample from storage and verify patient identification.
+  2. [NA] Prepare the necessary equipment (microscope, centrifuge, staining materials) and workspace.
+  3. [IC] Review patient records and laboratory requests to understand the analysis purpose.
+  4. [ME] Prepare the blood sample (centrifugation, staining) based on the analysis type.
+  5. [PD] Examine the sample under the microscope, looking for abnormalities.
+  6. [FV] Document the findings, including any abnormalities observed.
+  7. [FV] Dispose of used materials according to biohazard protocols.
+[D]
+  1. [IC] Receive and verify the patient's sample and relevant information.
+  2. [NA] Prepare the workspace and necessary equipment.
+  3. [ME] Perform any necessary sample preparation, such as centrifugation or staining.
+  4. [ME] Analyze the sample using appropriate equipment (e.g., microscope, analyzer).
+  5. [PD] Examine the sample for abnormalities or deviations from normal ranges.
+  6. [FV] Document the findings in the patient's medical record.
+  7. [PD] Compare the results with the patient's previous tests, if available, to identify trends or changes.
+  8. [FV] Prepare a report summarizing the findings and any recommendations.
+  9. [FV] Deliver the report to the physician or healthcare provider for further evaluation and patient management.
+  10. [FV] Clean and maintain the equipment, and dispose of materials according to biohazard protocols.
+
+================================================================
+ANSWER TEMPLATE
+
+273: _ | 
+274: _ | 
+275: _ | 
+276: _ | 
+277: _ | 
+278: _ | 
+279: _ | 
+280: _ | 
+

@@ -1,0 +1,377 @@
+BATCH 37/63 | Model: Claude Opus 4.7 | Tasks 289-296
+================================================================
+EXPERT REVIEW -- Micro-Action Sequence Evaluation
+For each task, read ALL four options, then choose the BEST (A/B/C/D).
+
+Criteria:
+  1. Completeness  -- no critical steps missing
+  2. Realism       -- every step is concretely executable
+  3. Stage accuracy -- stage label correct for each step:
+     IC=Intent_Communication  NA=Navigation_Addressing
+     PD=Perception_Diagnosis  ME=Manipulation_Execution  FV=Feedback_Verification
+  4. Conciseness   -- no redundant or duplicate steps
+  5. Scope         -- starts and ends at exactly the right point
+
+OUTPUT: fill the ANSWER TEMPLATE at the bottom.
+Format: N: X | one-sentence reason (max 12 words)
+IMPORTANT: Each task has a different best answer. Do NOT pick the same
+letter for every task without reading.
+================================================================
+
+--- Task 289: Direct activities of subordinates.
+[A]
+  1. [IC] Review the day's objectives, project schedule, and task assignments to understand the current status and identify potential bottlenecks.
+  2. [IC] Conduct a morning meeting with the team to assign tasks, clarify expectations, and ensure everyone is aware of the day's objectives and any safety protocols.
+  3. [NA] Navigate the workspace to observe the team's workflow, identify potential obstacles, and provide hands-on guidance as needed.
+  4. [PD] Monitor the team's progress throughout the day using project management tools, ensuring they are working efficiently and providing guidance as needed.
+  5. [FV] Inspect the team's work periodically to ensure it meets the required quality and safety standards.
+  6. [ME] Address any issues or delays that arise, such as material shortages or equipment malfunctions, by coordinating with suppliers or maintenance teams.
+  7. [FV] Provide individualized feedback and coaching to team members to help them overcome challenges and improve their performance.
+  8. [FV] Document the day's progress, including any issues encountered and solutions implemented, for future reference and reporting purposes.
+  9. [IC] Conduct an end-of-day meeting with the team to review the day's accomplishments, address any concerns, and plan for the next workday.
+[B]
+  1. [IC] Review project schedule and task assignments to understand the current status and identify potential bottlenecks.
+  2. [IC] Hold a team meeting to discuss progress, address concerns, and provide guidance on task prioritization and resource allocation.
+  3. [NA] Walk around the team's physical workspace to observe their workflow, identify potential obstacles, and provide hands-on guidance as needed.
+  4. [PD] Use project management tools to track progress, identify areas for improvement, and make data-driven decisions to optimize team performance.
+  5. [FV] Provide individualized feedback and coaching to team members to help them overcome challenges and improve their performance.
+  6. [IC] Identify and address potential conflicts or issues within the team, such as communication breakdowns or resource allocation disputes.
+  7. [NA] Make adjustments to the project schedule and task assignments as needed to ensure that the team is on track to meet their deadlines and milestones.
+  8. [FV] Provide recognition and rewards to team members who have demonstrated exceptional performance or contributed significantly to the project's success.
+  9. [PD] Document lessons learned and best practices from the project to improve future team performance and productivity.
+  10. [FV] Review the project's overall success and identify areas for improvement for future projects.
+[C]
+  1. [IC] Review project goals, deadlines, and individual team member responsibilities.
+  2. [IC] Conduct a team meeting to discuss progress, address concerns, and delegate tasks based on expertise.
+  3. [PD] Observe team workflow, identify potential obstacles, and provide on-the-spot guidance and support.
+  4. [FV] Utilize project management tools to track progress, identify areas for improvement, and make data-driven decisions.
+  5. [FV] Provide individualized feedback and coaching to team members, focusing on skill development and performance enhancement.
+  6. [IC] Proactively address conflicts or issues within the team, mediating disputes and finding solutions that benefit the project.
+  7. [FV] Summarize team progress, highlight achievements, and communicate updates to relevant stakeholders.
+[D]
+  1. [IC] Review project schedule, task assignments, and safety guidelines to understand the current status, identify potential bottlenecks, and refresh understanding of tasks and hazards.
+  2. [IC] Hold a team meeting to discuss progress, address concerns, assign tasks, clarify expectations, and ensure everyone is aware of the day's objectives and safety protocols.
+  3. [NA] Navigate the workspace to observe team members' workflow, identify potential obstacles, and ensure the area is safe and prepared for the day's activities.
+  4. [PD] Monitor team progress throughout the day, providing guidance, answering questions, and ensuring tasks are executed correctly and safely.
+  5. [ME] Address any issues or delays that arise, such as material shortages or equipment malfunctions, by coordinating with relevant teams or stakeholders.
+  6. [PD] Inspect the team's work periodically to ensure it meets the required quality and safety standards.
+  7. [IC] Communicate with other supervisors or project managers to coordinate activities and ensure the project stays on schedule.
+  8. [FV] Document the day's progress, including any issues encountered and solutions implemented, for future reference and reporting purposes.
+  9. [FV] Conduct a final walkthrough of the completed section to ensure it meets the required standards and is safe for the next phase of the project.
+  10. [IC] Conduct an end-of-day meeting with the team to review the day's accomplishments, address any concerns, and plan for the next workday.
+
+--- Task 290: Evaluate program effectiveness.
+[A]
+  1. [PD] Review program documentation and collect quantitative data from program records, such as attendance rates, completion rates, and job placement statistics.
+  2. [IC] Conduct surveys or interviews with program participants to gather qualitative feedback on their experiences and outcomes.
+  3. [PD] Clean and preprocess the collected data to ensure accuracy and consistency.
+  4. [ME] Analyze quantitative and qualitative data using statistical methods and data visualization tools to identify trends and patterns.
+  5. [FV] Evaluate the program's effectiveness against established KPIs and identify areas for improvement.
+  6. [ME] Synthesize findings into a comprehensive report outlining program effectiveness and recommendations for improvement.
+  7. [IC] Present the report to stakeholders, including the program manager, training team, and executive leadership.
+  8. [NA] Document the evaluation report and recommendations in a shared repository, ensuring accessibility and transparency.
+[B]
+  1. [NA] Access the company's database to retrieve pre- and post-training productivity and error rate data.
+  2. [PD] Clean and preprocess the data to ensure accuracy and consistency.
+  3. [PD] Organize the data into a structured format for analysis.
+  4. [PD] Apply statistical methods to compare pre- and post-training productivity and error rates.
+  5. [PD] Identify trends and patterns in the data to evaluate the program's impact.
+  6. [ME] Create visualizations (charts, graphs) to represent the data and findings.
+  7. [ME] Draft the evaluation report, summarizing the findings and their implications.
+  8. [FV] Review the report for accuracy and completeness.
+  9. [ME] Prepare a presentation to communicate the findings to stakeholders.
+  10. [FV] Deliver the evaluation report and presentation to the company's management team.
+[C]
+  1. [IC] Review program documentation, including curriculum, participant demographics, and stated goals.
+  2. [PD] Collect relevant data from program records and surveys, including attendance rates, completion rates, job placement statistics, and participant feedback.
+  3. [ME] Clean and preprocess the collected data to ensure consistency and readiness for analysis.
+  4. [PD] Analyze quantitative data using statistical methods to identify trends and patterns.
+  5. [PD] Analyze qualitative data by identifying recurring themes and patterns in participant feedback.
+  6. [ME] Synthesize quantitative and qualitative findings into a comprehensive report outlining program effectiveness.
+  7. [IC] Present the report to stakeholders, highlighting key findings and recommendations for improvement.
+[D]
+  1. [NA] Access relevant data sources (e.g., company database, survey results, program records) to retrieve necessary information.
+  2. [PD] Familiarize oneself with the data structure and format to understand its content and organization.
+  3. [IC] Identify relevant metrics, KPIs, and data points aligned with the training program's objectives and goals.
+  4. [ME] Extract and collect relevant data from various sources, ensuring data integrity and accuracy.
+  5. [ME] Clean and preprocess the extracted data to ensure accuracy, consistency, and data quality.
+  6. [PD] Analyze the data using appropriate statistical methods and data visualization tools to identify trends, patterns, and insights.
+  7. [FV] Evaluate the program's effectiveness against established KPIs and benchmarks, and identify areas for improvement.
+  8. [FV] Draw data-driven conclusions and develop recommendations for future improvements based on the evaluation findings.
+  9. [ME] Create visual representations (charts, graphs) of the data and findings to facilitate communication and understanding.
+  10. [IC] Present the evaluation report, findings, and recommendations to relevant stakeholders, addressing questions and concerns.
+  11. [NA] Document the evaluation report and recommendations in a shared repository, ensuring accessibility, transparency, and easy reference.
+  12. [FV] Monitor and track the implementation of recommendations, evaluating their impact on program effectiveness over time.
+
+--- Task 291: Examine debris to obtain information about causes of fires.
+[A]
+  1. [NA] Put on PPE and approach the debris site, being mindful of potential hazards and maintaining a safe distance.
+  2. [PD] Use a flashlight to scan the area, identifying potential debris that could provide clues about the fire's origin and cause.
+  3. [PD] Carefully approach and examine the identified debris, looking for signs of accelerants, points of origin, or other indicators of the fire's cause.
+  4. [ME] Document the debris and its location using a camera, ensuring clear, well-lit photos that preserve the scene's context.
+  5. [ME] Collect relevant debris, using appropriate tools and containers to preserve its integrity and prevent cross-contamination.
+  6. [ME] Package the collected debris securely, labeling it with relevant information such as location, date, and case number.
+  7. [IC] Consult scene notes or communicate with other investigators to confirm if all relevant debris has been collected.
+  8. [NA] Retrace steps and double-check the scene to ensure no potential evidence was overlooked or disturbed.
+  9. [FV] Upon completing the examination, safely remove PPE and dispose of it according to protocol.
+  10. [FV] Review collected evidence and photos, ensuring they accurately represent the scene and the debris collected.
+  11. [FV] Prepare a report detailing the examination process, the debris collected, and the initial findings regarding the fire's cause.
+[B]
+  1. [NA] Arrive at the fire scene and secure the area to preserve evidence.
+  2. [NA] Conduct a preliminary survey of the debris field to identify key areas of interest.
+  3. [PD] Use a camera to document the overall scene and key areas of interest.
+  4. [PD] Collect samples of debris, including charred wood, melted plastic, and other materials.
+  5. [PD] Examine the collected debris for patterns of burn marks and other signs of the fire's progression.
+  6. [PD] Use a magnifying glass to inspect small details on the debris, such as burn patterns and material composition.
+  7. [FV] Document observations and take notes on the debris and its characteristics.
+  8. [FV] Compare the collected evidence with known patterns of fire behavior to form a hypothesis about the fire's cause.
+  9. [ME] Package the collected debris samples for further laboratory analysis.
+  10. [FV] Prepare a preliminary report summarizing the findings and the hypothesis about the fire's cause.
+[C]
+  1. [NA] Don protective gear: gloves, mask, and safety glasses.
+  2. [PD] Survey the debris field, noting the extent of damage and any obvious points of interest.
+  3. [ME] Carefully collect samples of debris (charred wood, melted plastic, etc.) from potential points of origin.
+  4. [FV] Photograph each debris sample in situ, documenting its location and condition.
+  5. [ME] Package and label each sample securely, noting relevant information (location, date, case number).
+  6. [PD] Analyze burn patterns, material characteristics, and sample composition to infer the fire's progression and potential ignition source.
+  7. [IC] Formulate a preliminary hypothesis about the fire's cause based on the gathered evidence.
+  8. [FV] Document all findings, observations, and the preliminary hypothesis in a detailed report.
+[D]
+  1. [NA] Put on appropriate PPE and approach the debris site, being mindful of potential hazards and maintaining a safe distance.
+  2. [PD] Conduct a visual survey of the debris field to identify key areas of interest and potential evidence.
+  3. [ME] Use a camera to document the overall scene, key areas of interest, and any potential evidence, ensuring clear, well-lit photos that preserve the scene's context.
+  4. [PD] Carefully approach and examine the identified debris, looking for signs of accelerants, burn patterns, melted materials, or other indicators of the fire's cause.
+  5. [ME] Collect relevant debris using appropriate tools and containers, ensuring its integrity is preserved and cross-contamination is prevented.
+  6. [ME] Package the collected debris securely, labeling it with relevant information such as location, date, and case number.
+  7. [IC] Consult scene notes or communicate with other investigators to confirm if all relevant debris has been collected.
+  8. [NA] Retrace steps and double-check the scene to ensure no potential evidence was overlooked or disturbed.
+  9. [FV] Upon completing the examination, safely remove PPE and dispose of it according to protocol.
+  10. [FV] Review collected evidence, photos, and notes, ensuring they accurately represent the scene and the debris collected.
+  11. [FV] Prepare a preliminary report detailing the examination process, the debris collected, and the initial findings regarding the fire's cause.
+
+--- Task 292: Provide first aid or rescue assistance in emergencies.
+[A]
+  1. [NA] Approach the scene while maintaining situational awareness for any hazards.
+  2. [PD] Assess the patient's condition and check for responsiveness.
+  3. [IC] Communicate with the patient to keep them calm and aware.
+  4. [ME] Retrieve the first aid kit and apply immediate life-saving interventions as necessary, such as controlling bleeding or stabilizing fractures.
+  5. [PD] Monitor the patient's vital signs and ensure they remain stable.
+  6. [ME] Prepare the patient for transport to the hospital, ensuring they are secured and comfortable.
+  7. [NA] Transfer the patient to the ambulance or medical transport vehicle.
+  8. [FV] Provide ongoing monitoring and care during transport to the hospital.
+  9. [FV] Deliver the patient to the hospital and hand over to the medical team, providing a detailed report of the incident and the patient's condition.
+[B]
+  1. [NA] Approach the scene while maintaining situational awareness for any hazards.
+  2. [PD] Assess the patient's condition and check for responsiveness.
+  3. [IC] Communicate with the patient to keep them calm and aware.
+  4. [NA] Retrieve the first aid kit from the ambulance.
+  5. [ME] Apply a tourniquet above the wound to control bleeding.
+  6. [ME] Clean the wound with antiseptic wipes from the first aid kit.
+  7. [ME] Apply a sterile bandage to the wound.
+  8. [PD] Monitor the patient's vital signs and ensure they remain stable.
+  9. [ME] Prepare the patient for transport to the hospital.
+  10. [FV] Deliver the patient to the ambulance and hand over to the medical team.
+[C]
+  1. [NA] Approach the scene cautiously, assessing for hazards and ensuring personal safety.
+  2. [PD] Check for responsiveness and assess the patient's condition (ABCs: Airway, Breathing, Circulation).
+  3. [IC] Call for emergency medical services (EMS) and provide clear, concise information about the situation.
+  4. [ME] Control any severe bleeding using direct pressure or appropriate first aid techniques.
+  5. [ME] Immobilize any suspected fractures or injuries to prevent further harm.
+  6. [PD] Monitor the patient's vital signs (breathing, pulse) and level of consciousness.
+  7. [IC] Provide reassurance and comfort to the patient while awaiting EMS arrival.
+  8. [FV] Assist EMS personnel with patient transfer and provide a concise handover report.
+[D]
+  1. [NA] Approach the scene with caution, assessing for immediate hazards and maintaining situational awareness.
+  2. [PD] Check the victim's responsiveness by tapping their shoulder and asking loudly, 'Are you okay?'
+  3. [IC] Call for emergency medical services (e.g., 911) and provide them with the location and nature of the emergency.
+  4. [ME] Control any severe bleeding by applying direct pressure to wounds using clean cloth or gloved hands.
+  5. [ME] Check for and stabilize any fractures by immobilizing injured limbs using available materials.
+  6. [PD] Monitor the victim's breathing, pulse, and signs of shock (pale skin, rapid pulse, confusion).
+  7. [ME] Keep the victim warm and comfortable using blankets or clothing to prevent hypothermia.
+  8. [ME] Establish a safe perimeter around the accident site, using cones or other markers to direct traffic away from the area.
+  9. [IC] Request additional resources or backup if needed, using available communication devices to contact dispatch.
+  10. [ME] Once the victim is stabilized, carefully move them to a suitable location for transportation, such as a backboard or stretcher.
+  11. [NA] Load the victim into the ambulance, ensuring they are properly positioned and that any equipment or monitoring devices are functioning correctly.
+  12. [NA] Drive to the hospital, monitoring the victim's condition and providing additional care as needed, such as administering medications or performing additional interventions.
+  13. [FV] Upon arrival at the hospital, transfer the victim to the appropriate care team, providing a detailed report of the emergency, interventions performed, and the victim's current condition.
+
+--- Task 293: Perform manual agricultural, aquacultural, or horticultural tasks.
+[A]
+  1. [PD] Enter the greenhouse and check the temperature and humidity levels.
+  2. [NA] Retrieve the seedling trays from the storage area and move to the designated planting area.
+  3. [ME] Prepare the soil and plant the seedlings, spacing them appropriately.
+  4. [PD] Inspect the existing tomato plants for signs of disease or pests and prune any dead or diseased leaves.
+  5. [ME] Harvest ripe tomatoes by gently twisting and pulling them from the plant and place them in a basket or container.
+  6. [NA] Move the basket of harvested tomatoes to the storage area and check the irrigation system to ensure it is functioning properly.
+  7. [FV] Leave the greenhouse and secure the door.
+[B]
+  1. [IC] Enter the greenhouse and check the temperature and humidity levels.
+  2. [NA] Retrieve the seedling trays from the storage area.
+  3. [NA] Move to the designated planting area and prepare the soil.
+  4. [ME] Plant the seedlings in the prepared soil, spacing them appropriately.
+  5. [NA] Move to the existing tomato plants and inspect them for signs of disease or pests.
+  6. [ME] Prune any dead or diseased leaves from the plants.
+  7. [PD] Inspect the plants for ripe tomatoes.
+  8. [ME] Harvest the ripe tomatoes by gently twisting and pulling them from the plant.
+  9. [ME] Place the harvested tomatoes in a basket or container.
+  10. [NA] Move the basket of harvested tomatoes to the storage area.
+  11. [PD] Check the irrigation system to ensure it is functioning properly.
+  12. [FV] Leave the greenhouse and secure the door.
+[C]
+  1. [PD] Inspect the garden, observing the overall health of the plants, soil moisture, and signs of pests or disease.
+  2. [NA] Gather necessary tools such as pruning shears, a watering can, and gloves.
+  3. [ME] Address any immediate issues like removing large weeds with a hoe or pruning diseased leaves.
+  4. [ME] Water plants using a watering can, ensuring each plant receives adequate hydration.
+  5. [ME] Harvest ripe crops, carefully selecting and removing them from the plant.
+  6. [ME] Place harvested crops in a container for transport or storage.
+  7. [PD] Inspect the irrigation system to ensure it is functioning properly.
+[D]
+  1. [IC] Enter the greenhouse and assess the environment, checking temperature, humidity, and overall plant health.
+  2. [NA] Retrieve necessary tools and materials (e.g., seedling trays, gloves, pruning shears, wheelbarrow, etc.) from the storage area.
+  3. [NA] Move to the designated planting or maintenance area, carrying the gathered tools and materials.
+  4. [ME] Prepare the soil by removing weeds, loosening compacted soil, and smoothing out the surface using appropriate tools (e.g., hoe, rake).
+  5. [ME] Plant seedlings in the prepared soil, spacing them appropriately, and ensure they are well-watered.
+  6. [PD] Inspect plants for signs of disease, pests, or nutrient deficiencies, and prune dead or damaged leaves and branches.
+  7. [ME] Harvest ripe fruits or vegetables by carefully twisting and pulling them from the plant, or using tools like pruning shears if necessary.
+  8. [NA] Place harvested produce in a container or basket, and transport it to a designated collection point.
+  9. [PD] Check the irrigation system to ensure it is functioning properly, and make any necessary adjustments.
+  10. [FV] Leave the greenhouse, securing the door, and store the used tools and materials in a clean, dry place for future use.
+
+--- Task 294: Conduct anthropological or archaeological research.
+[A]
+  1. [NA] Consult maps and GPS to locate the target excavation site and clear a small area around the target location.
+  2. [NA] Set up a grid system around the target area using stakes and strings for precise excavation.
+  3. [ME] Begin careful excavation using trowels and brushes, working in 5cm layers, and inspect each layer for artifacts, noting their exact location within the grid.
+  4. [ME] Carefully extract any found artifacts using appropriate tools and techniques, and document the site layout, including any observed features or structures.
+  5. [FV] Photograph the site, artifacts, and any relevant features for further analysis.
+  6. [NA] Package and label artifacts for secure transportation to a lab for further analysis.
+  7. [IC] Write a detailed report outlining the excavation process, findings, and preliminary interpretations, and consult anthropological theories to compare findings with existing knowledge.
+  8. [FV] Digitally submit the report and artifact records to the relevant institution for archiving and further analysis.
+[B]
+  1. [IC] Review existing literature on the research topic to identify research gaps and inform the research design.
+  2. [NA] Travel to the research site and establish relationships with local community leaders and research participants.
+  3. [PD] Conduct semi-structured interviews with community members to gather data on their experiences with climate change and its impacts on their daily lives.
+  4. [PD] Collect and analyze data on climate-related environmental changes, such as deforestation, flooding, and drought, using a combination of qualitative and quantitative methods.
+  5. [IC] Develop and implement a research protocol to ensure the safety and well-being of research participants and the integrity of the research data.
+  6. [PD] Analyze and interpret the research data, using a combination of qualitative and quantitative methods, to identify patterns and trends related to climate change and community resilience.
+  7. [ME] Develop a research report that synthesizes the findings and recommendations for policy changes to support climate resilience in indigenous communities.
+  8. [FV] Present the research findings and recommendations to policymakers and stakeholders through a combination of written reports, oral presentations, and community engagement activities.
+  9. [FV] Evaluate the impact of the research on policy changes and community resilience, using a combination of qualitative and quantitative methods.
+  10. [FV] Publish the research findings in a peer-reviewed journal and disseminate the results through various channels, including academic conferences, policy briefs, and community engagement activities.
+[C]
+  1. [IC] Review existing literature and previous research to identify research gaps and inform the research design.
+  2. [NA] Select and prepare the excavation site, including setting up grids, tools, and equipment.
+  3. [ME] Carefully excavate the topsoil layer using trowels and brushes, meticulously documenting the location and depth of each artifact.
+  4. [PD] Observe and document soil layers and any visible artifacts, noting their context and spatial relationships.
+  5. [FV] Photograph and label each artifact, recording its precise location within the excavation grid.
+  6. [ME] Carefully extract any found artifacts using specialized tools, ensuring proper handling and preservation.
+  7. [IC] Analyze and interpret the findings, comparing them to existing knowledge and theories.
+  8. [FV] Prepare a detailed report summarizing the findings, including artifact descriptions, stratigraphic analysis, and interpretations.
+  9. [NA] Package and label artifacts for secure transportation to a lab or storage facility for further analysis and preservation.
+[D]
+  1. [IC] Review existing literature, maps, and GPS data to identify research gaps, target sites, and establish initial research design.
+  2. [NA] Travel to the research site and establish relationships with local community leaders and participants, if applicable.
+  3. [NA] Set up the excavation site or research area, including laying out grids, setting up tools, and preparing equipment.
+  4. [ME] Begin excavation or data collection, following a systematic approach (e.g., layer by layer, grid by grid) and using appropriate tools and techniques.
+  5. [PD] Perform initial perception and diagnosis, observing, documenting, and recording artifacts, features, or data, noting their precise location.
+  6. [ME] Carefully extract and preserve found artifacts or sensitive data, using appropriate tools and techniques.
+  7. [FV] Document the site layout, including any observed features or structures, and photograph relevant areas for further analysis.
+  8. [ME] Package and label artifacts or data for secure transportation to a lab or storage facility for further analysis and preservation.
+  9. [PD] Analyze and interpret research data, using appropriate methods, and compare findings to existing knowledge and theories.
+  10. [IC] Develop a research report or preliminary findings, synthesizing data, interpretations, and recommendations.
+  11. [FV] Peer-review and revise the research report, ensuring its quality and relevance to stakeholders, and submit it to the relevant institution.
+  12. [FV] Present research findings to stakeholders through written reports, oral presentations, and community engagement activities, as applicable.
+
+--- Task 295: Classify organisms based on their characteristics or behavior.
+[A]
+  1. [NA] Capture the insect using a net and place it under a digital microscope for detailed examination.
+  2. [PD] Adjust the microscope focus and lighting to clearly observe the insect's key features such as wings, antennae, and coloration.
+  3. [PD] Record the insect's behavior, such as movement patterns, feeding habits, and social interactions, using video recording equipment.
+  4. [IC] Consult relevant scientific literature and databases to gather information on similar species and their characteristics.
+  5. [PD] Analyze the collected data to identify patterns and relationships between the insect's physical characteristics and behavior.
+  6. [PD] Compare the analyzed data with existing classification systems and taxonomies to determine the insect's place within the larger classification framework.
+  7. [ME] Make a preliminary classification of the insect based on its physical characteristics and behavior.
+  8. [IC] Refine the classification by consulting with colleagues and experts in the field to ensure accuracy and consistency.
+  9. [FV] Document the final classification and any supporting evidence or rationale in a scientific report or publication.
+  10. [NA] Carefully release the insect back into its natural habitat if applicable, or store it appropriately following lab protocols.
+[B]
+  1. [NA] Collect the insect specimen and prepare it for examination under the microscope.
+  2. [PD] Use the microscope to observe the insect's physical characteristics, such as body structure, wings, and appendages.
+  3. [PD] Observe the insect's behavior in a controlled environment, noting feeding habits, mating rituals, and social interactions.
+  4. [ME] Document the observed characteristics and behaviors in a detailed report.
+  5. [ME] Access the taxonomic classification software and input the recorded characteristics and behaviors.
+  6. [ME] Run the taxonomic classification algorithm to generate potential classifications for the insect.
+  7. [FV] Compare the generated classifications with existing taxonomic databases to verify the classification.
+  8. [FV] Write a final report summarizing the classification and supporting evidence.
+  9. [FV] Submit the final report to a peer-reviewed database or expert for verification.
+[C]
+  1. [PD] Observe the insect's physical characteristics (body shape, wings, appendages) using a microscope or magnifying glass.
+  2. [FV] Document the observed characteristics through detailed notes, sketches, or high-resolution photographs.
+  3. [PD] Observe the insect's behavior in a controlled environment, noting feeding habits, mating rituals, and social interactions.
+  4. [IC] Consult entomological resources (field guides, databases, expert opinions) to compare observed characteristics and behaviors with known species.
+  5. [ME] Based on the comparison, formulate a preliminary classification for the insect.
+  6. [FV] Document the classification, including supporting evidence and any uncertainties, in a structured report.
+  7. [IC] If necessary, seek peer review or expert consultation to refine the classification and ensure accuracy.
+[D]
+  1. [NA] Capture the insect using a net and carefully place it under a microscope or use a digital microscope for examination.
+  2. [PD] Adjust the microscope focus and lighting to obtain a clear image of the insect's key features (wings, antennae, coloration, body structure, etc.).
+  3. [PD] Observe and record the insect's physical characteristics and behavior, such as body shape, antennae, wings, legs, movement patterns, feeding habits, and social interactions.
+  4. [IC] Consult relevant scientific literature, databases, or field guides to gather information on similar species and their characteristics.
+  5. [PD] Compare the observed characteristics and behaviors with existing classification systems and taxonomies to determine the insect's place within the larger framework.
+  6. [ME] Make a preliminary classification of the insect based on its physical characteristics and behavior.
+  7. [IC] Refine the classification by consulting with colleagues, experts, or using taxonomic classification software to ensure accuracy and consistency.
+  8. [FV] Document the final classification, supporting evidence, and any relevant notes in a scientific report or digital record.
+  9. [NA] Carefully release the insect back into its natural habitat or store it appropriately following lab protocols for preserving and archiving biological specimens.
+
+--- Task 296: Evaluate potential of products, technologies, or resources.
+[A]
+  1. [IC] Review the project's objectives and constraints by examining the project brief and discussing with the team.
+  2. [NA] Gather technical specifications and market data on the product, technology, or resource from reliable sources.
+  3. [PD] Analyze the technical specifications, market trends, and competition to understand the product's potential and challenges.
+  4. [ME] Evaluate the product's scalability, market size, and potential return on investment.
+  5. [ME] Prepare a comprehensive evaluation report summarizing the findings and recommendations.
+  6. [IC] Present the evaluation report to the team and stakeholders, addressing any questions or concerns.
+  7. [FV] Gather feedback from the team and stakeholders on the evaluation report and make necessary revisions.
+[B]
+  1. [IC] Review the startup's pitch deck and business plan to understand the technology's potential and the company's goals.
+  2. [PD] Conduct a literature review and gather data on the technology's technical feasibility, market demand, and competition.
+  3. [IC] Schedule meetings with experts in the field, including engineers, researchers, and industry leaders, to gain a deeper understanding of the technology's potential.
+  4. [NA] Visit the startup's facilities and conduct site visits to assess the technology's potential and the company's operations.
+  5. [PD] Analyze financial data and market trends to assess the potential return on investment and the company's financial viability.
+  6. [PD] Evaluate the competition and market landscape to assess the technology's potential for growth and market share.
+  7. [PD] Assess the technology's potential for scalability and adaptability to different markets and applications.
+  8. [PD] Evaluate the startup's team and management structure to assess their ability to execute on the technology's potential.
+  9. [ME] Synthesize all the information gathered to make an informed decision to invest or not invest in the startup.
+  10. [FV] Document the decision-making process and the reasons for investing or not investing in the startup.
+[C]
+  1. [IC] Define the evaluation criteria and scope based on the product, technology, or resource type.
+  2. [NA] Gather relevant data from various sources: market research, technical documentation, competitor analysis, and expert opinions.
+  3. [PD] Analyze the gathered data to assess the product's strengths, weaknesses, opportunities, and threats (SWOT analysis).
+  4. [ME] Evaluate the product's potential impact on the target market, considering factors like market size, competition, and user needs.
+  5. [PD] Assess the feasibility of the product's development and implementation, considering technical, financial, and logistical constraints.
+  6. [FV] Summarize the evaluation findings in a clear and concise report, highlighting key insights and recommendations.
+  7. [IC] Present the evaluation report to stakeholders and engage in discussions to address questions and concerns.
+[D]
+  1. [IC] Understand the project's objectives, constraints, and target audience by reviewing relevant documents and communicating with stakeholders.
+  2. [PD] Gather and analyze technical specifications, capabilities, and claims of the product, technology, or resource.
+  3. [NA] Conduct market research, including competitive analysis, to understand market demand, trends, and competition.
+  4. [ME] Evaluate the product's potential market size, revenue projections, and scalability based on market research and technical analysis.
+  5. [PD] Assess the team, management, or organization behind the product, technology, or resource, considering their expertise, track record, and ability to execute.
+  6. [PD] Identify potential risks, challenges, and opportunities associated with the product, technology, or resource.
+  7. [ME] Weigh the potential rewards against the identified risks, considering the evaluator's or organization's investment strategy and risk tolerance.
+  8. [ME] Prepare a comprehensive evaluation report outlining the product's potential, advantages, feasibility, risks, and recommendations.
+  9. [IC] Present the evaluation report to stakeholders, addressing any questions or concerns, and gathering feedback.
+  10. [FV] Receive and incorporate stakeholder feedback, making any necessary revisions to the evaluation report.
+
+================================================================
+ANSWER TEMPLATE
+
+289: _ | 
+290: _ | 
+291: _ | 
+292: _ | 
+293: _ | 
+294: _ | 
+295: _ | 
+296: _ | 
+

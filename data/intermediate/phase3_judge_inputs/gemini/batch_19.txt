@@ -1,0 +1,361 @@
+BATCH 19/63 | Model: Gemini 3 Pro | Tasks 145-152
+================================================================
+EXPERT REVIEW -- Micro-Action Sequence Evaluation
+For each task, read ALL four options, then choose the BEST (A/B/C/D).
+
+Criteria:
+  1. Completeness  -- no critical steps missing
+  2. Realism       -- every step is concretely executable
+  3. Stage accuracy -- stage label correct for each step:
+     IC=Intent_Communication  NA=Navigation_Addressing
+     PD=Perception_Diagnosis  ME=Manipulation_Execution  FV=Feedback_Verification
+  4. Conciseness   -- no redundant or duplicate steps
+  5. Scope         -- starts and ends at exactly the right point
+
+OUTPUT: fill the ANSWER TEMPLATE at the bottom.
+Format: N: X | one-sentence reason (max 12 words)
+IMPORTANT: Each task has a different best answer. Do NOT pick the same
+letter for every task without reading.
+================================================================
+
+--- Task 145: Record images needed to address work issues.
+[A]
+  1. [IC] Consult the work order to understand the reported issue and locate the affected equipment.
+  2. [PD] Approach the malfunctioning equipment and visually inspect it for any obvious damage or abnormalities.
+  3. [NA] Retrieve a digital camera or smartphone with a high-resolution camera.
+  4. [ME] Position the camera to capture a clear, well-lit image of the problematic component.
+  5. [ME] Capture images of the issue from multiple angles, ensuring the images are focused and relevant.
+  6. [FV] Review the captured images to ensure they clearly depict the issue and are suitable for inclusion in the report.
+  7. [FV] Upload the selected images to the company's cloud storage system, ensuring they are properly tagged and organized.
+[B]
+  1. [IC] Approach the malfunctioning conveyor belt system and assess the visible issues.
+  2. [NA] Retrieve a digital camera or smartphone with a high-resolution camera.
+  3. [NA] Position the camera or smartphone to capture the first component of interest.
+  4. [PD] Adjust the camera settings for optimal image quality.
+  5. [ME] Capture the first image of the malfunctioning component.
+  6. [ME] Repeat steps 3-5 for additional components that need to be imaged.
+  7. [FV] Review the captured images to ensure they are clear and informative.
+  8. [NA] Connect the camera or smartphone to a computer or use a mobile data plan to upload the images.
+  9. [ME] Upload the images to a shared digital platform or email them to the engineering team.
+  10. [FV] Confirm receipt of the images with the engineering team.
+[C]
+  1. [PD] Approach the malfunctioning equipment and visually inspect it for any obvious issues.
+  2. [NA] Retrieve a digital camera or smartphone with a camera.
+  3. [ME] Position the camera to capture clear images of the malfunctioning components, considering lighting and angles.
+  4. [ME] Capture multiple images of each problematic component from different perspectives.
+  5. [FV] Review the captured images on the device to verify clarity and completeness.
+  6. [IC] Upload the images to a designated shared platform or cloud storage accessible to relevant personnel.
+[D]
+  1. [PD] Approach the malfunctioning equipment and assess the visible issues.
+  2. [NA] Retrieve a camera-equipped device (e.g., smartphone or camera) and open the camera app.
+  3. [PD] Position the camera to capture clear, well-lit images of the malfunctioning components, considering lighting conditions and background clutter.
+  4. [ME] Capture multiple images of the faulty components from various angles, ensuring each image is in focus and relevant.
+  5. [FV] Review the captured images to ensure they are of sufficient quality for remote expert analysis.
+  6. [ME] Upload the selected images to a secure, shared digital platform or cloud storage system, ensuring they are properly tagged and organized.
+  7. [FV] Prepare a report summarizing the findings, including the images and recommended next steps for resolution.
+
+--- Task 146: Verify customer credit information.
+[A]
+  1. [IC] Log into the credit verification system using secure credentials.
+  2. [NA] Retrieve and input the customer's personal information into the credit verification system.
+  3. [NA] Initiate the credit verification process by querying the credit bureau database.
+  4. [PD] Review the credit report for accuracy, completeness, and any negative marks.
+  5. [PD] Verify the customer's identity by confirming details such as address and social security number.
+  6. [IC] Communicate with the customer to confirm the details on the credit report and discuss any issues.
+  7. [ME] Document the verification process and results in the system.
+  8. [FV] Confirm the verification process with the customer and provide any necessary next steps.
+[B]
+  1. [IC] Log into the credit verification system using secure credentials.
+  2. [NA] Retrieve the customer's personal information from the application form.
+  3. [NA] Input the customer's personal information into the credit verification system.
+  4. [NA] Initiate the credit verification process by querying the credit bureau database.
+  5. [PD] Wait for the system to retrieve the credit report from the credit bureau.
+  6. [PD] Review the credit report for accuracy and completeness.
+  7. [PD] Verify the customer's identity by confirming details such as address and social security number.
+  8. [IC] Communicate with the customer to confirm the details on the credit report.
+  9. [ME] Document the verification process and results in the system.
+  10. [FV] Confirm the verification process with the customer and provide any necessary next steps.
+[C]
+  1. [NA] Log into the credit verification system using secure credentials.
+  2. [NA] Retrieve the customer's personal information from the application form.
+  3. [ME] Input the customer's personal information into the credit verification system.
+  4. [NA] Initiate the credit verification process by querying the credit bureau database.
+  5. [PD] Review the credit report for accuracy and completeness.
+  6. [IC] Verify the customer's identity by confirming details such as address and social security number.
+  7. [ME] Document the verification process and results in the system.
+  8. [FV] Communicate the verification results to the customer and outline any next steps.
+[D]
+  1. [IC] Log into the secure credit verification system using valid credentials.
+  2. [NA] Retrieve the customer's personal information (name, address, date of birth, and last four digits of social security number) from the application form or customer interaction.
+  3. [NA] Navigate to the credit database using the customer's personal information as search criteria.
+  4. [PD] Retrieve the customer's credit report from the credit bureau database.
+  5. [PD] Review the credit report for accuracy, completeness, and any potential issues (e.g., late payments, collections, bankruptcies).
+  6. [IC] Verify the customer's identity by confirming details such as address and social security number with the customer.
+  7. [FV] Communicate the credit status, any potential issues, and their impact on the service/installation to the customer.
+  8. [ME] Document the credit verification process, the customer's credit status, and any relevant findings or decisions in the customer's record.
+  9. [IC] Confirm the credit verification process with the customer and provide any necessary next steps or alternative solutions.
+
+--- Task 147: Maintain repair or maintenance records.
+[A]
+  1. [IC] Log into the maintenance management software using the appropriate credentials.
+  2. [NA] Navigate to the maintenance record section and select the specific equipment or vehicle.
+  3. [ME] Enter the date and time of the maintenance activity.
+  4. [ME] Select the type of maintenance activity performed (e.g., routine check, repair, calibration).
+  5. [ME] Input a detailed description of the maintenance activity, including any issues identified and actions taken.
+  6. [ME] Upload any relevant photos or documents related to the maintenance activity.
+  7. [FV] Review the entered information to ensure accuracy and completeness.
+  8. [FV] Save the record and confirm that it has been successfully logged.
+[B]
+  1. [IC] Log in to the facilities management software to access the repair and maintenance records.
+  2. [PD] Review the schedule for upcoming repairs and maintenance to identify any conflicts or issues.
+  3. [IC] Communicate with contractors to confirm their schedules and ensure all necessary records are up-to-date.
+  4. [ME] Update the records with any new information, including repair histories and maintenance schedules.
+  5. [FV] Verify that all records are accurate and up-to-date, and that any conflicts or issues have been resolved.
+  6. [PD] Identify any areas for improvement in the record-keeping process and recommend changes to the facilities management team.
+  7. [IC] Communicate the recommended changes to the facilities management team and ensure they are implemented.
+  8. [ME] Update the records to reflect any changes or improvements made to the record-keeping process.
+  9. [FV] Verify that the records are accurate and up-to-date, and that any changes or improvements have been implemented successfully.
+  10. [FV] Save the updated maintenance record and repeat steps 4 to 6 for all EVs with pending or overdue tasks.
+  11. [ME] Once all pending tasks are updated, generate a summary report of the day's maintenance activities.
+  12. [PD] Review the summary report to ensure all tasks have been accounted for and the records are up-to-date.
+[C]
+  1. [NA] The technician retrieves the digital tablet used for logging maintenance records.
+  2. [NA] The technician opens the maintenance record application on the tablet.
+  3. [NA] The technician selects the specific equipment from the list.
+  4. [ME] The technician enters the date, time, and type of maintenance activity performed.
+  5. [ME] The technician inputs a detailed description of the maintenance activity, including any issues identified and actions taken.
+  6. [ME] The technician uploads any relevant photos or documents.
+  7. [FV] The technician reviews the entered information for accuracy and completeness.
+  8. [FV] The technician saves the record.
+[D]
+  1. [IC] Log in to the maintenance management software using the appropriate credentials.
+  2. [NA] Navigate to the relevant dashboard or section that displays the equipment or vehicles in need of maintenance.
+  3. [PD] Scan or review the list of equipment/vehicles to identify those with pending or overdue maintenance tasks.
+  4. [NA] Select the first equipment/vehicle with a pending task and proceed to its detailed maintenance record page.
+  5. [PD] Review the maintenance history of the selected equipment/vehicle to understand the nature and timeline of previous repairs and maintenance tasks.
+  6. [ME] Update the maintenance record with the latest repair or maintenance task details, including date, description, parts used, and technicians involved.
+  7. [FV] Save the updated maintenance record and repeat steps 4 to 6 for all equipment/vehicles with pending or overdue tasks.
+  8. [ME] Once all pending tasks are updated, generate a summary report of the day's maintenance activities.
+  9. [PD] Review the summary report to ensure all tasks have been accounted for and the records are up-to-date.
+  10. [IC] Log out of the maintenance management software and prepare for the next day's operations.
+
+--- Task 148: Level machines or equipment.
+[A]
+  1. [IC] Consult the machine's manual to understand its leveling process and safety precautions.
+  2. [NA] Locate the leveling screws or jacks on the machine's base, usually at each corner.
+  3. [PD] Use a precision level gauge to measure the machine's current alignment.
+  4. [ME] Adjust the leveling screws or jacks in small increments to bring the machine closer to level.
+  5. [FV] Re-measure the machine's alignment using the precision level gauge to ensure it is within the specified tolerance.
+  6. [ME] Insert thin shims under the feet if necessary to fine-tune the leveling.
+  7. [FV] Double-check the level readings to confirm the machine is properly leveled.
+  8. [FV] Document the leveling process, the adjustments made, and the final alignment measurements for future reference.
+[B]
+  1. [NA] Retrieve the precision level gauge and other necessary tools from the tool cabinet.
+  2. [PD] Position the precision level gauge on the printing press to measure its current level.
+  3. [PD] Read the initial level measurement from the gauge and record the deviation from level.
+  4. [PD] Identify the specific areas of the press that need adjustment based on the gauge readings.
+  5. [ME] Remove the leveling shims from the press where adjustments are needed.
+  6. [ME] Insert new shims or adjust the existing ones to bring the press closer to level.
+  7. [PD] Reposition the precision level gauge to measure the new level of the press.
+  8. [PD] Read the new level measurement and record the deviation from level.
+  9. [ME] Repeat steps 5-8 until the press is perfectly level.
+  10. [FV] Secure the leveling shims and ensure the press is stable and level.
+[C]
+  1. [NA] Don appropriate personal protective equipment (PPE) and safety gear.
+  2. [NA] Locate the leveling screws or jacks on the machine's base.
+  3. [PD] Use a spirit level or digital level to measure the machine's current alignment.
+  4. [ME] Adjust the leveling screws or jacks to bring the machine closer to level.
+  5. [FV] Re-measure the machine's alignment and compare it to the desired level.
+  6. [ME] Repeat steps 4 and 5 until the machine is level within the specified tolerance.
+  7. [FV] Double-check the machine's stability by gently rocking it.
+[D]
+  1. [IC] Consult the machine's manual to understand its leveling process and safety precautions.
+  2. [NA] Don appropriate personal protective equipment (PPE) and safety gear.
+  3. [NA] Locate the leveling points (screws, jacks, or feet) on the machine's base.
+  4. [PD] Use a spirit level or digital level to measure the machine's current alignment in both longitudinal and transverse directions.
+  5. [PD] Calculate the necessary adjustments based on the measured alignment and the manufacturer's specifications.
+  6. [ME] Using a wrench, socket, or other appropriate tool, make the necessary adjustments to the leveling points in small increments.
+  7. [FV] Periodically re-measure the machine's alignment using the spirit level or digital level to verify progress.
+  8. [FV] Once the machine is level within the specified tolerance, double-check its alignment from multiple angles to confirm its stability.
+  9. [IC] Document the leveling process, the adjustments made, and the final alignment measurements for future reference.
+
+--- Task 149: Analyze project data to determine specifications or requirements.
+[A]
+  1. [NA] Access and open the relevant project data files, including user surveys, previous project documentation, and any other pertinent data.
+  2. [PD] Review and analyze the data to identify key pain points, feature requests, and patterns that inform the specifications or requirements.
+  3. [IC] Synthesize findings to define the core functionalities and requirements based on the analysis.
+  4. [ME] Draft the initial specifications and requirements document, ensuring clarity and completeness.
+  5. [FV] Review and refine the draft specifications and requirements for accuracy and completeness.
+  6. [IC] Communicate the finalized specifications and requirements to the relevant stakeholders, such as the development team or project team.
+  7. [FV] Confirm receipt and understanding of the specifications and requirements with the stakeholders.
+[B]
+  1. [NA] Open the user survey data file in a spreadsheet application.
+  2. [PD] Review the user survey data, focusing on key pain points and feature requests.
+  3. [NA] Open previous project documentation and user feedback files.
+  4. [PD] Summarize key findings from previous project documentation and user feedback.
+  5. [PD] Identify technical constraints and feasibility based on previous project outcomes.
+  6. [ME] Draft initial specifications and requirements based on user survey and previous project data.
+  7. [FV] Review and refine the draft specifications and requirements for clarity and completeness.
+  8. [IC] Open a communication channel with the development team (e.g., email, project management tool).
+  9. [IC] Communicate the finalized specifications and requirements to the development team.
+  10. [FV] Confirm receipt and understanding of the specifications and requirements with the development team.
+[C]
+  1. [PD] Review project documentation, user feedback, and relevant data sources to understand the project scope, user needs, and existing system limitations.
+  2. [PD] Analyze the collected data to identify patterns, trends, user pain points, and potential areas for improvement.
+  3. [ME] Define the key specifications and requirements based on the data analysis and project goals.
+  4. [FV] Document the specifications and requirements in a clear, concise, and organized manner.
+  5. [IC] Communicate the finalized specifications and requirements to relevant stakeholders (e.g., development team, project manager).
+  6. [FV] Confirm receipt and understanding of the specifications and requirements with stakeholders.
+[D]
+  1. [PD] Review project plans, user feedback surveys, and historical data to understand the project scope, user needs, and past outcomes.
+  2. [NA] Gather and organize relevant project data, including user survey data, order data, competitor analysis, and historical data on similar projects.
+  3. [PD] Clean the data by handling missing values, outliers, and inconsistencies to ensure data quality.
+  4. [PD] Explore the data to understand variables, their relationships, and identify trends, patterns, and user needs.
+  5. [ME] Use statistical methods or comparative analysis to analyze the data and inform specifications or requirements.
+  6. [ME] Define initial specifications and requirements based on data analysis, user needs, and project scope.
+  7. [FV] Document the specifications and requirements in a clear and concise format, including user stories, wireframes, or mockups.
+  8. [IC] Review and refine the specifications and requirements with stakeholders, ensuring all necessary aspects are included.
+  9. [NA] Finalize the specifications and requirements, and update the project management system or relevant documentation.
+
+--- Task 150: Inspect facilities.
+[A]
+  1. [IC] The facilities manager reviews the inspection checklist and familiarizes themselves with the facility layout and safety guidelines.
+  2. [NA] The facilities manager enters the building and proceeds to the first inspection area, carrying necessary inspection tools and documentation.
+  3. [PD] The facilities manager inspects fire safety systems, electrical systems, and HVAC systems, ensuring they are in working order and free of damage.
+  4. [ME] The facilities manager uses inspection tools to measure and record relevant data, such as temperature, pressure, and electrical readings.
+  5. [ME] The facilities manager documents any issues found, taking photos or notes for future reference.
+  6. [NA] The facilities manager repeats the inspection process for subsequent floors and areas, following the designated inspection route.
+  7. [FV] The facilities manager compiles the inspection findings, documenting any issues and preparing a detailed report for further action.
+  8. [FV] The facilities manager presents the inspection report to the facility manager, discussing any issues found and potential solutions.
+[B]
+  1. [IC] Review the inspection checklist and confirm the areas and systems to be inspected.
+  2. [NA] Enter the building and proceed to the first floor, carrying necessary inspection tools and documentation.
+  3. [PD] Inspect the fire safety systems, including fire extinguishers and emergency exits, ensuring they are in working order.
+  4. [PD] Check the electrical systems, such as outlets and lighting, for any signs of damage or malfunction.
+  5. [PD] Inspect the HVAC system, checking for proper functioning and cleanliness of filters.
+  6. [FV] Compile the inspection findings, documenting any issues and preparing a report for further action.
+  7. [FV] Review the documentation to ensure all potential issues are accurately recorded and communicated to the relevant stakeholders.
+  8. [IC] Communicate the findings and recommendations to the building management team and other relevant stakeholders.
+  9. [ME] Update the maintenance schedule to reflect any necessary repairs or maintenance for the HVAC system.
+  10. [FV] Present the inspection report to the facility manager, discussing any issues found and potential solutions.
+[C]
+  1. [IC] Review the inspection checklist and facility blueprints to understand the scope and specific areas to be inspected.
+  2. [NA] Don appropriate personal protective equipment (PPE) as required for the facility.
+  3. [NA] Navigate to the designated inspection areas, following the predetermined route or map.
+  4. [PD] Visually inspect equipment, systems, and safety features, comparing observations to established standards and guidelines.
+  5. [ME] Utilize inspection tools (e.g., thermometers, gauges) to collect quantitative data where applicable.
+  6. [FV] Document findings, including detailed descriptions, photographs, and measurements, for each inspected area.
+  7. [FV] Compile a comprehensive inspection report summarizing all findings, observations, and recommendations.
+  8. [IC] Communicate the inspection report to the relevant stakeholders, including facility management and maintenance teams.
+[D]
+  1. [IC] Review the facility's blueprint, safety guidelines, and inspection checklist to familiarize oneself with the layout, regulations, and areas to be inspected.
+  2. [NA] Put on appropriate personal protective equipment (PPE) and safety gear.
+  3. [NA] Proceed to the first designated area, following the designated inspection route.
+  4. [PD] Inspect fire safety systems, including fire extinguishers, emergency exits, and fire alarm panels, ensuring they are in working order and well-maintained.
+  5. [PD] Inspect electrical systems, such as outlets, lighting, and electrical panels, for any signs of damage, malfunction, or safety hazards.
+  6. [PD] Inspect the HVAC system, checking for proper functioning, cleanliness of filters, and any signs of wear and tear or damage.
+  7. [ME] Use inspection tools, such as thermometers, multimeters, or leak detectors, to measure and record relevant data.
+  8. [ME] Document any issues found, taking photos or notes for future reference.
+  9. [NA] Proceed to the next area, following the designated inspection route and repeating the inspection process.
+  10. [NA] Upon completing the inspection, return to the main control room or designated area.
+  11. [FV] Review the collected data, document any issues found, and create a report for management.
+  12. [IC] Present the inspection report to the facility manager, discussing any issues found and potential solutions.
+
+--- Task 151: Plant greenery to improve landscape appearance.
+[A]
+  1. [IC] Review the client's preferences and the backyard layout to determine the types of plants needed.
+  2. [NA] Measure and mark the planting locations to ensure proper spacing and arrangement.
+  3. [ME] Prepare the soil by removing weeds and debris from the planting areas.
+  4. [ME] Dig holes for the plants at the marked locations, ensuring they are the correct depth and width.
+  5. [ME] Place the plants in the holes, ensuring they are upright and centered, and at the correct depth.
+  6. [ME] Fill the holes with soil, gently pressing down to remove air pockets and ensure the root flare is level with the ground surface.
+  7. [ME] Water the newly planted greenery to help settle the soil and provide initial hydration.
+  8. [FV] Inspect the planted greenery to ensure proper spacing, depth, and no signs of stress or damage, making any necessary adjustments.
+  9. [FV] Step back and evaluate the finished landscape to ensure it meets the client's expectations and is visually appealing.
+[B]
+  1. [IC] Review client's preferences and yard conditions to determine the best plants for the area.
+  2. [NA] Measure and mark the area where the plants will be planted to ensure proper spacing and arrangement.
+  3. [ME] Dig holes of the correct size for each plant, taking care not to damage the roots.
+  4. [ME] Gently remove the plants from their containers and place them in the holes, making sure they are at the correct depth.
+  5. [ME] Fill in the holes with soil, making sure to firm it down around the plants to prevent settling.
+  6. [FV] Water the plants thoroughly to settle the soil and provide enough moisture for establishment.
+  7. [PD] Check the plants for any signs of stress or damage and make adjustments as needed.
+  8. [ME] Arrange the plants to create a visually appealing landscape, taking into account factors such as color, texture, and height.
+  9. [ME] Add any finishing touches, such as mulch or decorative rocks, to complete the landscape.
+  10. [FV] Step back and evaluate the finished landscape to ensure it meets the client's expectations.
+[C]
+  1. [IC] Review client's preferences, yard conditions, and desired landscape appearance to determine suitable plant types.
+  2. [NA] Measure and mark planting locations, considering spacing, sunlight, and plant mature sizes.
+  3. [ME] Prepare planting areas by removing weeds, debris, and loosening the soil.
+  4. [ME] Dig holes of appropriate depth and width for each plant type.
+  5. [ME] Carefully remove plants from containers, loosen circling roots, and place them in the holes.
+  6. [ME] Backfill holes with soil, gently firming it around the roots to eliminate air pockets.
+  7. [ME] Water the newly planted greenery thoroughly to settle the soil and promote root establishment.
+  8. [FV] Inspect the planted greenery for proper depth, spacing, and signs of stress.
+  9. [ME] Make any necessary adjustments to plant placement or watering.
+[D]
+  1. [IC] Review client's preferences and yard conditions to determine the best plants for the area.
+  2. [PD] Inspect the yard to assess sunlight exposure and identify suitable planting areas.
+  3. [NA] Measure and mark the area where the plants will be planted to ensure proper spacing and arrangement.
+  4. [ME] Prepare the planting areas by removing weeds, debris, and loosening the soil.
+  5. [ME] Dig holes of the correct size for each plant, taking care not to damage the roots.
+  6. [NA] Obtain the selected plants from a local nursery or garden center.
+  7. [ME] Gently remove the plants from their containers, preserving their root balls, and place them in the holes at the correct depth.
+  8. [ME] Fill in the holes with soil, making sure to firm it down around the plants to prevent settling.
+  9. [FV] Water the plants thoroughly to settle the soil and provide enough moisture for establishment.
+  10. [PD] Inspect the plants for any signs of stress or damage and make adjustments as needed.
+  11. [ME] Arrange the plants to create a visually appealing landscape, taking into account factors such as color, texture, and height.
+  12. [FV] Step back and evaluate the finished landscape to ensure it meets the client's expectations.
+
+--- Task 152: Evaluate skills of athletes or performers.
+[A]
+  1. [IC] The coach reviews the athlete's previous performance records and notes areas for improvement.
+  2. [NA] The coach sets up the evaluation environment with necessary equipment and explains the evaluation criteria and objectives to the athlete.
+  3. [PD] The coach observes the athlete performing various skills, such as shooting, ball handling, and defensive drills, recording key metrics.
+  4. [IC] The coach provides immediate feedback on the athlete's techniques, highlighting strengths and areas for improvement.
+  5. [ME] The coach adjusts the training session to address the athlete's areas of improvement, incorporating targeted drills and exercises.
+  6. [PD] The coach observes the athlete's progress during the adjusted training session, taking note of any changes in their techniques or performance.
+  7. [IC] The coach provides final feedback to the athlete, summarizing their progress and offering guidance on areas for continued improvement.
+  8. [FV] The coach documents the athlete's progress and makes recommendations for future training sessions.
+[B]
+  1. [IC] Review the athlete's previous performance records and notes areas for improvement.
+  2. [NA] Set up the gymnasium with cones, baskets, and other equipment for the evaluation.
+  3. [IC] Explain the evaluation criteria and objectives to the athlete.
+  4. [PD] Observe and record the athlete's performance during the shooting drill.
+  5. [FV] Provide immediate feedback on shooting form and technique.
+  6. [PD] Observe and record the athlete's performance during the ball handling drill.
+  7. [FV] Provide immediate feedback on ball handling techniques.
+  8. [PD] Observe and record the athlete's performance during the defensive drills.
+  9. [FV] Provide immediate feedback on defensive skills.
+  10. [FV] Summarize the evaluation findings and provide a comprehensive feedback session with the athlete.
+[C]
+  1. [IC] Review athlete's previous performance records and identify areas for improvement.
+  2. [NA] Set up the training environment with necessary equipment.
+  3. [IC] Explain evaluation criteria and objectives to the athlete.
+  4. [PD] Observe the athlete performing specific drills (e.g., shooting, ball handling, defense), recording performance data.
+  5. [FV] Provide immediate feedback on technique and performance during the drills.
+  6. [FV] Summarize overall evaluation findings and provide a comprehensive feedback session with the athlete.
+[D]
+  1. [IC] Review athlete's previous performance records and notes areas for improvement.
+  2. [NA] Set up evaluation space with necessary equipment and tools for recording observations.
+  3. [IC] Explain evaluation criteria, objectives, and expectations to the athlete.
+  4. [PD] Observe and record athlete's performance in various skill drills or routines.
+  5. [FV] Provide immediate, clear, and constructive feedback on observed skills and techniques.
+  6. [IC] Demonstrate correct technique or use visual aids to illustrate points of improvement.
+  7. [IC] Allow athlete to ask questions and clarify any points of confusion.
+  8. [FV] Summarize evaluation findings and provide comprehensive feedback to the athlete.
+  9. [ME] Record key observations and metrics using a scoring system or app designed for athlete evaluation.
+  10. [FV] Submit the completed evaluation report to relevant stakeholders for further consideration.
+
+================================================================
+ANSWER TEMPLATE
+
+145: _ | 
+146: _ | 
+147: _ | 
+148: _ | 
+149: _ | 
+150: _ | 
+151: _ | 
+152: _ | 
+

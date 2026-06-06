@@ -1,0 +1,5 @@
+﻿,MPNet=LLM,MPNet=Multimodal_Perception,MPNet=Embodied,MPNet=Human_Bound
+human=LLM,31,5,2,4
+human=Multimodal_Perception,2,29,1,0
+human=Embodied,0,3,32,1
+human=Human_Bound,5,1,2,32

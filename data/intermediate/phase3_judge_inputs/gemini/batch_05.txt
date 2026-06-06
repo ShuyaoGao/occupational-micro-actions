@@ -1,0 +1,358 @@
+BATCH 5/63 | Model: Gemini 3 Pro | Tasks 33-40
+================================================================
+EXPERT REVIEW -- Micro-Action Sequence Evaluation
+For each task, read ALL four options, then choose the BEST (A/B/C/D).
+
+Criteria:
+  1. Completeness  -- no critical steps missing
+  2. Realism       -- every step is concretely executable
+  3. Stage accuracy -- stage label correct for each step:
+     IC=Intent_Communication  NA=Navigation_Addressing
+     PD=Perception_Diagnosis  ME=Manipulation_Execution  FV=Feedback_Verification
+  4. Conciseness   -- no redundant or duplicate steps
+  5. Scope         -- starts and ends at exactly the right point
+
+OUTPUT: fill the ANSWER TEMPLATE at the bottom.
+Format: N: X | one-sentence reason (max 12 words)
+IMPORTANT: Each task has a different best answer. Do NOT pick the same
+letter for every task without reading.
+================================================================
+
+--- Task 33: Verify alignment of structures or equipment.
+[A]
+  1. [NA] Navigate to the location of the structure or equipment to be aligned.
+  2. [ME] Set up alignment tools, such as laser levels and measuring tapes, to ensure accurate measurements.
+  3. [PD] Take initial measurements of the structure's current position relative to the reference point.
+  4. [PD] Compare the initial measurements with the required alignment specifications to identify any discrepancies.
+  5. [ME] Adjust the position of the structure using appropriate tools (e.g., hydraulic jacks, clamps) based on the identified discrepancies.
+  6. [PD] Retake measurements to verify the new position of the structure and ensure it is within the required tolerance.
+  7. [FV] Document the final alignment measurements and any adjustments made, and transmit the results to the central system.
+[B]
+  1. [NA] Move to the location of the steel beam and support structure.
+  2. [PD] Inspect the steel beam and support structure for any visible misalignments or obstructions.
+  3. [ME] Set up alignment tools, such as laser levels and measuring tapes, to ensure accurate measurements.
+  4. [PD] Take initial measurements of the beam's current position relative to the support structure.
+  5. [PD] Compare the initial measurements with the required alignment specifications.
+  6. [PD] Identify any discrepancies between the current position and the required alignment.
+  7. [ME] Adjust the position of the steel beam using hydraulic jacks and alignment tools.
+  8. [PD] Retake measurements to verify the new position of the steel beam.
+  9. [PD] Compare the new measurements with the required alignment specifications to confirm alignment.
+  10. [FV] Document the final alignment measurements and any adjustments made.
+[C]
+  1. [NA] Navigate to the location of the structures or equipment requiring alignment verification.
+  2. [ME] Set up alignment tools (e.g., laser levels, measuring tapes) and ensure they are properly calibrated.
+  3. [PD] Take initial measurements of the current position of the structures or equipment relative to the required alignment specifications.
+  4. [PD] Identify any discrepancies between the current position and the required alignment.
+  5. [ME] Adjust the position of the structures or equipment using appropriate tools (e.g., jacks, clamps) based on the identified discrepancies.
+  6. [PD] Retake measurements to verify the new position of the structures or equipment.
+  7. [FV] Confirm alignment by comparing the new measurements with the required specifications and document the final alignment results.
+[D]
+  1. [NA] Navigate to the location of the structure or equipment to be aligned.
+  2. [ME] Set up alignment tools, such as laser levels, measuring tapes, or inclinometers, at stable locations and ensure they are properly calibrated.
+  3. [PD] Take initial measurements of the structure's or equipment's current position relative to its support or target location.
+  4. [PD] Compare the initial measurements with the required alignment specifications or target angles.
+  5. [IC] If misalignment is detected, calculate the necessary adjustments to bring the structure or equipment within the required tolerance.
+  6. [ME] Adjust the position of the structure or equipment using appropriate tools, following the calculated adjustments.
+  7. [PD] Retake measurements to verify the new position of the structure or equipment and ensure it's within the required tolerance.
+  8. [FV] Document the final alignment measurements, any adjustments made, and mark the structure or equipment to signify it has been checked and approved.
+  9. [NA] Proceed to the next structure or equipment, repeating the process until all have been checked and approved.
+
+--- Task 34: Bolt objects into place.
+[A]
+  1. [NA] Retrieve the metal frame panels and bolts from the storage area.
+  2. [PD] Position the first metal panel on the workbench and identify the correct bolt holes.
+  3. [NA] Position the second metal panel over the first, aligning the holes.
+  4. [ME] Insert the bolt into the aligned holes and attach the nut, tightening it with a torque wrench.
+  5. [ME] Repeat the insertion and tightening process for each bolt and hole pair.
+  6. [FV] Visually inspect the bolted joints to ensure they are properly tightened.
+  7. [ME] Adjust any bolts that are not properly tightened.
+  8. [NA] Deliver the assembled metal frame to the designated area in the warehouse.
+[B]
+  1. [NA] Retrieve the metal frame panels and bolts from the storage area.
+  2. [NA] Position the first metal panel on the workbench.
+  3. [PD] Identify the correct bolt holes on the first panel.
+  4. [NA] Position the second metal panel over the first, aligning the holes.
+  5. [ME] Insert the first bolt into the aligned holes.
+  6. [ME] Attach the nut to the bolt and tighten it with a torque wrench.
+  7. [ME] Repeat steps 5 and 6 for each bolt and hole pair.
+  8. [FV] Visually inspect the bolted joints to ensure they are properly tightened.
+  9. [ME] Adjust any bolts that are not properly tightened.
+  10. [NA] Deliver the assembled metal frame to the designated area in the warehouse.
+[C]
+  1. [NA] Retrieve the metal frame panels and bolts from the storage area.
+  2. [NA] Position the first metal panel on the workbench.
+  3. [PD] Identify the correct bolt holes on the first panel.
+  4. [NA] Align the second panel with the first, ensuring bolt holes are aligned.
+  5. [ME] Insert a bolt into the aligned holes.
+  6. [ME] Attach the nut and tighten the bolt to the specified torque using a torque wrench.
+  7. [ME] Repeat steps 5 and 6 for each remaining bolt.
+  8. [FV] Visually inspect all bolted joints to ensure they are properly tightened.
+  9. [ME] Adjust any loose bolts as needed.
+[D]
+  1. [NA] Retrieve necessary components (metal panels, bolts, tools) from storage or designated areas.
+  2. [NA] Position the first metal panel on the workbench or designated area.
+  3. [PD] Identify and mark the correct bolt holes on the first panel using visual cues or templates.
+  4. [NA] Position the second metal panel over the first, aligning the marked holes.
+  5. [ME] Insert the first bolt into the aligned holes, ensuring it's properly seated.
+  6. [ME] Attach the appropriate nut and tighten it to the specified torque using a torque wrench or power drill.
+  7. [ME] Repeat steps 5 and 6 for each bolt and hole pair, ensuring they are tightened in the correct sequence.
+  8. [FV] Visually inspect the bolted joints to ensure they are properly tightened and no bolts are missing or loose.
+  9. [ME] Adjust any bolts that are not properly tightened, repeating the tightening process if necessary.
+  10. [NA] Deliver or move the assembled metal frame to the designated area or next stage of production.
+
+--- Task 35: Instruct college students in social sciences or humanities disciplines.
+[A]
+  1. [IC] Review the course syllabus and lecture notes to ensure the topic aligns with the course objectives and students' current understanding.
+  2. [NA] Enter the classroom, greet students, and set up the presentation equipment, ensuring that the projector and screen are functioning properly.
+  3. [IC] Begin the lecture by providing an overview of the topic, its relevance, and learning objectives.
+  4. [ME] Deliver the main content, using a combination of slides, whiteboard explanations, and real-world examples to illustrate complex concepts.
+  5. [FV] Pause periodically to ask questions, encourage student participation, and address any confusion.
+  6. [NA] Introduce a brief group activity or discussion to engage students actively with the material.
+  7. [ME] Resume the lecture, building upon the group activity's outcomes and addressing any new questions that arose.
+  8. [FV] Conclude the lecture by summarizing the main points, providing resources for further learning, and encouraging students to ask questions.
+  9. [FV] Answer students' questions, providing clear and concise explanations.
+  10. [IC] End the lecture on time, thanking students for their participation and reminding them of the next lecture's topic and any upcoming assignments.
+[B]
+  1. [IC] Review the course syllabus and lecture notes to ensure the topic aligns with the course objectives and students' current understanding.
+  2. [IC] Enter the classroom, greet students, and establish a welcoming learning environment.
+  3. [IC] Begin the lecture by providing an overview of the topic, its relevance, and learning objectives.
+  4. [ME] Deliver the main content, using a combination of slides, whiteboard explanations, and real-world examples to illustrate complex concepts.
+  5. [FV] Pause every 15 minutes for a brief recap and to answer any questions that have arisen so far.
+  6. [NA] Introduce a brief group activity or discussion to engage students actively with the material.
+  7. [ME] Resume the lecture, building upon the group activity's outcomes and addressing any new questions that arose.
+  8. [FV] Conclude the lecture by summarizing the main points, providing resources for further learning, and encouraging students to ask questions.
+  9. [FV] Answer students' questions, providing clear and concise explanations.
+  10. [IC] End the lecture on time, thanking students for their participation and reminding them of the next lecture's topic.
+[C]
+  1. [IC] Review the course syllabus and lecture notes to determine key topics and learning objectives.
+  2. [IC] Prepare a lecture outline, including key points, examples, discussion questions, and potential visual aids.
+  3. [NA] Gather necessary materials, such as textbooks, handouts, slides, or multimedia resources.
+  4. [IC] Enter the classroom, greet students, and establish a welcoming learning environment.
+  5. [ME] Deliver the lecture, using a combination of clear explanations, relevant examples, and engaging visuals.
+  6. [FV] Pause periodically to ask questions, encourage discussion, and address student inquiries.
+  7. [FV] Summarize key points, connect concepts, and preview upcoming topics.
+  8. [IC] Assign relevant homework or readings to reinforce learning and encourage further exploration.
+[D]
+  1. [IC] Review course syllabus, lecture notes, and lesson plan to determine topics and align with course objectives.
+  2. [NA] Set up audio-visual equipment and arrange materials in the classroom.
+  3. [IC] Greet students, take attendance, and establish a welcoming learning environment.
+  4. [IC] Begin the lecture by providing an overview of the topic, its relevance, and learning objectives.
+  5. [ME] Deliver the main content using a combination of slides, whiteboard explanations, and real-world examples.
+  6. [FV] Pause periodically (every 15 minutes) for a brief recap and to answer any questions.
+  7. [NA] Introduce a brief group activity or discussion to engage students actively with the material.
+  8. [ME] Resume the lecture, building upon the group activity's outcomes and addressing any new questions.
+  9. [FV] Conclude the lecture by summarizing the main points, providing resources for further learning, and encouraging questions.
+  10. [FV] Answer students' questions, providing clear and concise explanations, and end the lecture on time.
+
+--- Task 36: Give medications or immunizations.
+[A]
+  1. [IC] Review the patient's electronic health record (EHR) to understand their medical history, allergies, and current medications.
+  2. [PD] Verify the patient's identity using their wristband or other identification methods.
+  3. [IC] Explain the procedure to the patient, addressing any questions or concerns.
+  4. [NA] Wash hands thoroughly using proper technique and put on gloves.
+  5. [NA] Locate and prepare the correct vaccine from the refrigerator, ensuring it is within its expiration date and the correct dosage.
+  6. [ME] Prepare the syringe by drawing the correct dose of the vaccine into it.
+  7. [PD] Disinfect the injection site on the patient's arm with an alcohol swab.
+  8. [ME] Administer the vaccine by inserting the needle into the patient's arm and injecting the dose.
+  9. [FV] Observe the patient for any immediate adverse reactions and provide post-vaccination care instructions.
+  10. [FV] Document the vaccine administration in the patient's medical record, including the date, type, and dosage.
+  11. [FV] Dispose of the used syringe safely in a sharps container.
+[B]
+  1. [PD] Review patient's medical record to verify their medical history and ensure they are eligible to receive the flu vaccine.
+  2. [IC] Verify the patient's identity and ensure they are the correct person to receive the vaccine.
+  3. [IC] Explain the vaccine process to the patient, including any potential side effects and what to expect.
+  4. [NA] Wash hands thoroughly and put on gloves to maintain hygiene.
+  5. [ME] Prepare the necessary equipment, including the syringe and biohazardous waste container, for vaccine administration.
+  6. [ME] Administer the flu vaccine to the patient, following proper safety protocols and guidelines.
+  7. [FV] Dispose of any biohazardous materials, including the used syringe and vaccine vial, in accordance with clinic protocols.
+  8. [FV] Document the vaccine administration in the patient's medical record, including the date, time, and lot number of the vaccine.
+  9. [FV] Verify that the patient has received the vaccine and is aware of any potential side effects or reactions.
+  10. [PD] Review the entire process to ensure that all necessary steps were completed and that the patient received the vaccine safely and effectively.
+[C]
+  1. [IC] Review patient's medical history and confirm eligibility for the medication/immunization.
+  2. [IC] Verify patient identity using two identifiers.
+  3. [IC] Explain the procedure to the patient, addressing any questions or concerns.
+  4. [FV] Wash hands thoroughly using proper technique.
+  5. [ME] Prepare the medication/vaccine, ensuring correct dosage and sterility.
+  6. [ME] Administer the medication/vaccine using appropriate technique.
+  7. [FV] Observe the patient for any immediate adverse reactions.
+  8. [FV] Document the administration in the patient's medical record.
+[D]
+  1. [IC] Review patient's medical history, allergies, and prescribed medications/immunizations in their electronic health record (EHR).
+  2. [IC] Verify patient's identity using at least two identifiers (e.g., name, date of birth, or wristband).
+  3. [IC] Explain the procedure to the patient, addressing any questions or concerns.
+  4. [FV] Wash hands thoroughly using proper technique to maintain hygiene.
+  5. [NA] Locate and prepare the necessary medications or immunizations, ensuring correct dosage and sterility.
+  6. [NA] Locate the appropriate injection site (if applicable) on the patient's body.
+  7. [ME] Administer the medications or immunizations to the patient, following proper hand hygiene, technique, and safety protocols.
+  8. [FV] Dispose of any biohazardous materials, such as used syringes and vaccine vials, in accordance with clinic protocols.
+  9. [FV] Document the administration of the medications or immunizations in the patient's EHR, including date, time, type, dosage, and any adverse reactions.
+  10. [FV] Observe the patient for any immediate adverse reactions and report them to the healthcare team if necessary.
+
+--- Task 37: Monitor animal behavior or condition.
+[A]
+  1. [IC] Check the daily schedule to know which animals to monitor and when.
+  2. [NA] Approach the animal enclosure while maintaining a safe distance and set up necessary equipment.
+  3. [PD] Observe the animal's behavior and physical condition, noting any unusual activities or signs of distress.
+  4. [FV] Record observations in a logbook or digital device, noting any changes in behavior or physical condition.
+  5. [PD] Compare current observations with previous records to identify trends or changes.
+  6. [IC] Notify a veterinarian or senior zookeeper if any signs of illness or distress are observed.
+  7. [ME] Adjust the animal's environment if necessary, such as providing additional shade or water.
+  8. [FV] Conclude the monitoring session and ensure all observations are documented and reported.
+[B]
+  1. [NA] Approach the elephant enclosure while maintaining a safe distance.
+  2. [PD] Observe the elephants' general activity and behavior from a safe vantage point.
+  3. [PD] Check for signs of distress, such as pacing, lack of appetite, or lethargy.
+  4. [PD] Note any changes in the elephants' physical appearance, such as wounds or changes in skin condition.
+  5. [PD] Listen for any unusual vocalizations or sounds that may indicate discomfort or distress.
+  6. [FV] Record observations in a logbook or digital device.
+  7. [PD] Compare current observations with previous records to identify trends or changes.
+  8. [IC] Notify a veterinarian if any signs of illness or distress are observed.
+  9. [ME] Adjust the elephants' environment if necessary, such as providing additional shade or water.
+  10. [FV] Conclude the monitoring session and ensure all observations are documented and reported.
+[C]
+  1. [IC] Review the daily schedule to identify the animals to be monitored and their designated observation times.
+  2. [NA] Don appropriate protective clothing and equipment for the specific animal enclosure.
+  3. [NA] Approach the animal enclosure calmly and quietly, maintaining a safe distance to minimize disturbance.
+  4. [PD] Systematically observe the animal's behavior, noting any unusual activities, interactions, or changes in routine.
+  5. [PD] Carefully assess the animal's physical condition, looking for signs of injury, illness, or discomfort.
+  6. [FV] Record observations and data in a designated logbook or digital device using standardized codes and abbreviations.
+  7. [PD] Compare current observations with previous records to identify trends, changes, or potential concerns.
+  8. [IC] If any signs of illness, distress, or unusual behavior are observed, immediately notify the appropriate veterinarian or supervisor.
+[D]
+  1. [IC] Check the daily schedule to know which animals to monitor and when.
+  2. [NA] Put on appropriate protective clothing and gear for entering the animal enclosure.
+  3. [NA] Approach the animals calmly and quietly to avoid disturbing their natural behavior.
+  4. [PD] Observe the animals' general activity, behavior, and physical condition.
+  5. [PD] Check for signs of distress, injury, illness, or discomfort, such as unusual vocalizations, changes in activity patterns, or physical abnormalities.
+  6. [ME] Record observations and data in a logbook or digital device, using specific codes and abbreviations.
+  7. [PD] Compare current observations with previous records to identify trends, changes, or anomalies.
+  8. [IC] Notify relevant personnel (e.g., veterinarian, senior zookeeper) if any signs of illness, distress, or hazards are observed.
+  9. [ME] Address any hazards found in the enclosure, such as removing sharp objects or repairing broken fences.
+  10. [FV] Conclude the monitoring session, ensuring all observations are documented and reported.
+
+--- Task 38: Evaluate technical data to determine effect on designs or plans.
+[A]
+  1. [IC] Access and review the existing design documents and technical data relevant to the task.
+  2. [NA] Load the technical data into the appropriate analysis software for detailed examination.
+  3. [PD] Analyze the data for anomalies, inconsistencies, and key parameters relevant to the design.
+  4. [PD] Compare the analyzed data with existing design specifications to identify necessary modifications.
+  5. [ME] Propose and document design modifications based on the data analysis.
+  6. [ME] Simulate the modified design using the analysis software to validate the proposed changes.
+  7. [FV] Review the simulation results to confirm the effectiveness of the design modifications.
+  8. [FV] Document the findings, including the analysis process, identified issues, and proposed design changes.
+[B]
+  1. [PD] Access the technical data relevant to the evaluation.
+  2. [PD] Review the technical data to understand its implications.
+  3. [PD] Compare the technical data with the existing design specifications.
+  4. [PD] Analyze the impact of the technical data on the design or plan.
+  5. [ME] Update the design or plan based on the analysis.
+  6. [FV] Verify that the updated design or plan meets the required specifications and standards.
+  7. [IC] Document the findings and recommendations.
+  8. [IC] Present the findings and recommendations to stakeholders.
+[C]
+  1. [PD] Access and review the technical data (e.g., wind tunnel test results, material specifications, soil analysis).
+  2. [NA] Compare the technical data with the existing design specifications and performance requirements.
+  3. [PD] Analyze the discrepancies and potential impacts of the data on the design.
+  4. [ME] Propose design modifications or adjustments to address the identified impacts.
+  5. [FV] Document the findings, including the data analysis, identified impacts, and proposed modifications.
+[D]
+  1. [IC] Review the task requirements and existing design documents to understand the context.
+  2. [PD] Access and analyze the technical data relevant to the task, such as wind tunnel test data, material specifications, or soil analysis reports.
+  3. [NA] Compare the technical data with the existing design specifications and requirements.
+  4. [PD] Identify areas where the design needs modification or further investigation based on the data analysis.
+  5. [ME] Propose potential design modifications or further analysis to address the identified issues.
+  6. [ME] Simulate or model the modified design using relevant software to validate the proposed changes.
+  7. [FV] Evaluate the simulation results to confirm the design improvements and ensure they meet the required standards.
+  8. [FV] Document the findings, including the analysis of technical data, proposed modifications, simulation results, and any recommendations.
+  9. [IC] Communicate the findings and recommendations to relevant stakeholders, such as project team members, engineers, or managers.
+
+--- Task 39: Examine financial records to ensure compliance with policies or regulations.
+[A]
+  1. [NA] Retrieve the company's financial records for the specified period from the secure digital archive.
+  2. [PD] Review the table of contents and index to understand the structure and content of the financial records.
+  3. [IC] Open the relevant compliance guidelines and internal policy documents to familiarize with the compliance criteria.
+  4. [PD] Begin reviewing the financial records, starting with the balance sheet and income statement, and cross-reference with supporting documentation.
+  5. [ME] Document any identified discrepancies or potential non-compliance issues in the audit report.
+  6. [PD] Review the company's accounts payable and accounts receivable records to ensure proper recording and payment of invoices.
+  7. [PD] Check the company's inventory records for accuracy and compliance with GAAP and internal policies.
+  8. [FV] Review the audit report and ensure all identified issues have been addressed and resolved.
+  9. [FV] Sign off on the financial records for the specified period, indicating that the audit has been completed and all compliance issues have been addressed.
+  10. [NA] Store the financial records and audit report in the secure digital archive, marking them as 'audited' for the specified period.
+[B]
+  1. [NA] Log into the company's financial database system to access the relevant financial records.
+  2. [IC] Review the Sarbanes-Oxley Act (SOX) and internal company policies to refresh understanding of compliance requirements.
+  3. [PD] Examine the general ledger entries for the fiscal period in question, focusing on key financial transactions.
+  4. [PD] Cross-reference the ledger entries with supporting documentation, such as invoices and receipts.
+  5. [PD] Perform ratio analysis on the financial statements to identify any unusual trends or patterns.
+  6. [PD] Check the internal controls documentation to ensure that the company has implemented the necessary controls as per SOX.
+  7. [ME] Document any non-compliance issues or discrepancies found during the review process.
+  8. [ME] Draft a detailed report summarizing the findings and recommendations for compliance improvements.
+  9. [FV] Review the draft report for accuracy and completeness before finalizing it.
+  10. [FV] Deliver the final report to the company's management for review and action.
+[C]
+  1. [IC] The auditor reviews the relevant compliance requirements, including regulations like SOX and internal company policies.
+  2. [NA] The auditor accesses the company's financial database system and retrieves the relevant financial records for the specified period.
+  3. [PD] The auditor examines the financial records, focusing on key transactions and comparing them against supporting documentation like invoices and receipts.
+  4. [PD] The auditor performs ratio analysis and other analytical procedures to identify unusual trends or patterns that may indicate non-compliance.
+  5. [ME] The auditor documents any identified non-compliance issues, including specific details, supporting evidence, and relevant regulations.
+  6. [ME] The auditor drafts a detailed report summarizing the findings, recommendations for remediation, and potential impact of non-compliance.
+  7. [FV] The auditor reviews the draft report for accuracy, completeness, and clarity before submitting it to management.
+[D]
+  1. [NA] Retrieve and open the company's financial records for the relevant fiscal period.
+  2. [PD] Review and understand the structure and content of the financial records.
+  3. [IC] Familiarize yourself with the relevant regulations, accounting standards, and internal policies.
+  4. [ME] Begin reviewing the financial records, focusing on key financial statements and transactions.
+  5. [PD] Compare the financial records with the relevant regulations, accounting standards, and internal policies to identify any discrepancies or potential non-compliance issues.
+  6. [ME] Document all identified issues in an audit report, noting the specific rule or regulation in question.
+  7. [FV] Review the audit report and ensure all identified issues have been addressed and resolved.
+  8. [FV] Sign off on the financial records, indicating that the audit has been completed and all compliance issues have been addressed.
+  9. [NA] Store the financial records and audit report securely, marking them as 'audited' for the relevant fiscal period.
+
+--- Task 40: Communicate dining or order details to kitchen personnel.
+[A]
+  1. [IC] Approach the table, greet customers, and ask for their order.
+  2. [IC] Listen attentively to the customers' order, noting any special requests or modifications.
+  3. [IC] Repeat the order back to the customers to confirm accuracy.
+  4. [NA] Navigate to the kitchen area, avoiding obstacles and reaching the kitchen window.
+  5. [ME] Clearly and concisely communicate the order to the kitchen staff, using verbal and visual cues if necessary.
+  6. [FV] Wait for the kitchen staff to acknowledge the order and ask any clarifying questions.
+  7. [FV] Confirm the order with the kitchen staff, ensuring they have all the necessary details.
+[B]
+  1. [IC] Approach the table and greet the customers.
+  2. [IC] Take the order from each customer, noting any special requests or modifications.
+  3. [IC] Repeat the order back to the customers to confirm accuracy.
+  4. [NA] Write down the order on a pad or enter it into a digital system.
+  5. [NA] Move to the kitchen area while carrying the order pad or device.
+  6. [ME] Hand the order pad to the kitchen staff or communicate the order through a digital system.
+  7. [FV] Confirm with the kitchen staff that they have received and understood the order.
+  8. [FV] Return to the table to inform the customers that their order has been placed.
+[C]
+  1. [IC] Approach the table, greet customers, and ask for their order.
+  2. [IC] Listen attentively to the customers' order, clarifying any ambiguous details.
+  3. [IC] Repeat the order back to the customers to confirm accuracy.
+  4. [NA] Navigate to the kitchen area, avoiding obstacles.
+  5. [IC] Clearly and concisely communicate the order to the kitchen staff.
+  6. [FV] Confirm the order with the kitchen staff, ensuring they have all necessary details.
+[D]
+  1. [IC] Approach the table, greet customers, and ask for their order.
+  2. [IC] Actively listen to the customers' order, noting down each dish and any modifications. Clarify any ambiguous details.
+  3. [IC] Repeat the order back to the customers to confirm accuracy.
+  4. [NA] Navigate through the restaurant, avoiding obstacles like other waitstaff and customers.
+  5. [NA] Approach the kitchen window, wait for a pause in the kitchen staff's activity.
+  6. [IC] Clearly and concisely communicate the order to the kitchen staff, speaking loudly and slowly to overcome kitchen noise. Use visual aids like printed order tickets to reinforce verbal communication.
+  7. [FV] Wait for the kitchen staff to acknowledge the order and ask any clarifying questions. Answer these questions to ensure complete understanding.
+  8. [FV] Confirm the order with the kitchen staff, ensuring they have all the necessary details before leaving the kitchen area.
+
+================================================================
+ANSWER TEMPLATE
+
+33: _ | 
+34: _ | 
+35: _ | 
+36: _ | 
+37: _ | 
+38: _ | 
+39: _ | 
+40: _ | 
+

@@ -1,0 +1,151 @@
+﻿action_description,label_MPNet,label_BGE,agree,human_label,human_notes,correct_MPNet,correct_BGE
+"Document the maintenance activity, including issues encountered, actions taken, and any adjustments made.",LLM,LLM,True,LLM,,True,True
+"Develop initial costume and makeup sketches for main characters, incorporating historical accuracy and script details.",LLM,LLM,True,LLM,,True,True
+"Prepare and disseminate informational materials (e.g., presentations, brochures, online resources) to educate the community about the issue and recommended actions.",LLM,LLM,True,LLM,,True,True
+"Conduct performance evaluations, including setting goals, providing feedback, and documenting progress.",LLM,LLM,True,LLM,,True,True
+"Design a customized financial plan, outlining the recommended investment strategy, product allocation, and expected outcomes.",LLM,LLM,True,LLM,,True,True
+"Perform a site survey to identify utilities, assess terrain, and locate safe entry/exit points.",LLM,LLM,True,Multimodal_Perception,"改判:现场勘测需到场观察地形/探测管线,属感知而非纯文本",False,False
+"Develop personalized exercise regimens for each athlete, considering their individual needs, goals, and the team's overall training plan.",LLM,LLM,True,LLM,,True,True
+Estimate potential market size and forecast demand for the product or service using the developed forecast model and market segmentation.,LLM,LLM,True,LLM,,True,True
+"Label the packaged meat with necessary information (weight, price, date).",LLM,LLM,True,LLM,,True,True
+"Review project brief, energy efficiency standards, and target vehicle performance requirements.",LLM,LLM,True,LLM,,True,True
+"Summarize research findings, potential applications, and feasibility assessments in a concise report.",LLM,LLM,True,LLM,,True,True
+"Overlay and correlate different data types (e.g., seismic data on satellite imagery, topographical data with seismic data).",LLM,LLM,True,LLM,,True,True
+Gather feedback from clients and attendees to evaluate event success and identify areas for improvement.,LLM,LLM,True,LLM,,True,True
+Analyze the collected data to assess program effectiveness and identify areas for improvement.,LLM,LLM,True,LLM,,True,True
+"Create a shared project management board, breaking down tasks, setting deadlines, and assigning responsibilities.",LLM,LLM,True,LLM,,True,True
+"Explain the project timeline, key milestones, and anticipated outcomes.",LLM,LLM,True,LLM,,True,True
+Distribute the finalized schedule to all relevant parties and update the scheduling system.,LLM,LLM,True,LLM,,True,True
+Review and clarify project requirements document with stakeholders.,LLM,LLM,True,LLM,,True,True
+"Collaborate with costume makers and makeup artists to bring the designs to life, overseeing construction and application.",LLM,LLM,True,LLM,,True,True
+"Review the draft report with the professor, incorporating feedback and revisions.",LLM,LLM,True,LLM,,True,True
+Research and evaluate green technologies and sustainable practices relevant to the plant's operations.,LLM,LLM,True,LLM,,True,True
+"Develop a preliminary layout sketch, considering space allocation, circulation, and functional relationships.",LLM,LLM,True,LLM,,True,True
+"Write the introduction section, summarizing the research objectives and methodology.",LLM,LLM,True,LLM,,True,True
+"Analyze the processed data to identify trends, patterns, and areas for improvement, using statistical methods or visualizations.",LLM,LLM,True,LLM,,True,True
+"Present the report and proposed solutions to relevant stakeholders (management, engineers, designers, safety personnel).",LLM,LLM,True,LLM,,True,True
+Conclude the presentation by summarizing key points and thanking attendees for their participation.,LLM,LLM,True,LLM,,True,True
+Review the draft plan with the project team and stakeholders to gather feedback and ensure alignment.,LLM,LLM,True,LLM,,True,True
+"Access and review the property listing from relevant databases (MLS, online platforms).",LLM,LLM,True,LLM,,True,True
+Deliver the test results and documentation to the project manager or client for review.,LLM,LLM,True,LLM,,True,True
+"Define the scope of the verification: specify the time period, financial statements, and key areas of focus.",LLM,LLM,True,LLM,,True,True
+Communicate with workers to clarify practices and address concerns.,LLM,Human_Bound,False,Human_Bound,,False,True
+"Enter the suspect's personal details (name, date of birth, etc.) into the database.",LLM,Human_Bound,False,LLM,,True,False
+"Document observations, take photographs, and note specific locations and codes violated during the inspection.",LLM,Multimodal_Perception,False,Multimodal_Perception,,False,True
+"Receive customer insurance information request (e.g., via phone call, online portal).",LLM,Human_Bound,False,Human_Bound,,False,True
+"Negotiate contract terms with the chosen venue, including rental fees, catering options, and technical specifications.",LLM,Human_Bound,False,Human_Bound,,False,True
+"Address student questions, clarifying concepts and providing additional examples.",LLM,Human_Bound,False,LLM,,True,False
+"Greet the client, introduce yourself, and explain the purpose of the visit.",LLM,Human_Bound,False,Human_Bound,,False,True
+"Resolve customer complaints or concerns promptly and professionally, finding solutions that maintain customer satisfaction.",LLM,Human_Bound,False,Human_Bound,,False,True
+"Inspect the surface for dust, imperfections, dents, or scratches.",Multimodal_Perception,Multimodal_Perception,True,Multimodal_Perception,,True,True
+"Utilize specialized tools (e.g., handheld scanners, drones) to assess electrical output, performance metrics, and structural integrity.",Multimodal_Perception,Multimodal_Perception,True,Multimodal_Perception,,True,True
+"Inspect the undercarriage for leaks, corrosion, and damage from previous accidents.",Multimodal_Perception,Multimodal_Perception,True,Multimodal_Perception,,True,True
+"Position oneself strategically for observation, considering visibility, concealment, and safety.",Multimodal_Perception,Multimodal_Perception,True,Multimodal_Perception,,True,True
+"Visually inspect the equipment for any signs of wear, damage, or malfunction.",Multimodal_Perception,Multimodal_Perception,True,Multimodal_Perception,,True,True
+"Compare the test results against the expected values and industry standards, identifying any deviations.",Multimodal_Perception,Multimodal_Perception,True,Multimodal_Perception,,True,True
+Approach the property/conveyor belt and prepare for inspection.,Multimodal_Perception,Multimodal_Perception,True,Multimodal_Perception,,True,True
+"Based on the provided information, diagnose the potential cause(s) of the technical issue.",Multimodal_Perception,Multimodal_Perception,True,Multimodal_Perception,,True,True
+Inspect the shipment for visible damage or discrepancies compared to the manifest.,Multimodal_Perception,Multimodal_Perception,True,Multimodal_Perception,,True,True
+Inspect connections for leaks using a pressure test or visual inspection.,Multimodal_Perception,Multimodal_Perception,True,Multimodal_Perception,,True,True
+Inspect the metal components for any initial deformities or irregularities.,Multimodal_Perception,Multimodal_Perception,True,Multimodal_Perception,,True,True
+"Use the excavator's controls to dig into the coal seam, monitoring depth and force to avoid damage.",Multimodal_Perception,Multimodal_Perception,True,Embodied,"改判:操作挖掘机控制杆挖掘=物理操作机械,属Embodied",False,False
+Review the safety equipment inventory or map to determine the equipment types and locations to be inspected.,Multimodal_Perception,Multimodal_Perception,True,Multimodal_Perception,,True,True
+"Connect the appropriate test equipment (e.g., hydraulic test rig, diagnostic tool) to the equipment, following the manual's diagrams and ensuring secure attachment.",Multimodal_Perception,Multimodal_Perception,True,Multimodal_Perception,,True,True
+"Execute the fabrication process, monitoring the machine for any anomalies.",Multimodal_Perception,Multimodal_Perception,True,Multimodal_Perception,,True,True
+Allow the equipment to warm up (if necessary) to ensure stable readings.,Multimodal_Perception,Multimodal_Perception,True,Multimodal_Perception,,True,True
+Check the tightness of connections between antenna elements and cables.,Multimodal_Perception,Multimodal_Perception,True,Multimodal_Perception,,True,True
+Inspect the cut fabric pieces for any defects or inconsistencies.,Multimodal_Perception,Multimodal_Perception,True,Multimodal_Perception,,True,True
+"Inspect the surface (deck, window frame, etc.) for debris, damage, and identify areas needing sealant.",Multimodal_Perception,Multimodal_Perception,True,Multimodal_Perception,,True,True
+Conduct a final visual and tactile inspection of all rivets to ensure they meet required standards.,Multimodal_Perception,Multimodal_Perception,True,Multimodal_Perception,,True,True
+The technician continues to monitor the video displays and respond to any further issues or alerts that may arise.,Multimodal_Perception,Multimodal_Perception,True,Multimodal_Perception,,True,True
+"Inspect the filled area to ensure it is smooth and even, and make any necessary adjustments.",Multimodal_Perception,Multimodal_Perception,True,Multimodal_Perception,,True,True
+Review the operational manual and any recent maintenance logs for the recycling equipment.,Multimodal_Perception,Multimodal_Perception,True,LLM,"改判:阅读操作手册/维护日志=读文本,属LLM",False,False
+Investigate production lines or machinery exhibiting high energy consumption or anomalies.,Multimodal_Perception,Multimodal_Perception,True,Multimodal_Perception,,True,True
+Initiate the test sequence and monitor the system's performance data.,Multimodal_Perception,Multimodal_Perception,True,Multimodal_Perception,,True,True
+Locate the coolant control panel on the machine.,Multimodal_Perception,Multimodal_Perception,True,Multimodal_Perception,,True,True
+Conduct a final inspection of the completed installation to ensure all components are functioning correctly and meet quality standards.,Multimodal_Perception,Multimodal_Perception,True,Multimodal_Perception,,True,True
+"Document the scene through photographs and videos, capturing relevant details like damage, hazards, and positions.",Multimodal_Perception,Multimodal_Perception,True,Multimodal_Perception,,True,True
+Visually inspect the equipment or system for any obvious issues or damage.,Multimodal_Perception,Multimodal_Perception,True,Multimodal_Perception,,True,True
+Measure ingredients accurately using scales and measuring cups.,Multimodal_Perception,Multimodal_Perception,True,Multimodal_Perception,,True,True
+"Document the repair process, including the damaged part, repair method, and any observations.",Multimodal_Perception,LLM,False,LLM,,False,True
+Identify the required temperature for the baking task from the recipe or instructions.,Multimodal_Perception,LLM,False,LLM,,False,True
+"Position equipment (e.g., excavators, cranes) and ensure it is functioning correctly and safely positioned.",Multimodal_Perception,Embodied,False,Embodied,,False,True
+Verify the expiration date on each document to ensure it is still valid.,Multimodal_Perception,LLM,False,LLM,,False,True
+Assess the patient's current understanding and knowledge regarding the medical procedure or equipment use.,Multimodal_Perception,Human_Bound,False,Human_Bound,,False,True
+"Verify the physical dimensions, operational parameters, or other specified criteria using appropriate tools and techniques.",Multimodal_Perception,LLM,False,Multimodal_Perception,,True,False
+"Study assembly instructions to understand setup sequence, required tools, and safety considerations.",Multimodal_Perception,LLM,False,LLM,,False,True
+"Remove the old part, noting connections and configurations.",Multimodal_Perception,LLM,False,Embodied,"两encoder均未选对:拆卸旧零件=物理操作,选Embodied",False,False
+Securely position the sample within the equipment according to the required setup.,Embodied,Embodied,True,Embodied,,True,True
+Repeat steps 2-6 until the desired amount of material is moved.,Embodied,Embodied,True,Embodied,,True,True
+Power down the equipment and disconnect it from power sources and networks.,Embodied,Embodied,True,Embodied,,True,True
+"Apply the finishing material to the surface using the appropriate technique (spraying, troweling, brushing) and tools.",Embodied,Embodied,True,Embodied,,True,True
+Deposit the trees at the collection point and prepare for the next felling cycle.,Embodied,Embodied,True,Embodied,,True,True
+"Wrap or protect each product with the prepared packaging materials, ensuring all components are covered and secure.",Embodied,Embodied,True,Embodied,,True,True
+Assemble the cut pieces using appropriate joinery techniques and fasteners.,Embodied,Embodied,True,Embodied,,True,True
+"Open the equipment's loading mechanism (e.g., hopper lid) and position the material container over the opening.",Embodied,Embodied,True,Embodied,,True,True
+"Cut the carcass into primal cuts (e.g., chuck, rib, loin) using appropriate tools.",Embodied,Embodied,True,Embodied,,True,True
+Smooth the surface using a rake or other appropriate tool.,Embodied,Embodied,True,Embodied,,True,True
+Navigate to the assigned inventory zone.,Embodied,Embodied,True,Embodied,,True,True
+"The teacher demonstrates the proper technique for dribbling a basketball, emphasizing hand position and ball control.",Embodied,Embodied,True,Embodied,,True,True
+Don appropriate personal protective equipment (PPE) as specified in the protocols.,Embodied,Embodied,True,Embodied,,True,True
+"Don personal protective equipment (PPE) including helmet, gloves, and breathing apparatus.",Embodied,Embodied,True,Embodied,,True,True
+"Connect the cable to the equipment ports at both the starting point and endpoint, ensuring the correct ports and cable types.",Embodied,Embodied,True,Embodied,,True,True
+"Using a straight edge and marker, draw lines from the starting point to mark the required reference points according to the plans.",Embodied,Embodied,True,Embodied,,True,True
+Empty trash receptacles and replace liners.,Embodied,Embodied,True,Embodied,,True,True
+Repeat steps 2-5 for the next item on the conveyor belt.,Embodied,Embodied,True,Embodied,,True,True
+"Once the required depth is reached, switch to backfilling to ensure a flat and compacted trench bottom.",Embodied,Embodied,True,Embodied,,True,True
+"Demobilize according to incident commander's instructions, ensuring equipment is secured and the area is safe.",Embodied,Embodied,True,Embodied,,True,True
+"Position the chainsaw at the designated felling notch, ensuring proper stance and grip.",Embodied,Embodied,True,Embodied,,True,True
+"Begin snow removal, using a systematic pattern to ensure complete coverage.",Embodied,Embodied,True,Embodied,,True,True
+Move the shipment to its designated storage location.,Embodied,Embodied,True,Embodied,,True,True
+"Safely restrain the cow in a stanchion or chute, minimizing stress and ensuring worker safety.",Embodied,Embodied,True,Embodied,,True,True
+Dispose of trash and debris in designated bins.,Embodied,Embodied,True,Embodied,,True,True
+"Turn off the engine, remove keys, and ensure all personal belongings are collected before exiting.",Embodied,Embodied,True,Embodied,,True,True
+Set up sterile drapes around the surgical site to create a sterile field.,Embodied,Embodied,True,Embodied,,True,True
+"Carefully pour the prepared material into the mold, ensuring even distribution and minimizing air bubbles.",Embodied,Embodied,True,Embodied,,True,True
+Position the workpiece on a flat surface to ensure even application.,Embodied,Embodied,True,Embodied,,True,True
+"Repeat steps 3-5 for each subsequent outfit, ensuring a smooth transition between looks.",Embodied,Embodied,True,Embodied,,True,True
+"Strip insulation from the wire ends, exposing the conductive core for connection.",Embodied,Multimodal_Perception,False,Embodied,,True,False
+Sign and date the bill of lading and customs declaration form to confirm verification.,Embodied,LLM,False,Human_Bound,"在海关/提单上签字确认=法律担责行为,需人类签署,选Human_Bound",False,False
+Complete any necessary documentation or electronic logging to record the sample delivery.,Embodied,LLM,False,LLM,,False,True
+"Monitor the movement of the first group of vehicles, ensuring they proceed safely through the intersection.",Embodied,Multimodal_Perception,False,Multimodal_Perception,,False,True
+Confirm receipt and address any questions or concerns from the recipient.,Embodied,Human_Bound,False,Human_Bound,,False,True
+"Update the quantity, location, and condition of each item in the inventory system.",Embodied,LLM,False,LLM,,False,True
+Prepare the treatment solution according to the manufacturer's instructions and the client's hair type.,Embodied,Human_Bound,False,Embodied,,True,False
+Greet the patron and inquire about their research topic or specific document needs.,Human_Bound,Human_Bound,True,Human_Bound,,True,True
+Obtain verbal consent from the individual for the search.,Human_Bound,Human_Bound,True,Human_Bound,,True,True
+"Access the team's communication platform (e.g., Slack, Microsoft Teams) and navigate to the relevant channel or direct message.",Human_Bound,Human_Bound,True,Human_Bound,,True,True
+Wish the patient a pleasant day and direct them to the waiting area or next available staff member.,Human_Bound,Human_Bound,True,Human_Bound,,True,True
+The bus driver greets the passenger and clearly states the fare amount.,Human_Bound,Human_Bound,True,Human_Bound,,True,True
+Escort the patient to the soundproof booth and ensure comfortable seating.,Human_Bound,Human_Bound,True,Human_Bound,,True,True
+Update the customer's account status to reflect the payment.,Human_Bound,Human_Bound,True,Human_Bound,,True,True
+"The financial advisor drafts the loan agreement, incorporating the agreed-upon terms and conditions.",Human_Bound,Human_Bound,True,Human_Bound,,True,True
+"Greet the client, confirm appointment details, and inquire about specific pain points, desired pressure, and any areas to avoid.",Human_Bound,Human_Bound,True,Human_Bound,,True,True
+Thank the customer for their patience and end the call/email professionally.,Human_Bound,Human_Bound,True,Human_Bound,,True,True
+"Contact relevant authorities, affected parties, or news sources for official confirmation and additional details.",Human_Bound,Human_Bound,True,Human_Bound,,True,True
+"Consult with the patient to understand their needs, limitations, and desired functionality.",Human_Bound,Human_Bound,True,Human_Bound,,True,True
+"Conduct a brief safety huddle with the team, addressing any concerns or changes in protocols and ensuring proper PPE usage.",Human_Bound,Human_Bound,True,Human_Bound,,True,True
+Position the patient in the dental chair and adjust lighting for optimal visibility.,Human_Bound,Human_Bound,True,Human_Bound,,True,True
+Discreetly address any observed violations by approaching the student and reminding them of the relevant policy.,Human_Bound,Human_Bound,True,Human_Bound,,True,True
+"Seek clarification or assistance when encountering difficulties: online forums, mentors, peers.",Human_Bound,Human_Bound,True,Human_Bound,,True,True
+"Guide the patient through initial practice, providing hands-on assistance and verbal cues as needed.",Human_Bound,Human_Bound,True,Human_Bound,,True,True
+Help the client choose one concrete action step they can take to address their interpersonal issue.,Human_Bound,Human_Bound,True,Human_Bound,,True,True
+"Provide a clear and concise overview of the relevant legal issues, avoiding jargon.",Human_Bound,Human_Bound,True,Human_Bound,,True,True
+Teach and practice a specific coping skill or relaxation technique with the client.,Human_Bound,Human_Bound,True,Human_Bound,,True,True
+Deliver an electrical shock if advised by the AED.,Human_Bound,Human_Bound,True,Human_Bound,,True,True
+"Discuss and agree upon potential treatment goals, considering the client's input and preferences.",Human_Bound,Human_Bound,True,Human_Bound,,True,True
+Confirm with the customer that their issue is resolved and they are satisfied with the outcome.,Human_Bound,Human_Bound,True,Human_Bound,,True,True
+"If applicable, the tuner consults with the performer, playing specific passages and adjusting the tuning based on their feedback.",Human_Bound,Human_Bound,True,Human_Bound,,True,True
+"Collaboratively set realistic and achievable goals with the patient, outlining specific action steps.",Human_Bound,Human_Bound,True,Human_Bound,,True,True
+"Assist the client in taking their medications, ensuring the correct dosage and timing.",Human_Bound,Human_Bound,True,Human_Bound,,True,True
+"After the proceedings, debrief with the client, explaining the outcome, next steps, and addressing any questions.",Human_Bound,Human_Bound,True,Human_Bound,,True,True
+"Actively listen to the client's situation, concerns, and desired outcomes.",Human_Bound,Human_Bound,True,Human_Bound,,True,True
+"The physical therapist summarizes the session's progress, sets goals for the next session, and answers any patient questions.",Human_Bound,Human_Bound,True,Human_Bound,,True,True
+Collaboratively brainstorm and discuss potential coping mechanisms tailored to the client's needs.,Human_Bound,Human_Bound,True,Human_Bound,,True,True
+"The student practices the skill independently, applying the teacher's guidance and feedback.",Human_Bound,Embodied,False,Human_Bound,,True,False
+Document the agreed-upon changes to the treatment plan.,Human_Bound,LLM,False,LLM,,False,True
+"If necessary, provide relevant financial documents or forms for the client to review and complete.",Human_Bound,LLM,False,LLM,,False,True
+"Document the prescription, including the patient's name, device type, specific instructions, and any follow-up plans.",Human_Bound,LLM,False,LLM,,False,True
+"Identify the specific services and resources the client needs (e.g., food assistance, healthcare, childcare).",Human_Bound,LLM,False,Human_Bound,,True,False
+Save the report in the appropriate format and share it with the intended recipient(s).,Human_Bound,LLM,False,LLM,,False,True
+"Maintain the sterile field throughout the entire surgical procedure, ensuring all actions comply with sterility protocols.",Human_Bound,Embodied,False,Embodied,,False,True

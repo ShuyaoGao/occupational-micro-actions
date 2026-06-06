@@ -1,0 +1,382 @@
+BATCH 42/63 | Model: Gemini 3 Pro | Tasks 329-336
+================================================================
+EXPERT REVIEW -- Micro-Action Sequence Evaluation
+For each task, read ALL four options, then choose the BEST (A/B/C/D).
+
+Criteria:
+  1. Completeness  -- no critical steps missing
+  2. Realism       -- every step is concretely executable
+  3. Stage accuracy -- stage label correct for each step:
+     IC=Intent_Communication  NA=Navigation_Addressing
+     PD=Perception_Diagnosis  ME=Manipulation_Execution  FV=Feedback_Verification
+  4. Conciseness   -- no redundant or duplicate steps
+  5. Scope         -- starts and ends at exactly the right point
+
+OUTPUT: fill the ANSWER TEMPLATE at the bottom.
+Format: N: X | one-sentence reason (max 12 words)
+IMPORTANT: Each task has a different best answer. Do NOT pick the same
+letter for every task without reading.
+================================================================
+
+--- Task 329: Gather information in order to provide services to clients.
+[A]
+  1. [IC] Answer the incoming call from the client and greet them in a friendly and professional manner.
+  2. [IC] Identify the client by asking for their name and account number.
+  3. [PD] Ask the client to describe the issue they are experiencing and listen attentively to their response.
+  4. [PD] Ask follow-up questions to clarify the issue, such as the time it started, any error messages, and what the client has tried so far.
+  5. [NA] Verify the client's device and router models and check their account for any recent service changes or outages.
+  6. [ME] Ask the client to perform a speed test and provide the results.
+  7. [FV] Summarize the gathered information and confirm with the client.
+  8. [FV] Provide the client with the next steps, such as troubleshooting steps or a technician visit.
+  9. [FV] Thank the client for their call and inform them of the expected timeline and any required setup instructions.
+[B]
+  1. [IC] Answer the incoming call from the client.
+  2. [IC] Identify the client by asking for their name and account number.
+  3. [IC] Ask the client to describe the issue they are experiencing with their internet service.
+  4. [PD] Listen to the client's description of the issue and take notes.
+  5. [IC] Ask follow-up questions to clarify the issue, such as the time it started, any error messages, and what the client has tried so far.
+  6. [NA] Verify the client's device and router models.
+  7. [NA] Check the client's account for any recent service changes or outages.
+  8. [ME] Ask the client to perform a speed test and provide the results.
+  9. [FV] Summarize the gathered information and confirm with the client.
+  10. [FV] Provide the client with the next steps, such as troubleshooting steps or a technician visit.
+[C]
+  1. [IC] Answer the incoming call from the client and greet them professionally.
+  2. [IC] Identify the client and their reason for calling.
+  3. [PD] Listen attentively to the client's description of their issue and take notes.
+  4. [IC] Ask clarifying questions to fully understand the client's needs.
+  5. [NA] Access relevant client information and service records.
+  6. [FV] Summarize the gathered information and confirm understanding with the client.
+  7. [ME] Provide the client with appropriate solutions, next steps, or further assistance.
+[D]
+  1. [IC] Answer the incoming call from the client and greet them professionally.
+  2. [IC] Confirm the client's identity by asking for their name and account number.
+  3. [IC] Ask the client to describe the issue they're experiencing with their service.
+  4. [PD] Listen to the client's description, take notes, and ask follow-up questions to clarify the issue.
+  5. [NA] Verify the client's device and router models, and check their account for any recent service changes or outages.
+  6. [ME] Ask the client to perform a speed test and provide the results.
+  7. [FV] Summarize the gathered information, confirm it with the client, and document it on the computer screen.
+  8. [FV] Provide the client with the next steps, such as troubleshooting steps or a technician visit, and answer any further questions they may have.
+  9. [IC] Thank the client for their time, summarize the resolution, and provide a clear next course of action.
+
+--- Task 330: Install drilling equipment.
+[A]
+  1. [IC] Review the drilling equipment manual and the rig's operations plan to understand the installation requirements and any specific safety protocols.
+  2. [PD] Inspect the drilling equipment and the rig's platform to identify any potential hazards or obstacles that may affect the installation process.
+  3. [NA] Navigate to the designated installation area on the rig's platform, ensuring safety and the absence of obstacles.
+  4. [ME] Using a crane, lift and position the base of the drilling rig onto the prepared foundation and secure it using anchor bolts and torque wrenches.
+  5. [ME] Assemble the mast sections, connecting them securely and ensuring proper alignment, and mount the drill head onto the mast, connecting hydraulic lines and electrical wiring.
+  6. [FV] Conduct a final inspection of all connections, ensuring everything is secure and properly aligned.
+  7. [FV] Activate the safety systems (emergency shutdown, drill head guards) and test their functionality.
+  8. [IC] Document the installation process, including any issues that arose and adjustments made, and submit the report to the site supervisor.
+[B]
+  1. [IC] Review the drilling equipment manual and the rig's operations plan to understand the installation requirements and any specific safety protocols.
+  2. [PD] Inspect the drilling equipment and the rig's platform to identify any potential hazards or obstacles that may affect the installation process.
+  3. [NA] Navigate the rig's platform to reach the designated installation area, while ensuring safety and the safety of others on board.
+  4. [ME] Lift and position the drilling equipment into place, using the rig's cranes and winches to minimize manual labor.
+  5. [ME] Secure the drilling equipment to the rig's platform, using bolts and other fastening mechanisms to ensure stability and safety.
+  6. [FV] Test the drilling equipment to ensure it is functioning properly and making the necessary connections to the rig's systems.
+  7. [FV] Document the installation process and any issues that arose during the installation, for future reference and quality control.
+  8. [IC] Communicate the completion of the installation to the rig's operations team and receive feedback on any issues that may have arisen during the process.
+  9. [PD] Review the installation process and any issues that arose during the installation, to identify areas for improvement and optimize future installations.
+  10. [IC] Update the rig's operations plan and the drilling equipment manual to reflect any changes or improvements made during the installation process.
+  11. [FV] Conduct a final inspection of all connections, ensuring everything is secure and properly aligned.
+  12. [FV] Activate the safety systems (emergency shutdown, drill head guards) and test their functionality.
+[C]
+  1. [IC] Review the drilling equipment manual and the rig's operations plan to understand installation requirements and safety protocols.
+  2. [NA] Navigate to the designated installation area, ensuring safety and identifying potential hazards.
+  3. [ME] Unload and position the drilling rig components near the installation site using appropriate equipment (crane, forklift).
+  4. [ME] Assemble the rig's main components (base, mast, drill head) according to the assembly schematics, ensuring proper alignment and secure connections.
+  5. [ME] Secure the base to the foundation using anchor bolts and torque wrenches, verifying levelness and stability.
+  6. [ME] Connect hydraulic lines, electrical wiring, and any other necessary systems according to the schematics.
+  7. [PD] Conduct a final inspection of all connections, alignments, and safety systems, ensuring everything is secure and functional.
+  8. [FV] Test the rig's functionality, including safety systems, and document the installation process and any adjustments made.
+  9. [IC] Communicate the completion of the installation to the supervisor and receive feedback.
+[D]
+  1. [IC] Review the drilling equipment manual, rig's operations plan, and assembly schematics to understand installation requirements, safety protocols, and component sequence.
+  2. [PD] Inspect the drilling equipment and installation area for any potential hazards, obstacles, or damages.
+  3. [NA] Navigate to the designated installation area, ensuring safety and considering any specific access requirements.
+  4. [ME] Unload and position the drilling equipment components near the installation site using appropriate machinery (e.g., forklift, crane).
+  5. [ME] Prepare the installation area by cleaning and leveling the surface as needed.
+  6. [ME] Assemble the drilling rig's main components (base, mast, drill head) in the correct sequence, ensuring proper alignment and secure connections.
+  7. [ME] Secure the assembled rig to the foundation or surface using appropriate fasteners (e.g., bolts, adhesive), ensuring stability and levelness.
+  8. [ME] Connect the drilling equipment to the rig's hydraulic, electrical, and safety systems, following the assembly schematics.
+  9. [FV] Conduct a final inspection of all connections, ensuring everything is secure, properly aligned, and functioning correctly.
+  10. [FV] Test the drilling equipment by running it at low speed and checking its stability and functionality.
+  11. [IC] Document the installation process, including any issues encountered, and submit the report to the site supervisor.
+
+--- Task 331: Examine personal documentation to ensure that it is valid.
+[A]
+  1. [NA] Retrieve the employee's identification documents from the HR filing system or request them from the employee.
+  2. [IC] Review the employee's digital records to understand the context of the documentation required.
+  3. [PD] Visually inspect each document for completeness and authenticity, including checking for tampering, altered information, and security features.
+  4. [PD] Verify the expiration dates and personal information on the documents to ensure they are still valid and accurate.
+  5. [PD] Cross-reference the information across documents and with the employee's records to ensure consistency.
+  6. [PD] Compare the photo on the ID to the employee's physical appearance to confirm identity.
+  7. [FV] Make a decision: approve the documents as valid, request additional information, or flag potential issues for further review.
+  8. [FV] Document the findings in the HR audit report, noting any discrepancies or issues.
+  9. [FV] Return the original documents to the employee, confirming that the verification process is complete.
+[B]
+  1. [NA] Retrieve the employee's identification documents from the HR filing system.
+  2. [IC] Review the employee's digital records to understand the context of the documentation required.
+  3. [PD] Inspect the passport for any signs of tampering or forgery, such as altered pages or inconsistent printing.
+  4. [PD] Verify the passport's expiration date to ensure it is still valid.
+  5. [PD] Compare the passport photo with the employee's current appearance to confirm identity.
+  6. [PD] Inspect the driver's license for any signs of tampering or forgery, such as altered information or inconsistent holograms.
+  7. [PD] Verify the driver's license's expiration date to ensure it is still valid.
+  8. [PD] Cross-reference the information on the passport and driver's license to ensure consistency.
+  9. [FV] Document the findings in the HR audit report, noting any discrepancies or issues.
+  10. [FV] Submit the completed audit report to the HR manager for review and final approval.
+[C]
+  1. [NA] Retrieve the employee's identification documents (e.g., passport, driver's license, social security card) from the designated storage location.
+  2. [PD] Visually inspect each document for completeness (all pages present, signatures in place) and obvious signs of tampering or forgery.
+  3. [PD] Compare the photo on the ID to the employee's current appearance.
+  4. [PD] Cross-reference information across documents (e.g., name, address, date of birth) to ensure consistency.
+  5. [PD] Verify the expiration dates on all relevant documents.
+  6. [FV] Make a decision: approve the documents as valid, request additional information, or flag potential issues for further review.
+  7. [FV] Document the findings and decision in the HR system or audit report.
+[D]
+  1. [NA] Retrieve the employee's identification documents (ID, passport, driver's license, etc.) from the designated storage or HR filing system.
+  2. [IC] Review the employee's digital records to understand the context of the required documentation and verify their personal information.
+  3. [PD] Visually inspect each document for completeness, checking for all pages, signatures, and security features.
+  4. [PD] Compare the photo on each ID with the employee's current appearance to confirm identity.
+  5. [PD] Cross-reference information across documents (e.g., name, address, date of birth) to ensure consistency.
+  6. [PD] Check for any obvious inconsistencies, altered information, or signs of tampering on each document.
+  7. [PD] Verify the expiration date on each document to ensure it is still valid.
+  8. [FV] Make a decision: approve the documents as valid, request additional information, or flag potential issues for further review.
+  9. [FV] Document the findings in the HR audit report, noting any discrepancies, issues, or decisions made.
+  10. [FV] Submit the completed audit report to the HR manager for review and final approval.
+
+--- Task 332: Maintain medical or professional knowledge.
+[A]
+  1. [NA] Log into the hospital's intranet or a medical journal aggregator and navigate to the 'Continuing Education' section or search for recent articles on the topic of interest.
+  2. [PD] Scan the list of recently published articles or protocols to identify those relevant to current patient cases or professional practice.
+  3. [PD] Read the abstracts and introductions of the selected articles to assess their relevance and depth.
+  4. [PD] Download and read the full articles, focusing on the methodology, results, and discussion sections to understand the new findings or techniques.
+  5. [ME] Summarize the key points of the articles in your own words and relate the new information to specific patient cases or current practice.
+  6. [IC] Discuss the new findings or techniques with colleagues during a departmental meeting or webinar to gain additional insights and perspectives.
+  7. [ME] Practice the new technique or approach on a simulator or in a controlled environment to refine skills and build confidence.
+  8. [ME] Incorporate the new knowledge or technique into practice, such as updating treatment plans or performing a new procedure.
+  9. [FV] Evaluate the outcomes of the new approach or technique and document the results for future reference and continuous improvement.
+  10. [FV] Regularly review and update the knowledge base to ensure ongoing relevance and accuracy.
+[B]
+  1. [IC] Log into the webinar platform and join the session on new clinical guidelines for managing hypertension.
+  2. [PD] Listen to the webinar presentation and take detailed notes on the new clinical guidelines.
+  3. [IC] Participate in the Q&A session during the webinar to clarify any doubts and gain deeper insights.
+  4. [NA] Download and save the webinar presentation slides and any supplementary materials.
+  5. [NA] Access a medical journal database (e.g., PubMed) and search for recent articles on hypertension management.
+  6. [PD] Read the abstracts of the articles to identify those that are most relevant to current clinical practice.
+  7. [PD] Read the full text of the selected articles and take detailed notes on the key findings and recommendations.
+  8. [ME] Organize the notes from the webinar and the articles into a structured document for future reference.
+  9. [FV] Review the organized notes and ensure all key information is captured and understood.
+  10. [FV] Save the document in a designated folder for professional development and update the knowledge base.
+[C]
+  1. [IC] Identify a knowledge gap related to professional practice.
+  2. [NA] Search for relevant learning resources (e.g., webinars, journals, conferences).
+  3. [PD] Engage with the chosen resource (e.g., watch a webinar, read an article).
+  4. [ME] Take notes and summarize key learnings.
+  5. [FV] Reflect on the new knowledge and its implications for practice.
+  6. [IC] Discuss learnings with colleagues or mentors for deeper understanding and diverse perspectives.
+  7. [ME] Implement new knowledge and skills in practice, monitoring outcomes.
+  8. [FV] Continuously seek out new knowledge and refine practices.
+[D]
+  1. [IC] Receive or actively seek notifications about new research, guidelines, or articles relevant to your field.
+  2. [PD] Scan and assess the relevance of the new information by reading abstracts, introductions, or summaries.
+  3. [PD] Read and digest the full text of the most relevant information, focusing on key sections like methodology, results, and discussion.
+  4. [PD] Compare the new information with your current knowledge and practices.
+  5. [IC] Discuss the new information with colleagues, seeking their insights and perspectives.
+  6. [ME] Practice or apply the new knowledge in a safe environment, such as a simulator or role-play, to build confidence and skill.
+  7. [ME] Incorporate the new knowledge into your practice when appropriate, ensuring patient safety and ethical considerations.
+  8. [FV] Evaluate the outcomes of applying the new knowledge, reflecting on its impact and any necessary adjustments.
+  9. [FV] Update your knowledge base and professional development records with the new information.
+  10. [FV] Regularly review and update your knowledge to ensure you remain current with the latest research and best practices.
+
+--- Task 333: Assemble precision electronics or optical equipment.
+[A]
+  1. [PD] Review the assembly manual and instructions for the precision electronics or optical equipment, ensuring understanding of the required components and assembly sequence.
+  2. [NA] Enter the clean room and don cleanroom attire, including a lab coat, gloves, and a hairnet, to prevent contamination.
+  3. [NA] Retrieve the components from the storage area and place them on the assembly table, following the assembly manual's instructions.
+  4. [PD] Inspect each component for any defects or imperfections under a high-magnification microscope.
+  5. [ME] Assemble the optical and mechanical components, ensuring proper alignment and calibration, and secure them using specialized tools and fasteners.
+  6. [ME] Connect the electronic components, including control boards, power supplies, and sensors, following the assembly manual's instructions.
+  7. [FV] Test the assembled components for proper alignment, calibration, and functionality, making adjustments as necessary.
+  8. [PD] Perform a final visual inspection of the assembled equipment to ensure all components are correctly positioned and secured.
+  9. [FV] Document the assembly process and calibration settings, and deliver the assembled equipment to the quality control department.
+[B]
+  1. [IC] Enter the clean room and don cleanroom attire, including a lab coat, gloves, and a hairnet.
+  2. [PD] Review the assembly manual and instructions for the confocal microscope, ensuring understanding of the required components and assembly sequence.
+  3. [NA] Retrieve the microscope components from the storage area, including lenses, mirrors, and electronic sensors.
+  4. [ME] Carefully place the first lens on the base and align it using a micrometer.
+  5. [ME] Attach the first lens to the base using screws and a torque wrench, applying the specified torque.
+  6. [ME] Install the electronic sensors and connect them to the microscope's control system.
+  7. [PD] Calibrate the microscope by adjusting the alignment of the lenses and mirrors to achieve optimal focus.
+  8. [FV] Test the microscope by observing a sample and verifying that the image is clear and in focus.
+  9. [FV] Document the assembly process and calibration settings, and deliver the assembled microscope to the quality control department.
+  10. [PD] Perform a final visual inspection of the assembled lens under magnification to ensure all elements are correctly positioned and secured.
+  11. [ME] Clean the assembled lens using specialized cleaning solutions and lint-free wipes to remove any dust or fingerprints.
+  12. [NA] Place the completed lens assembly in a protective container for transport to the next stage of the manufacturing process.
+[C]
+  1. [IC] Don cleanroom attire, including a lab coat, gloves, and a hairnet.
+  2. [IC] Review the assembly manual and instructions for the specific equipment.
+  3. [NA] Retrieve the necessary components from their designated storage locations.
+  4. [PD] Inspect each component for defects or imperfections using appropriate magnification tools.
+  5. [ME] Assemble the components according to the instructions, using specialized tools and fixtures for precise alignment.
+  6. [ME] Secure each component using the specified fasteners or adhesives, applying the correct torque.
+  7. [PD] Perform a final visual inspection of the assembled equipment to ensure all components are correctly positioned and secured.
+  8. [FV] Test the assembled equipment according to the specified procedures, verifying functionality and performance.
+  9. [FV] Document the assembly process, including any adjustments made, and record the test results.
+[D]
+  1. [IC] Review assembly instructions and blueprints to understand task requirements.
+  2. [IC] Put on and secure cleanroom attire to prevent contamination.
+  3. [NA] Enter cleanroom and locate workstation with required tools and components.
+  4. [PD] Retrieve and inspect each component for any damage or defects.
+  5. [ME] Position and align the first component using appropriate tools and fixtures.
+  6. [ME] Secure the first component using appropriate fasteners or adhesive, applying correct torque.
+  7. [ME] Repeat steps 5 and 6 for each subsequent component in the assembly sequence.
+  8. [PD] Perform a final visual inspection of the assembled equipment to ensure all components are correctly positioned and secured.
+  9. [FV] Test the assembled equipment by applying power and verifying its functionality according to specifications.
+  10. [FV] Document the assembly process, calibration settings, and test results, then deliver the assembled equipment to the next stage or quality control department.
+
+--- Task 334: Record details of deliveries or shipments.
+[A]
+  1. [IC] Retrieve the handheld device and log into the warehouse management system.
+  2. [NA] Navigate to the delivery area, avoiding obstacles and other workers.
+  3. [PD] Scan the barcode on the first shipment box using the handheld device.
+  4. [PD] Verify the scanned barcode matches the expected shipment in the system.
+  5. [ME] Enter the quantity of items, date and time, and any additional notes about the shipment condition.
+  6. [FV] Save the entry in the system.
+  7. [ME] Repeat steps 3-6 for each shipment box in the delivery.
+  8. [FV] Review the recorded entries to ensure all details are correct.
+  9. [FV] Submit the completed records to the warehouse management system.
+[B]
+  1. [IC] Retrieve the handheld device and log into the warehouse management system.
+  2. [NA] Approach the first shipment box and scan the barcode using the handheld device.
+  3. [PD] Verify the scanned barcode matches the expected shipment in the system.
+  4. [ME] Enter the quantity of items in the shipment.
+  5. [ME] Enter the date and time of the shipment.
+  6. [ME] Enter any additional notes about the shipment condition.
+  7. [FV] Save the entry in the system.
+  8. [ME] Repeat steps 2-7 for each shipment box in the delivery.
+  9. [FV] Review the recorded entries to ensure all details are correct.
+  10. [FV] Submit the completed records to the warehouse management system.
+[C]
+  1. [IC] Retrieve the handheld device and log into the warehouse management system.
+  2. [NA] Approach the first shipment and scan the barcode.
+  3. [PD] Verify the scanned barcode matches the expected shipment details in the system.
+  4. [ME] Enter the quantity of items and any additional notes about the shipment condition.
+  5. [FV] Save the entry in the system.
+  6. [ME] Repeat steps 2-5 for each remaining shipment.
+  7. [FV] Review all recorded entries for completeness and accuracy.
+[D]
+  1. [IC] Retrieve the handheld device (tablet and scanner) from the charging station.
+  2. [NA] Navigate to the delivery area, avoiding obstacles and other workers.
+  3. [PD] Locate the first delivery and scan the barcode using the handheld scanner.
+  4. [FV] Wait for the tablet device to sync with the handheld scanner and display the delivery details.
+  5. [PD] Verify the displayed details match the physical delivery, checking for any discrepancies.
+  6. [ME] Input any additional notes or remarks about the delivery into the tablet device.
+  7. [FV] Repeat steps 3 to 6 for all deliveries in the area.
+  8. [NA] Once all deliveries are logged, navigate back to the charging station.
+  9. [FV] Return the tablet device and handheld scanner to the charging station and sync the logged data with the main system.
+
+--- Task 335: Operate on patients to treat conditions.
+[A]
+  1. [IC] The surgical team confirms patient identity, allergies, and surgical site.
+  2. [IC] The surgeon reviews the patient's medical history and confirms the surgical plan with the anesthesiologist.
+  3. [ME] The surgeon positions the patient on the operating table and makes a small incision near the umbilicus to insert the laparoscope.
+  4. [PD] The surgeon uses the laparoscope to visually inspect the abdominal cavity and identify the surgical target (e.g., gallbladder or appendix).
+  5. [ME] The surgeon carefully dissects the tissues surrounding the target organ and removes it (e.g., gallbladder or appendix).
+  6. [PD] The surgeon inspects the surgical site for any remaining tissue or signs of bleeding.
+  7. [ME] The surgeon closes the incisions with sutures or staples and applies sterile dressings.
+  8. [FV] The surgeon confirms the patient's vital signs are stable and prepares for transfer to the recovery room.
+  9. [FV] The surgeon delivers the patient to the recovery room and provides a detailed handover to the recovery team.
+  10. [IC] The surgeon documents the procedure, the patient's condition, and any complications that occurred during the surgery.
+[B]
+  1. [IC] The surgeon reviews the patient's medical history, current condition, and the surgical plan to ensure a clear understanding of the procedure and potential challenges.
+  2. [NA] The surgeon prepares the operating room, including setting up the necessary equipment, ensuring proper lighting, and positioning the patient for optimal access.
+  3. [ME] The surgeon makes the initial incision and creates a portal for the laparoscope, while an assistant provides counter-traction to maintain optimal visibility.
+  4. [PD] The surgeon uses the laparoscope to visualize the gallbladder and surrounding tissues, identifying any potential complications or anomalies.
+  5. [ME] The surgeon carefully dissects the tissues surrounding the gallbladder, taking care not to damage nearby structures or organs.
+  6. [ME] The surgeon ligates the cystic duct and artery, ensuring a secure and complete removal of the gallbladder.
+  7. [ME] The surgeon removes the gallbladder from the patient's body and inspects the area to ensure no remaining tissue or complications.
+  8. [ME] The surgeon closes the incisions, ensuring a secure and watertight seal to prevent leakage or complications.
+  9. [PD] The surgeon reviews the patient's condition and the surgical site to ensure a successful outcome and identify any potential areas for improvement.
+  10. [IC] The surgeon documents the patient's medical history, surgical procedure, and any complications or anomalies encountered during the procedure.
+  11. [IC] The surgeon reviews the patient's post-operative instructions and provides guidance on wound care, pain management, and follow-up appointments.
+  12. [IC] The surgeon confirms the patient's understanding of the post-operative instructions and provides reassurance and support as needed.
+[C]
+  1. [IC] The surgical team confirms patient identity, allergies, and surgical site.
+  2. [IC] The surgeon reviews the patient's medical history and surgical plan, confirming understanding with the anesthesiologist.
+  3. [NA] The surgeon positions the patient on the operating table and marks the surgical site.
+  4. [ME] The surgeon makes the initial incision and creates access for the laparoscope.
+  5. [PD] The surgeon uses the laparoscope to visualize the target organ and surrounding tissues, identifying any potential complications.
+  6. [ME] The surgeon carefully dissects the target organ from surrounding tissues, taking care to avoid damage.
+  7. [ME] The surgeon removes the target organ and inspects the surgical site for any remaining tissue or complications.
+  8. [ME] The surgeon closes the incisions, ensuring a secure and watertight seal.
+  9. [FV] The surgical team confirms the patient's vital signs are stable and prepares for transfer to the recovery room.
+[D]
+  1. [IC] Review patient's medical history, current condition, and surgical plan.
+  2. [NA] Prepare the operating room, set up equipment, and position the patient.
+  3. [NA] Dress in sterile surgical attire (gown and gloves).
+  4. [ME] Make initial incision and create a portal for the laparoscope.
+  5. [PD] Use the laparoscope to visualize the gallbladder and surrounding tissues.
+  6. [ME] Carefully dissect the tissues surrounding the gallbladder.
+  7. [ME] Ligate the cystic duct and artery, ensuring secure removal of the gallbladder.
+  8. [ME] Remove the gallbladder from the patient's body and inspect the area.
+  9. [ME] Close the incisions, ensuring a secure and watertight seal.
+  10. [PD] Review the patient's condition and the surgical site for any complications.
+  11. [IC] Document the patient's medical history, surgical procedure, and any complications.
+  12. [IC] Review and provide post-operative instructions to the patient.
+
+--- Task 336: Develop database parameters or specifications.
+[A]
+  1. [IC] Conduct a meeting with stakeholders to understand their data needs, including the types of data to be stored, expected traffic, and required query speeds.
+  2. [PD] Research and evaluate different database management systems (DBMS) based on the company's needs, such as MySQL, PostgreSQL, or MongoDB.
+  3. [ME] Design the database schema, including tables, columns, data types, and relationships, based on the company's data needs.
+  4. [ME] Create the tables in the database using the designed schema and define indexes on the tables to improve query performance.
+  5. [FV] Test the database by inserting sample data and running queries to ensure it functions as expected.
+  6. [FV] Document the database parameters, including the chosen DBMS, schema design, user permissions, and any specific configurations.
+  7. [NA] Deploy the database to the production environment and notify the relevant teams that the database is ready for use.
+[B]
+  1. [IC] Schedule a meeting with the e-commerce company's management to discuss their database requirements.
+  2. [IC] Review the business requirements document to understand the company's needs for the database.
+  3. [PD] Research and evaluate different database management systems (e.g., MySQL, PostgreSQL, MongoDB) to determine the best fit for the company's needs.
+  4. [PD] Identify the necessary database parameters, such as data types, field lengths, and relationships between tables.
+  5. [ME] Design the database schema, including tables, fields, and relationships, based on the identified parameters.
+  6. [ME] Create a detailed specification document outlining the database design, including data types, constraints, and relationships.
+  7. [FV] Review the specification document for completeness and accuracy.
+  8. [IC] Present the database parameters and specifications to the client and address any questions or concerns.
+  9. [FV] Finalize the database parameters and specifications based on client feedback and deliver the final document.
+  10. [NA] Deploy the database to the production environment, ensuring that it is properly configured and secured.
+  11. [FV] Test the database in the production environment to ensure that it is functioning correctly and efficiently.
+  12. [FV] Document the lessons learned and areas for improvement, and update the database parameters and specifications as needed.
+[C]
+  1. [IC] Meet with stakeholders to understand their data needs, including types of data, expected traffic, and required query speeds.
+  2. [PD] Research and evaluate suitable database management systems (DBMS) based on the gathered requirements.
+  3. [ME] Design the database schema, including tables, columns, data types, and relationships.
+  4. [ME] Define indexes on tables to optimize query performance based on anticipated usage patterns.
+  5. [FV] Document the database parameters, including the chosen DBMS, schema design, and any specific configurations.
+[D]
+  1. [IC] Conduct a meeting with stakeholders to understand their data needs, including the types of data to be stored, expected traffic, and required query speeds.
+  2. [IC] Review the business requirements document and any available data models or diagrams to gain a deeper understanding of the company's needs.
+  3. [PD] Research and evaluate different database management systems (DBMS) based on the company's needs, such as MySQL, PostgreSQL, or MongoDB.
+  4. [ME] Based on the chosen DBMS, create a new database instance on the company's server or cloud platform.
+  5. [ME] Design the database schema, including tables, columns, data types, relationships, and indexes, based on the company's data needs.
+  6. [ME] Create the tables in the database using the designed schema.
+  7. [ME] Set up user accounts and permissions for the database, ensuring data security and access control.
+  8. [FV] Test the database by inserting sample data and running queries to ensure it functions as expected.
+  9. [ME] Optimize the database performance by tuning settings, indexing, and query optimization based on the test results.
+  10. [FV] Document the database parameters, including the chosen DBMS, schema design, user permissions, and any specific configurations.
+  11. [NA] Deploy the database to the production environment and notify the relevant teams that the database is ready for use.
+
+================================================================
+ANSWER TEMPLATE
+
+329: _ | 
+330: _ | 
+331: _ | 
+332: _ | 
+333: _ | 
+334: _ | 
+335: _ | 
+336: _ | 
+

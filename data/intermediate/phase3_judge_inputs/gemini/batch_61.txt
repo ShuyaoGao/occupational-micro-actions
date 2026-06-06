@@ -1,0 +1,356 @@
+BATCH 61/63 | Model: Gemini 3 Pro | Tasks 481-488
+================================================================
+EXPERT REVIEW -- Micro-Action Sequence Evaluation
+For each task, read ALL four options, then choose the BEST (A/B/C/D).
+
+Criteria:
+  1. Completeness  -- no critical steps missing
+  2. Realism       -- every step is concretely executable
+  3. Stage accuracy -- stage label correct for each step:
+     IC=Intent_Communication  NA=Navigation_Addressing
+     PD=Perception_Diagnosis  ME=Manipulation_Execution  FV=Feedback_Verification
+  4. Conciseness   -- no redundant or duplicate steps
+  5. Scope         -- starts and ends at exactly the right point
+
+OUTPUT: fill the ANSWER TEMPLATE at the bottom.
+Format: N: X | one-sentence reason (max 12 words)
+IMPORTANT: Each task has a different best answer. Do NOT pick the same
+letter for every task without reading.
+================================================================
+
+--- Task 481: Establish organizational guidelines or policies.
+[A]
+  1. [IC] Review existing company policies and industry best practices for remote work.
+  2. [IC] Conduct a survey to gather employee feedback on remote work preferences and challenges.
+  3. [PD] Analyze survey data and identify key themes and concerns.
+  4. [ME] Draft initial policy document outlining remote work eligibility, procedures, and expectations.
+  5. [IC] Share draft policy with leadership team and solicit feedback.
+  6. [ME] Revise policy document based on leadership feedback.
+  7. [FV] Finalize policy document and obtain necessary approvals.
+  8. [IC] Communicate finalized policy to all employees and provide training on its implementation.
+  9. [FV] Monitor policy effectiveness and make adjustments as needed to ensure ongoing compliance and best practices.
+[B]
+  1. [IC] Review existing company policies and industry best practices for remote work.
+  2. [IC] Conduct a survey of employee preferences and needs regarding remote work.
+  3. [PD] Analyze survey data and identify key themes and concerns.
+  4. [ME] Draft initial policy document outlining remote work eligibility, procedures, and expectations.
+  5. [IC] Share draft policy with leadership team and solicit feedback.
+  6. [ME] Revise policy document based on leadership feedback.
+  7. [FV] Finalize policy document and obtain necessary approvals.
+  8. [IC] Communicate finalized policy to all employees and provide training on its implementation.
+[C]
+  1. [IC] Review existing company policies and industry best practices for remote work.
+  2. [IC] Conduct a survey to gather employee feedback on remote work preferences and challenges.
+  3. [PD] Analyze survey data and identify key themes and concerns.
+  4. [ME] Draft initial policy document outlining remote work eligibility, procedures, and expectations.
+  5. [IC] Share draft policy with a representative group of stakeholders (including employees and leadership) for feedback.
+  6. [ME] Revise the policy document based on stakeholder feedback.
+  7. [FV] Finalize the policy document and obtain necessary approvals from leadership.
+  8. [IC] Communicate the finalized policy to all employees through various channels (e.g., email, meetings, intranet).
+[D]
+  1. [IC] Review existing company policies and industry best practices.
+  2. [IC] Conduct surveys or interviews with employees and stakeholders to gather input.
+  3. [PD] Analyze gathered data to identify key themes, concerns, and needs.
+  4. [ME] Draft initial policy document outlining eligibility, procedures, expectations, and responsible parties.
+  5. [IC] Share draft policy with relevant stakeholders and leadership for feedback.
+  6. [ME] Revise policy document based on stakeholder feedback and ensure alignment with company mission, vision, and values.
+  7. [FV] Obtain necessary approvals from leadership and legal department.
+  8. [IC] Communicate finalized policy to all employees through various channels and provide training on its implementation.
+  9. [ME] Develop a plan for policy implementation, including monitoring, evaluation, and periodic reviews.
+
+--- Task 482: Relay information between personnel.
+[A]
+  1. [IC] The project manager receives a detailed report from the development team about the critical bug fix.
+  2. [PD] The project manager reads and comprehends the report, noting key points such as the nature of the bug, the fix, and any potential impacts.
+  3. [NA] The project manager opens a communication channel with the client support team, such as an email or a messaging platform.
+  4. [ME] The project manager drafts a clear and concise message summarizing the critical bug fix and its implications.
+  5. [FV] The project manager reviews the drafted message to ensure accuracy and clarity.
+  6. [ME] The project manager sends the message to the client support team.
+  7. [FV] The project manager waits for a response from the client support team to confirm receipt and understanding.
+  8. [FV] The client support team responds, indicating they have received and understood the information.
+[B]
+  1. [IC] The project manager receives a detailed report from the development team about the critical bug fix.
+  2. [PD] The project manager reads and comprehends the report, noting key points such as the nature of the bug, the fix, and any potential impacts.
+  3. [NA] The project manager opens a communication channel with the client support team, such as an email or a messaging platform.
+  4. [ME] The project manager drafts a clear and concise message summarizing the critical bug fix and its implications.
+  5. [FV] The project manager reviews the drafted message to ensure accuracy and clarity.
+  6. [ME] The project manager sends the message to the client support team.
+  7. [FV] The project manager waits for a response from the client support team to confirm receipt and understanding.
+  8. [FV] The client support team responds, indicating they have received and understood the information.
+  9. [FV] The project manager confirms the successful relay of information and ensures the support team is prepared to communicate the bug fix to clients.
+[C]
+  1. [IC] The information originator (e.g., project manager, nurse, foreman) identifies the target recipient(s) and the key information to be relayed.
+  2. [NA] The originator navigates to the appropriate communication channel (e.g., email, messaging platform, in-person) to reach the recipient.
+  3. [ME] The originator composes a clear and concise message, tailoring the language and level of detail to the recipient's understanding and context.
+  4. [IC] The originator transmits the message to the recipient.
+  5. [FV] The originator receives confirmation from the recipient that the message has been received and understood.
+[D]
+  1. [PD] Observe and assess the situation or receive relevant information.
+  2. [NA] Locate and ensure the availability of the intended recipient of the information.
+  3. [IC] Compose a clear and concise message or summary of the information to be relayed.
+  4. [IC] Use an appropriate communication channel or method to convey the message.
+  5. [FV] Verify that the recipient has received and understood the message.
+  6. [ME] Address any questions or concerns raised by the recipient.
+  7. [ME] Document the communication, including date, time, and details.
+  8. [FV] Agree on a plan of action or next steps, ensuring a seamless transition of information and responsibilities.
+  9. [IC] Return to your tasks or duties, confident that the information has been successfully relayed.
+  10. [FV] Periodically check back to update the recipient on any new developments or address any new concerns.
+
+--- Task 483: Instruct college students in physical or life sciences.
+[A]
+  1. [IC] Review lecture notes and prepare visual aids (diagrams, equations) to illustrate key concepts.
+  2. [NA] Set up the classroom with necessary equipment, such as a projector and whiteboard, and arrange materials on the podium.
+  3. [IC] Welcome students, introduce the topic, and outline the session's objectives.
+  4. [PD] Present core concepts using a combination of verbal explanations, diagrams, and equations on the whiteboard.
+  5. [FV] Pause periodically to check for student understanding, asking questions and encouraging participation.
+  6. [FV] Address student questions, clarifying concepts and providing additional examples.
+  7. [IC] Summarize key takeaways from the lecture, emphasizing the practical applications of the concepts.
+  8. [ME] Distribute handouts or links to additional resources for further study.
+  9. [IC] Conclude the lecture, dismissing students and indicating any follow-up assignments or readings.
+[B]
+  1. [IC] Review lecture notes and prepare visual aids (diagrams, equations) to illustrate key concepts.
+  2. [NA] Enter the lecture hall, arrange materials on the podium, and greet arriving students.
+  3. [IC] Introduce the topic, outlining the lecture's key learning objectives and connecting it to previous material.
+  4. [PD] Present core concepts using a combination of verbal explanations, diagrams, and equations on the whiteboard.
+  5. [FV] Pause periodically to check for student understanding, asking questions and encouraging participation.
+  6. [FV] Address student questions, clarifying concepts and providing additional examples.
+  7. [IC] Summarize key takeaways from the lecture, emphasizing the practical applications of the concepts.
+  8. [IC] Conclude the lecture, dismissing students and indicating any follow-up assignments or readings.
+  9. [ME] Distribute handouts or links to additional resources for further study.
+  10. [FV] Assess student understanding through a quiz or other assessment method, providing feedback on their performance.
+[C]
+  1. [IC] Review lecture notes and update them with the latest research findings.
+  2. [NA] Prepare the classroom, including setting up necessary equipment like projectors and whiteboards.
+  3. [IC] Greet students and briefly introduce the topic, outlining the session's objectives.
+  4. [PD] Present core concepts using a combination of verbal explanations, visual aids, and real-world examples.
+  5. [FV] Pause periodically to check for student understanding, asking questions and encouraging participation.
+  6. [FV] Address student questions, clarifying concepts and providing additional examples.
+  7. [IC] Summarize key takeaways and connect them to broader themes or future topics.
+  8. [IC] Assign follow-up work or readings to deepen understanding and promote independent learning.
+[D]
+  1. [IC] Review and update lecture notes with the latest research findings.
+  2. [NA] Set up the classroom with necessary equipment (e.g., projector, whiteboard, visual aids).
+  3. [IC] Greet students and introduce the topic, outlining key learning objectives.
+  4. [PD] Deliver the lecture, explaining fundamental concepts using a combination of verbal explanations, diagrams, and equations.
+  5. [FV] Pause periodically to check student understanding, asking questions and encouraging participation.
+  6. [FV] Address student questions, clarifying concepts and providing additional examples.
+  7. [IC] Summarize key takeaways from the lecture, emphasizing practical applications.
+  8. [ME] Distribute handouts or links to additional resources for further study.
+  9. [FV] Assess student understanding through a quiz or activity, providing feedback on their performance.
+  10. [IC] Conclude the lecture, reminding students of upcoming assignments and any important dates.
+
+--- Task 484: Collaborate with technical specialists to resolve design or development problems.
+[A]
+  1. [IC] The lead developer schedules a meeting with technical specialists to discuss the performance or design issues.
+  2. [IC] The lead developer presents the current performance metrics, user feedback, and any relevant documentation to the team.
+  3. [PD] Technical specialists review the provided information and identify potential inefficiencies or issues in their respective areas.
+  4. [IC] The team discusses potential solutions and agrees on a plan to address the identified issues.
+  5. [ME] Specialists implement the agreed-upon changes in their respective areas of the application.
+  6. [FV] The team tests the application in a staging environment to ensure the issues are resolved and the application functions correctly.
+  7. [FV] The lead developer confirms the issues are resolved and deploys the updated application to production.
+[B]
+  1. [IC] Schedule a meeting with relevant technical specialists to discuss design or development problems.
+  2. [IC] Present the current design or development status, including any relevant metrics or user feedback.
+  3. [PD] Review the application's code, database queries, or other relevant components to identify potential issues.
+  4. [IC] Discuss potential solutions and agree on a plan to address the design or development problems.
+  5. [ME] Implement the agreed-upon changes in the application code, database queries, or other relevant components.
+  6. [FV] Test the updated application in a development or staging environment to ensure the design or development problems are resolved.
+  7. [FV] Deploy the updated application to production and monitor its performance to ensure the design or development problems are fully resolved.
+  8. [FV] Review the resolution process with the team and document the lessons learned for future reference.
+[C]
+  1. [IC] Identify the problem and gather relevant information (error messages, user feedback, performance metrics).
+  2. [IC] Assemble a team of relevant specialists (e.g., database specialist, front-end developer).
+  3. [IC] Present the problem and gathered information to the team, ensuring shared understanding.
+  4. [PD] Each specialist independently analyzes the problem within their domain (e.g., reviewing code, database queries).
+  5. [IC] The team collaborates to discuss potential solutions, considering all perspectives.
+  6. [IC] Agree on a solution and assign tasks to specific team members.
+  7. [ME] Each specialist implements their assigned solution (e.g., code changes, database optimizations).
+  8. [FV] The team integrates the changes and tests the solution thoroughly.
+  9. [FV] Confirm the problem is resolved and document the solution for future reference.
+[D]
+  1. [IC] Identify and document the problem, including symptoms, error messages, and user feedback.
+  2. [NA] Reproduce the problem consistently to provide a reliable test case.
+  3. [IC] Communicate the problem to relevant technical specialists, sharing the documentation and test case.
+  4. [PD] Explain the application's high-level architecture and relevant components to the specialist.
+  5. [PD] The specialist reviews the problem documentation, test case, and application architecture.
+  6. [IC] The specialist asks clarifying questions and requests additional information if needed.
+  7. [ME] The specialist proposes a solution, explaining the changes to be made.
+  8. [ME] Implement the proposed changes in the application code.
+  9. [FV] Test the fix locally to ensure it resolves the problem without introducing regressions.
+  10. [FV] Deploy the fix to the production environment and monitor the application's performance.
+
+--- Task 485: Receive information or instructions for performing work assignments.
+[A]
+  1. [NA] The technician logs into the video conferencing software and joins the scheduled call with the supervisor.
+  2. [IC] The supervisor provides a verbal overview of the maintenance task to be performed on the robotic arm.
+  3. [IC] The technician asks clarifying questions about specific components and procedures involved in the maintenance task.
+  4. [PD] The supervisor provides detailed instructions and diagrams via screen sharing to illustrate the maintenance steps.
+  5. [PD] The technician takes notes and confirms the key points of the instructions with the supervisor.
+  6. [FV] The supervisor reviews the technician's understanding and provides additional details if necessary.
+  7. [FV] The technician confirms the task boundaries and the expected completion time with the supervisor.
+  8. [NA] The supervisor ends the call, and the technician prepares to begin the maintenance task on the robotic arm.
+[B]
+  1. [IC] Log into video conferencing software and join the scheduled call with the supervisor.
+  2. [IC] Provide a verbal overview of the maintenance task to be performed on the robotic arm.
+  3. [IC] Ask clarifying questions about specific components and procedures involved in the maintenance task.
+  4. [IC] Provide detailed instructions and diagrams via screen sharing to illustrate the maintenance steps.
+  5. [IC] Take notes and confirm the key points of the instructions with the supervisor.
+  6. [IC] Review the technician's understanding and provide additional details if necessary.
+  7. [IC] Confirm the task boundaries and the expected completion time with the supervisor.
+  8. [ME] Prepare to begin the maintenance task on the robotic arm.
+[C]
+  1. [IC] Receive instructions from supervisor through verbal communication or visual aids.
+  2. [IC] Ask clarifying questions to resolve any ambiguities in the instructions.
+  3. [PD] Review any provided diagrams, blueprints, or written documentation.
+  4. [FV] Summarize understanding of the task back to the supervisor for confirmation.
+  5. [ME] Prepare necessary tools and materials based on the instructions.
+  6. [NA] Proceed to the designated work location.
+[D]
+  1. [IC] Join the scheduled video call with the supervisor.
+  2. [IC] Listen attentively to the supervisor's verbal overview of the maintenance task.
+  3. [IC] Ask clarifying questions about specific components, procedures, or ambiguous aspects of the task.
+  4. [PD] Take notes on the verbal instructions and any visual aids provided (e.g., diagrams, blueprints).
+  5. [FV] Confirm understanding of the instructions by summarizing them back to the supervisor.
+  6. [IC] Review the task boundaries, expected completion time, and any other relevant details with the supervisor.
+  7. [ME] End the call and prepare to begin the maintenance task on the robotic arm.
+
+--- Task 486: Operate audiovisual equipment.
+[A]
+  1. [IC] Meet with the event coordinator to understand the conference's AV requirements, such as presentation slides, videos, and microphone usage.
+  2. [NA] Inspect the room's layout and identify the optimal placement for speakers, microphones, and projectors.
+  3. [ME] Set up the projector, screen, and speakers, ensuring they are properly connected and positioned.
+  4. [ME] Power on the projector, laptop, and speakers, and select the correct input source on the projector.
+  5. [PD] Adjust the projector's focus, brightness, and keystone settings to achieve a clear and properly proportioned image.
+  6. [FV] Play a test audio clip from the laptop to ensure the speakers are functioning correctly and adjust volume levels as needed.
+  7. [FV] Conduct a final sound and visual check with the event coordinator to ensure everything is functioning correctly.
+  8. [FV] Monitor the AV equipment during the conference, ensuring smooth operation and switching between presentation slides, videos, and other AV elements as needed.
+  9. [NA] Upon conclusion of the conference, pack up the AV equipment, ensuring all components are accounted for.
+  10. [IC] Meet with the event coordinator to discuss the AV equipment's performance and address any feedback.
+[B]
+  1. [NA] Enter the conference room and locate the projector, sound system, and laptop.
+  2. [ME] Connect the laptop to the projector using an HDMI cable.
+  3. [ME] Power on the projector and sound system.
+  4. [ME] Adjust the projector to display the laptop screen correctly.
+  5. [FV] Test the sound system by playing a sample audio file from the laptop.
+  6. [ME] Open the presentation slides on the laptop.
+  7. [ME] Adjust the projector settings to ensure the slides are displayed clearly.
+  8. [FV] Check the sound system again to ensure it is ready for the presentation.
+  9. [FV] Wait for the meeting to start and monitor the equipment for any issues.
+  10. [ME] Power down the projector and sound system after the meeting ends.
+[C]
+  1. [IC] Identify the required audiovisual equipment (projector, screen, speakers, cables, laptop) and their desired placement within the room.
+  2. [NA] Gather and position the audiovisual equipment in the designated locations.
+  3. [ME] Connect the laptop to the projector using the appropriate cable (HDMI or VGA).
+  4. [ME] Connect the speakers to the laptop or projector using audio cables.
+  5. [ME] Power on the projector, laptop, and speakers, and select the correct input source on the projector.
+  6. [PD] Adjust the projector's focus, brightness, and keystone settings to achieve a clear and properly proportioned image.
+  7. [FV] Play a test audio clip from the laptop to ensure the speakers are functioning correctly and adjust volume levels as needed.
+[D]
+  1. [IC] Meet with the event coordinator to understand AV requirements, such as presentation slides, videos, and microphone usage.
+  2. [NA] Inspect the venue's layout and identify optimal placement for speakers, microphones, and projectors.
+  3. [ME] Unpack and set up the main projector and screen, ensuring proper focus and alignment.
+  4. [ME] Position and test wireless and lapel microphones for speakers.
+  5. [PD] Connect the client's laptop to the control booth's receiver and test presentation slides on the main screen.
+  6. [ME] Configure the soundboard, setting levels for microphones, music, and videos.
+  7. [FV] Conduct a sound and visual check with the event coordinator to ensure everything is functioning correctly.
+  8. [FV] During the event, monitor AV equipment from the control booth, ensuring smooth operation.
+  9. [ME] Switch between presentation slides, videos, and other AV elements as cued by the event coordinator or speakers.
+  10. [NA] Upon conclusion, pack up the AV equipment, ensuring all components are accounted for.
+  11. [IC] Meet with the event coordinator to discuss AV equipment performance and address any feedback.
+
+--- Task 487: Clean tableware.
+[A]
+  1. [NA] Gather the dirty tableware from the collection area, navigating around other staff members and equipment.
+  2. [PD] Sort the tableware into categories (plates, glasses, utensils) and identify any items with stubborn stains.
+  3. [ME] Pre-rinse the tableware to remove large food particles and pre-treat any stubborn stains with a cleaning solution.
+  4. [ME] Load the tableware into the dishwasher, ensuring proper alignment and securing to prevent damage.
+  5. [ME] Start the dishwasher cycle with appropriate wash and dry settings.
+  6. [FV] Monitor the dishwasher cycle to ensure it runs without issues.
+  7. [ME] Unload the clean tableware from the dishwasher, ensuring they are dry.
+  8. [NA] Store the clean tableware in their designated places, ensuring they are organized and easily accessible.
+  9. [FV] Verify that all tableware is clean and stored properly, making any necessary adjustments.
+[B]
+  1. [NA] Gather the dirty tableware from the collection area.
+  2. [PD] Sort the tableware into categories (plates, glasses, utensils).
+  3. [ME] Pre-rinse the tableware to remove large food particles.
+  4. [ME] Load the plates into the dishwasher, ensuring they are not stacked too high.
+  5. [ME] Start the dishwasher cycle and set the appropriate wash and dry settings.
+  6. [ME] Unload the clean tableware from the dishwasher, ensuring they are dry.
+  7. [NA] Place the clean tableware in the appropriate storage areas.
+  8. [FV] Verify that all tableware is clean and stored properly, making any necessary adjustments.
+[C]
+  1. [NA] Gather the dirty tableware from the collection area.
+  2. [PD] Sort the tableware into categories (plates, glasses, utensils).
+  3. [ME] Pre-rinse the tableware to remove large food particles.
+  4. [ME] Load the dishwasher, ensuring items are not stacked too high or tangled.
+  5. [ME] Start the dishwasher cycle and select appropriate settings.
+  6. [ME] Unload the clean tableware and ensure it is dry.
+  7. [NA] Store the clean tableware in the designated areas.
+[D]
+  1. [NA] Gather dirty tableware from the collection area, ensuring not to bump into other objects or people.
+  2. [PD] Sort the tableware into categories (plates, glasses, utensils) to streamline the cleaning process.
+  3. [ME] Pre-treat any stubborn stains on the tableware using a cleaning solution to facilitate the washing process.
+  4. [ME] Load the tableware into the dishwasher, ensuring they are properly aligned, secured, and not stacked too high to prevent damage or improper cleaning.
+  5. [ME] Start the dishwasher cycle and set the appropriate wash and dry settings based on the tableware type and level of dirtiness.
+  6. [FV] Monitor the dishwasher cycle to ensure it runs without issues and make any necessary adjustments during the process.
+  7. [ME] Unload the clean tableware from the dishwasher, ensuring they are dry and free from any remaining cleaning solution or water spots.
+  8. [NA] Place the clean tableware in the appropriate storage areas, ensuring they are organized and easily accessible for future use.
+  9. [FV] Verify that all tableware is clean and stored properly, making any necessary adjustments to ensure quality and efficiency.
+
+--- Task 488: Provide health and wellness advice to patients, program participants, or caregivers.
+[A]
+  1. [NA] Review the patient's electronic health record (EHR) to understand their medical history, current medications, and recent test results.
+  2. [IC] Greet the patient warmly, introduce yourself, and confirm the purpose of the consultation.
+  3. [PD] Ask open-ended questions to understand the patient's lifestyle, daily routines, and any challenges they're facing with their health.
+  4. [PD] Based on the patient's responses and medical history, identify areas where they could benefit from lifestyle changes or additional support.
+  5. [ME] Tailor health and wellness advice to the patient's specific needs and circumstances, using simple, easy-to-understand language.
+  6. [ME] Use visual aids, such as diagrams or videos, to supplement verbal explanations and help the patient understand their health and the recommended changes.
+  7. [FV] Encourage the patient to ask questions and clarify any doubts they may have about the advice provided.
+  8. [FV] Address any questions or concerns raised by the patient, providing additional clarification or guidance as needed.
+  9. [FV] Summarize the key points of the advice and the next steps the patient should take, reinforcing their understanding and commitment to making changes.
+  10. [FV] End the consultation on a positive note, encouraging the patient to follow up if they have any further questions or need additional support.
+[B]
+  1. [IC] Greet the patient, introduce yourself, and confirm the purpose of the consultation.
+  2. [NA] Review the patient's electronic health record (EHR) to understand their medical history, current medications, and recent test results.
+  3. [PD] Ask open-ended questions to understand the patient's lifestyle, daily routines, and any challenges they're facing with their health.
+  4. [PD] Based on the patient's responses, identify areas where they could benefit from lifestyle changes or additional support.
+  5. [ME] Tailor health and wellness advice to the patient's specific needs and circumstances, using simple, easy-to-understand language.
+  6. [ME] Use visual aids, such as diagrams or videos, to supplement verbal explanations and help the patient understand their health and the recommended changes.
+  7. [FV] Encourage the patient to ask questions and clarify any doubts they may have about the advice provided.
+  8. [FV] Address any questions or concerns raised by the patient, providing additional clarification or guidance as needed.
+  9. [FV] Summarize the key points of the advice and the next steps the patient should take, reinforcing their understanding and commitment to making changes.
+  10. [FV] End the consultation on a positive note, encouraging the patient to follow up if they have any further questions or need additional support.
+[C]
+  1. [IC] Greet the patient, confirm their identity, and briefly explain the purpose of the consultation.
+  2. [NA] Review the patient's medical records, including history, recent test results, and current medications.
+  3. [IC] Ask open-ended questions to understand the patient's current health concerns, lifestyle, and goals.
+  4. [PD] Identify key areas for health improvement based on the patient's data and expressed needs.
+  5. [ME] Provide personalized health and wellness advice, explaining recommendations clearly and using visuals or analogies as needed.
+  6. [FV] Address the patient's questions and concerns, ensuring they understand the advice and feel empowered to make changes.
+  7. [ME] Collaboratively set realistic and achievable goals with the patient, outlining specific action steps.
+  8. [ME] Provide relevant educational materials or resources to support the patient's understanding and progress.
+  9. [FV] Schedule a follow-up appointment to monitor progress, provide ongoing support, and adjust the plan as needed.
+[D]
+  1. [PD] Review the patient's electronic health record (EHR) to understand their medical history, current medications, and recent test results.
+  2. [IC] Greet the patient warmly, introduce yourself, and confirm the purpose of the consultation.
+  3. [PD] Ask open-ended questions to understand the patient's lifestyle, daily routines, and any challenges they're facing with their health.
+  4. [PD] Based on the patient's responses, identify key areas for health improvement and provide personalized advice tailored to their needs and circumstances.
+  5. [ME] Use simple, easy-to-understand language and visual aids to explain the patient's health status, the recommended changes, and how to implement them.
+  6. [FV] Encourage the patient to ask questions and clarify any doubts they may have about the advice provided.
+  7. [FV] Address any questions or concerns raised by the patient, providing additional clarification or guidance as needed.
+  8. [FV] Summarize the key points of the advice, the next steps the patient should take, and reinforce their understanding and commitment to making changes.
+  9. [ME] Provide relevant educational materials and resources to support the patient's understanding of their condition and recommended treatments.
+  10. [IC] End the consultation on a positive note, encouraging the patient to follow up if they have any further questions or need additional support.
+
+================================================================
+ANSWER TEMPLATE
+
+481: _ | 
+482: _ | 
+483: _ | 
+484: _ | 
+485: _ | 
+486: _ | 
+487: _ | 
+488: _ | 
+

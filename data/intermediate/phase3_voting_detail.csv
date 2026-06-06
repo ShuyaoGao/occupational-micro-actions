@@ -1,0 +1,503 @@
+﻿item_num,DWA_ID,claude_vote,gemini_vote,gpt_vote,final_choice,status
+1,4.A.1.b.1.I02.D02,D,C,D,D,2/3 consensus
+2,4.A.2.b.5.I02.D04,A,A,D,A,2/3 consensus
+3,4.A.3.a.1.I07.D08,A,A,D,A,2/3 consensus
+4,4.A.3.b.1.I06.D10,C,C,D,C,2/3 consensus
+5,4.A.1.a.1.I08.D03,A,C,C,C,2/3 consensus
+6,4.A.4.c.2.I02.D03,D,A,D,D,2/3 consensus
+7,4.A.2.a.2.I02.D03,A,B,B,B,2/3 consensus
+8,4.A.3.a.1.I06.D08,D,C,C,C,2/3 consensus
+9,4.A.1.b.2.I06.D17,A,A,D,A,2/3 consensus
+10,4.A.2.a.4.I07.D16,C,B,B,B,2/3 consensus
+11,4.A.4.b.4.I09.D09,A,A,D,A,2/3 consensus
+12,4.A.4.b.6.I11.D03,B,B,C,B,2/3 consensus
+13,4.A.3.a.4.I01.D05,A,C,C,C,2/3 consensus
+14,4.A.3.b.6.I11.D05,C,B,C,C,2/3 consensus
+15,4.A.1.a.2.I01.D06,C,A,B,CONFLICT,1:1:1 conflict -- needs human review
+16,4.A.3.a.2.I17.D01,C,C,D,C,2/3 consensus
+17,4.A.3.a.1.I11.D07,A,A,A,A,3/3 consensus
+18,4.A.3.a.3.I04.D05,C,C,D,C,2/3 consensus
+19,4.A.4.b.6.I03.D03,C,C,C,C,3/3 consensus
+20,4.A.3.a.2.I09.D04,C,B,D,CONFLICT,1:1:1 conflict -- needs human review
+21,4.A.4.b.4.I01.D13,C,B,D,CONFLICT,1:1:1 conflict -- needs human review
+22,4.A.3.b.4.I01.D01,A,A,C,A,2/3 consensus
+23,4.A.4.a.6.I02.D01,A,A,D,A,2/3 consensus
+24,4.A.3.a.1.I09.D01,A,A,A,A,3/3 consensus
+25,4.A.4.b.4.I03.D03,A,A,D,A,2/3 consensus
+26,4.A.2.b.2.I07.D05,C,D,D,D,2/3 consensus
+27,4.A.3.a.3.I12.D04,C,C,D,C,2/3 consensus
+28,4.A.3.a.1.I03.D11,C,C,C,C,3/3 consensus
+29,4.A.2.b.2.I16.D02,A,D,D,D,2/3 consensus
+30,4.A.3.a.2.I03.D07,B,B,D,B,2/3 consensus
+31,4.A.3.a.3.I03.D07,A,C,C,C,2/3 consensus
+32,4.A.2.a.1.I02.D04,C,C,D,C,2/3 consensus
+33,4.A.1.b.2.I06.D01,C,C,D,C,2/3 consensus
+34,4.A.3.a.2.I04.D09,B,D,D,D,2/3 consensus
+35,4.A.4.b.3.I02.D08,D,D,C,D,2/3 consensus
+36,4.A.4.a.5.I03.D01,A,B,D,CONFLICT,1:1:1 conflict -- needs human review
+37,4.A.1.a.2.I05.D04,A,C,C,C,2/3 consensus
+38,4.A.2.a.4.I05.D01,A,B,D,CONFLICT,1:1:1 conflict -- needs human review
+39,4.A.2.a.3.I03.D05,B,B,B,B,3/3 consensus
+40,4.A.4.a.2.I03.D17,C,C,D,C,2/3 consensus
+41,4.A.2.b.2.I05.D03,D,D,D,D,3/3 consensus
+42,4.A.3.a.3.I07.D02,C,C,D,C,2/3 consensus
+43,4.A.1.b.2.I12.D02,A,A,D,A,2/3 consensus
+44,4.A.1.a.2.I07.D08,C,A,C,C,2/3 consensus
+45,4.A.3.a.2.I41.D08,D,D,D,D,3/3 consensus
+46,4.A.2.b.2.I14.D04,B,B,D,B,2/3 consensus
+47,4.A.2.b.3.I01.D22,D,B,D,D,2/3 consensus
+48,4.A.1.b.2.I07.D18,B,C,D,CONFLICT,1:1:1 conflict -- needs human review
+49,4.A.2.b.2.I18.D04,C,A,C,C,2/3 consensus
+50,4.A.1.a.2.I01.D10,D,D,D,D,3/3 consensus
+51,4.A.3.a.1.I10.D01,C,C,A,C,2/3 consensus
+52,4.A.3.a.2.I23.D01,D,D,D,D,3/3 consensus
+53,4.A.1.a.2.I06.D07,C,C,C,C,3/3 consensus
+54,4.A.3.a.1.I12.D06,D,D,D,D,3/3 consensus
+55,4.A.1.b.2.I05.D02,C,C,D,C,2/3 consensus
+56,4.A.2.a.3.I01.D02,D,C,D,D,2/3 consensus
+57,4.A.3.a.1.I03.D02,A,D,D,D,2/3 consensus
+58,4.A.1.a.1.I20.D01,D,D,D,D,3/3 consensus
+59,4.A.3.a.2.I05.D02,D,D,D,D,3/3 consensus
+60,4.A.2.b.2.I18.D12,C,A,D,CONFLICT,1:1:1 conflict -- needs human review
+61,4.A.4.a.5.I04.D01,A,C,D,CONFLICT,1:1:1 conflict -- needs human review
+62,4.A.4.a.2.I08.D07,C,A,D,CONFLICT,1:1:1 conflict -- needs human review
+63,4.A.1.b.2.I01.D08,D,D,D,D,3/3 consensus
+64,4.A.4.b.4.I01.D19,A,A,A,A,3/3 consensus
+65,4.A.3.b.4.I04.D07,A,A,D,A,2/3 consensus
+66,4.A.2.a.4.I10.D03,C,A,D,CONFLICT,1:1:1 conflict -- needs human review
+67,4.A.1.b.3.I05.D01,A,A,A,A,3/3 consensus
+68,4.A.1.a.1.I02.D02,D,C,C,C,2/3 consensus
+69,4.A.4.a.2.I08.D02,C,C,D,C,2/3 consensus
+70,4.A.4.c.3.I03.D08,C,C,D,C,2/3 consensus
+71,4.A.4.b.3.I04.D10,D,C,D,D,2/3 consensus
+72,4.A.2.b.1.I11.D02,D,A,D,D,2/3 consensus
+73,4.A.3.b.1.I06.D07,A,D,D,D,2/3 consensus
+74,4.A.1.b.1.I01.D01,D,A,A,A,2/3 consensus
+75,4.A.3.b.6.I15.D02,D,D,D,D,3/3 consensus
+76,4.A.4.b.4.I09.D01,C,C,C,C,3/3 consensus
+77,4.A.4.c.1.I01.D10,A,A,D,A,2/3 consensus
+78,4.A.4.a.5.I03.D02,A,A,D,A,2/3 consensus
+79,4.A.4.a.5.I11.D03,A,C,A,A,2/3 consensus
+80,4.A.2.a.1.I02.D07,D,D,D,D,3/3 consensus
+81,4.A.3.b.6.I05.D03,D,A,D,D,2/3 consensus
+82,4.A.3.a.3.I07.D03,A,C,D,CONFLICT,1:1:1 conflict -- needs human review
+83,4.A.3.a.2.I14.D02,D,A,D,D,2/3 consensus
+84,4.A.2.a.1.I03.D04,A,B,D,CONFLICT,1:1:1 conflict -- needs human review
+85,4.A.4.a.5.I07.D03,D,C,A,CONFLICT,1:1:1 conflict -- needs human review
+86,4.A.4.c.1.I03.D04,D,D,D,D,3/3 consensus
+87,4.A.4.b.4.I01.D17,A,A,D,A,2/3 consensus
+88,4.A.3.a.2.I09.D13,A,C,D,CONFLICT,1:1:1 conflict -- needs human review
+89,4.A.4.b.4.I11.D01,D,A,D,D,2/3 consensus
+90,4.A.2.a.4.I07.D05,D,A,D,D,2/3 consensus
+91,4.A.2.b.1.I08.D11,C,D,D,D,2/3 consensus
+92,4.A.1.b.3.I01.D11,D,A,A,A,2/3 consensus
+93,4.A.3.a.2.I20.D05,D,A,D,D,2/3 consensus
+94,4.A.3.a.2.I20.D01,D,D,C,D,2/3 consensus
+95,4.A.4.b.6.I06.D05,C,A,D,CONFLICT,1:1:1 conflict -- needs human review
+96,4.A.3.a.2.I47.D02,C,A,D,CONFLICT,1:1:1 conflict -- needs human review
+97,4.A.1.b.2.I07.D14,C,B,D,CONFLICT,1:1:1 conflict -- needs human review
+98,4.A.1.a.2.I08.D01,C,C,C,C,3/3 consensus
+99,4.A.1.a.2.I09.D01,A,A,D,A,2/3 consensus
+100,4.A.4.a.2.I01.D01,D,D,D,D,3/3 consensus
+101,4.A.3.a.3.I07.D05,D,A,D,D,2/3 consensus
+102,4.A.2.b.2.I18.D21,A,C,C,C,2/3 consensus
+103,4.A.1.a.2.I01.D09,C,C,D,C,2/3 consensus
+104,4.A.3.b.6.I12.D02,B,A,D,CONFLICT,1:1:1 conflict -- needs human review
+105,4.A.3.b.6.I08.D27,A,C,D,CONFLICT,1:1:1 conflict -- needs human review
+106,4.A.2.a.4.I10.D02,D,A,D,D,2/3 consensus
+107,4.A.2.b.2.I21.D01,D,B,D,D,2/3 consensus
+108,4.A.2.a.1.I04.D02,D,A,D,D,2/3 consensus
+109,4.A.3.b.4.I02.D15,D,A,D,D,2/3 consensus
+110,4.A.3.a.3.I12.D02,D,A,D,D,2/3 consensus
+111,4.A.4.b.6.I06.D03,C,D,D,D,2/3 consensus
+112,4.A.1.b.2.I07.D17,C,D,D,D,2/3 consensus
+113,4.A.4.c.1.I03.D01,C,A,D,CONFLICT,1:1:1 conflict -- needs human review
+114,4.A.3.b.6.I08.D26,D,A,D,D,2/3 consensus
+115,4.A.4.b.3.I04.D02,C,C,D,C,2/3 consensus
+116,4.A.1.a.1.I02.D14,C,C,D,C,2/3 consensus
+117,4.A.3.a.2.I41.D05,C,C,B,C,2/3 consensus
+118,4.A.3.a.4.I01.D07,B,C,D,CONFLICT,1:1:1 conflict -- needs human review
+119,4.A.4.c.3.I06.D03,C,C,D,C,2/3 consensus
+120,4.A.2.b.1.I01.D04,C,C,D,C,2/3 consensus
+121,4.A.3.a.2.I35.D06,D,C,D,D,2/3 consensus
+122,4.A.1.b.2.I02.D02,A,A,D,A,2/3 consensus
+123,4.A.1.a.2.I11.D08,C,C,D,C,2/3 consensus
+124,4.A.3.b.6.I11.D04,D,D,D,D,3/3 consensus
+125,4.A.1.a.2.I09.D03,A,B,C,CONFLICT,1:1:1 conflict -- needs human review
+126,4.A.3.a.1.I11.D03,D,D,D,D,3/3 consensus
+127,4.A.4.b.6.I01.D02,A,C,D,CONFLICT,1:1:1 conflict -- needs human review
+128,4.A.2.b.2.I08.D04,C,C,C,C,3/3 consensus
+129,4.A.2.b.2.I05.D04,C,A,D,CONFLICT,1:1:1 conflict -- needs human review
+130,4.A.2.a.2.I02.D01,C,C,D,C,2/3 consensus
+131,4.A.4.c.1.I03.D08,D,C,D,D,2/3 consensus
+132,4.A.3.a.2.I06.D03,C,D,D,D,2/3 consensus
+133,4.A.4.a.5.I11.D08,A,A,A,A,3/3 consensus
+134,4.A.4.b.3.I04.D14,C,C,A,C,2/3 consensus
+135,4.A.1.a.2.I02.D11,C,C,C,C,3/3 consensus
+136,4.A.3.a.3.I09.D03,B,A,D,CONFLICT,1:1:1 conflict -- needs human review
+137,4.A.1.a.1.I02.D09,B,A,B,B,2/3 consensus
+138,4.A.4.a.5.I07.D02,A,C,D,CONFLICT,1:1:1 conflict -- needs human review
+139,4.A.4.a.5.I10.D02,A,A,D,A,2/3 consensus
+140,4.A.3.a.2.I34.D01,A,C,D,CONFLICT,1:1:1 conflict -- needs human review
+141,4.A.4.a.5.I10.D03,A,C,D,CONFLICT,1:1:1 conflict -- needs human review
+142,4.A.3.a.2.I36.D04,B,A,D,CONFLICT,1:1:1 conflict -- needs human review
+143,4.A.3.a.2.I12.D03,A,A,D,A,2/3 consensus
+144,4.A.2.a.2.I04.D01,A,A,D,A,2/3 consensus
+145,4.A.3.b.6.I05.D01,C,C,D,C,2/3 consensus
+146,4.A.2.a.2.I01.D03,B,C,D,CONFLICT,1:1:1 conflict -- needs human review
+147,4.A.3.b.6.I08.D24,A,C,A,A,2/3 consensus
+148,4.A.3.a.2.I22.D08,D,C,D,D,2/3 consensus
+149,4.A.2.a.4.I05.D05,C,B,D,CONFLICT,1:1:1 conflict -- needs human review
+150,4.A.1.b.2.I05.D07,C,D,D,D,2/3 consensus
+151,4.A.3.a.1.I17.D05,C,C,C,C,3/3 consensus
+152,4.A.2.a.1.I04.D03,C,C,D,C,2/3 consensus
+153,4.A.4.c.3.I06.D01,C,A,D,CONFLICT,1:1:1 conflict -- needs human review
+154,4.A.4.c.1.I03.D10,D,D,D,D,3/3 consensus
+155,4.A.2.b.2.I27.D02,C,C,D,C,2/3 consensus
+156,4.A.4.a.5.I03.D04,D,D,D,D,3/3 consensus
+157,4.A.4.a.5.I12.D06,D,C,D,D,2/3 consensus
+158,4.A.3.a.2.I32.D01,C,A,C,C,2/3 consensus
+159,4.A.3.b.4.I02.D08,A,A,D,A,2/3 consensus
+160,4.A.2.a.4.I06.D02,C,C,D,C,2/3 consensus
+161,4.A.1.b.2.I03.D01,B,A,C,CONFLICT,1:1:1 conflict -- needs human review
+162,4.A.1.b.1.I02.D01,C,D,D,D,2/3 consensus
+163,4.A.3.b.6.I13.D05,C,C,D,C,2/3 consensus
+164,4.A.1.b.3.I04.D03,A,A,C,A,2/3 consensus
+165,4.A.2.b.1.I10.D01,B,C,D,CONFLICT,1:1:1 conflict -- needs human review
+166,4.A.1.b.2.I06.D04,B,A,A,A,2/3 consensus
+167,4.A.2.b.1.I08.D03,A,C,D,CONFLICT,1:1:1 conflict -- needs human review
+168,4.A.2.b.2.I26.D01,A,A,D,A,2/3 consensus
+169,4.A.1.a.1.I02.D05,C,C,B,C,2/3 consensus
+170,4.A.3.b.6.I11.D03,D,D,B,D,2/3 consensus
+171,4.A.1.b.3.I04.D01,C,C,D,C,2/3 consensus
+172,4.A.3.b.4.I02.D11,C,C,C,C,3/3 consensus
+173,4.A.4.c.3.I05.D05,A,D,D,D,2/3 consensus
+174,4.A.4.b.4.I07.D04,B,C,B,B,2/3 consensus
+175,4.A.2.b.1.I06.D01,D,D,D,D,3/3 consensus
+176,4.A.2.a.2.I01.D09,D,D,D,D,3/3 consensus
+177,4.A.3.a.2.I38.D05,C,C,D,C,2/3 consensus
+178,4.A.3.a.1.I01.D05,D,A,C,CONFLICT,1:1:1 conflict -- needs human review
+179,4.A.3.a.1.I12.D01,B,C,D,CONFLICT,1:1:1 conflict -- needs human review
+180,4.A.3.a.2.I07.D01,B,A,A,A,2/3 consensus
+181,4.A.2.b.2.I16.D08,C,C,C,C,3/3 consensus
+182,4.A.1.a.2.I07.D03,D,A,A,A,2/3 consensus
+183,4.A.2.b.2.I16.D01,A,D,D,D,2/3 consensus
+184,4.A.3.b.6.I08.D06,B,C,D,CONFLICT,1:1:1 conflict -- needs human review
+185,4.A.4.b.4.I15.D02,A,C,D,CONFLICT,1:1:1 conflict -- needs human review
+186,4.A.2.a.2.I02.D05,D,B,D,D,2/3 consensus
+187,4.A.3.b.4.I08.D04,B,D,D,D,2/3 consensus
+188,4.A.4.b.3.I04.D04,D,C,A,CONFLICT,1:1:1 conflict -- needs human review
+189,4.A.4.a.5.I03.D05,B,A,D,CONFLICT,1:1:1 conflict -- needs human review
+190,4.A.2.a.1.I08.D01,A,D,D,D,2/3 consensus
+191,4.A.4.a.3.I03.D06,B,A,D,CONFLICT,1:1:1 conflict -- needs human review
+192,4.A.3.a.2.I47.D04,A,A,D,A,2/3 consensus
+193,4.A.3.b.6.I08.D02,A,C,D,CONFLICT,1:1:1 conflict -- needs human review
+194,4.A.1.b.2.I07.D03,C,B,D,CONFLICT,1:1:1 conflict -- needs human review
+195,4.A.3.b.1.I03.D02,D,A,D,D,2/3 consensus
+196,4.A.3.b.4.I02.D02,C,C,D,C,2/3 consensus
+197,4.A.4.a.5.I06.D01,A,A,D,A,2/3 consensus
+198,4.A.4.b.3.I02.D10,C,B,D,CONFLICT,1:1:1 conflict -- needs human review
+199,4.A.3.b.6.I02.D07,A,C,D,CONFLICT,1:1:1 conflict -- needs human review
+200,4.A.3.b.4.I02.D17,A,D,D,D,2/3 consensus
+201,4.A.3.a.1.I06.D12,D,D,D,D,3/3 consensus
+202,4.A.4.a.5.I10.D04,C,C,D,C,2/3 consensus
+203,4.A.3.b.6.I08.D14,A,C,B,CONFLICT,1:1:1 conflict -- needs human review
+204,4.A.2.b.3.I01.D02,C,C,C,C,3/3 consensus
+205,4.A.3.b.1.I04.D01,B,A,D,CONFLICT,1:1:1 conflict -- needs human review
+206,4.A.4.c.2.I01.D08,B,C,D,CONFLICT,1:1:1 conflict -- needs human review
+207,4.A.2.a.2.I05.D05,D,D,D,D,3/3 consensus
+208,4.A.2.b.1.I04.D12,A,A,A,A,3/3 consensus
+209,4.A.3.a.2.I04.D14,D,C,D,D,2/3 consensus
+210,4.A.2.a.1.I07.D04,C,C,D,C,2/3 consensus
+211,4.A.4.a.2.I11.D08,D,D,D,D,3/3 consensus
+212,4.A.1.a.2.I05.D05,D,A,D,D,2/3 consensus
+213,4.A.3.a.2.I22.D11,D,A,C,CONFLICT,1:1:1 conflict -- needs human review
+214,4.A.2.b.2.I15.D10,D,C,D,D,2/3 consensus
+215,4.A.3.a.2.I42.D02,D,C,D,D,2/3 consensus
+216,4.A.3.a.1.I06.D02,A,A,D,A,2/3 consensus
+217,4.A.2.a.1.I07.D05,C,C,C,C,3/3 consensus
+218,4.A.3.a.2.I09.D08,A,A,D,A,2/3 consensus
+219,4.A.1.a.2.I03.D06,C,C,C,C,3/3 consensus
+220,4.A.3.a.2.I37.D03,A,C,D,CONFLICT,1:1:1 conflict -- needs human review
+221,4.A.2.b.2.I06.D04,C,A,D,CONFLICT,1:1:1 conflict -- needs human review
+222,4.A.3.b.6.I14.D02,C,D,D,D,2/3 consensus
+223,4.A.2.b.2.I18.D01,C,D,D,D,2/3 consensus
+224,4.A.2.b.4.I03.D10,C,D,D,D,2/3 consensus
+225,4.A.4.a.6.I03.D08,C,C,C,C,3/3 consensus
+226,4.A.3.a.3.I03.D06,C,C,B,C,2/3 consensus
+227,4.A.3.a.2.I27.D01,C,C,D,C,2/3 consensus
+228,4.A.4.b.6.I06.D01,D,C,C,C,2/3 consensus
+229,4.A.4.b.6.I05.D08,D,D,D,D,3/3 consensus
+230,4.A.3.a.2.I36.D07,D,D,D,D,3/3 consensus
+231,4.A.2.b.6.I02.D06,A,C,D,CONFLICT,1:1:1 conflict -- needs human review
+232,4.A.4.a.5.I09.D02,A,D,D,D,2/3 consensus
+233,4.A.3.a.2.I01.D06,D,C,D,D,2/3 consensus
+234,4.A.2.b.1.I01.D03,A,A,D,A,2/3 consensus
+235,4.A.3.b.1.I06.D06,C,D,A,CONFLICT,1:1:1 conflict -- needs human review
+236,4.A.4.a.2.I05.D04,C,C,D,C,2/3 consensus
+237,4.A.1.b.2.I04.D03,A,A,D,A,2/3 consensus
+238,4.A.4.a.5.I09.D03,D,D,D,D,3/3 consensus
+239,4.A.3.a.3.I05.D05,B,A,D,CONFLICT,1:1:1 conflict -- needs human review
+240,4.A.4.b.4.I12.D15,D,A,D,D,2/3 consensus
+241,4.A.4.a.6.I03.D01,C,C,C,C,3/3 consensus
+242,4.A.3.a.2.I13.D10,A,A,D,A,2/3 consensus
+243,4.A.4.a.5.I01.D05,C,C,D,C,2/3 consensus
+244,4.A.2.b.1.I10.D04,C,C,C,C,3/3 consensus
+245,4.A.2.a.1.I05.D03,C,C,C,C,3/3 consensus
+246,4.A.1.b.3.I03.D04,C,C,C,C,3/3 consensus
+247,4.A.2.a.1.I07.D09,C,A,D,CONFLICT,1:1:1 conflict -- needs human review
+248,4.A.3.b.1.I04.D02,D,A,D,D,2/3 consensus
+249,4.A.4.a.5.I01.D06,A,A,A,A,3/3 consensus
+250,4.A.3.a.2.I46.D01,D,A,D,D,2/3 consensus
+251,4.A.3.a.1.I12.D05,B,C,C,C,2/3 consensus
+252,4.A.2.b.2.I01.D07,C,A,A,A,2/3 consensus
+253,4.A.4.b.4.I15.D05,D,C,D,D,2/3 consensus
+254,4.A.3.a.2.I01.D10,C,C,B,C,2/3 consensus
+255,4.A.3.a.3.I04.D03,D,D,D,D,3/3 consensus
+256,4.A.2.a.2.I01.D08,D,A,D,D,2/3 consensus
+257,4.A.4.c.2.I01.D01,A,C,D,CONFLICT,1:1:1 conflict -- needs human review
+258,4.A.4.b.4.I12.D16,A,C,D,CONFLICT,1:1:1 conflict -- needs human review
+259,4.A.1.a.1.I18.D02,C,C,D,C,2/3 consensus
+260,4.A.4.c.3.I01.D05,D,C,D,D,2/3 consensus
+261,4.A.4.b.4.I13.D01,A,C,D,CONFLICT,1:1:1 conflict -- needs human review
+262,4.A.3.a.2.I01.D09,D,D,D,D,3/3 consensus
+263,4.A.3.a.3.I11.D02,B,B,D,B,2/3 consensus
+264,4.A.3.b.4.I02.D13,A,C,D,CONFLICT,1:1:1 conflict -- needs human review
+265,4.A.4.a.2.I06.D03,D,D,D,D,3/3 consensus
+266,4.A.2.b.2.I05.D01,D,D,D,D,3/3 consensus
+267,4.A.3.b.4.I06.D04,D,A,D,D,2/3 consensus
+268,4.A.3.a.1.I11.D11,D,D,D,D,3/3 consensus
+269,4.A.1.b.2.I05.D03,C,A,D,CONFLICT,1:1:1 conflict -- needs human review
+270,4.A.4.b.4.I14.D02,D,A,D,D,2/3 consensus
+271,4.A.2.b.4.I03.D05,D,A,D,D,2/3 consensus
+272,4.A.1.b.2.I07.D16,D,A,C,CONFLICT,1:1:1 conflict -- needs human review
+273,4.A.4.a.2.I09.D03,D,D,D,D,3/3 consensus
+274,4.A.3.a.3.I06.D10,D,C,D,D,2/3 consensus
+275,4.A.1.a.1.I02.D03,B,C,D,CONFLICT,1:1:1 conflict -- needs human review
+276,4.A.2.b.2.I08.D02,D,A,D,D,2/3 consensus
+277,4.A.4.a.8.I03.D05,C,A,D,CONFLICT,1:1:1 conflict -- needs human review
+278,4.A.4.b.3.I02.D05,C,C,D,C,2/3 consensus
+279,4.A.1.a.1.I06.D04,C,C,D,C,2/3 consensus
+280,4.A.2.a.4.I10.D01,D,A,D,D,2/3 consensus
+281,4.A.2.a.1.I06.D02,C,D,D,D,2/3 consensus
+282,4.A.3.a.2.I46.D02,D,D,D,D,3/3 consensus
+283,4.A.4.b.6.I03.D04,C,C,D,C,2/3 consensus
+284,4.A.4.b.4.I12.D31,C,D,D,D,2/3 consensus
+285,4.A.3.a.1.I05.D09,C,C,C,C,3/3 consensus
+286,4.A.4.a.3.I02.D07,C,D,D,D,2/3 consensus
+287,4.A.1.a.1.I23.D06,C,A,A,A,2/3 consensus
+288,4.A.1.a.2.I01.D02,D,D,D,D,3/3 consensus
+289,4.A.4.b.4.I01.D06,D,D,D,D,3/3 consensus
+290,4.A.2.a.1.I02.D01,C,D,C,C,2/3 consensus
+291,4.A.1.a.1.I21.D02,D,D,D,D,3/3 consensus
+292,4.A.4.a.5.I07.D01,C,C,C,C,3/3 consensus
+293,4.A.3.a.1.I17.D02,D,C,D,D,2/3 consensus
+294,4.A.1.a.1.I18.D01,C,D,D,D,2/3 consensus
+295,4.A.1.a.1.I16.D05,D,A,D,D,2/3 consensus
+296,4.A.2.a.1.I07.D03,D,A,D,D,2/3 consensus
+297,4.A.2.b.2.I26.D03,A,B,A,A,2/3 consensus
+298,4.A.4.a.2.I08.D05,C,A,D,CONFLICT,1:1:1 conflict -- needs human review
+299,4.A.4.b.6.I01.D03,A,A,D,A,2/3 consensus
+300,4.A.3.b.6.I08.D04,A,A,A,A,3/3 consensus
+301,4.A.4.a.5.I03.D10,A,D,D,D,2/3 consensus
+302,4.A.4.b.4.I16.D01,A,A,C,A,2/3 consensus
+303,4.A.4.a.5.I11.D02,C,D,D,D,2/3 consensus
+304,4.A.3.a.3.I06.D06,D,C,A,CONFLICT,1:1:1 conflict -- needs human review
+305,4.A.3.b.1.I06.D05,A,A,D,A,2/3 consensus
+306,4.A.1.b.1.I01.D06,C,C,D,C,2/3 consensus
+307,4.A.4.a.1.I01.D01,C,A,D,CONFLICT,1:1:1 conflict -- needs human review
+308,4.A.4.a.8.I03.D03,C,C,A,C,2/3 consensus
+309,4.A.1.a.1.I10.D07,B,A,D,CONFLICT,1:1:1 conflict -- needs human review
+310,4.A.2.a.2.I05.D02,B,D,D,D,2/3 consensus
+311,4.A.2.b.1.I04.D05,C,A,D,CONFLICT,1:1:1 conflict -- needs human review
+312,4.A.4.a.2.I11.D06,C,C,D,C,2/3 consensus
+313,4.A.1.a.2.I02.D08,C,D,C,C,2/3 consensus
+314,4.A.1.a.1.I23.D02,B,D,D,D,2/3 consensus
+315,4.A.4.b.4.I01.D02,C,C,D,C,2/3 consensus
+316,4.A.4.b.5.I01.D01,C,B,D,CONFLICT,1:1:1 conflict -- needs human review
+317,4.A.4.c.1.I03.D11,A,A,D,A,2/3 consensus
+318,4.A.1.a.1.I06.D01,C,C,C,C,3/3 consensus
+319,4.A.3.b.1.I03.D03,B,D,D,D,2/3 consensus
+320,4.A.1.b.2.I06.D12,C,D,D,D,2/3 consensus
+321,4.A.2.b.2.I02.D02,D,C,D,D,2/3 consensus
+322,4.A.2.b.1.I04.D10,C,C,B,C,2/3 consensus
+323,4.A.1.a.2.I07.D10,A,C,A,A,2/3 consensus
+324,4.A.4.a.2.I05.D02,D,C,C,C,2/3 consensus
+325,4.A.4.a.6.I03.D05,D,A,A,A,2/3 consensus
+326,4.A.3.a.2.I08.D05,D,A,D,D,2/3 consensus
+327,4.A.3.a.3.I02.D03,A,C,D,CONFLICT,1:1:1 conflict -- needs human review
+328,4.A.4.c.2.I01.D07,D,A,D,D,2/3 consensus
+329,4.A.1.a.1.I04.D06,B,C,D,CONFLICT,1:1:1 conflict -- needs human review
+330,4.A.3.a.2.I20.D02,D,D,D,D,3/3 consensus
+331,4.A.2.a.2.I05.D01,D,C,D,D,2/3 consensus
+332,4.A.2.b.3.I01.D12,D,A,D,D,2/3 consensus
+333,4.A.3.a.2.I04.D04,D,C,D,D,2/3 consensus
+334,4.A.3.b.6.I08.D01,A,A,A,A,3/3 consensus
+335,4.A.4.a.5.I12.D03,C,A,A,A,2/3 consensus
+336,4.A.2.b.2.I06.D01,C,C,B,C,2/3 consensus
+337,4.A.3.a.1.I08.D07,C,A,D,CONFLICT,1:1:1 conflict -- needs human review
+338,4.A.4.a.2.I04.D04,C,D,D,D,2/3 consensus
+339,4.A.1.b.2.I06.D02,C,C,D,C,2/3 consensus
+340,4.A.1.b.3.I01.D10,D,C,C,C,2/3 consensus
+341,4.A.3.a.1.I01.D01,D,C,D,D,2/3 consensus
+342,4.A.4.c.3.I01.D02,C,C,A,C,2/3 consensus
+343,4.A.4.b.6.I10.D03,C,C,D,C,2/3 consensus
+344,4.A.3.a.2.I12.D05,C,C,C,C,3/3 consensus
+345,4.A.4.b.3.I06.D10,D,D,D,D,3/3 consensus
+346,4.A.3.a.2.I12.D10,B,D,D,D,2/3 consensus
+347,4.A.3.a.2.I03.D10,D,A,D,D,2/3 consensus
+348,4.A.4.c.3.I05.D02,A,A,D,A,2/3 consensus
+349,4.A.2.a.1.I06.D04,A,A,D,A,2/3 consensus
+350,4.A.4.a.2.I03.D08,C,D,D,D,2/3 consensus
+351,4.A.3.b.4.I01.D03,C,D,D,D,2/3 consensus
+352,4.A.4.a.5.I09.D06,B,C,D,CONFLICT,1:1:1 conflict -- needs human review
+353,4.A.1.b.2.I06.D09,C,D,D,D,2/3 consensus
+354,4.A.4.a.2.I09.D09,C,A,D,CONFLICT,1:1:1 conflict -- needs human review
+355,4.A.3.a.1.I10.D07,A,A,D,A,2/3 consensus
+356,4.A.4.b.4.I14.D01,A,A,D,A,2/3 consensus
+357,4.A.1.a.1.I02.D06,C,C,D,C,2/3 consensus
+358,4.A.4.a.1.I05.D03,C,A,D,CONFLICT,1:1:1 conflict -- needs human review
+359,4.A.4.a.5.I11.D01,A,A,D,A,2/3 consensus
+360,4.A.4.b.4.I12.D04,D,C,D,D,2/3 consensus
+361,4.A.2.b.4.I03.D02,A,C,D,CONFLICT,1:1:1 conflict -- needs human review
+362,4.A.3.a.3.I02.D01,B,A,A,A,2/3 consensus
+363,4.A.4.a.2.I11.D01,A,A,D,A,2/3 consensus
+364,4.A.4.b.6.I10.D01,A,A,D,A,2/3 consensus
+365,4.A.4.b.6.I10.D05,C,C,D,C,2/3 consensus
+366,4.A.3.a.1.I06.D09,A,A,D,A,2/3 consensus
+367,4.A.2.a.4.I10.D05,D,D,D,D,3/3 consensus
+368,4.A.4.a.2.I05.D06,A,D,D,D,2/3 consensus
+369,4.A.4.a.6.I03.D12,C,C,D,C,2/3 consensus
+370,4.A.3.b.6.I10.D01,B,C,D,CONFLICT,1:1:1 conflict -- needs human review
+371,4.A.2.b.2.I20.D05,A,A,D,A,2/3 consensus
+372,4.A.3.a.1.I03.D18,B,C,B,B,2/3 consensus
+373,4.A.4.a.3.I02.D02,C,C,D,C,2/3 consensus
+374,4.A.3.a.2.I11.D03,A,C,A,A,2/3 consensus
+375,4.A.3.a.2.I46.D06,D,C,D,D,2/3 consensus
+376,4.A.3.a.3.I04.D04,A,C,D,CONFLICT,1:1:1 conflict -- needs human review
+377,4.A.2.a.4.I11.D02,D,C,D,D,2/3 consensus
+378,4.A.3.a.2.I39.D02,B,B,D,B,2/3 consensus
+379,4.A.4.b.4.I12.D34,A,A,D,A,2/3 consensus
+380,4.A.4.b.3.I06.D04,A,D,D,D,2/3 consensus
+381,4.A.3.a.2.I43.D02,B,A,B,B,2/3 consensus
+382,4.A.1.a.1.I23.D01,C,C,D,C,2/3 consensus
+383,4.A.3.b.4.I04.D03,C,C,D,C,2/3 consensus
+384,4.A.1.b.2.I04.D04,C,C,D,C,2/3 consensus
+385,4.A.2.b.1.I11.D01,A,C,D,CONFLICT,1:1:1 conflict -- needs human review
+386,4.A.3.a.2.I04.D12,B,B,D,B,2/3 consensus
+387,4.A.2.b.1.I01.D05,A,C,B,CONFLICT,1:1:1 conflict -- needs human review
+388,4.A.3.b.6.I09.D05,C,C,C,C,3/3 consensus
+389,4.A.4.b.4.I09.D02,D,B,D,D,2/3 consensus
+390,4.A.3.a.2.I14.D01,B,B,B,B,3/3 consensus
+391,4.A.1.a.2.I05.D02,A,B,D,CONFLICT,1:1:1 conflict -- needs human review
+392,4.A.4.a.5.I01.D01,D,A,D,D,2/3 consensus
+393,4.A.2.a.4.I06.D05,A,A,D,A,2/3 consensus
+394,4.A.4.c.1.I05.D04,A,D,D,D,2/3 consensus
+395,4.A.4.a.2.I08.D09,C,A,C,C,2/3 consensus
+396,4.A.2.b.5.I03.D02,D,A,D,D,2/3 consensus
+397,4.A.4.b.4.I13.D05,A,C,A,A,2/3 consensus
+398,4.A.3.b.1.I06.D11,C,D,D,D,2/3 consensus
+399,4.A.2.b.2.I01.D01,A,C,D,CONFLICT,1:1:1 conflict -- needs human review
+400,4.A.1.a.2.I05.D06,A,C,D,CONFLICT,1:1:1 conflict -- needs human review
+401,4.A.3.a.2.I31.D02,A,A,D,A,2/3 consensus
+402,4.A.1.a.1.I20.D06,C,A,D,CONFLICT,1:1:1 conflict -- needs human review
+403,4.A.2.b.6.I02.D08,A,C,D,CONFLICT,1:1:1 conflict -- needs human review
+404,4.A.1.b.3.I01.D14,C,B,A,CONFLICT,1:1:1 conflict -- needs human review
+405,4.A.3.a.2.I42.D04,C,D,D,D,2/3 consensus
+406,4.A.3.a.1.I16.D03,C,C,D,C,2/3 consensus
+407,4.A.3.b.6.I14.D03,C,C,D,C,2/3 consensus
+408,4.A.4.a.2.I06.D01,C,D,D,D,2/3 consensus
+409,4.A.3.a.2.I42.D03,C,C,D,C,2/3 consensus
+410,4.A.2.a.4.I07.D17,B,A,D,CONFLICT,1:1:1 conflict -- needs human review
+411,4.A.3.a.2.I40.D03,A,B,D,CONFLICT,1:1:1 conflict -- needs human review
+412,4.A.1.a.2.I02.D20,C,C,C,C,3/3 consensus
+413,4.A.3.a.2.I42.D01,D,D,D,D,3/3 consensus
+414,4.A.4.c.1.I03.D02,A,C,A,A,2/3 consensus
+415,4.A.3.a.2.I34.D04,C,D,D,D,2/3 consensus
+416,4.A.4.c.1.I01.D07,D,C,D,D,2/3 consensus
+417,4.A.2.b.1.I01.D07,D,C,D,D,2/3 consensus
+418,4.A.4.a.1.I03.D02,C,C,D,C,2/3 consensus
+419,4.A.3.a.3.I04.D01,A,A,A,A,3/3 consensus
+420,4.A.2.a.4.I07.D01,C,A,D,CONFLICT,1:1:1 conflict -- needs human review
+421,4.A.4.a.1.I04.D02,C,C,D,C,2/3 consensus
+422,4.A.2.b.2.I24.D01,D,A,D,D,2/3 consensus
+423,4.A.3.a.1.I07.D07,D,A,D,D,2/3 consensus
+424,4.A.1.b.2.I12.D05,D,C,D,D,2/3 consensus
+425,4.A.3.a.1.I05.D05,D,D,D,D,3/3 consensus
+426,4.A.1.a.2.I01.D08,D,A,D,D,2/3 consensus
+427,4.A.4.a.5.I09.D07,D,D,A,D,2/3 consensus
+428,4.A.1.a.2.I11.D06,C,C,D,C,2/3 consensus
+429,4.A.3.b.6.I08.D13,C,C,D,C,2/3 consensus
+430,4.A.3.b.6.I03.D03,B,D,B,B,2/3 consensus
+431,4.A.3.b.4.I06.D03,C,A,D,CONFLICT,1:1:1 conflict -- needs human review
+432,4.A.1.a.1.I13.D03,C,B,C,C,2/3 consensus
+433,4.A.3.a.2.I12.D01,B,C,D,CONFLICT,1:1:1 conflict -- needs human review
+434,4.A.1.a.2.I01.D13,B,C,D,CONFLICT,1:1:1 conflict -- needs human review
+435,4.A.2.b.5.I01.D01,A,A,A,A,3/3 consensus
+436,4.A.4.c.2.I01.D02,C,C,D,C,2/3 consensus
+437,4.A.2.a.3.I01.D08,C,C,A,C,2/3 consensus
+438,4.A.3.a.2.I39.D04,C,A,D,CONFLICT,1:1:1 conflict -- needs human review
+439,4.A.3.a.3.I11.D04,B,C,D,CONFLICT,1:1:1 conflict -- needs human review
+440,4.A.4.a.3.I03.D10,D,D,D,D,3/3 consensus
+441,4.A.3.a.2.I22.D09,C,A,D,CONFLICT,1:1:1 conflict -- needs human review
+442,4.A.1.b.2.I07.D05,C,C,C,C,3/3 consensus
+443,4.A.4.a.2.I08.D04,C,C,D,C,2/3 consensus
+444,4.A.4.a.2.I06.D02,D,C,D,D,2/3 consensus
+445,4.A.4.b.6.I09.D01,D,C,D,D,2/3 consensus
+446,4.A.3.b.6.I12.D03,A,A,D,A,2/3 consensus
+447,4.A.1.b.2.I10.D08,C,C,D,C,2/3 consensus
+448,4.A.2.a.2.I01.D06,C,C,D,C,2/3 consensus
+449,4.A.2.a.4.I09.D04,C,C,D,C,2/3 consensus
+450,4.A.1.a.2.I06.D05,C,C,C,C,3/3 consensus
+451,4.A.4.a.2.I08.D01,C,D,D,D,2/3 consensus
+452,4.A.3.a.2.I03.D06,C,C,D,C,2/3 consensus
+453,4.A.4.c.3.I06.D04,D,A,D,D,2/3 consensus
+454,4.A.3.a.1.I03.D13,A,C,A,A,2/3 consensus
+455,4.A.1.a.2.I10.D01,B,B,B,B,3/3 consensus
+456,4.A.2.b.2.I18.D05,C,A,D,CONFLICT,1:1:1 conflict -- needs human review
+457,4.A.3.a.2.I34.D07,C,A,D,CONFLICT,1:1:1 conflict -- needs human review
+458,4.A.3.a.3.I06.D07,C,A,D,CONFLICT,1:1:1 conflict -- needs human review
+459,4.A.1.b.2.I06.D14,A,B,C,CONFLICT,1:1:1 conflict -- needs human review
+460,4.A.3.a.2.I29.D01,A,D,D,D,2/3 consensus
+461,4.A.3.a.2.I46.D11,A,C,D,CONFLICT,1:1:1 conflict -- needs human review
+462,4.A.2.b.2.I16.D06,C,B,D,CONFLICT,1:1:1 conflict -- needs human review
+463,4.A.1.b.2.I06.D08,C,C,D,C,2/3 consensus
+464,4.A.3.a.3.I07.D01,A,A,D,A,2/3 consensus
+465,4.A.3.b.6.I08.D22,C,C,C,C,3/3 consensus
+466,4.A.1.a.2.I11.D09,D,A,D,D,2/3 consensus
+467,4.A.3.b.4.I08.D02,D,A,D,D,2/3 consensus
+468,4.A.1.b.2.I05.D11,A,C,D,CONFLICT,1:1:1 conflict -- needs human review
+469,4.A.3.b.6.I08.D07,B,C,B,B,2/3 consensus
+470,4.A.3.b.1.I01.D03,D,D,D,D,3/3 consensus
+471,4.A.3.a.1.I17.D04,A,C,D,CONFLICT,1:1:1 conflict -- needs human review
+472,4.A.2.b.2.I12.D01,D,D,D,D,3/3 consensus
+473,4.A.4.a.2.I03.D03,C,C,C,C,3/3 consensus
+474,4.A.2.b.2.I09.D01,C,C,C,C,3/3 consensus
+475,4.A.1.a.2.I04.D01,D,D,D,D,3/3 consensus
+476,4.A.3.a.2.I39.D01,A,C,A,A,2/3 consensus
+477,4.A.4.b.6.I08.D01,C,C,C,C,3/3 consensus
+478,4.A.2.b.2.I02.D07,C,C,D,C,2/3 consensus
+479,4.A.4.b.4.I11.D05,A,A,D,A,2/3 consensus
+480,4.A.1.a.2.I01.D12,A,A,D,A,2/3 consensus
+481,4.A.2.b.4.I01.D03,A,A,D,A,2/3 consensus
+482,4.A.4.a.2.I03.D11,C,C,C,C,3/3 consensus
+483,4.A.4.b.3.I02.D09,A,D,D,D,2/3 consensus
+484,4.A.4.a.2.I04.D05,C,C,C,C,3/3 consensus
+485,4.A.4.a.2.I03.D19,D,C,D,D,2/3 consensus
+486,4.A.3.a.3.I05.D03,D,D,D,D,3/3 consensus
+487,4.A.3.a.1.I08.D03,A,A,A,A,3/3 consensus
+488,4.A.4.b.6.I01.D01,C,D,C,C,2/3 consensus
+489,4.A.1.a.1.I11.D01,D,C,D,D,2/3 consensus
+490,4.A.1.a.2.I02.D14,D,A,D,D,2/3 consensus
+491,4.A.3.a.2.I46.D09,C,A,C,C,2/3 consensus
+492,4.A.1.b.2.I11.D02,D,D,D,D,3/3 consensus
+493,4.A.2.a.4.I11.D06,A,A,A,A,3/3 consensus
+494,4.A.4.c.3.I01.D06,C,C,D,C,2/3 consensus
+495,4.A.2.b.2.I11.D03,D,A,D,D,2/3 consensus
+496,4.A.4.b.6.I01.D05,D,D,D,D,3/3 consensus
+497,4.A.2.b.2.I15.D11,C,A,D,CONFLICT,1:1:1 conflict -- needs human review
+498,4.A.3.a.1.I03.D23,A,A,D,A,2/3 consensus
+499,4.A.3.b.4.I08.D03,D,D,D,D,3/3 consensus
+500,4.A.2.b.5.I01.D02,A,A,D,A,2/3 consensus
+501,4.A.3.b.1.I03.D04,A,A,D,A,2/3 consensus
+502,4.A.3.a.3.I07.D06,C,C,D,C,2/3 consensus

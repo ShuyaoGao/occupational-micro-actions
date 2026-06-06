@@ -1,0 +1,5 @@
+﻿class,n_DWAs,mean_OAI,median_OAI,std_OAI
+LLM,1070,0.427,0.5,0.2828
+Multimodal_Perception,331,0.1245,0.0,0.2194
+Embodied,322,0.0602,0.0,0.1662
+Human_Bound,238,0.2193,0.0,0.2784

@@ -1,0 +1,368 @@
+BATCH 11/63 | Model: Claude Opus 4.7 | Tasks 81-88
+================================================================
+EXPERT REVIEW -- Micro-Action Sequence Evaluation
+For each task, read ALL four options, then choose the BEST (A/B/C/D).
+
+Criteria:
+  1. Completeness  -- no critical steps missing
+  2. Realism       -- every step is concretely executable
+  3. Stage accuracy -- stage label correct for each step:
+     IC=Intent_Communication  NA=Navigation_Addressing
+     PD=Perception_Diagnosis  ME=Manipulation_Execution  FV=Feedback_Verification
+  4. Conciseness   -- no redundant or duplicate steps
+  5. Scope         -- starts and ends at exactly the right point
+
+OUTPUT: fill the ANSWER TEMPLATE at the bottom.
+Format: N: X | one-sentence reason (max 12 words)
+IMPORTANT: Each task has a different best answer. Do NOT pick the same
+letter for every task without reading.
+================================================================
+
+--- Task 81: Document events or evidence, using photographic or audiovisual equipment.
+[A]
+  1. [NA] Approach the crime scene and ensure the area is secure and undisturbed.
+  2. [ME] Don protective gear (gloves, mask) to avoid contaminating the scene.
+  3. [NA] Set up the photographic and audiovisual equipment in strategic locations.
+  4. [PD] Adjust camera settings to ensure optimal lighting and clarity.
+  5. [ME] Capture wide-angle shots to document the overall scene and context.
+  6. [ME] Capture close-up shots of key evidence, such as fingerprints, tool marks, and broken locks.
+  7. [ME] Record video of the overall scene, including key areas and evidence.
+  8. [FV] Review the captured photographic and audiovisual evidence to ensure completeness and quality.
+  9. [IC] Label and organize the photographic and audiovisual evidence for easy accessibility and searchability.
+[B]
+  1. [NA] Arrive at the crime scene and assess the environment for potential hazards or obstacles.
+  2. [IC] Put on personal protective equipment (PPE) such as gloves and a hat to protect against biohazards.
+  3. [NA] Set up the digital camera and audio recorder in a stable and secure location, ensuring clear visibility of the crime scene.
+  4. [PD] Review the camera's memory card and audio recorder's storage to ensure they have sufficient capacity for the documentation.
+  5. [ME] Begin documenting the crime scene by taking photographs and recording audio, focusing on relevant evidence such as fingerprints, footprints, and suspicious objects.
+  6. [PD] Review and organize the documentation, ensuring that all relevant evidence is captured and stored securely.
+  7. [NA] Store the digital camera and audio recorder in a secure location, ensuring they are protected from damage or tampering.
+  8. [FV] Review the documentation with the investigating team to ensure all relevant evidence is captured and stored securely.
+  9. [ME] Finalize the documentation by creating a report or summary of the evidence captured, including photographs and audio recordings.
+  10. [IC] Label and organize the photographic and audiovisual evidence, ensuring it is easily accessible and searchable for further analysis.
+[C]
+  1. [IC] Don protective gear (gloves, mask) to avoid contaminating the scene.
+  2. [PD] Survey the scene, identifying key areas for documentation (e.g., points of entry, potential evidence).
+  3. [NA] Set up the camera and tripod, ensuring stability and optimal framing of the first key area.
+  4. [PD] Adjust camera settings (aperture, shutter speed, ISO) based on lighting conditions and desired depth of field.
+  5. [ME] Capture photographs of the designated area, ensuring proper focus and composition.
+  6. [ME] Record video footage of the scene, panning slowly to capture the overall context and key areas.
+  7. [FV] Review captured photographs and video footage to ensure clarity, focus, and completeness.
+  8. [IC] Label and securely store all photographic and audiovisual evidence for chain of custody.
+[D]
+  1. [NA] Arrive at the crime scene, assess the environment for potential hazards, and put on personal protective equipment (PPE).
+  2. [NA] Set up photographic and audiovisual equipment in stable, secure, and strategic locations, ensuring clear visibility of the crime scene.
+  3. [PD] Review and test camera and audio recorder functionality, ensuring they have sufficient capacity and optimal settings for the environment.
+  4. [ME] Begin documenting the crime scene by capturing wide-angle shots to establish overall context and close-up shots of key evidence.
+  5. [ME] Record video footage of the scene, panning slowly to capture the overall layout, context, and any additional evidence not previously documented.
+  6. [FV] Review captured photographic and audiovisual evidence on-site to ensure completeness, quality, and accuracy.
+  7. [IC] Label, organize, and securely store the photographic and audiovisual evidence, ensuring it is easily accessible and searchable for further analysis.
+  8. [NA] Exit the crime scene, ensuring the chain of custody is maintained and the scene is preserved for further investigation.
+
+--- Task 82: Operate biomass or biofuel production equipment.
+[A]
+  1. [IC] Review the production schedule and confirm the type and quantity of raw materials needed for the day.
+  2. [NA] Navigate to the raw material storage area and inspect the quality and quantity of the raw materials.
+  3. [ME] Load the raw materials into the feedstock handling system and ensure they are evenly distributed.
+  4. [PD] Monitor the pre-treatment process, adjusting temperature and pressure settings as needed to ensure optimal conditions.
+  5. [PD] Monitor the enzymatic hydrolysis and fermentation processes, adjusting enzyme dosing, mixing rates, and fermentation conditions as needed.
+  6. [PD] Monitor the distillation process, adjusting settings to separate ethanol from the fermentation broth.
+  7. [FV] Collect and analyze samples of the final biofuel product to ensure it meets the required standards.
+  8. [ME] Perform routine maintenance tasks, such as cleaning filters and replacing worn parts, to ensure equipment efficiency and safety.
+  9. [IC] Document and record production data, including process parameters, equipment performance, and quality control results.
+[B]
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+  ?. [?] 
+[C]
+  1. [IC] Review the production schedule and confirm the type and quantity of raw materials needed.
+  2. [NA] Navigate to the raw material storage area and inspect the quality and quantity of the designated raw materials.
+  3. [ME] Load the raw materials into the feedstock handling system, ensuring even distribution.
+  4. [PD] Monitor the pre-treatment process (e.g., steam and chemical application), adjusting temperature and pressure settings as needed to ensure optimal conditions.
+  5. [PD] Monitor subsequent stages (e.g., enzymatic hydrolysis, fermentation, distillation), adjusting process parameters (e.g., enzyme dosing, temperature, pH) as needed to optimize each stage.
+  6. [FV] Verify the quality of the final biofuel product, ensuring it meets required standards.
+[D]
+  1. [IC] Review and understand the production schedule, and confirm the type and quantity of raw materials needed for the day.
+  2. [IC] Don personal protective equipment (PPE) and safety gear according to the facility's standard operating procedures.
+  3. [NA] Navigate to the raw material storage area and inspect the biomass for quality, quantity, and any signs of obstructions or wear.
+  4. [ME] Load the biomass into the feedstock handling system, ensuring it's evenly distributed and not overfilled.
+  5. [ME] Initiate the gasification or pre-treatment process, monitoring initial temperature, pressure, or other relevant parameters.
+  6. [PD] Monitor and regulate process parameters (temperature, pressure, airflow, etc.) to maintain optimal conditions for biofuel production.
+  7. [PD] Monitor and analyze process data, adjusting control settings as needed to optimize biofuel yield and equipment efficiency.
+  8. [PD] Collect and analyze samples of biofuel to ensure quality and purity meet production targets.
+  9. [FV] Safely shut down the system once the production quota is met or the end of the shift approaches, following the facility's standard operating procedures.
+  10. [FV] Remove and store the collected biofuel, ensuring it's properly labeled and documented for later use or sale.
+  11. [FV] Conduct a final walkthrough of the facility, ensuring all equipment is secured, and no safety hazards remain before leaving the work area.
+
+--- Task 83: Trim trees or other vegetation.
+[A]
+  1. [PD] Inspect the tree to identify dead branches, areas needing shaping, and any hazards.
+  2. [ME] Don personal protective equipment (PPE) including gloves, helmet, safety glasses, and chainsaw chaps.
+  3. [NA] Position the ladder safely at the base of the tree, ensuring stable footing.
+  4. [NA] Climb the ladder, maintaining three points of contact at all times.
+  5. [ME] Use the chainsaw or pruning tools to make precise cuts, removing identified branches while avoiding contact with power lines.
+  6. [ME] Lower cut branches safely to the ground, using ropes or controlled drops.
+  7. [NA] Descend the ladder carefully, maintaining three points of contact.
+  8. [FV] Inspect the trimmed tree from the ground, ensuring it has a well-maintained shape and no hazardous branches remain.
+  9. [NA] Collect all trimmed branches and dispose of them properly.
+[B]
+  1. [PD] Inspect the tree line from a safe distance, identifying trees that require trimming.
+  2. [NA] Approach the first tree, assessing its height, diameter, and the location of the branches to be trimmed.
+  3. [ME] Don safety gear: helmet, gloves, eye protection, and chainsaw chaps.
+  4. [PD] Inspect the tree: identify branches obstructing power lines, deadwood, and areas needing shaping.
+  5. [NA] Position the ladder safely at the base of the tree, ensuring stable footing.
+  6. [NA] Climb the ladder, maintaining three points of contact at all times.
+  7. [ME] Use the chainsaw to make precise cuts, removing identified branches while avoiding contact with power lines.
+  8. [ME] Lower cut branches safely to the ground, using ropes or controlled drops.
+  9. [NA] Descend the ladder carefully, maintaining three points of contact.
+  10. [FV] Inspect the trimmed tree, ensuring all hazardous branches are removed and the desired shape is achieved.
+[C]
+  1. [NA] The worker arrives at the site and retrieves the necessary tools (pruners, loppers, ladder, safety gear) from the vehicle.
+  2. [IC] The worker puts on safety gear (gloves, helmet, safety glasses).
+  3. [PD] The worker inspects the tree to identify dead branches, areas needing shaping, and potential hazards.
+  4. [NA] The worker positions the ladder safely at the base of the tree, ensuring stable footing.
+  5. [NA] The worker climbs the ladder, maintaining three points of contact at all times.
+  6. [ME] The worker uses pruners and loppers to cut the identified dead branches and shape the tree.
+  7. [NA] The worker descends the ladder carefully, maintaining three points of contact.
+  8. [FV] The worker inspects the trimmed tree from the ground, ensuring it has a well-maintained shape and no hazardous branches remain.
+  9. [NA] The worker collects and disposes of the trimmed branches properly.
+[D]
+  1. [PD] Inspect the tree and surrounding area for hazards, such as power lines, and identify branches that need trimming or shaping.
+  2. [IC] Don personal protective equipment (PPE), including safety glasses, earplugs, gloves, a hard hat, and chainsaw chaps.
+  3. [NA] Position the ladder safely at the base of the tree, ensuring stable footing, and climb the ladder while maintaining three points of contact.
+  4. [PD] Assess each branch to be trimmed, determining the best angle and location for the cut, and choose the appropriate tool (pruners, loppers, or chainsaw) for the task.
+  5. [ME] Make the cut using the chosen tool, ensuring the branch falls safely to the ground, and lower it using ropes or controlled drops if necessary.
+  6. [ME] Repeat steps 4 and 5 for all branches on the tree that require trimming, maintaining a safe and controlled environment.
+  7. [NA] Descend the ladder carefully, maintaining three points of contact, and remove the ladder from the tree's base.
+  8. [FV] Inspect the trimmed tree from the ground, ensuring it has a well-maintained shape, no hazardous branches remain, and the area is clean.
+  9. [FV] Collect and dispose of cut branches and debris in an environmentally responsible manner.
+
+--- Task 84: Evaluate student work.
+[A]
+  1. [NA] Retrieve the first student's work from the stack or online submission.
+  2. [IC] Review the grading rubric to refresh memory on specific criteria and weightings.
+  3. [PD] Read the student's work carefully, annotating key arguments, textual evidence, and stylistic choices.
+  4. [ME] Assign a score for each rubric criterion based on the work's content and quality.
+  5. [FV] Write detailed, constructive feedback addressing both strengths and weaknesses of the work.
+  6. [ME] Record the final grade and feedback on the designated grading sheet or online platform.
+  7. [IC] Repeat steps 3-6 for each remaining student's work.
+  8. [FV] Review the overall distribution of grades to ensure fairness.
+  9. [FV] Post the final grades and feedback for all students on the online platform or distribute physically.
+[B]
+  1. [NA] Collect the stack of essays from the designated submission point.
+  2. [IC] Review the grading rubric to refresh memory on specific criteria and weightings.
+  3. [NA] Select the first essay from the stack and position it for comfortable reading.
+  4. [PD] Read the essay carefully, annotating key arguments, textual evidence, and stylistic choices.
+  5. [ME] Assign a score for each rubric criterion based on the essay's content and quality.
+  6. [FV] Write detailed, constructive feedback addressing both strengths and weaknesses of the essay.
+  7. [ME] Record the final grade for the essay on the designated grading sheet.
+  8. [IC] Repeat steps 3-7 for each remaining essay in the stack.
+[C]
+  1. [NA] Retrieve the first student's exam from the stack.
+  2. [IC] Review the grading rubric to refresh memory on specific criteria and weightings.
+  3. [PD] Review the student's multiple-choice answers and record the score.
+  4. [PD] Read the student's response to each free-response question, applying the rubric to score each one.
+  5. [ME] Write feedback for each free-response question, highlighting strengths and areas for improvement.
+  6. [FV] Summarize the overall performance and provide an overall score.
+  7. [IC] Repeat steps 1-6 for each remaining student's exam.
+[D]
+  1. [NA] Collect the stack of student work from the designated submission point.
+  2. [IC] Review the grading rubric to refresh memory on specific criteria and weightings.
+  3. [NA] Select the first student's work and position it for comfortable review.
+  4. [PD] Read the student's work carefully, annotating key aspects and taking notes.
+  5. [ME] Assign a score for each rubric criterion based on the work's content and quality.
+  6. [FV] Write detailed, constructive feedback addressing both strengths and weaknesses of the work.
+  7. [ME] Record the final grade for the work on the designated grading sheet or platform.
+  8. [IC] Repeat steps 3 to 7 for each remaining student's work.
+  9. [FV] After evaluating all submissions, review the overall distribution of grades to ensure fairness.
+  10. [FV] Post the final grades and feedback for all students on the appropriate platform.
+  11. [IC] Send an announcement or notification to the students summarizing the grading process and encouraging them to review their feedback.
+
+--- Task 85: Treat medical emergencies.
+[A]
+  1. [IC] Receive dispatch information about the emergency, including location and initial reported symptoms.
+  2. [NA] Navigate to the emergency location using GPS and traffic information, adhering to traffic laws and safety protocols.
+  3. [PD] Assess the patient's condition, checking vital signs (pulse, respiration, blood pressure), and observing for signs of distress.
+  4. [ME] Administer immediate life-saving interventions as needed, such as oxygen therapy, CPR, or defibrillation.
+  5. [IC] Communicate with the patient, providing reassurance and explaining procedures to alleviate anxiety.
+  6. [ME] Prepare the patient for transport, securing them on a stretcher and ensuring all necessary medical equipment is accessible.
+  7. [NA] Transport the patient to the hospital, monitoring their condition en route and adjusting care as needed.
+  8. [IC] Update the hospital on the patient's condition and estimated time of arrival, ensuring they are prepared for the patient's arrival.
+  9. [FV] Arrive at the hospital, hand over the patient to the hospital staff, and provide a detailed report of the incident and the care provided.
+[B]
+  1. [IC] Receive dispatch information about the emergency, including location and initial reported symptoms.
+  2. [NA] Navigate to the emergency location using GPS and traffic information, adhering to traffic laws and safety protocols.
+  3. [PD] Assess the patient's condition, checking vital signs (pulse, respiration, blood pressure), and observing for signs of distress.
+  4. [ME] Administer immediate life-saving interventions as needed, such as oxygen therapy, CPR, or defibrillation.
+  5. [IC] Communicate with the patient, providing reassurance and explaining procedures to alleviate anxiety.
+  6. [ME] Prepare the patient for transport, securing them on a stretcher and ensuring all necessary medical equipment is accessible.
+  7. [NA] Transport the patient to the hospital, monitoring their condition en route and adjusting care as needed.
+  8. [IC] Transfer patient care to hospital staff, providing a concise report of the patient's condition and interventions performed.
+  9. [PD] Monitor the patient's condition during transport, providing continuous care and adjusting treatment as needed.
+  10. [FV] Arrives at the hospital, hands over the patient to the hospital staff, and provides a detailed report of the incident and the care provided.
+[C]
+  1. [NA] Arrive at the scene and assess the immediate environment for safety.
+  2. [IC] Communicate with the patient to understand the nature of the emergency and their medical history.
+  3. [PD] Perform a rapid assessment of the patient's vital signs and allergic reaction symptoms.
+  4. [ME] Administer epinephrine using an auto-injector to the patient's thigh.
+  5. [PD] Monitor the patient's response to the epinephrine and continue to assess vital signs.
+  6. [ME] Administer oxygen via a mask to ensure the patient is breathing adequately.
+  7. [ME] Prepare the patient for transport by securing them on a stretcher.
+  8. [IC] Communicate with the hospital to inform them of the patient's condition and estimated time of arrival.
+  9. [NA] Transport the patient to the hospital while continuously monitoring their condition.
+[D]
+  1. [NA] Activates emergency vehicle's lights and sirens upon receiving the call, navigating towards the patient's location.
+  2. [IC] Communicates with the dispatch center to gather information about the patient's condition and medical history.
+  3. [NA] Upon arrival, quickly locates the patient's exact location using the provided address and any additional guidance from bystanders.
+  4. [PD] Assesses the patient's condition, focusing on signs of distress, breathing, vital signs, and level of consciousness.
+  5. [ME] Administers immediate life-saving interventions as needed, such as oxygen therapy, CPR, defibrillation, or epinephrine administration.
+  6. [IC] Communicates with the patient, providing reassurance and explaining procedures to alleviate anxiety.
+  7. [ME] Prepares the patient for transport, securing them on a stretcher and ensuring all necessary medical equipment is accessible.
+  8. [NA] Transports the patient to the ambulance, securing them safely inside for transport.
+  9. [IC] Updates the hospital on the patient's condition, estimated time of arrival, and ensures they are prepared for the patient's arrival.
+  10. [PD] Monitors the patient's condition during transport, providing continuous care and adjusting treatment as needed.
+  11. [FV] Arrives at the hospital, hands over the patient to the hospital staff, and provides a detailed report of the incident and the care provided.
+
+--- Task 86: Execute sales or other financial transactions.
+[A]
+  1. [IC] Greet the customer and ask how they can be assisted.
+  2. [PD] Scan each item using the barcode scanner and verify the scanned items on the POS screen.
+  3. [ME] Enter any necessary discounts or coupons and confirm the total amount with the customer.
+  4. [ME] Select the customer's preferred payment method and process the payment transaction.
+  5. [FV] Print the receipt and hand it to the customer, allowing them to verify the details.
+  6. [IC] Thank the customer and wish them a good day.
+[B]
+  1. [IC] Greet the customer and ask how they can be assisted.
+  2. [IC] Listen to the customer's verbal description of the items they wish to purchase.
+  3. [NA] Navigate to the store's inventory management system to locate the specific items.
+  4. [PD] Verify the availability and price of the items.
+  5. [ME] Move to the cash register and input the items into the sales system.
+  6. [IC] Confirm the total amount with the customer.
+  7. [ME] Process the payment method chosen by the customer (e.g., credit card, cash).
+  8. [ME] Print the receipt and hand it to the customer.
+  9. [FV] Verify the transaction by checking the receipt and ensuring the customer is satisfied.
+  10. [FV] Thank the customer and wish them a pleasant day.
+[C]
+  1. [IC] Greet the customer and inquire about their needs.
+  2. [NA] Locate and verify the items or services requested by the customer.
+  3. [PD] Scan or input the items/services, confirming quantities and prices.
+  4. [ME] Apply any applicable discounts or promotions.
+  5. [ME] Process the payment using the customer's preferred method.
+  6. [FV] Provide the customer with a receipt and confirm the transaction details.
+  7. [IC] Thank the customer and offer assistance with any further needs.
+[D]
+  1. [IC] Greet the customer and inquire about their needs or the purpose of their visit.
+  2. [IC] Verify the customer's identity, if necessary, using an ID scanner or other means.
+  3. [NA] Locate and access the customer's account or the items they wish to purchase in the relevant system.
+  4. [PD] Perform any necessary diagnostics or verifications, such as checking item availability, prices, or customer balance.
+  5. [ME] Input transaction details into the relevant system, applying discounts or coupons as needed.
+  6. [ME] Select and process the customer's preferred payment method, handling cash, cards, or other physical objects securely.
+  7. [FV] Print and review the transaction receipt with the customer, allowing them to verify the details.
+  8. [IC] Thank the customer, address any further needs, and wish them a pleasant day.
+  9. [FV] Log out of the customer's account and secure the workstation to maintain privacy and security.
+
+--- Task 87: Supervise laboratory work.
+[A]
+  1. [IC] Review the day's experiment schedule and objectives with the team, ensuring alignment with project goals.
+  2. [PD] Inspect the laboratory to ensure all necessary equipment and materials are available and that the working area is safe.
+  3. [PD] Circulate through the laboratory, observing researchers' work, providing on-the-spot guidance, and troubleshooting any technical issues.
+  4. [PD] Monitor the experiments in progress, ensuring adherence to protocols and addressing any deviations or issues.
+  5. [FV] Review experimental data for accuracy, consistency, and adherence to quality control standards.
+  6. [FV] Ensure all researchers are following safety protocols, including proper handling of chemicals and waste disposal procedures.
+  7. [ME] Document the day's activities, including any issues, incidents, and experimental results.
+  8. [FV] Conduct a final lab inspection to ensure all experiments are complete, equipment is properly stored, and safety protocols are followed.
+  9. [IC] Conduct a debriefing session with the team, discussing results, addressing any issues, and planning for the next workday.
+[B]
+  1. [IC] Review the day's experiment schedule and prepare a mental checklist of tasks to oversee.
+  2. [IC] Enter the lab, greet technicians, and confirm everyone is present and accounted for.
+  3. [PD] Inspect the lab to ensure safety protocols are followed, such as proper storage of hazardous materials and functioning emergency equipment.
+  4. [PD] Check on the first experiment, observe technicians' techniques, and provide guidance as needed.
+  5. [NA] Move to the second experiment, monitor progress, and ensure technicians are following proper procedures.
+  6. [ME] Assist in the third experiment by performing a specific task, such as pipetting a solution or operating a microscope.
+  7. [IC] Check experiment timers and remind technicians of upcoming tasks or deadlines.
+  8. [PD] Observe and interpret experimental results, making real-time decisions to adjust protocols if necessary.
+  9. [ME] Document experimental results, ensuring data is accurately recorded and organized.
+  10. [FV] Conduct a final lab inspection to ensure all experiments are complete, equipment is properly stored, and safety protocols are followed.
+  11. [IC] Conduct a debriefing session with technicians, discussing results, addressing any issues, and planning for the next workday.
+[C]
+  1. [IC] Review the day's experiment schedule and objectives, ensuring alignment with project goals.
+  2. [IC] Conduct a brief team meeting to communicate objectives, address questions, and foster open communication.
+  3. [PD] Circulate through the lab, observing researchers' work, providing guidance, and troubleshooting technical issues.
+  4. [FV] Review experimental data for accuracy, consistency, and adherence to quality control standards.
+  5. [FV] Ensure all researchers are following safety protocols, including proper handling of chemicals and waste disposal.
+  6. [IC] Facilitate a discussion among team members to share findings, brainstorm solutions, and encourage collaborative problem-solving.
+  7. [FV] Prepare a concise report summarizing the day's progress, highlighting key findings, challenges, and next steps.
+[D]
+  1. [IC] Review the day's experiment schedule and objectives, and prepare a mental checklist of tasks to oversee.
+  2. [IC] Enter the lab, greet team members, and confirm everyone is present and accounted for.
+  3. [PD] Inspect the lab to ensure safety protocols are followed, such as proper storage of hazardous materials and functioning emergency equipment.
+  4. [PD] Circulate among team members, observing their work, providing on-the-spot guidance on experimental techniques, and troubleshooting any technical issues.
+  5. [PD] Monitor experiments in progress, ensuring team members are following correct procedures and adhering to quality control standards.
+  6. [ME] Intervene if any issues arise, such as equipment malfunctions or procedural errors, and provide necessary support.
+  7. [FV] Review experimental data generated by the team, checking for accuracy, consistency, and adherence to quality control standards.
+  8. [IC] Facilitate a discussion among team members to share findings, brainstorm solutions to challenges, and encourage collaborative problem-solving.
+  9. [FV] Ensure all team members are following safety protocols, including proper handling of chemicals, use of personal protective equipment, and waste disposal procedures.
+  10. [ME] Document the day's activities, including any issues or incidents, for reporting purposes.
+  11. [FV] Conduct a final lab inspection to ensure all experiments are complete, equipment is properly stored, and safety protocols are followed.
+  12. [IC] Conduct a debriefing session with team members, discussing results, addressing any issues, and planning for the next workday.
+
+--- Task 88: Adjust equipment controls to regulate flow of water, cleaning solutions, or other liquids.
+[A]
+  1. [IC] Consult the facility's digital maintenance log to understand the current flow rates and any ongoing issues.
+  2. [PD] Locate the control panel and identify the current flow rates of water and cleaning solutions by reading the gauges.
+  3. [PD] Determine the required flow rates based on the equipment specifications and the current cleaning load.
+  4. [ME] Locate and adjust the water flow control valve to the desired setting.
+  5. [FV] Verify the water flow rate by checking the gauge on the control panel.
+  6. [ME] Locate and adjust the cleaning solution flow control valve to the desired setting.
+  7. [FV] Verify the cleaning solution flow rate by checking the gauge on the control panel.
+  8. [FV] Run a test cycle of the equipment to ensure the adjusted flow rates are effective.
+  9. [IC] Document the adjustments made and the results of the test cycle in the maintenance log.
+[B]
+  1. [NA] Approach the equipment and locate the control panel.
+  2. [PD] Identify the current flow rates of water and cleaning solutions by reading the gauges on the control panel.
+  3. [PD] Determine the required flow rates based on the equipment's specifications and the current cleaning load.
+  4. [ME] Locate the flow control valve and adjust it to the desired setting.
+  5. [FV] Verify the flow rate by checking the gauge on the control panel.
+  6. [FV] Run a test cycle to ensure the adjusted flow rates are effective.
+  7. [IC] Document the adjustments made and the results of the test cycle in the maintenance log.
+[C]
+  1. [NA] Approach the equipment and locate the control panel.
+  2. [PD] Identify the current flow rates for all liquids by reading the gauges on the control panel.
+  3. [PD] Determine the required flow rates based on the equipment specifications and the current task.
+  4. [NA] Locate the control valves for each liquid.
+  5. [ME] Adjust each valve to the desired flow rate.
+  6. [FV] Verify the new flow rates by re-reading the gauges.
+  7. [IC] Document the adjustments made, including the date, time, liquid type, and new flow rates.
+[D]
+  1. [IC] Consult the equipment's maintenance log or digital interface to understand the current flow rates and any ongoing issues.
+  2. [NA] Don personal protective equipment (PPE) suitable for handling the specific liquids in use.
+  3. [NA] Locate the flow control valve and meter for the first processing stage or liquid type.
+  4. [PD] Read and interpret the flow meter to understand the current flow rate.
+  5. [ME] Adjust the flow control valve to achieve the desired flow rate based on the processing stage or liquid type requirements.
+  6. [FV] Verify the new flow rate by re-reading the flow meter.
+  7. [IC] Document the adjustment made, including the date, time, liquid type, and new flow rate.
+  8. [NA] Repeat steps 3 to 7 for each subsequent processing stage or liquid type, adjusting for different flow rates as required.
+  9. [FV] After completing all processing stages or liquid types, perform a final check for any leaks or spills.
+  10. [IC] Remove PPE and store it properly for future use.
+
+================================================================
+ANSWER TEMPLATE
+
+81: _ | 
+82: _ | 
+83: _ | 
+84: _ | 
+85: _ | 
+86: _ | 
+87: _ | 
+88: _ | 
+

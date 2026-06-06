@@ -1,0 +1,361 @@
+BATCH 31/63 | Model: Gemini 3 Pro | Tasks 241-248
+================================================================
+EXPERT REVIEW -- Micro-Action Sequence Evaluation
+For each task, read ALL four options, then choose the BEST (A/B/C/D).
+
+Criteria:
+  1. Completeness  -- no critical steps missing
+  2. Realism       -- every step is concretely executable
+  3. Stage accuracy -- stage label correct for each step:
+     IC=Intent_Communication  NA=Navigation_Addressing
+     PD=Perception_Diagnosis  ME=Manipulation_Execution  FV=Feedback_Verification
+  4. Conciseness   -- no redundant or duplicate steps
+  5. Scope         -- starts and ends at exactly the right point
+
+OUTPUT: fill the ANSWER TEMPLATE at the bottom.
+Format: N: X | one-sentence reason (max 12 words)
+IMPORTANT: Each task has a different best answer. Do NOT pick the same
+letter for every task without reading.
+================================================================
+
+--- Task 241: Perform marketing activities.
+[A]
+  1. [PD] Conduct market research to identify target audience demographics and preferences.
+  2. [IC] Develop a marketing strategy that aligns with the company's goals and the identified target audience.
+  3. [ME] Create content for social media posts, including images, videos, and written copy.
+  4. [ME] Design and create email marketing templates and newsletters.
+  5. [ME] Set up paid advertising campaigns on platforms like Google Ads and Facebook Ads.
+  6. [NA] Schedule and publish social media posts using a content calendar.
+  7. [NA] Send out email marketing campaigns to the company's email list.
+  8. [PD] Monitor social media and email campaign performance using analytics tools.
+  9. [PD] Adjust campaign strategies based on performance data and feedback.
+  10. [FV] Respond to customer inquiries and comments on social media platforms.
+  11. [FV] Compile a report summarizing the campaign's performance and key learnings.
+  12. [FV] Deliver the campaign report to the marketing team and stakeholders.
+[B]
+  1. [IC] Conduct market research to identify target audience demographics and preferences.
+  2. [IC] Develop a marketing strategy that aligns with the company's goals and the identified target audience.
+  3. [ME] Create content for social media posts, including images, videos, and written copy.
+  4. [ME] Design and create email marketing templates and newsletters.
+  5. [ME] Set up paid advertising campaigns on platforms like Google Ads and Facebook Ads.
+  6. [NA] Schedule and publish social media posts using a content calendar.
+  7. [NA] Send out email marketing campaigns to the company's email list.
+  8. [PD] Monitor social media and email campaign performance using analytics tools.
+  9. [PD] Adjust campaign strategies based on performance data and feedback.
+  10. [FV] Respond to customer inquiries and comments on social media platforms.
+  11. [FV] Compile a report summarizing the campaign's performance and key learnings.
+  12. [FV] Deliver the campaign report to the marketing team and stakeholders.
+[C]
+  1. [IC] Define target audience and marketing goals based on product/service and company objectives.
+  2. [IC] Develop a comprehensive marketing strategy outlining key channels, tactics, and timelines.
+  3. [ME] Create engaging content (text, images, videos) tailored to the target audience and chosen marketing channels.
+  4. [NA] Schedule and publish content across selected marketing channels (social media, email, website).
+  5. [PD] Monitor campaign performance using analytics tools, tracking key metrics like engagement, reach, and conversions.
+  6. [FV] Engage with the audience by responding to comments, messages, and feedback.
+  7. [FV] Analyze campaign results, identify successes and areas for optimization, and document key learnings.
+[D]
+  1. [PD] Analyze customer data, social media analytics, and market trends to identify the target audience and their preferences.
+  2. [IC] Develop a marketing strategy that aligns with the company's goals and the identified target audience.
+  3. [ME] Create engaging content for various marketing channels, including social media posts, email newsletters, and promotional materials.
+  4. [NA] Schedule and publish content using a content calendar and marketing automation tools.
+  5. [FV] Monitor marketing campaign performance using analytics tools and engage with audience through comments and messages.
+  6. [FV] Prepare a report summarizing campaign performance, key learnings, and recommendations for future improvements.
+  7. [NA] Deliver the campaign report to the marketing team and stakeholders via email or other preferred communication channels.
+  8. [NA] Archive campaign materials and update the campaign calendar for future reference and planning.
+
+--- Task 242: Skim impurities from molten metal.
+[A]
+  1. [IC] The technician puts on protective gear, including a fire-resistant suit, gloves, and a face shield.
+  2. [NA] The technician approaches the molten metal vat using a safe pathway.
+  3. [PD] The technician observes the surface of the molten metal to identify impurities.
+  4. [PD] The technician selects the appropriate skimmer tool and prepares it for use.
+  5. [ME] The technician carefully lowers the skimmer tool into the molten metal, ensuring it does not touch the bottom.
+  6. [ME] The technician skims the surface of the molten metal, moving the tool in a controlled manner to collect impurities.
+  7. [ME] The technician lifts the skimmer tool out of the molten metal and places it in a designated area for impurity collection.
+  8. [FV] The technician inspects the surface of the molten metal to ensure impurities have been effectively removed.
+  9. [FV] The technician repeats the skimming process if necessary until the surface is free of impurities.
+  10. [FV] The technician records the results of the skimming process and ensures the area is clean and safe.
+[B]
+  1. [IC] The technician puts on protective gear, including a fire-resistant suit, gloves, and a face shield.
+  2. [NA] The technician approaches the molten metal vat using a safe pathway.
+  3. [PD] The technician observes the surface of the molten metal to identify impurities.
+  4. [PD] The technician selects the appropriate skimmer tool and prepares it for use.
+  5. [ME] The technician carefully lowers the skimmer tool into the molten metal, ensuring it does not touch the bottom.
+  6. [ME] The technician skims the surface of the molten metal, moving the tool in a controlled manner to collect impurities.
+  7. [ME] The technician lifts the skimmer tool out of the molten metal and places it in a designated area for impurity collection.
+  8. [FV] The technician inspects the surface of the molten metal to ensure impurities have been effectively removed.
+  9. [FV] The technician repeats the skimming process if necessary until the surface is free of impurities.
+  10. [FV] The technician records the results of the skimming process and ensures the area is clean and safe.
+[C]
+  1. [IC] Don heat-resistant suit, gloves, and face shield.
+  2. [NA] Approach the molten metal vat using a designated safe pathway.
+  3. [PD] Observe the surface of the molten metal to identify the type and location of impurities.
+  4. [IC] Select the appropriate skimmer tool based on impurity type and vat configuration.
+  5. [ME] Carefully lower the skimmer tool into the molten metal, skimming the surface to collect impurities.
+  6. [ME] Lift the skimmer tool out of the molten metal and transfer collected impurities to a designated container.
+  7. [FV] Visually inspect the surface of the molten metal to verify impurity removal.
+  8. [IC] Repeat skimming process as needed until the molten metal surface is free of visible impurities.
+[D]
+  1. [IC] Put on appropriate personal protective equipment (PPE), including fire-resistant suit, gloves, and face shield.
+  2. [NA] Approach the molten metal vat using a safe pathway and observe its surface for impurities.
+  3. [PD] Identify the type and amount of impurities present on the surface of the molten metal.
+  4. [PD] Select the appropriate skimming tool based on the identified impurities.
+  5. [ME] Carefully lower the skimming tool into the molten metal, ensuring it does not touch the bottom.
+  6. [ME] Skimming the surface of the molten metal in a controlled manner to collect impurities.
+  7. [ME] Lift the skimming tool out of the molten metal and place it in a designated area for impurity collection.
+  8. [FV] Inspect the surface of the molten metal to ensure impurities have been effectively removed.
+  9. [FV] Repeat the skimming process if necessary until the surface is free of impurities.
+  10. [FV] Record the results of the skimming process and ensure the area is clean and safe.
+
+--- Task 243: Refer individuals to educational or work programs.
+[A]
+  1. [IC] Greet the individual and introduce yourself as a career counselor. Ask about their employment history, skills, and areas of interest.
+  2. [NA] Access the database of available educational and work programs, filtering by the individual's skills and interests.
+  3. [PD] Evaluate the individual's eligibility and fit for each filtered program based on their skills and preferences.
+  4. [ME] Present the individual with a list of suitable programs, explaining the application process and key details for each.
+  5. [IC] Answer any questions the individual may have about the presented programs or the application process.
+  6. [ME] Provide the individual with the necessary application materials and instructions for their chosen program(s).
+  7. [FV] Offer to help with the application process if needed, or provide contact information for further assistance.
+[B]
+  1. [IC] Greet the individual and ask them to describe their background and career goals.
+  2. [NA] Access the college's database of educational and work programs.
+  3. [PD] Review the individual's background and match it with suitable programs.
+  4. [PD] Select a list of three to five programs that align with the individual's goals.
+  5. [IC] Present the list of programs to the individual and explain the benefits of each.
+  6. [IC] Answer the individual's questions about the programs and application process.
+  7. [ME] Provide the individual with the printed information and any additional resources.
+  8. [FV] Confirm the individual's understanding and readiness to proceed with the application process.
+[C]
+  1. [IC] Greet the individual and inquire about their background, career goals, skills, and interests.
+  2. [NA] Access and review relevant databases of educational and work programs, filtering by the individual's profile.
+  3. [PD] Select 3-5 programs that align with the individual's aspirations, skills, and preferences.
+  4. [ME] Present the selected programs to the individual, explaining their curriculum, duration, cost, and potential career paths.
+  5. [IC] Discuss the pros and cons of each program, addressing the individual's specific concerns and questions.
+  6. [ME] Provide the individual with brochures, website links, and contact information for the selected programs.
+  7. [FV] Offer ongoing support and guidance throughout the application process, if needed.
+[D]
+  1. [IC] Greet the individual warmly and introduce yourself as a career counselor.
+  2. [PD] Ask the individual about their background, skills, areas of interest, and career goals.
+  3. [NA] Access the database of available educational and work programs, filtering by the individual's skills, interests, and goals.
+  4. [PD] Evaluate the individual's eligibility and fit for each filtered program based on their skills, preferences, and goals.
+  5. [ME] Present the individual with a list of 3-5 suitable programs, explaining the curriculum, duration, cost, potential career paths, and application processes.
+  6. [IC] Answer any questions the individual may have about the presented programs or the application process.
+  7. [IC] Ask the individual to choose the program(s) they are most interested in pursuing.
+  8. [ME] Provide the individual with the necessary application materials, instructions, and contact information for their chosen program(s).
+  9. [FV] Offer to help the individual with the application process if needed, or provide contact information for further assistance.
+  10. [IC] Thank the individual for their time, wish them luck in their application, and invite them to return if they need further assistance.
+
+--- Task 244: Select equipment, materials, or supplies for cleaning or maintenance activities.
+[A]
+  1. [IC] Review the cleaning schedule and identify specific areas and tasks for the week.
+  2. [NA] Locate the cleaning supply closet and retrieve the necessary equipment and materials.
+  3. [PD] Check the condition and functionality of the equipment and materials, ensuring they are in good working order.
+  4. [ME] Select the appropriate cleaning equipment and supplies based on the tasks and estimated quantities needed.
+  5. [ME] Organize the equipment and materials in a logical and accessible manner on a cleaning cart.
+  6. [FV] Double-check the cart to ensure all necessary items are present and organized.
+  7. [IC] Plan the most efficient route through the building, prioritizing areas with higher traffic or more urgent maintenance needs.
+  8. [NA] Navigate through the building, using the planned route and the cleaning cart to access each area and perform the necessary cleaning and maintenance tasks.
+  9. [FV] Upon completion of the cleaning and maintenance tasks, return to the storage room, restock any used supplies, and store the cleaning cart and equipment.
+[B]
+  1. [IC] Review the cleaning schedule and the specific tasks required for the area to be cleaned, including any special instructions or requirements.
+  2. [NA] Locate the cleaning supply closet and retrieve the necessary equipment and materials.
+  3. [PD] Check the condition and functionality of the equipment and materials, ensuring they are in good working order and suitable for the task.
+  4. [PD] Verify the availability of cleaning solutions and other necessary materials, and restock if necessary.
+  5. [NA] Gather any necessary tools or equipment for specific tasks, such as a step stool or a vacuum cleaner.
+  6. [ME] Organize the equipment and materials in a logical and accessible manner, making it easy to retrieve what is needed during the cleaning process.
+  7. [PD] Check the cleaning solutions and materials for any expiration dates or safety precautions, and take necessary actions to ensure safe use.
+  8. [PD] Verify that all necessary equipment and materials are present and accounted for, and make any necessary adjustments or substitutions.
+  9. [ME] Organize the cleaning schedule and tasks, prioritizing the most critical areas and tasks, and allocating sufficient time for each task.
+  10. [FV] Review the plan and ensure that all necessary equipment and materials are ready for use, and that the cleaning schedule is feasible and realistic.
+[C]
+  1. [IC] Review the cleaning schedule and identify specific areas and tasks for cleaning or maintenance.
+  2. [NA] Locate and access the designated supply closet.
+  3. [PD] Visually scan shelves and identify the location of required cleaning equipment and materials based on the scheduled tasks.
+  4. [ME] Select the necessary cleaning equipment and materials, considering quantity and type needed for each task.
+  5. [NA] Carefully transport the selected equipment and materials to the designated cleaning area.
+  6. [FV] Double-check the gathered supplies to ensure completeness and readiness for the cleaning tasks.
+[D]
+  1. [IC] Review the cleaning schedule and inventory list to identify required supplies and areas to be cleaned.
+  2. [NA] Locate and enter the cleaning supply storage area.
+  3. [PD] Scan the storage area to identify and gather required cleaning equipment (e.g., mops, brooms, vacuum cleaners) and materials (e.g., cleaning solutions, disinfectants, paper products).
+  4. [PD] Check the condition and functionality of the gathered equipment and materials, and replace or replenish any missing or damaged items.
+  5. [ME] Organize the selected equipment and materials on a cleaning cart or in a logical manner for easy access and transport.
+  6. [IC] Plan the most efficient route through the building, prioritizing areas with higher traffic or more urgent cleaning needs.
+  7. [NA] Navigate through the building using the planned route and the cleaning cart to access each area and perform the necessary cleaning tasks.
+  8. [FV] Upon completion of the cleaning tasks, return to the storage area, restock any used supplies, and store the cleaning cart and equipment for the next use.
+
+--- Task 245: Evaluate quality of materials or products.
+[A]
+  1. [NA] Retrieve the batch of components from the production line.
+  2. [NA] Set up the necessary inspection tools (digital caliper, surface roughness tester) on the workbench.
+  3. [IC] Review the quality control standards document for the specific batch of components.
+  4. [PD] Visually inspect the component for any obvious signs of damage or defects.
+  5. [PD] Measure the component's dimensions using the digital caliper and record the measurements.
+  6. [PD] Use the surface roughness tester to measure the surface finish and record the results.
+  7. [FV] Document any defects or issues found in the quality control logbook.
+  8. [FV] Repeat the evaluation process for the remaining components in the batch and summarize the findings.
+  9. [IC] Submit the quality control report to the production team.
+[B]
+  1. [NA] Retrieve the batch of components from the production line.
+  2. [NA] Set up the necessary equipment and tools for the quality evaluation.
+  3. [IC] Review the quality control standards document for the specific batch of components.
+  4. [PD] Select a component from the batch and measure its dimensions using the digital caliper.
+  5. [FV] Record the measured dimensions in the quality control logbook.
+  6. [PD] Use the surface roughness tester to measure the surface finish of the component.
+  7. [FV] Record the surface roughness measurements in the logbook.
+  8. [PD] Perform a visual inspection of the component for any defects or anomalies.
+  9. [FV] Document any visual defects found in the logbook.
+  10. [FV] Repeat the evaluation process for the remaining components in the batch and summarize the findings.
+  11. [IC] Communicate the results of the quality evaluation to the production team.
+  12. [FV] Update the quality control database with the results of the quality evaluation.
+[C]
+  1. [NA] Retrieve a sample of products from the production line or designated storage.
+  2. [IC] Review the relevant quality control standards and specifications for the product.
+  3. [PD] Conduct a visual inspection of each product for any obvious defects or anomalies.
+  4. [ME] Utilize appropriate tools (calipers, testers, etc.) to measure critical dimensions and properties.
+  5. [FV] Record all measurements, observations, and identified defects in a standardized log or digital system.
+  6. [FV] Categorize products as 'pass' or 'fail' based on the established quality standards.
+  7. [IC] Communicate the evaluation results (pass/fail rates, defect types) to the relevant personnel or systems.
+[D]
+  1. [NA] Retrieve a sample from the batch of products.
+  2. [NA] Set up necessary tools and equipment for inspection, such as calipers, surface roughness tester, and visual aids.
+  3. [IC] Review the quality control standards document for the specific batch of products.
+  4. [PD] Perform a visual inspection of the product for any obvious signs of damage, defects, or anomalies.
+  5. [PD] Measure the product's dimensions using appropriate tools (e.g., calipers) and compare them to the specified tolerances.
+  6. [PD] Use specialized tools (e.g., surface roughness tester, multimeter) to measure other critical properties as required by the quality control standards.
+  7. [FV] Document any defects, issues, or measurements found during the inspection process, including photographs and detailed notes.
+  8. [IC] Repeat steps 4 to 7 for the remaining samples in the batch.
+  9. [FV] Summarize the findings and generate a report documenting the overall quality of the batch.
+  10. [IC] Communicate the results of the quality evaluation to the relevant team or manager, either in person or through a written report.
+
+--- Task 246: Compute debt repayment schedules.
+[A]
+  1. [IC] Retrieve the loan details including principal amount, interest rate, and repayment period.
+  2. [NA] Open a spreadsheet or financial software to input the loan details.
+  3. [ME] Input the principal amount, interest rate, and repayment period into the software.
+  4. [ME] Calculate the monthly payment and generate the repayment schedule using the software's built-in functions.
+  5. [FV] Review the repayment schedule for accuracy and completeness.
+  6. [IC] Explain the repayment schedule to the client, highlighting key elements like principal and interest breakdown.
+  7. [FV] Document the agreed-upon repayment plan and provide a copy to the client.
+  8. [IC] Schedule a follow-up appointment with the client to review their progress towards debt repayment.
+[B]
+  1. [PD] Review the client's financial information, including their income, expenses, and debt obligations.
+  2. [ME] Input the loan details (principal amount, interest rate, and repayment period) into the software.
+  3. [ME] Calculate the monthly payment using the software's built-in functions.
+  4. [ME] Generate the repayment schedule showing monthly payments over the 5-year period.
+  5. [FV] Review the repayment schedule for accuracy and completeness.
+  6. [FV] Prepare a summary document or presentation to explain the repayment schedule to the client.
+  7. [FV] Deliver the repayment schedule to the client via email or in-person meeting.
+  8. [PD] Monitor the client's progress towards their debt repayment goals and make adjustments to the plan as needed.
+  9. [IC] Review the client's debt repayment progress with the client and provide feedback on their progress towards their goals.
+  10. [FV] Document the agreed-upon debt repayment plan and provide a copy to the client.
+[C]
+  1. [IC] Gather loan details: principal amount, interest rate, and repayment period.
+  2. [ME] Input loan details into a financial calculator or spreadsheet software.
+  3. [ME] Utilize the software's functions to calculate the monthly payment.
+  4. [ME] Generate a comprehensive amortization schedule.
+  5. [FV] Review the amortization schedule for accuracy and completeness.
+  6. [IC] Present the amortization schedule and explain its components to the client.
+[D]
+  1. [IC] Gather client's financial information, including total outstanding debts, interest rates, and monthly income.
+  2. [NA] Access and verify the client's credit report to confirm debts and respective interest rates.
+  3. [PD] Calculate the total monthly debt repayment amount based on interest rates and outstanding balances.
+  4. [PD] Determine the client's debt-to-income ratio using their total monthly debt repayment amount and income.
+  5. [ME] Explore debt consolidation options, such as a debt consolidation loan or a balance transfer credit card.
+  6. [ME] Calculate the potential savings and new monthly payment amount for each consolidation option.
+  7. [FV] Present the debt repayment plans and their respective savings to the client, highlighting key elements.
+  8. [FV] Answer the client's questions about the debt repayment plans and make any necessary adjustments.
+  9. [FV] Document the agreed-upon debt repayment plan and provide a copy to the client.
+  10. [IC] Schedule a follow-up appointment with the client to review their progress towards debt repayment.
+
+--- Task 247: Evaluate characteristics of products.
+[A]
+  1. [NA] Retrieve the product from the production line and prepare it for testing.
+  2. [IC] Review the product specifications and quality standards to understand the required characteristics.
+  3. [NA] Set up the testing environment, including preparing necessary equipment and software.
+  4. [ME] Conduct various tests (e.g., battery life, durability, user interface) to evaluate the product's characteristics.
+  5. [FV] Record and document the test results, comparing them to the specified standards.
+  6. [FV] Determine if the product passes or fails quality control based on the test results.
+  7. [NA] Tag the product as 'Pass' or 'Fail' and move it to the appropriate area (shipping or rework).
+  8. [IC] Submit the completed inspection report to the supervisor.
+[B]
+  1. [NA] Retrieve the product from the production line and prepare it for testing.
+  2. [IC] Review the product specifications and quality standards to understand the required characteristics.
+  3. [NA] Set up the testing environment for the first characteristic, including preparing the necessary equipment.
+  4. [ME] Conduct the test for the first characteristic, such as battery life evaluation.
+  5. [FV] Record the results of the test for the first characteristic and compare them to the specified standards.
+  6. [NA] Set up the testing environment for the next characteristic, including preparing the necessary equipment.
+  7. [ME] Conduct the test for the next characteristic, such as durability evaluation.
+  8. [FV] Record the results of the test for the next characteristic and compare them to the specified standards.
+  9. [FV] Document any defects or variations in the product's characteristics and update the product's quality control record.
+  10. [FV] Notify the production team of any defects or variations in the product's characteristics.
+[C]
+  1. [IC] Receive the product and review its specifications and quality standards.
+  2. [NA] Set up the testing environment according to the specific product characteristics.
+  3. [ME] Conduct tests for each defined characteristic (e.g., durability, functionality, aesthetics).
+  4. [FV] Record the test results for each characteristic.
+  5. [FV] Compare the recorded results to the specified quality standards.
+  6. [FV] Document the overall evaluation, including pass/fail status for each characteristic.
+[D]
+  1. [NA] Retrieve the products from the production/assembly line and prepare them for testing.
+  2. [IC] Review the product specifications, quality standards, and testing procedures to understand the required characteristics and evaluation methods.
+  3. [NA] Set up the testing environment and prepare necessary equipment and software for evaluation.
+  4. [PD] Conduct visual and physical inspections, such as checking for defects, measuring dimensions, and evaluating texture and color.
+  5. [ME] Perform functional tests, such as evaluating battery life, durability, user interface, or component functionality.
+  6. [FV] Record test results, document findings, and compare them to the specified standards.
+  7. [FV] Determine if the product passes or fails quality control based on the evaluation findings.
+  8. [NA] Tag the product as 'Pass' or 'Fail' and move it to the appropriate area (shipping, rework, or further testing).
+  9. [IC] Repeat steps 4 to 8 for every product in the batch, ensuring consistent evaluation and documentation.
+  10. [IC] Submit the completed evaluation report to the relevant supervisor or quality control system.
+
+--- Task 248: Troubleshoot issues with computer applications or systems.
+[A]
+  1. [IC] Answer the incoming call and confirm the user's identity and the nature of the issue.
+  2. [IC] Create a new ticket in the ticketing system, recording the user's information, the reported issue, and the timestamp.
+  3. [NA] Remotely access the user's computer to observe and replicate the issue.
+  4. [PD] Review system logs and performance metrics to identify potential causes of the issue.
+  5. [ME] Implement the proposed solution, which may involve updating software, configuring system settings, or restarting the system.
+  6. [FV] Monitor the system's performance after implementing the solution to ensure the issue is resolved and the system is stable.
+  7. [FV] Document the issue and the solution in the company's ticketing system for future reference.
+  8. [IC] Inform the user that the issue has been resolved and provide any necessary instructions for preventing similar issues in the future.
+[B]
+  1. [IC] Receive a call from a user reporting issues with the computer application or system.
+  2. [NA] Access the user's computer or system to replicate the issue.
+  3. [PD] Review system logs, error messages, and performance metrics to identify potential causes of the issue.
+  4. [PD] Consult internal knowledge bases, troubleshooting guides, or online resources to identify potential solutions.
+  5. [IC] Explain the potential solution to the user in clear, non-technical language, ensuring they understand the steps involved.
+  6. [ME] Guide the user through the troubleshooting steps, remotely accessing their computer if necessary to assist with the process.
+  7. [FV] Verify that the issue is resolved by having the user test the application or system.
+  8. [FV] Document the issue, the steps taken to resolve it, and the resolution in the ticketing system for future reference.
+  9. [IC] Inform the user that the issue has been resolved and provide any necessary instructions for preventing similar issues in the future.
+[C]
+  1. [IC] Receive a call from a user reporting issues with a computer application or system.
+  2. [IC] Gather detailed information about the issue, including error messages, recent changes, and the specific steps the user took.
+  3. [NA] Access the user's system remotely or review relevant system logs.
+  4. [PD] Analyze the gathered information and diagnose the potential cause of the issue.
+  5. [ME] Implement the most likely solution, such as restarting the application, clearing cache, or updating software.
+  6. [FV] Verify that the issue is resolved by testing the application or system functionality.
+  7. [IC] Communicate the resolution to the user and provide any necessary instructions.
+[D]
+  1. [IC] Receive and understand the user's report of application issues via communication channels (e.g., call, email, ticketing system).
+  2. [NA] Access the user's computer or application remotely, if necessary, to replicate and investigate the issue.
+  3. [PD] Observe and replicate the issue, and gather relevant information such as error messages, recent changes, or application logs.
+  4. [PD] Consult internal knowledge bases, troubleshooting guides, or online resources to identify potential solutions based on the gathered information.
+  5. [IC] Communicate the proposed solution and the steps involved to the user in clear, non-technical language.
+  6. [ME] Guide the user through the troubleshooting steps, performing necessary actions remotely or providing clear instructions.
+  7. [FV] Verify that the issue is resolved by testing the application's functionality and observing its performance.
+  8. [FV] Document the issue, the steps taken to resolve it, and the resolution in the helpdesk ticketing system for future reference.
+  9. [IC] Inform the user that the issue has been resolved and provide any necessary instructions for preventing similar issues in the future.
+
+================================================================
+ANSWER TEMPLATE
+
+241: _ | 
+242: _ | 
+243: _ | 
+244: _ | 
+245: _ | 
+246: _ | 
+247: _ | 
+248: _ | 
+

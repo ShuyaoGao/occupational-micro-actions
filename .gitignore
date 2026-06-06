@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Jupyter (we don't ship notebooks in this repo)
+.ipynb_checkpoints/
+*.ipynb
+
+# Local LLM weights - never commit
+models/
+*.gguf
+*.safetensors
+*.bin
+
+# Raw O*NET 30.2 data - license-restricted, fetched separately
+data/onet_30_2_raw/
+
+# Step_01..04 outputs are reproducibly derived from the raw O*NET database
+# (large, deterministic) - commit the inputs (raw onet) not these.
+data/output_01_*.db
+data/output_02_occupation_forest/
+data/output_03_mapping_trees/
+data/output_04_global_dicts/
+
+# Large BGE embedding cache (62 MB; deterministic from step_13 inputs)
+data/robustness/bge_cross_check/embeddings_bge.npy
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Misc / scratch
+scratch/
+tmp/
+*.log
