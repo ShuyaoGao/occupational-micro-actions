@@ -1,0 +1,75 @@
+{
+  "kw": {
+    "H": 298.41,
+    "p": 1.3203990976509819e-60
+  },
+  "extreme": {
+    "U": 15909.5,
+    "p_raw": 2.294514669980105e-37,
+    "p_bonf": 6.424641075944295e-36,
+    "cliffs_delta": 0.902,
+    "cohens_d": 2.98
+  },
+  "pairwise": {
+    "n_sig": 14,
+    "middle_nonsig": 12
+  },
+  "tost": {
+    "sigma_pool": 0.2181,
+    "delta_d02": 0.0436,
+    "n_equiv_d02": 2,
+    "n_equiv_abs": 2
+  },
+  "m2_dip": {
+    "D": 0.0185,
+    "p": 0.982
+  },
+  "noise_ks": {
+    "D": 0.0438,
+    "p": 0.275
+  },
+  "m4_chimera": {
+    "M4-patrol": {
+      "n": 76,
+      "mean": 0.343
+    },
+    "M4-HVAC": {
+      "n": 77,
+      "mean": 0.211
+    },
+    "M4-data": {
+      "n": 137,
+      "mean": 0.544
+    }
+  },
+  "AIOE": {
+    "KW_H": 287.4,
+    "n_sig": 18,
+    "middle_nonsig": 6
+  },
+  "FreyOsborne": {
+    "KW_H": 329.0,
+    "n_sig": 19,
+    "middle_nonsig": 5
+  },
+  "era_inversion": {
+    "spearman_FO_Eloundou_9macro": {
+      "rho": -0.75,
+      "p": 0.0199
+    },
+    "spearman_FO_AIOE_9macro": {
+      "rho": -0.85,
+      "p": 0.0037
+    },
+    "dwa_FO_Eloundou": {
+      "rho": -0.221,
+      "p": 2.371271258157234e-22,
+      "n": 1887
+    }
+  },
+  "intel": {
+    "KW_H": 672.0,
+    "p": 2.5346729052626915e-145,
+    "ratio_lng_vs_rest": 2.09
+  }
+}

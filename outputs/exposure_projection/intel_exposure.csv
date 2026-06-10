@@ -1,0 +1,5 @@
+t,count,mean,median
+Embodied,322,0.0867,0.0
+Human_Bound,238,0.355,0.3717
+LLM,1070,0.4624,0.5
+Multimodal_Perception,328,0.256,0.2411

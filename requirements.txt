@@ -18,5 +18,9 @@ hdbscan>=0.8.33
 # Phase 2 LLM calls (step_05, step_06, step_07) - only needed for full re-run
 requests>=2.31
 
+# Exposure projection statistics (step_16)
+diptest>=0.8
+statsmodels>=0.14
+
 # Tabular I/O helpers
 openpyxl>=3.1

@@ -2,17 +2,17 @@
 
 Reproducibility package for **"Stable Geometry, Reversing Poles: The Bipolar Structure of AI Occupational Substitutability and Its Decade-Scale Inversion"** (Gao & Huang, 2026).
 
-The pipeline decomposes 1,961 O\*NET Detailed Work Activities (DWAs) into **15,817 micro-actions** via a multi-agent LLM pipeline (4 local + 3 frontier models, with 31-expert HITL calibration inherited from paper 1), then clusters those micro-actions in two stages:
+The pipeline decomposes 1,961 O\*NET Detailed Work Activities (DWAs) into **15,817 micro-actions** via a multi-agent LLM pipeline (4 local + 3 frontier models, consensus voting with frontier-model arbitration), then clusters those micro-actions in two stages:
 
 1. **HDBSCAN micro-clustering** in a UMAP-reduced sentence-embedding space (35 micro-clusters + 5,637-action "Generic Substrate" noise group),
 2. **Hierarchical Ward macro-clustering** of the 35 micro-clusters into a 7-macro typology (M1-M7),
 
-and then projects the paper-1 DWA-level **Occupational Automation Index** onto this typology to test two questions:
+and then projects the DWA-level **GPT-4 task-exposure score** (built from Eloundou et al.'s public task ratings) onto this typology to test two questions:
 
 - **(spatial axis)** Is the occupational-substitutability distribution continuous or polarised?
-- **(temporal axis)** Is the polar identity of the typology stable across capability eras (Frey-Osborne 2013 vs LLM-era OAI 2026)?
+- **(temporal axis)** Is the polar identity of the typology stable across capability eras (Frey-Osborne 2013 vs Eloundou 2023)?
 
-The headline empirical findings are a **bipolar structure** (Cohen's d = 2.41 between M2 "Tool-Mediated Physical" and M7 "Planning & Design") and a **polarity inversion** (macro-level Spearman ρ = -0.750, p = 0.020) over thirteen years.
+The headline empirical findings are a **bipolar structure** (Cohen's d = 2.98, Cliff's δ = 0.902 between M2 "Tool-Mediated Physical" and M7 "Planning & Design") and a **polarity inversion** (macro-level Spearman ρ = -0.750, p = 0.020) over a decade.
 
 ## Repository layout
 
@@ -41,15 +41,14 @@ bipolar-action-substrate/
 │   ├── step_12_flatten_actions.py                   Phase 4 - Feature extraction
 │   ├── step_13_extract_features.py
 │   │
-│   ├── step_14_action_clustering.py                 Phase 5 - Clustering + OAI projection
+│   ├── step_14_action_clustering.py                 Phase 5 - Clustering + exposure projection
 │   ├── step_15_K7_main_analysis.py
-│   ├── step_16_oai_projection.py
+│   ├── step_16_exposure_projection.py
 │   │
-│   └── robustness/                                  Robustness suite (Sections 4.3, 4.4 + Appendices)
-│       ├── resolution_sweep.py                      K=5, 7, 8, 10, 12, 15 sweep
-│       ├── tost_equivalence.py                      Two-one-sided equivalence test
-│       ├── k12_chimera_split.py                     M4 chimera analysis
+│   └── robustness/
 │       └── K5_raw_appendix_a.py                     K=5 raw cut (Appendix A)
+│       (resolution sweep, TOST, and the M4 chimera split are all
+│        reproduced by step_16_exposure_projection.py)
 │
 └── data/
     ├── final/                                       (~10 MB; canonical analytic objects)
@@ -58,6 +57,12 @@ bipolar-action-substrate/
     │   ├── HDBSCAN_cluster_labels.npy               35 micro-clusters + noise
     │   ├── clustering_summary.json                  Clustering metadata
     │   └── dwa_macro_distribution.csv               Per-DWA macro shares (K=7)
+    │
+    ├── external/                                    Exposure indicators + auxiliary inputs for step_16
+    │   ├── dwa_external_indices.csv                 DWA-level Eloundou / AIOE / Frey-Osborne alignment
+    │   ├── actions_intelligence_type_encoderA.csv   BGE intelligence-type labels (15,817 actions)
+    │   ├── macro_assignments_K{7,8,10,12,15}.csv    Ward-cut assignments for the resolution sweep
+    │   └── macro_era_means_with_fo_original.csv     FO Oxford-Martin-original macro means
     │
     ├── intermediate/                                (~117 MB; full Phase 2-5 chain for replay)
     │   ├── phase2_llm_decomposition/                Output of step_05 (×4 local models)
@@ -74,22 +79,21 @@ bipolar-action-substrate/
     │   ├── phase5_macro_features_zscored.npy        Step_14 / step_15 macro features (z-scored)
     │   └── phase5_macro_linkage_matrix.npy          Ward linkage matrix (15-d feature vector input)
     │
-    └── robustness/                                  (~5 MB; appendix-grade summaries)
-        ├── main_outputs/                            Resolution sweep + TOST + K=12 split summaries
-        ├── intelligence_and_era/                    Intelligence-type labels + era inversion
-        └── bge_cross_check/                         BGE encoder cross-check (Appendices D, E)
+    └── robustness/                                  (appendix-grade artefacts)
+        ├── intelligence_and_era/                    MPNet intelligence-type labels + prototypes
+        └── bge_cross_check/                         BGE encoder cross-check + 150-row human audit (Appendices D, E)
 ```
 
 ## Pipeline at a glance
 
 | Phase | Steps | What it does |
 |-------|-------|--------------|
-| **1. O\*NET data prep** | 01-04 | Load the O\*NET 30.2 release into SQLite, build per-occupation JSON forests, inverted Tasks-to-DWAs mapping trees, and global definition dictionaries (shared with paper 1). |
+| **1. O\*NET data prep** | 01-04 | Load the O\*NET 30.2 release into SQLite, build per-occupation JSON forests, inverted Tasks-to-DWAs mapping trees, and global definition dictionaries. |
 | **2. LLM decomposition** | 05-07 | Decompose each DWA into a 5-12 step micro-action sequence using a 4-LLM ensemble (Qwen / Llama / Gemma / Mistral): independent decomposition (step_05), cross-synthesis (step_06), peer voting (step_07). |
 | **3. Adjudication + golden dataset** | 08-11 | Route the 502 contested DWAs to three frontier judges (Claude / Gemini / GPT), merge majority votes (step_09), tally + stratified sampling (step_10), produce `final_golden_dataset.csv` (step_11). |
 | **4. Feature extraction** | 12-13 | Flatten 1,961 DWAs into 15,817 micro-action rows (step_12), then LLM-extract six structured feature fields per action (step_13). |
-| **5. Clustering + OAI projection** | 14-16 | UMAP→HDBSCAN micro-clustering + Ward macro-clustering at K=7 (step_14, step_15), then project paper 1's DWA-level OAI onto the typology and run the full statistical battery (step_16). |
-| **Robustness** | `robustness/` | Resolution sweep K=5..15, TOST equivalence on 15 middle-pair OAIs, K=12 M4 chimera split (paper 2 §4.4), and the K=5 cut reported in Appendix A. |
+| **5. Clustering + exposure projection** | 14-16 | UMAP→HDBSCAN micro-clustering + Ward macro-clustering at K=7 (step_14, step_15), then project the DWA-level GPT-4 task-exposure score onto the typology and run the full statistical battery, including the resolution sweep, TOST, M4 chimera, cross-indicator reproduction, era inversion, and intelligence-type analysis (step_16). |
+| **Robustness** | `robustness/` | K=5 raw cut for Appendix A; the resolution sweep, TOST equivalence, and K=12 M4 chimera analyses are reproduced end-to-end inside step_16. |
 
 ## What you need to fetch separately
 
@@ -118,7 +122,11 @@ python scripts/step_12_flatten_actions.py
 python scripts/step_13_extract_features.py
 python scripts/step_14_action_clustering.py
 python scripts/step_15_K7_main_analysis.py
-python scripts/step_16_oai_projection.py
+python scripts/step_16_exposure_projection.py
+
+# Even faster: step_16 alone reproduces every exposure statistic in the paper
+# from the shipped data/final/ + data/external/ files (no upstream steps needed).
+python scripts/step_16_exposure_projection.py
 
 # Path B - full pipeline (needs O*NET 30.2 + four local LLMs + three frontier model accounts)
 python scripts/step_01_build_database.py
@@ -138,21 +146,24 @@ python scripts/step_10_tally_judge_votes.py
 python scripts/step_11_finalize_golden_dataset.py
 # Then continue with step_12 ... step_16 as in Path A.
 
-# Robustness suite (after step_15 / step_16 are done)
-python scripts/robustness/resolution_sweep.py
-python scripts/robustness/tost_equivalence.py
-python scripts/robustness/k12_chimera_split.py
+# Appendix A robustness cut (after step_15 is done)
 python scripts/robustness/K5_raw_appendix_a.py
 ```
 
-## A note on the OAI projection (paper 1 dependency)
+## A note on the exposure indicators
 
-Section 3.5 and Section 4.3 of paper 2 project the DWA-level Occupational
-Automation Index from paper 1 onto the K=7 macro typology produced here.
-The OAI table itself lives in the paper 1 reproducibility repository
-(<https://github.com/ShuyaoGao/bounded-risk-oai>); pull `dwa_automation_index.csv`
-from there and place it under `data/intermediate/paper1_dwa_oai.csv` before
-running `step_16_oai_projection.py`.
+Sections 3.5, 4.3, 4.7, and 5 of the paper project three externally produced
+exposure indicators onto the K=7 macro typology: **Eloundou et al.'s GPT-4
+task ratings** (the primary measure; tiers mapped to {0, 0.25, 0.5, 0.75, 1}
+and averaged to the DWA level via the O\*NET Tasks-to-DWAs crosswalk),
+**Felten et al.'s AIOE**, and **Frey-Osborne's computerisation probability**
+(parsed directly from the Oxford Martin working-paper appendix). The aligned
+DWA-level table is shipped at `data/external/dwa_external_indices.csv`, so
+`step_16_exposure_projection.py` runs out of the box. To rebuild the alignment
+from the raw third-party sources, fetch: the Eloundou task-rating files from
+their public GPTs-are-GPTs repository, the AIOE data appendix from Felten et
+al. (2021), and the Frey-Osborne working paper PDF from the Oxford Martin
+School. None of the three is redistributed here beyond the derived alignment.
 
 ## Environment
 
@@ -170,10 +181,6 @@ running `step_16_oai_projection.py`.
   year   = {2026}
 }
 ```
-
-Companion paper (the DWA-level OAI projected here):
-
-> Gao, S. & Huang, M. (2026). *Bounded by Risk, Not Capability: A Tech-Risk Dual-Factor Decomposition of the Occupational Automation Index.* arXiv preprint arXiv:2604.04464.
 
 ## License
 
