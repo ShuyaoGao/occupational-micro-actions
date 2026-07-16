@@ -1,23 +1,30 @@
-# Bipolar Action Substrate of Occupational Tasks
+# Occupational Micro-Actions: The Atomic Structure of Work
 
-Reproducibility package for **"Stable Geometry, Reversing Poles: The Bipolar Structure of AI Occupational Substitutability and Its Decade-Scale Inversion"** (Gao & Huang, 2026).
+[![Dataset DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.21395793-blue.svg)](https://doi.org/10.5281/zenodo.21395793)
+[![arXiv](https://img.shields.io/badge/arXiv-2606.07939-b31b1b.svg)](https://arxiv.org/abs/2606.07939)
 
-The pipeline decomposes 1,961 O\*NET Detailed Work Activities (DWAs) into **15,817 micro-actions** via a multi-agent LLM pipeline (4 local + 3 frontier models, with 31-expert HITL calibration inherited from paper 1), then clusters those micro-actions in two stages:
+Reproducibility package for **"The Atomic Structure of Work: Micro-Action Decomposition Reveals the Bipolar Geometry of AI Occupational Substitutability"** (Gao & Huang, 2026, arXiv:2606.07939).
+
+**The dataset is published as [The Micro-Action Dataset on Zenodo](https://doi.org/10.5281/zenodo.21395793)** — 15,817 atomic micro-actions decomposed from 1,961 O\*NET 30.2 Detailed Work Activities (DWAs) across 923 U.S. occupations, with the seven-macro semantic typology, four-way intelligence-type labels, and the DWA-level Occupational Automation Index (OAI).
+
+The pipeline decomposes each DWA into an ordered micro-action sequence via a **consensus multi-agent LLM pipeline** (four open-weight models independently draft, cross-read, and vote; three frontier-class models arbitrate contested cases; 126 low-agreement DWAs are discarded), validated downstream by a 150-action stratified human audit (κ = 0.893). It then clusters the actions in two stages:
 
 1. **HDBSCAN micro-clustering** in a UMAP-reduced sentence-embedding space (35 micro-clusters + 5,637-action "Generic Substrate" noise group),
 2. **Hierarchical Ward macro-clustering** of the 35 micro-clusters into a 7-macro typology (M1-M7),
 
-and then projects the paper-1 DWA-level **Occupational Automation Index** onto this typology to test two questions:
+and then projects two methodologically independent exposure indicators — the tech-risk **Occupational Automation Index** (arXiv:2604.04464) and Eloundou et al.'s GPT-4 task ratings — onto this typology to test two questions:
 
 - **(spatial axis)** Is the occupational-substitutability distribution continuous or polarised?
 - **(temporal axis)** Is the polar identity of the typology stable across capability eras (Frey-Osborne 2013 vs LLM-era OAI 2026)?
 
 The headline empirical findings are a **bipolar structure** (Cohen's d = 2.41 between M2 "Tool-Mediated Physical" and M7 "Planning & Design") and a **polarity inversion** (macro-level Spearman ρ = -0.750, p = 0.020) over thirteen years.
 
+> **Terminology note**: an *occupational micro-action* is the smallest purposeful step of occupational work — distinct from "micro-action recognition" in video understanding, which denotes subtle involuntary body movements.
+
 ## Repository layout
 
 ```
-bipolar-action-substrate/
+occupational-micro-actions/
 ├── README.md
 ├── LICENSE                                          (MIT)
 ├── requirements.txt
@@ -84,12 +91,12 @@ bipolar-action-substrate/
 
 | Phase | Steps | What it does |
 |-------|-------|--------------|
-| **1. O\*NET data prep** | 01-04 | Load the O\*NET 30.2 release into SQLite, build per-occupation JSON forests, inverted Tasks-to-DWAs mapping trees, and global definition dictionaries (shared with paper 1). |
+| **1. O\*NET data prep** | 01-04 | Load the O\*NET 30.2 release into SQLite, build per-occupation JSON forests, inverted Tasks-to-DWAs mapping trees, and global definition dictionaries (shared with the OAI pipeline, arXiv:2604.04464). |
 | **2. LLM decomposition** | 05-07 | Decompose each DWA into a 5-12 step micro-action sequence using a 4-LLM ensemble (Qwen / Llama / Gemma / Mistral): independent decomposition (step_05), cross-synthesis (step_06), peer voting (step_07). |
 | **3. Adjudication + golden dataset** | 08-11 | Route the 502 contested DWAs to three frontier judges (Claude / Gemini / GPT), merge majority votes (step_09), tally + stratified sampling (step_10), produce `final_golden_dataset.csv` (step_11). |
 | **4. Feature extraction** | 12-13 | Flatten 1,961 DWAs into 15,817 micro-action rows (step_12), then LLM-extract six structured feature fields per action (step_13). |
-| **5. Clustering + OAI projection** | 14-16 | UMAP→HDBSCAN micro-clustering + Ward macro-clustering at K=7 (step_14, step_15), then project paper 1's DWA-level OAI onto the typology and run the full statistical battery (step_16). |
-| **Robustness** | `robustness/` | Resolution sweep K=5..15, TOST equivalence on 15 middle-pair OAIs, K=12 M4 chimera split (paper 2 §4.4), and the K=5 cut reported in Appendix A. |
+| **5. Clustering + OAI projection** | 14-16 | UMAP→HDBSCAN micro-clustering + Ward macro-clustering at K=7 (step_14, step_15), then project the DWA-level OAI onto the typology and run the full statistical battery (step_16). |
+| **Robustness** | `robustness/` | Resolution sweep K=5..15, TOST equivalence on 15 middle-pair OAIs, the K=12 M4 chimera split, and the K=5 raw cut. |
 
 ## What you need to fetch separately
 
@@ -145,14 +152,14 @@ python scripts/robustness/k12_chimera_split.py
 python scripts/robustness/K5_raw_appendix_a.py
 ```
 
-## A note on the OAI projection (paper 1 dependency)
+## A note on the OAI projection
 
-Section 3.5 and Section 4.3 of paper 2 project the DWA-level Occupational
-Automation Index from paper 1 onto the K=7 macro typology produced here.
-The OAI table itself lives in the paper 1 reproducibility repository
-(<https://github.com/ShuyaoGao/bounded-risk-oai>); pull `dwa_automation_index.csv`
-from there and place it under `data/intermediate/paper1_dwa_oai.csv` before
-running `step_16_oai_projection.py`.
+The paper projects the DWA-level Occupational Automation Index (constructed in
+arXiv:2604.04464) onto the K=7 macro typology produced here. The OAI table is
+included in [The Micro-Action Dataset on Zenodo](https://doi.org/10.5281/zenodo.21395793)
+as `06_dwa_automation_index_oai.csv`, and also lives in its own reproducibility
+repository (<https://github.com/ShuyaoGao/bounded-risk-oai>); place it under
+`data/intermediate/paper1_dwa_oai.csv` before running `step_16_oai_projection.py`.
 
 ## Environment
 
@@ -164,10 +171,20 @@ running `step_16_oai_projection.py`.
 ## Citation
 
 ```bibtex
-@article{gao2026bipolar,
-  author = {Gao, Shuyao and Huang, Minghao},
-  title  = {Stable Geometry, Reversing Poles: The Bipolar Structure of AI Occupational Substitutability and Its Decade-Scale Inversion},
-  year   = {2026}
+@misc{gao2026atomic,
+  author       = {Gao, Shuyao and Huang, Minghao},
+  title        = {The Atomic Structure of Work: Micro-Action Decomposition Reveals the Bipolar Geometry of {AI} Occupational Substitutability},
+  year         = {2026},
+  howpublished = {arXiv preprint arXiv:2606.07939}
+}
+
+@dataset{gao2026microactiondataset,
+  author    = {Gao, Shuyao},
+  title     = {The Micro-Action Dataset: An Atomic Decomposition of O*NET Work Activities},
+  year      = {2026},
+  version   = {1.0.0},
+  publisher = {Zenodo},
+  doi       = {10.5281/zenodo.21395793}
 }
 ```
 
