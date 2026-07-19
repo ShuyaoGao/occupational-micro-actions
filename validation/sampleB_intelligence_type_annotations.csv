@@ -1,0 +1,451 @@
+﻿item,action_description,label,annotator
+1,"Measure and cut the wiring to the required length, accounting for slack and routing paths.",E,1
+2,Invite shortlisted candidates for in-person interviews at the company office.,L,1
+3,Recompute the calculations manually or using a separate tool.,L,1
+4,"Explain the acupuncture treatment plan, potential benefits, risks, and obtain informed consent.",HB,1
+5,"Communicate the results to the relevant authority (e.g., kitchen manager, quality control supervisor).",L,1
+6,"Conclude the session by thanking the patient, answering any questions they may have, and scheduling a follow-up appointment if necessary.",HB,1
+7,"Operate the equipment controls to scoop, lift, or load the materials into the designated area.",E,1
+8,Clean the damaged areas of the book gently to prepare for adhesive application.,E,1
+9,"Conduct targeted inspections: visually examine components, machinery, work areas for defects or hazards.",MP,1
+10,"Gather and prepare all necessary materials: slides, videos, images, handouts, etc.",L,1
+11,Identify servers exhibiting unusual performance patterns or exceeding predefined thresholds.,L,1
+12,"Monitor the processing sequence, addressing any issues or errors that may arise.",MP,1
+13,Use a diagnostic tool to measure the device's output signal and compare it to expected values.,MP,1
+14,Lower the workpiece gently onto the designated placement area.,E,1
+15,Mark any defects found with chalk or marker.,E,1
+16,"Isolate and remove the faulty wiring, taking care to avoid further damage.",E,1
+17,"Serve the prepared dishes, ensuring proper temperature and presentation.",E,1
+18,"Provide medical assistance to any injured occupants if necessary, and coordinate with medical personnel.",E,1
+19,"Apply controlled force to the tool, gradually pulling or pushing the dent outwards.",E,1
+20,Connect one end of the hose to the fire truck's water outlet.,E,1
+21,"The teacher organizes a short, controlled scrimmage to apply the learned skills in a game-like setting.",HB,1
+22,Scan for vehicles exhibiting abnormal movement or stationary in inappropriate locations.,MP,1
+23,"Define the scope of the research by specifying the type of conservation initiative (e.g., reforestation, protected area establishment) and the geographic region of interest.",L,1
+24,"Make a job offer to the selected candidate, including details on salary, benefits, and expectations.",HB,1
+25,"Greet the patient warmly, introduce yourself, and confirm their identity and the purpose of the consultation.",HB,1
+26,"Review repair specifications and experiment protocol to understand the required solution, its concentration, and the correct compounds or solutions to be prepared.",L,1
+27,Confirm the patient's comfort and address any further needs before concluding the session.,HB,1
+28,"Refine the design based on client feedback, structural analysis, and code compliance.",L,1
+29,Lower the bed to a safe height for manual handling and prepare any necessary support items like pillows or cushions.,E,1
+30,"Charge the HVAC system with refrigerant, using a manifold gauge set to ensure the correct amount is added.",E,1
+31,Politely end the call.,L,1
+32,"Ask clarifying questions to gain a deeper understanding of their background, values, and goals.",HB,1
+33,"Propose revisions and negotiate key terms, seeking mutually beneficial solutions.",HB,1
+34,Update internal documentation and knowledge management systems with new information and insights.,L,1
+35,"Review the report for accuracy, completeness, and clarity before submitting it to the supervising attorney.",L,1
+36,Review the service request and vehicle history to understand the required repairs or maintenance.,L,1
+37,Identify key components and their locations on the blueprints.,L,1
+38,Identify a specific medical issue and formulate a clear research question.,L,1
+39,"Pause regularly to check for understanding, answer questions, and encourage client participation.",HB,1
+40,Conduct a needs assessment to understand the specific anxiety challenges and needs of the target population.,L,1
+41,Engage in polite conversation with the passenger (optional).,HB,1
+42,"Request the customer's identification document (e.g., driver's license, passport) and verify its authenticity.",MP,1
+43,"Start the paver engine and begin laying asphalt, maintaining a consistent speed.",E,1
+44,"Weigh the potential rewards against the identified risks, considering the evaluator's or organization's investment strategy and risk tolerance.",L,1
+45,"Patrol the designated area, systematically observing for potential rule violations.",MP,1
+46,"Document any deviations or hazards using a digital tool, including timestamps, descriptions, and photographic evidence.",L,1
+47,Distribute the finalized communication procedures to all stakeholders.,L,1
+48,"Prepare a formal compliance assessment report summarizing findings, recommendations, and next steps.",L,1
+49,"The social worker greets the client, builds rapport, and confirms the purpose of the session focusing on developing a specific life skill.",HB,1
+50,"Review the draft procedures with key personnel, including plant workers, safety officers, and emergency responders, to gather feedback and ensure clarity.",L,1
+51,Contact the local government office responsible for issuing permits and approvals.,L,1
+52,Access the installation location and verify the designated mounting points for the gauges and valves.,MP,1
+53,"Ask open-ended questions to understand the customer's current situation, challenges, and goals.",HB,1
+54,Move to the designated area on the construction site and mark the boundaries of the base using stakes and string.,E,1
+55,"Set drilling parameters (torque, pressure, rotation speed) based on geological conditions and drilling plan specifications.",L,1
+56,"Navigate to the storage area and gather necessary supplies (fresh vegetables, dressings, beverages).",E,1
+57,"Begin patrol route, systematically scanning the area with a focus on vehicles and objects.",MP,1
+58,"Position the material to be measured on a stable, level surface.",E,1
+59,Continuously monitor the sensor readings and repeat the process of identifying deviations and taking corrective actions as needed throughout the shift.,MP,1
+60,"Approach the patient with a calm and reassuring demeanor, making eye contact and speaking in a calming voice to minimize anxiety.",HB,1
+61,"Inspect the completed installation for stability, alignment, and adherence to safety standards.",MP,1
+62,Remove and dispose of used cleaning supplies and gloves properly.,E,1
+63,"Assign tasks to team members based on their skills and availability, ensuring clear roles and responsibilities.",L,1
+64,Open the floor for questions and clarifications from the team.,HB,1
+65,Monitor the implementation of changes and gather feedback to assess their effectiveness.,L,1
+66,Arrive at the training venue and check in.,E,1
+67,Apply a primer to the cleaned gaps and cracks to improve sealant adhesion.,E,1
+68,"Execute the musical pieces with precision, expression, and attention to dynamics.",E,1
+69,"The production supervisor presents the inventory and order data, highlighting potential production challenges or opportunities.",L,1
+70,Inspect the garment for any remaining wrinkles.,MP,1
+71,Log into the maintenance management software using the appropriate credentials.,L,1
+72,"If necessary, engage with workers to clarify observations or provide constructive feedback.",HB,1
+73,"Make any necessary revisions to the model based on the evaluation results, design feedback, or changes in requirements.",L,1
+74,"Engage with the selected content (e.g., attend sessions, read papers, watch lectures).",L,1
+75,"Locate the installation point on the equipment, using existing markings and blueprints as reference.",MP,1
+76,"Inspect the tree and surrounding area for hazards, such as power lines, and identify branches that need trimming or shaping.",MP,1
+77,Navigate to the designated 10-acre plot and mark the planting locations.,E,1
+78,"Analyze gathered data to identify trends, patterns, and potential impacts on relevant aspects such as traffic, public transportation usage, environmental factors, or community engagement.",L,1
+79,Log out of the school management system to secure the data.,L,1
+80,The operator detaches the lifting mechanism from the object and moves the heavy equipment away from the area.,E,1
+81,Position the harvesting tool (hand or robotic gripper) above the selected produce.,E,1
+82,"Monitor the use of loading equipment, ensuring safe operation and adherence to procedures.",MP,1
+83,Navigate to the production line and identify the current batch.,MP,1
+84,"Develop a Gantt chart or similar visual representation of the project schedule, showing task dependencies, timelines, and milestones.",L,1
+85,The technician approaches the weighing station and ensures that the product is properly placed on the scale.,E,1
+86,Coil and store hose.,E,1
+87,"Position the stake at the chosen location, ensuring it is vertical and stable.",E,1
+88,"Document the test results, including observations, data analysis, and conclusions.",L,1
+89,Open the mold using the designated mechanism.,E,1
+90,"Confirm and submit the order, providing necessary payment information if required.",L,1
+91,"Address escalated customer issues directly, resolving complex technical problems or mediating disputes.",HB,1
+92,"Navigate to the specific point on the site using maps, GPS, or other navigational aids.",E,1
+93,Inspect the broken material to ensure it meets the required size for removal.,MP,1
+94,"Facilitate group discussions and Q&A sessions to address participant questions, clarify doubts, and encourage active learning.",HB,1
+95,"Present the problem and gathered information to the team, ensuring shared understanding.",L,1
+96,Verify power supply and connectivity of the equipment.,MP,1
+97,"Thank the customer for their time and offer further assistance if needed, ensuring a positive concluding experience.",HB,1
+98,Transport supplies to the salad bar and beverage station.,E,1
+99,Transport the loaded debris to the designated disposal area.,E,1
+100,"Save the report and deliver it to the designated recipient (e.g., physician).",L,1
+101,Review shift handover notes and current plant status displayed on the control panel.,L,1
+102,Review the daily log for reported issues or anomalies and consult the landfill's weather forecast and environmental monitoring data to anticipate potential problems.,L,1
+103,Ask trainees to describe the procedure in their own words to assess their understanding.,HB,1
+104,"Call for backup and medical assistance if needed, providing a concise report of the situation.",L,1
+105,"The detective actively listens to the witness's responses, taking detailed notes and observing non-verbal cues.",HB,1
+106,"The instructor demonstrates the first technique/use case, emphasizing proper form and safety precautions.",E,1
+107,"Monitor the fabric movement, adjust the feed dogs if necessary, and maintain the fabric's smoothness to prevent puckering.",E,1
+108,Navigate to the HVAC unit location.,E,1
+109,"Document any defects or deviations found, including detailed descriptions and potentially photographic evidence.",L,1
+110,"Oversee the teardown of the event, ensuring all equipment is removed, the festival grounds are left in good condition, and vendors are paid promptly.",MP,1
+111,Remove the cut fabric pieces from the cutting table and organize them.,E,1
+112,"Research existing systems and technologies relevant to the client's needs, identifying best practices and potential solutions.",L,1
+113,"Scan live feeds and thermal imaging (if available) for unusual behavior, suspicious individuals, or potential threats.",MP,1
+114,Allow the repair to cure according to the manufacturer's specifications.,E,1
+115,Navigate to the location of the first safety equipment item.,E,1
+116,"Confirm the order with the kitchen staff, ensuring they have all necessary details.",L,1
+117,"Install the new electrical panel, ensuring it is level, securely fastened to the wall, and all connections are tight and secure.",E,1
+118,"Coordinate with the surface team to transport extracted resources to the processing facility, ensuring efficient logistics.",L,1
+119,Cool down with light activity (walking) and static stretches to aid in muscle recovery.,E,1
+120,"Apply the treatment solution evenly to each hair section, avoiding contact with the scalp if necessary.",E,1
+121,"Communicate the research findings through a comprehensive report, presentation, or publication.",L,1
+122,Identify and probe for specific pain points and areas where the client's current solutions are insufficient.,HB,1
+123,"Schedule a meeting with the supervisor, specifying the topic.",L,1
+124,"Schedule and conduct property viewings with the client, highlighting key features and addressing their questions.",HB,1
+125,Ask the claimant to confirm their identity and proceed with any necessary consent forms or recording procedures.,HB,1
+126,Identify any significant deviations from expected performance or unusual trading activity.,L,1
+127,"Observe and assess the condition of equipment, facilities, and safety measures, noting any hazards, maintenance needs, or potential issues.",MP,1
+128,"Select 3-5 articles, posts, or research papers that appear to present significant new developments or insights.",L,1
+129,"Import the extracted data into a data analysis software tool (e.g., Excel, R, or Python).",L,1
+130,Submit the completed report to the attorney for further review and action.,L,1
+131,Escort the patient to the soundproof booth and ensure comfortable seating.,E,1
+132,Use a handheld mirror to show the client the back of their haircut.,E,1
+133,"Replace the faulty wiring with new wiring of appropriate gauge and length, ensuring secure connections.",E,1
+134,Obtain informed consent from the patient for the diagnostic procedures.,HB,1
+135,"Research and select appropriate business management methods, tools, or frameworks that align with the startup's needs, industry, and budget.",L,1
+136,"Repeat practice, incorporating feedback and focusing on identified weaknesses.",E,1
+137,Don appropriate personal protective equipment (PPE) as required for the specific materials or production environment.,E,1
+138,"Import relevant GIS data layers, including land use, environmental factors, and demographic data.",L,1
+139,"Develop a comprehensive report outlining the findings, including identified non-compliance issues, recommended corrective actions, and a proposed implementation timeline.",L,1
+140,"Create visual aids (tables, graphs, mockups) to enhance understanding and engagement.",L,1
+141,The teacher gathers the students' attention and invites them to sit in a circle on the rug.,HB,1
+142,Review the survey map and project specifications to understand the boundaries and objectives.,L,1
+143,"Administer benefits, including health insurance, retirement plans, and other employee perks.",L,1
+144,Operate machinery or perform assembly tasks according to the production plan and safety protocols.,E,1
+145,The nurse observes the patient's body language and facial expressions to understand their emotional state.,HB,1
+146,"Draft the initial version of the regulation, incorporating legal requirements and stakeholder feedback.",L,1
+147,Navigate to the injection molding machine and ensure it is powered on and ready to accept materials.,MP,1
+148,"Factor in time for testing, debugging, potential rework, and addressing identified risks.",L,1
+149,"Perform necessary maintenance tasks, such as replacing worn parts, calibrating sensors, or adjusting settings, referring to the manual as needed.",E,1
+150,"Manufacture the device components using appropriate fabrication techniques (e.g., 3D printing, CNC machining, injection molding).",E,1
+1,"Measure and cut the wiring to the required length, accounting for slack and routing paths.",E,2
+2,Invite shortlisted candidates for in-person interviews at the company office.,L,2
+3,Recompute the calculations manually or using a separate tool.,L,2
+4,"Explain the acupuncture treatment plan, potential benefits, risks, and obtain informed consent.",HB,2
+5,"Communicate the results to the relevant authority (e.g., kitchen manager, quality control supervisor).",L,2
+6,"Conclude the session by thanking the patient, answering any questions they may have, and scheduling a follow-up appointment if necessary.",L,2
+7,"Operate the equipment controls to scoop, lift, or load the materials into the designated area.",E,2
+8,Clean the damaged areas of the book gently to prepare for adhesive application.,E,2
+9,"Conduct targeted inspections: visually examine components, machinery, work areas for defects or hazards.",MP,2
+10,"Gather and prepare all necessary materials: slides, videos, images, handouts, etc.",L,2
+11,Identify servers exhibiting unusual performance patterns or exceeding predefined thresholds.,L,2
+12,"Monitor the processing sequence, addressing any issues or errors that may arise.",MP,2
+13,Use a diagnostic tool to measure the device's output signal and compare it to expected values.,MP,2
+14,Lower the workpiece gently onto the designated placement area.,E,2
+15,Mark any defects found with chalk or marker.,E,2
+16,"Isolate and remove the faulty wiring, taking care to avoid further damage.",E,2
+17,"Serve the prepared dishes, ensuring proper temperature and presentation.",E,2
+18,"Provide medical assistance to any injured occupants if necessary, and coordinate with medical personnel.",E,2
+19,"Apply controlled force to the tool, gradually pulling or pushing the dent outwards.",E,2
+20,Connect one end of the hose to the fire truck's water outlet.,E,2
+21,"The teacher organizes a short, controlled scrimmage to apply the learned skills in a game-like setting.",HB,2
+22,Scan for vehicles exhibiting abnormal movement or stationary in inappropriate locations.,MP,2
+23,"Define the scope of the research by specifying the type of conservation initiative (e.g., reforestation, protected area establishment) and the geographic region of interest.",L,2
+24,"Make a job offer to the selected candidate, including details on salary, benefits, and expectations.",HB,2
+25,"Greet the patient warmly, introduce yourself, and confirm their identity and the purpose of the consultation.",HB,2
+26,"Review repair specifications and experiment protocol to understand the required solution, its concentration, and the correct compounds or solutions to be prepared.",L,2
+27,Confirm the patient's comfort and address any further needs before concluding the session.,HB,2
+28,"Refine the design based on client feedback, structural analysis, and code compliance.",L,2
+29,Lower the bed to a safe height for manual handling and prepare any necessary support items like pillows or cushions.,E,2
+30,"Charge the HVAC system with refrigerant, using a manifold gauge set to ensure the correct amount is added.",E,2
+31,Politely end the call.,L,2
+32,"Ask clarifying questions to gain a deeper understanding of their background, values, and goals.",L,2
+33,"Propose revisions and negotiate key terms, seeking mutually beneficial solutions.",HB,2
+34,Update internal documentation and knowledge management systems with new information and insights.,L,2
+35,"Review the report for accuracy, completeness, and clarity before submitting it to the supervising attorney.",L,2
+36,Review the service request and vehicle history to understand the required repairs or maintenance.,L,2
+37,Identify key components and their locations on the blueprints.,L,2
+38,Identify a specific medical issue and formulate a clear research question.,L,2
+39,"Pause regularly to check for understanding, answer questions, and encourage client participation.",L,2
+40,Conduct a needs assessment to understand the specific anxiety challenges and needs of the target population.,L,2
+41,Engage in polite conversation with the passenger (optional).,HB,2
+42,"Request the customer's identification document (e.g., driver's license, passport) and verify its authenticity.",MP,2
+43,"Start the paver engine and begin laying asphalt, maintaining a consistent speed.",E,2
+44,"Weigh the potential rewards against the identified risks, considering the evaluator's or organization's investment strategy and risk tolerance.",L,2
+45,"Patrol the designated area, systematically observing for potential rule violations.",MP,2
+46,"Document any deviations or hazards using a digital tool, including timestamps, descriptions, and photographic evidence.",L,2
+47,Distribute the finalized communication procedures to all stakeholders.,L,2
+48,"Prepare a formal compliance assessment report summarizing findings, recommendations, and next steps.",L,2
+49,"The social worker greets the client, builds rapport, and confirms the purpose of the session focusing on developing a specific life skill.",HB,2
+50,"Review the draft procedures with key personnel, including plant workers, safety officers, and emergency responders, to gather feedback and ensure clarity.",L,2
+51,Contact the local government office responsible for issuing permits and approvals.,L,2
+52,Access the installation location and verify the designated mounting points for the gauges and valves.,MP,2
+53,"Ask open-ended questions to understand the customer's current situation, challenges, and goals.",L,2
+54,Move to the designated area on the construction site and mark the boundaries of the base using stakes and string.,E,2
+55,"Set drilling parameters (torque, pressure, rotation speed) based on geological conditions and drilling plan specifications.",L,2
+56,"Navigate to the storage area and gather necessary supplies (fresh vegetables, dressings, beverages).",E,2
+57,"Begin patrol route, systematically scanning the area with a focus on vehicles and objects.",MP,2
+58,"Position the material to be measured on a stable, level surface.",E,2
+59,Continuously monitor the sensor readings and repeat the process of identifying deviations and taking corrective actions as needed throughout the shift.,L,2
+60,"Approach the patient with a calm and reassuring demeanor, making eye contact and speaking in a calming voice to minimize anxiety.",HB,2
+61,"Inspect the completed installation for stability, alignment, and adherence to safety standards.",MP,2
+62,Remove and dispose of used cleaning supplies and gloves properly.,E,2
+63,"Assign tasks to team members based on their skills and availability, ensuring clear roles and responsibilities.",L,2
+64,Open the floor for questions and clarifications from the team.,L,2
+65,Monitor the implementation of changes and gather feedback to assess their effectiveness.,L,2
+66,Arrive at the training venue and check in.,E,2
+67,Apply a primer to the cleaned gaps and cracks to improve sealant adhesion.,E,2
+68,"Execute the musical pieces with precision, expression, and attention to dynamics.",E,2
+69,"The production supervisor presents the inventory and order data, highlighting potential production challenges or opportunities.",L,2
+70,Inspect the garment for any remaining wrinkles.,MP,2
+71,Log into the maintenance management software using the appropriate credentials.,L,2
+72,"If necessary, engage with workers to clarify observations or provide constructive feedback.",L,2
+73,"Make any necessary revisions to the model based on the evaluation results, design feedback, or changes in requirements.",L,2
+74,"Engage with the selected content (e.g., attend sessions, read papers, watch lectures).",L,2
+75,"Locate the installation point on the equipment, using existing markings and blueprints as reference.",MP,2
+76,"Inspect the tree and surrounding area for hazards, such as power lines, and identify branches that need trimming or shaping.",MP,2
+77,Navigate to the designated 10-acre plot and mark the planting locations.,E,2
+78,"Analyze gathered data to identify trends, patterns, and potential impacts on relevant aspects such as traffic, public transportation usage, environmental factors, or community engagement.",L,2
+79,Log out of the school management system to secure the data.,L,2
+80,The operator detaches the lifting mechanism from the object and moves the heavy equipment away from the area.,E,2
+81,Position the harvesting tool (hand or robotic gripper) above the selected produce.,E,2
+82,"Monitor the use of loading equipment, ensuring safe operation and adherence to procedures.",MP,2
+83,Navigate to the production line and identify the current batch.,MP,2
+84,"Develop a Gantt chart or similar visual representation of the project schedule, showing task dependencies, timelines, and milestones.",L,2
+85,The technician approaches the weighing station and ensures that the product is properly placed on the scale.,E,2
+86,Coil and store hose.,E,2
+87,"Position the stake at the chosen location, ensuring it is vertical and stable.",E,2
+88,"Document the test results, including observations, data analysis, and conclusions.",L,2
+89,Open the mold using the designated mechanism.,E,2
+90,"Confirm and submit the order, providing necessary payment information if required.",L,2
+91,"Address escalated customer issues directly, resolving complex technical problems or mediating disputes.",HB,2
+92,"Navigate to the specific point on the site using maps, GPS, or other navigational aids.",E,2
+93,Inspect the broken material to ensure it meets the required size for removal.,MP,2
+94,"Facilitate group discussions and Q&A sessions to address participant questions, clarify doubts, and encourage active learning.",L,2
+95,"Present the problem and gathered information to the team, ensuring shared understanding.",L,2
+96,Verify power supply and connectivity of the equipment.,MP,2
+97,"Thank the customer for their time and offer further assistance if needed, ensuring a positive concluding experience.",L,2
+98,Transport supplies to the salad bar and beverage station.,E,2
+99,Transport the loaded debris to the designated disposal area.,E,2
+100,"Save the report and deliver it to the designated recipient (e.g., physician).",L,2
+101,Review shift handover notes and current plant status displayed on the control panel.,L,2
+102,Review the daily log for reported issues or anomalies and consult the landfill's weather forecast and environmental monitoring data to anticipate potential problems.,L,2
+103,Ask trainees to describe the procedure in their own words to assess their understanding.,L,2
+104,"Call for backup and medical assistance if needed, providing a concise report of the situation.",L,2
+105,"The detective actively listens to the witness's responses, taking detailed notes and observing non-verbal cues.",MP,2
+106,"The instructor demonstrates the first technique/use case, emphasizing proper form and safety precautions.",E,2
+107,"Monitor the fabric movement, adjust the feed dogs if necessary, and maintain the fabric's smoothness to prevent puckering.",E,2
+108,Navigate to the HVAC unit location.,E,2
+109,"Document any defects or deviations found, including detailed descriptions and potentially photographic evidence.",L,2
+110,"Oversee the teardown of the event, ensuring all equipment is removed, the festival grounds are left in good condition, and vendors are paid promptly.",HB,2
+111,Remove the cut fabric pieces from the cutting table and organize them.,E,2
+112,"Research existing systems and technologies relevant to the client's needs, identifying best practices and potential solutions.",L,2
+113,"Scan live feeds and thermal imaging (if available) for unusual behavior, suspicious individuals, or potential threats.",MP,2
+114,Allow the repair to cure according to the manufacturer's specifications.,E,2
+115,Navigate to the location of the first safety equipment item.,E,2
+116,"Confirm the order with the kitchen staff, ensuring they have all necessary details.",L,2
+117,"Install the new electrical panel, ensuring it is level, securely fastened to the wall, and all connections are tight and secure.",E,2
+118,"Coordinate with the surface team to transport extracted resources to the processing facility, ensuring efficient logistics.",L,2
+119,Cool down with light activity (walking) and static stretches to aid in muscle recovery.,E,2
+120,"Apply the treatment solution evenly to each hair section, avoiding contact with the scalp if necessary.",E,2
+121,"Communicate the research findings through a comprehensive report, presentation, or publication.",L,2
+122,Identify and probe for specific pain points and areas where the client's current solutions are insufficient.,L,2
+123,"Schedule a meeting with the supervisor, specifying the topic.",L,2
+124,"Schedule and conduct property viewings with the client, highlighting key features and addressing their questions.",HB,2
+125,Ask the claimant to confirm their identity and proceed with any necessary consent forms or recording procedures.,HB,2
+126,Identify any significant deviations from expected performance or unusual trading activity.,L,2
+127,"Observe and assess the condition of equipment, facilities, and safety measures, noting any hazards, maintenance needs, or potential issues.",MP,2
+128,"Select 3-5 articles, posts, or research papers that appear to present significant new developments or insights.",L,2
+129,"Import the extracted data into a data analysis software tool (e.g., Excel, R, or Python).",L,2
+130,Submit the completed report to the attorney for further review and action.,L,2
+131,Escort the patient to the soundproof booth and ensure comfortable seating.,E,2
+132,Use a handheld mirror to show the client the back of their haircut.,E,2
+133,"Replace the faulty wiring with new wiring of appropriate gauge and length, ensuring secure connections.",E,2
+134,Obtain informed consent from the patient for the diagnostic procedures.,HB,2
+135,"Research and select appropriate business management methods, tools, or frameworks that align with the startup's needs, industry, and budget.",L,2
+136,"Repeat practice, incorporating feedback and focusing on identified weaknesses.",E,2
+137,Don appropriate personal protective equipment (PPE) as required for the specific materials or production environment.,E,2
+138,"Import relevant GIS data layers, including land use, environmental factors, and demographic data.",L,2
+139,"Develop a comprehensive report outlining the findings, including identified non-compliance issues, recommended corrective actions, and a proposed implementation timeline.",L,2
+140,"Create visual aids (tables, graphs, mockups) to enhance understanding and engagement.",L,2
+141,The teacher gathers the students' attention and invites them to sit in a circle on the rug.,HB,2
+142,Review the survey map and project specifications to understand the boundaries and objectives.,L,2
+143,"Administer benefits, including health insurance, retirement plans, and other employee perks.",L,2
+144,Operate machinery or perform assembly tasks according to the production plan and safety protocols.,E,2
+145,The nurse observes the patient's body language and facial expressions to understand their emotional state.,MP,2
+146,"Draft the initial version of the regulation, incorporating legal requirements and stakeholder feedback.",L,2
+147,Navigate to the injection molding machine and ensure it is powered on and ready to accept materials.,E,2
+148,"Factor in time for testing, debugging, potential rework, and addressing identified risks.",L,2
+149,"Perform necessary maintenance tasks, such as replacing worn parts, calibrating sensors, or adjusting settings, referring to the manual as needed.",E,2
+150,"Manufacture the device components using appropriate fabrication techniques (e.g., 3D printing, CNC machining, injection molding).",E,2
+1,"Measure and cut the wiring to the required length, accounting for slack and routing paths.",E,3
+2,Invite shortlisted candidates for in-person interviews at the company office.,L,3
+3,Recompute the calculations manually or using a separate tool.,L,3
+4,"Explain the acupuncture treatment plan, potential benefits, risks, and obtain informed consent.",HB,3
+5,"Communicate the results to the relevant authority (e.g., kitchen manager, quality control supervisor).",L,3
+6,"Conclude the session by thanking the patient, answering any questions they may have, and scheduling a follow-up appointment if necessary.",HB,3
+7,"Operate the equipment controls to scoop, lift, or load the materials into the designated area.",E,3
+8,Clean the damaged areas of the book gently to prepare for adhesive application.,E,3
+9,"Conduct targeted inspections: visually examine components, machinery, work areas for defects or hazards.",MP,3
+10,"Gather and prepare all necessary materials: slides, videos, images, handouts, etc.",L,3
+11,Identify servers exhibiting unusual performance patterns or exceeding predefined thresholds.,L,3
+12,"Monitor the processing sequence, addressing any issues or errors that may arise.",MP,3
+13,Use a diagnostic tool to measure the device's output signal and compare it to expected values.,MP,3
+14,Lower the workpiece gently onto the designated placement area.,E,3
+15,Mark any defects found with chalk or marker.,E,3
+16,"Isolate and remove the faulty wiring, taking care to avoid further damage.",E,3
+17,"Serve the prepared dishes, ensuring proper temperature and presentation.",E,3
+18,"Provide medical assistance to any injured occupants if necessary, and coordinate with medical personnel.",HB,3
+19,"Apply controlled force to the tool, gradually pulling or pushing the dent outwards.",E,3
+20,Connect one end of the hose to the fire truck's water outlet.,E,3
+21,"The teacher organizes a short, controlled scrimmage to apply the learned skills in a game-like setting.",HB,3
+22,Scan for vehicles exhibiting abnormal movement or stationary in inappropriate locations.,MP,3
+23,"Define the scope of the research by specifying the type of conservation initiative (e.g., reforestation, protected area establishment) and the geographic region of interest.",L,3
+24,"Make a job offer to the selected candidate, including details on salary, benefits, and expectations.",HB,3
+25,"Greet the patient warmly, introduce yourself, and confirm their identity and the purpose of the consultation.",HB,3
+26,"Review repair specifications and experiment protocol to understand the required solution, its concentration, and the correct compounds or solutions to be prepared.",L,3
+27,Confirm the patient's comfort and address any further needs before concluding the session.,HB,3
+28,"Refine the design based on client feedback, structural analysis, and code compliance.",L,3
+29,Lower the bed to a safe height for manual handling and prepare any necessary support items like pillows or cushions.,E,3
+30,"Charge the HVAC system with refrigerant, using a manifold gauge set to ensure the correct amount is added.",E,3
+31,Politely end the call.,L,3
+32,"Ask clarifying questions to gain a deeper understanding of their background, values, and goals.",HB,3
+33,"Propose revisions and negotiate key terms, seeking mutually beneficial solutions.",HB,3
+34,Update internal documentation and knowledge management systems with new information and insights.,L,3
+35,"Review the report for accuracy, completeness, and clarity before submitting it to the supervising attorney.",L,3
+36,Review the service request and vehicle history to understand the required repairs or maintenance.,L,3
+37,Identify key components and their locations on the blueprints.,L,3
+38,Identify a specific medical issue and formulate a clear research question.,L,3
+39,"Pause regularly to check for understanding, answer questions, and encourage client participation.",HB,3
+40,Conduct a needs assessment to understand the specific anxiety challenges and needs of the target population.,L,3
+41,Engage in polite conversation with the passenger (optional).,HB,3
+42,"Request the customer's identification document (e.g., driver's license, passport) and verify its authenticity.",MP,3
+43,"Start the paver engine and begin laying asphalt, maintaining a consistent speed.",E,3
+44,"Weigh the potential rewards against the identified risks, considering the evaluator's or organization's investment strategy and risk tolerance.",L,3
+45,"Patrol the designated area, systematically observing for potential rule violations.",MP,3
+46,"Document any deviations or hazards using a digital tool, including timestamps, descriptions, and photographic evidence.",L,3
+47,Distribute the finalized communication procedures to all stakeholders.,L,3
+48,"Prepare a formal compliance assessment report summarizing findings, recommendations, and next steps.",L,3
+49,"The social worker greets the client, builds rapport, and confirms the purpose of the session focusing on developing a specific life skill.",HB,3
+50,"Review the draft procedures with key personnel, including plant workers, safety officers, and emergency responders, to gather feedback and ensure clarity.",L,3
+51,Contact the local government office responsible for issuing permits and approvals.,L,3
+52,Access the installation location and verify the designated mounting points for the gauges and valves.,MP,3
+53,"Ask open-ended questions to understand the customer's current situation, challenges, and goals.",HB,3
+54,Move to the designated area on the construction site and mark the boundaries of the base using stakes and string.,E,3
+55,"Set drilling parameters (torque, pressure, rotation speed) based on geological conditions and drilling plan specifications.",L,3
+56,"Navigate to the storage area and gather necessary supplies (fresh vegetables, dressings, beverages).",E,3
+57,"Begin patrol route, systematically scanning the area with a focus on vehicles and objects.",MP,3
+58,"Position the material to be measured on a stable, level surface.",E,3
+59,Continuously monitor the sensor readings and repeat the process of identifying deviations and taking corrective actions as needed throughout the shift.,L,3
+60,"Approach the patient with a calm and reassuring demeanor, making eye contact and speaking in a calming voice to minimize anxiety.",HB,3
+61,"Inspect the completed installation for stability, alignment, and adherence to safety standards.",MP,3
+62,Remove and dispose of used cleaning supplies and gloves properly.,E,3
+63,"Assign tasks to team members based on their skills and availability, ensuring clear roles and responsibilities.",L,3
+64,Open the floor for questions and clarifications from the team.,HB,3
+65,Monitor the implementation of changes and gather feedback to assess their effectiveness.,L,3
+66,Arrive at the training venue and check in.,E,3
+67,Apply a primer to the cleaned gaps and cracks to improve sealant adhesion.,E,3
+68,"Execute the musical pieces with precision, expression, and attention to dynamics.",E,3
+69,"The production supervisor presents the inventory and order data, highlighting potential production challenges or opportunities.",L,3
+70,Inspect the garment for any remaining wrinkles.,MP,3
+71,Log into the maintenance management software using the appropriate credentials.,L,3
+72,"If necessary, engage with workers to clarify observations or provide constructive feedback.",HB,3
+73,"Make any necessary revisions to the model based on the evaluation results, design feedback, or changes in requirements.",L,3
+74,"Engage with the selected content (e.g., attend sessions, read papers, watch lectures).",L,3
+75,"Locate the installation point on the equipment, using existing markings and blueprints as reference.",MP,3
+76,"Inspect the tree and surrounding area for hazards, such as power lines, and identify branches that need trimming or shaping.",MP,3
+77,Navigate to the designated 10-acre plot and mark the planting locations.,E,3
+78,"Analyze gathered data to identify trends, patterns, and potential impacts on relevant aspects such as traffic, public transportation usage, environmental factors, or community engagement.",L,3
+79,Log out of the school management system to secure the data.,L,3
+80,The operator detaches the lifting mechanism from the object and moves the heavy equipment away from the area.,E,3
+81,Position the harvesting tool (hand or robotic gripper) above the selected produce.,E,3
+82,"Monitor the use of loading equipment, ensuring safe operation and adherence to procedures.",MP,3
+83,Navigate to the production line and identify the current batch.,MP,3
+84,"Develop a Gantt chart or similar visual representation of the project schedule, showing task dependencies, timelines, and milestones.",L,3
+85,The technician approaches the weighing station and ensures that the product is properly placed on the scale.,E,3
+86,Coil and store hose.,E,3
+87,"Position the stake at the chosen location, ensuring it is vertical and stable.",E,3
+88,"Document the test results, including observations, data analysis, and conclusions.",L,3
+89,Open the mold using the designated mechanism.,E,3
+90,"Confirm and submit the order, providing necessary payment information if required.",L,3
+91,"Address escalated customer issues directly, resolving complex technical problems or mediating disputes.",HB,3
+92,"Navigate to the specific point on the site using maps, GPS, or other navigational aids.",E,3
+93,Inspect the broken material to ensure it meets the required size for removal.,MP,3
+94,"Facilitate group discussions and Q&A sessions to address participant questions, clarify doubts, and encourage active learning.",HB,3
+95,"Present the problem and gathered information to the team, ensuring shared understanding.",L,3
+96,Verify power supply and connectivity of the equipment.,MP,3
+97,"Thank the customer for their time and offer further assistance if needed, ensuring a positive concluding experience.",HB,3
+98,Transport supplies to the salad bar and beverage station.,E,3
+99,Transport the loaded debris to the designated disposal area.,E,3
+100,"Save the report and deliver it to the designated recipient (e.g., physician).",L,3
+101,Review shift handover notes and current plant status displayed on the control panel.,L,3
+102,Review the daily log for reported issues or anomalies and consult the landfill's weather forecast and environmental monitoring data to anticipate potential problems.,L,3
+103,Ask trainees to describe the procedure in their own words to assess their understanding.,HB,3
+104,"Call for backup and medical assistance if needed, providing a concise report of the situation.",L,3
+105,"The detective actively listens to the witness's responses, taking detailed notes and observing non-verbal cues.",HB,3
+106,"The instructor demonstrates the first technique/use case, emphasizing proper form and safety precautions.",E,3
+107,"Monitor the fabric movement, adjust the feed dogs if necessary, and maintain the fabric's smoothness to prevent puckering.",E,3
+108,Navigate to the HVAC unit location.,E,3
+109,"Document any defects or deviations found, including detailed descriptions and potentially photographic evidence.",L,3
+110,"Oversee the teardown of the event, ensuring all equipment is removed, the festival grounds are left in good condition, and vendors are paid promptly.",MP,3
+111,Remove the cut fabric pieces from the cutting table and organize them.,E,3
+112,"Research existing systems and technologies relevant to the client's needs, identifying best practices and potential solutions.",L,3
+113,"Scan live feeds and thermal imaging (if available) for unusual behavior, suspicious individuals, or potential threats.",MP,3
+114,Allow the repair to cure according to the manufacturer's specifications.,E,3
+115,Navigate to the location of the first safety equipment item.,E,3
+116,"Confirm the order with the kitchen staff, ensuring they have all necessary details.",L,3
+117,"Install the new electrical panel, ensuring it is level, securely fastened to the wall, and all connections are tight and secure.",E,3
+118,"Coordinate with the surface team to transport extracted resources to the processing facility, ensuring efficient logistics.",L,3
+119,Cool down with light activity (walking) and static stretches to aid in muscle recovery.,E,3
+120,"Apply the treatment solution evenly to each hair section, avoiding contact with the scalp if necessary.",E,3
+121,"Communicate the research findings through a comprehensive report, presentation, or publication.",L,3
+122,Identify and probe for specific pain points and areas where the client's current solutions are insufficient.,HB,3
+123,"Schedule a meeting with the supervisor, specifying the topic.",L,3
+124,"Schedule and conduct property viewings with the client, highlighting key features and addressing their questions.",HB,3
+125,Ask the claimant to confirm their identity and proceed with any necessary consent forms or recording procedures.,HB,3
+126,Identify any significant deviations from expected performance or unusual trading activity.,L,3
+127,"Observe and assess the condition of equipment, facilities, and safety measures, noting any hazards, maintenance needs, or potential issues.",MP,3
+128,"Select 3-5 articles, posts, or research papers that appear to present significant new developments or insights.",L,3
+129,"Import the extracted data into a data analysis software tool (e.g., Excel, R, or Python).",L,3
+130,Submit the completed report to the attorney for further review and action.,L,3
+131,Escort the patient to the soundproof booth and ensure comfortable seating.,E,3
+132,Use a handheld mirror to show the client the back of their haircut.,E,3
+133,"Replace the faulty wiring with new wiring of appropriate gauge and length, ensuring secure connections.",E,3
+134,Obtain informed consent from the patient for the diagnostic procedures.,HB,3
+135,"Research and select appropriate business management methods, tools, or frameworks that align with the startup's needs, industry, and budget.",L,3
+136,"Repeat practice, incorporating feedback and focusing on identified weaknesses.",E,3
+137,Don appropriate personal protective equipment (PPE) as required for the specific materials or production environment.,E,3
+138,"Import relevant GIS data layers, including land use, environmental factors, and demographic data.",L,3
+139,"Develop a comprehensive report outlining the findings, including identified non-compliance issues, recommended corrective actions, and a proposed implementation timeline.",L,3
+140,"Create visual aids (tables, graphs, mockups) to enhance understanding and engagement.",L,3
+141,The teacher gathers the students' attention and invites them to sit in a circle on the rug.,HB,3
+142,Review the survey map and project specifications to understand the boundaries and objectives.,L,3
+143,"Administer benefits, including health insurance, retirement plans, and other employee perks.",L,3
+144,Operate machinery or perform assembly tasks according to the production plan and safety protocols.,E,3
+145,The nurse observes the patient's body language and facial expressions to understand their emotional state.,HB,3
+146,"Draft the initial version of the regulation, incorporating legal requirements and stakeholder feedback.",L,3
+147,Navigate to the injection molding machine and ensure it is powered on and ready to accept materials.,MP,3
+148,"Factor in time for testing, debugging, potential rework, and addressing identified risks.",L,3
+149,"Perform necessary maintenance tasks, such as replacing worn parts, calibrating sensors, or adjusting settings, referring to the manual as needed.",E,3
+150,"Manufacture the device components using appropriate fabrication techniques (e.g., 3D printing, CNC machining, injection molding).",E,3

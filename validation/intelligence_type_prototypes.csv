@@ -1,0 +1,33 @@
+﻿intelligence_type,prototype_index,prototype_sentence
+Linguistic,1,Draft a maintenance schedule including the start and end times and the tasks to be performed.
+Linguistic,2,Write the report summarizing the findings and recommendations for management.
+Linguistic,3,Calculate the total project cost based on labor rates and material quantities.
+Linguistic,4,Review the contract specifications to determine the required compliance criteria.
+Linguistic,5,Analyze the data to identify trends and patterns in customer behavior.
+Linguistic,6,Compose an email to the stakeholders outlining the next steps.
+Linguistic,7,Summarize the patient's medical history into a structured note.
+Linguistic,8,Develop a sampling strategy including sampling sites frequency and methods.
+Multimodal_Perception,1,Visually inspect the equipment for signs of wear damage or misalignment.
+Multimodal_Perception,2,Check the compaction level using a penetrometer or other testing equipment.
+Multimodal_Perception,3,Monitor the patient's vital signs on the display during the procedure.
+Multimodal_Perception,4,Use a leveling tool such as a laser level to check the flatness of the base.
+Multimodal_Perception,5,Observe the welding process to detect any defects in real time.
+Multimodal_Perception,6,Identify potential safety hazards by walking the construction site.
+Multimodal_Perception,7,Read instrument gauges and record the measured values.
+Multimodal_Perception,8,Recognize abnormal sounds from the running machine indicating wear.
+Embodied,1,Use a compactor machine to begin compacting the soil starting from the edges and working towards the center.
+Embodied,2,Don appropriate Personal Protective Equipment PPE like gloves safety glasses and hearing protection.
+Embodied,3,Transport the material to the designated location using a forklift or hand truck.
+Embodied,4,Sew the fabric pieces together using a sewing machine.
+Embodied,5,Insert sterile acupuncture needles into the identified points with precise depth and angle.
+Embodied,6,Cut the steel beam using an angle grinder.
+Embodied,7,Lift and carry the box of supplies to the storage area.
+Embodied,8,Drive the vehicle to the delivery location adhering to traffic laws.
+Human_Bound,1,Counsel the patient regarding lifestyle changes and treatment options.
+Human_Bound,2,Negotiate the terms of the contract with the client representative.
+Human_Bound,3,Discuss the implications of the diagnosis with the family in a sensitive manner.
+Human_Bound,4,Mediate a workplace dispute between two team members.
+Human_Bound,5,Obtain informed consent from the patient before the procedure.
+Human_Bound,6,Provide emotional support to the bereaved family.
+Human_Bound,7,Make a final discretionary judgment on whether to approve the loan application.
+Human_Bound,8,Testify in court regarding the findings of the investigation.

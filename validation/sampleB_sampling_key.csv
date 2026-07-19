@@ -1,0 +1,151 @@
+﻿item,action_description,DWA_ID,step_order,ambiguous_match,encoder_label,encoder_confidence,macro_class
+1,"Measure and cut the wiring to the required length, accounting for slack and routing paths.",4.A.3.a.2.I34.D06,3,0,Multimodal_Perception,0.3513,substrate
+2,Invite shortlisted candidates for in-person interviews at the company office.,4.A.4.c.2.I01.D05,6,0,Human_Bound,0.5374,substrate
+3,Recompute the calculations manually or using a separate tool.,4.A.2.a.2.I01.D10,4,0,Linguistic,0.4542,substrate
+4,"Explain the acupuncture treatment plan, potential benefits, risks, and obtain informed consent.",4.A.4.a.5.I12.D08,2,0,Human_Bound,0.7314,M6
+5,"Communicate the results to the relevant authority (e.g., kitchen manager, quality control supervisor).",4.A.2.a.1.I05.D04,10,0,Human_Bound,0.4748,M5
+6,"Conclude the session by thanking the patient, answering any questions they may have, and scheduling a follow-up appointment if necessary.",4.A.1.b.2.I01.D02,10,0,Human_Bound,0.7604,M6
+7,"Operate the equipment controls to scoop, lift, or load the materials into the designated area.",4.A.3.a.1.I06.D05,4,0,Embodied,0.7468,substrate
+8,Clean the damaged areas of the book gently to prepare for adhesive application.,4.A.3.b.4.I05.D05,3,0,Embodied,0.3751,M2
+9,"Conduct targeted inspections: visually examine components, machinery, work areas for defects or hazards.",4.A.1.a.2.I02.D03,5,0,Multimodal_Perception,0.7729,substrate
+10,"Gather and prepare all necessary materials: slides, videos, images, handouts, etc.",4.A.4.b.4.I03.D01,3,0,Linguistic,0.6337,substrate
+11,Identify servers exhibiting unusual performance patterns or exceeding predefined thresholds.,4.A.1.a.2.I10.D03,3,0,Multimodal_Perception,0.5537,M4
+12,"Monitor the processing sequence, addressing any issues or errors that may arise.",4.A.3.a.2.I06.D03,9,0,Multimodal_Perception,0.6396,M4
+13,Use a diagnostic tool to measure the device's output signal and compare it to expected values.,4.A.1.b.2.I06.D02,4,0,Multimodal_Perception,0.9229,M4
+14,Lower the workpiece gently onto the designated placement area.,4.A.3.a.3.I08.D02,8,0,Embodied,0.7579,M2
+15,Mark any defects found with chalk or marker.,4.A.3.a.2.I13.D07,4,0,Multimodal_Perception,0.7392,M2
+16,"Isolate and remove the faulty wiring, taking care to avoid further damage.",4.A.3.b.4.I03.D01,5,0,Multimodal_Perception,0.4916,M4
+17,"Serve the prepared dishes, ensuring proper temperature and presentation.",4.A.3.a.2.I03.D11,6,0,Embodied,0.3918,M2
+18,"Provide medical assistance to any injured occupants if necessary, and coordinate with medical personnel.",4.A.4.b.4.I15.D03,8,0,Human_Bound,0.4588,M4
+19,"Apply controlled force to the tool, gradually pulling or pushing the dent outwards.",4.A.3.a.2.I15.D02,4,0,Embodied,0.7194,M2
+20,Connect one end of the hose to the fire truck's water outlet.,4.A.3.a.2.I46.D07,3,0,Embodied,0.7374,substrate
+21,"The teacher organizes a short, controlled scrimmage to apply the learned skills in a game-like setting.",4.A.4.b.3.I06.D03,8,0,Embodied,0.5184,M6
+22,Scan for vehicles exhibiting abnormal movement or stationary in inappropriate locations.,4.A.1.a.2.I02.D07,3,0,Multimodal_Perception,0.8665,M1
+23,"Define the scope of the research by specifying the type of conservation initiative (e.g., reforestation, protected area establishment) and the geographic region of interest.",4.A.1.a.1.I10.D01,1,0,Linguistic,0.6497,M7
+24,"Make a job offer to the selected candidate, including details on salary, benefits, and expectations.",4.A.4.b.4.I07.D04,5,0,Human_Bound,0.5829,substrate
+25,"Greet the patient warmly, introduce yourself, and confirm their identity and the purpose of the consultation.",4.A.4.b.6.I01.D05,1,0,Human_Bound,0.8583,M6
+26,"Review repair specifications and experiment protocol to understand the required solution, its concentration, and the correct compounds or solutions to be prepared.",4.A.3.a.1.I01.D01,1,0,Linguistic,0.6951,M5
+27,Confirm the patient's comfort and address any further needs before concluding the session.,4.A.4.a.5.I09.D09,8,0,Human_Bound,0.8188,M6
+28,"Refine the design based on client feedback, structural analysis, and code compliance.",4.A.2.b.2.I11.D04,5,0,Linguistic,0.5978,substrate
+29,Lower the bed to a safe height for manual handling and prepare any necessary support items like pillows or cushions.,4.A.4.a.5.I11.D03,3,0,Embodied,0.6462,substrate
+30,"Charge the HVAC system with refrigerant, using a manifold gauge set to ensure the correct amount is added.",4.A.3.a.2.I16.D03,6,0,Embodied,0.4302,M4
+31,Politely end the call.,4.A.4.a.3.I03.D11,7,0,Human_Bound,0.7666,M6
+32,"Ask clarifying questions to gain a deeper understanding of their background, values, and goals.",4.A.4.b.6.I07.D01,3,0,Human_Bound,0.7501,M6
+33,"Propose revisions and negotiate key terms, seeking mutually beneficial solutions.",4.A.4.a.7.I02.D05,5,0,Human_Bound,0.5873,substrate
+34,Update internal documentation and knowledge management systems with new information and insights.,4.A.2.b.3.I01.D17,8,0,Linguistic,0.7312,substrate
+35,"Review the report for accuracy, completeness, and clarity before submitting it to the supervising attorney.",4.A.2.a.4.I08.D01,8,0,Linguistic,0.6662,M5
+36,Review the service request and vehicle history to understand the required repairs or maintenance.,4.A.3.b.4.I08.D01,1,0,Linguistic,0.4498,M4
+37,Identify key components and their locations on the blueprints.,4.A.1.a.1.I02.D11;4.A.1.a.1.I02.D14,3;2,1,Multimodal_Perception,0.5021,substrate
+38,Identify a specific medical issue and formulate a clear research question.,4.A.1.a.1.I19.D01,1,0,Human_Bound,0.5237,M6
+39,"Pause regularly to check for understanding, answer questions, and encourage client participation.",4.A.4.a.1.I04.D01,5,0,Human_Bound,0.5966,substrate
+40,Conduct a needs assessment to understand the specific anxiety challenges and needs of the target population.,4.A.2.b.2.I15.D02,2,0,Linguistic,0.5288,substrate
+41,Engage in polite conversation with the passenger (optional).,4.A.3.a.4.I01.D09,6,0,Human_Bound,0.7638,M1
+42,"Request the customer's identification document (e.g., driver's license, passport) and verify its authenticity.",4.A.1.a.1.I14.D03,2,0,Human_Bound,0.4235,M6
+43,"Start the paver engine and begin laying asphalt, maintaining a consistent speed.",4.A.3.a.3.I03.D06,4,0,Embodied,0.7677,substrate
+44,"Weigh the potential rewards against the identified risks, considering the evaluator's or organization's investment strategy and risk tolerance.",4.A.2.a.1.I07.D03,7,0,Human_Bound,0.4607,substrate
+45,"Patrol the designated area, systematically observing for potential rule violations.",4.A.3.a.1.I11.D10,1,0,Multimodal_Perception,0.5999,M4
+46,"Document any deviations or hazards using a digital tool, including timestamps, descriptions, and photographic evidence.",4.A.1.a.2.I11.D03,5,0,Multimodal_Perception,0.4721,substrate
+47,Distribute the finalized communication procedures to all stakeholders.,4.A.2.b.4.I03.D03,8,0,Linguistic,0.4545,substrate
+48,"Prepare a formal compliance assessment report summarizing findings, recommendations, and next steps.",4.A.2.a.3.I02.D01,9,0,Linguistic,0.9283,M4
+49,"The social worker greets the client, builds rapport, and confirms the purpose of the session focusing on developing a specific life skill.",4.A.4.b.5.I02.D06,1,0,Human_Bound,0.6981,M6
+50,"Review the draft procedures with key personnel, including plant workers, safety officers, and emergency responders, to gather feedback and ensure clarity.",4.A.2.b.2.I19.D01,4,0,Linguistic,0.6207,M5
+51,Contact the local government office responsible for issuing permits and approvals.,4.A.1.a.1.I17.D01,3,0,Human_Bound,0.3517,M1
+52,Access the installation location and verify the designated mounting points for the gauges and valves.,4.A.3.a.2.I04.D13,3,0,Multimodal_Perception,0.7659,substrate
+53,"Ask open-ended questions to understand the customer's current situation, challenges, and goals.",4.A.1.a.1.I14.D02,2,0,Human_Bound,0.6138,M6
+54,Move to the designated area on the construction site and mark the boundaries of the base using stakes and string.,4.A.3.a.1.I07.D08,2,0,Embodied,0.7172,substrate
+55,"Set drilling parameters (torque, pressure, rotation speed) based on geological conditions and drilling plan specifications.",4.A.3.a.3.I03.D01,5,0,Linguistic,0.5053,substrate
+56,"Navigate to the storage area and gather necessary supplies (fresh vegetables, dressings, beverages).",4.A.3.a.2.I37.D05,2,0,Embodied,0.7384,M2
+57,"Begin patrol route, systematically scanning the area with a focus on vehicles and objects.",4.A.1.a.2.I07.D04,1,0,Multimodal_Perception,0.3835,M4
+58,"Position the material to be measured on a stable, level surface.",4.A.1.b.3.I01.D01,3,0,Multimodal_Perception,0.597,substrate
+59,Continuously monitor the sensor readings and repeat the process of identifying deviations and taking corrective actions as needed throughout the shift.,4.A.1.a.2.I01.D11,7,0,Multimodal_Perception,0.6342,substrate
+60,"Approach the patient with a calm and reassuring demeanor, making eye contact and speaking in a calming voice to minimize anxiety.",4.A.4.a.5.I11.D02,1,0,Human_Bound,0.7779,M6
+61,"Inspect the completed installation for stability, alignment, and adherence to safety standards.",4.A.3.a.2.I01.D10,7,0,Multimodal_Perception,0.8146,substrate
+62,Remove and dispose of used cleaning supplies and gloves properly.,4.A.3.a.1.I03.D23,10,0,Embodied,0.6193,M2
+63,"Assign tasks to team members based on their skills and availability, ensuring clear roles and responsibilities.",4.A.4.b.4.I12.D39,3,0,Linguistic,0.4884,M6
+64,Open the floor for questions and clarifications from the team.,4.A.4.a.2.I03.D08,4,0,Human_Bound,0.717,M6
+65,Monitor the implementation of changes and gather feedback to assess their effectiveness.,4.A.2.b.3.I01.D17,7,0,Linguistic,0.5531,M5
+66,Arrive at the training venue and check in.,4.A.2.b.3.I01.D14,1,0,Embodied,0.3055,M6
+67,Apply a primer to the cleaned gaps and cracks to improve sealant adhesion.,4.A.3.a.2.I39.D02,3,0,Multimodal_Perception,0.4043,M2
+68,"Execute the musical pieces with precision, expression, and attention to dynamics.",4.A.4.a.8.I01.D03,6,0,Embodied,0.326,substrate
+69,"The production supervisor presents the inventory and order data, highlighting potential production challenges or opportunities.",4.A.4.a.2.I03.D13,3,0,Linguistic,0.502,substrate
+70,Inspect the garment for any remaining wrinkles.,4.A.3.a.3.I06.D05,7,0,Multimodal_Perception,0.8157,M2
+71,Log into the maintenance management software using the appropriate credentials.,4.A.3.b.6.I08.D24,1,0,Multimodal_Perception,0.44,M5
+72,"If necessary, engage with workers to clarify observations or provide constructive feedback.",4.A.1.a.2.I02.D05,5,0,Human_Bound,0.5009,M6
+73,"Make any necessary revisions to the model based on the evaluation results, design feedback, or changes in requirements.",4.A.2.b.2.I21.D01,8,0,Linguistic,0.6525,substrate
+74,"Engage with the selected content (e.g., attend sessions, read papers, watch lectures).",4.A.2.b.3.I01.D21,4,0,Linguistic,0.4501,M6
+75,"Locate the installation point on the equipment, using existing markings and blueprints as reference.",4.A.3.a.2.I46.D01,3,0,Multimodal_Perception,0.6512,substrate
+76,"Inspect the tree and surrounding area for hazards, such as power lines, and identify branches that need trimming or shaping.",4.A.3.a.2.I14.D02,1,0,Multimodal_Perception,0.588,substrate
+77,Navigate to the designated 10-acre plot and mark the planting locations.,4.A.4.b.4.I06.D06,2,0,Embodied,0.579,substrate
+78,"Analyze gathered data to identify trends, patterns, and potential impacts on relevant aspects such as traffic, public transportation usage, environmental factors, or community engagement.",4.A.2.a.1.I02.D07,3,0,Linguistic,0.8305,M4
+79,Log out of the school management system to secure the data.,4.A.3.b.6.I08.D12,9,0,Multimodal_Perception,0.2947,M1
+80,The operator detaches the lifting mechanism from the object and moves the heavy equipment away from the area.,4.A.3.a.1.I10.D06,9,0,Embodied,0.7403,M1
+81,Position the harvesting tool (hand or robotic gripper) above the selected produce.,4.A.3.a.1.I17.D01,3,0,Embodied,0.7507,substrate
+82,"Monitor the use of loading equipment, ensuring safe operation and adherence to procedures.",4.A.1.a.2.I02.D12,4,0,Multimodal_Perception,0.6848,M1
+83,Navigate to the production line and identify the current batch.,4.A.3.b.6.I08.D31,1,0,Multimodal_Perception,0.4801,substrate
+84,"Develop a Gantt chart or similar visual representation of the project schedule, showing task dependencies, timelines, and milestones.",4.A.2.b.6.I02.D07,5,0,Linguistic,0.8477,M7
+85,The technician approaches the weighing station and ensures that the product is properly placed on the scale.,4.A.1.b.3.I01.D11,1,0,Multimodal_Perception,0.5494,substrate
+86,Coil and store hose.,4.A.3.a.1.I17.D08,7,0,Embodied,0.6676,substrate
+87,"Position the stake at the chosen location, ensuring it is vertical and stable.",4.A.3.a.2.I01.D18,3,0,Embodied,0.6114,substrate
+88,"Document the test results, including observations, data analysis, and conclusions.",4.A.1.b.2.I02.D01,6,0,Linguistic,0.8285,M4
+89,Open the mold using the designated mechanism.,4.A.3.a.2.I40.D02,2,0,Embodied,0.8139,M2
+90,"Confirm and submit the order, providing necessary payment information if required.",4.A.4.c.3.I05.D01,6,0,Human_Bound,0.4566,substrate
+91,"Address escalated customer issues directly, resolving complex technical problems or mediating disputes.",4.A.4.b.4.I01.D16,5,0,Human_Bound,0.7288,M6
+92,"Navigate to the specific point on the site using maps, GPS, or other navigational aids.",4.A.2.a.4.I01.D02,2,0,Embodied,0.5567,M1
+93,Inspect the broken material to ensure it meets the required size for removal.,4.A.3.a.3.I03.D05,7,0,Multimodal_Perception,0.6405,substrate
+94,"Facilitate group discussions and Q&A sessions to address participant questions, clarify doubts, and encourage active learning.",4.A.4.b.3.I06.D06,6,0,Human_Bound,0.5585,M6
+95,"Present the problem and gathered information to the team, ensuring shared understanding.",4.A.4.a.2.I04.D05,3,0,Human_Bound,0.5851,M6
+96,Verify power supply and connectivity of the equipment.,4.A.1.a.2.I04.D02,3,0,Multimodal_Perception,0.7566,M4
+97,"Thank the customer for their time and offer further assistance if needed, ensuring a positive concluding experience.",4.A.4.a.1.I01.D02,8,0,Human_Bound,0.6396,M6
+98,Transport supplies to the salad bar and beverage station.,4.A.3.a.2.I37.D05,3,0,Embodied,0.8559,M2
+99,Transport the loaded debris to the designated disposal area.,4.A.3.a.3.I03.D07,6,0,Embodied,0.9115,M2
+100,"Save the report and deliver it to the designated recipient (e.g., physician).",4.A.3.b.6.I06.D03,6,0,Linguistic,0.4023,M1
+101,Review shift handover notes and current plant status displayed on the control panel.,4.A.3.a.3.I07.D01,1,0,Multimodal_Perception,0.4922,substrate
+102,Review the daily log for reported issues or anomalies and consult the landfill's weather forecast and environmental monitoring data to anticipate potential problems.,4.A.1.a.2.I02.D18,1,0,Linguistic,0.5016,substrate
+103,Ask trainees to describe the procedure in their own words to assess their understanding.,4.A.4.b.3.I06.D10,4,0,Human_Bound,0.594,M6
+104,"Call for backup and medical assistance if needed, providing a concise report of the situation.",4.A.3.a.1.I11.D08,8,0,Human_Bound,0.4678,M4
+105,"The detective actively listens to the witness's responses, taking detailed notes and observing non-verbal cues.",4.A.1.a.1.I23.D05,3,0,Multimodal_Perception,0.4152,M4
+106,"The instructor demonstrates the first technique/use case, emphasizing proper form and safety precautions.",4.A.4.b.3.I05.D06,2,0,Embodied,0.4517,M6
+107,"Monitor the fabric movement, adjust the feed dogs if necessary, and maintain the fabric's smoothness to prevent puckering.",4.A.3.a.2.I05.D02,7,0,Multimodal_Perception,0.5727,M2
+108,Navigate to the HVAC unit location.,4.A.3.b.4.I01.D06,2,0,Embodied,0.4064,M4
+109,"Document any defects or deviations found, including detailed descriptions and potentially photographic evidence.",4.A.1.a.2.I11.D02,6,0,Linguistic,0.46,substrate
+110,"Oversee the teardown of the event, ensuring all equipment is removed, the festival grounds are left in good condition, and vendors are paid promptly.",4.A.4.b.4.I12.D20,9,0,Embodied,0.3453,M6
+111,Remove the cut fabric pieces from the cutting table and organize them.,4.A.3.a.3.I12.D04,7,0,Embodied,0.7058,M2
+112,"Research existing systems and technologies relevant to the client's needs, identifying best practices and potential solutions.",4.A.2.b.2.I07.D04,2,0,Linguistic,0.7817,substrate
+113,"Scan live feeds and thermal imaging (if available) for unusual behavior, suspicious individuals, or potential threats.",4.A.3.a.3.I05.D02,3,0,Multimodal_Perception,0.7336,M4
+114,Allow the repair to cure according to the manufacturer's specifications.,4.A.3.b.4.I07.D03,7,0,Human_Bound,0.3888,M2
+115,Navigate to the location of the first safety equipment item.,4.A.1.b.2.I07.D02,2,0,Embodied,0.5356,M1
+116,"Confirm the order with the kitchen staff, ensuring they have all necessary details.",4.A.4.a.2.I03.D17,6,0,Human_Bound,0.4823,M2
+117,"Install the new electrical panel, ensuring it is level, securely fastened to the wall, and all connections are tight and secure.",4.A.3.a.2.I20.D01,5,0,Embodied,0.472,substrate
+118,"Coordinate with the surface team to transport extracted resources to the processing facility, ensuring efficient logistics.",4.A.4.b.4.I10.D01,7,0,Embodied,0.6814,substrate
+119,Cool down with light activity (walking) and static stretches to aid in muscle recovery.,4.A.3.a.1.I16.D01,9,0,Embodied,0.4328,M6
+120,"Apply the treatment solution evenly to each hair section, avoiding contact with the scalp if necessary.",4.A.3.a.2.I21.D03,6,0,Embodied,0.5161,substrate
+121,"Communicate the research findings through a comprehensive report, presentation, or publication.",4.A.2.b.2.I23.D03,9,0,Linguistic,0.7576,M4
+122,Identify and probe for specific pain points and areas where the client's current solutions are insufficient.,4.A.4.a.2.I13.D03,4,0,Human_Bound,0.3705,M6
+123,"Schedule a meeting with the supervisor, specifying the topic.",4.A.4.a.2.I03.D05,3,0,Linguistic,0.4722,M5
+124,"Schedule and conduct property viewings with the client, highlighting key features and addressing their questions.",4.A.4.a.6.I02.D04,3,0,Human_Bound,0.438,M6
+125,Ask the claimant to confirm their identity and proceed with any necessary consent forms or recording procedures.,4.A.1.a.1.I23.D07,2,0,Human_Bound,0.7008,substrate
+126,Identify any significant deviations from expected performance or unusual trading activity.,4.A.1.a.2.I03.D02,5,0,Multimodal_Perception,0.6077,M4
+127,"Observe and assess the condition of equipment, facilities, and safety measures, noting any hazards, maintenance needs, or potential issues.",4.A.1.a.2.I02.D08,3,0,Multimodal_Perception,0.7686,substrate
+128,"Select 3-5 articles, posts, or research papers that appear to present significant new developments or insights.",4.A.2.b.3.I01.D08,3,0,Linguistic,0.7724,M4
+129,"Import the extracted data into a data analysis software tool (e.g., Excel, R, or Python).",4.A.3.b.6.I03.D05,3,0,Linguistic,0.6076,M4
+130,Submit the completed report to the attorney for further review and action.,4.A.1.a.1.I05.D01,8,0,Linguistic,0.4612,substrate
+131,Escort the patient to the soundproof booth and ensure comfortable seating.,4.A.1.b.2.I01.D03,2,0,Human_Bound,0.5766,M6
+132,Use a handheld mirror to show the client the back of their haircut.,4.A.3.a.2.I31.D02,7,0,Multimodal_Perception,0.5609,substrate
+133,"Replace the faulty wiring with new wiring of appropriate gauge and length, ensuring secure connections.",4.A.3.b.4.I03.D01,6,0,Multimodal_Perception,0.5783,substrate
+134,Obtain informed consent from the patient for the diagnostic procedures.,4.A.1.b.2.I01.D05,2,0,Human_Bound,0.9002,M6
+135,"Research and select appropriate business management methods, tools, or frameworks that align with the startup's needs, industry, and budget.",4.A.2.b.4.I01.D05,3,0,Linguistic,0.8499,substrate
+136,"Repeat practice, incorporating feedback and focusing on identified weaknesses.",4.A.3.a.1.I16.D03,6,0,Linguistic,0.5359,M6
+137,Don appropriate personal protective equipment (PPE) as required for the specific materials or production environment.,4.A.3.a.2.I02.D03,2,0,Embodied,0.5579,M1
+138,"Import relevant GIS data layers, including land use, environmental factors, and demographic data.",4.A.2.a.4.I01.D06,2,0,Linguistic,0.6358,M4
+139,"Develop a comprehensive report outlining the findings, including identified non-compliance issues, recommended corrective actions, and a proposed implementation timeline.",4.A.2.a.4.I09.D02,6,0,Linguistic,0.92,M4
+140,"Create visual aids (tables, graphs, mockups) to enhance understanding and engagement.",4.A.3.b.6.I07.D03,5,0,Linguistic,0.6497,substrate
+141,The teacher gathers the students' attention and invites them to sit in a circle on the rug.,4.A.4.b.3.I02.D13,1,0,Human_Bound,0.3597,M6
+142,Review the survey map and project specifications to understand the boundaries and objectives.,4.A.1.a.1.I06.D03,1,0,Linguistic,0.8491,M7
+143,"Administer benefits, including health insurance, retirement plans, and other employee perks.",4.A.4.b.4.I07.D04,7,0,Human_Bound,0.6341,substrate
+144,Operate machinery or perform assembly tasks according to the production plan and safety protocols.,4.A.4.b.4.I12.D01,4,0,Embodied,0.5481,substrate
+145,The nurse observes the patient's body language and facial expressions to understand their emotional state.,4.A.4.b.5.I02.D04,2,0,Human_Bound,0.5284,M6
+146,"Draft the initial version of the regulation, incorporating legal requirements and stakeholder feedback.",4.A.2.b.4.I02.D01,5,0,Linguistic,0.7897,M5
+147,Navigate to the injection molding machine and ensure it is powered on and ready to accept materials.,4.A.3.a.2.I06.D01,1,0,Embodied,0.6694,M2
+148,"Factor in time for testing, debugging, potential rework, and addressing identified risks.",4.A.2.b.1.I08.D01,4,0,Linguistic,0.6537,substrate
+149,"Perform necessary maintenance tasks, such as replacing worn parts, calibrating sensors, or adjusting settings, referring to the manual as needed.",4.A.3.b.4.I09.D02,6,0,Multimodal_Perception,0.4956,substrate
+150,"Manufacture the device components using appropriate fabrication techniques (e.g., 3D printing, CNC machining, injection molding).",4.A.3.a.2.I17.D03,4,0,Embodied,0.5375,M7

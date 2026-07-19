@@ -1,6 +1,8 @@
 # Bipolar Action Substrate of Occupational Tasks
 
-Reproducibility package for **"Stable Geometry, Reversing Poles: The Bipolar Structure of AI Occupational Substitutability and Its Decade-Scale Inversion"** (Gao & Huang, 2026).
+Reproducibility package for the micro-action research programme (Gao & Huang, 2026):
+- **Preprint** (arXiv:2606.07939, v2): *The atomic structure of work: a micro-action instrument reveals two-pole AI occupational exposure and its decade-scale polar inversion* (v1 title: "Stable Geometry, Reversing Poles")
+- **Dataset**: Zenodo, concept DOI [10.5281/zenodo.21395792](https://doi.org/10.5281/zenodo.21395792) (15,817 ordered micro-actions; a Scientific Data descriptor is in preparation)
 
 The pipeline decomposes 1,961 O\*NET Detailed Work Activities (DWAs) into **15,817 micro-actions** via a multi-agent LLM pipeline (4 local + 3 frontier models, consensus voting with frontier-model arbitration), then clusters those micro-actions in two stages:
 
@@ -13,6 +15,18 @@ and then projects the DWA-level **GPT-4 task-exposure score** (built from Elound
 - **(temporal axis)** Is the polar identity of the typology stable across capability eras (Frey-Osborne 2013 vs Eloundou 2023)?
 
 The headline empirical findings are a **bipolar structure** (Cohen's d = 2.98, Cliff's δ = 0.902 between M2 "Tool-Mediated Physical" and M7 "Planning & Design") and a **polarity inversion** (macro-level Spearman ρ = -0.750, p = 0.020) over a decade.
+
+
+## Validation, audits, and dataset-revision scripts (added 2026-07)
+
+| Folder | Content |
+|---|---|
+| `validation/` | Complete blind three-annotator validation records (construct κ = 0.90; encoder-vs-human κ = 0.63), bilingual fidelity notes, sampling key, the 32 intelligence-type prototype sentences, and agreement scripts |
+| `audits/` | Substrate filler-integrity audit (OR 0.76, depletion) and the same-pipeline comparison against O*NET's 18,796-record task layer (noise 3.3% vs 35.6%) |
+| `omega_provenance/` | The importance-weighted aggregation chain that produces the occupation ω table (dataset file 09), verified to reproduce it with zero deviation |
+| `v1_1_migration/` | Scripts producing the Zenodo v1.1 dataset revision (field normalisation, label renaming, English status codes, integer cluster IDs) |
+
+Each folder carries its own README.
 
 ## Repository layout
 
