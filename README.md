@@ -61,12 +61,10 @@ occupational-micro-actions/
 │   │
 │   ├── step_14_action_clustering.py                 Phase 5 - Clustering + OAI projection
 │   ├── step_15_K7_main_analysis.py
-│   ├── step_16_oai_projection.py
+│   ├── step_16_exposure_projection.py
 │   │
 │   └── robustness/                                  Robustness suite (Sections 4.3, 4.4 + Appendices)
-│       ├── resolution_sweep.py                      K=5, 7, 8, 10, 12, 15 sweep
-│       ├── tost_equivalence.py                      Two-one-sided equivalence test
-│       ├── k12_chimera_split.py                     M4 chimera analysis
+│       ├── (resolution sweep, TOST, and the K=12 chimera split are reproduced by step_16_exposure_projection.py)
 │       └── K5_raw_appendix_a.py                     K=5 raw cut (Appendix A)
 │
 └── data/
@@ -93,7 +91,6 @@ occupational-micro-actions/
     │   └── phase5_macro_linkage_matrix.npy          Ward linkage matrix (15-d feature vector input)
     │
     └── robustness/                                  (~5 MB; appendix-grade summaries)
-        ├── main_outputs/                            Resolution sweep + TOST + K=12 split summaries
         ├── intelligence_and_era/                    Intelligence-type labels + era inversion
         └── bge_cross_check/                         BGE encoder cross-check (Appendices D, E)
 ```
@@ -136,7 +133,7 @@ python scripts/step_12_flatten_actions.py
 python scripts/step_13_extract_features.py
 python scripts/step_14_action_clustering.py
 python scripts/step_15_K7_main_analysis.py
-python scripts/step_16_oai_projection.py
+python scripts/step_16_exposure_projection.py
 
 # Path B - full pipeline (needs O*NET 30.2 + four local LLMs + three frontier model accounts)
 python scripts/step_01_build_database.py
@@ -157,9 +154,6 @@ python scripts/step_11_finalize_golden_dataset.py
 # Then continue with step_12 ... step_16 as in Path A.
 
 # Robustness suite (after step_15 / step_16 are done)
-python scripts/robustness/resolution_sweep.py
-python scripts/robustness/tost_equivalence.py
-python scripts/robustness/k12_chimera_split.py
 python scripts/robustness/K5_raw_appendix_a.py
 ```
 
@@ -170,7 +164,7 @@ arXiv:2604.04464) onto the K=7 macro typology produced here. The OAI table is
 included in [The Micro-Action Dataset on Zenodo](https://doi.org/10.5281/zenodo.21395793)
 as `06_dwa_automation_index_oai.csv`, and also lives in its own reproducibility
 repository (<https://github.com/ShuyaoGao/bounded-risk-oai>); place it under
-`data/intermediate/paper1_dwa_oai.csv` before running `step_16_oai_projection.py`.
+`data/intermediate/paper1_dwa_oai.csv` before running `step_16_exposure_projection.py`.
 
 ## Environment
 
@@ -184,18 +178,19 @@ repository (<https://github.com/ShuyaoGao/bounded-risk-oai>); place it under
 ```bibtex
 @misc{gao2026atomic,
   author       = {Gao, Shuyao and Huang, Minghao},
-  title        = {The Atomic Structure of Work: Micro-Action Decomposition Reveals the Bipolar Geometry of {AI} Occupational Substitutability},
+  title        = {The Atomic Structure of Work: A Micro-Action Instrument Reveals Two-Pole {AI} Occupational Exposure and Its Decade-Scale Polar Inversion},
   year         = {2026},
   howpublished = {arXiv preprint arXiv:2606.07939}
 }
 
 @dataset{gao2026microactiondataset,
-  author    = {Gao, Shuyao},
-  title     = {The Micro-Action Dataset: An Atomic Decomposition of O*NET Work Activities},
+  author    = {Gao, Shuyao and Huang, Minghao},
+  title     = {The Micro-Action Dataset: An Ordered Decomposition of O*NET Work Activities},
   year      = {2026},
-  version   = {1.0.0},
+  version   = {1.1},
   publisher = {Zenodo},
-  doi       = {10.5281/zenodo.21395793}
+  doi       = {10.5281/zenodo.21395792},
+  note      = {Concept DOI, resolves to latest version}
 }
 ```
 
